@@ -228,9 +228,12 @@ class EnterpriseSignOnViewModel @Inject constructor(
                 mutableStateFlow.update {
                     it.copy(
                         dialogState = null,
-                        orgIdentifierInput = authRepository.rememberedOrgIdentifier.orEmpty(),
+                        orgIdentifierInput = authRepository.rememberedOrgIdentifier
+                            ?: KIKARON_SSO_IDENTIFIER,
                     )
                 }
+                // KIKARON: straight on to the Kikaron sign-in
+                handleLogInClicked()
             }
 
             is VerifiedOrganizationDomainSsoDetailsResult.Success -> {
@@ -246,9 +249,12 @@ class EnterpriseSignOnViewModel @Inject constructor(
             mutableStateFlow.update {
                 it.copy(
                     dialogState = null,
-                    orgIdentifierInput = authRepository.rememberedOrgIdentifier.orEmpty(),
+                    orgIdentifierInput = authRepository.rememberedOrgIdentifier
+                        ?: KIKARON_SSO_IDENTIFIER,
                 )
             }
+            // KIKARON: straight on to the Kikaron sign-in
+            handleLogInClicked()
             return
         }
 
@@ -632,3 +638,6 @@ data class SsoResponseData(
     val state: String,
     val codeVerifier: String,
 ) : Parcelable
+
+// KIKARON: Vaultwarden's fixed single sign-on identifier
+private const val KIKARON_SSO_IDENTIFIER = "00000000-01DC-01DC-01DC-000000000000"
