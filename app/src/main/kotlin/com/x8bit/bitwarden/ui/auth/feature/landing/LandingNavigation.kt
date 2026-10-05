@@ -27,13 +27,17 @@ fun NavGraphBuilder.landingDestination(
     onNavigateToEnvironment: () -> Unit,
     onNavigateToStartRegistration: () -> Unit,
     onNavigateToPreAuthSettings: () -> Unit,
+    onNavigateToKikaronSignIn: () -> Unit,
 ) {
     composableWithStayTransitions<LandingRoute> {
-        LandingScreen(
-            onNavigateToLogin = onNavigateToLogin,
-            onNavigateToEnvironment = onNavigateToEnvironment,
-            onNavigateToStartRegistration = onNavigateToStartRegistration,
-            onNavigateToPreAuthSettings = onNavigateToPreAuthSettings,
-        )
+        // KIKARON: the start screen is "Log in with Kikaron"; upstream's behind its link
+        KikaronLandingScreen(onSignIn = onNavigateToKikaronSignIn) {
+            LandingScreen(
+                onNavigateToLogin = onNavigateToLogin,
+                onNavigateToEnvironment = onNavigateToEnvironment,
+                onNavigateToStartRegistration = onNavigateToStartRegistration,
+                onNavigateToPreAuthSettings = onNavigateToPreAuthSettings,
+            )
+        }
     }
 }

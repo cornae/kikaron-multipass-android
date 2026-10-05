@@ -375,7 +375,7 @@ Scanning will happen automatically.</string>
     <string name="thirty_minutes">30 minutes</string>
     <string name="set_pin_description">Your PIN must be at least 4 characters. Your PIN settings will be reset if you manually log out of the Multipass app.</string>
     <string name="logged_in_as_on">Logged in as %1$s on %2$s.</string>
-    <string name="vault_locked_master_password">Your vault is locked. Verify your master password to continue.</string>
+    <string name="vault_locked_master_password">Enter your Multipass password to open your vault.</string>
     <string name="vault_locked_pin">Your vault is locked. Verify your PIN code to continue.</string>
     <string name="dark">Dark</string>
     <string name="light">Light</string>

@@ -116,6 +116,10 @@ fun NavGraphBuilder.authGraph(
             },
             onNavigateToStartRegistration = { navController.navigateToStartRegistration() },
             onNavigateToPreAuthSettings = { navController.navigateToPreAuthSettings() },
+            // KIKARON: single sign-on needs no e-mail address; the token carries it
+            onNavigateToKikaronSignIn = {
+                navController.navigateToEnterpriseSignOn(emailAddress = "")
+            },
         )
         welcomeDestination(
             onNavigateToLogin = { navController.navigateToLanding() },

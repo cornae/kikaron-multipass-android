@@ -194,29 +194,11 @@ fun VaultUnlockScreen(
             },
         topBar = {
             BitwardenTopAppBar(
-                title = state.vaultUnlockType.unlockScreenTitle(),
+                title = "Multipass",
                 scrollBehavior = scrollBehavior,
                 navigationIcon = null,
-                actions = {
-                    if (state.showAccountMenu) {
-                        BitwardenAccountActionItem(
-                            initials = state.initials,
-                            color = state.avatarColor,
-                            onClick = {
-                                focusManager.clearFocus()
-                                accountMenuVisible = !accountMenuVisible
-                            },
-                        )
-                    }
-                    BitwardenOverflowActionItem(
-                        menuItemDataList = persistentListOf(
-                            OverflowMenuItemData(
-                                text = stringResource(id = BitwardenString.log_out),
-                                onClick = { showLogoutConfirmationDialog = true },
-                            ),
-                        ),
-                    )
-                },
+                // KIKARON: no account switcher, no menu
+                actions = {},
             )
         },
         overlay = {
@@ -291,19 +273,8 @@ fun VaultUnlockScreen(
                         color = BitwardenTheme.colorScheme.text.secondary,
                         modifier = Modifier.fillMaxWidth(),
                     )
-                    Spacer(modifier = Modifier.height(height = 16.dp))
                 }
-                Text(
-                    text = stringResource(
-                        id = BitwardenString.logged_in_as_on,
-                        formatArgs = arrayOf(state.email, state.environmentUrl),
-                    ),
-                    style = BitwardenTheme.typography.bodySmall,
-                    color = BitwardenTheme.colorScheme.text.secondary,
-                    modifier = Modifier
-                        .testTag(tag = "UserAndEnvironmentDataLabel")
-                        .fillMaxWidth(),
-                )
+                // KIKARON: no "logged in as ... on ..." line
             }
             Spacer(modifier = Modifier.height(24.dp))
             if (state.showBiometricLogin && biometricsManager.isBiometricsSupported) {
@@ -336,6 +307,24 @@ fun VaultUnlockScreen(
                         .fillMaxWidth(),
                 )
             }
+            // KIKARON: the one way out while locked (the menu is gone)
+            Spacer(modifier = Modifier.height(8.dp))
+            com.bitwarden.ui.platform.components.button.BitwardenTextButton(
+                label = stringResource(id = BitwardenString.log_out),
+                onClick = { showLogoutConfirmationDialog = true },
+                modifier = Modifier
+                    .standardHorizontalMargin()
+                    .fillMaxWidth(),
+            )
+            // KIKARON: the one way out while locked (the menu is gone)
+            Spacer(modifier = Modifier.height(8.dp))
+            com.bitwarden.ui.platform.components.button.BitwardenTextButton(
+                label = stringResource(id = BitwardenString.log_out),
+                onClick = { showLogoutConfirmationDialog = true },
+                modifier = Modifier
+                    .standardHorizontalMargin()
+                    .fillMaxWidth(),
+            )
             Spacer(modifier = Modifier.navigationBarsPadding())
         }
     }

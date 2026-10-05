@@ -371,11 +371,11 @@ Het scannen gebeurt automatisch.</string>
     <string name="export_vault">Kluis exporteren</string>
     <string name="lock_now">Nu vergrendelen</string>
     <string name="pin">PIN-code</string>
-    <string name="unlock">Ontgrendelen</string>
+    <string name="unlock">Ontgrendel</string>
     <string name="thirty_minutes">30 minuten</string>
     <string name="set_pin_description">Stel je PIN-code in voor het ontgrendelen van Multipass. Je PIN-code wordt opnieuw ingesteld als je je ooit volledig afmeldt bij de applicatie.</string>
     <string name="logged_in_as_on">Aangemeld als %1$s op %2$s.</string>
-    <string name="vault_locked_master_password">Je kluis is vergrendeld. Voer je Multipass-wachtwoord in om door te gaan.</string>
+    <string name="vault_locked_master_password">Voer uw Multipass-wachtwoord in om uw kluis te openen.</string>
     <string name="vault_locked_pin">Je kluis is vergrendeld. Voer je PIN-code in om door te gaan.</string>
     <string name="dark">Donker</string>
     <string name="light">Licht</string>
