@@ -58,6 +58,10 @@ def edit(path, old, new, count=1):
 # ---- identity -----------------------------------------------------------------------
 def brand_identity():
     edit('app/build.gradle.kts', 'applicationId = "com.x8bit.bitwarden"', 'applicationId = "%s"' % APP_ID)
+    # the version code rises with every build (kikaron/build.sh sets it from the
+    # date): Play and a side-loaded copy must never go backwards
+    edit('app/build.gradle.kts', 'versionCode = libs.versions.appVersionCode.get().toInt()',
+         'versionCode = (System.getenv("MULTIPASS_VERSION_CODE") ?: libs.versions.appVersionCode.get()).toInt()')
     for flavour, name in [('release', STORE_NAME), ('beta', STORE_NAME + ' Beta'), ('main', STORE_NAME + ' Dev')]:
         path = 'app/src/%s/res/values/strings_non_localized.xml' % flavour
         text = (ROOT / path).read_text(encoding='utf-8')

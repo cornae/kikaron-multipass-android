@@ -67,7 +67,7 @@ configure<ApplicationExtension> {
         targetSdk {
             version = release(libs.versions.targetSdk.get().toInt())
         }
-        versionCode = libs.versions.appVersionCode.get().toInt()
+        versionCode = (System.getenv("MULTIPASS_VERSION_CODE") ?: libs.versions.appVersionCode.get()).toInt()
         versionName = libs.versions.appVersionName.get()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
