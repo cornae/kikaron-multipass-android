@@ -31,6 +31,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import screens  # noqa: E402  (the start and unlock screens)
+
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
 
@@ -232,6 +235,7 @@ def main():
     n = brand_strings()
     brand_server()
     brand_sso()
+    screens.brand_screens(ROOT, HERE, edit, fail)
     brand_icon()
     brand_signing()
     print('branded: identity, %d string files, server, icon, signing' % n)
