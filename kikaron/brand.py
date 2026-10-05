@@ -16,6 +16,8 @@ What it changes
   strings    "Bitwarden" -> "Multipass" in the VALUES of every language's
              strings.xml (never in names, URLs or e-mail addresses);
              nl: hoofdwachtwoord -> Multipass-wachtwoord
+  sso        the single sign-on screen fills in Vaultwarden's fixed identifier
+             and starts the Kikaron sign-in by itself
   server     a fresh install is set to the self-hosted
              https://multipass.kikaron.com instead of bitwarden.com (US)
   icon       the adaptive launcher icon from kikaron/icon.svg (Kikaron's
@@ -106,6 +108,44 @@ def brand_server():
          '    )' % SERVER)
 
 
+# ---- single sign-on ----------------------------------------------------------------------
+# Vaultwarden has no organisations for SSO and expects its fixed identifier (the
+# same one iOS and the web use). The sign-on screen fills it in and starts the
+# Kikaron sign-in by itself, once, as soon as it has looked for a verified domain.
+SSO_IDENTIFIER = '00000000-01DC-01DC-01DC-000000000000'
+SSO_VM = 'app/src/main/kotlin/com/x8bit/bitwarden/ui/auth/feature/enterprisesignon/EnterpriseSignOnViewModel.kt'
+
+
+def brand_sso():
+    edit(SSO_VM,
+         '                        orgIdentifierInput = authRepository.rememberedOrgIdentifier.orEmpty(),\n'
+         '                    )\n'
+         '                }\n',
+         '                        orgIdentifierInput = authRepository.rememberedOrgIdentifier\n'
+         '                            ?: KIKARON_SSO_IDENTIFIER,\n'
+         '                    )\n'
+         '                }\n'
+         '                // KIKARON: straight on to the Kikaron sign-in\n'
+         '                handleLogInClicked()\n')
+    edit(SSO_VM,
+         '                    orgIdentifierInput = authRepository.rememberedOrgIdentifier.orEmpty(),\n'
+         '                )\n'
+         '            }\n'
+         '            return\n',
+         '                    orgIdentifierInput = authRepository.rememberedOrgIdentifier\n'
+         '                        ?: KIKARON_SSO_IDENTIFIER,\n'
+         '                )\n'
+         '            }\n'
+         '            // KIKARON: straight on to the Kikaron sign-in\n'
+         '            handleLogInClicked()\n'
+         '            return\n')
+    p = ROOT / SSO_VM
+    text = p.read_text(encoding='utf-8')
+    if 'KIKARON_SSO_IDENTIFIER =' not in text:
+        p.write_text(text.rstrip('\n') + "\n\n// KIKARON: Vaultwarden's fixed single sign-on identifier\n"
+                     'private const val KIKARON_SSO_IDENTIFIER = "%s"\n' % SSO_IDENTIFIER, encoding='utf-8')
+
+
 # ---- icon -----------------------------------------------------------------------------
 def brand_icon():
     svg = (HERE / 'icon.svg').read_text(encoding='utf-8')
@@ -187,6 +227,7 @@ def main():
     brand_identity()
     n = brand_strings()
     brand_server()
+    brand_sso()
     brand_icon()
     brand_signing()
     print('branded: identity, %d string files, server, icon, signing' % n)
