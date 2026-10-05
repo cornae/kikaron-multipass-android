@@ -60,7 +60,7 @@ configure<ApplicationExtension> {
     }
 
     defaultConfig {
-        applicationId = "com.x8bit.bitwarden"
+        applicationId = "com.kikaron.multipass"
         minSdk {
             version = release(libs.versions.minSdk.get().toInt())
         }
@@ -96,6 +96,14 @@ configure<ApplicationExtension> {
             storeFile = file("../keystores/debug.keystore")
             storePassword = "android"
         }
+        // KIKARON: the release key, from the environment (kikaron/build.sh) - never
+        // a file in the repo
+        create("kikaron") {
+            System.getenv("MULTIPASS_KEYSTORE")?.let { storeFile = file(it) }
+            storePassword = System.getenv("MULTIPASS_KEYSTORE_PASSWORD")
+            keyAlias = System.getenv("MULTIPASS_KEY_ALIAS")
+            keyPassword = System.getenv("MULTIPASS_KEY_PASSWORD")
+        }
     }
 
     buildTypes {
@@ -125,6 +133,9 @@ configure<ApplicationExtension> {
             buildConfigField(type = "boolean", name = "HAS_LOGS_ENABLED", value = "false")
         }
         release {
+            if (System.getenv("MULTIPASS_KEYSTORE") != null) {
+                signingConfig = signingConfigs.getByName("kikaron")
+            }
             isDebuggable = false
             isMinifyEnabled = true
             isShrinkResources = true

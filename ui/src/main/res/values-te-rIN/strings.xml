@@ -77,7 +77,7 @@
     <string name="account_created_success">మీ కొత్త ఖాతా సృష్టించబడింది!</string>
     <string name="set_bitwarden_as_passkey_manager_description">పరికర సెట్టింగ్‌లలో Bitwardenను మీ పాస్‌కీ ప్రొవైడర్‌గా సెట్ చేయండి.</string>
     <string name="avoid_ambiguous_characters">అస్పష్టమైన అక్షరాలను నివారించండి</string>
-    <string name="bitwarden_autofill_service">Bitwarden ఆటోఫిల్ సేవ</string>
+    <string name="bitwarden_autofill_service">Multipass ఆటోఫిల్ సేవ</string>
     <string name="change_master_password">మాస్టర్ పాస్వర్డ్ మార్చు</string>
     <string name="close">మూసివేయి</string>
     <string name="close_app">యాప్ మూసివేయి</string>
@@ -169,14 +169,14 @@
     <string name="view_identity">గుర్తింపు చూడండి</string>
     <string name="view_note">నోట్ చూడండి</string>
     <string name="view_ssh_key">SSH కీ చూడండి</string>
-    <string name="web_vault">Bitwarden వెబ్ ఖజానా</string>
+    <string name="web_vault">Multipass వెబ్ ఖజానా</string>
     <string name="items">అంశాలు</string>
     <string name="items_for_uri">%1$s కోసం అంశాలు</string>
     <string name="no_items_for_uri">%1$s కోసం మీ ఖజానాలో అంశాలు లేవు.</string>
     <string name="no_items_for_vault">మీ ఖజానాలో “%1$s”తో సరిపోలే అంశాలు లేవు</string>
     <string name="search_for_a_login_or_add_a_new_login">లాగిన్ కోసం శోధించండి లేదా కొత్త లాగిన్ జోడించండి</string>
     <string name="disabled">నిష్క్రియం చేయబడింది</string>
-    <string name="bitwarden_autofill_service_alert2">మీ ఖజానాకు కొత్త లాగిన్‌లను జోడించడానికి సులభమైన మార్గం Bitwarden ఆటోఫిల్ సేవ నుండి. “సెట్టింగ్‌లు” స్క్రీన్‌కు నావిగేట్ చేయడం ద్వారా Bitwarden ఆటోఫిల్ సేవను ఉపయోగించడం గురించి మరింత తెలుసుకోండి.</string>
+    <string name="bitwarden_autofill_service_alert2">మీ ఖజానాకు కొత్త లాగిన్‌లను జోడించడానికి సులభమైన మార్గం Multipass ఆటోఫిల్ సేవ నుండి. “సెట్టింగ్‌లు” స్క్రీన్‌కు నావిగేట్ చేయడం ద్వారా Multipass ఆటోఫిల్ సేవను ఉపయోగించడం గురించి మరింత తెలుసుకోండి.</string>
     <string name="autofill_noun">ఆటోఫిల్</string>
     <string name="autofill_verb">ఆటోఫిల్ చేయి</string>
     <string name="autofill_or_view">మీరు ఈ అంశాన్ని ఆటోఫిల్ చేయాలనుకుంటున్నారా లేదా చూడాలనుకుంటున్నారా?</string>
@@ -228,7 +228,7 @@
     <string name="environment_saved">పరిసరాల URLలు భద్రపరచబడ్డాయి.</string>
     <string name="identity_url">ఐడెంటిటీ సర్వర్ URL</string>
     <string name="self_hosted_environment">స్వీయ-హోస్ట్ చేసిన పరిసరాలు</string>
-    <string name="self_hosted_environment_footer">మీ ఆన్-ప్రేమిస్ హోస్ట్ చేసిన Bitwarden ఇన్‌స్టాలేషన్ యొక్క బేస్ URLని పేర్కొనండి.</string>
+    <string name="self_hosted_environment_footer">మీ ఆన్-ప్రేమిస్ హోస్ట్ చేసిన Multipass ఇన్‌స్టాలేషన్ యొక్క బేస్ URLని పేర్కొనండి.</string>
     <string name="server_url">సర్వర్ URL</string>
     <string name="web_vault_url">వెబ్ ఖజానా సర్వర్ URL</string>
     <string name="custom_fields">అనుకూల ఫీల్డ్‌లు</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">ఈ ఫోల్డర్‌లో అంశాలు లేవు.</string>
     <string name="no_items_trash">ట్రాష్‌లో అంశాలు లేవు.</string>
     <string name="autofill_accessibility_summary">ఇతర యాప్‌లు మరియు వెబ్‌లో వినియోగదారు పేరు మరియు పాస్వర్డ్ ఫీల్డ్‌లను పూరించడంలో సహాయపడండి.</string>
-    <string name="autofill_service_description">Bitwarden ఆటోఫిల్ సేవ మీ పరికరంలోని ఇతర యాప్‌లలో లాగిన్ సమాచారాన్ని పూరించడంలో సహాయపడటానికి Android ఆటోఫిల్ ఫ్రేమ్‌వర్క్‌ను ఉపయోగిస్తుంది.</string>
+    <string name="autofill_service_description">Multipass ఆటోఫిల్ సేవ మీ పరికరంలోని ఇతర యాప్‌లలో లాగిన్ సమాచారాన్ని పూరించడంలో సహాయపడటానికి Android ఆటోఫిల్ ఫ్రేమ్‌వర్క్‌ను ఉపయోగిస్తుంది.</string>
     <string name="bitwarden_autofill_go_to_settings">మేము మీ కోసం Android ఆటోఫిల్ సెట్టింగ్‌ల మెనూ ఆటోమేటిక్‌గా తెరవలేకపోయాము. మీరు Android సెట్టింగ్‌లు &gt; సిస్టమ్ &gt; భాషలు మరియు ఇన్‌పుట్ &gt; అధునాతన &gt; ఆటోఫిల్ సేవ నుండి ఆటోఫిల్ సెట్టింగ్‌ల మెనూ‌కు మాన్యువల్‌గా నావిగేట్ చేయవచ్చు.</string>
     <string name="custom_field_name">అనుకూల ఫీల్డ్ పేరు</string>
     <string name="field_type_boolean">బూలియన్</string>
@@ -373,7 +373,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">అన్లాక్ చేయి</string>
     <string name="thirty_minutes">30 నిమిషాలు</string>
-    <string name="set_pin_description">మీ PIN కనీసం 4 అక్షరాలు ఉండాలి. మీరు Bitwarden యాప్ నుండి మాన్యువల్‌గా లాగౌట్ చేస్తే మీ PIN సెట్టింగ్‌లు రీసెట్ చేయబడతాయి.</string>
+    <string name="set_pin_description">మీ PIN కనీసం 4 అక్షరాలు ఉండాలి. మీరు Multipass యాప్ నుండి మాన్యువల్‌గా లాగౌట్ చేస్తే మీ PIN సెట్టింగ్‌లు రీసెట్ చేయబడతాయి.</string>
     <string name="logged_in_as_on">%2$sలో %1$sగా లాగిన్ అయ్యారు.</string>
     <string name="vault_locked_master_password">మీ ఖజానా లాక్ చేయబడింది. కొనసాగించడానికి మీ మాస్టర్ పాస్వర్డ్‌ను ధృవీకరించండి.</string>
     <string name="vault_locked_pin">మీ ఖజానా లాక్ చేయబడింది. కొనసాగించడానికి మీ PIN కోడ్‌ను ధృవీకరించండి.</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">క్లిప్‌బోర్డ్ క్లియర్ చేయి</string>
     <string name="clear_clipboard_description">కాపీ చేసిన విలువలను మీ క్లిప్‌బోర్డ్ నుండి ఆటోమేటిక్‌గా క్లియర్ చేయండి.</string>
     <string name="default_uri_match_detection">డిఫాల్ట్ URI మ్యాచ్ గుర్తింపు</string>
-    <string name="default_uri_match_detection_description">URI మ్యాచ్ గుర్తింపు Bitwarden ఆటోఫిల్ సూచనలను ఎలా గుర్తిస్తుందో నియంత్రిస్తుంది.</string>
+    <string name="default_uri_match_detection_description">URI మ్యాచ్ గుర్తింపు Multipass ఆటోఫిల్ సూచనలను ఎలా గుర్తిస్తుందో నియంత్రిస్తుంది.</string>
     <string name="theme">థీమ్</string>
     <string name="theme_description">అప్లికేషన్ యొక్క రంగు థీమ్‌ను మార్చండి</string>
     <string name="copy_notes">నోట్ కాపీ చేయి</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">ఒకటి లేదా అంతకంటే ఎక్కువ సంస్థ విధానాలు మీ జనరేటర్ సెట్టింగ్‌లను ప్రభావితం చేస్తున్నాయి</string>
     <string name="unable_to_save_attachment">ఈ అటాచ్మెంట్‌ను భద్రపరచడంలో సమస్య ఉంది. సమస్య కొనసాగితే, మీరు దాన్ని వెబ్ ఖజానా నుండి భద్రపరచవచ్చు.</string>
     <string name="save_attachment_success">అటాచ్మెంట్ విజయవంతంగా భద్రపరచబడింది</string>
-    <string name="autofill_tile_accessibility_required">ఆటోఫిల్ టైల్ ఉపయోగించడానికి Bitwarden సెట్టింగ్‌ల నుండి “ఆటోఫిల్ యాక్సెసిబిలిటీ సేవ” ఆన్ చేయండి.</string>
+    <string name="autofill_tile_accessibility_required">ఆటోఫిల్ టైల్ ఉపయోగించడానికి Multipass సెట్టింగ్‌ల నుండి “ఆటోఫిల్ యాక్సెసిబిలిటీ సేవ” ఆన్ చేయండి.</string>
     <string name="autofill_tile_uri_not_found">పాస్వర్డ్ ఫీల్డ్‌లు కనుగొనబడలేదు</string>
     <string name="soft_deleting">ట్రాష్‌కు పంపిస్తోంది…</string>
     <string name="item_soft_deleted">అంశం ట్రాష్‌కు పంపబడింది.</string>
@@ -636,9 +636,9 @@
     <string name="catch_all_email_description">మీ డొమైన్ యొక్క కాన్ఫిగర్ చేసిన క్యాచ్-ఆల్ ఇన్‌బాక్స్‌ను ఉపయోగించండి.</string>
     <string name="forwarded_email_description">బాహ్య ఫార్వార్డింగ్ సేవతో ఇమెయిల్ మారుపేరును రూపొందించండి.</string>
     <string name="accessibility_service_disclosure">యాక్సెసిబిలిటీ సేవ బహిర్గతం</string>
-    <string name="accessibility_disclosure_text">Bitwarden యాప్‌లు మరియు వెబ్‌సైట్‌లలో లాగిన్ ఫీల్డ్‌ల కోసం శోధించడానికి యాక్సెసిబిలిటీ సేవను ఉపయోగిస్తుంది, ఆపై యాప్ లేదా సైట్ కోసం సరిపోలిక కనుగొనబడినప్పుడు వినియోగదారు పేరు &amp; పాస్వర్డ్ నమోదు చేయడానికి తగిన ఫీల్డ్ IDలను ఏర్పాటు చేస్తుంది. సేవ మాకు అందించే సమాచారాన్ని మేము నిల్వ చేయము, అలాగే ధృవీకరణ పత్రాల టెక్స్ట్ ఎంట్రీకి మించి ఏదైనా ఆన్-స్క్రీన్ అంశాలను నియంత్రించడానికి ప్రయత్నించము.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Bitwarden యాక్సెసిబిలిటీ-ఆధారిత ఆటోఫిల్ అందించే ముందు ఈ నోటీసు అవసరం.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden లాగిన్ ఫీల్డ్‌లను గుర్తించడానికి Android యొక్క యాక్సెసిబిలిటీ సేవను ఉపయోగించే ఐచ్ఛిక ఆటోఫిల్ పద్ధతిని అందిస్తుంది. మీరు దీన్ని ప్రారంభిస్తే, సరిపోలిక కనుగొనబడినప్పుడు Bitwarden తగిన ఫీల్డ్‌లను గుర్తించి మీ ధృవీకరణ పత్రాలను పూరిస్తుంది.</string>
+    <string name="accessibility_disclosure_text">Multipass యాప్‌లు మరియు వెబ్‌సైట్‌లలో లాగిన్ ఫీల్డ్‌ల కోసం శోధించడానికి యాక్సెసిబిలిటీ సేవను ఉపయోగిస్తుంది, ఆపై యాప్ లేదా సైట్ కోసం సరిపోలిక కనుగొనబడినప్పుడు వినియోగదారు పేరు &amp; పాస్వర్డ్ నమోదు చేయడానికి తగిన ఫీల్డ్ IDలను ఏర్పాటు చేస్తుంది. సేవ మాకు అందించే సమాచారాన్ని మేము నిల్వ చేయము, అలాగే ధృవీకరణ పత్రాల టెక్స్ట్ ఎంట్రీకి మించి ఏదైనా ఆన్-స్క్రీన్ అంశాలను నియంత్రించడానికి ప్రయత్నించము.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Multipass యాక్సెసిబిలిటీ-ఆధారిత ఆటోఫిల్ అందించే ముందు ఈ నోటీసు అవసరం.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass లాగిన్ ఫీల్డ్‌లను గుర్తించడానికి Android యొక్క యాక్సెసిబిలిటీ సేవను ఉపయోగించే ఐచ్ఛిక ఆటోఫిల్ పద్ధతిని అందిస్తుంది. మీరు దీన్ని ప్రారంభిస్తే, సరిపోలిక కనుగొనబడినప్పుడు Multipass తగిన ఫీల్డ్‌లను గుర్తించి మీ ధృవీకరణ పత్రాలను పూరిస్తుంది.</string>
     <string name="accessibility_disclosure_start_up_text_3">మీరు యాక్సెసిబిలిటీ సేవను ఉపయోగిస్తున్నప్పుడు స్క్రీన్‌పై ఉన్న దాని గురించి మేము ఎటువంటి సమాచారాన్ని నిల్వ చేయము మరియు ధృవీకరణ పత్రాల ఎంట్రీకి మించి ఏదైనా ఆన్-స్క్రీన్ అంశాలను మేము నియంత్రించము.</string>
     <string name="i_understand">నాకు అర్థమైంది</string>
     <string name="accept">ఆమోదించు</string>
@@ -704,7 +704,7 @@
     <string name="invalid_uri">అమాన్యమైన URI</string>
     <string name="the_urix_is_already_blocked">URI %1$s ఇప్పటికే బ్లాక్ చేయబడింది</string>
     <string name="login_approved">లాగిన్ ఆమోదించబడింది</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">పరికరంతో లాగిన్ చేయడం తప్పనిసరిగా Bitwarden యాప్ యొక్క సెట్టింగ్‌లలో సెటప్ చేయాలి.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">పరికరంతో లాగిన్ చేయడం తప్పనిసరిగా Multipass యాప్ యొక్క సెట్టింగ్‌లలో సెటప్ చేయాలి.</string>
     <string name="need_another_option_view_all_login_options">మరొక ఎంపిక కావాలా? <annotation link="viewAll">అన్ని లాగిన్ ఎంపికలను చూడండి</annotation></string>
     <string name="log_in_with_device">పరికరంతో లాగిన్ అవ్వండి</string>
     <string name="logging_in_on">దీనిపై లాగిన్ అవుతోంది</string>
@@ -713,13 +713,13 @@
     <string name="select_vault">ఖజానా ఎంచుకోండి</string>
     <string name="appearance">రూపం</string>
     <string name="account_security">ఖాతా భద్రత</string>
-    <string name="bitwarden_help_center">Bitwarden Help Center</string>
+    <string name="bitwarden_help_center">Multipass Help Center</string>
     <string name="sync_now">ఇప్పుడే సింక్ చేయి</string>
     <string name="unlock_options">అన్లాక్ ఎంపికలు</string>
     <string name="session_timeout">సెషన్ టైమౌట్</string>
     <string name="session_timeout_action">సెషన్ టైమౌట్ చర్య</string>
     <string name="account_fingerprint_phrase">ఖాతా వేలిముద్ర పదబంధం</string>
-    <string name="passkey_management_explanation_long">కొత్త పాస్‌కీలను భద్రపరచడానికి మరియు మీ ఖజానాలో నిల్వ చేసిన పాస్‌కీలతో లాగిన్ అవ్వడానికి Bitwarden ఉపయోగించండి.</string>
+    <string name="passkey_management_explanation_long">కొత్త పాస్‌కీలను భద్రపరచడానికి మరియు మీ ఖజానాలో నిల్వ చేసిన పాస్‌కీలతో లాగిన్ అవ్వడానికి Multipass ఉపయోగించండి.</string>
     <string name="autofill_services_explanation_long">మీ పరికరంలోని ఇతర యాప్‌లలో సైన్ ఇన్ చేయడానికి మీ సేవ్ చేసిన లాగిన్ సమాచారాన్ని ఉపయోగించడానికి Bitwardenను అనుమతించండి.</string>
     <string name="use_inline_autofill_explanation_long">మీరు మీ పరికరంలోని ఇతర యాప్‌లలో సైన్ ఇన్ చేసినప్పుడు మీ ఆటోఫిల్ సూచనలు ఎలా కనిపిస్తాయో ఎంచుకోండి.</string>
     <string name="additional_options">అదనపు ఎంపికలు</string>
@@ -728,12 +728,12 @@
     <string name="continue_to_help_center">సహాయ కేంద్రానికి కొనసాగించాలా?</string>
     <string name="continue_to_privacy_policy">గోప్యతా విధానానికి కొనసాగించాలా?</string>
     <string name="continue_to_device_settings">పరికర సెట్టింగ్‌లకు కొనసాగించాలా?</string>
-    <string name="two_step_login_description_long">Bitwarden వెబ్ యాప్‌లో రెండు-దశల లాగిన్ సెటప్ చేయడం ద్వారా మీ ఖాతాను మరింత సురక్షితంగా చేయండి.</string>
-    <string name="change_master_password_description_long">మీరు Bitwarden వెబ్ యాప్‌లో మీ మాస్టర్ పాస్వర్డ్‌ను మార్చవచ్చు.</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">సహాయ కేంద్రంలో Bitwarden ఎలా ఉపయోగించాలో మరింత తెలుసుకోండి.</string>
+    <string name="two_step_login_description_long">Multipass వెబ్ యాప్‌లో రెండు-దశల లాగిన్ సెటప్ చేయడం ద్వారా మీ ఖాతాను మరింత సురక్షితంగా చేయండి.</string>
+    <string name="change_master_password_description_long">మీరు Multipass వెబ్ యాప్‌లో మీ మాస్టర్ పాస్వర్డ్‌ను మార్చవచ్చు.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">సహాయ కేంద్రంలో Multipass ఎలా ఉపయోగించాలో మరింత తెలుసుకోండి.</string>
     <string name="privacy_policy_description_long">bitwarden.comలో మా గోప్యతా విధానాన్ని చూడండి.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">వెబ్ యాప్‌లో మీ Bitwarden ఖాతా యొక్క మరిన్ని లక్షణాలను అన్వేషించండి.</string>
-    <string name="learn_about_organizations_description_long">Bitwarden సంస్థను ఉపయోగించడం ద్వారా మీ ఖజానా అంశాలను ఇతరులతో భాగస్వామ్యం చేయడానికి మిమ్మల్ని అనుమతిస్తుంది. bitwarden.com వెబ్‌సైట్‌లో మరింత తెలుసుకోండి.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">వెబ్ యాప్‌లో మీ Multipass ఖాతా యొక్క మరిన్ని లక్షణాలను అన్వేషించండి.</string>
+    <string name="learn_about_organizations_description_long">Multipass సంస్థను ఉపయోగించడం ద్వారా మీ ఖజానా అంశాలను ఇతరులతో భాగస్వామ్యం చేయడానికి మిమ్మల్ని అనుమతిస్తుంది. bitwarden.com వెబ్‌సైట్‌లో మరింత తెలుసుకోండి.</string>
     <string name="created_x">సృష్టించబడింది %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">మీ సంస్థ మీరు మాస్టర్ పాస్వర్డ్ సెట్ చేయాలని కోరుతుంది.</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">మీ ఖజానా టైమౌట్ చర్యను మార్చడానికి అన్లాక్ ఎంపికను సెటప్ చేయండి.</string>
@@ -743,8 +743,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">మీ ఖాతా కోసం Duo రెండు-దశల లాగిన్ అవసరం.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">లాగిన్ పూర్తి చేయడానికి Duo నుండి దశలను అనుసరించండి.</string>
     <string name="launch_duo">Duo ప్రారంభించు</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">మీ పాస్‌కీ %1$s కోసం మీ Bitwarden ఖజానాలో భద్రపరచబడుతుంది</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">మీ పాస్వర్డ్ %1$s కోసం మీ Bitwarden ఖజానాలో భద్రపరచబడుతుంది</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">మీ పాస్‌కీ %1$s కోసం మీ Multipass ఖజానాలో భద్రపరచబడుతుంది</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">మీ పాస్వర్డ్ %1$s కోసం మీ Multipass ఖజానాలో భద్రపరచబడుతుంది</string>
     <string name="passkeys_not_supported_for_this_app">ఈ యాప్ కోసం పాస్‌కీలు మద్దతు ఇవ్వబడవు</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">బ్రౌజర్ ప్రివిలేజ్ కలిగి లేనందున పాస్‌కీ ఆపరేషన్ విఫలమైంది</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">బ్రౌజర్ సంతకం సరిపోలనందున పాస్‌కీ ఆపరేషన్ విఫలమైంది</string>
@@ -770,15 +770,15 @@
     <string name="check_your_email">మీ ఇమెయిల్ తనిఖీ చేయండి</string>
     <string name="open_email_app">ఇమెయిల్ యాప్ తెరవండి</string>
     <string name="email_verified">ఇమెయిల్ ధృవీకరించబడింది</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">ప్రకటనలు, సలహా మరియు పరిశోధన అవకాశాల కోసం Bitwarden నుండి ఇమెయిల్‌లను పొందండి. ఎప్పుడైనా <annotation link="unsubscribe">అన్‌సబ్‌స్క్రయిబ్</annotation> చేయండి.</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">ప్రకటనలు, సలహా మరియు పరిశోధన అవకాశాల కోసం Multipass నుండి ఇమెయిల్‌లను పొందండి. ఎప్పుడైనా <annotation link="unsubscribe">అన్‌సబ్‌స్క్రయిబ్</annotation> చేయండి.</string>
     <string name="security_prioritized">భద్రత, ప్రాధాన్యత</string>
-    <string name="welcome_message_1">లాగిన్‌లు, కార్డ్‌లు మరియు గుర్తింపులను మీ సురక్షిత ఖజానాలో భద్రపరచండి. Bitwarden మీకు ముఖ్యమైన వాటిని రక్షించడానికి జీరో-నాలెడ్జ్, ఎండ్-టు-ఎండ్ ఎన్క్రిప్షన్ ఉపయోగిస్తుంది.</string>
+    <string name="welcome_message_1">లాగిన్‌లు, కార్డ్‌లు మరియు గుర్తింపులను మీ సురక్షిత ఖజానాలో భద్రపరచండి. Multipass మీకు ముఖ్యమైన వాటిని రక్షించడానికి జీరో-నాలెడ్జ్, ఎండ్-టు-ఎండ్ ఎన్క్రిప్షన్ ఉపయోగిస్తుంది.</string>
     <string name="welcome_message_2">ఒక్క అక్షరం కూడా టైప్ చేయకుండా మీ ఖాతాలలో లాగిన్ అవ్వడానికి బయోమెట్రిక్ అన్లాక్ మరియు ఆటోఫిల్ సెటప్ చేయండి.</string>
     <string name="quick_and_easy_login">శీఘ్ర మరియు సులభమైన లాగిన్</string>
     <string name="level_up_your_logins">మీ లాగిన్‌లను మెరుగుపరచుకోండి</string>
     <string name="welcome_message_3">మీ ఖాతాలన్నింటికీ బలమైన, ప్రత్యేక పాస్వర్డ్‌లను సృష్టించడానికి మరియు భద్రపరచడానికి జనరేటర్ ఉపయోగించండి.</string>
     <string name="your_data_when_and_where_you_need_it">మీ డేటా, మీకు అవసరమైనప్పుడు మరియు ఎక్కడ</string>
-    <string name="welcome_message_4">Bitwarden మొబైల్, బ్రౌజర్ మరియు డెస్క్‌టాప్ యాప్‌లతో అపరిమిత పరికరాల్లో అపరిమిత పాస్వర్డ్‌లను భద్రపరచండి.</string>
+    <string name="welcome_message_4">Multipass మొబైల్, బ్రౌజర్ మరియు డెస్క్‌టాప్ యాప్‌లతో అపరిమిత పరికరాల్లో అపరిమిత పాస్వర్డ్‌లను భద్రపరచండి.</string>
     <string name="remove_passkey">పాస్‌కీ తీసివేయి</string>
     <string name="passkey_removed">పాస్‌కీ తీసివేయబడింది</string>
     <string name="what_makes_a_password_strong">పాస్వర్డ్ బలంగా ఉండడానికి కారణం ఏమిటి?</string>
@@ -808,8 +808,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">మీ ఇమెయిల్ చిరునామాను ధృవీకరించడానికి మరియు మీ ఖాతాను సృష్టించడం కొనసాగించడానికి ఇమెయిల్‌లోని లింక్‌ను ఎంచుకోండి.</string>
     <string name="change_email_address">ఇమెయిల్ చిరునామా మార్చు</string>
     <string name="next">తర్వాత</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden పోయిన లేదా మరచిపోయిన మాస్టర్ పాస్వర్డ్‌ను తిరిగి పొందలేము.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden పోయిన లేదా మరచిపోయిన మాస్టర్ పాస్వర్డ్‌ను రీసెట్ చేయలేము.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass పోయిన లేదా మరచిపోయిన మాస్టర్ పాస్వర్డ్‌ను తిరిగి పొందలేము.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass పోయిన లేదా మరచిపోయిన మాస్టర్ పాస్వర్డ్‌ను రీసెట్ చేయలేము.</string>
     <string name="choose_your_master_password">మీ మాస్టర్ పాస్వర్డ్ ఎంచుకోండి</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">మీ సమాచారాన్ని సురక్షితంగా ఉంచడానికి ప్రత్యేకమైన మరియు బలమైన పాస్వర్డ్ ఎంచుకోండి.</string>
     <plurals name="minimum_characters">
@@ -825,16 +825,16 @@
     <string name="turn_on_autofill">ఆటోఫిల్ ఆన్ చేయి</string>
     <string name="autofill_setup">ఆటోఫిల్ సెటప్</string>
     <string name="turn_on_browser_autofill_integration">బ్రౌజర్ ఆటోఫిల్ ఇంటిగ్రేషన్ ఆన్ చేయి</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">మీరు Bitwarden మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌ను ఉపయోగిస్తున్నారు.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">మీరు Bitwarden మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌లను ఉపయోగిస్తున్నారు.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">మీరు Bitwarden మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌ను ఉపయోగిస్తున్నారు. క్రింద మీకు ఇష్టమైన ఆటోఫిల్ ఇంటిగ్రేషన్ ప్రారంభించండి.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">మీరు Bitwarden మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌లను ఉపయోగిస్తున్నారు. కొనసాగించడానికి మీ అన్ని ఇన్‌స్టాల్ చేసిన బ్రౌజర్‌ల కోసం ఆటోఫిల్ ప్రారంభించండి.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">మీరు Multipass మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌ను ఉపయోగిస్తున్నారు.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">మీరు Multipass మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌లను ఉపయోగిస్తున్నారు.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">మీరు Multipass మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌ను ఉపయోగిస్తున్నారు. క్రింద మీకు ఇష్టమైన ఆటోఫిల్ ఇంటిగ్రేషన్ ప్రారంభించండి.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">మీరు Multipass మీ పాస్వర్డ్‌లను ఆటోఫిల్ చేయడానికి ప్రత్యేక అనుమతులు అవసరమయ్యే బ్రౌజర్‌లను ఉపయోగిస్తున్నారు. కొనసాగించడానికి మీ అన్ని ఇన్‌స్టాల్ చేసిన బ్రౌజర్‌ల కోసం ఆటోఫిల్ ప్రారంభించండి.</string>
     <string name="use_autofill_to_log_into_your_accounts">ఒకే ట్యాప్‌తో మీ ఖాతాలలో లాగిన్ అవ్వడానికి ఆటోఫిల్ ఉపయోగించండి.</string>
     <string name="turn_on_later">తర్వాత ఆన్ చేయి</string>
     <string name="turn_on_autofill_later">తర్వాత ఆటోఫిల్ ఆన్ చేయాలా?</string>
     <string name="turn_on_browser_autofill_integration_later">తర్వాత బ్రౌజర్ ఆటోఫిల్ ఇంటిగ్రేషన్ ఆన్ చేయాలా?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">మీరు సెట్టింగ్‌లలో ఎప్పుడైనా ఈ దశను పూర్తి చేయడానికి తిరిగి రావచ్చు.</string>
-    <string name="what_bitwarden_has_to_offer">మీరు ఇప్పుడు Bitwarden అందించే ప్రతిదాన్ని అన్వేషించవచ్చు మరియు మీ పాస్వర్డ్‌లను సురక్షితంగా నిర్వహించడం ప్రారంభించవచ్చు.</string>
+    <string name="what_bitwarden_has_to_offer">మీరు ఇప్పుడు Multipass అందించే ప్రతిదాన్ని అన్వేషించవచ్చు మరియు మీ పాస్వర్డ్‌లను సురక్షితంగా నిర్వహించడం ప్రారంభించవచ్చు.</string>
     <string name="youre_all_set">అంతా సిద్ధమే!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Duo సేవతో కనెక్ట్ అవ్వడంలో లోపం. వేరే రెండు-దశల లాగిన్ పద్ధతిని ఉపయోగించండి లేదా సహాయం కోసం Duoను సంప్రదించండి.</string>
     <string name="master_password_hint_not_specified">మాస్టర్ పాస్వర్డ్ సూచన</string>
@@ -864,18 +864,18 @@
     <string name="export_your_saved_logins">మీ సేవ్ చేసిన లాగిన్‌లను ఎగుమతి చేయి</string>
     <string name="delete_this_file_after_import_is_complete">దిగుమతి పూర్తయిన తర్వాత మీరు ఈ ఫైల్‌ను తొలగిస్తారు.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">మీ కంప్యూటర్‌లో, కొత్త బ్రౌజర్ ట్యాబ్ తెరిచి <annotation emphasis="bold"><annotation arg="0">%1$s</annotation>కి వెళ్ళండి</annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Bitwarden వెబ్ యాప్‌కు లాగిన్ అవ్వండి.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Multipass వెబ్ యాప్‌కు లాగిన్ అవ్వండి.</string>
     <string name="step_2_of_3">3లో దశ 2</string>
     <string name="log_in_to_bitwarden">Bitwardenకు లాగిన్ అవ్వండి</string>
     <string name="step_3_of_3">3లో దశ 3</string>
     <string name="import_logins_to_bitwarden">లాగిన్‌లను Bitwardenకు దిగుమతి చేయి</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Bitwarden నావిగేషన్‌లో, <annotation emphasis="bold">టూల్స్ ఎంపికను కనుగొని</annotation> <annotation emphasis="bold">డేటాను దిగుమతి చేయి ఎంచుకోండి.</annotation></string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Multipass నావిగేషన్‌లో, <annotation emphasis="bold">టూల్స్ ఎంపికను కనుగొని</annotation> <annotation emphasis="bold">డేటాను దిగుమతి చేయి ఎంచుకోండి.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">ఫారమ్‌ను పూరించి, <annotation emphasis="bold">మీ సేవ్ చేసిన పాస్వర్డ్ ఫైల్‌ను దిగుమతి చేయండి.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">మీ భద్రత కోసం, <annotation emphasis="bold">మీ సేవ్ చేసిన పాస్వర్డ్ ఫైల్‌ను తొలగించాలని</annotation> నిర్ధారించుకోండి.</string>
     <string name="need_help_check_out_import_help">సహాయం కావాలా? <annotation link="importHelp">దిగుమతి సహాయం</annotation> చూడండి.</string>
     <string name="import_help">దిగుమతి సహాయం</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">ఎగుమతి చేసిన ఫైల్‌ను</annotation> మీ కంప్యూటర్‌లో మీరు సులభంగా కనుగొనగలిగే చోట భద్రపరచండి.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">ఇది గుర్తించబడిన Bitwarden సర్వర్ కాదు. మీరు మీ ప్రొవైడర్‌తో తనిఖీ చేయాలి లేదా మీ సర్వర్‌ను నవీకరించాలి.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">ఇది గుర్తించబడిన Multipass సర్వర్ కాదు. మీరు మీ ప్రొవైడర్‌తో తనిఖీ చేయాలి లేదా మీ సర్వర్‌ను నవీకరించాలి.</string>
     <string name="syncing_logins_loading_message">లాగిన్‌లను సింక్ చేస్తోంది…</string>
     <string name="download_the_browser_extension">బ్రౌజర్ పొడిగింపును డౌన్‌లోడ్ చేయి</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">అతుకులు లేని అనుభవం కోసం Bitwardenను మీ ఇష్టమైన బ్రౌజర్‌లో సమగ్రపరచడానికి bitwarden.com/download కు వెళ్ళండి.</string>
@@ -884,8 +884,8 @@
     <string name="autofill_passwords">పాస్వర్డ్‌లను ఆటోఫిల్ చేయి</string>
     <string name="set_up_autofill_on_all_your_devices">ఎక్కడైనా ఒకే ట్యాప్‌తో లాగిన్ అవ్వడానికి మీ అన్ని పరికరాలలో ఆటోఫిల్ సెటప్ చేయండి.</string>
     <string name="import_successful">దిగుమతి విజయవంతమైంది!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bitwarden వెబ్ మరియు డెస్క్‌టాప్ టూల్స్‌తో ఎక్కడి నుండైనా మీ లాగిన్‌లను నిర్వహించండి.</string>
-    <string name="bitwarden_tools">Bitwarden టూల్స్</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Multipass వెబ్ మరియు డెస్క్‌టాప్ టూల్స్‌తో ఎక్కడి నుండైనా మీ లాగిన్‌లను నిర్వహించండి.</string>
+    <string name="bitwarden_tools">Multipass టూల్స్</string>
     <string name="got_it">అర్థమైంది</string>
     <string name="no_logins_were_imported">లాగిన్‌లు దిగుమతి చేయబడలేదు</string>
     <string name="import_error">దిగుమతి లోపం</string>
@@ -903,7 +903,7 @@
         <item quantity="other">%d నోటిఫికేషన్‌లు</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">పరికరాల మధ్య త్వరగా మరియు సులభంగా లాగిన్ అవ్వండి</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">మీరు మరొక పరికరం నుండి కొత్త లాగిన్ అభ్యర్థనను స్వీకరించిన ప్రతిసారీ Bitwarden మీకు తెలియజేయగలదు.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">మీరు మరొక పరికరం నుండి కొత్త లాగిన్ అభ్యర్థనను స్వీకరించిన ప్రతిసారీ Multipass మీకు తెలియజేయగలదు.</string>
     <string name="skip_for_now">ప్రస్తుతానికి దాటవేయి</string>
     <string name="done_text">పూర్తయింది</string>
     <string name="page_number_x_of_y">%2$sలో %1$s</string>
@@ -928,7 +928,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger">దీన్ని మరింత బలంగా చేయడానికి <annotation emphasis="bold">సంఖ్య లేదా చిహ్నాన్ని జోడించండి</annotation>. ఇప్పుడు మీకు ప్రత్యేకమైన, సురక్షితమైన మరియు గుర్తుండిపోయే పాస్ఫ్రేజ్ ఉంది!</string>
     <string name="need_some_inspiration">కొంత ప్రేరణ కావాలా?</string>
     <string name="check_out_the_passphrase_generator">పాస్ఫ్రేజ్ జనరేటర్ చూడండి</string>
-    <string name="we_couldnt_verify_the_servers_certificate">మేము సర్వర్ యొక్క సర్టిఫికేట్‌ను ధృవీకరించలేకపోయాము. మీ పరికరంలో లేదా మీ Bitwarden సర్వర్‌లోని సర్టిఫికేట్ చైన్ లేదా ప్రాక్సీ సెట్టింగ్‌లు సరిగ్గా సెటప్ చేయబడకపోవచ్చు.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">మేము సర్వర్ యొక్క సర్టిఫికేట్‌ను ధృవీకరించలేకపోయాము. మీ పరికరంలో లేదా మీ Multipass సర్వర్‌లోని సర్టిఫికేట్ చైన్ లేదా ప్రాక్సీ సెట్టింగ్‌లు సరిగ్గా సెటప్ చేయబడకపోవచ్చు.</string>
     <string name="copy_private_key">ప్రైవేట్ కీ కాపీ చేయి</string>
     <string name="login_credentials">లాగిన్ ధృవీకరణ పత్రాలు</string>
     <string name="autofill_options">ఆటోఫిల్ ఎంపికలు</string>
@@ -1004,8 +1004,8 @@
     <string name="experiencing_an_issue">సమస్య ఎదుర్కొంటున్నారా?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">లాగ్‌లను సేకరించడానికి మరియు స్థానికంగా తనిఖీ చేయడానికి తాత్కాలిక లాగింగ్ ప్రారంభించండి. ప్రారంభించినప్పుడు, అప్లికేషన్ స్థితులు మరియు నెట్‌వర్క్ కాల్‌లు లాగ్ చేయబడవచ్చు—సున్నితమైన ఖజానా సమాచారం ఎప్పుడూ లాగ్ చేయబడదు.</string>
     <string name="to_get_started_set_a_logging_duration">ప్రారంభించడానికి, లాగింగ్ వ్యవధిని సెట్ చేయండి. ఈ వ్యవధి తర్వాత లాగింగ్ ఆటోమేటిక్‌గా ఆఫ్ అవుతుంది, ఏవైనా సమస్యలను పునరుత్పత్తి చేస్తున్నప్పుడు కార్యాచరణను సంగ్రహించడానికి మీకు సమయం ఇస్తుంది.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">30 రోజుల తర్వాత లాగ్‌లు ఆటోమేటిక్‌గా తొలగించబడతాయి. మీరు భాగస్వామ్యం చేసినప్పుడు మాత్రమే Bitwarden మీ లాగ్ డేటాను యాక్సెస్ చేయగలదు.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">ఏది లాగ్ చేయబడుతుంది మరియు ఏది లాగ్ చేయబడదు అనే వివరాల కోసం,\n<annotation link="helpCenter">Bitwarden సహాయ కేంద్రాన్ని సందర్శించండి.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">30 రోజుల తర్వాత లాగ్‌లు ఆటోమేటిక్‌గా తొలగించబడతాయి. మీరు భాగస్వామ్యం చేసినప్పుడు మాత్రమే Multipass మీ లాగ్ డేటాను యాక్సెస్ చేయగలదు.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">ఏది లాగ్ చేయబడుతుంది మరియు ఏది లాగ్ చేయబడదు అనే వివరాల కోసం,\n<annotation link="helpCenter">Multipass సహాయ కేంద్రాన్ని సందర్శించండి.</annotation></string>
     <string name="logging_duration">లాగింగ్ వ్యవధి</string>
     <string name="flight_recorder_one_hour">1 గంట</string>
     <string name="flight_recorder_eight_hours">8 గంటలు</string>
@@ -1047,13 +1047,13 @@
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">బ్రౌజర్ (%1$s) గుర్తించబడనందున పాస్‌కీ ఆపరేషన్ విఫలమైంది. %1$sని స్థానికంగా నమ్మదగిన అప్లికేషన్‌ల జాబితాకు జోడించడానికి “ట్రస్ట్” ఎంచుకోండి.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">బ్రౌజర్ నమ్మదగినది కానందున పాస్‌కీ ఆపరేషన్ విఫలమైంది.</string>
     <string name="trust">ట్రస్ట్</string>
-    <string name="trusted_by_you_learn_more">ఇవి Bitwarden డిఫాల్ట్‌గా నమ్మని, కానీ మీరు పాస్‌కీ ఆపరేషన్‌లను నిర్వహించడానికి నమ్మే అప్లికేషన్‌లు లేదా బ్రౌజర్‌లు.</string>
-    <string name="trusted_by_community_learn_more">ఇవి Google Play Storeలో చేర్చబడని, కానీ కమ్యూనిటీ సభ్యులు ఉపయోగించి వాటిని సురక్షితమని నివేదించిన తర్వాత Bitwarden పాస్‌కీ ఆపరేషన్‌లను నిర్వహించడానికి నమ్మే అప్లికేషన్‌లు.</string>
+    <string name="trusted_by_you_learn_more">ఇవి Multipass డిఫాల్ట్‌గా నమ్మని, కానీ మీరు పాస్‌కీ ఆపరేషన్‌లను నిర్వహించడానికి నమ్మే అప్లికేషన్‌లు లేదా బ్రౌజర్‌లు.</string>
+    <string name="trusted_by_community_learn_more">ఇవి Google Play Storeలో చేర్చబడని, కానీ కమ్యూనిటీ సభ్యులు ఉపయోగించి వాటిని సురక్షితమని నివేదించిన తర్వాత Multipass పాస్‌కీ ఆపరేషన్‌లను నిర్వహించడానికి నమ్మే అప్లికేషన్‌లు.</string>
     <string name="trusted_by_google_learn_more">ఇవి Google సురక్షితమని భావించే మరియు Google యొక్క Play Storeలో అందుబాటులో ఉన్న అప్లికేషన్‌లు.</string>
     <string name="trusted_by_you">మీరు నమ్మినవి</string>
     <string name="trusted_by_the_community">కమ్యూనిటీ నమ్మినవి</string>
     <string name="trusted_by_google">Google నమ్మినవి</string>
-    <string name="privileged_apps_description">వినియోగదారులను ఫిషింగ్ ప్రయత్నాల నుండి రక్షించడానికి, డిఫాల్ట్‌గా, Bitwarden Google లేదా Bitwarden కమ్యూనిటీ నమ్మిన అప్లికేషన్‌లు లేదా వెబ్ బ్రౌజర్‌ల ద్వారా మాత్రమే పాస్‌కీ ఆపరేషన్‌లను పూర్తి చేస్తుంది.</string>
+    <string name="privileged_apps_description">వినియోగదారులను ఫిషింగ్ ప్రయత్నాల నుండి రక్షించడానికి, డిఫాల్ట్‌గా, Multipass Google లేదా Multipass కమ్యూనిటీ నమ్మిన అప్లికేషన్‌లు లేదా వెబ్ బ్రౌజర్‌ల ద్వారా మాత్రమే పాస్‌కీ ఆపరేషన్‌లను పూర్తి చేస్తుంది.</string>
     <string name="about_privileged_applications">ప్రివిలేజ్ కలిగిన అప్లికేషన్‌ల గురించి</string>
     <string name="learn_more_about_privileged_apps">ప్రివిలేజ్ కలిగిన యాప్‌ల గురించి మరింత తెలుసుకోండి</string>
     <string name="privileged_apps">ప్రివిలేజ్ కలిగిన యాప్‌లు</string>
@@ -1086,7 +1086,7 @@
     <string name="information">సమాచారం</string>
     <string name="otp_type">OTP రకం</string>
     <string name="search_codes">కోడ్‌లను శోధించు</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">Bitwarden ఆథెంటికేటర్‌తో మీ ఖాతాలను సురక్షితం చేయండి</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">Multipass ఆథెంటికేటర్‌తో మీ ఖాతాలను సురక్షితం చేయండి</string>
     <string name="get_verification_codes_for_all_your_accounts">2-దశల ధృవీకరణకు మద్దతు ఇచ్చే మీ అన్ని ఖాతాల కోసం ధృవీకరణ కోడ్‌లను పొందండి.</string>
     <string name="use_your_device_camera_to_scan_codes">కోడ్‌లను స్కాన్ చేయడానికి మీ పరికర కెమెరాను ఉపయోగించండి</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">ఏదైనా ఖాతా కోసం మీ 2-దశల ధృవీకరణ సెట్టింగ్‌లలోని QR కోడ్‌ను స్కాన్ చేయండి.</string>
@@ -1107,7 +1107,7 @@
     <string name="too_many_failed_biometric_attempts">ఎక్కువ విఫలమైన బయోమెట్రిక్ ప్రయత్నాలు.</string>
     <string name="version">వెర్షన్</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">వెర్షన్: %1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">సహాయ కేంద్రంలో Bitwarden ఆథెంటికేటర్ ఎలా ఉపయోగించాలో మరింత తెలుసుకోండి.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">సహాయ కేంద్రంలో Multipass ఆథెంటికేటర్ ఎలా ఉపయోగించాలో మరింత తెలుసుకోండి.</string>
     <string name="key">కీ</string>
     <string name="create_verification_code">ధృవీకరణ కోడ్ సృష్టించు</string>
     <string name="key_is_required">కీ అవసరం.</string>
@@ -1118,30 +1118,30 @@
     <string name="key_is_invalid">కీ అమాన్యమైనది.</string>
     <string name="backup">బ్యాకప్</string>
     <string name="data_backup_title">డేటా బ్యాకప్</string>
-    <string name="data_backup_message">Bitwarden ఆథెంటికేటర్ డేటా బ్యాకప్ చేయబడుతుంది మరియు మీ సాధారణంగా షెడ్యూల్ చేసిన పరికర బ్యాకప్‌లతో పునరుద్ధరించబడుతుంది.</string>
+    <string name="data_backup_message">Multipass ఆథెంటికేటర్ డేటా బ్యాకప్ చేయబడుతుంది మరియు మీ సాధారణంగా షెడ్యూల్ చేసిన పరికర బ్యాకప్‌లతో పునరుద్ధరించబడుతుంది.</string>
     <string name="import_2fas_password_protected_not_supported">2FAS పాస్వర్డ్ రక్షిత ఫైల్‌ల నుండి దిగుమతి చేయడం మద్దతు ఇవ్వబడదు. పాస్వర్డ్ రక్షితం కాని ఎగుమతి చేసిన ఫైల్‌తో మళ్లీ ప్రయత్నించండి.</string>
-    <string name="import_bitwarden_unsupported_format">Bitwarden CSV ఫైల్‌లను దిగుమతి చేయడం మద్దతు ఇవ్వబడదు. ఎగుమతి చేసిన JSON ఫైల్‌తో మళ్లీ ప్రయత్నించండి.</string>
-    <string name="download_bitwarden_card_title">Bitwarden యాప్ డౌన్‌లోడ్ చేయి</string>
+    <string name="import_bitwarden_unsupported_format">Multipass CSV ఫైల్‌లను దిగుమతి చేయడం మద్దతు ఇవ్వబడదు. ఎగుమతి చేసిన JSON ఫైల్‌తో మళ్లీ ప్రయత్నించండి.</string>
+    <string name="download_bitwarden_card_title">Multipass యాప్ డౌన్‌లోడ్ చేయి</string>
     <string name="download_bitwarden_card_message">మీ అన్ని లాగిన్‌లను నిల్వ చేయండి మరియు ధృవీకరణ కోడ్‌లను ఆథెంటికేటర్ యాప్‌తో నేరుగా సింక్ చేయండి.</string>
     <string name="download_now">ఇప్పుడే డౌన్‌లోడ్ చేయి</string>
-    <string name="sync_with_bitwarden_app">Bitwarden యాప్‌తో సింక్ చేయి</string>
+    <string name="sync_with_bitwarden_app">Multipass యాప్‌తో సింక్ చేయి</string>
     <string name="learn_more_link"><annotation link="learnMore">మరింత తెలుసుకోండి</annotation></string>
-    <string name="shared_codes_error">Bitwarden యాప్ నుండి కోడ్‌లను సింక్ చేయలేకపోయింది. రెండు యాప్‌లు తాజాగా ఉన్నాయని నిర్ధారించుకోండి. మీరు ఇప్పటికీ Bitwarden యాప్‌లో మీ ఇప్పటికే ఉన్న కోడ్‌లను యాక్సెస్ చేయవచ్చు.</string>
-    <string name="sync_with_the_bitwarden_app">Bitwarden యాప్‌తో సింక్ చేయి</string>
+    <string name="shared_codes_error">Multipass యాప్ నుండి కోడ్‌లను సింక్ చేయలేకపోయింది. రెండు యాప్‌లు తాజాగా ఉన్నాయని నిర్ధారించుకోండి. మీరు ఇప్పటికీ Multipass యాప్‌లో మీ ఇప్పటికే ఉన్న కోడ్‌లను యాక్సెస్ చేయవచ్చు.</string>
+    <string name="sync_with_the_bitwarden_app">Multipass యాప్‌తో సింక్ చేయి</string>
     <string name="sync_with_bitwarden_action_card_message">మీ ధృవీకరణ కోడ్‌లన్నింటినీ ఇక్కడ చూడడానికి సెట్టింగ్‌లలో ఆథెంటికేటర్ యాప్ సింక్‌ను అనుమతించండి.</string>
     <string name="take_me_to_app_settings">నన్ను యాప్ సెట్టింగ్‌లకు తీసుకెళ్ళు</string>
     <string name="something_went_wrong">ఏదో తప్పు జరిగింది</string>
     <string name="please_try_again">దయచేసి మళ్లీ ప్రయత్నించండి</string>
-    <string name="copy_to_bitwarden_vault">Bitwarden ఖజానాకు కాపీ చేయి</string>
+    <string name="copy_to_bitwarden_vault">Multipass ఖజానాకు కాపీ చేయి</string>
     <string name="default_save_option">డిఫాల్ట్ భద్రపరిచే ఎంపిక</string>
     <string name="save_to_bitwarden">Bitwardenకు భద్రపరచు</string>
     <string name="save_here">ఇక్కడ భద్రపరచు</string>
     <string name="none">ఏదీ లేదు</string>
     <string name="default_save_options_subtitle">కొత్త ధృవీకరణ కోడ్‌లను ఎక్కడ భద్రపరచాలనుకుంటున్నారో ఎంచుకోండి.</string>
     <string name="verification_code_created">ధృవీకరణ కోడ్ సృష్టించబడింది</string>
-    <string name="choose_save_location_message">ఈ ఆథెంటికేటర్ కీని ఇక్కడ భద్రపరచండి, లేదా దాన్ని మీ Bitwarden యాప్‌లోని లాగిన్‌కు జోడించండి.</string>
+    <string name="choose_save_location_message">ఈ ఆథెంటికేటర్ కీని ఇక్కడ భద్రపరచండి, లేదా దాన్ని మీ Multipass యాప్‌లోని లాగిన్‌కు జోడించండి.</string>
     <string name="save_option_as_default">భద్రపరిచే ఎంపికను డిఫాల్ట్‌గా భద్రపరచు</string>
-    <string name="account_synced_from_bitwarden_app">Bitwarden యాప్ నుండి ఖాతా సింక్ చేయబడింది</string>
+    <string name="account_synced_from_bitwarden_app">Multipass యాప్ నుండి ఖాతా సింక్ చేయబడింది</string>
     <string name="local_codes">స్థానిక కోడ్‌లు (%1$d)</string>
     <string name="required_information_missing">అవసరమైన సమాచారం లేదు</string>
     <string name="required_information_missing_message">అవసరమైన సమాచారం లేదు (ఉదా., ‘services’ లేదా ‘secret’). మీ ఫైల్ తనిఖీ చేసి మళ్లీ ప్రయత్నించండి. మద్దతు కోసం bitwarden.com/help సందర్శించండి</string>
@@ -1155,10 +1155,10 @@
     <string name="items_are_collapsed_click_to_expand">అంశాలు కుదించబడ్డాయి, విస్తరించడానికి క్లిక్ చేయండి.</string>
     <string name="error_cannot_decrypt">[లోపం: డీక్రిప్ట్ చేయలేము]</string>
     <string name="copy_error_report">లోపం నివేదికను కాపీ చేయి</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden ఈ ఖజానా అంశాన్ని డీక్రిప్ట్ చేయలేకపోయింది. అదనపు డేటా నష్టాన్ని నివారించడానికి ఈ లోపం నివేదికను కాపీ చేసి, కస్టమర్ సక్సెస్‌తో భాగస్వామ్యం చేయండి.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass ఈ ఖజానా అంశాన్ని డీక్రిప్ట్ చేయలేకపోయింది. అదనపు డేటా నష్టాన్ని నివారించడానికి ఈ లోపం నివేదికను కాపీ చేసి, కస్టమర్ సక్సెస్‌తో భాగస్వామ్యం చేయండి.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Bitwarden %1$d ఖజానా అంశాన్ని డీక్రిప్ట్ చేయలేకపోయింది. అదనపు డేటా నష్టాన్ని నివారించడానికి ఈ లోపం నివేదికను కాపీ చేసి, కస్టమర్ సక్సెస్‌తో భాగస్వామ్యం చేయండి.</item>
-        <item quantity="other">Bitwarden %1$d ఖజానా అంశాలను డీక్రిప్ట్ చేయలేకపోయింది. అదనపు డేటా నష్టాన్ని నివారించడానికి ఈ లోపం నివేదికను కాపీ చేసి, కస్టమర్ సక్సెస్‌తో భాగస్వామ్యం చేయండి.</item>
+        <item quantity="one">Multipass %1$d ఖజానా అంశాన్ని డీక్రిప్ట్ చేయలేకపోయింది. అదనపు డేటా నష్టాన్ని నివారించడానికి ఈ లోపం నివేదికను కాపీ చేసి, కస్టమర్ సక్సెస్‌తో భాగస్వామ్యం చేయండి.</item>
+        <item quantity="other">Multipass %1$d ఖజానా అంశాలను డీక్రిప్ట్ చేయలేకపోయింది. అదనపు డేటా నష్టాన్ని నివారించడానికి ఈ లోపం నివేదికను కాపీ చేసి, కస్టమర్ సక్సెస్‌తో భాగస్వామ్యం చేయండి.</item>
     </plurals>
     <string name="select_a_card_for_x">%s కోసం కార్డ్ ఎంచుకోండి</string>
     <string name="advanced_options">అధునాతన ఎంపికలు</string>
@@ -1166,8 +1166,8 @@
     <string name="keep_your_credential_secure">మీ ధృవీకరణ పత్రాలను సురక్షితంగా ఉంచండి</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">“%1$s” ఉపయోగిస్తున్నప్పుడు ధృవీకరణ పత్రాలను సురక్షితంగా ఉంచడం గురించి మరింత తెలుసుకోండి.</string>
     <string name="are_you_sure_you_want_to_use">మీరు ఖచ్చితంగా “%1$s” ఉపయోగించాలనుకుంటున్నారా?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI మ్యాచ్ గుర్తింపు Bitwarden ఆటోఫిల్ సూచనలను ఎలా గుర్తిస్తుందో నియంత్రిస్తుంది.\n<annotation emphasis="bold">హెచ్చరిక:</annotation> “రెగ్యులర్ ఎక్స్‌ప్రెషన్” అనేది తప్పుగా ఉపయోగించినట్లయితే ధృవీకరణ పత్రాలను బయటపడే ప్రమాదం ఎక్కువగా ఉన్న అధునాతన ఎంపిక.</string>
-    <string name="default_uri_match_detection_description_advanced_options">URI మ్యాచ్ గుర్తింపు Bitwarden ఆటోఫిల్ సూచనలను ఎలా గుర్తిస్తుందో నియంత్రిస్తుంది.\n<annotation emphasis="bold">హెచ్చరిక:</annotation> “దీనితో ప్రారంభమవుతుంది” అనేది ధృవీకరణ పత్రాలను బయటపడే ప్రమాదం ఎక్కువగా ఉన్న అధునాతన ఎంపిక.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI మ్యాచ్ గుర్తింపు Multipass ఆటోఫిల్ సూచనలను ఎలా గుర్తిస్తుందో నియంత్రిస్తుంది.\n<annotation emphasis="bold">హెచ్చరిక:</annotation> “రెగ్యులర్ ఎక్స్‌ప్రెషన్” అనేది తప్పుగా ఉపయోగించినట్లయితే ధృవీకరణ పత్రాలను బయటపడే ప్రమాదం ఎక్కువగా ఉన్న అధునాతన ఎంపిక.</string>
+    <string name="default_uri_match_detection_description_advanced_options">URI మ్యాచ్ గుర్తింపు Multipass ఆటోఫిల్ సూచనలను ఎలా గుర్తిస్తుందో నియంత్రిస్తుంది.\n<annotation emphasis="bold">హెచ్చరిక:</annotation> “దీనితో ప్రారంభమవుతుంది” అనేది ధృవీకరణ పత్రాలను బయటపడే ప్రమాదం ఎక్కువగా ఉన్న అధునాతన ఎంపిక.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">“దీనితో ప్రారంభమవుతుంది” అనేది ధృవీకరణ పత్రాలను బయటపడే ప్రమాదం ఎక్కువగా ఉన్న అధునాతన ఎంపిక.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">“రెగ్యులర్ ఎక్స్‌ప్రెషన్” అనేది తప్పుగా ఉపయోగించినట్లయితే ధృవీకరణ పత్రాలను బయటపడే ప్రమాదం ఎక్కువగా ఉన్న అధునాతన ఎంపిక.</string>
     <string name="later">తర్వాత</string>
@@ -1192,17 +1192,17 @@
         <item quantity="other">%1$d అంశాలు మీ ఖజానాకు దిగుమతి చేయబడ్డాయి.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">పాస్వర్డ్‌లను పూరించడం కొనసాగించడానికి బ్రౌజర్ ఆటోఫిల్ ప్రారంభించు</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">మీ బ్రౌజర్ ఇటీవల నవీకరించబడింది, ఇది Bitwarden ఆటోఫిల్‌ను నిష్క్రియం చేసింది. Bitwardenతో మీ పాస్వర్డ్‌లను పూరించడం కొనసాగించడానికి, ఆటోఫిల్ సెట్టింగ్‌లలో బ్రౌజర్ ఆటోఫిల్ ప్రారంభించండి.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">మీ బ్రౌజర్ ఇటీవల నవీకరించబడింది, ఇది Multipass ఆటోఫిల్‌ను నిష్క్రియం చేసింది. Bitwardenతో మీ పాస్వర్డ్‌లను పూరించడం కొనసాగించడానికి, ఆటోఫిల్ సెట్టింగ్‌లలో బ్రౌజర్ ఆటోఫిల్ ప్రారంభించండి.</string>
     <string name="not_now">ఇప్పుడు కాదు</string>
-    <string name="import_from_bitwarden">Bitwarden నుండి దిగుమతి చేయి</string>
+    <string name="import_from_bitwarden">Multipass నుండి దిగుమతి చేయి</string>
     <string name="select_account">ఖాతా ఎంచుకోండి</string>
     <string name="no_accounts_available">ఖాతాలు అందుబాటులో లేవు</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">మీరు దిగుమతి చేయగల ఖాతాలు మీకు లేవు. మీ సంస్థ యొక్క భద్రతా విధానం Bitwarden నుండి మరొక యాప్‌కు అంశాలను దిగుమతి చేయడాన్ని పరిమితం చేయవచ్చు.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">మీరు దిగుమతి చేయగల ఖాతాలు మీకు లేవు. మీ సంస్థ యొక్క భద్రతా విధానం Multipass నుండి మరొక యాప్‌కు అంశాలను దిగుమతి చేయడాన్ని పరిమితం చేయవచ్చు.</string>
     <string name="import_restricted_unable_to_import_credit_cards">దిగుమతి పరిమితం చేయబడింది, ఈ ఖాతా నుండి కార్డ్‌లను దిగుమతి చేయలేకపోయింది.</string>
     <string name="verify_your_master_password">మీ మాస్టర్ పాస్వర్డ్ ధృవీకరించండి</string>
     <string name="having_trouble_with_autofill">ఆటోఫిల్‌తో సమస్య ఉందా?</string>
     <string name="access_help_and_troubleshooting_documentation_here">ఇక్కడ సహాయం మరియు సమస్య పరిష్కార డాక్యుమెంటేషన్ యాక్సెస్ చేయండి</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">మీ Bitwarden ఖజానా నుండి పాస్వర్డ్‌లు, పాస్‌కీలు మరియు ఇతర అంశాల రకాలను దిగుమతి చేయండి.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">మీ Multipass ఖజానా నుండి పాస్వర్డ్‌లు, పాస్‌కీలు మరియు ఇతర అంశాల రకాలను దిగుమతి చేయండి.</string>
     <string name="items_to_import">దిగుమతి చేయవలసిన అంశాలు</string>
     <string name="exporting_items">అంశాలను ఎగుమతి చేస్తోంది…</string>
     <string name="export_failed">ఎగుమతి విఫలమైంది</string>
@@ -1266,7 +1266,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">ఈ Sendను భాగస్వామ్యం చేయడానికి కనీసం ఒక చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి.</string>
     <string name="sync_with_browser">బ్రౌజర్‌తో సింక్ చేయి</string>
-    <string name="sync_with_browser_description">%1$sకి కనెక్ట్ అవ్వడానికి, మీ డిఫాల్ట్ బ్రౌజర్‌ను Bitwarden మొబైల్ యాప్‌తో సింక్ చేయండి. మీ బ్రౌజర్ తెరిచినప్పుడు, ప్రాంప్ట్ చేస్తే సైన్-ఇన్ పూర్తి చేయండి.\nసింక్ పూర్తయిన తర్వాత, మీరు ఈ యాప్‌కు తిరిగి వస్తారు.</string>
+    <string name="sync_with_browser_description">%1$sకి కనెక్ట్ అవ్వడానికి, మీ డిఫాల్ట్ బ్రౌజర్‌ను Multipass మొబైల్ యాప్‌తో సింక్ చేయండి. మీ బ్రౌజర్ తెరిచినప్పుడు, ప్రాంప్ట్ చేస్తే సైన్-ఇన్ పూర్తి చేయండి.\nసింక్ పూర్తయిన తర్వాత, మీరు ఈ యాప్‌కు తిరిగి వస్తారు.</string>
     <string name="launch_browser">బ్రౌజర్ ప్రారంభించు</string>
     <string name="continue_without_syncing">సింక్ చేయకుండా కొనసాగించు</string>
     <string name="external_link">బాహ్య లింక్</string>
@@ -1292,7 +1292,7 @@
     <string name="trusted">నమ్మదగిన</string>
     <string name="preview_not_available_for_files">%1$s ఫైల్‌ల కోసం ప్రివ్యూ అందుబాటులో లేదు. మీరు దాన్ని మీ పరికరంలో చూడడానికి ఇప్పటికీ డౌన్‌లోడ్ చేయవచ్చు.</string>
     <string name="this_file_is_too_large_to_preview">ఈ ఫైల్ ప్రివ్యూ చేయడానికి చాలా పెద్దది. మీరు దాన్ని మీ పరికరంలో చూడడానికి ఇప్పటికీ డౌన్‌లోడ్ చేయవచ్చు.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden ఈ ఫైల్‌ను డీక్రిప్ట్ చేయలేకపోయింది, కాబట్టి ప్రివ్యూ ప్రదర్శించబడదు.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass ఈ ఫైల్‌ను డీక్రిప్ట్ చేయలేకపోయింది, కాబట్టి ప్రివ్యూ ప్రదర్శించబడదు.</string>
     <string name="preview_unavailable_for_this_file">ఈ ఫైల్ కోసం ప్రివ్యూ అందుబాటులో లేదు. మీరు దాన్ని మీ పరికరంలో చూడడానికి ఇప్పటికీ డౌన్‌లోడ్ చేయవచ్చు.</string>
     <string name="preview_unavailable">ప్రివ్యూ అందుబాటులో లేదు</string>
     <string name="download_attachment">అటాచ్మెంట్ డౌన్‌లోడ్ చేయి</string>
@@ -1334,7 +1334,7 @@
     <string name="billing_rate_per_year">%1$s / సంవత్సరం</string>
     <string name="billing_rate_per_month">%1$s / నెల</string>
     <string name="manage_plan">ప్లాన్ నిర్వహించు</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">మీ సభ్యత్వ ప్లాన్‌ను Bitwarden వెబ్ యాప్‌లో నిర్వహించండి.</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">మీ సభ్యత్వ ప్లాన్‌ను Multipass వెబ్ యాప్‌లో నిర్వహించండి.</string>
     <string name="cancel_premium">ప్రీమియం రద్దు చేయి</string>
     <string name="subscription_status_active">యాక్టివ్</string>
     <string name="subscription_status_canceled">రద్దు చేయబడింది</string>
@@ -1425,8 +1425,8 @@
     <string name="local_network_access_required">లోకల్ నెట్‌వర్క్ ప్రాప్యత అవసరం</string>
     <string name="ask_again_later">తర్వాత మళ్లీ అడగండి</string>
     <string name="enable_local_network_access">లోకల్ నెట్‌వర్క్ ప్రాప్యత ప్రారంభించు</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden మీ సర్వర్‌తో సింక్ చేయడానికి లోకల్ నెట్‌వర్క్ ప్రాప్యత అవసరం. ఈ అనుమతి లేకుండా, యాప్ కనెక్ట్ అవ్వలేరు.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ఈ అనుమతి లేకుండా, Bitwarden కనెక్ట్ అవ్వలేరు మరియు మీ సర్వర్‌తో సింక్ చేయలేరు. మీరు దీన్ని మీ పరికర సెట్టింగ్‌లలో ప్రారంభించవచ్చు.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass మీ సర్వర్‌తో సింక్ చేయడానికి లోకల్ నెట్‌వర్క్ ప్రాప్యత అవసరం. ఈ అనుమతి లేకుండా, యాప్ కనెక్ట్ అవ్వలేరు.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ఈ అనుమతి లేకుండా, Multipass కనెక్ట్ అవ్వలేరు మరియు మీ సర్వర్‌తో సింక్ చేయలేరు. మీరు దీన్ని మీ పరికర సెట్టింగ్‌లలో ప్రారంభించవచ్చు.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">యాప్‌కు లోకల్ నెట్‌వర్క్ ప్రాప్యత అవసరం కాబట్టి మీ అభ్యర్థన అంతరాయం కలిగింది. మీరు దీన్ని మీ పరికర సెట్టింగ్‌లలో ప్రారంభించవచ్చు.</string>
     <string name="continue_to_stripe">Stripeకి కొనసాగించాలా?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">మీ సభ్యత్వ రద్దును నిర్వహించడానికి మిమ్మల్ని Stripeకి తీసుకెళతారు.</string>

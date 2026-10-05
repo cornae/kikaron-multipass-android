@@ -75,9 +75,9 @@
     <string name="yes">Taip</string>
     <string name="account">Paskyra</string>
     <string name="account_created_success">Jūsų nauja paskyra sukurta!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Nustatykite „Bitwarden“ kaip prieigos raktų teikėją įrenginio nustatymuose.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Nustatykite „Multipass“ kaip prieigos raktų teikėją įrenginio nustatymuose.</string>
     <string name="avoid_ambiguous_characters">Vengti dviprasmiškų simbolių</string>
-    <string name="bitwarden_autofill_service">„Bitwarden“ automatinio užpildymo paslauga</string>
+    <string name="bitwarden_autofill_service">„Multipass“ automatinio užpildymo paslauga</string>
     <string name="change_master_password">Keisti pagrindinį slaptažodį</string>
     <string name="close">Uždaryti</string>
     <string name="close_app">Uždaryti programą</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Nustatyti sesijos pabaigos veiksmą į „Atsijungti“?</string>
     <string name="vault_timeout_log_out_confirmation_message">Pasibaigus laikui, būsite atjungti. Norėdami vėl prisijungti ir pasiekti savo saugyklą, turėsite būti prisijungę prie interneto. Jūsų nustatymai ir PIN kodas, išsaugoti šiame įrenginyje, nepasikeis.</string>
     <string name="logging_in">Prisijungiama…</string>
-    <string name="login_to_bitwarden">Prisijungti prie „Bitwarden“</string>
+    <string name="login_to_bitwarden">Prisijungti prie „Multipass“</string>
     <string name="master_password_confirmation_val_message">Slaptažodžio patvirtinimas neteisingas.</string>
     <string name="master_password_description">Pagrindinis slaptažodis yra slaptažodis, kurį naudojate norėdami pasiekti savo saugyklą. Labai svarbu nepamiršti pagrindinio slaptažodžio. Negalėsite atkurti slaptažodį, jei jį pamiršote.</string>
     <string name="master_password_hint">Pagrindinio slaptažodžio užuomina (neprivaloma)</string>
@@ -171,14 +171,14 @@
     <string name="view_identity">Peržiūrėti tapatybę</string>
     <string name="view_note">Peržiūrėti užrašą</string>
     <string name="view_ssh_key">Peržiūrėti SSH raktą</string>
-    <string name="web_vault">„Bitwarden“ žiniatinklio saugykla</string>
+    <string name="web_vault">„Multipass“ žiniatinklio saugykla</string>
     <string name="items">Elementai</string>
     <string name="items_for_uri">Elementai %1$s</string>
     <string name="no_items_for_uri">Jūsų saugykloje nėra jokių elementų %1$s.</string>
     <string name="no_items_for_vault">Jūsų saugykloje nėra elementų, atitinkančių „%1$s“</string>
     <string name="search_for_a_login_or_add_a_new_login">Ieškoti prisijungimo arba pridėti naują prisijungimą</string>
     <string name="disabled">Išjungta</string>
-    <string name="bitwarden_autofill_service_alert2">Lengviausias būdas pridėti naujus prisijungimus prie saugyklos yra naudojant „Bitwarden“ automatinio pildymo paslaugą. Daugiau apie „Bitwarden“ automatinio pildymo paslaugos naudojimą sužinokite eidami į ekraną „Nustatymai“.</string>
+    <string name="bitwarden_autofill_service_alert2">Lengviausias būdas pridėti naujus prisijungimus prie saugyklos yra naudojant „Multipass“ automatinio pildymo paslaugą. Daugiau apie „Multipass“ automatinio pildymo paslaugos naudojimą sužinokite eidami į ekraną „Nustatymai“.</string>
     <string name="autofill_noun">Automatinis pildymas</string>
     <string name="autofill_verb">Pildyti automatiškai</string>
     <string name="autofill_or_view">Ar norite automatiškai užpildyti ar peržiūrėti šį elementą?</string>
@@ -230,7 +230,7 @@ Nuskaitymas vyks automatiškai.</string>
     <string name="environment_saved">Aplinkos URL buvo išsaugoti.</string>
     <string name="identity_url">Tapatybės serverio URL</string>
     <string name="self_hosted_environment">Savarankiška aplinka</string>
-    <string name="self_hosted_environment_footer">Nurodykite bazinį vietinio priglobto „Bitwarden“ diegimo URL.</string>
+    <string name="self_hosted_environment_footer">Nurodykite bazinį vietinio priglobto „Multipass“ diegimo URL.</string>
     <string name="server_url">Serverio URL - \"nuoroda\"</string>
     <string name="web_vault_url">Žiniatinklio saugyklos serverio URL</string>
     <string name="custom_fields">Papildomi laukai</string>
@@ -300,7 +300,7 @@ Nuskaitymas vyks automatiškai.</string>
     <string name="no_items_folder">Šiame aplanke elementų nėra.</string>
     <string name="no_items_trash">Šiukšliadėžėje elementų nėra.</string>
     <string name="autofill_accessibility_summary">Padėti pildyti vartotojo vardo ir slaptažodžio laukus kitose programose ir internete.</string>
-    <string name="autofill_service_description">„Bitwarden“ automatinio pildymo paslauga naudoja „Android“ automatinio pildymo sistemą, kad padėtų užpildyti prisijungimo informaciją į kitas jūsų įrenginio programas.</string>
+    <string name="autofill_service_description">„Multipass“ automatinio pildymo paslauga naudoja „Android“ automatinio pildymo sistemą, kad padėtų užpildyti prisijungimo informaciją į kitas jūsų įrenginio programas.</string>
     <string name="bitwarden_autofill_go_to_settings">Negalėjome automatiškai atidaryti „Android“ automatinio pildymo nustatymų meniu. Automatinio pildymo nustatymų meniu galite naršyti rankiniu būdu iš „Android“ nustatymų &gt; Sistema &gt; Kalbos ir įvestis &gt; Išsamiau &gt; Automatinio pildymo paslauga.</string>
     <string name="custom_field_name">Pasirinktinio lauko pavadinimas</string>
     <string name="field_type_boolean">Dvejetainiai veiksmai</string>
@@ -377,7 +377,7 @@ Nuskaitymas vyks automatiškai.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Atrakinti</string>
     <string name="thirty_minutes">30 minučių</string>
-    <string name="set_pin_description">Nustatykite savo PIN kodą, kad atrakintumėte „Bitwarden“. Jūsų PIN nustatymai bus nustatyti iš naujo, jei kada nors visiškai atsijungsite nuo programos.</string>
+    <string name="set_pin_description">Nustatykite savo PIN kodą, kad atrakintumėte „Multipass“. Jūsų PIN nustatymai bus nustatyti iš naujo, jei kada nors visiškai atsijungsite nuo programos.</string>
     <string name="logged_in_as_on">Prisijungęs kaip %1$s %2$s.</string>
     <string name="vault_locked_master_password">Jūsų saugykla užrakinta. Norėdami tęsti, patikrinkite pagrindinį slaptažodį.</string>
     <string name="vault_locked_pin">Jūsų saugykla užrakinta. Norėdami tęsti, patikrinkite pagrindinį slaptažodį.</string>
@@ -391,7 +391,7 @@ Nuskaitymas vyks automatiškai.</string>
     <string name="clear_clipboard">Išvalyti iškarpinę</string>
     <string name="clear_clipboard_description">Automatiškai išvalyti nukopijuotas reikšmes iškarpinėje.</string>
     <string name="default_uri_match_detection">Numatytasis URI atitikties aptikimas</string>
-    <string name="default_uri_match_detection_description">URI atitikimo aptikimas valdo, kaip „Bitwarden“ atpažįsta automatinio užpildymo pasiūlymus.</string>
+    <string name="default_uri_match_detection_description">URI atitikimo aptikimas valdo, kaip „Multipass“ atpažįsta automatinio užpildymo pasiūlymus.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Pakeisti programos spalvų temą</string>
     <string name="copy_notes">Kopijuoti pastabas</string>
@@ -427,7 +427,7 @@ Nuskaitymas vyks automatiškai.</string>
     <string name="password_generator_policy_in_effect">Viena ar daugiau organizacijos strategijų turi įtakos jūsų generatoriaus nustatymams</string>
     <string name="unable_to_save_attachment">Išsaugant šį priedą kilo problema. Jei problema išlieka, galite ją išsaugoti žiniatinklio saugykloje.</string>
     <string name="save_attachment_success">Priedas sėkmingai išsaugotas</string>
-    <string name="autofill_tile_accessibility_required">Norėdami naudoti automatinio pildymo plytelę, įjunkite „Automatinio pildymo prieinamumo paslaugą“ iš „Bitwarden“ nustatymų.</string>
+    <string name="autofill_tile_accessibility_required">Norėdami naudoti automatinio pildymo plytelę, įjunkite „Automatinio pildymo prieinamumo paslaugą“ iš „Multipass“ nustatymų.</string>
     <string name="autofill_tile_uri_not_found">Slaptažodžio laukų neaptikta</string>
     <string name="soft_deleting">Perkeliama į šiukšlinę…</string>
     <string name="item_soft_deleted">Elementas išsiųstas į šiukšliadėžę.</string>
@@ -644,9 +644,9 @@ pasirinkite Pridėti TOTP, kad raktas būtų saugiai išsaugotas</string>
     <string name="catch_all_email_description">Naudokite savo domeno sukonfigūruotą bendrąjį pašto dėžutę.</string>
     <string name="forwarded_email_description">Sukurkite elektroninio pašto slapyvardį naudodami išorinę persiuntimo paslaugą.</string>
     <string name="accessibility_service_disclosure">Prieinamumo paslaugos atskleidimas</string>
-    <string name="accessibility_disclosure_text">„Bitwarden“ naudoja pritaikymo neįgaliesiems paslaugą, kad ieškotų prisijungimo laukų programose ir svetainėse, tada nustato atitinkamus lauko ID, kad būtų įvestas vartotojo vardas ir slaptažodis, kai randama programos ar svetainės atitiktis. Mes nesaugome jokios informacijos, kurią mums teikia paslauga, ir nesistengiame valdyti jokių ekrano elementų, išskyrus teksto įvedimo kredencialus.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Šis pranešimas yra būtinas prieš „Bitwarden“ siūlant automatinį pildymą, pagrįstą prieinamumu.</string>
-    <string name="accessibility_disclosure_start_up_text_2">„Bitwarden“ siūlo pasirenkamą automatinio pildymo metodą, kuris naudoja „Android“ prieinamumo paslaugą prisijungimo laukams aptikti. Jei jį įjungsite, „Bitwarden“ nustatys atitinkamus laukus ir, radęs atitikmenį, užpildys jūsų prisijungimo duomenis.</string>
+    <string name="accessibility_disclosure_text">„Multipass“ naudoja pritaikymo neįgaliesiems paslaugą, kad ieškotų prisijungimo laukų programose ir svetainėse, tada nustato atitinkamus lauko ID, kad būtų įvestas vartotojo vardas ir slaptažodis, kai randama programos ar svetainės atitiktis. Mes nesaugome jokios informacijos, kurią mums teikia paslauga, ir nesistengiame valdyti jokių ekrano elementų, išskyrus teksto įvedimo kredencialus.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Šis pranešimas yra būtinas prieš „Multipass“ siūlant automatinį pildymą, pagrįstą prieinamumu.</string>
+    <string name="accessibility_disclosure_start_up_text_2">„Multipass“ siūlo pasirenkamą automatinio pildymo metodą, kuris naudoja „Android“ prieinamumo paslaugą prisijungimo laukams aptikti. Jei jį įjungsite, „Multipass“ nustatys atitinkamus laukus ir, radęs atitikmenį, užpildys jūsų prisijungimo duomenis.</string>
     <string name="accessibility_disclosure_start_up_text_3">Nekeičiame jokios informacijos apie tai, kas rodoma ekrane, kai naudojate prieinamumo paslaugą, ir nekontroliuojame jokių ekrano elementų, išskyrus prisijungimo duomenų įvedimą.</string>
     <string name="i_understand">Suprantu</string>
     <string name="accept">Priimti</string>
@@ -655,7 +655,7 @@ pasirinkite Pridėti TOTP, kad raktas būtų saugiai išsaugotas</string>
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Bandymas prisijungti iš:
 %1$s
 Ar norite pereiti prie šios paskyros?</string>
-    <string name="new_to_bitwarden">Naujas „Bitwarden“?</string>
+    <string name="new_to_bitwarden">Naujas „Multipass“?</string>
     <string name="get_master_passwordword_hint">Gauti pagrindinio slaptažodžio užuominą</string>
     <string name="logging_in_as_x_on_y">Prisijungiama kaip %1$s įrenginyje %2$s</string>
     <string name="not_you">Ne jūs?</string>
@@ -712,7 +712,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="invalid_uri">Netinkamas URI</string>
     <string name="the_urix_is_already_blocked">URI %1$s jau yra užblokuotas</string>
     <string name="login_approved">Prisijungimas patvirtintas</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Prisijungimas naudojant įrenginį turi būti nustatytas „Bitwarden“ programos nustatymuose.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Prisijungimas naudojant įrenginį turi būti nustatytas „Multipass“ programos nustatymuose.</string>
     <string name="need_another_option_view_all_login_options">Reikia kitos parinkties? <annotation link="viewAll">Peržiūrėti visas prisijungimo parinktis</annotation></string>
     <string name="log_in_with_device">Prisijunkite naudodami įrenginį</string>
     <string name="logging_in_on">Prisijungiama prie</string>
@@ -721,14 +721,14 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="select_vault">Pasirinkti saugyklą</string>
     <string name="appearance">Išvaizda</string>
     <string name="account_security">Paskyros saugumas</string>
-    <string name="bitwarden_help_center">Bitwarden Help Center</string>
+    <string name="bitwarden_help_center">Multipass Help Center</string>
     <string name="sync_now">Sinchronizuoti dabar</string>
     <string name="unlock_options">Atrakinimo parinktys</string>
     <string name="session_timeout">Sesijos laikas</string>
     <string name="session_timeout_action">Sesijos pabaigos veiksmas</string>
     <string name="account_fingerprint_phrase">Paskyros piršto atspaudo frazė</string>
-    <string name="passkey_management_explanation_long">Naudokite „Bitwarden“, kad išsaugotumėte naujus prieigos raktus ir prisijungtumėte naudodami saugykloje saugomus prieigos raktus.</string>
-    <string name="autofill_services_explanation_long">Leiskite „Bitwarden“ naudoti jūsų išsaugotą prisijungimo informaciją, kad prisijungtumėte prie kitų įrenginio programų.</string>
+    <string name="passkey_management_explanation_long">Naudokite „Multipass“, kad išsaugotumėte naujus prieigos raktus ir prisijungtumėte naudodami saugykloje saugomus prieigos raktus.</string>
+    <string name="autofill_services_explanation_long">Leiskite „Multipass“ naudoti jūsų išsaugotą prisijungimo informaciją, kad prisijungtumėte prie kitų įrenginio programų.</string>
     <string name="use_inline_autofill_explanation_long">Pasirinkite, kaip jūsų automatinio pildymo pasiūlymai atrodys, kai prisijungsite prie kitų įrenginio programų.</string>
     <string name="additional_options">Papildomos parinktys</string>
     <string name="continue_to_web_app">Tęsti internetinėje programoje?</string>
@@ -736,12 +736,12 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="continue_to_help_center">Tęsti pagalbos centre?</string>
     <string name="continue_to_privacy_policy">Tęsti privatumo politiką?</string>
     <string name="continue_to_device_settings">Tęsti įrenginio nustatymuose?</string>
-    <string name="two_step_login_description_long">Padidinkite savo paskyros saugumą, nustatydami dviejų veiksnių prisijungimą „Bitwarden“ internetinėje programoje.</string>
-    <string name="change_master_password_description_long">Savo pagrindinį slaptažodį galite pakeisti „Bitwarden“ internetinėje programoje.</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Sužinokite daugiau apie tai, kaip naudoti „Bitwarden“ pagalbos centre.</string>
+    <string name="two_step_login_description_long">Padidinkite savo paskyros saugumą, nustatydami dviejų veiksnių prisijungimą „Multipass“ internetinėje programoje.</string>
+    <string name="change_master_password_description_long">Savo pagrindinį slaptažodį galite pakeisti „Multipass“ internetinėje programoje.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Sužinokite daugiau apie tai, kaip naudoti „Multipass“ pagalbos centre.</string>
     <string name="privacy_policy_description_long">Peržiūrėkite mūsų privatumo politiką bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Naršykite daugiau „Bitwarden“ paskyros funkcijų internetinėje programoje.</string>
-    <string name="learn_about_organizations_description_long">„Bitwarden“ leidžia dalytis saugyklos elementais su kitais naudojant organizaciją. Daugiau sužinokite bitwarden.com svetainėje.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Naršykite daugiau „Multipass“ paskyros funkcijų internetinėje programoje.</string>
+    <string name="learn_about_organizations_description_long">„Multipass“ leidžia dalytis saugyklos elementais su kitais naudojant organizaciją. Daugiau sužinokite bitwarden.com svetainėje.</string>
     <string name="created_x">Sukurta %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Jūsų organizacijos nuostatos reikalauja Jus nustatyti pagrindinį slaptažodį.</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">Nustatykite atrakinimo būdą, kad pakeistumėte Jūsų saugyklos laiko limito veiksmą.</string>
@@ -751,8 +751,8 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Tavo paskyrai reikalingas Duo dviejų veiksmų prisijungimas.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Vykdykite „Duo“ nurodytus veiksmus, kad užbaigtumėte prisijungimą.</string>
     <string name="launch_duo">Paleisti „Duo“</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Jūsų prieigos raktas bus išsaugotas jūsų „Bitwarden“ saugykloje, skirtas %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Jūsų slaptažodis bus išsaugotas jūsų „Bitwarden“ saugykloje, skirtas %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Jūsų prieigos raktas bus išsaugotas jūsų „Multipass“ saugykloje, skirtas %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Jūsų slaptažodis bus išsaugotas jūsų „Multipass“ saugykloje, skirtas %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Šiai programai prieigos raktai nepalaikomi</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Prieigos rakto operacija nepavyko, nes naršyklė neturi privilegijų</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Prieigos rakto operacija nepavyko, nes naršyklės parašas neatitinka</string>
@@ -778,15 +778,15 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="check_your_email">Patikrinkite savo el. paštą</string>
     <string name="open_email_app">Atidaryti el. pašto programą</string>
     <string name="email_verified">Patvirtintas el. paštas</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Gaukite el. laiškus iš „Bitwarden“ su pranešimais, patarimais ir galimybėmis dalyvauti tyrimuose. <annotation link="unsubscribe">Atsisakyti prenumeratos</annotation> galite bet kada.</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Gaukite el. laiškus iš „Multipass“ su pranešimais, patarimais ir galimybėmis dalyvauti tyrimuose. <annotation link="unsubscribe">Atsisakyti prenumeratos</annotation> galite bet kada.</string>
     <string name="security_prioritized">Saugumas, kaip prioritetas</string>
-    <string name="welcome_message_1">Išsaugokite prisijungimus, korteles ir tapatybes savo saugioje saugykloje. „Bitwarden“ naudoja nulinio žinojimo, galinio-galio šifravimą, kad apsaugotų tai, kas jums svarbu.</string>
+    <string name="welcome_message_1">Išsaugokite prisijungimus, korteles ir tapatybes savo saugioje saugykloje. „Multipass“ naudoja nulinio žinojimo, galinio-galio šifravimą, kad apsaugotų tai, kas jums svarbu.</string>
     <string name="welcome_message_2">Nustatykite atrakinimą biometrija ir automatinį pildymą, kad galėtumėte prisijungti prie paskyrų neįvesdami nė vienos raidės.</string>
     <string name="quick_and_easy_login">Greitas ir paprastas prisijungimas</string>
     <string name="level_up_your_logins">Patobulinkite savo prisijungimus</string>
     <string name="welcome_message_3">Naudokite generatorių, kad sukurtumėte ir išsaugotumėte stiprius, unikalius slaptažodžius visoms savo paskyroms.</string>
     <string name="your_data_when_and_where_you_need_it">Jūsų duomenys, kada ir kur jų reikia</string>
-    <string name="welcome_message_4">Išsaugokite neribotą kiekį slaptažodžių neribotame įrenginių skaičiuje naudodami „Bitwarden“ mobiliąsias, naršyklės ir darbalaukio programas.</string>
+    <string name="welcome_message_4">Išsaugokite neribotą kiekį slaptažodžių neribotame įrenginių skaičiuje naudodami „Multipass“ mobiliąsias, naršyklės ir darbalaukio programas.</string>
     <string name="remove_passkey">Pašalinti slaptaraktį</string>
     <string name="passkey_removed">Pašalintas slaptaraktis</string>
     <string name="what_makes_a_password_strong">Kas daro slaptažodį stiprų?</string>
@@ -816,8 +816,8 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Spustelėkite nuorodą el. laiške, kad patvirtintumėte savo el. pašto adresą ir tęstumėte paskyros kūrimą.</string>
     <string name="change_email_address">Pakeisti el. pašto adresą</string>
     <string name="next">Kitas</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">„Bitwarden“ negali atkurti pamiršto ar prarasto pagrindinio slaptažodžio.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">„Bitwarden“ negali atkurti pamiršto ar prarasto pagrindinio slaptažodžio.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">„Multipass“ negali atkurti pamiršto ar prarasto pagrindinio slaptažodžio.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">„Multipass“ negali atkurti pamiršto ar prarasto pagrindinio slaptažodžio.</string>
     <string name="choose_your_master_password">Pasirinkite savo pagrindinį slaptažodį</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Pasirinkite unikalų ir stiprų slaptažodį, kad jūsų informacija būtų saugi.</string>
     <plurals name="minimum_characters">
@@ -835,16 +835,16 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="turn_on_autofill">Įjungti automatinį pildymą</string>
     <string name="autofill_setup">Automatinio pildymo nustatymas</string>
     <string name="turn_on_browser_autofill_integration">Įjungti naršyklės automatinio pildymo integraciją</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Naudojate naršyklę, kuriai reikalingi specialūs leidimai, kad „Bitwarden“ galėtų automatiškai užpildyti jūsų slaptažodžius.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Naudojate naršykles, kurioms reikalingi specialūs leidimai, kad „Bitwarden“ galėtų automatiškai užpildyti jūsų slaptažodžius.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Naudojate naršyklę, kuriai reikalingi specialūs leidimai, kad „Bitwarden“ galėtų automatiškai užpildyti jūsų slaptažodžius. Žemiau įjunkite norimą automatinio pildymo integraciją.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Naudojate naršykles, kurioms reikalingi specialūs leidimai, kad „Bitwarden“ galėtų automatiškai užpildyti jūsų slaptažodžius. Norėdami tęsti, įjunkite automatinį pildymą visose įdiegtose naršyklėse.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Naudojate naršyklę, kuriai reikalingi specialūs leidimai, kad „Multipass“ galėtų automatiškai užpildyti jūsų slaptažodžius.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Naudojate naršykles, kurioms reikalingi specialūs leidimai, kad „Multipass“ galėtų automatiškai užpildyti jūsų slaptažodžius.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Naudojate naršyklę, kuriai reikalingi specialūs leidimai, kad „Multipass“ galėtų automatiškai užpildyti jūsų slaptažodžius. Žemiau įjunkite norimą automatinio pildymo integraciją.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Naudojate naršykles, kurioms reikalingi specialūs leidimai, kad „Multipass“ galėtų automatiškai užpildyti jūsų slaptažodžius. Norėdami tęsti, įjunkite automatinį pildymą visose įdiegtose naršyklėse.</string>
     <string name="use_autofill_to_log_into_your_accounts">Naudokite automatinį pildymą, kad vienu bakstelėjimu prisijungtumėte prie savo paskyrų.</string>
     <string name="turn_on_later">Įjungti vėliau</string>
     <string name="turn_on_autofill_later">Įjungti automatinį pildymą vėliau?</string>
     <string name="turn_on_browser_autofill_integration_later">Įjungti naršyklės automatinio pildymo integraciją vėliau?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Galite grįžti ir užbaigti šį veiksmą bet kada skiltyje „Nustatymai“.</string>
-    <string name="what_bitwarden_has_to_offer">Dabar galite išbandyti viską, ką siūlo „Bitwarden“, ir pradėti saugiai tvarkyti savo slaptažodžius.</string>
+    <string name="what_bitwarden_has_to_offer">Dabar galite išbandyti viską, ką siūlo „Multipass“, ir pradėti saugiai tvarkyti savo slaptažodžius.</string>
     <string name="youre_all_set">Viskas paruošta!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Klaida prijungiant su „Duo“ paslauga. Naudokite kitą dvigubo prisijungimo būdą arba susisiekite su „Duo“ dėl pagalbos.</string>
     <string name="master_password_hint_not_specified">Pagrindinio slaptažodžio užuomina</string>
@@ -863,7 +863,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="do_you_have_a_computer_available">Ar turite prieinamą kompiuterį?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Toliau pateiktos instrukcijos padės jums importuoti prisijungimus iš jūsų stalinio ar nešiojamojo kompiuterio</string>
     <string name="import_logins">Importuoti prisijungimus</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Savo kompiuteryje vykdykite šias instrukcijas, kad eksportuotumėte išsaugotus slaptažodžius iš naršyklės ar kitos slaptažodžių tvarkyklės. Tada saugiai importuokite juos į „Bitwarden“.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Savo kompiuteryje vykdykite šias instrukcijas, kad eksportuotumėte išsaugotus slaptažodžius iš naršyklės ar kitos slaptažodžių tvarkyklės. Tada saugiai importuokite juos į „Multipass“.</string>
     <string name="give_your_vault_a_head_start">Suteikite savo saugyklai pranašumą</string>
     <string name="class_3_biometrics_description">Atrakinimui naudojant biometriją reikalingas stiprus biometrinis autentifikavimas ir jis gali būti nesuderinamas su visomis šio įrenginio biometrinėmis parinktimis.</string>
     <string name="class_2_biometrics_description">Atrakinimui naudojant biometriją reikalingas stiprus biometrinis autentifikavimas ir jis nėra suderinamas su šiame įrenginyje esančiomis biometrinėmis parinktimis.</string>
@@ -874,28 +874,28 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="export_your_saved_logins">Eksportuokite savo išsaugotus prisijungimus</string>
     <string name="delete_this_file_after_import_is_complete">Ištrinsite šį failą, kai importas bus baigtas.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Savo kompiuteryje atidarykite naują naršyklės skirtuką ir <annotation emphasis="bold">eikite į <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Prisijunkite prie „Bitwarden“ internetinės programos.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Prisijunkite prie „Multipass“ internetinės programos.</string>
     <string name="step_2_of_3">2 veiksmas iš 3</string>
-    <string name="log_in_to_bitwarden">Prisijungti prie „Bitwarden“</string>
+    <string name="log_in_to_bitwarden">Prisijungti prie „Multipass“</string>
     <string name="step_3_of_3">3 veiksmas iš 3</string>
-    <string name="import_logins_to_bitwarden">Importuoti prisijungimus į „Bitwarden“</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">„Bitwarden“ naršymo srityje <annotation emphasis="bold">raskite parinktį Įrankiai</annotation> ir <annotation emphasis="bold">pasirinkite Importuoti duomenis.</annotation></string>
+    <string name="import_logins_to_bitwarden">Importuoti prisijungimus į „Multipass“</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">„Multipass“ naršymo srityje <annotation emphasis="bold">raskite parinktį Įrankiai</annotation> ir <annotation emphasis="bold">pasirinkite Importuoti duomenis.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Užpildykite formą ir <annotation emphasis="bold">importuokite savo išsaugotą slaptažodžių failą.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Dėl savo saugumo būtinai <annotation emphasis="bold">ištrinkite savo išsaugotą slaptažodžių failą.</annotation></string>
     <string name="need_help_check_out_import_help">Reikia pagalbos? Peržiūrėkite <annotation link="importHelp">importo pagalbą</annotation>.</string>
     <string name="import_help">importo pagalba</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Išsaugokite eksportuotą failą</annotation> savo kompiuteryje toje vietoje, kur lengvai jį rasite.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Tai nėra atpažintas „Bitwarden“ serveris. Gali tekti pasitikrinti pas savo teikėją arba atnaujinti savo serverį.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Tai nėra atpažintas „Multipass“ serveris. Gali tekti pasitikrinti pas savo teikėją arba atnaujinti savo serverį.</string>
     <string name="syncing_logins_loading_message">Sinchronizuojami prisijungimai…</string>
     <string name="download_the_browser_extension">Atsisiųskite naršyklės plėtinį</string>
-    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Eikite į bitwarden.com/download, kad integruotumėte „Bitwarden“ į savo mėgstamą naršyklę, kad patirtis būtų sklandi.</string>
+    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Eikite į bitwarden.com/download, kad integruotumėte „Multipass“ į savo mėgstamą naršyklę, kad patirtis būtų sklandi.</string>
     <string name="use_the_web_app">Naudoti internetinę programą</string>
     <string name="log_in_at_bitwarden_com_to_easily_manage_your_account">Prisijunkite bitwarden.com, kad lengvai tvarkytumėte savo paskyrą ir atnaujintumėte nustatymus.</string>
     <string name="autofill_passwords">Automatinis slaptažodžių pildymas</string>
     <string name="set_up_autofill_on_all_your_devices">Nustatykite automatinį pildymą visuose savo įrenginiuose, kad galėtumėte prisijungti vienu bakstelėjimu bet kur.</string>
     <string name="import_successful">Importas sėkmingas!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Tvarkykite savo prisijungimus iš bet kurios vietos naudodami „Bitwarden“ įrankius, skirtus žiniatinkliui ir darbalaukiui.</string>
-    <string name="bitwarden_tools">„Bitwarden“ įrankiai</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Tvarkykite savo prisijungimus iš bet kurios vietos naudodami „Multipass“ įrankius, skirtus žiniatinkliui ir darbalaukiui.</string>
+    <string name="bitwarden_tools">„Multipass“ įrankiai</string>
     <string name="got_it">Supratau</string>
     <string name="no_logins_were_imported">Nebuvo importuota jokių prisijungimų</string>
     <string name="import_error">Importavimo klaida</string>
@@ -915,7 +915,7 @@ Ar norite pereiti prie šios paskyros?</string>
         <item quantity="other">%d pranešimų</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Greitai ir lengvai prisijunkite įvairiuose įrenginiuose</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">„Bitwarden“ gali jums pranešti kiekvieną kartą, kai gaunate naują prisijungimo užklausą iš kito įrenginio.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">„Multipass“ gali jums pranešti kiekvieną kartą, kai gaunate naują prisijungimo užklausą iš kito įrenginio.</string>
     <string name="skip_for_now">Praleisti dabar</string>
     <string name="done_text">Atlikta</string>
     <string name="page_number_x_of_y">%1$s iš %2$s</string>
@@ -940,7 +940,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Pridėkite skaičių ar simbolį</annotation>, kad jis būtų dar stipresnis. Dabar turite unikalią, saugią ir įsimenamą slaptafrazę!</string>
     <string name="need_some_inspiration">Reikia įkvėpimo?</string>
     <string name="check_out_the_passphrase_generator">Peržiūrėkite slaptafrazių generatorių</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Nepavyko patvirtinti serverio sertifikato. Sertifikatų grandinė arba tarpinio serverio nustatymai jūsų įrenginyje arba „Bitwarden“ serveryje gali būti sukonfigūruoti neteisingai.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Nepavyko patvirtinti serverio sertifikato. Sertifikatų grandinė arba tarpinio serverio nustatymai jūsų įrenginyje arba „Multipass“ serveryje gali būti sukonfigūruoti neteisingai.</string>
     <string name="copy_private_key">Kopijuoti privatų raktą</string>
     <string name="login_credentials">Prisijungimo duomenys</string>
     <string name="autofill_options">Automatinio pildymo parinktys</string>
@@ -967,7 +967,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="coachmark_5_of_6">5 IŠ 6</string>
     <string name="coachmark_6_of_6">6 IŠ 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Naudokite šias parinktis, kad pritaikytumėte savo slaptažodį pagal paskyros svetainės reikalavimus.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Išsaugoję naują slaptažodį programoje „Bitwarden“, nepamirškite jį atnaujinti ir savo paskyros svetainėje.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Išsaugoję naują slaptažodį programoje „Multipass“, nepamirškite jį atnaujinti ir savo paskyros svetainėje.</string>
     <string name="verify_your_identity">Patvirtinkite savo tapatybę</string>
     <string name="error_loading_certificate">Klaida įkeliant sertifikatą</string>
     <string name="certificate_alias">Sertifikato pseudonimas</string>
@@ -978,7 +978,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="unsupported_certificate_type">Nepalaikomas sertifikato tipas</string>
     <string name="certificate_password_incorrect">Sertifikato slaptažodis neteisingas</string>
     <string name="invalid_certificate_chain">Netinkama sertifikatų grandinė</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistemos sertifikato naudojimas yra mažiau saugus nei sertifikato saugojimas su „Bitwarden“. Tęsiant bus rodomas galimų sistemos sertifikatų sąrašas, jei toks jau yra įdiegtas.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistemos sertifikato naudojimas yra mažiau saugus nei sertifikato saugojimas su „Multipass“. Tęsiant bus rodomas galimų sistemos sertifikatų sąrašas, jei toks jau yra įdiegtas.</string>
     <string name="link">Nuoroda</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Prieigos rakto operacija nepavyko, nes užklausoje nėra pagrindinio kompiuterio URL.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Prieigos rakto operacija nepavyko, nes programos parašas netinkamas.</string>
@@ -1016,8 +1016,8 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="experiencing_an_issue">Susidūrėte su problema?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">Įjunkite laikiną registravimą, kad galėtumėte rinkti ir peržiūrėti žurnalus vietoje. Kai įjungta, gali būti registruojamos programos būsenos ir tinklo užklausos – niekada jautri saugyklos informacija.</string>
     <string name="to_get_started_set_a_logging_duration">Norėdami pradėti, nustatykite registravimo trukmę. Registravimas automatiškai išsijungs pasibaigus šiam laikotarpiui, suteikdamas jums laiko užfiksuoti veiklą atkuriant problemas.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Žurnalai bus automatiškai ištrinti po 30 dienų. „Bitwarden“ gali pasiekti jūsų žurnalo duomenis tik tada, kai juos bendrinate.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">Išsamią informaciją apie tai, kas ir kas nėra registruojama, rasite\n<annotation link="helpCenter">„Bitwarden“ pagalbos centre.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Žurnalai bus automatiškai ištrinti po 30 dienų. „Multipass“ gali pasiekti jūsų žurnalo duomenis tik tada, kai juos bendrinate.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">Išsamią informaciją apie tai, kas ir kas nėra registruojama, rasite\n<annotation link="helpCenter">„Multipass“ pagalbos centre.</annotation></string>
     <string name="logging_duration">Registravimo trukmė</string>
     <string name="flight_recorder_one_hour">1 valanda</string>
     <string name="flight_recorder_eight_hours">8 valandos</string>
@@ -1048,29 +1048,29 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="unable_to_read_certificate">Nepavyko nuskaityti sertifikato.</string>
     <string name="cannot_delete_your_account">Negalima ištrinti jūsų paskyros</string>
     <string name="cannot_delete_your_account_explanation">Šio veiksmo atlikti negalima, nes jūsų paskyra priklauso organizacijai. Dėl išsamesnės informacijos kreipkitės į savo organizacijos administratorių.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Ši paskyra netrukus bus ištrinta. Prisijunkite adresu %1$s, kad galėtumėte toliau naudotis „Bitwarden“.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Ši paskyra netrukus bus ištrinta. Prisijunkite adresu %1$s, kad galėtumėte toliau naudotis „Multipass“.</string>
     <string name="view_file_send">Peržiūrėti failo siuntimą</string>
     <string name="view_text_send">Peržiūrėti teksto siuntimą</string>
     <string name="delete_send">Ištrinti siuntinį</string>
     <string name="missing_send_resync_your_vault">Trūksta siuntimo – iš naujo sinchronizuokite savo saugyklą</string>
     <string name="use_dynamic_colors">Naudoti dinamines spalvas</string>
     <string name="use_dynamic_colors_question">Naudoti dinamines spalvas?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ši spalvų schema automatiškai pritaiko sistemos spalvas „Bitwarden“ pagal jūsų dabartinį darbalaukio foną. Šios spalvos gali neatitikti visų prieinamumo gairių.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ši spalvų schema automatiškai pritaiko sistemos spalvas „Multipass“ pagal jūsų dabartinį darbalaukio foną. Šios spalvos gali neatitikti visų prieinamumo gairių.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Prieigos rakto operacija nepavyko, nes naršyklė (%1$s) neatpažinta. Pasirinkite „Pasitikėti“, kad pridėtumėte %1$s prie vietoje patikimų programų sąrašo.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Prieigos rakto operacija nepavyko, nes naršyklė nėra patikima.</string>
     <string name="trust">Patikėti</string>
-    <string name="trusted_by_you_learn_more">Tai programos ar naršyklės, kuriomis „Bitwarden“ pagal numatytuosius nustatymus nepasitiki, bet jūs pasitikite, kad jos atliktų prieigos raktų operacijas.</string>
-    <string name="trusted_by_community_learn_more">Tai programos, neįtrauktos į „Google Play“ parduotuvę, tačiau „Bitwarden“ jomis pasitiki atlikti prieigos raktų operacijas, kai bendruomenės nariai jas naudoja ir praneša, kad jos yra saugios.</string>
+    <string name="trusted_by_you_learn_more">Tai programos ar naršyklės, kuriomis „Multipass“ pagal numatytuosius nustatymus nepasitiki, bet jūs pasitikite, kad jos atliktų prieigos raktų operacijas.</string>
+    <string name="trusted_by_community_learn_more">Tai programos, neįtrauktos į „Google Play“ parduotuvę, tačiau „Multipass“ jomis pasitiki atlikti prieigos raktų operacijas, kai bendruomenės nariai jas naudoja ir praneša, kad jos yra saugios.</string>
     <string name="trusted_by_google_learn_more">Tai programos, kurias „Google“ laiko saugiomis ir yra prieinamos „Google“ parduotuvėje „Play“. </string>
     <string name="trusted_by_you">Patikimas jūsų</string>
     <string name="trusted_by_the_community">Patikimas bendruomenės</string>
     <string name="trusted_by_google">Patikimas „Google“</string>
-    <string name="privileged_apps_description">Norėdami apsaugoti naudotojus nuo sukčiavimo bandymų, pagal numatytuosius nustatymus „Bitwarden“ atlieka prieigos raktų operacijas tik per programas ar žiniatinklio naršykles, kuriomis pasitiki „Google“ arba „Bitwarden“ bendruomenė.</string>
+    <string name="privileged_apps_description">Norėdami apsaugoti naudotojus nuo sukčiavimo bandymų, pagal numatytuosius nustatymus „Multipass“ atlieka prieigos raktų operacijas tik per programas ar žiniatinklio naršykles, kuriomis pasitiki „Google“ arba „Multipass“ bendruomenė.</string>
     <string name="about_privileged_applications">Apie privilegijuotąsias programas</string>
     <string name="learn_more_about_privileged_apps">Sužinoti daugiau apie privilegijuotąsias programas</string>
     <string name="privileged_apps">Privilegijuotosios programos</string>
     <string name="unrecognized_browser">Neatpažinta naršyklė</string>
-    <string name="learn_more_about_using_passkeys_with_bitwarden">Sužinokite daugiau apie prieigos raktų naudojimą su „Bitwarden“.</string>
+    <string name="learn_more_about_using_passkeys_with_bitwarden">Sužinokite daugiau apie prieigos raktų naudojimą su „Multipass“.</string>
     <string name="all_trusted_apps">Visos patikimos programos</string>
     <string name="are_you_sure_you_want_to_stop_trusting_x">Ar tikrai norite nebesitikėti %s?</string>
     <string name="installed_apps">Įdiegtos programos</string>
@@ -1100,7 +1100,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="information">Informacija</string>
     <string name="otp_type">OTP tipas</string>
     <string name="search_codes">Ieškoti kodų</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">Apsaugokite savo paskyras naudodami „Bitwarden“ autentifikatorių</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">Apsaugokite savo paskyras naudodami „Multipass“ autentifikatorių</string>
     <string name="get_verification_codes_for_all_your_accounts">Gaukite patikrinimo kodus visoms savo paskyroms, kurios palaiko dviejų veiksnių patikrą.</string>
     <string name="use_your_device_camera_to_scan_codes">Naudokite savo įrenginio kamerą kodams nuskaityti</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">Nuskaitykite QR kodą savo dviejų veiksnių patikros nustatymuose, skirtuose bet kuriai paskyrai.</string>
@@ -1121,7 +1121,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="too_many_failed_biometric_attempts">Per daug nesėkmingų biometrijos bandymų.</string>
     <string name="version">Versija</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">Versija: %1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">Sužinokite daugiau apie tai, kaip naudoti „Bitwarden“ autentifikatorių pagalbos centre.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">Sužinokite daugiau apie tai, kaip naudoti „Multipass“ autentifikatorių pagalbos centre.</string>
     <string name="key">Raktas</string>
     <string name="create_verification_code">Sukurti patikrinimo kodą</string>
     <string name="key_is_required">Raktas yra būtinas.</string>
@@ -1132,30 +1132,30 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="key_is_invalid">Raktas netinkamas.</string>
     <string name="backup">Atsarginė kopija</string>
     <string name="data_backup_title">Duomenų atsarginė kopija</string>
-    <string name="data_backup_message">„Bitwarden“ autentifikatoriaus duomenys yra atsargiai kopijuojami ir gali būti atkurti iš jūsų įrenginio įprastų atsarginių kopijų.</string>
+    <string name="data_backup_message">„Multipass“ autentifikatoriaus duomenys yra atsargiai kopijuojami ir gali būti atkurti iš jūsų įrenginio įprastų atsarginių kopijų.</string>
     <string name="import_2fas_password_protected_not_supported">Importas iš slaptažodžiu apsaugotų 2FAS failų nepalaikomas. Bandykite dar kartą su eksportuotu failu, kuris nėra apsaugotas slaptažodžiu.</string>
-    <string name="import_bitwarden_unsupported_format">„Bitwarden“ CSV failų importas nepalaikomas. Bandykite dar kartą su eksportuotu JSON failu.</string>
-    <string name="download_bitwarden_card_title">Atsisiųskite „Bitwarden“ programą</string>
+    <string name="import_bitwarden_unsupported_format">„Multipass“ CSV failų importas nepalaikomas. Bandykite dar kartą su eksportuotu JSON failu.</string>
+    <string name="download_bitwarden_card_title">Atsisiųskite „Multipass“ programą</string>
     <string name="download_bitwarden_card_message">Saugokite visus savo prisijungimus ir sinchronizuokite patikrinimo kodus tiesiogiai su autentifikatoriaus programa.</string>
     <string name="download_now">Atsisiųsti dabar</string>
-    <string name="sync_with_bitwarden_app">Sinchronizuoti su „Bitwarden“ programa</string>
+    <string name="sync_with_bitwarden_app">Sinchronizuoti su „Multipass“ programa</string>
     <string name="learn_more_link"><annotation link="learnMore">Sužinoti daugiau</annotation></string>
-    <string name="shared_codes_error">Nepavyko sinchronizuoti kodų iš „Bitwarden“ programos. Įsitikinkite, kad abi programos yra atnaujintos. Vis tiek galite pasiekti savo esamus kodus „Bitwarden“ programoje.</string>
-    <string name="sync_with_the_bitwarden_app">Sinchronizuoti su „Bitwarden“ programa</string>
+    <string name="shared_codes_error">Nepavyko sinchronizuoti kodų iš „Multipass“ programos. Įsitikinkite, kad abi programos yra atnaujintos. Vis tiek galite pasiekti savo esamus kodus „Multipass“ programoje.</string>
+    <string name="sync_with_the_bitwarden_app">Sinchronizuoti su „Multipass“ programa</string>
     <string name="sync_with_bitwarden_action_card_message">Leiskite autentifikatoriaus programos sinchronizavimą nustatymuose, kad čia matytumėte visus savo patikrinimo kodus.</string>
     <string name="take_me_to_app_settings">Nukreipti mane į programos nustatymus</string>
     <string name="something_went_wrong">Kažkas nutiko ne taip</string>
     <string name="please_try_again">Bandykite dar kartą</string>
-    <string name="copy_to_bitwarden_vault">Kopijuoti į „Bitwarden“ saugyklą</string>
+    <string name="copy_to_bitwarden_vault">Kopijuoti į „Multipass“ saugyklą</string>
     <string name="default_save_option">Numatytoji išsaugojimo parinktis</string>
-    <string name="save_to_bitwarden">Išsaugoti į „Bitwarden“</string>
+    <string name="save_to_bitwarden">Išsaugoti į „Multipass“</string>
     <string name="save_here">Išsaugoti čia</string>
     <string name="none">Nėra</string>
     <string name="default_save_options_subtitle">Pasirinkite, kur norėtumėte išsaugoti naujus patikrinimo kodus.</string>
     <string name="verification_code_created">Patikrinimo kodas sukurtas</string>
-    <string name="choose_save_location_message">Išsaugokite šį autentifikavimo raktą čia arba pridėkite jį prie prisijungimo „Bitwarden“ programoje.</string>
+    <string name="choose_save_location_message">Išsaugokite šį autentifikavimo raktą čia arba pridėkite jį prie prisijungimo „Multipass“ programoje.</string>
     <string name="save_option_as_default">Nustatyti išsaugojimo parinktį kaip numatytąją</string>
-    <string name="account_synced_from_bitwarden_app">Paskyra sinchronizuota iš „Bitwarden“ programos</string>
+    <string name="account_synced_from_bitwarden_app">Paskyra sinchronizuota iš „Multipass“ programos</string>
     <string name="local_codes">Vietiniai kodai (%1$d)</string>
     <string name="required_information_missing">Trūksta reikalingos informacijos</string>
     <string name="required_information_missing_message">Trūksta reikalingos informacijos (pvz., „services“ arba „secret“). Patikrinkite savo failą ir bandykite dar kartą. Dėl pagalbos apsilankykite bitwarden.com/help</string>
@@ -1169,12 +1169,12 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="items_are_collapsed_click_to_expand">Elementai yra sutraukti, spustelėkite, kad išplėstumėte.</string>
     <string name="error_cannot_decrypt">[klaida: nepavyko iššifruoti]</string>
     <string name="copy_error_report">Kopijuoti klaidų ataskaitą</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">„Bitwarden“ nepavyko iššifruoti šio saugyklos elemento. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">„Multipass“ nepavyko iššifruoti šio saugyklos elemento. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">„Bitwarden“ nepavyko iššifruoti %1$d saugyklos elemento. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</item>
-        <item quantity="few">„Bitwarden“ nepavyko iššifruoti %1$d saugyklos elementų. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</item>
-        <item quantity="many">„Bitwarden“ nepavyko iššifruoti %1$d saugyklos elementų. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</item>
-        <item quantity="other">„Bitwarden“ nepavyko iššifruoti %1$d saugyklos elementų. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</item>
+        <item quantity="one">„Multipass“ nepavyko iššifruoti %1$d saugyklos elemento. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</item>
+        <item quantity="few">„Multipass“ nepavyko iššifruoti %1$d saugyklos elementų. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</item>
+        <item quantity="many">„Multipass“ nepavyko iššifruoti %1$d saugyklos elementų. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</item>
+        <item quantity="other">„Multipass“ nepavyko iššifruoti %1$d saugyklos elementų. Nukopijuokite ir bendrinkite šią klaidų ataskaitą su klientų aptarnavimo tarnyba, kad išvengtumėte papildomų duomenų praradimų.</item>
     </plurals>
     <string name="select_a_card_for_x">Pasirinkite kortelę, skirtą %s</string>
     <string name="advanced_options">Išplėstinės parinktys</string>
@@ -1182,8 +1182,8 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="keep_your_credential_secure">Laikykite savo prisijungimo duomenis saugius</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Sužinokite daugiau, kaip išlaikyti prisijungimo duomenis saugius naudojant „%1$s“.</string>
     <string name="are_you_sure_you_want_to_use">Ar tikrai norite naudoti „%1$s“?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI atitikties nustatymas kontroliuoja, kaip „Bitwarden“ nustato automatinio pildymo pasiūlymus.\n<annotation emphasis="bold">Įspėjimas:</annotation> „Reguliarioji išraiška“ yra išplėstinė parinktis, kuri netinkamai naudojant padidina prisijungimo duomenų atskleidimo riziką.</string>
-    <string name="default_uri_match_detection_description_advanced_options">URI atitikties nustatymas kontroliuoja, kaip „Bitwarden“ nustato automatinio pildymo pasiūlymus.\n<annotation emphasis="bold">Įspėjimas:</annotation> „Prasideda“ yra išplėstinė parinktis, kuri padidina prisijungimo duomenų atskleidimo riziką.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI atitikties nustatymas kontroliuoja, kaip „Multipass“ nustato automatinio pildymo pasiūlymus.\n<annotation emphasis="bold">Įspėjimas:</annotation> „Reguliarioji išraiška“ yra išplėstinė parinktis, kuri netinkamai naudojant padidina prisijungimo duomenų atskleidimo riziką.</string>
+    <string name="default_uri_match_detection_description_advanced_options">URI atitikties nustatymas kontroliuoja, kaip „Multipass“ nustato automatinio pildymo pasiūlymus.\n<annotation emphasis="bold">Įspėjimas:</annotation> „Prasideda“ yra išplėstinė parinktis, kuri padidina prisijungimo duomenų atskleidimo riziką.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">„Prasideda“ yra išplėstinė parinktis, kuri padidina prisijungimo duomenų atskleidimo riziką.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">„Reguliarioji išraiška“ yra išplėstinė parinktis, kuri netinkamai naudojant padidina prisijungimo duomenų atskleidimo riziką.</string>
     <string name="later">Vėliau</string>
@@ -1210,17 +1210,17 @@ Ar norite pereiti prie šios paskyros?</string>
         <item quantity="other">%1$d elementų buvo importuota į jūsų saugyklą.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Įjunkite naršyklės automatinį pildymą, kad toliau pildytumėte slaptažodžius</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Jūsų naršyklė neseniai buvo atnaujinta, dėl to „Bitwarden“ automatinis pildymas buvo išjungtas. Norėdami toliau pildyti slaptažodžius su „Bitwarden“, įjunkite naršyklės automatinį pildymą automatinio pildymo nustatymuose.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Jūsų naršyklė neseniai buvo atnaujinta, dėl to „Multipass“ automatinis pildymas buvo išjungtas. Norėdami toliau pildyti slaptažodžius su „Multipass“, įjunkite naršyklės automatinį pildymą automatinio pildymo nustatymuose.</string>
     <string name="not_now">Ne dabar</string>
-    <string name="import_from_bitwarden">Importuoti iš „Bitwarden“</string>
+    <string name="import_from_bitwarden">Importuoti iš „Multipass“</string>
     <string name="select_account">Pasirinkti paskyrą</string>
     <string name="no_accounts_available">Nėra prieinamų paskyrų</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">Neturite jokių paskyrų, iš kurių galėtumėte importuoti. Jūsų organizacijos saugos politika gali apriboti elementų importavimą iš „Bitwarden“ į kitą programą.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">Neturite jokių paskyrų, iš kurių galėtumėte importuoti. Jūsų organizacijos saugos politika gali apriboti elementų importavimą iš „Multipass“ į kitą programą.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Importas apribotas, nepavyko importuoti kortelių iš šios paskyros.</string>
     <string name="verify_your_master_password">Patvirtinkite savo pagrindinį slaptažodį</string>
     <string name="having_trouble_with_autofill">Kyla problemų su automatiniu pildymu?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Čia rasite pagalbos ir trikčių šalinimo dokumentaciją</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Importuokite slaptažodžius, prieigos raktus ir kitus elementų tipus iš savo „Bitwarden“ saugyklos.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Importuokite slaptažodžius, prieigos raktus ir kitus elementų tipus iš savo „Multipass“ saugyklos.</string>
     <string name="items_to_import">Importuotini elementai</string>
     <string name="exporting_items">Eksportuojami elementai…</string>
     <string name="export_failed">Eksportas nepavyko</string>
@@ -1284,7 +1284,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Įtraukite tik šiuos domenus: %1$s. Peržiūrėkite ir bandykite dar kartą.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Norėdami bendrinti šį siuntimą, įveskite bent vieną tinkamą el. pašto adresą.</string>
     <string name="sync_with_browser">Sinchronizuoti su naršykle</string>
-    <string name="sync_with_browser_description">Norėdami prisijungti prie %1$s, sinchronizuokite savo numatytąją naršyklę su „Bitwarden“ mobiliąja programa. Kai naršyklė atsidarys, jei bus prašoma, užbaikite prisijungimą.\nKai sinchronizavimas bus baigtas, būsite grąžinti į šią programą.</string>
+    <string name="sync_with_browser_description">Norėdami prisijungti prie %1$s, sinchronizuokite savo numatytąją naršyklę su „Multipass“ mobiliąja programa. Kai naršyklė atsidarys, jei bus prašoma, užbaikite prisijungimą.\nKai sinchronizavimas bus baigtas, būsite grąžinti į šią programą.</string>
     <string name="launch_browser">Paleisti naršyklę</string>
     <string name="continue_without_syncing">Tęsti be sinchronizavimo</string>
     <string name="external_link">Išorinė nuoroda</string>
@@ -1310,7 +1310,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="trusted">Patikimas</string>
     <string name="preview_not_available_for_files">Peržiūra nepasiekiama %1$s failams. Vis tiek galite jį atsisiųsti, kad peržiūrėtumėte savo įrenginyje.</string>
     <string name="this_file_is_too_large_to_preview">Šis failas yra per didelis, kad būtų galima peržiūrėti. Vis tiek galite jį atsisiųsti, kad peržiūrėtumėte savo įrenginyje.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">„Bitwarden“ nepavyko iššifruoti šio failo, todėl peržiūra negali būti rodoma.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">„Multipass“ nepavyko iššifruoti šio failo, todėl peržiūra negali būti rodoma.</string>
     <string name="preview_unavailable_for_this_file">Šio failo peržiūra nepasiekiama. Vis tiek galite jį atsisiųsti, kad peržiūrėtumėte savo įrenginyje.</string>
     <string name="preview_unavailable">Peržiūra nepasiekiama</string>
     <string name="download_attachment">Atsisiųsti priedą</string>
@@ -1352,7 +1352,7 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="billing_rate_per_year">%1$s / met</string>
     <string name="billing_rate_per_month">%1$s / mėn</string>
     <string name="manage_plan">Tvarkyti planą</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">Tvarkykite savo prenumeratos planą „Bitwarden“ internetinėje programoje.</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">Tvarkykite savo prenumeratos planą „Multipass“ internetinėje programoje.</string>
     <string name="cancel_premium">Atšaukti „Premium“</string>
     <string name="subscription_status_active">Aktyvus</string>
     <string name="subscription_status_canceled">Atšauktas</string>
@@ -1445,8 +1445,8 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="local_network_access_required">Reikalinga prieiga prie vietinio tinklo</string>
     <string name="ask_again_later">Paklausti vėliau</string>
     <string name="enable_local_network_access">Įjungti prieigą prie vietinio tinklo</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">„Bitwarden“ reikalinga prieiga prie vietinio tinklo, kad sinchronizuotųsi su jūsų serveriu. Be šio leidimo programa negalės prisijungti.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Be šio leidimo „Bitwarden“ negalės prisijungti ir sinchronizuotis su jūsų serveriu. Tai galite įjungti savo įrenginio nustatymuose.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">„Multipass“ reikalinga prieiga prie vietinio tinklo, kad sinchronizuotųsi su jūsų serveriu. Be šio leidimo programa negalės prisijungti.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Be šio leidimo „Multipass“ negalės prisijungti ir sinchronizuotis su jūsų serveriu. Tai galite įjungti savo įrenginio nustatymuose.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Jūsų užklausa buvo nutraukta, nes programai reikalinga prieiga prie vietinio tinklo. Tai galite įjungti savo įrenginio nustatymuose.</string>
     <string name="continue_to_stripe">Tęsti „Stripe“?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Būsite nukreipti į „Stripe“, kad tvarkytumėte savo prenumeratos atšaukimą.</string>

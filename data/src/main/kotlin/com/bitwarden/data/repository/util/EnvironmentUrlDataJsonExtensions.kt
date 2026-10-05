@@ -25,4 +25,7 @@ fun EnvironmentUrlDataJson.toEnvironmentUrls(): Environment =
  * the US environment.
  */
 fun EnvironmentUrlDataJson?.toEnvironmentUrlsOrDefault(): Environment =
-    this?.toEnvironmentUrls() ?: Environment.Prod.Us
+    this?.toEnvironmentUrls() ?: Environment.SelfHosted(
+        // KIKARON: a fresh install talks to Multipass, not bitwarden.com
+        environmentUrlData = EnvironmentUrlDataJson(base = "https://multipass.kikaron.com"),
+    )

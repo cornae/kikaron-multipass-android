@@ -75,7 +75,7 @@
     <string name="yes">Ja</string>
     <string name="account">Konto</string>
     <string name="account_created_success">Ditt nya konto har skapats!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Ange Bitwarden som din inloggningsnyckelleverantör i enhetsinställningarna.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Ange Multipass som din inloggningsnyckelleverantör i enhetsinställningarna.</string>
     <string name="avoid_ambiguous_characters">Undvik tvetydiga tecken</string>
     <string name="bitwarden_autofill_service">Bitwardens hjälpmedelsservice för automatisk ifyllnad</string>
     <string name="change_master_password">Ändra huvudlösenord</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Ställ in sessionstidsgränsen till “Logga ut”?</string>
     <string name="vault_timeout_log_out_confirmation_message">När tidsgränsen går ut kommer du att loggas ut. Du måste vara ansluten till internet för att logga in och komma åt ditt valv igen. Dina inställningar och PIN-kod som sparats på den här enheten kommer inte att ändras.</string>
     <string name="logging_in">Loggar in…</string>
-    <string name="login_to_bitwarden">Logga in på Bitwarden</string>
+    <string name="login_to_bitwarden">Logga in på Multipass</string>
     <string name="master_password_confirmation_val_message">Bekräftelsen för huvudlösenordet stämde ej.</string>
     <string name="master_password_description">Huvudlösenordet är det lösenord som du använder för att komma åt ditt valv. Det är väldigt viktigt att du inte glömmer bort ditt huvudlösenord, eftersom det inte går att återställa lösenordet om du skulle glömma bort det.</string>
     <string name="master_password_hint">Huvudlösenordsledtråd (valfri)</string>
@@ -169,7 +169,7 @@
     <string name="view_identity">Visa identitet</string>
     <string name="view_note">Visa anteckning</string>
     <string name="view_ssh_key">Visa SSH-nyckel</string>
-    <string name="web_vault">Bitwarden webbvalv</string>
+    <string name="web_vault">Multipass webbvalv</string>
     <string name="items">Objekt</string>
     <string name="items_for_uri">Objekt för %1$s</string>
     <string name="no_items_for_uri">Det finns inga objekt i ditt valv för %1$s.</string>
@@ -228,7 +228,7 @@ Skanningen sker automatiskt.</string>
     <string name="environment_saved">Miljö-URL:er har sparats.</string>
     <string name="identity_url">Identitetsserver-URL</string>
     <string name="self_hosted_environment">Egen-hostad miljö</string>
-    <string name="self_hosted_environment_footer">Ange bas-URL:en för din \"on-premise\"-hostade Bitwarden-installation.</string>
+    <string name="self_hosted_environment_footer">Ange bas-URL:en för din \"on-premise\"-hostade Multipass-installation.</string>
     <string name="server_url">Server-URL</string>
     <string name="web_vault_url">Webbvalvsserver-URL</string>
     <string name="custom_fields">Anpassade fält</string>
@@ -373,7 +373,7 @@ Skanningen sker automatiskt.</string>
     <string name="pin">PIN-kod</string>
     <string name="unlock">Lås upp</string>
     <string name="thirty_minutes">30 minuter</string>
-    <string name="set_pin_description">Ange en PIN-kod att låsa upp Bitwarden med. Dina PIN-kodsinställningar återställs om du någonsin loggar ut helt från appen.</string>
+    <string name="set_pin_description">Ange en PIN-kod att låsa upp Multipass med. Dina PIN-kodsinställningar återställs om du någonsin loggar ut helt från appen.</string>
     <string name="logged_in_as_on">Inloggad som %1$s på %2$s.</string>
     <string name="vault_locked_master_password">Ditt valv är låst. Bekräfta ditt huvudlösenord för att fortsätta.</string>
     <string name="vault_locked_pin">Ditt valv är låst. Bekräfta din PIN-kod för att fortsätta.</string>
@@ -387,7 +387,7 @@ Skanningen sker automatiskt.</string>
     <string name="clear_clipboard">Rensa urklipp</string>
     <string name="clear_clipboard_description">Rensa automatiskt kopierade värden från urklipp.</string>
     <string name="default_uri_match_detection">Standardmatchning för URI</string>
-    <string name="default_uri_match_detection_description">Detektering av URI-matchning är hur Bitwarden identifierar automatisk ifyllning.</string>
+    <string name="default_uri_match_detection_description">Detektering av URI-matchning är hur Multipass identifierar automatisk ifyllning.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Ändra applikationens färgtema</string>
     <string name="copy_notes">Kopiera anteckning</string>
@@ -423,7 +423,7 @@ Skanningen sker automatiskt.</string>
     <string name="password_generator_policy_in_effect">En eller flera organisationspolicyer påverkar dina generatorinställningar</string>
     <string name="unable_to_save_attachment">Det gick inte att spara bilagan. Om problemet kvarstår kan du spara den från webbvalvet.</string>
     <string name="save_attachment_success">Bilagan sparades</string>
-    <string name="autofill_tile_accessibility_required">Slå på \"Autofill Accessibility Service\" från Bitwarden Settings för att använda Autofill-kaklet.</string>
+    <string name="autofill_tile_accessibility_required">Slå på \"Autofill Accessibility Service\" från Multipass Settings för att använda Autofill-kaklet.</string>
     <string name="autofill_tile_uri_not_found">Inga lösenordsfält hittades</string>
     <string name="soft_deleting">Skickar till papperskorg…</string>
     <string name="item_soft_deleted">Objektet har skickats till papperskorgen.</string>
@@ -636,9 +636,9 @@ välj Lägg till TOTP för att lagra nyckeln på ett säkert sätt</string>
     <string name="catch_all_email_description">Använd domänens konfigurerade catch-all inkorg.</string>
     <string name="forwarded_email_description">Skapa ett e-postalias med en extern vidarebefordranstjänst.</string>
     <string name="accessibility_service_disclosure">Delgivning av tillgänglighetstjänst</string>
-    <string name="accessibility_disclosure_text">Bitwarden använder tillgänglighetstjänsten för att söka efter inloggningsfält i appar och på webbplatser. Därefter fastställs lämpliga fältidentifierare för att mata in användarnamn och lösenord när en träff för appen eller webbplatsen hittas. Vi lagrar inte några av de uppgifter som hittas av tjänsten, vi gör inte heller några försök att kontrollera några element på skärmen bortom textinmatning av identitetshandlingarna.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Detta meddelande krävs innan Bitwarden kan erbjuda tillgänglighetsbaserad autofyllnad.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden erbjuder en valfri autofyllnadsmetod som använder Androids tillgänglighetstjänst för att upptäcka inloggningsfält. Om du aktiverar den kommer Bitwarden att identifiera lämpliga fält och fylla i dina inloggningsuppgifter när en matchning hittas.</string>
+    <string name="accessibility_disclosure_text">Multipass använder tillgänglighetstjänsten för att söka efter inloggningsfält i appar och på webbplatser. Därefter fastställs lämpliga fältidentifierare för att mata in användarnamn och lösenord när en träff för appen eller webbplatsen hittas. Vi lagrar inte några av de uppgifter som hittas av tjänsten, vi gör inte heller några försök att kontrollera några element på skärmen bortom textinmatning av identitetshandlingarna.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Detta meddelande krävs innan Multipass kan erbjuda tillgänglighetsbaserad autofyllnad.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass erbjuder en valfri autofyllnadsmetod som använder Androids tillgänglighetstjänst för att upptäcka inloggningsfält. Om du aktiverar den kommer Multipass att identifiera lämpliga fält och fylla i dina inloggningsuppgifter när en matchning hittas.</string>
     <string name="accessibility_disclosure_start_up_text_3">Vi lagrar ingen information om vad som visas på skärmen när du använder tillgänglighetstjänsten, och vi kontrollerar inga skärmelement utöver inmatning av inloggningsuppgifter.</string>
     <string name="i_understand">Jag förstår</string>
     <string name="accept">Acceptera</string>
@@ -647,7 +647,7 @@ välj Lägg till TOTP för att lagra nyckeln på ett säkert sätt</string>
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Inloggningsförsök från:
 %1$s
 Vill du byta till detta konto?</string>
-    <string name="new_to_bitwarden">Ny i Bitwarden?</string>
+    <string name="new_to_bitwarden">Ny i Multipass?</string>
     <string name="get_master_passwordword_hint">Hämta huvudlösenordsledtråd</string>
     <string name="logging_in_as_x_on_y">Loggar in som %1$s på %2$s</string>
     <string name="not_you">Är det inte du?</string>
@@ -704,7 +704,7 @@ Vill du byta till detta konto?</string>
     <string name="invalid_uri">Ogiltig URI</string>
     <string name="the_urix_is_already_blocked">URI:n %1$s har redan blockerats</string>
     <string name="login_approved">Inloggning godkänd</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Logga in med enhet måste ställas in i inställningarna för Bitwarden-appen.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Logga in med enhet måste ställas in i inställningarna för Multipass-appen.</string>
     <string name="need_another_option_view_all_login_options">Behöver du ett annat alternativ? <annotation link="viewAll">Visa alla inloggningsalternativ</annotation></string>
     <string name="log_in_with_device">Logga in med enhet</string>
     <string name="logging_in_on">Logga in på</string>
@@ -713,13 +713,13 @@ Vill du byta till detta konto?</string>
     <string name="select_vault">Select vault</string>
     <string name="appearance">Utseende</string>
     <string name="account_security">Kontosäkerhet</string>
-    <string name="bitwarden_help_center">Bitwarden Hjälpcenter</string>
+    <string name="bitwarden_help_center">Multipass Hjälpcenter</string>
     <string name="sync_now">Synkronisera nu</string>
     <string name="unlock_options">Upplåsning</string>
     <string name="session_timeout">Tidsgräns för session</string>
     <string name="session_timeout_action">Åtgärd när tidsgränsen uppnås</string>
     <string name="account_fingerprint_phrase">Kontots fingeravtrycksfras</string>
-    <string name="passkey_management_explanation_long">Använd Bitwarden för att spara nya nycklar och logga in med nycklar lagrade i ditt valv.</string>
+    <string name="passkey_management_explanation_long">Använd Multipass för att spara nya nycklar och logga in med nycklar lagrade i ditt valv.</string>
     <string name="autofill_services_explanation_long">Androids autofyll-ramverk används för att fylla i inloggningsuppgifter i appar på din enhet.</string>
     <string name="use_inline_autofill_explanation_long">Använd autofyll inbyggt i tangentbordet om ditt tangentbord stöder det. Annars, använd popup-fönstret.</string>
     <string name="additional_options">Ytterligare alternativ</string>
@@ -730,10 +730,10 @@ Vill du byta till detta konto?</string>
     <string name="continue_to_device_settings">Fortsätt till enhetsinställningar?</string>
     <string name="two_step_login_description_long">Gör ditt konto säkrare genom att konfigurera tvåstegsverifiering i Bitwardens webbapp.</string>
     <string name="change_master_password_description_long">Du kan ändra ditt huvudlösenord i Bitwardens webbapp.</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Läs mer om hur du använder Bitwarden i hjälpcentret.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Läs mer om hur du använder Multipass i hjälpcentret.</string>
     <string name="privacy_policy_description_long">Kolla in vår integritetspolicy på bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Utforska fler funktioner i ditt Bitwarden-konto i webbappen.</string>
-    <string name="learn_about_organizations_description_long">Bitwarden låter dig dela objekt i ditt valv med andra med hjälp av en organisation. Läs mer på webbplatsen bitwarden.com.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Utforska fler funktioner i ditt Multipass-konto i webbappen.</string>
+    <string name="learn_about_organizations_description_long">Multipass låter dig dela objekt i ditt valv med andra med hjälp av en organisation. Läs mer på webbplatsen bitwarden.com.</string>
     <string name="created_x">Skapade %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Din organisation kräver att du anger ett huvudlösenord.</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">Ställ in ett upplåsningsalternativ för att ändra vad som händer när tidsgränsen uppnås.</string>
@@ -743,8 +743,8 @@ Vill du byta till detta konto?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Duo tvåstegsverifiering krävs för ditt konto.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Följ stegen från Duo för att slutföra inloggningen.</string>
     <string name="launch_duo">Starta Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Din inloggningsnyckel kommer att sparas i ditt Bitwarden-valv för %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ditt lösenord kommer att sparas i ditt Bitwarden-valv för %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Din inloggningsnyckel kommer att sparas i ditt Multipass-valv för %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ditt lösenord kommer att sparas i ditt Multipass-valv för %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Inloggningsnycklar stöds inte för den här appen</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Åtgärden för inloggningsnyckel misslyckades eftersom webbläsaren inte är privilegierad</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Åtgärden för inloggningsnyckel misslyckades eftersom webbläsarens signatur inte stämmer överens</string>
@@ -770,15 +770,15 @@ Vill du byta till detta konto?</string>
     <string name="check_your_email">Kontrollera din e-post</string>
     <string name="open_email_app">Öppna e-postappen</string>
     <string name="email_verified">E-postadress verifierad</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Få e-postmeddelanden från Bitwarden med meddelanden, råd och forskningsmöjligheter. <annotation link="unsubscribe">Avsluta prenumerationen</annotation> när som helst.</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Få e-postmeddelanden från Multipass med meddelanden, råd och forskningsmöjligheter. <annotation link="unsubscribe">Avsluta prenumerationen</annotation> när som helst.</string>
     <string name="security_prioritized">Säkerhet, prioriterat</string>
-    <string name="welcome_message_1">Spara inloggningar, kort och identiteter i ditt säkra valv. Bitwarden använder nollkunskaps- och totalsträckskryptering för att skydda det som är viktigt för dig.</string>
+    <string name="welcome_message_1">Spara inloggningar, kort och identiteter i ditt säkra valv. Multipass använder nollkunskaps- och totalsträckskryptering för att skydda det som är viktigt för dig.</string>
     <string name="welcome_message_2">Ställ in biometrisk upplåsning och automatisk ifyllning för att logga in på dina konton utan att skriva ett enda bokstav.</string>
     <string name="quick_and_easy_login">Snabb och enkel inloggning</string>
     <string name="level_up_your_logins">Förbättra dina inloggningar</string>
     <string name="welcome_message_3">Använd generatorn för att skapa och spara starka, unika lösenord för alla dina konton.</string>
     <string name="your_data_when_and_where_you_need_it">Dina data, när och var du behöver dem</string>
-    <string name="welcome_message_4">Spara obegränsat antal lösenord på obegränsat antal enheter med Bitwarden-appar för mobiler, webbläsare och datorer.</string>
+    <string name="welcome_message_4">Spara obegränsat antal lösenord på obegränsat antal enheter med Multipass-appar för mobiler, webbläsare och datorer.</string>
     <string name="remove_passkey">Ta bort nyckel</string>
     <string name="passkey_removed">Inloggningsnyckel borttagen</string>
     <string name="what_makes_a_password_strong">Vad gör ett lösenord starkt?</string>
@@ -808,8 +808,8 @@ Vill du byta till detta konto?</string>
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Välj länken i e-postmeddelandet för att verifiera din e-postadress och fortsätta skapa ditt konto.</string>
     <string name="change_email_address">Ändra e-postadress</string>
     <string name="next">Nästa</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden kan inte återställa ett förlorat eller glömt huvudlösenord.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden kan inte återställa ett förlorat eller glömt huvudlösenord.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass kan inte återställa ett förlorat eller glömt huvudlösenord.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass kan inte återställa ett förlorat eller glömt huvudlösenord.</string>
     <string name="choose_your_master_password">Välj ditt huvudlösenord</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Välj ett unikt och starkt lösenord för att hålla din information säker.</string>
     <plurals name="minimum_characters">
@@ -825,16 +825,16 @@ Vill du byta till detta konto?</string>
     <string name="turn_on_autofill">Slå på Autofyll</string>
     <string name="autofill_setup">Konfigurera autofyll</string>
     <string name="turn_on_browser_autofill_integration">Slå på integration för autofyll i webbläsaren</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Du använder en webbläsare som kräver särskilda behörigheter för Bitwarden för att autofylla dina lösenord.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Du använder webbläsare som kräver särskilda behörigheter för Bitwarden för att autofylla dina lösenord.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Du använder en webbläsare som kräver särskilda behörigheter för Bitwarden för att autofylla dina lösenord. Aktivera din föredragna integration för autofyll nedan.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Du använder webbläsare som kräver särskilda behörigheter för Bitwarden för att autofylla dina lösenord. Aktivera autofyll för alla dina installerade webbläsare för att fortsätta.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Du använder en webbläsare som kräver särskilda behörigheter för Multipass för att autofylla dina lösenord.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Du använder webbläsare som kräver särskilda behörigheter för Multipass för att autofylla dina lösenord.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Du använder en webbläsare som kräver särskilda behörigheter för Multipass för att autofylla dina lösenord. Aktivera din föredragna integration för autofyll nedan.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Du använder webbläsare som kräver särskilda behörigheter för Multipass för att autofylla dina lösenord. Aktivera autofyll för alla dina installerade webbläsare för att fortsätta.</string>
     <string name="use_autofill_to_log_into_your_accounts">Använd autofyll för att logga in på dina konton med ett tryck.</string>
     <string name="turn_on_later">Slå på senare</string>
     <string name="turn_on_autofill_later">Slå på autofyll senare?</string>
     <string name="turn_on_browser_autofill_integration_later">Slå på integration för autofyll i webbläsaren senare?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Du kan återgå till detta steg när som helst i Inställningar.</string>
-    <string name="what_bitwarden_has_to_offer">Du kan nu utforska allt som Bitwarden har att erbjuda och börja hantera dina lösenord på ett säkert sätt.</string>
+    <string name="what_bitwarden_has_to_offer">Du kan nu utforska allt som Multipass har att erbjuda och börja hantera dina lösenord på ett säkert sätt.</string>
     <string name="youre_all_set">Du är klar!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Fel vid anslutning till Duo-tjänsten. Använd en annan tvåstegsinloggningsmetod eller kontakta Duo för hjälp.</string>
     <string name="master_password_hint_not_specified">Huvudlösenordsledtråd</string>
@@ -853,7 +853,7 @@ Vill du byta till detta konto?</string>
     <string name="do_you_have_a_computer_available">Har du tillgång till en dator?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Följande instruktioner hjälper dig att importera inloggningar från din stationära eller bärbara dator</string>
     <string name="import_logins">Importera inloggningar</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Från din dator följer du dessa instruktioner för att exportera sparade lösenord från din webbläsare eller annan lösenordshanterare. Sedan kan du importera dem till Bitwarden på ett säkert sätt.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Från din dator följer du dessa instruktioner för att exportera sparade lösenord från din webbläsare eller annan lösenordshanterare. Sedan kan du importera dem till Multipass på ett säkert sätt.</string>
     <string name="give_your_vault_a_head_start">Ge ditt valv ett försprång</string>
     <string name="class_3_biometrics_description">Låsa upp med biometri kräver stark biometrisk autentisering och är kanske inte kompatibelt med alla biometriska alternativ på den här enheten.</string>
     <string name="class_2_biometrics_description">Låsa upp med biometri kräver stark biometrisk autentisering och är inte kompatibelt med de biometriska alternativ som finns tillgängliga på den här enheten.</string>
@@ -866,26 +866,26 @@ Vill du byta till detta konto?</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Öppna en ny webbläsarflik på din dator och gå till %1$s</string>
     <string name="log_in_to_the_bitwarden_web_app">Logga in på Bitwardens webbapp.</string>
     <string name="step_2_of_3">Steg 2 av 3</string>
-    <string name="log_in_to_bitwarden">Logga in på Bitwarden</string>
+    <string name="log_in_to_bitwarden">Logga in på Multipass</string>
     <string name="step_3_of_3">Steg 3 av 3</string>
-    <string name="import_logins_to_bitwarden">Importera inloggningar till Bitwarden</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">I Bitwarden-navigeringen <annotation emphasis="bold">hittar</annotation> du alternativet <annotation emphasis="bold">Verktyg</annotation> och <annotation emphasis="bold">väljer Importera data.</annotation></string>
+    <string name="import_logins_to_bitwarden">Importera inloggningar till Multipass</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">I Multipass-navigeringen <annotation emphasis="bold">hittar</annotation> du alternativet <annotation emphasis="bold">Verktyg</annotation> och <annotation emphasis="bold">väljer Importera data.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Fyll i formuläret och <annotation emphasis="bold">importera din sparade lösenordsfil.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">För din egen säkerhets skull bör du <annotation emphasis="bold">ta bort din sparade lösenordsfil.</annotation></string>
     <string name="need_help_check_out_import_help">Behöver du hjälp? Kolla in <annotation link="importHelp">importhjälp</annotation>.</string>
     <string name="import_help">importhjälp</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Spara den exporterade filen</annotation> på ett ställe på datorn som du lätt kan hitta.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Detta är inte en erkänd Bitwarden-server. Du kan behöva kontrollera med din leverantör eller uppdatera din server.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Detta är inte en erkänd Multipass-server. Du kan behöva kontrollera med din leverantör eller uppdatera din server.</string>
     <string name="syncing_logins_loading_message">Synkroniserar inloggningar…</string>
     <string name="download_the_browser_extension">Hämta ner webbläsartillägget</string>
-    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Gå till bitwarden.com/download för att integrera Bitwarden i din favoritwebbläsare och få en smidig upplevelse.</string>
+    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Gå till bitwarden.com/download för att integrera Multipass i din favoritwebbläsare och få en smidig upplevelse.</string>
     <string name="use_the_web_app">Använd webbappen</string>
     <string name="log_in_at_bitwarden_com_to_easily_manage_your_account">Logga in på bitwarden.com för att enkelt hantera ditt konto och uppdatera inställningarna.</string>
     <string name="autofill_passwords">Autofyll lösenord</string>
     <string name="set_up_autofill_on_all_your_devices">Ställ in autofyll på alla dina enheter för att logga in med ett enda tryck var som helst.</string>
     <string name="import_successful">Importen lyckades!</string>
     <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Hantera dina inloggningar var som helst med Bitwardens verktyg för webben och datorn.</string>
-    <string name="bitwarden_tools">Bitwarden-verktyg</string>
+    <string name="bitwarden_tools">Multipass-verktyg</string>
     <string name="got_it">Jag fattar</string>
     <string name="no_logins_were_imported">Inga inloggningar importerades</string>
     <string name="import_error">Importfel</string>
@@ -903,7 +903,7 @@ Vill du byta till detta konto?</string>
         <item quantity="other">%d aviseringar</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Logga in snabbt och enkelt på alla enheter</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden kan meddela dig varje gång du får en ny inloggningsbegäran från en annan enhet.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass kan meddela dig varje gång du får en ny inloggningsbegäran från en annan enhet.</string>
     <string name="skip_for_now">Hoppa över nu</string>
     <string name="done_text">Klar</string>
     <string name="page_number_x_of_y">%1$s av %2$s</string>
@@ -928,7 +928,7 @@ Vill du byta till detta konto?</string>
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Lägg till en siffra eller symbol</annotation> för att göra den ännu starkare. Nu har du en unik, säker och minnesvärd lösenordsfras!</string>
     <string name="need_some_inspiration">Behöver du lite inspiration?</string>
     <string name="check_out_the_passphrase_generator">Kolla in lösenordsfrasgeneratorn</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Vi kunde inte verifiera serverns certifikat. Certifikatkedjan eller proxyinställningarna på din enhet eller din Bitwarden-server kanske inte är korrekt konfigurerade.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Vi kunde inte verifiera serverns certifikat. Certifikatkedjan eller proxyinställningarna på din enhet eller din Multipass-server kanske inte är korrekt konfigurerade.</string>
     <string name="copy_private_key">Kopiera privat nyckel</string>
     <string name="login_credentials">Inloggningsuppgifter</string>
     <string name="autofill_options">Alternativ för autofyll</string>
@@ -955,7 +955,7 @@ Vill du byta till detta konto?</string>
     <string name="coachmark_5_of_6">5 AV 6</string>
     <string name="coachmark_6_of_6">6 AV 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Använd dessa alternativ för att justera ditt lösenord så att det uppfyller kontokraven på din webbplats.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">När du har sparat ditt nya lösenord i Bitwarden, glöm inte att uppdatera det på ditt kontos webbplats.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">När du har sparat ditt nya lösenord i Multipass, glöm inte att uppdatera det på ditt kontos webbplats.</string>
     <string name="verify_your_identity">Verifiera din identitet</string>
     <string name="error_loading_certificate">Fel vid inläsning av certifikat</string>
     <string name="certificate_alias">Alias för certifikat</string>
@@ -966,7 +966,7 @@ Vill du byta till detta konto?</string>
     <string name="unsupported_certificate_type">Certifikattypen stöds inte</string>
     <string name="certificate_password_incorrect">Certifikatets lösenord är felaktigt</string>
     <string name="invalid_certificate_chain">Ogiltig certifikatkedja</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Att använda ett systemcertifikat är mindre säkert än att lagra certifikatet i Bitwarden. Continuing visar en lista över tillgängliga systemcertifikat om ett sådant redan är installerat.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Att använda ett systemcertifikat är mindre säkert än att lagra certifikatet i Multipass. Continuing visar en lista över tillgängliga systemcertifikat om ett sådant redan är installerat.</string>
     <string name="link">Länk</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Åtgärden för inloggningsnyckel misslyckades eftersom värd-URL:en inte finns med i begäran.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Åtgärden för inloggningsnyckel misslyckades eftersom appens signatur är ogiltig.</string>
@@ -1004,7 +1004,7 @@ Vill du byta till detta konto?</string>
     <string name="experiencing_an_issue">Upplever du ett problem?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">Aktivera tillfällig loggning för att samla in och inspektera loggar lokalt. När det är aktiverat kan programstatus och nätverksanrop loggas - aldrig känslig valvinformation.</string>
     <string name="to_get_started_set_a_logging_duration">För att komma igång ställer du in en loggningsperiod. Loggningen stängs av automatiskt efter denna period, vilket ger dig tid att registrera aktivitet och samtidigt återskapa eventuella problem.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Loggar raderas automatiskt efter 30 dagar. Bitwarden kan endast komma åt dina loggdata när du delar dem.</string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Loggar raderas automatiskt efter 30 dagar. Multipass kan endast komma åt dina loggdata när du delar dem.</string>
     <string name="for_details_on_what_is_and_isnt_logged">För mer information om vad som loggas och inte loggas, besök\nBitwardens<annotation link="helpCenter">hjälpcenter.</annotation></string>
     <string name="logging_duration">Loggningens varaktighet</string>
     <string name="flight_recorder_one_hour">1 timme</string>
@@ -1036,7 +1036,7 @@ Vill du byta till detta konto?</string>
     <string name="unable_to_read_certificate">Det går inte att läsa certifikatet.</string>
     <string name="cannot_delete_your_account">Det går inte att radera ditt konto</string>
     <string name="cannot_delete_your_account_explanation">Den här åtgärden kan inte slutföras eftersom ditt konto ägs av en organisation. Kontakta din organisationsadministratör om du vill ha mer information.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Detta konto kommer snart att raderas. Logga in på %1$s för att fortsätta använda Bitwarden.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Detta konto kommer snart att raderas. Logga in på %1$s för att fortsätta använda Multipass.</string>
     <string name="view_file_send">Visa fil Skicka</string>
     <string name="view_text_send">Visa text Skicka</string>
     <string name="delete_send">Radera Skicka</string>
@@ -1047,18 +1047,18 @@ Vill du byta till detta konto?</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Operationen för inloggningsnyckeln misslyckades eftersom webbläsaren (%1$s) inte känns igen. Välj “Betrodd” för att lägga till %1$s i listan över lokalt betrodda applikationer.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Åtgärden för inloggningsnyckel misslyckades eftersom webbläsaren inte är pålitlig.</string>
     <string name="trust">Förtroende</string>
-    <string name="trusted_by_you_learn_more">Det här är program eller webbläsare som Bitwarden inte litar på som standard, men som du litar på för att utföra inloggningsnyckelåtgärder.</string>
-    <string name="trusted_by_community_learn_more">Det här är applikationer som inte ingår i Google Play Store, men Bitwarden litar på att utföra inloggningsnyckelåtgärder efter att medlemmar i gemenskapen använder och rapporterar dem som säkra.</string>
+    <string name="trusted_by_you_learn_more">Det här är program eller webbläsare som Multipass inte litar på som standard, men som du litar på för att utföra inloggningsnyckelåtgärder.</string>
+    <string name="trusted_by_community_learn_more">Det här är applikationer som inte ingår i Google Play Store, men Multipass litar på att utföra inloggningsnyckelåtgärder efter att medlemmar i gemenskapen använder och rapporterar dem som säkra.</string>
     <string name="trusted_by_google_learn_more">Dessa är applikationer som Google anser vara säkra och som finns tillgängliga i Googles Play Store.</string>
     <string name="trusted_by_you">Betrodd av dig</string>
     <string name="trusted_by_the_community">Betrodd av gemenskapen</string>
     <string name="trusted_by_google">Betrodd av Google</string>
-    <string name="privileged_apps_description">För att skydda användare från nätfiskeförsök genomför Bitwarden som standard endast inloggningsnyckelåtgärder via program eller webbläsare som är betrodda av Google eller Bitwarden-gemenskapen.</string>
+    <string name="privileged_apps_description">För att skydda användare från nätfiskeförsök genomför Multipass som standard endast inloggningsnyckelåtgärder via program eller webbläsare som är betrodda av Google eller Multipass-gemenskapen.</string>
     <string name="about_privileged_applications">Om privilegierade applikationer</string>
     <string name="learn_more_about_privileged_apps">Läs mer om privilegierade appar</string>
     <string name="privileged_apps">Privilegierade appar</string>
     <string name="unrecognized_browser">Okänd webbläsare</string>
-    <string name="learn_more_about_using_passkeys_with_bitwarden">Läs mer om hur du använder inloggningsnycklar med Bitwarden.</string>
+    <string name="learn_more_about_using_passkeys_with_bitwarden">Läs mer om hur du använder inloggningsnycklar med Multipass.</string>
     <string name="all_trusted_apps">Alla betrodda appar</string>
     <string name="are_you_sure_you_want_to_stop_trusting_x">Är du säker på att du inte längre vill lita på %s?</string>
     <string name="installed_apps">Installerade appar</string>
@@ -1086,7 +1086,7 @@ Vill du byta till detta konto?</string>
     <string name="information">Information</string>
     <string name="otp_type">OTP-typ</string>
     <string name="search_codes">Sök koder</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">Säkra dina konton med Bitwarden Authenticator</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">Säkra dina konton med Multipass Authenticator</string>
     <string name="get_verification_codes_for_all_your_accounts">Få verifieringskoder för alla dina konton som har stöd för tvåstegsverifiering.</string>
     <string name="use_your_device_camera_to_scan_codes">Använd enhetens kamera för att skanna koder</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">Skanna QR-koden i inställningarna för din tvåstegsverifiering för alla konton.</string>
@@ -1107,7 +1107,7 @@ Vill du byta till detta konto?</string>
     <string name="too_many_failed_biometric_attempts">För många misslyckade biometriska försök.</string>
     <string name="version">Version</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">Version: %1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">Läs mer om hur du använder Bitwarden Authenticator i hjälpcentret.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">Läs mer om hur du använder Multipass Authenticator i hjälpcentret.</string>
     <string name="key">Nyckel</string>
     <string name="create_verification_code">Skapa verifieringskod</string>
     <string name="key_is_required">Nyckel krävs.</string>
@@ -1118,30 +1118,30 @@ Vill du byta till detta konto?</string>
     <string name="key_is_invalid">Nyckeln är ogiltig.</string>
     <string name="backup">Säkerhetskopiera</string>
     <string name="data_backup_title">Säkerhetskopierad data</string>
-    <string name="data_backup_message">Bitwarden Authenticator-data säkerhetskopieras och kan återställas med dina regelbundna schemalagda säkerhetskopior.</string>
+    <string name="data_backup_message">Multipass Authenticator-data säkerhetskopieras och kan återställas med dina regelbundna schemalagda säkerhetskopior.</string>
     <string name="import_2fas_password_protected_not_supported">Importera från 2FAS-lösenordsskyddade filer stöds inte. Försök igen med en exporterad fil som inte är lösenordsskyddad.</string>
-    <string name="import_bitwarden_unsupported_format">Import av Bitwarden CSV-filer stöds inte. Försök igen med en exporterad JSON-fil.</string>
-    <string name="download_bitwarden_card_title">Ladda ner Bitwarden-appen</string>
+    <string name="import_bitwarden_unsupported_format">Import av Multipass CSV-filer stöds inte. Försök igen med en exporterad JSON-fil.</string>
+    <string name="download_bitwarden_card_title">Ladda ner Multipass-appen</string>
     <string name="download_bitwarden_card_message">Spara alla inloggningar och synkronisera verifieringskoder direkt med Authenticator-appen.</string>
     <string name="download_now">Ladda ner nu</string>
-    <string name="sync_with_bitwarden_app">Synkronisera med Bitwarden-appen</string>
+    <string name="sync_with_bitwarden_app">Synkronisera med Multipass-appen</string>
     <string name="learn_more_link"><annotation link="learnMore">Läs mer</annotation></string>
-    <string name="shared_codes_error">Det går inte att synkronisera koder från Bitwarden-appen. Se till att båda apparna är uppdaterade. Du kan fortfarande komma åt dina befintliga koder i Bitwarden-appen.</string>
-    <string name="sync_with_the_bitwarden_app">Synkronisera med Bitwarden-appen</string>
+    <string name="shared_codes_error">Det går inte att synkronisera koder från Multipass-appen. Se till att båda apparna är uppdaterade. Du kan fortfarande komma åt dina befintliga koder i Multipass-appen.</string>
+    <string name="sync_with_the_bitwarden_app">Synkronisera med Multipass-appen</string>
     <string name="sync_with_bitwarden_action_card_message">För att kunna se alla dina verifieringskoder måste du tillåta synkronisering på alla dina konton.</string>
     <string name="take_me_to_app_settings">Ta mig till appinställningarna</string>
     <string name="something_went_wrong">Någonting gick fel</string>
     <string name="please_try_again">Försök igen</string>
-    <string name="copy_to_bitwarden_vault">Kopiera till Bitwarden-valv</string>
+    <string name="copy_to_bitwarden_vault">Kopiera till Multipass-valv</string>
     <string name="default_save_option">Spara alternativ som standard</string>
-    <string name="save_to_bitwarden">Spara till Bitwarden</string>
+    <string name="save_to_bitwarden">Spara till Multipass</string>
     <string name="save_here">Spara här</string>
     <string name="none">Ingen</string>
     <string name="default_save_options_subtitle">Välj var du vill spara nya verifieringskoder.</string>
     <string name="verification_code_created">Verifieringskod skapades</string>
-    <string name="choose_save_location_message">Spara denna autentiseringsnyckel här eller lägg till den i en inloggning i din Bitwarden-app.</string>
+    <string name="choose_save_location_message">Spara denna autentiseringsnyckel här eller lägg till den i en inloggning i din Multipass-app.</string>
     <string name="save_option_as_default">Spara alternativ som standard</string>
-    <string name="account_synced_from_bitwarden_app">Konto synkroniserat från Bitwarden-appen</string>
+    <string name="account_synced_from_bitwarden_app">Konto synkroniserat från Multipass-appen</string>
     <string name="local_codes">Lokala koder (%1$d)</string>
     <string name="required_information_missing">Nödvändig information saknas</string>
     <string name="required_information_missing_message">Nödvändig information saknas (t.ex. ”services” eller ”secret”). Kontrollera din fil och försök igen. Besök bitwarden.com/help för support</string>
@@ -1155,10 +1155,10 @@ Vill du byta till detta konto?</string>
     <string name="items_are_collapsed_click_to_expand">Objekt är infällda, klicka för att expandera.</string>
     <string name="error_cannot_decrypt">[fel: kan inte dekryptera]</string>
     <string name="copy_error_report">Kopiera felrapport</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden kunde inte avkryptera detta valvobjekt. Kopiera och dela denna felrapport med kundtjänst för att undvika ytterligare dataförlust.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass kunde inte avkryptera detta valvobjekt. Kopiera och dela denna felrapport med kundtjänst för att undvika ytterligare dataförlust.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Bitwarden kunde inte dekryptera %1$d objekt i valvet. Kopiera och dela den här felrapporten med kundsupport för att undvika ytterligare dataförlust.</item>
-        <item quantity="other">Bitwarden kunde inte dekryptera %1$d objekt i valvet. Kopiera och dela den här felrapporten med kundsupport för att undvika ytterligare dataförlust.</item>
+        <item quantity="one">Multipass kunde inte dekryptera %1$d objekt i valvet. Kopiera och dela den här felrapporten med kundsupport för att undvika ytterligare dataförlust.</item>
+        <item quantity="other">Multipass kunde inte dekryptera %1$d objekt i valvet. Kopiera och dela den här felrapporten med kundsupport för att undvika ytterligare dataförlust.</item>
     </plurals>
     <string name="select_a_card_for_x">Välj ett kort för %s</string>
     <string name="advanced_options">Avancerade inställningar</string>
@@ -1166,8 +1166,8 @@ Vill du byta till detta konto?</string>
     <string name="keep_your_credential_secure">Håll dina uppgifter säkra</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Läs mer om hur du håller autentiseringsuppgifter säkra när du använder ”%1$s”.</string>
     <string name="are_you_sure_you_want_to_use">Är du säker på att du vill använda ”%1$s”?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI-matchning kontrollerar hur Bitwarden identifierar förslag för automatisk ifyllning.\n<annotation emphasis="bold">Varning:</annotation> ”Reguljära uttryck” är ett avancerat alternativ som medför ökad risk för att användaruppgifter exponeras om det används felaktigt.</string>
-    <string name="default_uri_match_detection_description_advanced_options">URI-matchning kontrollerar hur Bitwarden identifierar förslag för automatisk ifyllning.\n<annotation emphasis="bold">Varning:</annotation> ”Börjar med” är ett avancerat alternativ som medför ökad risk för att inloggningsuppgifter exponeras.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI-matchning kontrollerar hur Multipass identifierar förslag för automatisk ifyllning.\n<annotation emphasis="bold">Varning:</annotation> ”Reguljära uttryck” är ett avancerat alternativ som medför ökad risk för att användaruppgifter exponeras om det används felaktigt.</string>
+    <string name="default_uri_match_detection_description_advanced_options">URI-matchning kontrollerar hur Multipass identifierar förslag för automatisk ifyllning.\n<annotation emphasis="bold">Varning:</annotation> ”Börjar med” är ett avancerat alternativ som medför ökad risk för att inloggningsuppgifter exponeras.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">\"Börjar med\" är ett avancerat alternativ med ökad risk för att röja inloggningsuppgifter.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">”Reguljära uttryck” är ett avancerat alternativ som medför ökad risk för att användaruppgifter exponeras om det används felaktigt.</string>
     <string name="later">Senare</string>
@@ -1192,17 +1192,17 @@ Vill du byta till detta konto?</string>
         <item quantity="other">%1$d objekt har importerats till ditt valv.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Aktivera autofyll vid webbläsare för att fortsätta fylla i lösenord</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Din webbläsare har nyligen uppdaterats, som har inaktiverat Bitwardens autofyllning. För att fortsätta fylla i dina lösenord med Bitwarden, aktivera webbläsarens autofyllning i autofyllningsinställningar.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Din webbläsare har nyligen uppdaterats, som har inaktiverat Bitwardens autofyllning. För att fortsätta fylla i dina lösenord med Multipass, aktivera webbläsarens autofyllning i autofyllningsinställningar.</string>
     <string name="not_now">Inte nu</string>
-    <string name="import_from_bitwarden">Importera från Bitwarden</string>
+    <string name="import_from_bitwarden">Importera från Multipass</string>
     <string name="select_account">Välj konto</string>
     <string name="no_accounts_available">Inga konton tillgängliga</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">Du har inga konton som du kan importera från. Din organisations säkerhetspolicy kan begränsa importen av objekt från Bitwarden till en annan app.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">Du har inga konton som du kan importera från. Din organisations säkerhetspolicy kan begränsa importen av objekt från Multipass till en annan app.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Importen begränsad, kan inte importera kort från detta konto.</string>
     <string name="verify_your_master_password">Verifiera ditt huvudlösenord</string>
     <string name="having_trouble_with_autofill">Har du problem med autofyllning?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Hitta dokumentation för felsökning och hjälp här</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Importera lösenord, inloggningsnycklar och andra objekttyper från ditt Bitwarden-valv.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Importera lösenord, inloggningsnycklar och andra objekttyper från ditt Multipass-valv.</string>
     <string name="items_to_import">Objekt att importera</string>
     <string name="exporting_items">Exporterar objekt…</string>
     <string name="export_failed">Exporten misslyckades</string>
@@ -1266,7 +1266,7 @@ Vill du byta till detta konto?</string>
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Ange minst en giltig e-postadress för att dela denna Send.</string>
     <string name="sync_with_browser">Synkronisera med webbläsaren</string>
-    <string name="sync_with_browser_description">För att ansluta till %1$s, synkronisera din standardwebbläsare med Bitwarden-mobilappen. När din webbläsare öppnas, slutför inloggningen om du uppmanas.\nNär synkroniseringen är klar kommer du tillbaka till den här appen.</string>
+    <string name="sync_with_browser_description">För att ansluta till %1$s, synkronisera din standardwebbläsare med Multipass-mobilappen. När din webbläsare öppnas, slutför inloggningen om du uppmanas.\nNär synkroniseringen är klar kommer du tillbaka till den här appen.</string>
     <string name="launch_browser">Starta webbläsare</string>
     <string name="continue_without_syncing">Fortsätt utan att synkronisera</string>
     <string name="external_link">Extern länk</string>
@@ -1292,7 +1292,7 @@ Vill du byta till detta konto?</string>
     <string name="trusted">Betrodd</string>
     <string name="preview_not_available_for_files">Förhandsvisning inte tillgänglig för %1$s-filer. Du kan fortfarande ladda ner den för att visa på din enhet.</string>
     <string name="this_file_is_too_large_to_preview">Den här filen är för stor för att förhandsgranskas. Du kan fortfarande ladda ner den för att visa den på din enhet.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden kunde inte dekryptera den här filen, så förhandsvisningen kan inte visas.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass kunde inte dekryptera den här filen, så förhandsvisningen kan inte visas.</string>
     <string name="preview_unavailable_for_this_file">Förhandsvisning inte tillgänglig för den här filen. Du kan fortfarande ladda ner den för att visa på din enhet.</string>
     <string name="preview_unavailable">Förhandsvisning inte tillgänglig</string>
     <string name="download_attachment">Ladda ned bilaga</string>
@@ -1334,7 +1334,7 @@ Vill du byta till detta konto?</string>
     <string name="billing_rate_per_year">%1$s / år</string>
     <string name="billing_rate_per_month">%1$s / månad</string>
     <string name="manage_plan">Hantera prenumeration</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">Hantera din prenumeration i Bitwarden-webbappen.</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">Hantera din prenumeration i Multipass-webbappen.</string>
     <string name="cancel_premium">Avbryt Premium</string>
     <string name="subscription_status_active">Aktiv</string>
     <string name="subscription_status_canceled">Avbruten</string>
@@ -1425,8 +1425,8 @@ Vill du byta till detta konto?</string>
     <string name="local_network_access_required">Lokal nätverksåtkomst krävs</string>
     <string name="ask_again_later">Fråga igen senare</string>
     <string name="enable_local_network_access">Aktivera lokal nätverksåtkomst</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden behöver lokal nätverksåtkomst för att synkronisera med din server. Utan denna behörighet kan appen inte ansluta.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Utan denna behörighet kan Bitwarden inte ansluta och synkronisera med din server. Du kan aktivera detta i dina enhetsinställningar.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass behöver lokal nätverksåtkomst för att synkronisera med din server. Utan denna behörighet kan appen inte ansluta.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Utan denna behörighet kan Multipass inte ansluta och synkronisera med din server. Du kan aktivera detta i dina enhetsinställningar.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Din begäran avbröts eftersom appen behöver lokal nätverksåtkomst. Du kan aktivera detta i dina enhetsinställningar.</string>
     <string name="continue_to_stripe">Fortsätt till Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Du kommer att tas till Stripe för att hantera din prenumerationsavbokning.</string>

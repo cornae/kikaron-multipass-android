@@ -75,9 +75,9 @@
     <string name="yes">是</string>
     <string name="account">帳戶</string>
     <string name="account_created_success">您的新帳戶已建立！</string>
-    <string name="set_bitwarden_as_passkey_manager_description">於裝置設定將 Bitwarden 設為您的密鑰提供者</string>
+    <string name="set_bitwarden_as_passkey_manager_description">於裝置設定將 Multipass 設為您的密鑰提供者</string>
     <string name="avoid_ambiguous_characters">避免易混淆的字元</string>
-    <string name="bitwarden_autofill_service">Bitwarden 自動填入服務</string>
+    <string name="bitwarden_autofill_service">Multipass 自動填入服務</string>
     <string name="change_master_password">變更主密碼</string>
     <string name="close">關閉</string>
     <string name="close_app">關閉應用程式</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">將工作階段逾時設定為「登出」嗎？</string>
     <string name="vault_timeout_log_out_confirmation_message">在逾時時間結束後，你將會被登出。你需要連接網際網路才能重新登入並存取你的密碼庫。此裝置上已儲存的設定與 PIN 不會改變。</string>
     <string name="logging_in">登入中…</string>
-    <string name="login_to_bitwarden">登入 Bitwarden</string>
+    <string name="login_to_bitwarden">登入 Multipass</string>
     <string name="master_password_confirmation_val_message">兩次填寫的主密碼不一致。</string>
     <string name="master_password_description">主密碼是用於存取密碼庫的密碼。它非常重要，請您不要忘記它。若您忘記了主密碼，沒有任何方法能將其復原。</string>
     <string name="master_password_hint">主密碼提示（可省略）</string>
@@ -168,14 +168,14 @@
     <string name="view_identity">檢視身分</string>
     <string name="view_note">檢視筆記</string>
     <string name="view_ssh_key">檢視 SSH 金鑰</string>
-    <string name="web_vault">Bitwarden 網頁版密碼庫</string>
+    <string name="web_vault">Multipass 網頁版密碼庫</string>
     <string name="items">項目</string>
     <string name="items_for_uri">%1$s 的項目</string>
     <string name="no_items_for_uri">您的密碼庫中沒有用於 %1$s 的項目。</string>
     <string name="no_items_for_vault">您的密碼庫中沒有與「%1$s」一致的項目</string>
     <string name="search_for_a_login_or_add_a_new_login">搜尋登入資訊或新增登入資訊</string>
     <string name="disabled">已停用</string>
-    <string name="bitwarden_autofill_service_alert2">Bitwarden 自動填入服務是新增登入資料的最簡單方法。請至「設定」頁面深入了解使用 Bitwarden 自動填入服務的方法 。</string>
+    <string name="bitwarden_autofill_service_alert2">Multipass 自動填入服務是新增登入資料的最簡單方法。請至「設定」頁面深入了解使用 Multipass 自動填入服務的方法 。</string>
     <string name="autofill_noun">自動填入</string>
     <string name="autofill_verb">自動填入</string>
     <string name="autofill_or_view">您想自動填入還是檢視此項目？</string>
@@ -227,7 +227,7 @@
     <string name="environment_saved">已儲存環境 URL。</string>
     <string name="identity_url">身分伺服器 URL</string>
     <string name="self_hosted_environment">自行部署環境</string>
-    <string name="self_hosted_environment_footer">指定您內部部署的 Bitwarden 安裝之基礎 URL。</string>
+    <string name="self_hosted_environment_footer">指定您內部部署的 Multipass 安裝之基礎 URL。</string>
     <string name="server_url">伺服器 URL</string>
     <string name="web_vault_url">網頁版密碼庫伺服器 URL</string>
     <string name="custom_fields">自訂欄位</string>
@@ -297,7 +297,7 @@
     <string name="no_items_folder">此資料夾中沒有項目。</string>
     <string name="no_items_trash">垃圾桶中沒有項目。</string>
     <string name="autofill_accessibility_summary">在其它應用程式及網頁上協助自動填寫使用者名稱和密碼。</string>
-    <string name="autofill_service_description">Bitwarden 自動填入服務使用 Android 自動填入框架來協助您將登入資訊填入至您裝置上的其他應用程式中。</string>
+    <string name="autofill_service_description">Multipass 自動填入服務使用 Android 自動填入框架來協助您將登入資訊填入至您裝置上的其他應用程式中。</string>
     <string name="bitwarden_autofill_go_to_settings">我們無法為您自動開啟 Android 自動填入設定選單。您可以從 Android 設定 &gt; 系統 &gt; 語言與輸入設定 &gt; 進階 &gt; 自動填入服務，手動到達自動填入設定選單。</string>
     <string name="custom_field_name">自訂欄位名稱</string>
     <string name="field_type_boolean">布林值</string>
@@ -371,7 +371,7 @@
     <string name="pin">PIN 碼</string>
     <string name="unlock">解鎖</string>
     <string name="thirty_minutes">30 分鐘</string>
-    <string name="set_pin_description">設定您用來解鎖 Bitwarden 的 PIN 碼。您的 PIN 設定將在您完全結束本應用程式時被重設。</string>
+    <string name="set_pin_description">設定您用來解鎖 Multipass 的 PIN 碼。您的 PIN 設定將在您完全結束本應用程式時被重設。</string>
     <string name="logged_in_as_on">已在 %2$s 以 %1$s 身分登入。</string>
     <string name="vault_locked_master_password">密碼庫已鎖定。請驗證主密碼以繼續。</string>
     <string name="vault_locked_pin">密碼庫已鎖定。請驗證 PIN 碼以繼續。</string>
@@ -385,7 +385,7 @@
     <string name="clear_clipboard">清除剪貼簿</string>
     <string name="clear_clipboard_description">自動清除剪貼簿中複製的值。</string>
     <string name="default_uri_match_detection">預設的 URI 一致性偵測方式</string>
-    <string name="default_uri_match_detection_description">URI 匹配偵測控制是 Bitwarden 用來識別自動填入建議的方式。</string>
+    <string name="default_uri_match_detection_description">URI 匹配偵測控制是 Multipass 用來識別自動填入建議的方式。</string>
     <string name="theme">主題</string>
     <string name="theme_description">變更應用程式的主題色彩。</string>
     <string name="copy_notes">複製備註</string>
@@ -421,7 +421,7 @@
     <string name="password_generator_policy_in_effect">一個或多個組織原則正影響密碼產生器設定。</string>
     <string name="unable_to_save_attachment">儲存附件時發生錯誤。若問題持續發生，請改用網頁版密碼庫儲存附件。</string>
     <string name="save_attachment_success">已成功儲存附件</string>
-    <string name="autofill_tile_accessibility_required">請到 Bitwarden 設定中開啟「自動填入無障礙服務」以使用自動填入功能。</string>
+    <string name="autofill_tile_accessibility_required">請到 Multipass 設定中開啟「自動填入無障礙服務」以使用自動填入功能。</string>
     <string name="autofill_tile_uri_not_found">未偵測到密碼欄位</string>
     <string name="soft_deleting">正在傳送至垃圾桶…</string>
     <string name="item_soft_deleted">已將項目傳送至垃圾桶。</string>
@@ -633,9 +633,9 @@
     <string name="catch_all_email_description">使用您的網域設定的 Catch-all 收件匣。</string>
     <string name="forwarded_email_description">使用外部轉寄服務產生一個電子郵件別名。</string>
     <string name="accessibility_service_disclosure">無障礙服務聲明</string>
-    <string name="accessibility_disclosure_text">Bitwarden 使用無障礙服務搜寻應用程式和網站中的登入欄位，然後建立適當的欄位 ID，以便在找到應用程式或網站的匹配項目時輸入用戶名和密碼。 我們不會存儲此服務提供給我們的任何資訊，也不會試圖控制憑證文字輸入以外的任何荧幕元素。</string>
-    <string name="accessibility_disclosure_start_up_text_1">在 Bitwarden 提供以無障礙功能為基礎的自動填入前，必須先顯示此通知。</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden 提供一種選用的自動填入方式，透過 Android 的無障礙服務偵測登入欄位。啟用後，Bitwarden 會辨識適當的欄位，並在找到相符項目時填入您的登入資料。</string>
+    <string name="accessibility_disclosure_text">Multipass 使用無障礙服務搜寻應用程式和網站中的登入欄位，然後建立適當的欄位 ID，以便在找到應用程式或網站的匹配項目時輸入用戶名和密碼。 我們不會存儲此服務提供給我們的任何資訊，也不會試圖控制憑證文字輸入以外的任何荧幕元素。</string>
+    <string name="accessibility_disclosure_start_up_text_1">在 Multipass 提供以無障礙功能為基礎的自動填入前，必須先顯示此通知。</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass 提供一種選用的自動填入方式，透過 Android 的無障礙服務偵測登入欄位。啟用後，Multipass 會辨識適當的欄位，並在找到相符項目時填入您的登入資料。</string>
     <string name="accessibility_disclosure_start_up_text_3">使用無障礙服務期間，我們不會儲存任何螢幕顯示內容的資訊，也不會控制登入資料輸入以外的任何螢幕元素。</string>
     <string name="i_understand">我了解</string>
     <string name="accept">接受</string>
@@ -644,7 +644,7 @@
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">登入嘗試來自：
 %1$s
 您想要切換至這個帳戶嗎？</string>
-    <string name="new_to_bitwarden">第一次使用 Bitwarden？</string>
+    <string name="new_to_bitwarden">第一次使用 Multipass？</string>
     <string name="get_master_passwordword_hint">獲取主密碼提示</string>
     <string name="logging_in_as_x_on_y">在 %2$s 上以 %1$s 身分登入</string>
     <string name="not_you">不是您嗎？</string>
@@ -701,7 +701,7 @@
     <string name="invalid_uri">URI 無效</string>
     <string name="the_urix_is_already_blocked">已經封鎖 URI %1$s</string>
     <string name="login_approved">登入已核准</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">必須先在 Bitwarden 應用程式設定中開啟，才可以使用裝置登入。</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">必須先在 Multipass 應用程式設定中開啟，才可以使用裝置登入。</string>
     <string name="need_another_option_view_all_login_options">需要其他選項嗎？ <annotation link="viewAll">查看所有登入選項</annotation></string>
     <string name="log_in_with_device">使用裝置登入</string>
     <string name="logging_in_on">正登入到</string>
@@ -710,13 +710,13 @@
     <string name="select_vault">選擇保管庫</string>
     <string name="appearance">外觀</string>
     <string name="account_security">帳戶安全性</string>
-    <string name="bitwarden_help_center">Bitwarden 幫助中心</string>
+    <string name="bitwarden_help_center">Multipass 幫助中心</string>
     <string name="sync_now">立即同步</string>
     <string name="unlock_options">解鎖選項</string>
     <string name="session_timeout">工作階段逾時</string>
     <string name="session_timeout_action">工作階段逾時動作</string>
     <string name="account_fingerprint_phrase">帳戶指紋短語</string>
-    <string name="passkey_management_explanation_long">使用 Bitwarden 來在您的密碼庫中儲存新的密碼金鑰或使用密碼金鑰來登入。</string>
+    <string name="passkey_management_explanation_long">使用 Multipass 來在您的密碼庫中儲存新的密碼金鑰或使用密碼金鑰來登入。</string>
     <string name="autofill_services_explanation_long">Android 自動填入框架用於協助將登入資訊填入裝置上的其他應用程式。</string>
     <string name="use_inline_autofill_explanation_long">如果您選擇的鍵盤支援，請使用内嵌式自動填入。否則，使用預設疊層。</string>
     <string name="additional_options">額外選項</string>
@@ -725,12 +725,12 @@
     <string name="continue_to_help_center">接下來造訪幫助中心嗎？</string>
     <string name="continue_to_privacy_policy">繼續前往隱私權政策？</string>
     <string name="continue_to_device_settings">繼續前往裝置設定？</string>
-    <string name="two_step_login_description_long">在 Bitwarden Web 應用程式中設定兩步驟登入，讓您的帳戶更加安全。</string>
-    <string name="change_master_password_description_long">您可以在 Bitwarden Web 應用程式上變更主密碼。</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">在幫助中心了解有關如何使用 Bitwarden 的更多資訊。</string>
+    <string name="two_step_login_description_long">在 Multipass Web 應用程式中設定兩步驟登入，讓您的帳戶更加安全。</string>
+    <string name="change_master_password_description_long">您可以在 Multipass Web 應用程式上變更主密碼。</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">在幫助中心了解有關如何使用 Multipass 的更多資訊。</string>
     <string name="privacy_policy_description_long">在 bitwarden.com 上查看我們的隱私權政策。</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">在 Web 應用程式上探索 Bitwarden 帳戶的更多功能。</string>
-    <string name="learn_about_organizations_description_long">Bitwarden 可讓您透過組織與其他人共用您的密碼庫項目。請造訪 bitwarden.com 網站以了解更多資訊。</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">在 Web 應用程式上探索 Multipass 帳戶的更多功能。</string>
+    <string name="learn_about_organizations_description_long">Multipass 可讓您透過組織與其他人共用您的密碼庫項目。請造訪 bitwarden.com 網站以了解更多資訊。</string>
     <string name="created_x">建立於%1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">您的組織要求您設定主密碼。</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">設定一個解鎖方式來變更您的密碼庫逾時動作。</string>
@@ -740,8 +740,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">您的帳號要求使用 Duo 兩步驟驗證登入。</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">跟隨 Duo 的步驟來完成登入。</string>
     <string name="launch_duo">啟動 Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">您的密碼金鑰已經儲存在您的 %1$s Bitwarden 密碼庫</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">您的密碼已經儲存在您的 %1$s Bitwarden 密碼庫</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">您的密碼金鑰已經儲存在您的 %1$s Multipass 密碼庫</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">您的密碼已經儲存在您的 %1$s Multipass 密碼庫</string>
     <string name="passkeys_not_supported_for_this_app">此應用程式不支援密碼金鑰</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">由於您的瀏覽器未獲得權限，密碼金鑰動作失敗</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">由於您的瀏覽器憑證不正確，密碼金鑰動作失敗</string>
@@ -767,15 +767,15 @@
     <string name="check_your_email">檢查您的電子郵件</string>
     <string name="open_email_app">開啟電子郵件 App</string>
     <string name="email_verified">電子郵件已驗證</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">獲得來自 Bitwarden 的公告、建議及研究資訊電子郵件。可以在任何時間<annotation link="unsubscribe">取消訂閱</annotation>。</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">獲得來自 Multipass 的公告、建議及研究資訊電子郵件。可以在任何時間<annotation link="unsubscribe">取消訂閱</annotation>。</string>
     <string name="security_prioritized">安全，第一優先</string>
-    <string name="welcome_message_1">儲存登入資訊、信用卡和數位身分到您的安全密碼庫。Bitwarden 使用零知識、端對端的加密來保護您的重要資訊。</string>
+    <string name="welcome_message_1">儲存登入資訊、信用卡和數位身分到您的安全密碼庫。Multipass 使用零知識、端對端的加密來保護您的重要資訊。</string>
     <string name="welcome_message_2">設定生物辨識解鎖及自動填入，不需要輸入任何字元就可以登入。</string>
     <string name="quick_and_easy_login">快速方便的登入</string>
     <string name="level_up_your_logins">升級您的登入體驗</string>
     <string name="welcome_message_3">使用密碼產生器來建立及儲存高強度、唯一的密碼，來保護您所有的帳號。</string>
     <string name="your_data_when_and_where_you_need_it">您的資料，隨時隨地都垂手可得</string>
-    <string name="welcome_message_4">使用 Bitwarden 行動應用程式、瀏覽器及桌面應用程式在無限制的裝置來儲存無上限的密碼。</string>
+    <string name="welcome_message_4">使用 Multipass 行動應用程式、瀏覽器及桌面應用程式在無限制的裝置來儲存無上限的密碼。</string>
     <string name="remove_passkey">移除密碼金鑰</string>
     <string name="passkey_removed">密碼金鑰已移除</string>
     <string name="what_makes_a_password_strong">一個強密碼是怎麼造成的？</string>
@@ -805,8 +805,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">選擇您電子郵件中的連結來認證您的電子郵件地址及繼續建立您的帳號。</string>
     <string name="change_email_address">更改電子郵件地址</string>
     <string name="next">下一步</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden 無法為您恢復遺失或忘記的主密碼。</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden 無法重設遺失或忘記的主密碼。</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass 無法為您恢復遺失或忘記的主密碼。</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass 無法重設遺失或忘記的主密碼。</string>
     <string name="choose_your_master_password">選擇您的主密碼</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">選擇一個獨特且強度足夠的密碼來保護您的資訊安全。</string>
     <plurals name="minimum_characters">
@@ -822,15 +822,15 @@
     <string name="autofill_setup">自動填入設定</string>
     <string name="turn_on_browser_autofill_integration">開啟瀏覽器自動填入整合功能</string>
     <string name="browser_requires_special_permissions_for_bitwarden_singular">開啟瀏覽器自動填入整合功能</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">您正在使用的瀏覽器需要授予 Bitwarden 特殊權限，才能自動填入您的密碼。</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">您正在使用的瀏覽器需要授予 Bitwarden 特殊權限，才能自動填入您的密碼。請在下方啟用您偏好的自動填入整合功能。</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">您正在使用的瀏覽器需要授予 Bitwarden 特殊權限，才能自動填入您的密碼。請啟用所有已安裝瀏覽器的自動填入功能以繼續。</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">您正在使用的瀏覽器需要授予 Multipass 特殊權限，才能自動填入您的密碼。</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">您正在使用的瀏覽器需要授予 Multipass 特殊權限，才能自動填入您的密碼。請在下方啟用您偏好的自動填入整合功能。</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">您正在使用的瀏覽器需要授予 Multipass 特殊權限，才能自動填入您的密碼。請啟用所有已安裝瀏覽器的自動填入功能以繼續。</string>
     <string name="use_autofill_to_log_into_your_accounts">使用自動填入來一鍵登入您的帳號。</string>
     <string name="turn_on_later">稍後再啟動</string>
     <string name="turn_on_autofill_later">稍後再啟動自動填入？</string>
     <string name="turn_on_browser_autofill_integration_later">稍後再開啟瀏覽器自動填入整合功能？</string>
     <string name="return_to_complete_this_step_anytime_in_settings">您可以在設定中隨時回到此步驟。</string>
-    <string name="what_bitwarden_has_to_offer">您現在可以瀏覽所有 Bitwarden 所提供的功能並開始安全管理您的密碼。</string>
+    <string name="what_bitwarden_has_to_offer">您現在可以瀏覽所有 Multipass 所提供的功能並開始安全管理您的密碼。</string>
     <string name="youre_all_set">一切就緒！</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">連接到 Duo 服務時發生錯誤。使用不同的兩階段認證或聯繫 Duo 來獲得支援。</string>
     <string name="master_password_hint_not_specified">主密碼提示</string>
@@ -849,7 +849,7 @@
     <string name="do_you_have_a_computer_available">您有電腦嗎？</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">下面的步驟會導引您使用電腦或筆電匯入您的登入資訊</string>
     <string name="import_logins">匯入登入資料</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">使用您的電腦，依照下面的步驟來從您的瀏覽器或其它密碼管理器匯出已儲存的密碼。然後，安全的匯入到 Bitwarden。</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">使用您的電腦，依照下面的步驟來從您的瀏覽器或其它密碼管理器匯出已儲存的密碼。然後，安全的匯入到 Multipass。</string>
     <string name="give_your_vault_a_head_start">讓您的密碼庫贏在起跑點</string>
     <string name="class_3_biometrics_description">使用生物辨識解鎖需要使用強生物辨識，可能不會支援所有此裝置提供的生物辨識選項。</string>
     <string name="class_2_biometrics_description">使用生物辨識解鎖需要使用強生物辨識，此裝置所能提供的生物辨識選項都不支援。</string>
@@ -860,28 +860,28 @@
     <string name="export_your_saved_logins">匯出已儲存的登入資訊</string>
     <string name="delete_this_file_after_import_is_complete">您稍後在匯入完成後可以刪除此檔案。</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">使用您的電腦，開啟新的瀏覽器分頁並<annotation emphasis="bold">瀏覽到<annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">登入到 Bitwarden 網頁應用程式。</string>
+    <string name="log_in_to_the_bitwarden_web_app">登入到 Multipass 網頁應用程式。</string>
     <string name="step_2_of_3">步驟 3 之 2</string>
-    <string name="log_in_to_bitwarden">登入 Bitwarden</string>
+    <string name="log_in_to_bitwarden">登入 Multipass</string>
     <string name="step_3_of_3">步驟 3 之 3</string>
-    <string name="import_logins_to_bitwarden">匯入登入資訊到 Bitwarden</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">在 Bitwarden 選單中，<annotation emphasis="bold">找到工具選項</annotation>並<annotation emphasis="bold">選擇匯入資料</annotation>。</string>
+    <string name="import_logins_to_bitwarden">匯入登入資訊到 Multipass</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">在 Multipass 選單中，<annotation emphasis="bold">找到工具選項</annotation>並<annotation emphasis="bold">選擇匯入資料</annotation>。</string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">填入表單並<annotation emphasis="bold">匯入您的密碼檔案</annotation>。</string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">為了您的安全，記得<annotation emphasis="bold">刪除先前匯出的密碼檔案</annotation>。</string>
     <string name="need_help_check_out_import_help">需要幫助嗎？看看我們的<annotation link="importHelp">匯入說明</annotation>。</string>
     <string name="import_help">匯入說明</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily">在您的電腦上<annotation emphasis="bold">儲存匯出的檔案</annotation>方便日後尋找。</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">這不是一個 Bitwarden 伺服器。您可能需要聯繫您的提供商或更新您的伺服器。</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">這不是一個 Multipass 伺服器。您可能需要聯繫您的提供商或更新您的伺服器。</string>
     <string name="syncing_logins_loading_message">正在同步登入資訊...</string>
     <string name="download_the_browser_extension">下載瀏覽器擴充套件</string>
-    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">瀏覽到 bitwarden.com/download 來結合 Bitwarden 到您最愛的瀏覽器提供最好的體驗。</string>
+    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">瀏覽到 bitwarden.com/download 來結合 Multipass 到您最愛的瀏覽器提供最好的體驗。</string>
     <string name="use_the_web_app">使用網頁應用程式</string>
     <string name="log_in_at_bitwarden_com_to_easily_manage_your_account">登入到 bitwarden.com 來輕易管理您的帳號及更新偏好設定。</string>
     <string name="autofill_passwords">自動填入密碼</string>
     <string name="set_up_autofill_on_all_your_devices">在您所有裝置上設定一鍵自動填入登入</string>
     <string name="import_successful">匯入成功！</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">在任何地方使用 Bitwarden 網頁或桌面應用程式來管理您的登入資訊。</string>
-    <string name="bitwarden_tools">Bitwarden 工具</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">在任何地方使用 Multipass 網頁或桌面應用程式來管理您的登入資訊。</string>
+    <string name="bitwarden_tools">Multipass 工具</string>
     <string name="got_it">知道了</string>
     <string name="no_logins_were_imported">沒有匯入任何登入資訊</string>
     <string name="import_error">匯入時發生錯誤</string>
@@ -898,7 +898,7 @@
         <item quantity="other">%d 通知</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">快速輕鬆的使用不同裝置登入</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden 可以在您透過其它裝置收到新登入要求時通知您。</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass 可以在您透過其它裝置收到新登入要求時通知您。</string>
     <string name="skip_for_now">下次再說</string>
     <string name="done_text">完成</string>
     <string name="page_number_x_of_y">%2$s 之 %1$s</string>
@@ -923,7 +923,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">新增一個數字或符號</annotation>使其更安全。現在您已經有一個獨特、安全且好記的密碼短語！</string>
     <string name="need_some_inspiration">需要一些靈感嗎？</string>
     <string name="check_out_the_passphrase_generator">來看看密碼短語產生器</string>
-    <string name="we_couldnt_verify_the_servers_certificate">我們無法驗證伺服器的數位憑證。您裝置上的憑證鍊或代理伺服器設定或您的 Bitwarden 伺服器可能未正確設定。</string>
+    <string name="we_couldnt_verify_the_servers_certificate">我們無法驗證伺服器的數位憑證。您裝置上的憑證鍊或代理伺服器設定或您的 Multipass 伺服器可能未正確設定。</string>
     <string name="copy_private_key">複製私密金鑰</string>
     <string name="login_credentials">登入憑證</string>
     <string name="autofill_options">自動填入選項</string>
@@ -950,7 +950,7 @@
     <string name="coachmark_5_of_6">5 / 6</string>
     <string name="coachmark_6_of_6">6 / 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">使用這些選項來調整您的密碼，以符合您帳號網站的要求。</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">將新密碼儲存到 Bitwarden 後，別忘了在您的帳號網站上更新它。</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">將新密碼儲存到 Multipass 後，別忘了在您的帳號網站上更新它。</string>
     <string name="verify_your_identity">驗證您的身份</string>
     <string name="error_loading_certificate">加載證書時出錯。</string>
     <string name="certificate_alias">證書別名</string>
@@ -961,7 +961,7 @@
     <string name="unsupported_certificate_type">未支援的憑證類型</string>
     <string name="certificate_password_incorrect">憑證密碼不正確</string>
     <string name="invalid_certificate_chain">憑證鏈無效</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">使用系統憑證的安全性低於將憑證儲存在 Bitwarden 中。繼續操作將顯示可用的系統憑證清單（若已安裝憑證）。</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">使用系統憑證的安全性低於將憑證儲存在 Multipass 中。繼續操作將顯示可用的系統憑證清單（若已安裝憑證）。</string>
     <string name="link">連結</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">通行金鑰操作失敗，因為請求中沒有主機網址。</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">通行金鑰操作失敗，因為應用程式簽章無效。</string>
@@ -999,8 +999,8 @@
     <string name="experiencing_an_issue">遇到問題了嗎？</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">啟用臨時記錄以在本機收集並檢視日誌。啟用後，應用程式狀態與網路請求可能會被記錄，但永遠不會包含保險庫中的敏感資訊。</string>
     <string name="to_get_started_set_a_logging_duration">開始前，請先設定記錄時間。記錄功能會在此期間結束後自動關閉，讓您能在重現問題時擷取相關活動。</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">日誌會在 30 天後自動刪除。Bitwarden 只有在您分享時才能存取您的日誌資料。</string>
-    <string name="for_details_on_what_is_and_isnt_logged">如需了解哪些內容會被記錄、哪些不會，請前往\n<annotation link="helpCenter">Bitwarden 說明中心。</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">日誌會在 30 天後自動刪除。Multipass 只有在您分享時才能存取您的日誌資料。</string>
+    <string name="for_details_on_what_is_and_isnt_logged">如需了解哪些內容會被記錄、哪些不會，請前往\n<annotation link="helpCenter">Multipass 說明中心。</annotation></string>
     <string name="logging_duration">記錄時間</string>
     <string name="flight_recorder_one_hour">1 小時</string>
     <string name="flight_recorder_eight_hours">8 小時</string>
@@ -1031,29 +1031,29 @@
     <string name="unable_to_read_certificate">無法讀取憑證。</string>
     <string name="cannot_delete_your_account">無法刪除您的帳號</string>
     <string name="cannot_delete_your_account_explanation">由於您的帳號由一個機構持有，因此無法完成此操作。請聯絡您的機構管理員以獲取更多詳情。</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">此帳號即將被刪除。請前往 %1$s 登入以繼續使用 Bitwarden。</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">此帳號即將被刪除。請前往 %1$s 登入以繼續使用 Multipass。</string>
     <string name="view_file_send">檢視檔案 Send</string>
     <string name="view_text_send">檢視文字 Send</string>
     <string name="delete_send">刪除 Send</string>
     <string name="missing_send_resync_your_vault">缺少 Send，請重新同步您的保險庫。</string>
     <string name="use_dynamic_colors">使用動態色彩</string>
     <string name="use_dynamic_colors_question">確定使用動態色彩？</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">此配色方案會依據您目前的桌布，自動將系統色彩套用至 Bitwarden。這些色彩可能不符合所有無障礙準則。</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">此配色方案會依據您目前的桌布，自動將系統色彩套用至 Multipass。這些色彩可能不符合所有無障礙準則。</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">通行金鑰操作失敗，因為瀏覽器（%1$s）無法識別。請選擇「信任」以將 %1$s 加入本機信任的應用程式清單。</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">由於您的瀏覽器未被信任，密碼金鑰動作失敗</string>
     <string name="trust">信任</string>
-    <string name="trusted_by_you_learn_more">這些是 Bitwarden 預設不信任、但您信任可執行通行金鑰操作的應用程式或瀏覽器。</string>
-    <string name="trusted_by_community_learn_more">這些是未收錄於 Google Play 商店的應用程式，但在社群成員使用並回報為安全後，Bitwarden 會信任其執行通行金鑰操作。</string>
+    <string name="trusted_by_you_learn_more">這些是 Multipass 預設不信任、但您信任可執行通行金鑰操作的應用程式或瀏覽器。</string>
+    <string name="trusted_by_community_learn_more">這些是未收錄於 Google Play 商店的應用程式，但在社群成員使用並回報為安全後，Multipass 會信任其執行通行金鑰操作。</string>
     <string name="trusted_by_google_learn_more">這些是由 Google 認可為安全並可在 Google Play 商店中取得的應用程式。</string>
     <string name="trusted_by_you">得到您信任</string>
     <string name="trusted_by_the_community">得到社群信任</string>
     <string name="trusted_by_google">得到 Google 信任</string>
-    <string name="privileged_apps_description">為了保護使用者免於釣魚攻擊，Bitwarden 預設僅透過 Google 或 Bitwarden 社群信任的應用程式或網頁瀏覽器執行通行金鑰操作。</string>
+    <string name="privileged_apps_description">為了保護使用者免於釣魚攻擊，Multipass 預設僅透過 Google 或 Multipass 社群信任的應用程式或網頁瀏覽器執行通行金鑰操作。</string>
     <string name="about_privileged_applications">關於受信任應用程式</string>
     <string name="learn_more_about_privileged_apps">了解更多關於受信任應用程式的資訊</string>
     <string name="privileged_apps">受信任的應用程式</string>
     <string name="unrecognized_browser">無法識別的瀏覽器</string>
-    <string name="learn_more_about_using_passkeys_with_bitwarden">了解更多如何在 Bitwarden 中使用通行金鑰。</string>
+    <string name="learn_more_about_using_passkeys_with_bitwarden">了解更多如何在 Multipass 中使用通行金鑰。</string>
     <string name="all_trusted_apps">所有信任的應用程式</string>
     <string name="are_you_sure_you_want_to_stop_trusting_x">您確定要停止信任 %s 嗎？</string>
     <string name="installed_apps">已安裝的應用程式</string>
@@ -1080,7 +1080,7 @@
     <string name="information">資訊</string>
     <string name="otp_type">OTP 類別</string>
     <string name="search_codes">搜尋代碼</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">使用 Bitwarden 驗證器保護您的帳戶</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">使用 Multipass 驗證器保護您的帳戶</string>
     <string name="get_verification_codes_for_all_your_accounts">取得所有支援兩步驟驗證的帳戶之驗證碼。</string>
     <string name="use_your_device_camera_to_scan_codes">使用您裝置的相機掃描驗證碼</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">掃描您帳戶兩步驟驗證設定中的 QR code。</string>
@@ -1101,7 +1101,7 @@
     <string name="too_many_failed_biometric_attempts">生物辨識嘗試次數過多。</string>
     <string name="version">版本</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">版本：%1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">在說明中心了解有關如何使用 Bitwarden Authenticato的更多資訊。</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">在說明中心了解有關如何使用 Multipass Authenticato的更多資訊。</string>
     <string name="key">金鑰</string>
     <string name="create_verification_code">建立驗證碼</string>
     <string name="key_is_required">需要金鑰</string>
@@ -1112,30 +1112,30 @@
     <string name="key_is_invalid">金鑰無效。</string>
     <string name="backup">備份</string>
     <string name="data_backup_title">資料備份</string>
-    <string name="data_backup_message">Bitwarden 驗證器資料已備份，可透過您定期排程的裝置備份進行還原。</string>
+    <string name="data_backup_message">Multipass 驗證器資料已備份，可透過您定期排程的裝置備份進行還原。</string>
     <string name="import_2fas_password_protected_not_supported">不支援從受密碼保護的 2FAS 檔案匯入。請使用未受密碼保護的匯出檔案重試。</string>
-    <string name="import_bitwarden_unsupported_format">不支援匯入 Bitwarden 的 CSV 檔案。請改用匯出的 JSON 檔案再試一次。</string>
-    <string name="download_bitwarden_card_title">下載 Bitwarden 應用程式</string>
+    <string name="import_bitwarden_unsupported_format">不支援匯入 Multipass 的 CSV 檔案。請改用匯出的 JSON 檔案再試一次。</string>
+    <string name="download_bitwarden_card_title">下載 Multipass 應用程式</string>
     <string name="download_bitwarden_card_message">將您所有的登入資料儲存並與驗證碼直接同步至驗證器應用程式。</string>
     <string name="download_now">下載 CSV</string>
-    <string name="sync_with_bitwarden_app">與 Bitwarden 應用程式同步</string>
+    <string name="sync_with_bitwarden_app">與 Multipass 應用程式同步</string>
     <string name="learn_more_link"><annotation link="learnMore">瞭解更多</annotation></string>
-    <string name="shared_codes_error">無法從 Bitwarden 應用程式同步驗證碼。請確保兩個應用程式皆為最新版本。您仍可在 Bitwarden 應用程式中存取現有的驗證碼。</string>
-    <string name="sync_with_the_bitwarden_app">與 Bitwarden 應用程式同步</string>
+    <string name="shared_codes_error">無法從 Multipass 應用程式同步驗證碼。請確保兩個應用程式皆為最新版本。您仍可在 Multipass 應用程式中存取現有的驗證碼。</string>
+    <string name="sync_with_the_bitwarden_app">與 Multipass 應用程式同步</string>
     <string name="sync_with_bitwarden_action_card_message">若要查看所有驗證碼，您需要允許在所有帳戶上進行同步。</string>
     <string name="take_me_to_app_settings">前往應用程式設定</string>
     <string name="something_went_wrong">出了點問題</string>
     <string name="please_try_again">請再試一次</string>
-    <string name="copy_to_bitwarden_vault">複製到 Bitwarden 密碼庫</string>
+    <string name="copy_to_bitwarden_vault">複製到 Multipass 密碼庫</string>
     <string name="default_save_option">預設儲存選項</string>
-    <string name="save_to_bitwarden">已儲存至 Bitwarden</string>
+    <string name="save_to_bitwarden">已儲存至 Multipass</string>
     <string name="save_here">儲存在此</string>
     <string name="none">無</string>
     <string name="default_save_options_subtitle">選擇您要儲存新驗證碼的位置。</string>
     <string name="verification_code_created">驗證碼已建立</string>
-    <string name="choose_save_location_message">將此驗證器金鑰儲存在此，或將其新增至您 Bitwarden 應用程式中的登入項目。</string>
+    <string name="choose_save_location_message">將此驗證器金鑰儲存在此，或將其新增至您 Multipass 應用程式中的登入項目。</string>
     <string name="save_option_as_default">將此儲存選項設為預設</string>
-    <string name="account_synced_from_bitwarden_app">從 Bitwarden 應用程式同步的帳戶</string>
+    <string name="account_synced_from_bitwarden_app">從 Multipass 應用程式同步的帳戶</string>
     <string name="local_codes">本機代碼（%1$d）</string>
     <string name="required_information_missing">缺少必要資訊</string>
     <string name="required_information_missing_message">缺少必要資訊（例如「服務」或「密鑰」）。請檢查您的檔案後再試一次。如需支援，請造訪 bitwarden.com/help</string>
@@ -1149,9 +1149,9 @@
     <string name="items_are_collapsed_click_to_expand">項目已收合，點擊以展開。</string>
     <string name="error_cannot_decrypt">[錯誤：無法解密]</string>
     <string name="copy_error_report">複製錯誤報告</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden 無法解密此保險庫項目。請複製並將此錯誤報告提供給客服團隊，以避免進一步的資料遺失。</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass 無法解密此保險庫項目。請複製並將此錯誤報告提供給客服團隊，以避免進一步的資料遺失。</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="other">Bitwarden 無法解密 %1$d 個保險庫項目。請複製並將此錯誤報告提供給客服團隊，以避免進一步的資料遺失。</item>
+        <item quantity="other">Multipass 無法解密 %1$d 個保險庫項目。請複製並將此錯誤報告提供給客服團隊，以避免進一步的資料遺失。</item>
     </plurals>
     <string name="select_a_card_for_x">選擇 %s 的付款卡</string>
     <string name="advanced_options">進階選項</string>
@@ -1160,8 +1160,8 @@
     <string name="learn_more_about_how_to_keep_credentirals_secure">瞭解在使用「%1$s」時如何確保憑證安全。
 </string>
     <string name="are_you_sure_you_want_to_use">您確定要使用「%1$s」嗎？</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI 比對偵測可控制 Bitwarden 如何識別自動填入建議。\n<annotation emphasis="bold">警告：</annotation>「正規表示式」為進階選項，若使用不當，可能增加憑證外洩的風險。</string>
-    <string name="default_uri_match_detection_description_advanced_options">URI 比對偵測可控制 Bitwarden 如何識別自動填入建議。\n<annotation emphasis="bold">警告：</annotation>「開頭符合」為進階選項，可能增加憑證外洩的風險。</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI 比對偵測可控制 Multipass 如何識別自動填入建議。\n<annotation emphasis="bold">警告：</annotation>「正規表示式」為進階選項，若使用不當，可能增加憑證外洩的風險。</string>
+    <string name="default_uri_match_detection_description_advanced_options">URI 比對偵測可控制 Multipass 如何識別自動填入建議。\n<annotation emphasis="bold">警告：</annotation>「開頭符合」為進階選項，可能增加憑證外洩的風險。</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">「開頭為」是進階選項，可能會增加憑證外洩的風險。</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">「正則表達式」是進階選項，可能會增加憑證外洩的風險。</string>
     <string name="later">以後再說</string>
@@ -1185,17 +1185,17 @@
         <item quantity="other">%1$d 個項目已匯入至您的保險庫。</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">啟用瀏覽器自動填入功能以持續自動填入密碼</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">您的瀏覽器最近更新，已停用 Bitwarden 的自動填入功能。若要繼續使用 Bitwarden 自動填入密碼，請在自動填入設定中啟用瀏覽器自動填入。</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">您的瀏覽器最近更新，已停用 Multipass 的自動填入功能。若要繼續使用 Multipass 自動填入密碼，請在自動填入設定中啟用瀏覽器自動填入。</string>
     <string name="not_now">以後再說</string>
-    <string name="import_from_bitwarden">從 Bitwarden 匯入</string>
+    <string name="import_from_bitwarden">從 Multipass 匯入</string>
     <string name="select_account">選擇帳號</string>
     <string name="no_accounts_available">無可用帳戶</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">您沒有可供匯入的帳戶。您組織的安全性政策可能限制從 Bitwarden 匯入項目至其他應用程式。</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">您沒有可供匯入的帳戶。您組織的安全性政策可能限制從 Multipass 匯入項目至其他應用程式。</string>
     <string name="import_restricted_unable_to_import_credit_cards">匯入受限，無法從此帳戶匯入卡片。</string>
     <string name="verify_your_master_password">驗證您的主密碼</string>
     <string name="having_trouble_with_autofill">自動填入功能遇到問題嗎？</string>
     <string name="access_help_and_troubleshooting_documentation_here">在此存取說明與疑難排解文件</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">從您的 Bitwarden 密碼庫匯入密碼、通行金鑰及其他項目類型。</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">從您的 Multipass 密碼庫匯入密碼、通行金鑰及其他項目類型。</string>
     <string name="items_to_import">要匯入的項目</string>
     <string name="exporting_items">正在匯出項目…</string>
     <string name="export_failed">匯出失敗</string>
@@ -1259,7 +1259,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">請至少輸入一個有效的電子郵件地址以分享此 Send。</string>
     <string name="sync_with_browser">與瀏覽器同步</string>
-    <string name="sync_with_browser_description">若要連線至 %1$s，請將您的預設瀏覽器與 Bitwarden 行動應用程式同步。瀏覽器開啟後，如有提示請完成登入。\n同步完成後，您將返回此應用程式。</string>
+    <string name="sync_with_browser_description">若要連線至 %1$s，請將您的預設瀏覽器與 Multipass 行動應用程式同步。瀏覽器開啟後，如有提示請完成登入。\n同步完成後，您將返回此應用程式。</string>
     <string name="launch_browser">開啟瀏覽器</string>
     <string name="continue_without_syncing">不進行同步並繼續</string>
     <string name="external_link">外部連結</string>
@@ -1285,7 +1285,7 @@
     <string name="trusted">已信任</string>
     <string name="preview_not_available_for_files">無法預覽 %1$s 類型的檔案。您仍可下載後在裝置上檢視。</string>
     <string name="this_file_is_too_large_to_preview">此檔案過大，無法預覽。您仍可下載後在裝置上檢視。</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden 無法解密此檔案，因此無法顯示預覽。</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass 無法解密此檔案，因此無法顯示預覽。</string>
     <string name="preview_unavailable_for_this_file">此檔案無法預覽。您仍可下載後在裝置上檢視。</string>
     <string name="preview_unavailable">無法預覽</string>
     <string name="download_attachment">下載附件</string>
@@ -1327,7 +1327,7 @@
     <string name="billing_rate_per_year">%1$s／年</string>
     <string name="billing_rate_per_month">%1$s／月</string>
     <string name="manage_plan">管理方案</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">請在 Bitwarden 網頁版中管理您的訂閱方案。</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">請在 Multipass 網頁版中管理您的訂閱方案。</string>
     <string name="cancel_premium">取消 Premium</string>
     <string name="subscription_status_active">生效中</string>
     <string name="subscription_status_canceled">已取消</string>
@@ -1417,8 +1417,8 @@
     <string name="local_network_access_required">需要本機網路存取權限</string>
     <string name="ask_again_later">稍後再詢問</string>
     <string name="enable_local_network_access">啟用本機網路存取權限</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden 需要本機網路存取權限才能與您的伺服器同步。若未授予此權限，應用程式將無法連線。</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">若未授予此權限，Bitwarden 將無法連線並與您的伺服器同步。您可以在裝置設定中啟用此權限。</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass 需要本機網路存取權限才能與您的伺服器同步。若未授予此權限，應用程式將無法連線。</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">若未授予此權限，Multipass 將無法連線並與您的伺服器同步。您可以在裝置設定中啟用此權限。</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">您的要求已中斷，因為應用程式需要本機網路存取權限。您可以在裝置設定中啟用此權限。</string>
     <string name="continue_to_stripe">要前往 Stripe 嗎？</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">您將前往 Stripe 管理您的訂閱取消事宜。</string>
