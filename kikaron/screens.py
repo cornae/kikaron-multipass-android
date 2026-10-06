@@ -222,3 +222,23 @@ def brand_splash(root, here, edit, fail):
          '<item name="windowSplashScreenAnimatedIcon">@drawable/kikaron_splash_glyph</item>')
     edit(STYLES, '<item name="windowSplashScreenBackground">@color/ic_launcher_background</item>',
          '<item name="windowSplashScreenBackground">@color/kikaron_splash_background</item>')
+
+
+# ---- the legal notices (GPL-3.0 section 5) -------------------------------------------
+# Upstream's copyright stays as it is; under it the About screen says that this is a
+# modified version, by whom and when, under which licence, without warranty, and
+# where its source is.
+ABOUT = 'app/src/main/kotlin/com/x8bit/bitwarden/ui/platform/feature/settings/about/AboutViewModel.kt'
+SOURCE_URL = 'https://github.com/cornae/kikaron-multipass-android'
+ABOUT_OLD = 'copyrightInfo = "© Bitwarden Inc. 2015-${Year.now(clock).value}".asText(),'
+ABOUT_NEW = ('copyrightInfo = (\n'
+             '                "© Bitwarden Inc. 2015-${Year.now(clock).value}\\n" +\n'
+             '                    // KIKARON: the GPL-3.0 notices of this modified version\n'
+             '                    "Kikaron Multipass is a modified version, by Cornae (2026), of the " +\n'
+             '                    "Bitwarden Android app. GPL-3.0, without any warranty.\\n" +\n'
+             '                    "Source: %s"\n'
+             '                ).asText(),' % SOURCE_URL)
+
+
+def brand_notices(root, here, edit, fail):
+    edit(ABOUT, ABOUT_OLD, ABOUT_NEW)

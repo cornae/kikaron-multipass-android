@@ -239,6 +239,7 @@ def main():
     brand_sso()
     screens.brand_screens(ROOT, HERE, edit, fail)
     screens.brand_splash(ROOT, HERE, edit, fail)
+    screens.brand_notices(ROOT, HERE, edit, fail)
     brand_icon()
     brand_signing()
     print('branded: identity, %d string files, server, icon, signing' % n)
