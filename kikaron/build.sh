@@ -17,8 +17,9 @@ export MULTIPASS_KEYSTORE="$OC_RELEASE_KEYSTORE"
 export MULTIPASS_KEYSTORE_PASSWORD="$OC_RELEASE_KEYSTORE_PASSWORD"
 export MULTIPASS_KEY_ALIAS="$OC_RELEASE_KEY_ALIAS"
 export MULTIPASS_KEY_PASSWORD="$OC_RELEASE_KEY_PASSWORD"
-# yyMMddHH: rises with every build, fits Android's version code
-export MULTIPASS_VERSION_CODE="${MULTIPASS_VERSION_CODE:-$(date -u +%y%m%d%H)}"
+# rises with every build, to the minute, and fits Android's limit (2 100 000 000):
+# 1e8 x (year - 2025) + MMddHHmm UTC  (2026-10-06 09:05 -> 110060905; until 2045)
+export MULTIPASS_VERSION_CODE="${MULTIPASS_VERSION_CODE:-$(( 100000000 * (10#$(date -u +%Y) - 2025) + 10#$(date -u +%m%d%H%M) ))}"
 [ -f local.properties ] || echo "sdk.dir=$ANDROID_HOME" > local.properties
 ./gradlew --no-daemon :app:assembleFdroidRelease :app:bundleFdroidRelease
 apk=app/build/outputs/apk/fdroid/release/com.kikaron.multipass-fdroid.apk
