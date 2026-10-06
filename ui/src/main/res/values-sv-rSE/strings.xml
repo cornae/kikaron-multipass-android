@@ -885,7 +885,7 @@ Vill du byta till detta konto?</string>
     <string name="set_up_autofill_on_all_your_devices">Ställ in autofyll på alla dina enheter för att logga in med ett enda tryck var som helst.</string>
     <string name="import_successful">Importen lyckades!</string>
     <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Hantera dina inloggningar var som helst med Bitwardens verktyg för webben och datorn.</string>
-    <string name="bitwarden_tools">Multipass-verktyg</string>
+    <string name="bitwarden_tools">Bitwarden-verktyg</string>
     <string name="got_it">Jag fattar</string>
     <string name="no_logins_were_imported">Inga inloggningar importerades</string>
     <string name="import_error">Importfel</string>

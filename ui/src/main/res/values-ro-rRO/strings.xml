@@ -889,8 +889,8 @@ Doriți să comutați la acest cont?</string>
     <string name="autofill_passwords">Completează automat parolele</string>
     <string name="set_up_autofill_on_all_your_devices">Configurează completarea automată pe toate dispozitivele tale pentru a te autentifica cu o singură atingere oriunde.</string>
     <string name="import_successful">Import reușit!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestionați-vă autentificările de oriunde cu instrumentele Multipass pentru web și desktop.</string>
-    <string name="bitwarden_tools">Instrumente Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestionați-vă autentificările de oriunde cu instrumentele Bitwarden pentru web și desktop.</string>
+    <string name="bitwarden_tools">Instrumente Bitwarden</string>
     <string name="got_it">Am înțeles</string>
     <string name="no_logins_were_imported">Nu au fost importate autentificări</string>
     <string name="import_error">Eroare de importare</string>

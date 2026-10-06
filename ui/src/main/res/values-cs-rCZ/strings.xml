@@ -893,8 +893,8 @@ Chcete se přepnout na tento účet?</string>
     <string name="autofill_passwords">Automatické vyplňování hesel</string>
     <string name="set_up_autofill_on_all_your_devices">Nastavte automatické vyplňování na všech Vašich zařízeních pro přihlášení jedním klepnutím kdekoliv.</string>
     <string name="import_successful">Import byl úspěšný!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Spravujte přihlašovací údaje odkudkoli pomocí nástrojů Multipass pro web i počítač.</string>
-    <string name="bitwarden_tools">Nástroje Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Spravujte přihlašovací údaje odkudkoli pomocí nástrojů Bitwarden pro web i počítač.</string>
+    <string name="bitwarden_tools">Nástroje Bitwarden</string>
     <string name="got_it">Rozumím</string>
     <string name="no_logins_were_imported">Nebyla importována žádná přihlášení</string>
     <string name="import_error">Chyba importu</string>

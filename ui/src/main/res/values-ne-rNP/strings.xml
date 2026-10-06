@@ -884,8 +884,8 @@
     <string name="autofill_passwords">पासवर्डहरू स्वत: भरण गर्नुहोस्</string>
     <string name="set_up_autofill_on_all_your_devices">कहीं पनि एकै ट्यापमा लग इन गर्न आफ्ना सबै यन्त्रहरूमा स्वत: भरण सेट अप गर्नुहोस्।</string>
     <string name="import_successful">आयात सफल भयो!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">वेब र डेस्कटपको लागि Multipass उपकरणहरूसँग कहींबाट पनि आफ्नो लगइनहरू प्रबन्ध गर्नुहोस्।</string>
-    <string name="bitwarden_tools">Multipass उपकरणहरू</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">वेब र डेस्कटपको लागि Bitwarden उपकरणहरूसँग कहींबाट पनि आफ्नो लगइनहरू प्रबन्ध गर्नुहोस्।</string>
+    <string name="bitwarden_tools">Bitwarden उपकरणहरू</string>
     <string name="got_it">बुझियो</string>
     <string name="no_logins_were_imported">कुनै लगइनहरू आयात गरिएनन्</string>
     <string name="import_error">आयात त्रुटि</string>

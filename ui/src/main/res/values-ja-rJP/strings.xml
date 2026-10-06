@@ -879,8 +879,8 @@
     <string name="autofill_passwords">パスワードの自動入力</string>
     <string name="set_up_autofill_on_all_your_devices">すべてのデバイスで自動入力を設定して、ワンタップでどこにでもログインできます。</string>
     <string name="import_successful">インポートが成功しました!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Multipass ツールでログイン情報をどこからでも管理できます。</string>
-    <string name="bitwarden_tools">Multipass ツール</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bitwarden ツールでログイン情報をどこからでも管理できます。</string>
+    <string name="bitwarden_tools">Bitwarden ツール</string>
     <string name="got_it">了解</string>
     <string name="no_logins_were_imported">ログイン情報がインポートされませんでした</string>
     <string name="import_error">インポートエラー</string>

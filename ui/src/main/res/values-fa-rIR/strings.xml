@@ -884,8 +884,8 @@
     <string name="autofill_passwords">پر کردن خودکار کلمات عبور</string>
     <string name="set_up_autofill_on_all_your_devices">تنظیمات پر کردن خودکار را روی همه دستگاه‌های خود فعال کنید تا بتوانید تنها با یک ضربه در هر جایی وارد شوید.</string>
     <string name="import_successful">درون ریزی با موفقیت انجام شد!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">ورودهای خود را از هر کجا با ابزارهای Multipass برای وب و رایانه رومیزی مدیریت کنید.</string>
-    <string name="bitwarden_tools">ابزارهای Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">ورودهای خود را از هر کجا با ابزارهای Bitwarden برای وب و رایانه رومیزی مدیریت کنید.</string>
+    <string name="bitwarden_tools">ابزارهای Bitwarden</string>
     <string name="got_it">فهمیدم</string>
     <string name="no_logins_were_imported">هیچ ورودی درون ریزی نشده است</string>
     <string name="import_error">خطای درون ریزی</string>

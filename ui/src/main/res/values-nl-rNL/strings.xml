@@ -884,8 +884,8 @@ Wilt u naar dit account wisselen?</string>
     <string name="autofill_passwords">Wachtwoorden automatisch invullen</string>
     <string name="set_up_autofill_on_all_your_devices">Stel automatisch invullen in op al je apparaten zodat je overal met enkele tik kunt inloggen.</string>
     <string name="import_successful">Importeren gelukt!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Beheer je logins waar je ook bent met Multipass-hulpmiddelen voor web en desktop.</string>
-    <string name="bitwarden_tools">Multipass-hulpmiddelen</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Beheer je logins waar je ook bent met Bitwarden-hulpmiddelen voor web en desktop.</string>
+    <string name="bitwarden_tools">Bitwarden-hulpmiddelen</string>
     <string name="got_it">Ik snap het</string>
     <string name="no_logins_were_imported">Er zijn geen logins geïmporteerd</string>
     <string name="import_error">Fout bij importeren</string>

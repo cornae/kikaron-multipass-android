@@ -880,8 +880,8 @@
     <string name="autofill_passwords">自動填入密碼</string>
     <string name="set_up_autofill_on_all_your_devices">在您所有裝置上設定一鍵自動填入登入</string>
     <string name="import_successful">匯入成功！</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">在任何地方使用 Multipass 網頁或桌面應用程式來管理您的登入資訊。</string>
-    <string name="bitwarden_tools">Multipass 工具</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">在任何地方使用 Bitwarden 網頁或桌面應用程式來管理您的登入資訊。</string>
+    <string name="bitwarden_tools">Bitwarden 工具</string>
     <string name="got_it">知道了</string>
     <string name="no_logins_were_imported">沒有匯入任何登入資訊</string>
     <string name="import_error">匯入時發生錯誤</string>

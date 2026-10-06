@@ -884,8 +884,8 @@
     <string name="autofill_passwords">পাসওয়ার্ড অটোফিল করুন</string>
     <string name="set_up_autofill_on_all_your_devices">যেকোনো জায়গায় একটি একক আলতো চাপে লগইন করতে আপনার সমস্ত ডিভাইসে অটোফিল সেট আপ করুন।</string>
     <string name="import_successful">আমদানি সফল হয়েছে!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">ওয়েব এবং ডেস্কটপের জন্য Multipass সরঞ্জামগুলির সাথে যেকোনো জায়গা থেকে আপনার লগইনগুলি পরিচালনা করুন।</string>
-    <string name="bitwarden_tools">Multipass সরঞ্জাম</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">ওয়েব এবং ডেস্কটপের জন্য Bitwarden সরঞ্জামগুলির সাথে যেকোনো জায়গা থেকে আপনার লগইনগুলি পরিচালনা করুন।</string>
+    <string name="bitwarden_tools">Bitwarden সরঞ্জাম</string>
     <string name="got_it">বুঝেছি</string>
     <string name="no_logins_were_imported">কোন লগইন আমদানি করা হয়নি</string>
     <string name="import_error">আমদানি ত্রুটি</string>

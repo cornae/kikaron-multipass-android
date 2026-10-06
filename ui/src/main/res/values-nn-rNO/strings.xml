@@ -884,8 +884,8 @@ Vil du bytte til denne kontoen?</string>
     <string name="autofill_passwords">Autoutfyll passord</string>
     <string name="set_up_autofill_on_all_your_devices">Set opp autoutfyll på alle einingane dine for å logge inn med eitt trykk overalt.</string>
     <string name="import_successful">Import vellykka!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Handsam påloggingane dine frå kvar som helst med Multipass-verktøy for nett og skrivebord.</string>
-    <string name="bitwarden_tools">Multipass-verktøy</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Handsam påloggingane dine frå kvar som helst med Bitwarden-verktøy for nett og skrivebord.</string>
+    <string name="bitwarden_tools">Bitwarden-verktøy</string>
     <string name="got_it">Skjønar</string>
     <string name="no_logins_were_imported">Ingen påloggingar vart importerte</string>
     <string name="import_error">Importfeil</string>

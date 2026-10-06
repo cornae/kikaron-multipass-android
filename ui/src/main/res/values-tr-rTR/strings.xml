@@ -883,8 +883,8 @@ Bu hesaba geçmek ister misiniz?</string>
     <string name="autofill_passwords">Parolaları otomatik doldurun</string>
     <string name="set_up_autofill_on_all_your_devices">Her yere tek dokunuşla giriş yapmak için tüm cihazlarınızda otomatik doldurmayı etkinleştirin.</string>
     <string name="import_successful">İçe aktarma başarılı!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Hesaplarınızı Multipass web ve masaüstü araçlarıyla her yerden yönetebilirsiniz.</string>
-    <string name="bitwarden_tools">Multipass Araçları</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Hesaplarınızı Bitwarden web ve masaüstü araçlarıyla her yerden yönetebilirsiniz.</string>
+    <string name="bitwarden_tools">Bitwarden Araçları</string>
     <string name="got_it">Anladım</string>
     <string name="no_logins_were_imported">Hiç hesap aktarılmadı</string>
     <string name="import_error">İçe aktarma hatası</string>

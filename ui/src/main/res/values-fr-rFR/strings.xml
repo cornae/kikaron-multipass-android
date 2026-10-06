@@ -884,8 +884,8 @@ Voulez-vous basculer vers ce compte ?</string>
     <string name="autofill_passwords">Saisissez les mots de passe automatiquement</string>
     <string name="set_up_autofill_on_all_your_devices">Configurez le remplissage automatique sur tous vos appareils pour vous connecter de n\'importe où en un seul clic.</string>
     <string name="import_successful">Importation réussie !</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gérez vos identifiants de n\'importe où avec les outils Multipass pour bureau et internet.</string>
-    <string name="bitwarden_tools">Outils Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gérez vos identifiants de n\'importe où avec les outils Bitwarden pour bureau et internet.</string>
+    <string name="bitwarden_tools">Outils Bitwarden</string>
     <string name="got_it">C\'est compris</string>
     <string name="no_logins_were_imported">Aucun identifiant n\'a été importé</string>
     <string name="import_error">Erreur lors de l\'importation</string>

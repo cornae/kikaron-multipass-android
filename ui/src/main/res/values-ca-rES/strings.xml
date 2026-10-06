@@ -884,8 +884,8 @@ Voleu canviar a aquest compte?</string>
     <string name="autofill_passwords">Emplenament automàtic de contrasenyes</string>
     <string name="set_up_autofill_on_all_your_devices">Configura l\'emplenament automàtic en tots els teus dispositius per iniciar sessió amb un sol toc a qualsevol lloc.</string>
     <string name="import_successful">Importació exitosa!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestiona els teus inicis de sessió des de qualsevol lloc amb les eines de Multipass per a web i escriptori.</string>
-    <string name="bitwarden_tools">Eines de Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestiona els teus inicis de sessió des de qualsevol lloc amb les eines de Bitwarden per a web i escriptori.</string>
+    <string name="bitwarden_tools">Eines de Bitwarden</string>
     <string name="got_it">D\'acord</string>
     <string name="no_logins_were_imported">No s\'ha importat cap inici de sessió</string>
     <string name="import_error">Error d\'importació</string>

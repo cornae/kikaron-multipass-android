@@ -879,8 +879,8 @@
     <string name="autofill_passwords">自动填充密码</string>
     <string name="set_up_autofill_on_all_your_devices">在所有设备上设置自动填充，随时随地只需点击一下即可登录。</string>
     <string name="import_successful">导入成功！</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">使用 Multipass 网络和桌面工具，随时随地管理您的登录信息。</string>
-    <string name="bitwarden_tools">Multipass 工具</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">使用 Bitwarden 网络和桌面工具，随时随地管理您的登录信息。</string>
+    <string name="bitwarden_tools">Bitwarden 工具</string>
     <string name="got_it">知道了</string>
     <string name="no_logins_were_imported">未导入任何登录信息</string>
     <string name="import_error">导入出错</string>

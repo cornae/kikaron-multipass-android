@@ -885,7 +885,7 @@ Haluatko vaihtaa tähän tiliin?</string>
     <string name="set_up_autofill_on_all_your_devices">Ota automaattinen täyttö käyttöön kaikilla laitteillasi kirjautuaksesi yhdellä napautuksella missä tahansa.</string>
     <string name="import_successful">Tuonti onnistui!</string>
     <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Hallitse kirjautumisiasi mistä tahansa Bitwardenin verkko- ja työpöytätyökaluilla.</string>
-    <string name="bitwarden_tools">Multipass-työkalut</string>
+    <string name="bitwarden_tools">Bitwarden-työkalut</string>
     <string name="got_it">Selvä</string>
     <string name="no_logins_were_imported">Kirjautumistietoja ei tuotu</string>
     <string name="import_error">Tuontivirhe</string>

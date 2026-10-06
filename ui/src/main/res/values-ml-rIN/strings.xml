@@ -884,8 +884,8 @@
     <string name="autofill_passwords">പാസ്വേഡുകൾ ഓട്ടോഫിൽ ചെയ്യുക</string>
     <string name="set_up_autofill_on_all_your_devices">എവിടെയും ഒരു ടാപ്പിൽ ലോഗിൻ ചെയ്യുന്നതിന് നിങ്ങളുടെ എല്ലാ ഉപകരണങ്ങളിലും ഓട്ടോഫിൽ സജ്ജീകരിക്കുക.</string>
     <string name="import_successful">ഇംപോർട്ട് വിജയകരം!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">വെബിനും ഡെസ്ക്ടോപ്പിനുമുള്ള Multipass ഉപകരണങ്ങൾ ഉപയോഗിച്ച് എവിടെ നിന്നും നിങ്ങളുടെ ലോഗിനുകൾ നിയന്ത്രിക്കുക.</string>
-    <string name="bitwarden_tools">Multipass ഉപകരണങ്ങൾ</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">വെബിനും ഡെസ്ക്ടോപ്പിനുമുള്ള Bitwarden ഉപകരണങ്ങൾ ഉപയോഗിച്ച് എവിടെ നിന്നും നിങ്ങളുടെ ലോഗിനുകൾ നിയന്ത്രിക്കുക.</string>
+    <string name="bitwarden_tools">Bitwarden ഉപകരണങ്ങൾ</string>
     <string name="got_it">മനസ്സിലായി</string>
     <string name="no_logins_were_imported">ലോഗിനുകളൊന്നും ഇംപോർട്ട് ചെയ്തില്ല</string>
     <string name="import_error">ഇംപോർട്ട് പിശക്</string>

@@ -884,7 +884,7 @@ Szeretnénk átváltani erre a fiókra?</string>
     <string name="set_up_autofill_on_all_your_devices">Állítsuk be az automatikus kitöltést az összes eszközön, hogy bárhol egyetlen érintéssel bejelentkezhessünk.</string>
     <string name="import_successful">Az Importálás sikeres volt.</string>
     <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Állítsuk be az automatikus kitöltést az összes eszközön, hogy bárhol egyetlen érintéssel bejelentkezhessünk.</string>
-    <string name="bitwarden_tools">Multipass eszközök</string>
+    <string name="bitwarden_tools">Bitwarden eszközök</string>
     <string name="got_it">Rendben</string>
     <string name="no_logins_were_imported">Nem lett bejelentkezés importáva.</string>
     <string name="import_error">Importálási hiba</string>

@@ -883,8 +883,8 @@ Vuoi passare a questo account?</string>
     <string name="autofill_passwords">Riempimento automatico password</string>
     <string name="set_up_autofill_on_all_your_devices">Imposta il riempimento automatico su tutti i tuoi dispositivi per accedere con un solo tocco ovunque.</string>
     <string name="import_successful">Importazione effettuata con successo!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestisci i tuoi login da qualsiasi luogo con gli strumenti Multipass per web e desktop.</string>
-    <string name="bitwarden_tools">Strumenti Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestisci i tuoi login da qualsiasi luogo con gli strumenti Bitwarden per web e desktop.</string>
+    <string name="bitwarden_tools">Strumenti Bitwarden</string>
     <string name="got_it">Capito</string>
     <string name="no_logins_were_imported">Nessun login importato</string>
     <string name="import_error">Errore di importazione</string>

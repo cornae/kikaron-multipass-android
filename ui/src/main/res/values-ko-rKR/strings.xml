@@ -879,8 +879,8 @@
     <string name="autofill_passwords">비밀번호 자동 채우기</string>
     <string name="set_up_autofill_on_all_your_devices">모든 기기에서 자동 채우기를 설정하여 어디서나 한 번의 탭으로 로그인하세요.</string>
     <string name="import_successful">가져오기 성공!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Multipass 웹 및 데스크톱 도구를 사용하여 어디서나 로그인을 관리하세요.</string>
-    <string name="bitwarden_tools">Multipass 도구</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bitwarden 웹 및 데스크톱 도구를 사용하여 어디서나 로그인을 관리하세요.</string>
+    <string name="bitwarden_tools">Bitwarden 도구</string>
     <string name="got_it">이해했습니다</string>
     <string name="no_logins_were_imported">가져온 로그인이 없습니다</string>
     <string name="import_error">가져오기 오류</string>

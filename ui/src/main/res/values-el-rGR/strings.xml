@@ -884,8 +884,8 @@
     <string name="autofill_passwords">Αυτόματη συμπλήρωση κωδικών πρόσβασης</string>
     <string name="set_up_autofill_on_all_your_devices">Ρυθμίστε την αυτόματη συμπλήρωση όλων των συσκευών σας για να συνδεθείτε με ένα μόνο πάτημα οπουδήποτε.</string>
     <string name="import_successful">Εισαγωγή Επιτυχής!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Διαχειριστείτε τις συνδέσεις σας από οπουδήποτε με τα εργαλεία Multipass για web και desktop.</string>
-    <string name="bitwarden_tools">Εργαλεία Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Διαχειριστείτε τις συνδέσεις σας από οπουδήποτε με τα εργαλεία Bitwarden για web και desktop.</string>
+    <string name="bitwarden_tools">Εργαλεία Bitwarden</string>
     <string name="got_it">Το κατάλαβα</string>
     <string name="no_logins_were_imported">Δεν εισήχθησαν συνδέσεις</string>
     <string name="import_error">Σφάλμα εισαγωγής</string>

@@ -883,8 +883,8 @@ Möchtest du zu diesem Konto wechseln?</string>
     <string name="autofill_passwords">Passwörter automatisch ausfüllen</string>
     <string name="set_up_autofill_on_all_your_devices">Richte Auto-Ausfüllen auf all deinen Geräten ein, um dich mit einem einzigen Fingertipp überall anzumelden.</string>
     <string name="import_successful">Import erfolgreich!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Verwalte deine Zugangsdaten von überall aus mit Multipass-Werkzeugen für Web und Desktop.</string>
-    <string name="bitwarden_tools">Multipass-Werkzeuge</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Verwalte deine Zugangsdaten von überall aus mit Bitwarden-Werkzeugen für Web und Desktop.</string>
+    <string name="bitwarden_tools">Bitwarden-Werkzeuge</string>
     <string name="got_it">Verstanden</string>
     <string name="no_logins_were_imported">Es wurden keine Zugangsdaten importiert</string>
     <string name="import_error">Importfehler</string>

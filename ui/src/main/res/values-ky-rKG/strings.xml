@@ -884,8 +884,8 @@
     <string name="autofill_passwords">Сырсөздөрдү автолуктоо</string>
     <string name="set_up_autofill_on_all_your_devices">Кайсы жерде болбосун бир басуу менен кирүү үчүн бардык түзмөктөрүңүздө автолуктоону орнотуңуз.</string>
     <string name="import_successful">Импорт ийгиликтүү!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Веб жана иш такта үчүн Multipass куралдары менен кирүүлөрүңүздү каалаган жерден башкарыңыз.</string>
-    <string name="bitwarden_tools">Multipass Куралдары</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Веб жана иш такта үчүн Bitwarden куралдары менен кирүүлөрүңүздү каалаган жерден башкарыңыз.</string>
+    <string name="bitwarden_tools">Bitwarden Куралдары</string>
     <string name="got_it">Түшүндүм</string>
     <string name="no_logins_were_imported">Эч кандай кирүүлөр импорттолгон жок</string>
     <string name="import_error">Импорттоо катасы</string>

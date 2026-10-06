@@ -894,8 +894,8 @@
     <string name="autofill_passwords">Автозаполнение паролей</string>
     <string name="set_up_autofill_on_all_your_devices">Настройте автозаполнение на всех своих устройствах, чтобы авторизоваться одним кликом везде.</string>
     <string name="import_successful">Импорт выполнен успешно!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Управляйте своими логинами из любого места с помощью инструментов Multipass в интернете и с компьютера.</string>
-    <string name="bitwarden_tools">Инструменты Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Управляйте своими логинами из любого места с помощью инструментов Bitwarden в интернете и с компьютера.</string>
+    <string name="bitwarden_tools">Инструменты Bitwarden</string>
     <string name="got_it">Понятно</string>
     <string name="no_logins_were_imported">Ни один логин не был импортирован</string>
     <string name="import_error">Ошибка импорта</string>

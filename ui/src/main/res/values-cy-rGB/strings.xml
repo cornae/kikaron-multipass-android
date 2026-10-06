@@ -904,8 +904,8 @@ Ydych chi am newid i\'r cyfrif hwn?</string>
     <string name="autofill_passwords">Llenwi cyfrineiriau yn awtomatig</string>
     <string name="set_up_autofill_on_all_your_devices">Sefydlwch lenwi awtomatig ar eich holl ddyfeisiau i fewngofnodi gydag un tapiad unrhyw le.</string>
     <string name="import_successful">Mewnforio\'n Llwyddiannus!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Rheolwch eich mewngofnodiadau o unrhyw le gydag offer Multipass ar gyfer gwe a bwrdd gwaith.</string>
-    <string name="bitwarden_tools">Offer Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Rheolwch eich mewngofnodiadau o unrhyw le gydag offer Bitwarden ar gyfer gwe a bwrdd gwaith.</string>
+    <string name="bitwarden_tools">Offer Bitwarden</string>
     <string name="got_it">Iawn</string>
     <string name="no_logins_were_imported">Ni fewnforiwyd unrhyw fewngofnodiadau</string>
     <string name="import_error">Gwall mewnforio</string>

@@ -884,8 +884,8 @@ Pretende mudar para esta conta?</string>
     <string name="autofill_passwords">Preenchimento automático de palavras-passe</string>
     <string name="set_up_autofill_on_all_your_devices">Configure o preenchimento automático em todos os seus dispositivos para iniciar sessão com um simples toque em qualquer lugar.</string>
     <string name="import_successful">Importação bem-sucedida!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gira as suas credenciais a partir de qualquer lugar com as ferramentas do Multipass para a web e computador.</string>
-    <string name="bitwarden_tools">Ferramentas do Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gira as suas credenciais a partir de qualquer lugar com as ferramentas do Bitwarden para a web e computador.</string>
+    <string name="bitwarden_tools">Ferramentas do Bitwarden</string>
     <string name="got_it">Percebido</string>
     <string name="no_logins_were_imported">Não foram importadas credenciais</string>
     <string name="import_error">Erro de importação</string>

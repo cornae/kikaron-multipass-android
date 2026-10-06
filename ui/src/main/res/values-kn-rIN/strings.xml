@@ -884,8 +884,8 @@
     <string name="autofill_passwords">ಪಾಸ್ವರ್ಡ್ಗಳನ್ನು ಸ್ವಯಂ ಭರ್ತಿ ಮಾಡಿ</string>
     <string name="set_up_autofill_on_all_your_devices">ಎಲ್ಲಿಯಾದರೂ ಒಂದೇ ಟ್ಯಾಪ್ನೊಂದಿಗೆ ಲಾಗಿನ್ ಮಾಡಲು ನಿಮ್ಮ ಎಲ್ಲಾ ಸಾಧನಗಳಲ್ಲಿ ಸ್ವಯಂ ಭರ್ತಿ ಹೊಂದಿಸಿ.</string>
     <string name="import_successful">ಆಮದು ಯಶಸ್ವಿಯಾಗಿದೆ!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">ವೆಬ್ ಮತ್ತು ಡೆಸ್ಕ್ಟಾಪ್ಗಾಗಿ Multipass ಉಪಕರಣಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಲಾಗಿನ್ಗಳನ್ನು ಎಲ್ಲಿಂದಲಾದರೂ ನಿರ್ವಹಿಸಿ.</string>
-    <string name="bitwarden_tools">Multipass ಉಪಕರಣಗಳು</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">ವೆಬ್ ಮತ್ತು ಡೆಸ್ಕ್ಟಾಪ್ಗಾಗಿ Bitwarden ಉಪಕರಣಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಲಾಗಿನ್ಗಳನ್ನು ಎಲ್ಲಿಂದಲಾದರೂ ನಿರ್ವಹಿಸಿ.</string>
+    <string name="bitwarden_tools">Bitwarden ಉಪಕರಣಗಳು</string>
     <string name="got_it">ಅರ್ಥವಾಯಿತು</string>
     <string name="no_logins_were_imported">ಯಾವುದೇ ಲಾಗಿನ್ಗಳನ್ನು ಆಮದು ಮಾಡಲಾಗಿಲ್ಲ</string>
     <string name="import_error">ಆಮದು ದೋಷ</string>

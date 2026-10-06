@@ -884,8 +884,8 @@
     <string name="autofill_passwords">పాస్వర్డ్‌లను ఆటోఫిల్ చేయి</string>
     <string name="set_up_autofill_on_all_your_devices">ఎక్కడైనా ఒకే ట్యాప్‌తో లాగిన్ అవ్వడానికి మీ అన్ని పరికరాలలో ఆటోఫిల్ సెటప్ చేయండి.</string>
     <string name="import_successful">దిగుమతి విజయవంతమైంది!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Multipass వెబ్ మరియు డెస్క్‌టాప్ టూల్స్‌తో ఎక్కడి నుండైనా మీ లాగిన్‌లను నిర్వహించండి.</string>
-    <string name="bitwarden_tools">Multipass టూల్స్</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bitwarden వెబ్ మరియు డెస్క్‌టాప్ టూల్స్‌తో ఎక్కడి నుండైనా మీ లాగిన్‌లను నిర్వహించండి.</string>
+    <string name="bitwarden_tools">Bitwarden టూల్స్</string>
     <string name="got_it">అర్థమైంది</string>
     <string name="no_logins_were_imported">లాగిన్‌లు దిగుమతి చేయబడలేదు</string>
     <string name="import_error">దిగుమతి లోపం</string>

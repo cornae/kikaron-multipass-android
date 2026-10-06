@@ -890,8 +890,8 @@
     <string name="autofill_passwords">Аўтазапаўненне пароляў</string>
     <string name="set_up_autofill_on_all_your_devices">Наладзьце аўтазапаўненне на ўсіх прыладах, каб уваходзіць адным націскам у любым месцы.</string>
     <string name="import_successful">Імпартаванне паспяхова!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Кіруйце сваімі ўваходамі з любога месца з дапамогай інструментаў Multipass для вэб і камп\'ютара.</string>
-    <string name="bitwarden_tools">Інструменты Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Кіруйце сваімі ўваходамі з любога месца з дапамогай інструментаў Bitwarden для вэб і камп\'ютара.</string>
+    <string name="bitwarden_tools">Інструменты Bitwarden</string>
     <string name="got_it">Зразумела</string>
     <string name="no_logins_were_imported">Ніводзін уваход не быў імпартаваны</string>
     <string name="import_error">Памылка імпартавання</string>

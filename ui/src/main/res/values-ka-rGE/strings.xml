@@ -884,8 +884,8 @@
     <string name="autofill_passwords">პაროლების ავტოშევსება</string>
     <string name="set_up_autofill_on_all_your_devices">დააყენეთ ავტოშევსება ყველა თქვენს მოწყობილობაზე, რათა შეხვიდეთ ერთი შეხებით ნებისმიერ ადგილას.</string>
     <string name="import_successful">იმპორტი წარმატებულია!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">მართეთ თქვენი შესვლები ნებისმიერი ადგილიდან Multipass-ის ვებ და დესკტოპ ხელსაწყოებით.</string>
-    <string name="bitwarden_tools">Multipass-ის ხელსაწყოები</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">მართეთ თქვენი შესვლები ნებისმიერი ადგილიდან Bitwarden-ის ვებ და დესკტოპ ხელსაწყოებით.</string>
+    <string name="bitwarden_tools">Bitwarden-ის ხელსაწყოები</string>
     <string name="got_it">გავიგე</string>
     <string name="no_logins_were_imported">არც ერთი შესვლა არ იქნა იმპორტირებული</string>
     <string name="import_error">შემოტანის შეცდომა</string>

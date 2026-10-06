@@ -884,8 +884,8 @@ Queres comprobalo dende esa conta?</string>
     <string name="autofill_passwords">Autoenchido de contrasinais</string>
     <string name="set_up_autofill_on_all_your_devices">Configura o autoenchido en todos os teus dispositivos para iniciar sesión cun toque en todas partes.</string>
     <string name="import_successful">Importado con éxito!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Xestiona as túas credenciais dende calquera parte cas ferramentas de Multipass para web e escritorio.</string>
-    <string name="bitwarden_tools">Ferramentas de Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Xestiona as túas credenciais dende calquera parte cas ferramentas de Bitwarden para web e escritorio.</string>
+    <string name="bitwarden_tools">Ferramentas de Bitwarden</string>
     <string name="got_it">Entendido</string>
     <string name="no_logins_were_imported">Non se importaron credenciais</string>
     <string name="import_error">Erro ó importar</string>

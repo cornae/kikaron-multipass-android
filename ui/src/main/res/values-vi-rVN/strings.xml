@@ -880,8 +880,8 @@ Bạn có muốn chuyển sang tài khoản này không?</string>
     <string name="autofill_passwords">Tự động điền mật khẩu</string>
     <string name="set_up_autofill_on_all_your_devices">Thiết lập tính năng tự động điền trên mọi thiết bị của bạn để đăng nhập chỉ bằng một lần chạm ở bất kỳ đâu.</string>
     <string name="import_successful">Nhập thành công!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Quản lý thông tin đăng nhập của bạn từ mọi nơi với các công cụ Multipass cho web và máy tính.</string>
-    <string name="bitwarden_tools">Công cụ Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Quản lý thông tin đăng nhập của bạn từ mọi nơi với các công cụ Bitwarden cho web và máy tính.</string>
+    <string name="bitwarden_tools">Công cụ Bitwarden</string>
     <string name="got_it">Đã hiểu</string>
     <string name="no_logins_were_imported">Không có tài khoản nào được nhập</string>
     <string name="import_error">Lỗi khi nhập</string>

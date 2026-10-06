@@ -889,8 +889,8 @@
     <string name="autofill_passwords">מלא אוטומטית סיסמאות</string>
     <string name="set_up_autofill_on_all_your_devices">הגדר מילוי אוטומטי בכל המכשירים שלך כדי להיכנס עם הקשה אחת בכל מקום.</string>
     <string name="import_successful">הייבוא הצליח!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">נהל את כל הכניסות שלך מכל מקום עם הכלים של Multipass לרשת ושולחן העבודה.</string>
-    <string name="bitwarden_tools">כלים של Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">נהל את כל הכניסות שלך מכל מקום עם הכלים של Bitwarden לרשת ושולחן העבודה.</string>
+    <string name="bitwarden_tools">כלים של Bitwarden</string>
     <string name="got_it">הבנתי</string>
     <string name="no_logins_were_imported">לא יובאו כניסות</string>
     <string name="import_error">שגיאת ייבוא</string>

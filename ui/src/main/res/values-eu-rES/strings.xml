@@ -882,8 +882,8 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="autofill_passwords">Autobeteketa pasahitzak</string>
     <string name="set_up_autofill_on_all_your_devices">Konfiguratu autobeteketa zure gailu guztietan edonon ukitu bakarrarekin saioa hasteko.</string>
     <string name="import_successful">Inportazioa arrakastatsua!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Kudeatu zure saioak edonondik Multipass-ek web eta mahaigainerako dituen tresnekin.</string>
-    <string name="bitwarden_tools">Multipass tresnak</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Kudeatu zure saioak edonondik Bitwarden-ek web eta mahaigainerako dituen tresnekin.</string>
+    <string name="bitwarden_tools">Bitwarden tresnak</string>
     <string name="got_it">Ulertuta</string>
     <string name="no_logins_were_imported">Ez da saiorik inportatu</string>
     <string name="import_error">Errorea inportatzerakoan</string>

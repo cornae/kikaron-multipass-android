@@ -885,8 +885,8 @@ Hier is hoe:</string>
     <string name="autofill_passwords">Outovul wagwoorde</string>
     <string name="set_up_autofill_on_all_your_devices">Stel outovul op al u toestelle op om met een tik oral aan te meld.</string>
     <string name="import_successful">Invoer suksesvol!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bestuur u aanmeldings van oral af met Multipass-gereedskap vir web en rekenaar.</string>
-    <string name="bitwarden_tools">Multipass-nutsgoed</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bestuur u aanmeldings van oral af met Bitwarden-gereedskap vir web en rekenaar.</string>
+    <string name="bitwarden_tools">Bitwarden-nutsgoed</string>
     <string name="got_it">Begryp</string>
     <string name="no_logins_were_imported">Geen aanmeldings is ingevoer nie</string>
     <string name="import_error">Invoer fout</string>

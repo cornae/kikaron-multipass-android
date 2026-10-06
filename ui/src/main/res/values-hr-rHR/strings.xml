@@ -887,8 +887,8 @@
     <string name="autofill_passwords">Auto-ispuna lozinki</string>
     <string name="set_up_autofill_on_all_your_devices">Na svim svojim uređajima uključi auto-ispunu za prijavu jednim dodirom.</string>
     <string name="import_successful">Uvoz uspješan!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Upravljaj svojim prijavama bilo gdje s Multipass alatima za web i stolna računala.</string>
-    <string name="bitwarden_tools">Multipass alati</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Upravljaj svojim prijavama bilo gdje s Bitwarden alatima za web i stolna računala.</string>
+    <string name="bitwarden_tools">Bitwarden alati</string>
     <string name="got_it">U redu</string>
     <string name="no_logins_were_imported">Nije uvezena niti jedna prijava</string>
     <string name="import_error">Greška prilikom uvoza</string>

@@ -884,8 +884,8 @@
     <string name="autofill_passwords">संकेतशब्द स्वयंपूर्त करा</string>
     <string name="set_up_autofill_on_all_your_devices">कुठेही एका टॅपने लॉग इन करण्यासाठी तुमच्या सर्व डिव्हाइसवर स्वयंपूर्त सेट करा.</string>
     <string name="import_successful">आयात यशस्वी!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">वेब आणि डेस्कटॉपसाठी Multipass साधनांसह कुठूनही तुमची लॉगिन्स व्यवस्थापित करा.</string>
-    <string name="bitwarden_tools">Multipass साधने</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">वेब आणि डेस्कटॉपसाठी Bitwarden साधनांसह कुठूनही तुमची लॉगिन्स व्यवस्थापित करा.</string>
+    <string name="bitwarden_tools">Bitwarden साधने</string>
     <string name="got_it">समजले</string>
     <string name="no_logins_were_imported">कोणतीही लॉगिन्स आयात केली गेली नाहीत</string>
     <string name="import_error">आयात त्रुटी</string>

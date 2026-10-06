@@ -888,8 +888,8 @@ Skeniranje će biti izvršeno automatski.</string>
     <string name="autofill_passwords">Automatsko popunjavanje lozinki</string>
     <string name="set_up_autofill_on_all_your_devices">Postavite automatsko popunjavanje na svim svojim uređajima za prijavu jednim dodirom bilo gdje.</string>
     <string name="import_successful">Uvoz uspješan!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Upravljajte svojim prijavama od bilo kuda s Multipass alatima za web i desktop.</string>
-    <string name="bitwarden_tools">Multipass alati</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Upravljajte svojim prijavama od bilo kuda s Bitwarden alatima za web i desktop.</string>
+    <string name="bitwarden_tools">Bitwarden alati</string>
     <string name="got_it">Shvaćam</string>
     <string name="no_logins_were_imported">Nijedna prijava nije uvezena</string>
     <string name="import_error">Greška pri uvozu</string>

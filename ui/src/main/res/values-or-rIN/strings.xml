@@ -884,8 +884,8 @@
     <string name="autofill_passwords">ପାସୱାର୍ଡ ଅଟୋଫିଲ୍</string>
     <string name="set_up_autofill_on_all_your_devices">ଯେ କୌଣସି ସ୍ଥାନରେ ଗୋଟିଏ ଟ୍ୟାପ୍ ରେ ପ୍ରବେଶ କରିବାକୁ ସମସ୍ତ ଡିଭାଇସ୍‌ରେ ଅଟୋଫିଲ୍ ବ୍ୟବସ୍ଥା କରନ୍ତୁ।</string>
     <string name="import_successful">ଆମଦାନୀ ସଫଳ!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">ୱେବ ଏବଂ ଡେସ୍କଟପ୍ ପାଇଁ Multipass ଉପକରଣ ସହ ଯେ କୌଣସି ସ୍ଥାନରୁ ଆପଣଙ୍କ ପ୍ରବେଶଗୁଡ଼ିକୁ ପରିଚାଳନା କରନ୍ତୁ।</string>
-    <string name="bitwarden_tools">Multipass ଉପକରଣ</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">ୱେବ ଏବଂ ଡେସ୍କଟପ୍ ପାଇଁ Bitwarden ଉପକରଣ ସହ ଯେ କୌଣସି ସ୍ଥାନରୁ ଆପଣଙ୍କ ପ୍ରବେଶଗୁଡ଼ିକୁ ପରିଚାଳନା କରନ୍ତୁ।</string>
+    <string name="bitwarden_tools">Bitwarden ଉପକରଣ</string>
     <string name="got_it">ବୁଝିଲି</string>
     <string name="no_logins_were_imported">କୌଣସି ପ୍ରବେଶ ଆମଦାନୀ ହୋଇନାହିଁ</string>
     <string name="import_error">ଆମଦାନୀ ତ୍ରୁଟି</string>

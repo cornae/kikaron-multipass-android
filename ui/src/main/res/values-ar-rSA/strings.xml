@@ -905,8 +905,8 @@
     <string name="autofill_passwords">الملء التلقائي لكلمات المرور</string>
     <string name="set_up_autofill_on_all_your_devices">إعدادالملء التلقائي على جميع الأجهزة الخاصة بك لتسجيل الدخول بنقرة واحدة في أي مكان.</string>
     <string name="import_successful">تم الاستيراد بنجاح!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">إدارة تسجيلات الدخول الخاصة بك من أي مكان باستخدام أدوات Multipass للويب وسطح المكتب.</string>
-    <string name="bitwarden_tools">أدوات Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">إدارة تسجيلات الدخول الخاصة بك من أي مكان باستخدام أدوات Bitwarden للويب وسطح المكتب.</string>
+    <string name="bitwarden_tools">أدوات Bitwarden</string>
     <string name="got_it">فهمت</string>
     <string name="no_logins_were_imported">لم يتم استيراد أي تسجيلات دخول</string>
     <string name="import_error">خطأ في الاستيراد</string>

@@ -894,8 +894,8 @@ Ar norite pereiti prie šios paskyros?</string>
     <string name="autofill_passwords">Automatinis slaptažodžių pildymas</string>
     <string name="set_up_autofill_on_all_your_devices">Nustatykite automatinį pildymą visuose savo įrenginiuose, kad galėtumėte prisijungti vienu bakstelėjimu bet kur.</string>
     <string name="import_successful">Importas sėkmingas!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Tvarkykite savo prisijungimus iš bet kurios vietos naudodami „Multipass“ įrankius, skirtus žiniatinkliui ir darbalaukiui.</string>
-    <string name="bitwarden_tools">„Multipass“ įrankiai</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Tvarkykite savo prisijungimus iš bet kurios vietos naudodami „Bitwarden“ įrankius, skirtus žiniatinkliui ir darbalaukiui.</string>
+    <string name="bitwarden_tools">„Bitwarden“ įrankiai</string>
     <string name="got_it">Supratau</string>
     <string name="no_logins_were_imported">Nebuvo importuota jokių prisijungimų</string>
     <string name="import_error">Importavimo klaida</string>

@@ -879,8 +879,8 @@
     <string name="autofill_passwords">ป้อนรหัสผ่านอัตโนมัติ</string>
     <string name="set_up_autofill_on_all_your_devices">ตั้งค่าการป้อนอัตโนมัติบนอุปกรณ์ทั้งหมดของคุณเพื่อเข้าสู่ระบบด้วยการแตะเพียงครั้งเดียวจากทุกที่</string>
     <string name="import_successful">นำเข้าสำเร็จ!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">จัดการข้อมูลเข้าสู่ระบบของคุณได้จากทุกที่ด้วยเครื่องมือ Multipass สำหรับเว็บและเดสก์ท็อป</string>
-    <string name="bitwarden_tools">เครื่องมือ Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">จัดการข้อมูลเข้าสู่ระบบของคุณได้จากทุกที่ด้วยเครื่องมือ Bitwarden สำหรับเว็บและเดสก์ท็อป</string>
+    <string name="bitwarden_tools">เครื่องมือ Bitwarden</string>
     <string name="got_it">รับทราบ</string>
     <string name="no_logins_were_imported">ไม่มีข้อมูลเข้าสู่ระบบที่ถูกนำเข้า</string>
     <string name="import_error">ข้อผิดพลาดในการนำเข้า</string>

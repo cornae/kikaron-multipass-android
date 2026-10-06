@@ -884,8 +884,8 @@
     <string name="autofill_passwords">கடவுச்சொற்களை தானாக நிரப்பு</string>
     <string name="set_up_autofill_on_all_your_devices">எல்லா இடங்களிலும் ஒற்றை தட்டலில் உள்நுழைய உங்கள் எல்லா சாதனங்களிலும் தானியங்கு நிரப்புதலை அமைக்கவும்.</string>
     <string name="import_successful">இறக்குமதி வெற்றிகரமானது!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">வலை மற்றும் டெஸ்க்டாப்பிற்கான Multipass கருவிகளுடன் உங்கள் உள்நுழைவுகளை எந்த இடத்திலிருந்தும் நிர்வகிக்கவும்.</string>
-    <string name="bitwarden_tools">Multipass கருவிகள்</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">வலை மற்றும் டெஸ்க்டாப்பிற்கான Bitwarden கருவிகளுடன் உங்கள் உள்நுழைவுகளை எந்த இடத்திலிருந்தும் நிர்வகிக்கவும்.</string>
+    <string name="bitwarden_tools">Bitwarden கருவிகள்</string>
     <string name="got_it">புரிந்துகொண்டேன்</string>
     <string name="no_logins_were_imported">உள்நுழைவுகள் எதுவும் இறக்குமதி செய்யப்படவில்லை</string>
     <string name="import_error">இறக்குமதி பிழை</string>

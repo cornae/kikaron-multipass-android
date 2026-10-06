@@ -883,8 +883,8 @@
     <string name="autofill_passwords">पासवर्ड ऑटोफिल करें</string>
     <string name="set_up_autofill_on_all_your_devices">कहीं भी एक टैप के साथ लॉगिन करने के लिए अपने सभी डिवाइसों पर ऑटोफिल सेट करें।</string>
     <string name="import_successful">आयात सफल!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">वेब और डेस्कटॉप के लिए Multipass टूल्स के साथ कहीं से भी अपने लॉगिन प्रबंधित करें।</string>
-    <string name="bitwarden_tools">Multipass टूल्स</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">वेब और डेस्कटॉप के लिए Bitwarden टूल्स के साथ कहीं से भी अपने लॉगिन प्रबंधित करें।</string>
+    <string name="bitwarden_tools">Bitwarden टूल्स</string>
     <string name="got_it">समझ गए</string>
     <string name="no_logins_were_imported">कोई लॉगिन आयात नहीं किया गया</string>
     <string name="import_error">आयात त्रुटि</string>

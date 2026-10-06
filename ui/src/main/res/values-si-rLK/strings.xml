@@ -884,8 +884,8 @@
     <string name="autofill_passwords">මුරපද ස්වයං පිරවුම් කරන්න</string>
     <string name="set_up_autofill_on_all_your_devices">ඕනෑම තැනක තනි තට්ටුවකින් පිවිසීමට ඔබගේ සියලු උපාංගවල ස්වයං පිරවුම් සකසන්න.</string>
     <string name="import_successful">ආයාතය සාර්ථකයි!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">වෙබ් සහ ඩෙස්ක්ටොප් සඳහා Multipass මෙවලම් සමඟ ඕනෑම තැනක සිට ඔබගේ පිවිසුම් කළමනාකරණය කරන්න.</string>
-    <string name="bitwarden_tools">Multipass මෙවලම්</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">වෙබ් සහ ඩෙස්ක්ටොප් සඳහා Bitwarden මෙවලම් සමඟ ඕනෑම තැනක සිට ඔබගේ පිවිසුම් කළමනාකරණය කරන්න.</string>
+    <string name="bitwarden_tools">Bitwarden මෙවලම්</string>
     <string name="got_it">තේරුම් ගත්තා</string>
     <string name="no_logins_were_imported">පිවිසුම් කිසිවක් ආයාත කර නොමැත</string>
     <string name="import_error">ආයාත දෝෂය</string>

@@ -893,8 +893,8 @@ Czy chcesz przełączyć się na to konto?</string>
     <string name="autofill_passwords">Autouzupełnianie haseł</string>
     <string name="set_up_autofill_on_all_your_devices">Skonfiguruj autouzupełnianie na wszystkich swoich urządzeniach, aby logować się jednym kliknięciem.</string>
     <string name="import_successful">Importowanie zakończone!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Zarządzaj danymi logowania z dowolnego miejsca za pomocą narzędzi Multipass dla przeglądarek i komputerów.</string>
-    <string name="bitwarden_tools">Narzędzia Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Zarządzaj danymi logowania z dowolnego miejsca za pomocą narzędzi Bitwarden dla przeglądarek i komputerów.</string>
+    <string name="bitwarden_tools">Narzędzia Bitwarden</string>
     <string name="got_it">Ok</string>
     <string name="no_logins_were_imported">Nie zaimportowano danych logowania</string>
     <string name="import_error">Błąd importowania</string>

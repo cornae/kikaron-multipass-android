@@ -879,8 +879,8 @@
     <string name="autofill_passwords">စကားဝှက်များ အလိုအလျောက်ဖြည့်ပါ</string>
     <string name="set_up_autofill_on_all_your_devices">မည်နေရာတွင်မဆို တစ်ချက်နှိပ်ရုံဖြင့် ဝင်ရောက်ရန် သင့်စက်ပစ္စည်းအားလုံးတွင် အလိုအလျောက်ဖြည့်ခြင်းကို သတ်မှတ်ပါ။</string>
     <string name="import_successful">တင်သွင်းခြင်း အောင်မြင်ပါပြီ!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Multipass ဝဘ်နှင့် ဒက်စတော့ကိရိယာများဖြင့် သင့်ဝင်ရောက်မှုများကို မည်နေရာမှမဆို စီမံခန့်ခွဲပါ။</string>
-    <string name="bitwarden_tools">Multipass ကိရိယာများ</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bitwarden ဝဘ်နှင့် ဒက်စတော့ကိရိယာများဖြင့် သင့်ဝင်ရောက်မှုများကို မည်နေရာမှမဆို စီမံခန့်ခွဲပါ။</string>
+    <string name="bitwarden_tools">Bitwarden ကိရိယာများ</string>
     <string name="got_it">နားလည်ပါပြီ</string>
     <string name="no_logins_were_imported">ဝင်ရောက်မှုများ မတင်သွင်းရသေးပါ</string>
     <string name="import_error">တင်သွင်းခြင်းအမှား</string>

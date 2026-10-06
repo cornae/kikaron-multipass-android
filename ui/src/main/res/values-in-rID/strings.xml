@@ -879,8 +879,8 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="autofill_passwords">Isi otomatis sandi</string>
     <string name="set_up_autofill_on_all_your_devices">Atur isi otomatis di semua perangkat Anda untuk login dengan sekali ketuk di mana saja.</string>
     <string name="import_successful">Impor Berhasil!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Kelola login Anda dari mana saja dengan alat Multipass untuk web dan desktop.</string>
-    <string name="bitwarden_tools">Alat Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Kelola login Anda dari mana saja dengan alat Bitwarden untuk web dan desktop.</string>
+    <string name="bitwarden_tools">Alat Bitwarden</string>
     <string name="got_it">Siap</string>
     <string name="no_logins_were_imported">Tidak ada login yang diimpor</string>
     <string name="import_error">Kesalahan impor</string>

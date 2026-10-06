@@ -885,8 +885,8 @@ seleccione Agregar TOTP para almacenar la clave de forma segura</string>
     <string name="autofill_passwords">Autorellenar contraseñas</string>
     <string name="set_up_autofill_on_all_your_devices">Configura el autocompletado en todos tus dispositivos para iniciar sesión con un solo toque en cualquier lugar.</string>
     <string name="import_successful">¡Importación exitosa!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestiona tus inicios de sesión desde cualquier lugar con las herramientas de escritorio y web de Multipass.</string>
-    <string name="bitwarden_tools">Herramientas de Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestiona tus inicios de sesión desde cualquier lugar con las herramientas de escritorio y web de Bitwarden.</string>
+    <string name="bitwarden_tools">Herramientas de Bitwarden</string>
     <string name="got_it">Entendido</string>
     <string name="no_logins_were_imported">No se importaron inicios de sesión</string>
     <string name="import_error">Error de importación</string>

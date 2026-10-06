@@ -884,8 +884,8 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="autofill_passwords">Autofill ng mga password</string>
     <string name="set_up_autofill_on_all_your_devices">I-set up ang autofill sa lahat ng iyong device upang mag-log in sa isang tap kahit saan.</string>
     <string name="import_successful">Matagumpay ang Pag-import!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Pamahalaan ang iyong mga login mula saanman gamit ang mga tool ng Multipass para sa web at desktop.</string>
-    <string name="bitwarden_tools">Multipass Tools</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Pamahalaan ang iyong mga login mula saanman gamit ang mga tool ng Bitwarden para sa web at desktop.</string>
+    <string name="bitwarden_tools">Bitwarden Tools</string>
     <string name="got_it">Nakuha ko</string>
     <string name="no_logins_were_imported">Walang mga login na na-import</string>
     <string name="import_error">Nagkaproblema sa pag-i-import</string>

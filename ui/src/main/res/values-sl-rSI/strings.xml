@@ -894,8 +894,8 @@ Ali želite preklopiti na ta račun?</string>
     <string name="autofill_passwords">Samodejno izpolni gesla</string>
     <string name="set_up_autofill_on_all_your_devices">Nastavite samodejno izpolnjevanje na vseh napravah za prijavo z enim dotikom kjer koli.</string>
     <string name="import_successful">Uvoz uspešen!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Upravljajte svoje prijave od koder koli z orodji Multipass za splet in namizje.</string>
-    <string name="bitwarden_tools">Orodja Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Upravljajte svoje prijave od koder koli z orodji Bitwarden za splet in namizje.</string>
+    <string name="bitwarden_tools">Orodja Bitwarden</string>
     <string name="got_it">Razumem</string>
     <string name="no_logins_were_imported">Nobena prijava ni bila uvožena</string>
     <string name="import_error">Napaka pri uvozu</string>
