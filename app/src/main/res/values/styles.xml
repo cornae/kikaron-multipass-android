@@ -14,8 +14,8 @@
     <!-- Launch theme (for auto dark/light based on system) -->
     <style name="LaunchTheme" parent="Theme.SplashScreen">
         <item name="postSplashScreenTheme">@style/BaseTheme</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/logo_shield_icon</item>
-        <item name="windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/kikaron_splash_glyph</item>
+        <item name="windowSplashScreenBackground">@color/kikaron_splash_background</item>
     </style>
 
     <!-- A translucent theme for the autofill callback activity -->

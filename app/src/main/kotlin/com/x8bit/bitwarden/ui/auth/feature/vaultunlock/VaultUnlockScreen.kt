@@ -316,15 +316,6 @@ fun VaultUnlockScreen(
                     .standardHorizontalMargin()
                     .fillMaxWidth(),
             )
-            // KIKARON: the one way out while locked (the menu is gone)
-            Spacer(modifier = Modifier.height(8.dp))
-            com.bitwarden.ui.platform.components.button.BitwardenTextButton(
-                label = stringResource(id = BitwardenString.log_out),
-                onClick = { showLogoutConfirmationDialog = true },
-                modifier = Modifier
-                    .standardHorizontalMargin()
-                    .fillMaxWidth(),
-            )
             Spacer(modifier = Modifier.navigationBarsPadding())
         }
     }
