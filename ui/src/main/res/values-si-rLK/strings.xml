@@ -75,9 +75,9 @@
     <string name="yes">ඔව්</string>
     <string name="account">ගිණුම</string>
     <string name="account_created_success">ඔබගේ නව ගිණුම සාදන ලදී!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">උපාංග සැකසීම් තුළ Bitwarden ඔබගේ පාස්කී සපයන්නා ලෙස සකසන්න.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">උපාංග සැකසීම් තුළ Multipass ඔබගේ පාස්කී සපයන්නා ලෙස සකසන්න.</string>
     <string name="avoid_ambiguous_characters">අපැහැදිලි අක්ෂර වළක්වා ගන්න</string>
-    <string name="bitwarden_autofill_service">Bitwarden ස්වයං පිරවුම් සේවාව</string>
+    <string name="bitwarden_autofill_service">Multipass ස්වයං පිරවුම් සේවාව</string>
     <string name="change_master_password">ප්‍රධාන මුරපදය වෙනස් කරන්න</string>
     <string name="close">වසන්න</string>
     <string name="close_app">යෙදුම වසන්න</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">සැසි කාල සීමාව “ඉවත් වන්න” ලෙස සකසන්නද?</string>
     <string name="vault_timeout_log_out_confirmation_message">කාල සීමාවෙන් පසු, ඔබ ඉවත් වනු ඇත. නැවත පිවිසීමට සහ ඔබගේ සුරක්ෂිතාගාරයට ප්‍රවේශ වීමට ඔබට අන්තර්ජාලයට සම්බන්ධ විය යුතුය. මෙම උපාංගයේ සුරැකි ඔබගේ සැකසුම් සහ PIN වෙනස් නොවේ.</string>
     <string name="logging_in">පිවිසෙමින්...</string>
-    <string name="login_to_bitwarden">Bitwarden වෙත පිවිසෙන්න</string>
+    <string name="login_to_bitwarden">Multipass වෙත පිවිසෙන්න</string>
     <string name="master_password_confirmation_val_message">මුරපද තහවුරු කිරීම නිවැරදි නැත.</string>
     <string name="master_password_description">ප්‍රධාන මුරපදය යනු ඔබගේ සුරක්ෂිතාගාරයට ප්‍රවේශ වීමට ඔබ භාවිතා කරන මුරපදයයි. ඔබ ඔබගේ ප්‍රධාන මුරපදය අමතක නොකිරීම ඉතා වැදගත් වේ. ඔබ එය අමතක කළහොත් මුරපදය ප්‍රතිසාධනය කිරීමට ක්‍රමයක් නොමැත.</string>
     <string name="master_password_hint">ප්‍රධාන මුරපද ඉඟිය (විකල්ප)</string>
@@ -169,14 +169,14 @@
     <string name="view_identity">අනන්‍යතාව නරඹන්න</string>
     <string name="view_note">සටහන නරඹන්න</string>
     <string name="view_ssh_key">SSH යතුර නරඹන්න</string>
-    <string name="web_vault">Bitwarden වෙබ් සුරක්ෂිතාගාරය</string>
+    <string name="web_vault">Multipass වෙබ් සුරක්ෂිතාගාරය</string>
     <string name="items">අයිතම</string>
     <string name="items_for_uri">%1$s සඳහා අයිතම</string>
     <string name="no_items_for_uri">%1$s සඳහා ඔබගේ සුරක්ෂිතාගාරයේ අයිතම නොමැත.</string>
     <string name="no_items_for_vault">“%1$s” ට ගැළපෙන ඔබගේ සුරක්ෂිතාගාරයේ අයිතම නොමැත</string>
     <string name="search_for_a_login_or_add_a_new_login">පිවිසුමක් සොයන්න හෝ නව පිවිසුමක් එක් කරන්න</string>
     <string name="disabled">අක්‍රිය කර ඇත</string>
-    <string name="bitwarden_autofill_service_alert2">ඔබගේ සුරක්ෂිතාගාරයට නව පිවිසුම් එකතු කිරීමේ පහසුම ක්‍රමය Bitwarden ස්වයං පිරවුම් සේවාවෙනි. “සැකසීම්” තිරයට යාමෙන් Bitwarden ස්වයං පිරවුම් සේවාව භාවිතා කිරීම ගැන වැඩිදුර ඉගෙන ගන්න.</string>
+    <string name="bitwarden_autofill_service_alert2">ඔබගේ සුරක්ෂිතාගාරයට නව පිවිසුම් එකතු කිරීමේ පහසුම ක්‍රමය Multipass ස්වයං පිරවුම් සේවාවෙනි. “සැකසීම්” තිරයට යාමෙන් Multipass ස්වයං පිරවුම් සේවාව භාවිතා කිරීම ගැන වැඩිදුර ඉගෙන ගන්න.</string>
     <string name="autofill_noun">ස්වයං පිරවුම්</string>
     <string name="autofill_verb">ස්වයං පිරවුම් කරන්න</string>
     <string name="autofill_or_view">ඔබට මෙම අයිතමය ස්වයං පිරවුම් කිරීමට හෝ බැලීමට අවශ්‍යද?</string>
@@ -228,7 +228,7 @@
     <string name="environment_saved">පරිසර URL සුරකින ලදී.</string>
     <string name="identity_url">අනන්‍යතා සේවාදායක URL</string>
     <string name="self_hosted_environment">ස්වයං-සත්කාරක පරිසරය</string>
-    <string name="self_hosted_environment_footer">ඔබගේ on-premise සත්කාරක Bitwarden ස්ථාපනයේ මූලික URL නියම කරන්න.</string>
+    <string name="self_hosted_environment_footer">ඔබගේ on-premise සත්කාරක Multipass ස්ථාපනයේ මූලික URL නියම කරන්න.</string>
     <string name="server_url">සේවාදායක URL</string>
     <string name="web_vault_url">වෙබ් සුරක්ෂිතාගාර සේවාදායක URL</string>
     <string name="custom_fields">අභිරුචි ක්ෂේත්‍ර</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">මෙම ෆෝල්ඩරයේ අයිතම නොමැත.</string>
     <string name="no_items_trash">කුණු කූඩයේ අයිතම නොමැත.</string>
     <string name="autofill_accessibility_summary">වෙනත් යෙදුම්වල සහ වෙබයේ පරිශීලක නම සහ මුරපද ක්ෂේත්‍ර පිරවීමට සහාය වන්න.</string>
-    <string name="autofill_service_description">Bitwarden ස්වයං පිරවුම් සේවාව ඔබගේ උපාංගයේ වෙනත් යෙදුම්වලට පිවිසුම් තොරතුරු පිරවීමට සහාය වීම සඳහා Android Autofill Framework භාවිතා කරයි.</string>
+    <string name="autofill_service_description">Multipass ස්වයං පිරවුම් සේවාව ඔබගේ උපාංගයේ වෙනත් යෙදුම්වලට පිවිසුම් තොරතුරු පිරවීමට සහාය වීම සඳහා Android Autofill Framework භාවිතා කරයි.</string>
     <string name="bitwarden_autofill_go_to_settings">අපට ඔබ වෙනුවෙන් Android ස්වයං පිරවුම් සැකසුම් මෙනුව ස්වයංක්‍රීයව විවෘත කිරීමට නොහැකි විය. ඔබට Android සැකසීම් &gt; පද්ධතිය &gt; භාෂා සහ ආදානය &gt; උසස් &gt; ස්වයං පිරවුම් සේවාවෙන් ස්වයං පිරවුම් සැකසුම් මෙනුව අතින් සැරිසැරීමට හැක.</string>
     <string name="custom_field_name">අභිරුචි ක්ෂේත්‍ර නම</string>
     <string name="field_type_boolean">බූලියන්</string>
@@ -373,7 +373,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">අගුළු අරින්න</string>
     <string name="thirty_minutes">විනාඩි 30</string>
-    <string name="set_pin_description">ඔබගේ PIN අවම වශයෙන් අක්ෂර 4 ක් විය යුතුය. ඔබ Bitwarden යෙදුමෙන් අතින් ඉවත් වුවහොත් ඔබගේ PIN සැකසුම් නැවත සකසනු ලැබේ.</string>
+    <string name="set_pin_description">ඔබගේ PIN අවම වශයෙන් අක්ෂර 4 ක් විය යුතුය. ඔබ Multipass යෙදුමෙන් අතින් ඉවත් වුවහොත් ඔබගේ PIN සැකසුම් නැවත සකසනු ලැබේ.</string>
     <string name="logged_in_as_on">%2$s මත %1$s ලෙස පිවිස ඇත.</string>
     <string name="vault_locked_master_password">ඔබගේ සුරක්ෂිතාගාරය අගුළු ලා ඇත. ඉදිරියට යාමට ඔබගේ ප්‍රධාන මුරපදය සත්‍යාපනය කරන්න.</string>
     <string name="vault_locked_pin">ඔබගේ සුරක්ෂිතාගාරය අගුළු ලා ඇත. ඉදිරියට යාමට ඔබගේ PIN කේතය සත්‍යාපනය කරන්න.</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">ක්ලිප්බෝඩය හිස් කරන්න</string>
     <string name="clear_clipboard_description">ඔබගේ ක්ලිප්බෝඩයෙන් පිටපත් කළ අගයන් ස්වයංක්‍රීයව හිස් කරන්න.</string>
     <string name="default_uri_match_detection">පෙරනිමි URI ගැළපුම් හඳුනාගැනීම</string>
-    <string name="default_uri_match_detection_description">URI ගැළපුම් හඳුනාගැනීම Bitwarden ස්වයං පිරවුම් යෝජනා හඳුනා ගන්නා ආකාරය පාලනය කරයි.</string>
+    <string name="default_uri_match_detection_description">URI ගැළපුම් හඳුනාගැනීම Multipass ස්වයං පිරවුම් යෝජනා හඳුනා ගන්නා ආකාරය පාලනය කරයි.</string>
     <string name="theme">තේමාව</string>
     <string name="theme_description">යෙදුමේ වර්ණ තේමාව වෙනස් කරන්න</string>
     <string name="copy_notes">සටහන පිටපත් කරන්න</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">එක් හෝ කිහිපයක් සංවිධාන ප්‍රතිපත්ති ඔබගේ උත්පාදක සැකසුම්වලට බලපායි</string>
     <string name="unable_to_save_attachment">මෙම ඇමුණුම සුරැකීමේ ගැටළුවක් ඇති විය. ගැටළුව දිගටම පවතින්නේ නම්, ඔබට එය වෙබ් සුරක්ෂිතාගාරයෙන් සුරැකිය හැක.</string>
     <string name="save_attachment_success">ඇමුණුම සාර්ථකව සුරකින ලදී</string>
-    <string name="autofill_tile_accessibility_required">ස්වයං පිරවුම් ටයිලය භාවිතා කිරීමට කරුණාකර Bitwarden සැකසීම් වලින් “ස්වයං පිරවුම් ප්‍රවේශ්‍යතා සේවාව” ක්‍රියාත්මක කරන්න.</string>
+    <string name="autofill_tile_accessibility_required">ස්වයං පිරවුම් ටයිලය භාවිතා කිරීමට කරුණාකර Multipass සැකසීම් වලින් “ස්වයං පිරවුම් ප්‍රවේශ්‍යතා සේවාව” ක්‍රියාත්මක කරන්න.</string>
     <string name="autofill_tile_uri_not_found">මුරපද ක්ෂේත්‍ර හඳුනාගෙන නොමැත</string>
     <string name="soft_deleting">කුණු කූඩයට යවමින්...</string>
     <string name="item_soft_deleted">අයිතමය කුණු කූඩයට යවා ඇත.</string>
@@ -636,9 +636,9 @@
     <string name="catch_all_email_description">ඔබගේ වසමේ වින්‍යාස කළ සියල්ල අල්ලා ගන්නා ඇතුළු පෙට්ටිය භාවිතා කරන්න.</string>
     <string name="forwarded_email_description">බාහිර යළි හරවන සේවාවක් සමඟ විද්‍යුත් තැපැල් ව්‍යාජ නාමයක් ජනනය කරන්න.</string>
     <string name="accessibility_service_disclosure">ප්‍රවේශ්‍යතා සේවා හෙළිදරව් කිරීම</string>
-    <string name="accessibility_disclosure_text">Bitwarden යෙදුම් සහ වෙබ් අඩවිවල පිවිසුම් ක්ෂේත්‍ර සෙවීමට ප්‍රවේශ්‍යතා සේවාව භාවිතා කරයි, පසුව යෙදුම හෝ අඩවිය සඳහා ගැළපීමක් හමු වූ විට පරිශීලක නම සහ මුරපදය ඇතුළත් කිරීම සඳහා සුදුසු ක්ෂේත්‍ර හඳුනාගැනීම් ස්ථාපිත කරයි. අපි සේවාව මගින් අපට ඉදිරිපත් කරන ඕනෑම තොරතුරක් ගබඩා නොකරන අතර, අක්තපත්‍රවල පෙළ ඇතුළත් කිරීමෙන් ඔබ්බට තිරයේ ඕනෑම මූලද්‍රව්ය පාලනය කිරීමට කිසිදු උත්සාහයක් නොගනිමු.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Bitwarden හට ප්‍රවේශ්‍යතා-පාදක ස්වයං පිරවුම් ඉදිරිපත් කිරීමට පෙර මෙම දැන්වීම අවශ්‍ය වේ.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden පිවිසුම් ක්ෂේත්‍ර හඳුනා ගැනීමට Android හි ප්‍රවේශ්‍යතා සේවාව භාවිතා කරන විකල්ප ස්වයං පිරවුම් ක්‍රමයක් ඉදිරිපත් කරයි. ඔබ එය සක්‍රිය කළහොත්, ගැළපීමක් හමු වූ විට Bitwarden සුදුසු ක්ෂේත්‍ර හඳුනාගෙන ඔබගේ අක්තපත්‍ර පුරවනු ඇත.</string>
+    <string name="accessibility_disclosure_text">Multipass යෙදුම් සහ වෙබ් අඩවිවල පිවිසුම් ක්ෂේත්‍ර සෙවීමට ප්‍රවේශ්‍යතා සේවාව භාවිතා කරයි, පසුව යෙදුම හෝ අඩවිය සඳහා ගැළපීමක් හමු වූ විට පරිශීලක නම සහ මුරපදය ඇතුළත් කිරීම සඳහා සුදුසු ක්ෂේත්‍ර හඳුනාගැනීම් ස්ථාපිත කරයි. අපි සේවාව මගින් අපට ඉදිරිපත් කරන ඕනෑම තොරතුරක් ගබඩා නොකරන අතර, අක්තපත්‍රවල පෙළ ඇතුළත් කිරීමෙන් ඔබ්බට තිරයේ ඕනෑම මූලද්‍රව්ය පාලනය කිරීමට කිසිදු උත්සාහයක් නොගනිමු.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Multipass හට ප්‍රවේශ්‍යතා-පාදක ස්වයං පිරවුම් ඉදිරිපත් කිරීමට පෙර මෙම දැන්වීම අවශ්‍ය වේ.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass පිවිසුම් ක්ෂේත්‍ර හඳුනා ගැනීමට Android හි ප්‍රවේශ්‍යතා සේවාව භාවිතා කරන විකල්ප ස්වයං පිරවුම් ක්‍රමයක් ඉදිරිපත් කරයි. ඔබ එය සක්‍රිය කළහොත්, ගැළපීමක් හමු වූ විට Multipass සුදුසු ක්ෂේත්‍ර හඳුනාගෙන ඔබගේ අක්තපත්‍ර පුරවනු ඇත.</string>
     <string name="accessibility_disclosure_start_up_text_3">ඔබ ප්‍රවේශ්‍යතා සේවාව භාවිතා කරන අතරතුර තිරයේ ඇති දේ පිළිබඳ කිසිදු තොරතුරක් අපි ගබඩා නොකරන අතර, අක්තපත්‍ර ඇතුළත් කිරීමෙන් ඔබ්බට තිරයේ ඕනෑම මූලද්‍රව්ය පාලනය නොකරමු.</string>
     <string name="i_understand">මට තේරෙනවා</string>
     <string name="accept">පිළිගන්න</string>
@@ -647,7 +647,7 @@
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">පිවිසුම් උත්සාහය:
 %1$s
 ඔබට මෙම ගිණුමට මාරු වීමට අවශ්‍යද?</string>
-    <string name="new_to_bitwarden">Bitwarden ට අලුත්ද?</string>
+    <string name="new_to_bitwarden">Multipass ට අලුත්ද?</string>
     <string name="get_master_passwordword_hint">ප්‍රධාන මුරපද ඉඟිය ලබා ගන්න</string>
     <string name="logging_in_as_x_on_y">%2$s මත %1$s ලෙස පිවිසෙමින්</string>
     <string name="not_you">ඔබ නොවේද?</string>
@@ -704,7 +704,7 @@
     <string name="invalid_uri">අවලංගු URI</string>
     <string name="the_urix_is_already_blocked">URI %1$s දැනටමත් අවහිර කර ඇත</string>
     <string name="login_approved">පිවිසුම අනුමත කරන ලදී</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">උපාංගය සමඟ පිවිසීම Bitwarden යෙදුමේ සැකසීම් තුළ සැකසිය යුතුය.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">උපාංගය සමඟ පිවිසීම Multipass යෙදුමේ සැකසීම් තුළ සැකසිය යුතුය.</string>
     <string name="need_another_option_view_all_login_options">වෙනත් විකල්පයක් අවශ්‍යද? <annotation link="viewAll">සියලු පිවිසුම් විකල්ප බලන්න</annotation></string>
     <string name="log_in_with_device">උපාංගය සමඟ පිවිසෙන්න</string>
     <string name="logging_in_on">පිවිසෙමින් සිටින්නේ</string>
@@ -719,8 +719,8 @@
     <string name="session_timeout">සැසි කාල සීමාව</string>
     <string name="session_timeout_action">සැසි කාල සීමා ක්‍රියාව</string>
     <string name="account_fingerprint_phrase">ගිණුම් ඇඟිලි සලකුණු වාක්‍යාංශය</string>
-    <string name="passkey_management_explanation_long">නව පාස්කීස් සුරැකීමට සහ ඔබගේ සුරක්ෂිතාගාරයේ ගබඩා කර ඇති පාස්කීස් සමඟ පිවිසීමට Bitwarden භාවිතා කරන්න.</string>
-    <string name="autofill_services_explanation_long">Bitwarden ට ඔබගේ සුරක්ෂිත පිවිසුම් තොරතුරු භාවිතා කර ඔබගේ උපාංගයේ වෙනත් යෙදුම්වලට පිවිසීමට ඉඩ දෙන්න.</string>
+    <string name="passkey_management_explanation_long">නව පාස්කීස් සුරැකීමට සහ ඔබගේ සුරක්ෂිතාගාරයේ ගබඩා කර ඇති පාස්කීස් සමඟ පිවිසීමට Multipass භාවිතා කරන්න.</string>
+    <string name="autofill_services_explanation_long">Multipass ට ඔබගේ සුරක්ෂිත පිවිසුම් තොරතුරු භාවිතා කර ඔබගේ උපාංගයේ වෙනත් යෙදුම්වලට පිවිසීමට ඉඩ දෙන්න.</string>
     <string name="use_inline_autofill_explanation_long">ඔබ ඔබගේ උපාංගයේ වෙනත් යෙදුම්වලට පිවිසෙන විට ඔබගේ ස්වයං පිරවුම් යෝජනා පෙනෙන ආකාරය තෝරන්න.</string>
     <string name="additional_options">අමතර විකල්ප</string>
     <string name="continue_to_web_app">වෙබ් යෙදුම වෙත ඉදිරියට යන්නද?</string>
@@ -728,11 +728,11 @@
     <string name="continue_to_help_center">උපකාරක මධ්‍යස්ථානය වෙත ඉදිරියට යන්නද?</string>
     <string name="continue_to_privacy_policy">රහස්‍යතා ප්‍රතිපත්තිය වෙත ඉදිරියට යන්නද?</string>
     <string name="continue_to_device_settings">උපාංග සැකසීම් වෙත ඉදිරියට යන්නද?</string>
-    <string name="two_step_login_description_long">Bitwarden වෙබ් යෙදුමේ පියවර දෙකක පිවිසුම සැකසීමෙන් ඔබගේ ගිණුම වඩාත් ආරක්ෂිත කරන්න.</string>
-    <string name="change_master_password_description_long">ඔබට Bitwarden වෙබ් යෙදුමේ ඔබගේ ප්‍රධාන මුරපදය වෙනස් කළ හැක.</string>
+    <string name="two_step_login_description_long">Multipass වෙබ් යෙදුමේ පියවර දෙකක පිවිසුම සැකසීමෙන් ඔබගේ ගිණුම වඩාත් ආරක්ෂිත කරන්න.</string>
+    <string name="change_master_password_description_long">ඔබට Multipass වෙබ් යෙදුමේ ඔබගේ ප්‍රධාන මුරපදය වෙනස් කළ හැක.</string>
     <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">උපකාරක මධ්‍යස්ථානයේ Bitwarden භාවිතා කරන ආකාරය ගැන වැඩිදුර ඉගෙන ගන්න.</string>
     <string name="privacy_policy_description_long">bitwarden.com හි අපගේ රහස්‍යතා ප්‍රතිපත්තිය බලන්න.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">වෙබ් යෙදුමේ ඔබගේ Bitwarden ගිණුමේ තවත් විශේෂාංග ගවේෂණය කරන්න.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">වෙබ් යෙදුමේ ඔබගේ Multipass ගිණුමේ තවත් විශේෂාංග ගවේෂණය කරන්න.</string>
     <string name="learn_about_organizations_description_long">Bitwarden ඔබට සංවිධානයක් භාවිතයෙන් ඔබගේ සුරක්ෂිතාගාර අයිතම අන් අය සමඟ බෙදා ගැනීමට ඉඩ සලසයි. bitwarden.com වෙබ් අඩවියෙන් වැඩිදුර ඉගෙන ගන්න.</string>
     <string name="created_x">%1$s සාදන ලදී</string>
     <string name="your_organization_requires_you_to_set_a_master_password">ඔබගේ සංවිධානය ඔබට ප්‍රධාන මුරපදයක් සැකසීමට අවශ්‍ය කරයි.</string>
@@ -743,8 +743,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">ඔබගේ ගිණුම සඳහා Duo පියවර දෙකක පිවිසුම අවශ්‍ය වේ.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">පිවිසීම අවසන් කිරීමට Duo වෙතින් පියවර අනුගමනය කරන්න.</string>
     <string name="launch_duo">Duo දියත් කරන්න</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">ඔබගේ පාස්කී %1$s සඳහා ඔබගේ Bitwarden සුරක්ෂිතාගාරයට සුරකිනු ලැබේ</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">ඔබගේ මුරපදය %1$s සඳහා ඔබගේ Bitwarden සුරක්ෂිතාගාරයට සුරකිනු ලැබේ</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">ඔබගේ පාස්කී %1$s සඳහා ඔබගේ Multipass සුරක්ෂිතාගාරයට සුරකිනු ලැබේ</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">ඔබගේ මුරපදය %1$s සඳහා ඔබගේ Multipass සුරක්ෂිතාගාරයට සුරකිනු ලැබේ</string>
     <string name="passkeys_not_supported_for_this_app">මෙම යෙදුම සඳහා පාස්කීස් සහාය නොදක්වයි</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">බ්‍රවුසරයට වරප්‍රසාද නොමැති නිසා පාස්කී මෙහෙයුම අසාර්ථක විය</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">බ්‍රවුසර අත්සන ගැළපෙන්නේ නැති නිසා පාස්කී මෙහෙයුම අසාර්ථක විය</string>
@@ -772,13 +772,13 @@
     <string name="email_verified">විද්‍යුත් තැපෑල සත්‍යාපනය කරන ලදී</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">නිවේදන, උපදෙස් සහ පර්යේෂණ අවස්ථා සඳහා Bitwarden වෙතින් විද්‍යුත් තැපෑල ලබා ගන්න. ඕනෑම වේලාවක <annotation link="unsubscribe">දායකත්වය අවලංගු කරන්න</annotation>.</string>
     <string name="security_prioritized">ආරක්ෂාව, ප්‍රමුඛතාව</string>
-    <string name="welcome_message_1">පිවිසුම්, කාඩ්පත් සහ අනන්‍යතා ඔබගේ ආරක්ෂිත සුරක්ෂිතාගාරයට සුරකින්න. Bitwarden ඔබට වැදගත් දේ ආරක්ෂා කිරීමට ශුන්‍ය-දැනුම, අන්ත-සිට-අන්ත ගුප්තකේතනය භාවිතා කරයි.</string>
+    <string name="welcome_message_1">පිවිසුම්, කාඩ්පත් සහ අනන්‍යතා ඔබගේ ආරක්ෂිත සුරක්ෂිතාගාරයට සුරකින්න. Multipass ඔබට වැදගත් දේ ආරක්ෂා කිරීමට ශුන්‍ය-දැනුම, අන්ත-සිට-අන්ත ගුප්තකේතනය භාවිතා කරයි.</string>
     <string name="welcome_message_2">එක අකුරක්වත් ටයිප් නොකර ඔබගේ ගිණුම්වලට පිවිසීමට ජෛවමිතික අගුළු ඇරීම සහ ස්වයං පිරවුම් සකසන්න.</string>
     <string name="quick_and_easy_login">ඉක්මන් සහ පහසු පිවිසුම</string>
     <string name="level_up_your_logins">ඔබගේ පිවිසුම් ඉහළ නංවන්න</string>
     <string name="welcome_message_3">ඔබගේ සියලු ගිණුම් සඳහා ශක්තිමත්, අනන්‍ය මුරපද සාදා ගැනීමට සහ සුරැකීමට උත්පාදක යන්ත්‍රය භාවිතා කරන්න.</string>
     <string name="your_data_when_and_where_you_need_it">ඔබගේ දත්ත, ඔබට අවශ්‍ය විට සහ අවශ්‍ය තැන</string>
-    <string name="welcome_message_4">Bitwarden ජංගම, බ්‍රවුසර සහ ඩෙස්ක්ටොප් යෙදුම් සමඟ අසීමිත උපාංග හරහා අසීමිත මුරපද සුරකින්න.</string>
+    <string name="welcome_message_4">Multipass ජංගම, බ්‍රවුසර සහ ඩෙස්ක්ටොප් යෙදුම් සමඟ අසීමිත උපාංග හරහා අසීමිත මුරපද සුරකින්න.</string>
     <string name="remove_passkey">පාස්කී ඉවත් කරන්න</string>
     <string name="passkey_removed">පාස්කී ඉවත් කරන ලදී</string>
     <string name="what_makes_a_password_strong">මුරපදයක් ශක්තිමත් වන්නේ කුමක් නිසාද?</string>
@@ -808,8 +808,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">ඔබගේ විද්‍යුත් තැපැල් ලිපිනය සත්‍යාපනය කර ඔබගේ ගිණුම සෑදීම දිගටම කරගෙන යාමට විද්‍යුත් තැපෑලේ සබැඳිය තෝරන්න.</string>
     <string name="change_email_address">විද්‍යුත් තැපැල් ලිපිනය වෙනස් කරන්න</string>
     <string name="next">ඊළඟ</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden ට අහිමි වූ හෝ අමතක වූ ප්‍රධාන මුරපදයක් ප්‍රතිසාධනය කළ නොහැක.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden ට අහිමි වූ හෝ අමතක වූ ප්‍රධාන මුරපදයක් නැවත සැකසිය නොහැක.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass ට අහිමි වූ හෝ අමතක වූ ප්‍රධාන මුරපදයක් ප්‍රතිසාධනය කළ නොහැක.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass ට අහිමි වූ හෝ අමතක වූ ප්‍රධාන මුරපදයක් නැවත සැකසිය නොහැක.</string>
     <string name="choose_your_master_password">ඔබගේ ප්‍රධාන මුරපදය තෝරන්න</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">ඔබගේ තොරතුරු ආරක්ෂිතව තබා ගැනීමට අනන්‍ය සහ ශක්තිමත් මුරපදයක් තෝරන්න.</string>
     <plurals name="minimum_characters">
@@ -825,16 +825,16 @@
     <string name="turn_on_autofill">ස්වයං පිරවුම් ක්‍රියාත්මක කරන්න</string>
     <string name="autofill_setup">ස්වයං පිරවුම් සැකසුම</string>
     <string name="turn_on_browser_autofill_integration">බ්‍රවුසර ස්වයං පිරවුම් ඒකාබද්ධ කිරීම ක්‍රියාත්මක කරන්න</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">ඔබ Bitwarden ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසරයක් භාවිතා කරයි.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">ඔබ Bitwarden ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසර භාවිතා කරයි.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">ඔබ Bitwarden ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසරයක් භාවිතා කරයි. පහත ඔබගේ කැමති ස්වයං පිරවුම් ඒකාබද්ධ කිරීම සක්‍රිය කරන්න.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">ඔබ Bitwarden ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසර භාවිතා කරයි. ඉදිරියට යාමට ඔබගේ ස්ථාපිත සියලු බ්‍රවුසර සඳහා ස්වයං පිරවුම් සක්‍රිය කරන්න.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">ඔබ Multipass ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසරයක් භාවිතා කරයි.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">ඔබ Multipass ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසර භාවිතා කරයි.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">ඔබ Multipass ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසරයක් භාවිතා කරයි. පහත ඔබගේ කැමති ස්වයං පිරවුම් ඒකාබද්ධ කිරීම සක්‍රිය කරන්න.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">ඔබ Multipass ට ඔබගේ මුරපද ස්වයං පිරවුම් කිරීමට විශේෂ අවසර අවශ්‍ය වන බ්‍රවුසර භාවිතා කරයි. ඉදිරියට යාමට ඔබගේ ස්ථාපිත සියලු බ්‍රවුසර සඳහා ස්වයං පිරවුම් සක්‍රිය කරන්න.</string>
     <string name="use_autofill_to_log_into_your_accounts">තනි තට්ටුවකින් ඔබගේ ගිණුම්වලට පිවිසීමට ස්වයං පිරවුම් භාවිතා කරන්න.</string>
     <string name="turn_on_later">පසුව ක්‍රියාත්මක කරන්න</string>
     <string name="turn_on_autofill_later">පසුව ස්වයං පිරවුම් ක්‍රියාත්මක කරන්නද?</string>
     <string name="turn_on_browser_autofill_integration_later">පසුව බ්‍රවුසර ස්වයං පිරවුම් ඒකාබද්ධ කිරීම ක්‍රියාත්මක කරන්නද?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">ඔබට ඕනෑම වේලාවක සැකසීම් තුළ මෙම පියවර සම්පූර්ණ කිරීමට ආපසු යා හැක.</string>
-    <string name="what_bitwarden_has_to_offer">දැන් ඔබට Bitwarden සතුව ඇති සියල්ල ගවේෂණය කළ හැකි අතර ඔබගේ මුරපද ආරක්ෂිතව කළමනාකරණය කිරීම ආරම්භ කළ හැක.</string>
+    <string name="what_bitwarden_has_to_offer">දැන් ඔබට Multipass සතුව ඇති සියල්ල ගවේෂණය කළ හැකි අතර ඔබගේ මුරපද ආරක්ෂිතව කළමනාකරණය කිරීම ආරම්භ කළ හැක.</string>
     <string name="youre_all_set">ඔබ සියල්ල සූදානම්!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Duo සේවාව සමඟ සම්බන්ධ වීමේ දෝෂයකි. වෙනත් පියවර දෙකක පිවිසුම් ක්‍රමයක් භාවිතා කරන්න හෝ සහාය සඳහා Duo අමතන්න.</string>
     <string name="master_password_hint_not_specified">ප්‍රධාන මුරපද ඉඟිය</string>
@@ -853,7 +853,7 @@
     <string name="do_you_have_a_computer_available">ඔබට පරිගණකයක් තිබේද?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">පහත උපදෙස් ඔබගේ ඩෙස්ක්ටොප් හෝ ලැප්ටොප් පරිගණකයෙන් පිවිසුම් ආයාත කිරීම හරහා ඔබට මග පෙන්වනු ඇත</string>
     <string name="import_logins">පිවිසුම් ආයාත කරන්න</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">ඔබගේ පරිගණකයෙන්, ඔබගේ බ්‍රවුසරයෙන් හෝ වෙනත් මුරපද කළමනාකරුවෙකුගෙන් සුරැකි මුරපද අපනයනය කිරීමට මෙම උපදෙස් අනුගමනය කරන්න. ඉන්පසු, ඒවා Bitwarden වෙත ආරක්ෂිතව ආයාත කරන්න.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">ඔබගේ පරිගණකයෙන්, ඔබගේ බ්‍රවුසරයෙන් හෝ වෙනත් මුරපද කළමනාකරුවෙකුගෙන් සුරැකි මුරපද අපනයනය කිරීමට මෙම උපදෙස් අනුගමනය කරන්න. ඉන්පසු, ඒවා Multipass වෙත ආරක්ෂිතව ආයාත කරන්න.</string>
     <string name="give_your_vault_a_head_start">ඔබගේ සුරක්ෂිතාගාරයට පෙරගමනක් දෙන්න</string>
     <string name="class_3_biometrics_description">ජෛවමිතික සමඟ අගුළු ඇරීමට ශක්තිමත් ජෛවමිතික සත්‍යාපනය අවශ්‍ය වන අතර මෙම උපාංගයේ සියලු ජෛවමිතික විකල්ප සමඟ නොගැළපිය හැක.</string>
     <string name="class_2_biometrics_description">ජෛවමිතික සමඟ අගුළු ඇරීමට ශක්තිමත් ජෛවමිතික සත්‍යාපනය අවශ්‍ය වන අතර මෙම උපාංගයේ පවතින ජෛවමිතික විකල්ප සමඟ නොගැළපේ.</string>
@@ -864,18 +864,18 @@
     <string name="export_your_saved_logins">ඔබගේ සුරැකි පිවිසුම් අපනයනය කරන්න</string>
     <string name="delete_this_file_after_import_is_complete">ආයාතය සම්පූර්ණ වූ පසු ඔබ මෙම ගොනුව මකා දමනු ඇත.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">ඔබගේ පරිගණකයේ, නව බ්‍රවුසර ටැබයක් විවෘත කර <annotation emphasis="bold"><annotation arg="0">%1$s</annotation> වෙත යන්න</annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Bitwarden වෙබ් යෙදුමට පිවිසෙන්න.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Multipass වෙබ් යෙදුමට පිවිසෙන්න.</string>
     <string name="step_2_of_3">3 න් 2 පියවර</string>
-    <string name="log_in_to_bitwarden">Bitwarden වෙත පිවිසෙන්න</string>
+    <string name="log_in_to_bitwarden">Multipass වෙත පිවිසෙන්න</string>
     <string name="step_3_of_3">3 න් 3 පියවර</string>
-    <string name="import_logins_to_bitwarden">Bitwarden වෙත පිවිසුම් ආයාත කරන්න</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Bitwarden සංචාලනයේ, <annotation emphasis="bold">මෙවලම්</annotation> විකල්පය සොයා <annotation emphasis="bold">දත්ත ආයාත කරන්න තෝරන්න.</annotation></string>
+    <string name="import_logins_to_bitwarden">Multipass වෙත පිවිසුම් ආයාත කරන්න</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Multipass සංචාලනයේ, <annotation emphasis="bold">මෙවලම්</annotation> විකල්පය සොයා <annotation emphasis="bold">දත්ත ආයාත කරන්න තෝරන්න.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">පෝරමය පුරවා <annotation emphasis="bold">ඔබගේ සුරැකි මුරපද ගොනුව ආයාත කරන්න.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">ඔබගේ ආරක්ෂාව සඳහා, <annotation emphasis="bold">ඔබගේ සුරැකි මුරපද ගොනුව මකා දැමීමට</annotation> වග බලා ගන්න.</string>
     <string name="need_help_check_out_import_help">උදව් අවශ්‍යද? <annotation link="importHelp">ආයාත උපකාරය</annotation> බලන්න.</string>
     <string name="import_help">ආයාත උපකාරය</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">අපනයනය කළ ගොනුව</annotation> ඔබගේ පරිගණකයේ පහසුවෙන් සොයාගත හැකි ස්ථානයක සුරකින්න.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">මෙය හඳුනාගත් Bitwarden සේවාදායකයක් නොවේ. ඔබට ඔබගේ සපයන්නා සමඟ පරීක්ෂා කිරීමට හෝ ඔබගේ සේවාදායකය යාවත්කාලීන කිරීමට අවශ්‍ය විය හැක.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">මෙය හඳුනාගත් Multipass සේවාදායකයක් නොවේ. ඔබට ඔබගේ සපයන්නා සමඟ පරීක්ෂා කිරීමට හෝ ඔබගේ සේවාදායකය යාවත්කාලීන කිරීමට අවශ්‍ය විය හැක.</string>
     <string name="syncing_logins_loading_message">පිවිසුම් සමමුහුර්ත කරමින්...</string>
     <string name="download_the_browser_extension">බ්‍රවුසර දිගුව බාගත කරන්න</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">බාධාවකින් තොර අත්දැකීමක් සඳහා ඔබගේ ප්‍රියතම බ්‍රවුසරයට Bitwarden ඒකාබද්ධ කිරීමට bitwarden.com/download වෙත යන්න.</string>
@@ -884,8 +884,8 @@
     <string name="autofill_passwords">මුරපද ස්වයං පිරවුම් කරන්න</string>
     <string name="set_up_autofill_on_all_your_devices">ඕනෑම තැනක තනි තට්ටුවකින් පිවිසීමට ඔබගේ සියලු උපාංගවල ස්වයං පිරවුම් සකසන්න.</string>
     <string name="import_successful">ආයාතය සාර්ථකයි!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">වෙබ් සහ ඩෙස්ක්ටොප් සඳහා Bitwarden මෙවලම් සමඟ ඕනෑම තැනක සිට ඔබගේ පිවිසුම් කළමනාකරණය කරන්න.</string>
-    <string name="bitwarden_tools">Bitwarden මෙවලම්</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">වෙබ් සහ ඩෙස්ක්ටොප් සඳහා Multipass මෙවලම් සමඟ ඕනෑම තැනක සිට ඔබගේ පිවිසුම් කළමනාකරණය කරන්න.</string>
+    <string name="bitwarden_tools">Multipass මෙවලම්</string>
     <string name="got_it">තේරුම් ගත්තා</string>
     <string name="no_logins_were_imported">පිවිසුම් කිසිවක් ආයාත කර නොමැත</string>
     <string name="import_error">ආයාත දෝෂය</string>
@@ -903,7 +903,7 @@
         <item quantity="other">%d දැනුම්දීම්</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">උපාංග හරහා ඉක්මනින් සහ පහසුවෙන් පිවිසෙන්න</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">වෙනත් උපාංගයකින් නව පිවිසුම් ඉල්ලීමක් ලැබෙන සෑම අවස්ථාවකම Bitwarden ට ඔබට දැනුම් දිය හැක.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">වෙනත් උපාංගයකින් නව පිවිසුම් ඉල්ලීමක් ලැබෙන සෑම අවස්ථාවකම Multipass ට ඔබට දැනුම් දිය හැක.</string>
     <string name="skip_for_now">දැනට මඟ හරින්න</string>
     <string name="done_text">අවසන්</string>
     <string name="page_number_x_of_y">%2$s න් %1$s</string>
@@ -928,7 +928,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger">එය තවත් ශක්තිමත් කිරීමට <annotation emphasis="bold">අංකයක් හෝ සංකේතයක් එක් කරන්න</annotation>. දැන් ඔබට අනන්‍ය, ආරක්ෂිත සහ මතක තබා ගත හැකි වාක්‍යාංශ මුරපදයක් තිබේ!</string>
     <string name="need_some_inspiration">ආශ්වාදයක් අවශ්‍යද?</string>
     <string name="check_out_the_passphrase_generator">වාක්‍යාංශ මුරපද උත්පාදක යන්ත්‍රය බලන්න</string>
-    <string name="we_couldnt_verify_the_servers_certificate">අපට සේවාදායකයේ සහතිකය සත්‍යාපනය කළ නොහැකි විය. ඔබගේ උපාංගයේ හෝ ඔබගේ Bitwarden සේවාදායකයේ සහතික දාමය හෝ ප්‍රොක්සි සැකසුම් නිවැරදිව සකසා නොතිබිය හැක.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">අපට සේවාදායකයේ සහතිකය සත්‍යාපනය කළ නොහැකි විය. ඔබගේ උපාංගයේ හෝ ඔබගේ Multipass සේවාදායකයේ සහතික දාමය හෝ ප්‍රොක්සි සැකසුම් නිවැරදිව සකසා නොතිබිය හැක.</string>
     <string name="copy_private_key">පුද්ගලික යතුර පිටපත් කරන්න</string>
     <string name="login_credentials">පිවිසුම් අක්තපත්‍ර</string>
     <string name="autofill_options">ස්වයං පිරවුම් විකල්ප</string>
@@ -955,7 +955,7 @@
     <string name="coachmark_5_of_6">6න් 5</string>
     <string name="coachmark_6_of_6">6න් 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">ඔබගේ ගිණුම් වෙබ් අඩවියේ අවශ්‍යතා සපුරාලීම සඳහා ඔබගේ මුරපදය සකස් කිරීමට මෙම විකල්ප භාවිතා කරන්න.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">ඔබ ඔබගේ නව මුරපදය Bitwarden වෙත සුරැකීමෙන් පසු, එය ඔබගේ ගිණුම් වෙබ් අඩවියේ යාවත්කාලීන කිරීමට අමතක නොකරන්න.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">ඔබ ඔබගේ නව මුරපදය Multipass වෙත සුරැකීමෙන් පසු, එය ඔබගේ ගිණුම් වෙබ් අඩවියේ යාවත්කාලීන කිරීමට අමතක නොකරන්න.</string>
     <string name="verify_your_identity">ඔබගේ අනන්‍යතාව සත්‍යාපනය කරන්න</string>
     <string name="error_loading_certificate">සහතිකය පූරණය කිරීමේ දෝෂය</string>
     <string name="certificate_alias">සහතික ව්‍යාජ නාමය</string>
@@ -966,7 +966,7 @@
     <string name="unsupported_certificate_type">සහාය නොදක්වන සහතික වර්ගය</string>
     <string name="certificate_password_incorrect">සහතික මුරපදය වැරදියි</string>
     <string name="invalid_certificate_chain">අවලංගු සහතික දාමය</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">පද්ධති සහතිකයක් භාවිතා කිරීම Bitwarden සමඟ සහතිකය ගබඩා කිරීමට වඩා අඩු ආරක්ෂිතයි. ඉදිරියට යාමෙන්, එකක් දැනටමත් ස්ථාපනය කර ඇත්නම් පවතින පද්ධති සහතික ලැයිස්තුවක් පෙන්වයි.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">පද්ධති සහතිකයක් භාවිතා කිරීම Multipass සමඟ සහතිකය ගබඩා කිරීමට වඩා අඩු ආරක්ෂිතයි. ඉදිරියට යාමෙන්, එකක් දැනටමත් ස්ථාපනය කර ඇත්නම් පවතින පද්ධති සහතික ලැයිස්තුවක් පෙන්වයි.</string>
     <string name="link">සබැඳිය</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">ඉල්ලීමේ සත්කාරක URL නොමැති නිසා පාස්කී මෙහෙයුම අසාර්ථක විය.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">යෙදුම් අත්සන අවලංගු නිසා පාස්කී මෙහෙයුම අසාර්ථක විය.</string>
@@ -1004,8 +1004,8 @@
     <string name="experiencing_an_issue">ගැටළුවක් අත්විඳිනවාද?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">දේශීයව ලොග එකතු කිරීමට සහ පරීක්ෂා කිරීමට තාවකාලික ලොග්කිරීම සක්‍රිය කරන්න. සක්‍රිය කළ විට, යෙදුම් තත්ත්ව සහ ජාල ඇමතුම් ලොග් කළ හැක—කිසිදු සංවේදී සුරක්ෂිතාගාර තොරතුරු නොවේ.</string>
     <string name="to_get_started_set_a_logging_duration">ආරම්භ කිරීමට, ලොග්කිරීමේ කාල සීමාවක් සකසන්න. මෙම කාලයෙන් පසු ලොග්කිරීම ස්වයංක්‍රීයව අක්‍රිය වන අතර, ගැටළු ප්‍රතිනිෂ්පාදනය කරන අතරතුර ක්‍රියාකාරකම් ග්‍රහණය කර ගැනීමට ඔබට කාලය ලබා දෙයි.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">දින 30 කට පසු ලොග් ස්වයංක්‍රීයව මකා දමනු ලැබේ. Bitwarden ට ඔබගේ ලොග් දත්ත වෙත ප්‍රවේශ විය හැක්කේ ඔබ එය බෙදාගන්නා විට පමණි.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">ලොග් කරනු ලබන සහ නොලැබෙන දේ පිළිබඳ විස්තර සඳහා, \n<annotation link="helpCenter">Bitwarden උපකාරක මධ්‍යස්ථානයට</annotation> පිවිසෙන්න.</string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">දින 30 කට පසු ලොග් ස්වයංක්‍රීයව මකා දමනු ලැබේ. Multipass ට ඔබගේ ලොග් දත්ත වෙත ප්‍රවේශ විය හැක්කේ ඔබ එය බෙදාගන්නා විට පමණි.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">ලොග් කරනු ලබන සහ නොලැබෙන දේ පිළිබඳ විස්තර සඳහා, \n<annotation link="helpCenter">Multipass උපකාරක මධ්‍යස්ථානයට</annotation> පිවිසෙන්න.</string>
     <string name="logging_duration">ලොග්කිරීමේ කාල සීමාව</string>
     <string name="flight_recorder_one_hour">පැය 1</string>
     <string name="flight_recorder_eight_hours">පැය 8</string>
@@ -1036,24 +1036,24 @@
     <string name="unable_to_read_certificate">සහතිකය කියවීමට නොහැක.</string>
     <string name="cannot_delete_your_account">ඔබගේ ගිණුම මකා දැමිය නොහැක</string>
     <string name="cannot_delete_your_account_explanation">මෙම ක්‍රියාව සම්පූර්ණ කළ නොහැක, මන්ද ඔබගේ ගිණුම සංවිධානයක් සතු වේ. අමතර විස්තර සඳහා ඔබගේ සංවිධාන පරිපාලක අමතන්න.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">මෙම ගිණුම ඉක්මනින් මකා දමනු ඇත. Bitwarden භාවිතා කිරීම දිගටම කරගෙන යාමට %1$s හි පිවිසෙන්න.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">මෙම ගිණුම ඉක්මනින් මකා දමනු ඇත. Multipass භාවිතා කිරීම දිගටම කරගෙන යාමට %1$s හි පිවිසෙන්න.</string>
     <string name="view_file_send">ගොනු යැවීම බලන්න</string>
     <string name="view_text_send">පෙළ යැවීම බලන්න</string>
     <string name="delete_send">යවන්න මකන්න</string>
     <string name="missing_send_resync_your_vault">යැවීම අතුරුදහන් - ඔබගේ සුරක්ෂිතාගාරය නැවත සමමුහුර්ත කරන්න</string>
     <string name="use_dynamic_colors">ගතික වර්ණ භාවිතා කරන්න</string>
     <string name="use_dynamic_colors_question">ගතික වර්ණ භාවිතා කරන්නද?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">මෙම වර්ණ සැකසුම ඔබගේ වත්මන් බිතුපත මත පදනම්ව පද්ධති වර්ණ Bitwarden වෙත ස්වයංක්‍රීයව යොදයි. මෙම වර්ණ සියලු ප්‍රවේශ්‍යතා මාර්ගෝපදේශ සපුරාලිය නොහැක.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">මෙම වර්ණ සැකසුම ඔබගේ වත්මන් බිතුපත මත පදනම්ව පද්ධති වර්ණ Multipass වෙත ස්වයංක්‍රීයව යොදයි. මෙම වර්ණ සියලු ප්‍රවේශ්‍යතා මාර්ගෝපදේශ සපුරාලිය නොහැක.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">බ්‍රවුසරය (%1$s) හඳුනාගෙන නොමැති නිසා පාස්කී මෙහෙයුම අසාර්ථක විය. %1$s දේශීය විශ්වාසනීය යෙදුම් ලැයිස්තුවට එක් කිරීමට “විශ්වාස කරන්න” තෝරන්න.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">බ්‍රවුසරය විශ්වාස නොකරන නිසා පාස්කී මෙහෙයුම අසාර්ථක විය.</string>
     <string name="trust">විශ්වාස කරන්න</string>
-    <string name="trusted_by_you_learn_more">මේවා Bitwarden පෙරනිමියෙන් විශ්වාස නොකරන නමුත් පාස්කී මෙහෙයුම් සිදු කිරීමට ඔබ විශ්වාස කරන යෙදුම් හෝ බ්‍රවුසර වේ.</string>
-    <string name="trusted_by_community_learn_more">මේවා Google Play Store හි ඇතුළත් නොවන නමුත්, ප්‍රජා සාමාජිකයින් ඒවා භාවිතා කර ආරක්ෂිත යැයි වාර්තා කිරීමෙන් පසු Bitwarden පාස්කී මෙහෙයුම් සිදු කිරීමට විශ්වාස කරන යෙදුම් වේ.</string>
+    <string name="trusted_by_you_learn_more">මේවා Multipass පෙරනිමියෙන් විශ්වාස නොකරන නමුත් පාස්කී මෙහෙයුම් සිදු කිරීමට ඔබ විශ්වාස කරන යෙදුම් හෝ බ්‍රවුසර වේ.</string>
+    <string name="trusted_by_community_learn_more">මේවා Google Play Store හි ඇතුළත් නොවන නමුත්, ප්‍රජා සාමාජිකයින් ඒවා භාවිතා කර ආරක්ෂිත යැයි වාර්තා කිරීමෙන් පසු Multipass පාස්කී මෙහෙයුම් සිදු කිරීමට විශ්වාස කරන යෙදුම් වේ.</string>
     <string name="trusted_by_google_learn_more">මේවා Google ආරක්ෂිත යැයි සලකන සහ Google හි Play Store හි ඇති යෙදුම් වේ.</string>
     <string name="trusted_by_you">ඔබ විසින් විශ්වාස කරන ලද</string>
     <string name="trusted_by_the_community">ප්‍රජාව විසින් විශ්වාස කරන ලද</string>
     <string name="trusted_by_google">Google විසින් විශ්වාස කරන ලද</string>
-    <string name="privileged_apps_description">පරිශීලකයින් ධීවර ප්‍රයත්නවලින් ආරක්ෂා කිරීම සඳහා, පෙරනිමියෙන්, Bitwarden පාස්කී මෙහෙයුම් සම්පූර්ණ කරන්නේ Google හෝ Bitwarden ප්‍රජාව විසින් විශ්වාස කරන යෙදුම් හෝ වෙබ් බ්‍රවුසර හරහා පමණි.</string>
+    <string name="privileged_apps_description">පරිශීලකයින් ධීවර ප්‍රයත්නවලින් ආරක්ෂා කිරීම සඳහා, පෙරනිමියෙන්, Multipass පාස්කී මෙහෙයුම් සම්පූර්ණ කරන්නේ Google හෝ Multipass ප්‍රජාව විසින් විශ්වාස කරන යෙදුම් හෝ වෙබ් බ්‍රවුසර හරහා පමණි.</string>
     <string name="about_privileged_applications">වරප්‍රසාදිත යෙදුම් ගැන</string>
     <string name="learn_more_about_privileged_apps">වරප්‍රසාදිත යෙදුම් ගැන වැඩිදුර ඉගෙන ගන්න</string>
     <string name="privileged_apps">වරප්‍රසාදිත යෙදුම්</string>
@@ -1155,10 +1155,10 @@
     <string name="items_are_collapsed_click_to_expand">අයිතම හකුළා ඇත, පුළුල් කිරීමට ක්ලික් කරන්න.</string>
     <string name="error_cannot_decrypt">[දෝෂය: විකේතනය කළ නොහැක]</string>
     <string name="copy_error_report">දෝෂ වාර්තාව පිටපත් කරන්න</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden ට මෙම සුරක්ෂිතාගාර අයිතමය විකේතනය කළ නොහැකි විය. අමතර දත්ත පාඩුව වළක්වා ගැනීමට මෙම දෝෂ වාර්තාව පිටපත් කර පාරිභෝගික සාර්ථකත්වය සමඟ බෙදාගන්න.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass ට මෙම සුරක්ෂිතාගාර අයිතමය විකේතනය කළ නොහැකි විය. අමතර දත්ත පාඩුව වළක්වා ගැනීමට මෙම දෝෂ වාර්තාව පිටපත් කර පාරිභෝගික සාර්ථකත්වය සමඟ බෙදාගන්න.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Bitwarden ට %1$d සුරක්ෂිතාගාර අයිතමය විකේතනය කළ නොහැකි විය. අමතර දත්ත පාඩුව වළක්වා ගැනීමට මෙම දෝෂ වාර්තාව පිටපත් කර පාරිභෝගික සාර්ථකත්වය සමඟ බෙදාගන්න.</item>
-        <item quantity="other">Bitwarden ට %1$d සුරක්ෂිතාගාර අයිතම විකේතනය කළ නොහැකි විය. අමතර දත්ත පාඩුව වළක්වා ගැනීමට මෙම දෝෂ වාර්තාව පිටපත් කර පාරිභෝගික සාර්ථකත්වය සමඟ බෙදාගන්න.</item>
+        <item quantity="one">Multipass ට %1$d සුරක්ෂිතාගාර අයිතමය විකේතනය කළ නොහැකි විය. අමතර දත්ත පාඩුව වළක්වා ගැනීමට මෙම දෝෂ වාර්තාව පිටපත් කර පාරිභෝගික සාර්ථකත්වය සමඟ බෙදාගන්න.</item>
+        <item quantity="other">Multipass ට %1$d සුරක්ෂිතාගාර අයිතම විකේතනය කළ නොහැකි විය. අමතර දත්ත පාඩුව වළක්වා ගැනීමට මෙම දෝෂ වාර්තාව පිටපත් කර පාරිභෝගික සාර්ථකත්වය සමඟ බෙදාගන්න.</item>
     </plurals>
     <string name="select_a_card_for_x">%s සඳහා කාඩ්පතක් තෝරන්න</string>
     <string name="advanced_options">උසස් විකල්ප</string>
@@ -1166,8 +1166,8 @@
     <string name="keep_your_credential_secure">ඔබගේ අක්තපත්‍ර ආරක්ෂිතව තබා ගන්න</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">“%1$s” භාවිතා කරන විට අක්තපත්‍ර ආරක්ෂිතව තබා ගන්නේ කෙසේද යන්න ගැන වැඩිදුර ඉගෙන ගන්න.</string>
     <string name="are_you_sure_you_want_to_use">ඔබට “%1$s” භාවිතා කිරීමට අවශ්‍ය බව විශ්වාසද?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI ගැළපුම් හඳුනාගැනීම Bitwarden ස්වයං පිරවුම් යෝජනා හඳුනා ගන්නා ආකාරය පාලනය කරයි.\n<annotation emphasis="bold">අනතුරු ඇඟවීම:</annotation> “නිත්‍ය ප්‍රකාශනය” යනු වැරදි ලෙස භාවිතා කළහොත් අක්තපත්‍ර හෙළිදරව් කිරීමේ ඉහළ අවදානමක් සහිත උසස් විකල්පයකි.</string>
-    <string name="default_uri_match_detection_description_advanced_options">URI ගැළපුම් හඳුනාගැනීම Bitwarden ස්වයං පිරවුම් යෝජනා හඳුනා ගන්නා ආකාරය පාලනය කරයි.\n<annotation emphasis="bold">අනතුරු ඇඟවීම:</annotation> “ආරම්භ වන්නේ” යනු අක්තපත්‍ර හෙළිදරව් කිරීමේ ඉහළ අවදානමක් සහිත උසස් විකල්පයකි.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI ගැළපුම් හඳුනාගැනීම Multipass ස්වයං පිරවුම් යෝජනා හඳුනා ගන්නා ආකාරය පාලනය කරයි.\n<annotation emphasis="bold">අනතුරු ඇඟවීම:</annotation> “නිත්‍ය ප්‍රකාශනය” යනු වැරදි ලෙස භාවිතා කළහොත් අක්තපත්‍ර හෙළිදරව් කිරීමේ ඉහළ අවදානමක් සහිත උසස් විකල්පයකි.</string>
+    <string name="default_uri_match_detection_description_advanced_options">URI ගැළපුම් හඳුනාගැනීම Multipass ස්වයං පිරවුම් යෝජනා හඳුනා ගන්නා ආකාරය පාලනය කරයි.\n<annotation emphasis="bold">අනතුරු ඇඟවීම:</annotation> “ආරම්භ වන්නේ” යනු අක්තපත්‍ර හෙළිදරව් කිරීමේ ඉහළ අවදානමක් සහිත උසස් විකල්පයකි.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">“ආරම්භ වන්නේ” යනු අක්තපත්‍ර හෙළිදරව් කිරීමේ ඉහළ අවදානමක් සහිත උසස් විකල්පයකි.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">“නිත්‍ය ප්‍රකාශනය” යනු වැරදි ලෙස භාවිතා කළහොත් අක්තපත්‍ර හෙළිදරව් කිරීමේ ඉහළ අවදානමක් සහිත උසස් විකල්පයකි.</string>
     <string name="later">පසුව</string>
@@ -1192,17 +1192,17 @@
         <item quantity="other">%1$d අයිතම ඔබගේ සුරක්ෂිතාගාරයට ආයාත කර ඇත.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">මුරපද පිරවීම දිගටම කරගෙන යාමට බ්‍රවුසර ස්වයං පිරවුම් සක්‍රිය කරන්න</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">ඔබගේ බ්‍රවුසරය මෑතකදී යාවත්කාලීන කර ඇත, එමඟින් Bitwarden ස්වයං පිරවුම් අක්‍රිය කර ඇත. Bitwarden සමඟ ඔබගේ මුරපද පිරවීම දිගටම කරගෙන යාමට, ස්වයං පිරවුම් සැකසීම් තුළ බ්‍රවුසර ස්වයං පිරවුම් සක්‍රිය කරන්න.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">ඔබගේ බ්‍රවුසරය මෑතකදී යාවත්කාලීන කර ඇත, එමඟින් Multipass ස්වයං පිරවුම් අක්‍රිය කර ඇත. Multipass සමඟ ඔබගේ මුරපද පිරවීම දිගටම කරගෙන යාමට, ස්වයං පිරවුම් සැකසීම් තුළ බ්‍රවුසර ස්වයං පිරවුම් සක්‍රිය කරන්න.</string>
     <string name="not_now">දැන් නොවේ</string>
     <string name="import_from_bitwarden">Bitwarden වෙතින් ආයාත කරන්න</string>
     <string name="select_account">ගිණුම තෝරන්න</string>
     <string name="no_accounts_available">ගිණුම් ලබා ගත නොහැක</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">ඔබට ආයාත කළ හැකි ගිණුම් කිසිවක් නොමැත. ඔබගේ සංවිධානයේ ආරක්ෂක ප්‍රතිපත්තිය Bitwarden සිට වෙනත් යෙදුමකට අයිතම ආයාත කිරීම සීමා කළ හැක.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">ඔබට ආයාත කළ හැකි ගිණුම් කිසිවක් නොමැත. ඔබගේ සංවිධානයේ ආරක්ෂක ප්‍රතිපත්තිය Multipass සිට වෙනත් යෙදුමකට අයිතම ආයාත කිරීම සීමා කළ හැක.</string>
     <string name="import_restricted_unable_to_import_credit_cards">ආයාතය සීමා කර ඇත, මෙම ගිණුමෙන් කාඩ්පත් ආයාත කිරීමට නොහැක.</string>
     <string name="verify_your_master_password">ඔබගේ ප්‍රධාන මුරපදය සත්‍යාපනය කරන්න</string>
     <string name="having_trouble_with_autofill">ස්වයං පිරවුම් සමඟ ගැටළු තිබේද?</string>
     <string name="access_help_and_troubleshooting_documentation_here">මෙහි උපකාර සහ ගැටළු නිරාකරණ ලේඛන වෙත ප්‍රවේශ වන්න</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">ඔබගේ Bitwarden සුරක්ෂිතාගාරයෙන් මුරපද, පාස්කීස් සහ අනෙකුත් අයිතම වර්ග ආයාත කරන්න.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">ඔබගේ Multipass සුරක්ෂිතාගාරයෙන් මුරපද, පාස්කීස් සහ අනෙකුත් අයිතම වර්ග ආයාත කරන්න.</string>
     <string name="items_to_import">ආයාත කිරීමට අයිතම</string>
     <string name="exporting_items">අයිතම අපනයනය කරමින්...</string>
     <string name="export_failed">අපනයනය අසාර්ථක විය</string>
@@ -1266,7 +1266,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">මෙම යැවීම බෙදාගැනීමට අවම වශයෙන් එක් වලංගු විද්‍යුත් තැපැල් ලිපිනයක් ඇතුළත් කරන්න.</string>
     <string name="sync_with_browser">බ්‍රවුසරය සමඟ සමමුහුර්ත කරන්න</string>
-    <string name="sync_with_browser_description">%1$s වෙත සම්බන්ධ වීමට, ඔබගේ පෙරනිමි බ්‍රවුසරය Bitwarden ජංගම යෙදුම සමඟ සමමුහුර්ත කරන්න. ඔබගේ බ්‍රවුසරය විවෘත වන විට, විමසුමක් ලැබුණහොත් පිවිසුම සම්පූර්ණ කරන්න.\nසමමුහුර්තකරණය අවසන් වූ පසු, ඔබ මෙම යෙදුම වෙත ආපසු එනු ඇත.</string>
+    <string name="sync_with_browser_description">%1$s වෙත සම්බන්ධ වීමට, ඔබගේ පෙරනිමි බ්‍රවුසරය Multipass ජංගම යෙදුම සමඟ සමමුහුර්ත කරන්න. ඔබගේ බ්‍රවුසරය විවෘත වන විට, විමසුමක් ලැබුණහොත් පිවිසුම සම්පූර්ණ කරන්න.\nසමමුහුර්තකරණය අවසන් වූ පසු, ඔබ මෙම යෙදුම වෙත ආපසු එනු ඇත.</string>
     <string name="launch_browser">බ්‍රවුසරය දියත් කරන්න</string>
     <string name="continue_without_syncing">සමමුහුර්තකරණයෙන් තොරව ඉදිරියට යන්න</string>
     <string name="external_link">බාහිර සබැඳිය</string>
@@ -1292,7 +1292,7 @@
     <string name="trusted">විශ්වාසනීය</string>
     <string name="preview_not_available_for_files">%1$s ගොනු සඳහා පෙරදසුන ලබා ගත නොහැක. ඔබට තවමත් එය ඔබගේ උපාංගයේ බැලීමට බාගත කළ හැක.</string>
     <string name="this_file_is_too_large_to_preview">මෙම ගොනුව පෙරදසුනට විශාල වැඩිය. ඔබට තවමත් එය ඔබගේ උපාංගයේ බැලීමට බාගත කළ හැක.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden ට මෙම ගොනුව විකේතනය කළ නොහැකි විය, එබැවින් පෙරදසුන පෙන්විය නොහැක.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass ට මෙම ගොනුව විකේතනය කළ නොහැකි විය, එබැවින් පෙරදසුන පෙන්විය නොහැක.</string>
     <string name="preview_unavailable_for_this_file">මෙම ගොනුව සඳහා පෙරදසුන ලබා ගත නොහැක. ඔබට තවමත් එය ඔබගේ උපාංගයේ බැලීමට බාගත කළ හැක.</string>
     <string name="preview_unavailable">පෙරදසුන ලබා ගත නොහැක</string>
     <string name="download_attachment">ඇමුණුම බාගත කරන්න</string>
@@ -1425,8 +1425,8 @@
     <string name="local_network_access_required">දේශීය ජාල ප්‍රවේශය අවශ්‍යයි</string>
     <string name="ask_again_later">පසුව නැවත අසන්න</string>
     <string name="enable_local_network_access">දේශීය ජාල ප්‍රවේශය සක්‍රිය කරන්න</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden ට ඔබගේ සේවාදායකය සමඟ සමමුහුර්ත කිරීමට දේශීය ජාල ප්‍රවේශය අවශ්‍ය වේ. මෙම අවසරය නොමැතිව, යෙදුමට සම්බන්ධ වීමට නොහැකි වනු ඇත.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">මෙම අවසරය නොමැතිව, Bitwarden ට ඔබගේ සේවාදායකය සමඟ සම්බන්ධ වී සමමුහුර්ත කිරීමට නොහැකි වනු ඇත. ඔබට මෙය ඔබගේ උපාංග සැකසීම් තුළ සක්‍රිය කළ හැක.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass ට ඔබගේ සේවාදායකය සමඟ සමමුහුර්ත කිරීමට දේශීය ජාල ප්‍රවේශය අවශ්‍ය වේ. මෙම අවසරය නොමැතිව, යෙදුමට සම්බන්ධ වීමට නොහැකි වනු ඇත.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">මෙම අවසරය නොමැතිව, Multipass ට ඔබගේ සේවාදායකය සමඟ සම්බන්ධ වී සමමුහුර්ත කිරීමට නොහැකි වනු ඇත. ඔබට මෙය ඔබගේ උපාංග සැකසීම් තුළ සක්‍රිය කළ හැක.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">යෙදුමට දේශීය ජාල ප්‍රවේශය අවශ්‍ය වූ නිසා ඔබගේ ඉල්ලීම බාධා විය. ඔබට මෙය ඔබගේ උපාංග සැකසීම් තුළ සක්‍රිය කළ හැක.</string>
     <string name="continue_to_stripe">Stripe වෙත ඉදිරියට යන්නද?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">ඔබගේ දායකත්වය අවලංගු කිරීම කළමනාකරණය කිරීමට ඔබ Stripe වෙත ගෙන යනු ඇත.</string>

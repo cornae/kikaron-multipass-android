@@ -75,7 +75,7 @@
     <string name="yes">Bai</string>
     <string name="account">Kontua</string>
     <string name="account_created_success">Zure kontu berria sortu da!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Ezarri Bitwarden zure pasagiltza-hornitzaile gisa gailuaren ezarpenetan.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Ezarri Multipass zure pasagiltza-hornitzaile gisa gailuaren ezarpenetan.</string>
     <string name="avoid_ambiguous_characters">Saihestu karaktere anbiguoak</string>
     <string name="bitwarden_autofill_service">Bitwardenen automatikoki betetzeko zerbitzua</string>
     <string name="change_master_password">Aldatu pasahitz nagusia</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Ezarri saioaren denbora-muga \"Amaitu saioa\" gisa?</string>
     <string name="vault_timeout_log_out_confirmation_message">Denbora-muga igaro ondoren, saioa amaituko da. Internet konektatuta egon beharko duzu berriro saioa hasteko eta zure kutxara sartzeko. Gailu honetan gordetako ezarpenek eta PINak ez dute aldaketarik izango.</string>
     <string name="logging_in">Saioa hasten…</string>
-    <string name="login_to_bitwarden">Hasi saioa Bitwarden-en</string>
+    <string name="login_to_bitwarden">Hasi saioa Multipass-en</string>
     <string name="master_password_confirmation_val_message">Pasahitzaren baieztapena ez da zuzena.</string>
     <string name="master_password_description">Pasahitz nagusia, kutxa gotorrera sartzeko erabiltzen duzun pasahitza da. Oso garrantzitsua da ez ahaztea, ahazten baduzu, ez dago pasahitza berreskuratzeko modurik.</string>
     <string name="master_password_hint">Pasahitz nagusirako pista (aukerakoa)</string>
@@ -169,14 +169,14 @@
     <string name="view_identity">Ikusi identitatea</string>
     <string name="view_note">Ikusi oharra</string>
     <string name="view_ssh_key">Ikusi SSH giltza</string>
-    <string name="web_vault">Bitwarden kutxa gotorra</string>
+    <string name="web_vault">Multipass kutxa gotorra</string>
     <string name="items">Elementuak</string>
     <string name="items_for_uri">%1$s-entzako elementuak</string>
     <string name="no_items_for_uri">Kutxa gotorrean ez dago elementurik %1$s-entzako.</string>
     <string name="no_items_for_vault">Ez dago bat datorren elementurik zure kutxan “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">Bilatu saio bat edo gehitu saio berri bat</string>
     <string name="disabled">Desgaitua</string>
-    <string name="bitwarden_autofill_service_alert2">Saio berriak zure kutxan gehitzeko modurik errazena Bitwarden Autobeteketa Zerbitzutik da. Ikasi gehiago Bitwarden Autobeteketa Zerbitzua erabiltzeari buruz \"Ezarpenak\" pantailara joanda.</string>
+    <string name="bitwarden_autofill_service_alert2">Saio berriak zure kutxan gehitzeko modurik errazena Multipass Autobeteketa Zerbitzutik da. Ikasi gehiago Multipass Autobeteketa Zerbitzua erabiltzeari buruz \"Ezarpenak\" pantailara joanda.</string>
     <string name="autofill_noun">Autobeteketa</string>
     <string name="autofill_verb">Autobeteketa</string>
     <string name="autofill_or_view">Elementu hau ikusi edo automatikoki bete nahi duzu?</string>
@@ -227,7 +227,7 @@
     <string name="environment_saved">Inguruneko URL-ak gorde dira.</string>
     <string name="identity_url">Identitate zerbitzariaren URL-a</string>
     <string name="self_hosted_environment">Ostatze ingurune propioa</string>
-    <string name="self_hosted_environment_footer">Bitwarden instalatzeko, zehaztu ostatatze propioaren oinarrizko URL-a.</string>
+    <string name="self_hosted_environment_footer">Multipass instalatzeko, zehaztu ostatatze propioaren oinarrizko URL-a.</string>
     <string name="server_url">Zerbitzariaren URL-a</string>
     <string name="web_vault_url">Web kutxa gotorreko zerbitzariaren URL-a</string>
     <string name="custom_fields">Eremu pertsonalizatuak</string>
@@ -372,7 +372,7 @@
     <string name="pin">PIN-a</string>
     <string name="unlock">Desblokeatu</string>
     <string name="thirty_minutes">30 minutu</string>
-    <string name="set_pin_description">Ezarri zure PIN kodea Bitwarden desblokeatzeko. Zure PIN-aren konfigurazioa berrezarriko da, noizbait aplikaziotik erabat saioa ixten baduzu.</string>
+    <string name="set_pin_description">Ezarri zure PIN kodea Multipass desblokeatzeko. Zure PIN-aren konfigurazioa berrezarriko da, noizbait aplikaziotik erabat saioa ixten baduzu.</string>
     <string name="logged_in_as_on">%2$s-en %1$s bezala saioa hasita.</string>
     <string name="vault_locked_master_password">Zure kutxa gotorra blokeatuta dago. Egiaztatu zure pasahitz nagusia jarraitzeko.</string>
     <string name="vault_locked_pin">Zure kutxa gotorra blokeatuta dago. Egiaztatu zure PIN kodea jarraitzeko.</string>
@@ -386,7 +386,7 @@
     <string name="clear_clipboard">Hustu arbela</string>
     <string name="clear_clipboard_description">Ezabatu automatikoki arbelean kopiatutako balioak.</string>
     <string name="default_uri_match_detection">Lehenetsitako detekzioa URI kointzidentziarako</string>
-    <string name="default_uri_match_detection_description">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Bitwarden-ek autobeteketaren iradokizunak.</string>
+    <string name="default_uri_match_detection_description">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Multipass-ek autobeteketaren iradokizunak.</string>
     <string name="theme">Gaia</string>
     <string name="theme_description">Aldatu aplikazioaren kolore-gaiak</string>
     <string name="copy_notes">Kopiatu oharra</string>
@@ -422,7 +422,7 @@
     <string name="password_generator_policy_in_effect">Erakundeko politika batek edo gehiagok sortzailearen konfigurazioari eragiten diote</string>
     <string name="unable_to_save_attachment">Arazo bat egon da eranskin hau atxikitzean. Arazoak bere horretan jarraitzen badu, webguneko kutxa gotorretik atxiki dezakezu.</string>
     <string name="save_attachment_success">Eranskina ondo atxiki da</string>
-    <string name="autofill_tile_accessibility_required">Mesedez, aktibatu \"Autobeteketaren Irisgarritasun Zerbitzua\" Bitwarden Ezarpenetatik Autobeteketa laukia erabiltzeko.</string>
+    <string name="autofill_tile_accessibility_required">Mesedez, aktibatu \"Autobeteketaren Irisgarritasun Zerbitzua\" Multipass Ezarpenetatik Autobeteketa laukia erabiltzeko.</string>
     <string name="autofill_tile_uri_not_found">Ez da pasahitz eremurik detektatu</string>
     <string name="soft_deleting">Zakarrontzira bidaltzen…</string>
     <string name="item_soft_deleted">Elementua zakarrontzira bidali da.</string>
@@ -635,8 +635,8 @@
     <string name="forwarded_email_description">Emaileko ezizen bat sortu kanpoko bidalketa zerbitzu batekin.</string>
     <string name="accessibility_service_disclosure">Zabaldu irisgarritasun zerbitzua</string>
     <string name="accessibility_disclosure_text">Bitwardenek irisgarritasun zerbitzua erabiltzen du aplikazioetan eta webguneetan sarbide-eremuak bilatzeko; ondoren, eremu-ID egokiak ezartzen ditu, aplikaziorako edo gunerako eremu bat aurkitzen denean erabiltzaile-izena eta pasahitza sartzeko. Zerbitzuak ematen digun informazioa ez dugu gordeko, eta ez gara saiatuko pantailan kredentzialen testutik haratagoko elementurik zelatatzen.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Abisu hau beharrezkoa da Bitwarden-ek irisgarritasunean oinarritutako autobeteketa eskaini aurretik.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden-ek autobeteketa-metodo aukerako bat eskaintzen du, Android-en Irisgarritasun Zerbitzua erabiltzen duena saio-eremuak detektatzeko. Gaituz gero, Bitwarden-ek eremu egokiak identifikatuko ditu eta zure kredentzialak beteko ditu bat datorrenean.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Abisu hau beharrezkoa da Multipass-ek irisgarritasunean oinarritutako autobeteketa eskaini aurretik.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass-ek autobeteketa-metodo aukerako bat eskaintzen du, Android-en Irisgarritasun Zerbitzua erabiltzen duena saio-eremuak detektatzeko. Gaituz gero, Multipass-ek eremu egokiak identifikatuko ditu eta zure kredentzialak beteko ditu bat datorrenean.</string>
     <string name="accessibility_disclosure_start_up_text_3">Ez dugu gordetzen pantailan dagoenari buruzko informaziorik Irisgarritasun Zerbitzua erabiltzen duzun bitartean, eta ez ditugu kontrolatzen kredentzialak sartzeaz gaindiko pantaila-elementurik.</string>
     <string name="i_understand">Ulertzen dut</string>
     <string name="accept">Onartu</string>
@@ -645,7 +645,7 @@
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Saio hasiera saiakera hemendik:
 %1$s
 Kontu honetara aldatu nahi duzu?</string>
-    <string name="new_to_bitwarden">Bitwarden-en berria zara?</string>
+    <string name="new_to_bitwarden">Multipass-en berria zara?</string>
     <string name="get_master_passwordword_hint">Jaso pasahitz nagusiaren pista</string>
     <string name="logging_in_as_x_on_y">%1$s bezala saioa hasten %2$s(e)n</string>
     <string name="not_you">Ez zara zu?</string>
@@ -702,7 +702,7 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="invalid_uri">URI baliogabea</string>
     <string name="the_urix_is_already_blocked">%1$s URIa dagoeneko blokeatuta dago</string>
     <string name="login_approved">Saioa onartuta</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Gailuarekin saioa hasteko, Bitwarden aplikazioaren ezarpenetan konfiguratu behar da.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Gailuarekin saioa hasteko, Multipass aplikazioaren ezarpenetan konfiguratu behar da.</string>
     <string name="need_another_option_view_all_login_options">Beste aukera bat behar duzu? <annotation link="viewAll">Ikusi saio-aukerak guztiak</annotation></string>
     <string name="log_in_with_device">Hasi saioa beste gailu batekin</string>
     <string name="logging_in_on">Saioa hasten</string>
@@ -717,8 +717,8 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="session_timeout">Saioaren denbora-muga</string>
     <string name="session_timeout_action">Saioaren denbora-mugaren ekintza</string>
     <string name="account_fingerprint_phrase">Kontuaren hatz-marka digitalaren esaldia</string>
-    <string name="passkey_management_explanation_long">Erabili Bitwarden pasagiltza berriak gordetzeko eta zure kutxan gordetako pasagiltzekin saioa hasteko.</string>
-    <string name="autofill_services_explanation_long">Baimendu Bitwarden-ek zure gordetako saio-informazioa erabiltzea zure gailuko beste aplikazio batzuetan saioa hasteko.</string>
+    <string name="passkey_management_explanation_long">Erabili Multipass pasagiltza berriak gordetzeko eta zure kutxan gordetako pasagiltzekin saioa hasteko.</string>
+    <string name="autofill_services_explanation_long">Baimendu Multipass-ek zure gordetako saio-informazioa erabiltzea zure gailuko beste aplikazio batzuetan saioa hasteko.</string>
     <string name="use_inline_autofill_explanation_long">Erabili teklatuko lerroko atomatikoki betetzea, zure teklatuak ahalbidetzen badu. Horrela ez bada, automatikoki betetzeko gainjartzea erabiliko da lehenespenez.</string>
     <string name="additional_options">Aukera gehigarriak</string>
     <string name="continue_to_web_app">Web-aplikaziora jarraitu?</string>
@@ -726,11 +726,11 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="continue_to_help_center">Laguntza-zentrora jarraitu?</string>
     <string name="continue_to_privacy_policy">Pribatutasun-politikara jarraitu?</string>
     <string name="continue_to_device_settings">Gailuaren ezarpenetara jarraitu?</string>
-    <string name="two_step_login_description_long">Egin zure kontua seguruagoa bi urratsetako saioa konfiguratuz Bitwarden web-aplikazioan.</string>
-    <string name="change_master_password_description_long">Zure pasahitz nagusia Bitwarden web-aplikazioan alda dezakezu.</string>
+    <string name="two_step_login_description_long">Egin zure kontua seguruagoa bi urratsetako saioa konfiguratuz Multipass web-aplikazioan.</string>
+    <string name="change_master_password_description_long">Zure pasahitz nagusia Multipass web-aplikazioan alda dezakezu.</string>
     <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Ikasi gehiago Bitwarden erabiltzeari buruz Laguntza-zentroan.</string>
     <string name="privacy_policy_description_long">Begiratu gure pribatutasun-politika bitwarden.com-en.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Arakatu zure Bitwarden kontuaren ezaugarri gehiago web-aplikazioan.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Arakatu zure Multipass kontuaren ezaugarri gehiago web-aplikazioan.</string>
     <string name="learn_about_organizations_description_long">Bitwarden-ek zure kutxako elementuak beste batzuekin partekatzeko aukera ematen dizu erakunde bat erabiliz. Ikasi gehiago bitwarden.com webgunean.</string>
     <string name="created_x">Sortua %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Zure erakundeak pasahitz nagusi bat ezartzea eskatzen du.</string>
@@ -741,8 +741,8 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Duo bi urratsetako saioa beharrezkoa da zure konturako.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Jarraitu Duo-ren urratsak saioa amaitzeko.</string>
     <string name="launch_duo">Abiarazi Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasagiltza zure Bitwarden kutxan gordeko da %1$s-rako</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasahitza zure Bitwarden kutxan gordeko da %1$s-rako</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasagiltza zure Multipass kutxan gordeko da %1$s-rako</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Zure pasahitza zure Multipass kutxan gordeko da %1$s-rako</string>
     <string name="passkeys_not_supported_for_this_app">Pasagiltzak ez dira onartzen aplikazio honetarako</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Pasagiltzaren eragiketak huts egin du nabigatzailea ez delako pribilegiatua</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Pasagiltzaren eragiketak huts egin du nabigatzailearen sinadura ez datorrelako bat</string>
@@ -770,13 +770,13 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="email_verified">Helbide elektronikoa egiaztatuta</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Jaso Bitwarden-en mezu elektronikoak iragarpenetarako, aholkuetarako eta ikerketa-aukeretarako. <annotation link="unsubscribe">Harpidetza kendu</annotation> nahi duzunean.</string>
     <string name="security_prioritized">Segurtasuna, lehentasunezkoa</string>
-    <string name="welcome_message_1">Gorde saioak, txartelak eta identitateak zure kutxa seguruan. Bitwarden-ek zero-ezagutza eta muturretik muturrerako enkriptatzea erabiltzen du zuretzat garrantzitsua dena babesteko.</string>
+    <string name="welcome_message_1">Gorde saioak, txartelak eta identitateak zure kutxa seguruan. Multipass-ek zero-ezagutza eta muturretik muturrerako enkriptatzea erabiltzen du zuretzat garrantzitsua dena babesteko.</string>
     <string name="welcome_message_2">Konfiguratu desblokeo biometrikoa eta autobeteketa zure kontuetan saioa hasteko letrarik idatzi gabe.</string>
     <string name="quick_and_easy_login">Saio azkarra eta erraza</string>
     <string name="level_up_your_logins">Bultzatu zure saioak</string>
     <string name="welcome_message_3">Erabili sortzailea pasahitz sendo eta bakarrak sortzeko eta gordetzeko zure kontu guztietarako.</string>
     <string name="your_data_when_and_where_you_need_it">Zure datuak, noiz eta non behar dituzun</string>
-    <string name="welcome_message_4">Gorde mugagabeko pasahitzak gailu mugagabeetan Bitwarden mugikorreko, arakatzaileko eta mahaigaineko aplikazioekin.</string>
+    <string name="welcome_message_4">Gorde mugagabeko pasahitzak gailu mugagabeetan Multipass mugikorreko, arakatzaileko eta mahaigaineko aplikazioekin.</string>
     <string name="remove_passkey">Kendu pasagiltza</string>
     <string name="passkey_removed">Pasagiltza kenduta</string>
     <string name="what_makes_a_password_strong">Zerk egiten du pasahitz bat sendo?</string>
@@ -806,8 +806,8 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Hautatu mezu elektronikoko esteka zure helbide elektronikoa egiaztatzeko eta kontua sortzen jarraitzeko.</string>
     <string name="change_email_address">Aldatu helbide elektronikoa</string>
     <string name="next">Hurrengoa</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden-ek ezin du galdu edo ahaztutako pasahitz nagusia berreskuratu.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden-ek ezin du galdu edo ahaztutako pasahitz nagusia berrezarri.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass-ek ezin du galdu edo ahaztutako pasahitz nagusia berreskuratu.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass-ek ezin du galdu edo ahaztutako pasahitz nagusia berrezarri.</string>
     <string name="choose_your_master_password">Aukeratu zure pasahitz nagusia</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Aukeratu pasahitz bakarra eta sendoa zure informazioa seguru mantentzeko.</string>
     <plurals name="minimum_characters">
@@ -823,16 +823,16 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="turn_on_autofill">Aktibatu autobeteketa</string>
     <string name="autofill_setup">Autobeteketaren konfigurazioa</string>
     <string name="turn_on_browser_autofill_integration">Aktibatu nabigatzailearen autobeteketaren integrazioa</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Bitwarden-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Bitwarden-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Bitwarden-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara. Gaitu behean zure autobeteketa-integrazio gogokoena.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Bitwarden-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara. Gaitu autobeteketa zure instalatutako nabigatzaile guztietan jarraitzeko.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Multipass-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Multipass-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Multipass-ek zure pasahitzak autobetetzeko baimen bereziak behar dituen nabigatzaile bat erabiltzen ari zara. Gaitu behean zure autobeteketa-integrazio gogokoena.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Multipass-ek zure pasahitzak autobetetzeko baimen bereziak behar dituzten nabigatzaileak erabiltzen ari zara. Gaitu autobeteketa zure instalatutako nabigatzaile guztietan jarraitzeko.</string>
     <string name="use_autofill_to_log_into_your_accounts">Erabili autobeteketa zure kontuetan saioa hasteko ukitu bakarrarekin.</string>
     <string name="turn_on_later">Aktibatu geroago</string>
     <string name="turn_on_autofill_later">Autobeteketa geroago aktibatu?</string>
     <string name="turn_on_browser_autofill_integration_later">Nabigatzailearen autobeteketaren integrazioa geroago aktibatu?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Edonoiz itzul zaitezke urrats hau osatzeko Ezarpenetatik.</string>
-    <string name="what_bitwarden_has_to_offer">Orain Bitwarden-ek eskaintzen duen guztia arakatu eta zure pasahitzak segurtasunez kudeatzen has zaitezke.</string>
+    <string name="what_bitwarden_has_to_offer">Orain Multipass-ek eskaintzen duen guztia arakatu eta zure pasahitzak segurtasunez kudeatzen has zaitezke.</string>
     <string name="youre_all_set">Dena prest duzu!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Errorea Duo zerbitzuarekin konektatzean. Erabili bi urratsetako saio-metodo ezberdin bat edo jarri Duo-rekin harremanetan laguntza jasotzeko.</string>
     <string name="master_password_hint_not_specified">Pasahitz nagusiaren argibidea</string>
@@ -851,7 +851,7 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="do_you_have_a_computer_available">Ordenagailu bat eskura duzu?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Hurrengo argibideek zure mahaigaineko edo eramangarriko ordenagailutik saioak inportatzen lagunduko dizute</string>
     <string name="import_logins">Inportatu saioak</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Zure ordenagailutik, jarraitu argibide hauek zure nabigatzailetik edo beste pasahitz-kudeatzaile batetik gordetako pasahitzak esportatzeko. Ondoren, inportatu segurtasunez Bitwarden-era.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Zure ordenagailutik, jarraitu argibide hauek zure nabigatzailetik edo beste pasahitz-kudeatzaile batetik gordetako pasahitzak esportatzeko. Ondoren, inportatu segurtasunez Multipass-era.</string>
     <string name="give_your_vault_a_head_start">Eman abiada zure kutxari</string>
     <string name="class_3_biometrics_description">Biometriarekin desblokeatzeak autentifikazio biometriko sendoa behar du eta baliteke ez bateragarria izatea gailu honetako biometria aukera guztiekin.</string>
     <string name="class_2_biometrics_description">Biometriarekin desblokeatzeak autentifikazio biometriko sendoa behar du eta ez da bateragarria gailu honetan eskuragarri dauden biometria aukerekin.</string>
@@ -862,18 +862,18 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="export_your_saved_logins">Esportatu zure gordetako saioak</string>
     <string name="delete_this_file_after_import_is_complete">Fitxategi hau ezabatuko duzu inportazioa amaitutakoan.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Zure ordenagailuan, ireki nabigatzailearen fitxa berri bat eta <annotation emphasis="bold">joan <annotation arg="0">%1$s</annotation>-ra</annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Hasi saioa Bitwarden web-aplikazioan.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Hasi saioa Multipass web-aplikazioan.</string>
     <string name="step_2_of_3">2. urratsa 3-tik</string>
-    <string name="log_in_to_bitwarden">Hasi saioa Bitwarden-en</string>
+    <string name="log_in_to_bitwarden">Hasi saioa Multipass-en</string>
     <string name="step_3_of_3">3. urratsa 3-tik</string>
-    <string name="import_logins_to_bitwarden">Inportatu saioak Bitwarden-era</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Bitwarden nabigazioan, <annotation emphasis="bold">bilatu Tresnak</annotation> aukera eta <annotation emphasis="bold">hautatu Inportatu datuak.</annotation></string>
+    <string name="import_logins_to_bitwarden">Inportatu saioak Multipass-era</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Multipass nabigazioan, <annotation emphasis="bold">bilatu Tresnak</annotation> aukera eta <annotation emphasis="bold">hautatu Inportatu datuak.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Bete formularioa eta <annotation emphasis="bold">inportatu zure gordetako pasahitz-fitxategia.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Zure segurtasunerako, ziurtatu <annotation emphasis="bold">zure gordetako pasahitz-fitxategia ezabatzea.</annotation></string>
     <string name="need_help_check_out_import_help">Laguntza behar duzu? Begiratu <annotation link="importHelp">inportazioaren laguntza</annotation>.</string>
     <string name="import_help">inportazioaren laguntza</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Gorde esportatutako fitxategia</annotation> zure ordenagailuan erraz aurkitu dezakezun leku batean.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Hau ez da Bitwarden zerbitzari ezagun bat. Baliteke zure hornitzailearekin egiaztatu edo zure zerbitzaria eguneratu behar izatea.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Hau ez da Multipass zerbitzari ezagun bat. Baliteke zure hornitzailearekin egiaztatu edo zure zerbitzaria eguneratu behar izatea.</string>
     <string name="syncing_logins_loading_message">Saioak sinkronizatzen…</string>
     <string name="download_the_browser_extension">Deskargatu nabigatzailearen hedapena</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Joan bitwarden.com/download-era Bitwarden zure nabigatzaile gogokoenan integratzeko esperientzia ezin hobea izateko.</string>
@@ -882,8 +882,8 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="autofill_passwords">Autobeteketa pasahitzak</string>
     <string name="set_up_autofill_on_all_your_devices">Konfiguratu autobeteketa zure gailu guztietan edonon ukitu bakarrarekin saioa hasteko.</string>
     <string name="import_successful">Inportazioa arrakastatsua!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Kudeatu zure saioak edonondik Bitwarden-ek web eta mahaigainerako dituen tresnekin.</string>
-    <string name="bitwarden_tools">Bitwarden tresnak</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Kudeatu zure saioak edonondik Multipass-ek web eta mahaigainerako dituen tresnekin.</string>
+    <string name="bitwarden_tools">Multipass tresnak</string>
     <string name="got_it">Ulertuta</string>
     <string name="no_logins_were_imported">Ez da saiorik inportatu</string>
     <string name="import_error">Errorea inportatzerakoan</string>
@@ -901,7 +901,7 @@ Kontu honetara aldatu nahi duzu?</string>
         <item quantity="other">%d jakinarazpen</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Hasi saioa azkar eta erraz gailuen artean</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden-ek jakinarazi diezazuke beste gailu batetik saio-eskaera berri bat jasotzen duzun bakoitzean.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass-ek jakinarazi diezazuke beste gailu batetik saio-eskaera berri bat jasotzen duzun bakoitzean.</string>
     <string name="skip_for_now">Saltatu oraingoz</string>
     <string name="done_text">Egina</string>
     <string name="page_number_x_of_y">%1$s / %2$s</string>
@@ -926,7 +926,7 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Gehitu zenbaki edo ikur bat</annotation> are sendoagoa egiteko. Orain pasafrase bakarra, segurua eta gogoragarria duzu!</string>
     <string name="need_some_inspiration">Inspirazioa behar duzu?</string>
     <string name="check_out_the_passphrase_generator">Begiratu pasafraseen sortzailea</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Ezin izan dugu zerbitzariaren ziurtagiria egiaztatu. Ziurtagiri-katea edo proxy ezarpenak zure gailuan edo zure Bitwarden zerbitzarian baliteke ez egotea ondo konfiguratuta.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Ezin izan dugu zerbitzariaren ziurtagiria egiaztatu. Ziurtagiri-katea edo proxy ezarpenak zure gailuan edo zure Multipass zerbitzarian baliteke ez egotea ondo konfiguratuta.</string>
     <string name="copy_private_key">Kopiatu giltza pribatua</string>
     <string name="login_credentials">Saio-kredentzialak</string>
     <string name="autofill_options">Autobeteketaren aukerak</string>
@@ -953,7 +953,7 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="coachmark_5_of_6">5 / 6</string>
     <string name="coachmark_6_of_6">6 / 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Erabili aukera hauek zure pasahitza zure kontuaren webguneak eskatzen dituen baldintzetara egokitzeko.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Pasahitz berria Bitwarden-en gorde ondoren, ez ahaztu zure kontuaren webgunean eguneratzea.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Pasahitz berria Multipass-en gorde ondoren, ez ahaztu zure kontuaren webgunean eguneratzea.</string>
     <string name="verify_your_identity">Egiaztatu zure identitatea</string>
     <string name="error_loading_certificate">Errorea ziurtagiria kargatzean</string>
     <string name="certificate_alias">Ziurtagiriaren goitizena</string>
@@ -964,7 +964,7 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="unsupported_certificate_type">Ziurtagiri mota ez onartua</string>
     <string name="certificate_password_incorrect">Ziurtagiriaren pasahitza okerra</string>
     <string name="invalid_certificate_chain">Ziurtagiri-katea baliogabea</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistemako ziurtagiria erabiltzea ez da hain segurua Bitwarden-ekin ziurtagiria gordetzea baino. Jarraitzeak eskuragarri dauden sistemako ziurtagirien zerrenda erakutsiko du bat instalatuta badago.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Sistemako ziurtagiria erabiltzea ez da hain segurua Multipass-ekin ziurtagiria gordetzea baino. Jarraitzeak eskuragarri dauden sistemako ziurtagirien zerrenda erakutsiko du bat instalatuta badago.</string>
     <string name="link">Esteka</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Pasagiltzaren eragiketak huts egin du ostalariaren URLa ez dagoelako eskaeran.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Pasagiltzaren eragiketak huts egin du aplikazioaren sinadura baliogabea delako.</string>
@@ -1002,8 +1002,8 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="experiencing_an_issue">Arazo bat jasaten ari zara?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">Gaitu aldi baterako erregistroa logak tokian biltzeko eta ikuskatzeko. Gaituta dagoenean, aplikazioaren egoerak eta sare-deiak erregistra daitezke—inoiz kutxako informazio sentikorra.</string>
     <string name="to_get_started_set_a_logging_duration">Hasteko, ezarri erregistroaren iraupena. Erregistroa automatikoki itzaliko da epe hori igaro ondoren, jarduera harrapatzeko eta arazoak erreproduzitzeko denbora emanez.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Erregistroak automatikoki ezabatuko dira 30 egunen buruan. Bitwarden-ek zure erregistro-datuak atzi ditzake soilik partekatzen dituzunean.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">Zer erregistratzen den eta zer ez jakiteko, bisitatu\n<annotation link="helpCenter">Bitwarden laguntza-zentroa.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Erregistroak automatikoki ezabatuko dira 30 egunen buruan. Multipass-ek zure erregistro-datuak atzi ditzake soilik partekatzen dituzunean.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">Zer erregistratzen den eta zer ez jakiteko, bisitatu\n<annotation link="helpCenter">Multipass laguntza-zentroa.</annotation></string>
     <string name="logging_duration">Erregistroaren iraupena</string>
     <string name="flight_recorder_one_hour">Ordu 1</string>
     <string name="flight_recorder_eight_hours">8 ordu</string>
@@ -1034,24 +1034,24 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="unable_to_read_certificate">Ezin da ziurtagiria irakurri.</string>
     <string name="cannot_delete_your_account">Ezin da zure kontua ezabatu</string>
     <string name="cannot_delete_your_account_explanation">Ekintza hau ezin da amaitu zure kontua erakunde baten jabetzakoa delako. Jarri zure erakundearen administratzailearekin harremanetan xehetasun gehiagorako.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Kontu hau laster ezabatuko da. Hasi saioa %1$s-n Bitwarden erabiltzen jarraitzeko.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Kontu hau laster ezabatuko da. Hasi saioa %1$s-n Multipass erabiltzen jarraitzeko.</string>
     <string name="view_file_send">Ikusi fitxategi-bidalketa</string>
     <string name="view_text_send">Ikusi testu-bidalketa</string>
     <string name="delete_send">Ezabatu Send-a</string>
     <string name="missing_send_resync_your_vault">Bidalketa falta da, sinkronizatu berriro zure kutxa</string>
     <string name="use_dynamic_colors">Erabili kolore dinamikoak</string>
     <string name="use_dynamic_colors_question">Kolore dinamikoak erabili?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Kolore-eskema honek automatikoki aplikatzen dizkio Bitwarden-i sistemaren koloreak zure uneko horma-irudiaren arabera. Kolore hauek baliteke irisgarritasun-gida guztiak ez betetzea.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Kolore-eskema honek automatikoki aplikatzen dizkio Multipass-i sistemaren koloreak zure uneko horma-irudiaren arabera. Kolore hauek baliteke irisgarritasun-gida guztiak ez betetzea.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Pasagiltzaren eragiketak huts egin du (%1$s) nabigatzailea ez delako ezagutzen. Hautatu \"Fidatu\" %1$s tokian fidagarriak diren aplikazioen zerrendara gehitzeko.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Pasagiltzaren eragiketak huts egin du nabigatzailea ez delako fidagarria.</string>
     <string name="trust">Fidatu</string>
-    <string name="trusted_by_you_learn_more">Hauek dira Bitwarden-ek lehenespenez ez dituen aplikazio edo nabigatzaileak, baina zuk fidagarriak dituzu pasagiltza eragiketak egiteko.</string>
-    <string name="trusted_by_community_learn_more">Hauek dira Google Play Store-n sartzen ez diren aplikazioak, baina Bitwarden-ek fidagarriak ditu pasagiltza eragiketak egiteko komunitateko kideek erabili eta seguruak direla jakinarazi ondoren.</string>
+    <string name="trusted_by_you_learn_more">Hauek dira Multipass-ek lehenespenez ez dituen aplikazio edo nabigatzaileak, baina zuk fidagarriak dituzu pasagiltza eragiketak egiteko.</string>
+    <string name="trusted_by_community_learn_more">Hauek dira Google Play Store-n sartzen ez diren aplikazioak, baina Multipass-ek fidagarriak ditu pasagiltza eragiketak egiteko komunitateko kideek erabili eta seguruak direla jakinarazi ondoren.</string>
     <string name="trusted_by_google_learn_more">Hauek dira Google-k segurutzat dituen eta Google Play Store-n eskuragarri dauden aplikazioak.</string>
     <string name="trusted_by_you">Zuk fidagarriak</string>
     <string name="trusted_by_the_community">Komunitateak fidagarriak</string>
     <string name="trusted_by_google">Google-k fidagarriak</string>
-    <string name="privileged_apps_description">Erabiltzaileak phishing saiakereetatik babesteko, lehenespenez, Bitwarden-ek pasagiltza eragiketak soilik egiten ditu Google-k edo Bitwarden komunitateak fidagarritzat dituen aplikazio edo web nabigatzaileen bidez.</string>
+    <string name="privileged_apps_description">Erabiltzaileak phishing saiakereetatik babesteko, lehenespenez, Multipass-ek pasagiltza eragiketak soilik egiten ditu Google-k edo Multipass komunitateak fidagarritzat dituen aplikazio edo web nabigatzaileen bidez.</string>
     <string name="about_privileged_applications">Aplikazio pribilegiatuei buruz</string>
     <string name="learn_more_about_privileged_apps">Ikasi gehiago aplikazio pribilegiatuei buruz</string>
     <string name="privileged_apps">Aplikazio pribilegiatuak</string>
@@ -1153,10 +1153,10 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="items_are_collapsed_click_to_expand">Elementuak tolestuta daude, sakatu zabaltzeko.</string>
     <string name="error_cannot_decrypt">[errorea: ezin da desenkriptatu]</string>
     <string name="copy_error_report">Kopiatu errore-txostena</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden-ek ezin du kutxako elementu hau desenkriptatu. Kopiatu eta partekatu errore-txosten hau bezeroarentzako arretarekin datu-galera gehiago saihesteko.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass-ek ezin du kutxako elementu hau desenkriptatu. Kopiatu eta partekatu errore-txosten hau bezeroarentzako arretarekin datu-galera gehiago saihesteko.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Bitwarden-ek ezin du %1$d kutxako elementu desenkriptatu. Kopiatu eta partekatu errore-txosten hau bezeroarentzako arretarekin datu-galera gehiago saihesteko.</item>
-        <item quantity="other">Bitwarden-ek ezin du %1$d kutxako elementu desenkriptatu. Kopiatu eta partekatu errore-txosten hau bezeroarentzako arretarekin datu-galera gehiago saihesteko.</item>
+        <item quantity="one">Multipass-ek ezin du %1$d kutxako elementu desenkriptatu. Kopiatu eta partekatu errore-txosten hau bezeroarentzako arretarekin datu-galera gehiago saihesteko.</item>
+        <item quantity="other">Multipass-ek ezin du %1$d kutxako elementu desenkriptatu. Kopiatu eta partekatu errore-txosten hau bezeroarentzako arretarekin datu-galera gehiago saihesteko.</item>
     </plurals>
     <string name="select_a_card_for_x">Hautatu txartel bat %s-rako</string>
     <string name="advanced_options">Aukera aurreratuak</string>
@@ -1164,8 +1164,8 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="keep_your_credential_secure">Mantendu zure kredentzialak seguru</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Ikasi gehiago kredentzialak nola mantendu seguru “%1$s” erabiltzean.</string>
     <string name="are_you_sure_you_want_to_use">Ziur zaude “%1$s” erabili nahi duzula?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Bitwarden-ek autobeteketaren iradokizunak.\n<annotation emphasis="bold">Abisua:</annotation> \"Adierazpen erregularra\" aukera aurreratua da, gaizki erabiliz gero kredentzialak esposizio-arrisku handiagoarekin.</string>
-    <string name="default_uri_match_detection_description_advanced_options">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Bitwarden-ek autobeteketaren iradokizunak.\n<annotation emphasis="bold">Abisua:</annotation> \"Honekin hasten da\" aukera aurreratua da, kredentzialak esposizio-arrisku handiagoarekin.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Multipass-ek autobeteketaren iradokizunak.\n<annotation emphasis="bold">Abisua:</annotation> \"Adierazpen erregularra\" aukera aurreratua da, gaizki erabiliz gero kredentzialak esposizio-arrisku handiagoarekin.</string>
+    <string name="default_uri_match_detection_description_advanced_options">URI bat datorren detekzioak kontrolatzen du nola identifikatzen dituen Multipass-ek autobeteketaren iradokizunak.\n<annotation emphasis="bold">Abisua:</annotation> \"Honekin hasten da\" aukera aurreratua da, kredentzialak esposizio-arrisku handiagoarekin.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">\"Honekin hasten da\" aukera aurreratua da, kredentzialak esposizio-arrisku handiagoarekin.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">\"Adierazpen erregularra\" aukera aurreratua da, gaizki erabiliz gero kredentzialak esposizio-arrisku handiagoarekin.</string>
     <string name="later">Geroago</string>
@@ -1190,17 +1190,17 @@ Kontu honetara aldatu nahi duzu?</string>
         <item quantity="other">%1$d elementu inportatu dira zure kutxan.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Gaitu nabigatzailearen Autobeteketa pasahitzak betetzen jarraitzeko</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Zure nabigatzailea berriki eguneratu da, eta Bitwarden-en autobeteketa desgaitu du. Bitwarden-ekin zure pasahitzak betetzen jarraitzeko, gaitu nabigatzailearen autobeteketa autobeteketaren ezarpenetan.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Zure nabigatzailea berriki eguneratu da, eta Multipass-en autobeteketa desgaitu du. Multipass-ekin zure pasahitzak betetzen jarraitzeko, gaitu nabigatzailearen autobeteketa autobeteketaren ezarpenetan.</string>
     <string name="not_now">Ez orain</string>
     <string name="import_from_bitwarden">Inportatu Bitwarden-etik</string>
     <string name="select_account">Hautatu kontua</string>
     <string name="no_accounts_available">Ez dago konturik eskuragarri</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">Ez duzu inportatu dezakezun konturik. Zure erakundearen segurtasun-politikak Bitwarden-etik beste aplikazio batera elementuak inportatzea muga dezake.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">Ez duzu inportatu dezakezun konturik. Zure erakundearen segurtasun-politikak Multipass-etik beste aplikazio batera elementuak inportatzea muga dezake.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Inportazioa mugatua, ezin dira txartelak inportatu kontu honetatik.</string>
     <string name="verify_your_master_password">Egiaztatu zure pasahitz nagusia</string>
     <string name="having_trouble_with_autofill">Arazoak autobeteketarekin?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Atzitu laguntza eta arazoak konpontzeko dokumentazioa hemen</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Inportatu pasahitzak, pasagiltzak eta beste elementu mota batzuk zure Bitwarden kutxatik.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Inportatu pasahitzak, pasagiltzak eta beste elementu mota batzuk zure Multipass kutxatik.</string>
     <string name="items_to_import">Inportatzeko elementuak</string>
     <string name="exporting_items">Elementuak esportatzen…</string>
     <string name="export_failed">Esportazioak huts egin du</string>
@@ -1264,7 +1264,7 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Sartu gutxienez helbide elektroniko baliodun bat bidalketa hau partekatzeko.</string>
     <string name="sync_with_browser">Sinkronizatu nabigatzailearekin</string>
-    <string name="sync_with_browser_description">%1$s-(e)ra konektatzeko, sinkronizatu zure nabigatzaile lehenetsia Bitwarden mugikorreko aplikazioarekin. Zure nabigatzailea irekitzean, osatu saio-hasiera eskatzen bazaizu.\nSinkronizazioa amaitutakoan, aplikazio honetara itzuliko zara.</string>
+    <string name="sync_with_browser_description">%1$s-(e)ra konektatzeko, sinkronizatu zure nabigatzaile lehenetsia Multipass mugikorreko aplikazioarekin. Zure nabigatzailea irekitzean, osatu saio-hasiera eskatzen bazaizu.\nSinkronizazioa amaitutakoan, aplikazio honetara itzuliko zara.</string>
     <string name="launch_browser">Abiarazi nabigatzailea</string>
     <string name="continue_without_syncing">Jarraitu sinkronizatu gabe</string>
     <string name="external_link">Kanpoko esteka</string>
@@ -1290,7 +1290,7 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="trusted">Fidagarria</string>
     <string name="preview_not_available_for_files">Aurrebista ez dago eskuragarri %1$s fitxategientzat. Hala ere, deskarga dezakezu zure gailuan ikusteko.</string>
     <string name="this_file_is_too_large_to_preview">Fitxategia handiegia da aurrebistarako. Hala ere, deskarga dezakezu zure gailuan ikusteko.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden-ek ezin du fitxategi hau desenkriptatu, beraz, aurrebista ezin da erakutsi.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass-ek ezin du fitxategi hau desenkriptatu, beraz, aurrebista ezin da erakutsi.</string>
     <string name="preview_unavailable_for_this_file">Aurrebista ez dago eskuragarri fitxategi honetarako. Hala ere, deskarga dezakezu zure gailuan ikusteko.</string>
     <string name="preview_unavailable">Aurrebista ez dago eskuragarri</string>
     <string name="download_attachment">Deskargatu eranskina</string>
@@ -1423,8 +1423,8 @@ Kontu honetara aldatu nahi duzu?</string>
     <string name="local_network_access_required">Sare lokaleko sarbidea beharrezkoa</string>
     <string name="ask_again_later">Galdetu berriro geroago</string>
     <string name="enable_local_network_access">Gaitu sare lokaleko sarbidea</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden-ek sare lokaleko sarbidea behar du zure zerbitzariarekin sinkronizatzeko. Baimen hau gabe, aplikazioa ezin izango da konektatu.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Baimen hau gabe, Bitwarden ezin izango da konektatu eta zure zerbitzariarekin sinkronizatu. Hau zure gailuaren ezarpenetan gaitu dezakezu.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass-ek sare lokaleko sarbidea behar du zure zerbitzariarekin sinkronizatzeko. Baimen hau gabe, aplikazioa ezin izango da konektatu.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Baimen hau gabe, Multipass ezin izango da konektatu eta zure zerbitzariarekin sinkronizatu. Hau zure gailuaren ezarpenetan gaitu dezakezu.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Zure eskaera eten egin da aplikazioak sare lokaleko sarbidea behar duelako. Hau zure gailuaren ezarpenetan gaitu dezakezu.</string>
     <string name="continue_to_stripe">Stripe-ra jarraitu?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Stripe-ra eramango zaituzte zure harpidetza bertan behera uzteko.</string>

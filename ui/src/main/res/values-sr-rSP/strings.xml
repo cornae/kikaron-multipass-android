@@ -75,9 +75,9 @@
     <string name="yes">Да</string>
     <string name="account">Налог</string>
     <string name="account_created_success">Ваш нови налог је направљен!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Постави Bitwarden као добављача приступног кључа у подешавањима уређаја.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Постави Multipass као добављача приступног кључа у подешавањима уређаја.</string>
     <string name="avoid_ambiguous_characters">Избегавај двосмислене карактере</string>
-    <string name="bitwarden_autofill_service">Bitwarden Сервис ауто-попуњавања</string>
+    <string name="bitwarden_autofill_service">Multipass Сервис ауто-попуњавања</string>
     <string name="change_master_password">Промени главну лозинку</string>
     <string name="close">Затвори</string>
     <string name="close_app">Затвори апликацију</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Подесите време за сесију да бисте \"одјавили\"?</string>
     <string name="vault_timeout_log_out_confirmation_message">Након временског периода, бићете одјављени. Морат ћете бити повезани на Интернет да бисте се пријавили и приступили сефу поново. Ваша подешавања и ПИН сачувани на овом уређају се неће променити.</string>
     <string name="logging_in">Пријављивање…</string>
-    <string name="login_to_bitwarden">Пријави се на Bitwarden</string>
+    <string name="login_to_bitwarden">Пријави се на Multipass</string>
     <string name="master_password_confirmation_val_message">Потврђена лозинка није тачна.</string>
     <string name="master_password_description">Главна Лозинка је лозинка коју користите за приступ Вашем сефу. Врло је важно да је не заборавите. Не постоји начин да повратите лозинку у случају да је заборавите.</string>
     <string name="master_password_hint">Савет Главне Лозинке (опционо)</string>
@@ -170,14 +170,14 @@
     <string name="view_identity">Преглед идентитета</string>
     <string name="view_note">Преглед белешке</string>
     <string name="view_ssh_key">Преглед SSH кључа</string>
-    <string name="web_vault">Bitwarden Мрежни Сеф</string>
+    <string name="web_vault">Multipass Мрежни Сеф</string>
     <string name="items">Ставке</string>
     <string name="items_for_uri">Ставке за %1$s</string>
     <string name="no_items_for_uri">У вашем сефу нема ставке за %1$s.</string>
     <string name="no_items_for_vault">У вашем сефу нема ставке за \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Потражите лозинку или додајте нову лозинку</string>
     <string name="disabled">Онемогућено</string>
-    <string name="bitwarden_autofill_service_alert2">Најлакши начин за додавање нових пријава у свој сеф је из сервиса ауто-попуњавања Bitwarden-а. Сазнајте више о коришћењу сервиса ауто-попуњавања Bitwarden-а преко екрана „Подешавања“.</string>
+    <string name="bitwarden_autofill_service_alert2">Најлакши начин за додавање нових пријава у свој сеф је из сервиса ауто-попуњавања Multipass-а. Сазнајте више о коришћењу сервиса ауто-попуњавања Multipass-а преко екрана „Подешавања“.</string>
     <string name="autofill_noun">Аутоматско попуњавање</string>
     <string name="autofill_verb">Аутоматско попуњавање</string>
     <string name="autofill_or_view">Да ли желите да ауто-попуните или да погледате ову ставку?</string>
@@ -229,7 +229,7 @@
     <string name="environment_saved">УРЛ адресе окружења су сачуване.</string>
     <string name="identity_url">УРЛ сервера идентитета</string>
     <string name="self_hosted_environment">Самостално окружење</string>
-    <string name="self_hosted_environment_footer">Наведите основни УРЛ вашег локалног инсталиране Bitwarden инсталације.</string>
+    <string name="self_hosted_environment_footer">Наведите основни УРЛ вашег локалног инсталиране Multipass инсталације.</string>
     <string name="server_url">УРЛ Сервера</string>
     <string name="web_vault_url">УРЛ сервера Сефа</string>
     <string name="custom_fields">Прилагођена Поља</string>
@@ -299,7 +299,7 @@
     <string name="no_items_folder">Нема ставке у овој фасцикли.</string>
     <string name="no_items_trash">У отпад нема ставке.</string>
     <string name="autofill_accessibility_summary">Помозите при попуњавању поља за корисничко име и лозинку у другим апликацијама и на вебу.</string>
-    <string name="autofill_service_description">Bitwarden услуга ауто-пуњења користи Android Autofill Framework да би помогао у попуњавању података за пријављивање, кредитне картице и податке о идентитету у друге апликације на уређају.</string>
+    <string name="autofill_service_description">Multipass услуга ауто-пуњења користи Android Autofill Framework да би помогао у попуњавању података за пријављивање, кредитне картице и податке о идентитету у друге апликације на уређају.</string>
     <string name="bitwarden_autofill_go_to_settings">Нисмо могли аутоматски да отворимо мени за подешавања Ауто-пуњења. До менија подешавања ауто-пуњења можете ручно да дођете из Андроид подешавања &gt; Систем &gt; Језици и унос &gt; Напредно &gt; Сервис ауто-пуњења.</string>
     <string name="custom_field_name">Назив прилагођеног поља</string>
     <string name="field_type_boolean">Булове</string>
@@ -375,7 +375,7 @@
     <string name="pin">ПИН</string>
     <string name="unlock">Откључај</string>
     <string name="thirty_minutes">30 минута</string>
-    <string name="set_pin_description">Постави свој ПИН код за откључавање Bitwarden-а. Поставке ПИН-а ће се ресетовати ако се икада потпуно одјавите из апликације.</string>
+    <string name="set_pin_description">Постави свој ПИН код за откључавање Multipass-а. Поставке ПИН-а ће се ресетовати ако се икада потпуно одјавите из апликације.</string>
     <string name="logged_in_as_on">Пријављен преко %1$s на %2$s.</string>
     <string name="vault_locked_master_password">Сеф је блокиран. Унеси главну лозинку за наставак.</string>
     <string name="vault_locked_pin">Сеф је блокиран. Провери ПИН код за наставак.</string>
@@ -389,7 +389,7 @@
     <string name="clear_clipboard">Очисти међуспремник</string>
     <string name="clear_clipboard_description">Аутоматски избриши копиране вредности из међуспремника.</string>
     <string name="default_uri_match_detection">Стандардно налажење УРЛ</string>
-    <string name="default_uri_match_detection_description">Детекција подударања URI-ја контролише на који Bitwarden идентификује предлоге за ауто-попуњавање.</string>
+    <string name="default_uri_match_detection_description">Детекција подударања URI-ја контролише на који Multipass идентификује предлоге за ауто-попуњавање.</string>
     <string name="theme">Тема</string>
     <string name="theme_description">Промени боје апликације</string>
     <string name="copy_notes">Копирај белешке</string>
@@ -425,7 +425,7 @@
     <string name="password_generator_policy_in_effect">Једна или више смерница организације утичу на поставке вашег генератора</string>
     <string name="unable_to_save_attachment">Дошло је до проблема при чувању овог прилога. Ако се проблем настави, можете га сачувати из веб сефа.</string>
     <string name="save_attachment_success">Прилог успешно сачуван</string>
-    <string name="autofill_tile_accessibility_required">Омогући „Аутоматско попуњавање услуге приступачности“ из подешавања Bitwarden-а да би могао да користиш аутоматско попуњавање.</string>
+    <string name="autofill_tile_accessibility_required">Омогући „Аутоматско попуњавање услуге приступачности“ из подешавања Multipass-а да би могао да користиш аутоматско попуњавање.</string>
     <string name="autofill_tile_uri_not_found">Поља са лозинкама нису нађена</string>
     <string name="soft_deleting">Слање у отпад…</string>
     <string name="item_soft_deleted">Ставка је послата у отпад.</string>
@@ -641,8 +641,8 @@
     <string name="forwarded_email_description">Генеришите псеудоним е-поште помоћу екстерне услуге прослеђивања.</string>
     <string name="accessibility_service_disclosure">Откривање услуге приступачности</string>
     <string name="accessibility_disclosure_text">Битварден користи услугу приступачности да тражи поља за пријаву у апликацијама и веб локацијама, а затим успоставља одговарајуће ИД-ове поља за уношење корисничког имена и лозинке када се пронађе подударање за апликацију или сајт. Не чувамо ниједну информацију коју нам пружа услуга, нити покушавамо да контролишемо било које елементе на екрану осим уноса текста акредитива.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Ово обавештење је неопходно пре него што Bitwarden може да понуди аутоматско попуњавање засновано на приступачности.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden нуди опциону методу аутоматског попуњавања која користи Android-ову услугу приступачности за откривање поља за пријаву. Ако је омогућите, Bitwarden ће идентификовати одговарајућа поља и попунити ваше акредитиве када се пронађе подударање.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Ово обавештење је неопходно пре него што Multipass може да понуди аутоматско попуњавање засновано на приступачности.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass нуди опциону методу аутоматског попуњавања која користи Android-ову услугу приступачности за откривање поља за пријаву. Ако је омогућите, Multipass ће идентификовати одговарајућа поља и попунити ваше акредитиве када се пронађе подударање.</string>
     <string name="accessibility_disclosure_start_up_text_3">Не чувамо никакве информације о ономе што је на екрану док користите услугу приступачности и не контролишемо никакве елементе на екрану осим уноса акредитива.</string>
     <string name="i_understand">Разумем</string>
     <string name="accept">Прихвати</string>
@@ -651,7 +651,7 @@
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Покушај пријаве са:
 %1$s
 Да ли желите да пређете на овај налог?</string>
-    <string name="new_to_bitwarden">Нов си у Bitwarden-у?</string>
+    <string name="new_to_bitwarden">Нов си у Multipass-у?</string>
     <string name="get_master_passwordword_hint">Добити савет за Главну Лозинку</string>
     <string name="logging_in_as_x_on_y">Пријављен преко %1$s на %2$s</string>
     <string name="not_you">Не ти?</string>
@@ -708,7 +708,7 @@
     <string name="invalid_uri">Неисправна адреса</string>
     <string name="the_urix_is_already_blocked">Адреса %1$s је већ блокирана</string>
     <string name="login_approved">Пријава је одобрена</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Пријава помоћу уређаја мора бити подешена у подешавањима Bitwarden апликације.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Пријава помоћу уређаја мора бити подешена у подешавањима Multipass апликације.</string>
     <string name="need_another_option_view_all_login_options">Треба вам друга опција? <annotation link="viewAll">Прикажи све опције за пријаву</annotation></string>
     <string name="log_in_with_device">Пријавите се са уређајем</string>
     <string name="logging_in_on">Пријављено на</string>
@@ -723,7 +723,7 @@
     <string name="session_timeout">Истек сесије</string>
     <string name="session_timeout_action">Акција на истек сесије</string>
     <string name="account_fingerprint_phrase">Сигурносна фраза налога</string>
-    <string name="passkey_management_explanation_long">Употребити Bitwarden да сачувате нове приступне кључеве и пријавите се са приступним кључевима ускладиштеним у вашем трезору.</string>
+    <string name="passkey_management_explanation_long">Употребити Multipass да сачувате нове приступне кључеве и пријавите се са приступним кључевима ускладиштеним у вашем трезору.</string>
     <string name="autofill_services_explanation_long">Android Autofill Framework се користи за помоћ при попуњавању података за пријаву у друге апликације на вашем уређају.</string>
     <string name="use_inline_autofill_explanation_long">Користите ауто-попуњавање на линији ако га ваша изабрана тастатура подржава. У супротном, користите подразумевано преклапање.</string>
     <string name="additional_options">Додатне опције</string>
@@ -732,11 +732,11 @@
     <string name="continue_to_help_center">Настави на помоћни центар?</string>
     <string name="continue_to_privacy_policy">Желите ли да наставите са политиком приватности?</string>
     <string name="continue_to_device_settings">Желите ли да наставите на подешавања уређаја?</string>
-    <string name="two_step_login_description_long">Учините свој налог сигурнијим подешавањем пријаве у два корака у Bitwarden веб апликацији.</string>
-    <string name="change_master_password_description_long">Можете променити главну лозинку на Bitwarden веб апликацији.</string>
+    <string name="two_step_login_description_long">Учините свој налог сигурнијим подешавањем пријаве у два корака у Multipass веб апликацији.</string>
+    <string name="change_master_password_description_long">Можете променити главну лозинку на Multipass веб апликацији.</string>
     <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Learn more about how to use Bitwarden у помоћни центар.</string>
     <string name="privacy_policy_description_long">Погледајте нашу политику приватности на bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Истражите више својстава на Bitwarden налогу на веб апликаији.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Истражите више својстава на Multipass налогу на веб апликаији.</string>
     <string name="learn_about_organizations_description_long">Bitwarden вам омогућава да делите ставке сефа са другима користећи организацију. Сазнајте више на веб локацију bitwarden.com.</string>
     <string name="created_x">Креирано %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Ваша организација захтева да поставите главну лозинку.</string>
@@ -747,8 +747,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">Duo пријава у два корака је потребна за ваш налог.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Пратите кораке од Duo да завршите пријављивање.</string>
     <string name="launch_duo">Покренути Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Ваш приступни кључ ће бити сачуван у вашем Bitwarden сефу за %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ваша лозинка ће бити сачувана у вашем Bitwarden сефу за %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Ваш приступни кључ ће бити сачуван у вашем Multipass сефу за %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ваша лозинка ће бити сачувана у вашем Multipass сефу за %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Приступни кључеви нису подржани за ову апликацију</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Операција лозинке није успела јер прегледач није привилегован</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Операција лозинке није успела јер се потпис прегледача не подудара</string>
@@ -776,13 +776,13 @@
     <string name="email_verified">Е-пошта је верификована</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Добијајте имјл од Bitwarden-а за најаве, савете и могућности истраживања. Откажите претплату у било ком тренутку.</string>
     <string name="security_prioritized">Сигурност, приоритет</string>
-    <string name="welcome_message_1">Сачувај пријаве, картице и идентитете у свом безбедном сефу. Bitwarden користи шифровање од почетка-до-краја да заштити оно што вам је важно.</string>
+    <string name="welcome_message_1">Сачувај пријаве, картице и идентитете у свом безбедном сефу. Multipass користи шифровање од почетка-до-краја да заштити оно што вам је важно.</string>
     <string name="welcome_message_2">Подесите биометријско откључавање и аутоматско попуњавање да бисте се пријавили на своје налоге без уноса ниједног слова.</string>
     <string name="quick_and_easy_login">Брза и лака пријава</string>
     <string name="level_up_your_logins">Подигните ниво својих пријава</string>
     <string name="welcome_message_3">Користите генератор да креирате и сачувате јаке, јединствене лозинке за све ваше налоге.</string>
     <string name="your_data_when_and_where_you_need_it">Ваши подаци, када и где су вам потребни</string>
-    <string name="welcome_message_4">Сачувајте неограничене лозинке на неограниченим уређајима помоћу Bitwarden мобилних апликација, претраживача и десктоп апликација.</string>
+    <string name="welcome_message_4">Сачувајте неограничене лозинке на неограниченим уређајима помоћу Multipass мобилних апликација, претраживача и десктоп апликација.</string>
     <string name="remove_passkey">Уклонити приступни кључ</string>
     <string name="passkey_removed">Приступни кључ је уклоњен</string>
     <string name="what_makes_a_password_strong">Шта лозинку чини јаком?</string>
@@ -812,8 +812,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Изабери везу у е-поруци да верификујеш своју адресу е-поште и наставиш са прављењем налога.</string>
     <string name="change_email_address">Промени адресу Е-поште</string>
     <string name="next">Следеће</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden не може да поврати изгубљену или заборављену главну лозинку.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden не може да рисетује изгубљену или заборављену главну лозинку.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass не може да поврати изгубљену или заборављену главну лозинку.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass не може да рисетује изгубљену или заборављену главну лозинку.</string>
     <string name="choose_your_master_password">Одаберите вашу главну лозинку</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Изаберите јединствену и јаку лозинку да бисте заштитили своје податке.</string>
     <plurals name="minimum_characters">
@@ -830,16 +830,16 @@
     <string name="turn_on_autofill">Омогућите ауто-пуњење</string>
     <string name="autofill_setup">Подешавање за ауто-попуњавање</string>
     <string name="turn_on_browser_autofill_integration">Укључите интеграцију ауто-пуњења прегледача</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Користите прегледач који захтева посебне дозволе да би Bitwarden аутоматски попунио ваше лозинке.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Користите прегледач који захтева посебне дозволе да би Bitwarden аутоматски попунио ваше лозинке.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Користите прегледач који захтева посебне дозволе да би Bitwarden аутоматски попунио ваше лозинке. Омогућите жељену интеграцију аутоматског попуњавања испод.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Користите прегледаче који захтевају посебне дозволе за Bitwarden да аутоматски попуњава ваше лозинке. Омогућите аутоматско попуњавање за све инсталиране прегледаче да бисте наставили.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Користите прегледач који захтева посебне дозволе да би Multipass аутоматски попунио ваше лозинке.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Користите прегледач који захтева посебне дозволе да би Multipass аутоматски попунио ваше лозинке.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Користите прегледач који захтева посебне дозволе да би Multipass аутоматски попунио ваше лозинке. Омогућите жељену интеграцију аутоматског попуњавања испод.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Користите прегледаче који захтевају посебне дозволе за Multipass да аутоматски попуњава ваше лозинке. Омогућите аутоматско попуњавање за све инсталиране прегледаче да бисте наставили.</string>
     <string name="use_autofill_to_log_into_your_accounts">Користите ауто-пуњење да бисте се пријавили на своје налоге једним додиром.</string>
     <string name="turn_on_later">Упалити касније</string>
     <string name="turn_on_autofill_later">Упалити ауто-пуњење касније?</string>
     <string name="turn_on_browser_autofill_integration_later">Укључите касније интеграцију ауто-пуњења прегледача?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Можете се вратити да бисте завршили овај корак у било ком тренутку у подешавањима.</string>
-    <string name="what_bitwarden_has_to_offer">Сада можете да користите аутоматско попуњавање за пријављивање у апликације и веб локације помоћу сачуваних лозинки. Сада можете истражити све остало што Bitwarden може да понуди.</string>
+    <string name="what_bitwarden_has_to_offer">Сада можете да користите аутоматско попуњавање за пријављивање у апликације и веб локације помоћу сачуваних лозинки. Сада можете истражити све остало што Multipass може да понуди.</string>
     <string name="youre_all_set">Спремни сте!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Грешка при повезивању са услугом Duo. Користите други метод пријаве у два корака или контактирајте Duo за помоћ.</string>
     <string name="master_password_hint_not_specified">Савет главне лозинке</string>
@@ -858,7 +858,7 @@
     <string name="do_you_have_a_computer_available">Да ли имате рачунар на располагању?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Следећа упутства ће вас водити кроз увоз података за пријављивање са вашег десктоп или лаптоп рачунара</string>
     <string name="import_logins">Увезите пријаве</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Са рачунара пратите ова упутства да бисте извезли сачуване лозинке из прегледача или другог менаџера лозинки. Затим их безбедно увезите у Bitwarden.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Са рачунара пратите ова упутства да бисте извезли сачуване лозинке из прегледача или другог менаџера лозинки. Затим их безбедно увезите у Multipass.</string>
     <string name="give_your_vault_a_head_start">Дајте предност свом сефу</string>
     <string name="class_3_biometrics_description">Откључавање биометријом захтева снажну биометријску аутентификацију и можда неће бити компатибилно са свим биометријским опцијама на овом уређају.</string>
     <string name="class_2_biometrics_description">Откључавање биометријом захтева снажну биометријску аутентификацију и није компатибилно са биометријским опцијама доступним на овом уређају.</string>
@@ -869,18 +869,18 @@
     <string name="export_your_saved_logins">Извезите сачуване пријаве</string>
     <string name="delete_this_file_after_import_is_complete">Ову датотеку ћете избрисати након што се увоз заврши.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">На рачунару отворите нову картицу прегледача и идите на vault.bitwarden.com</string>
-    <string name="log_in_to_the_bitwarden_web_app">Пријавите се на веб-апликацију Bitwarden.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Пријавите се на веб-апликацију Multipass.</string>
     <string name="step_2_of_3">Корак 2 од 3</string>
-    <string name="log_in_to_bitwarden">Пријавите се на Bitwarden</string>
+    <string name="log_in_to_bitwarden">Пријавите се на Multipass</string>
     <string name="step_3_of_3">Корак 3 од 3</string>
-    <string name="import_logins_to_bitwarden">Увезите пријаве у Bitwarden</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">У Bitwarden навигацији, пронађите опцију Алатке и изаберите Увези податке.</string>
+    <string name="import_logins_to_bitwarden">Увезите пријаве у Multipass</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">У Multipass навигацији, пронађите опцију Алатке и изаберите Увези податке.</string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Попуните образац и увезите своју сачувану датотеку лозинке.</string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Ради ваше безбедности, обавезно избришите своју сачувану датотеку лозинке.</string>
     <string name="need_help_check_out_import_help">Треба вам помоћ? Проверите помоћ за увоз.</string>
     <string name="import_help">помоћ за увоз</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily">Сачувајте извезену датотеку негде на рачунару где можете лако да пронађете.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Ово није признати Bitwarden сервер. Можда ћете морати да проверите код свог провајдера или да ажурирате сервер.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Ово није признати Multipass сервер. Можда ћете морати да проверите код свог провајдера или да ажурирате сервер.</string>
     <string name="syncing_logins_loading_message">Синхронизовање пријављивања…</string>
     <string name="download_the_browser_extension">Преузмите проширење претраживача</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Идите на bitwarden.com/download да интегришете Bitwarden у свој омиљени претраживач за беспрекорно искуство.</string>
@@ -889,8 +889,8 @@
     <string name="autofill_passwords">Ауто-попуњавање лозинки</string>
     <string name="set_up_autofill_on_all_your_devices">Подесите ауто-попуњавање на свим својим уређајима да бисте се пријавили једним додиром било где.</string>
     <string name="import_successful">Увоз успешан!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Управљајте својим пријавама са било ког места помоћу Bitwarden алата за веб и десктоп.</string>
-    <string name="bitwarden_tools">Bitwarden алатке</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Управљајте својим пријавама са било ког места помоћу Multipass алата за веб и десктоп.</string>
+    <string name="bitwarden_tools">Multipass алатке</string>
     <string name="got_it">Разумем</string>
     <string name="no_logins_were_imported">Нису увезене никакве пријаве</string>
     <string name="import_error">Грешка при увозу</string>
@@ -909,7 +909,7 @@
         <item quantity="other">%d обавештења</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Пријавите се брзо и лако на више уређаја</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden може да вас обавести сваки пут када добијете нови захтев за пријаву са другог уређаја.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass може да вас обавести сваки пут када добијете нови захтев за пријаву са другог уређаја.</string>
     <string name="skip_for_now">Прескочи за сада</string>
     <string name="done_text">Готово</string>
     <string name="page_number_x_of_y">%1$s од %2$s</string>
@@ -934,7 +934,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger">Додајте број или симбол да би сте је учинили још јачом. Сада имате јединствену, безбедну и упамтиву фразу!</string>
     <string name="need_some_inspiration">Потребна вам је инспирација?</string>
     <string name="check_out_the_passphrase_generator">Испробајте генератор фраза</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Нисмо могли да верификујемо сертификат сервера. Ланац сертификата или подешавања проксија на вашем уређају или вашем Bitwarden серверу можда нису правилно подешени.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Нисмо могли да верификујемо сертификат сервера. Ланац сертификата или подешавања проксија на вашем уређају или вашем Multipass серверу можда нису правилно подешени.</string>
     <string name="copy_private_key">Копирај приватни кључ</string>
     <string name="login_credentials">Акредитиве за пријављивање</string>
     <string name="autofill_options">Опције аутоматског попуњавања</string>
@@ -961,7 +961,7 @@
     <string name="coachmark_5_of_6">5 ОД 6</string>
     <string name="coachmark_6_of_6">6 ОД 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Користите ове опције да прилагодите своју лозинку према захтевима веб сајта вашег налога.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Након што сачувате вашу нову лозинку у Bitwarden, не заборавите да је обновите на налогу веб сајта.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Након што сачувате вашу нову лозинку у Multipass, не заборавите да је обновите на налогу веб сајта.</string>
     <string name="verify_your_identity">Потврдите свој идентитет</string>
     <string name="error_loading_certificate">Грешка приликом учитавања сертификата</string>
     <string name="certificate_alias">Алиас сертификата</string>
@@ -972,7 +972,7 @@
     <string name="unsupported_certificate_type">Неподржан тип сертификата</string>
     <string name="certificate_password_incorrect">Погрешна лозинка сертификата</string>
     <string name="invalid_certificate_chain">Неважећи ланац сертификата</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Коришћење системских сертификата је мање безбедано него чување сертификата са Bitwarden. Наставак ће приказати листу доступних системских сертификата ако је неки већ инсталиран.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Коришћење системских сертификата је мање безбедано него чување сертификата са Multipass. Наставак ће приказати листу доступних системских сертификата ако је неки већ инсталиран.</string>
     <string name="link">Линк</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Операција са кључем за приступ није успела јер URL адреса домаћина није присутна у захтеву.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Операција са кључем за приступ није успела јер потпис апликације није важећи.</string>
@@ -1012,8 +1012,8 @@
     <string name="to_get_started_set_a_logging_duration">Да бисте започели, подесите трајање бележења. Бележење 
 ће се аутоматски искључити после овог периода, дајући вам времена да снимите 
 активност приликом репродуковања било каквих проблема.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Записи ће бити аутоматски обрисани после 30 дана. Bitwarden може да приступи вашим подацима записа само када их поделите.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">За детаље о томе шта се бележи, а шта не, посетите\n<annotation link="helpCenter">цentar за помоћ Bitwarden-а.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Записи ће бити аутоматски обрисани после 30 дана. Multipass може да приступи вашим подацима записа само када их поделите.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">За детаље о томе шта се бележи, а шта не, посетите\n<annotation link="helpCenter">цentar за помоћ Multipass-а.</annotation></string>
     <string name="logging_duration">Трајање извештаја</string>
     <string name="flight_recorder_one_hour">1 сат</string>
     <string name="flight_recorder_eight_hours">8 сати</string>
@@ -1044,7 +1044,7 @@
     <string name="unable_to_read_certificate">Није могуће прочитати сертификат.</string>
     <string name="cannot_delete_your_account">Није могуће избрисати Ваш налог</string>
     <string name="cannot_delete_your_account_explanation">Ова радња се не може довршити јер је ваш налог у власништву организације. Обратите се администратору своје организације за додатне детаље.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Овај рачун ће ускоро бити избрисан. Пријавити се на %1$s да анставите са употребом Bitwarden-а.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Овај рачун ће ускоро бити избрисан. Пријавити се на %1$s да анставите са употребом Multipass-а.</string>
     <string name="view_file_send">Преглед датотеке Send</string>
     <string name="view_text_send">Преглед текст Send</string>
     <string name="delete_send">Избриши „Send“</string>
@@ -1055,13 +1055,13 @@
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Операција лозинке није успела јер прегледач (%1$s) није препознат. Изаберите „Повери“ да бисте додали %1$s на листу локално поузданих апликација.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Операција кључа за приступ није успела јер прегледач није поуздан.</string>
     <string name="trust">Повери</string>
-    <string name="trusted_by_you_learn_more">Ово су апликације или прегледачи који Bitwarden не верује стандардно, али ВИ верујее да урадите операције са кључом за приступ.</string>
-    <string name="trusted_by_community_learn_more">Ово су апликације које нису укључене у Google Play Store, али Bitwarden поверење да обавља рад након што чланови заједнице користе и пријаве их као безбедно.</string>
+    <string name="trusted_by_you_learn_more">Ово су апликације или прегледачи који Multipass не верује стандардно, али ВИ верујее да урадите операције са кључом за приступ.</string>
+    <string name="trusted_by_community_learn_more">Ово су апликације које нису укључене у Google Play Store, али Multipass поверење да обавља рад након што чланови заједнице користе и пријаве их као безбедно.</string>
     <string name="trusted_by_google_learn_more">Ове апликације су сигурне са стране Google-а и доступне на Google Play Store.</string>
     <string name="trusted_by_you">Ви сте оверили</string>
     <string name="trusted_by_the_community">Заједница је оверила</string>
     <string name="trusted_by_google">Google је оверио</string>
-    <string name="privileged_apps_description">Да би заштитили кориснике да би се подржали лажирање, подразумевано, Bitwarden само довршава операције за кључ путем веб прегледача који је поверио Google или заједница Bitwarden-а.</string>
+    <string name="privileged_apps_description">Да би заштитили кориснике да би се подржали лажирање, подразумевано, Multipass само довршава операције за кључ путем веб прегледача који је поверио Google или заједница Multipass-а.</string>
     <string name="about_privileged_applications">О привилегованим апликацијама</string>
     <string name="learn_more_about_privileged_apps">Сазнајте више о привилегованим апликацијама</string>
     <string name="privileged_apps">Привилеговане апликације</string>
@@ -1164,11 +1164,11 @@
     <string name="items_are_collapsed_click_to_expand">Предмети су умањени, кликните да се проширу.</string>
     <string name="error_cannot_decrypt">[грешка: неуспешна декрипција]</string>
     <string name="copy_error_report">Копирај извештај о грешци</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden није могао да дешифрира овај сеф. Копирајте и делите овај извештај о грешци са успехом купца да бисте избегли додатни губитак података.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass није могао да дешифрира овај сеф. Копирајте и делите овај извештај о грешци са успехом купца да бисте избегли додатни губитак података.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Bitwarden није могао да дешифрује %1$d ставку у трезору. Копирајте и поделите овај извештај о грешци са службом за кориснике како бисте избегли додатни губитак података.</item>
-        <item quantity="few">Bitwarden није могао да дешифрује %1$d ставке у трезору. Копирајте и поделите овај извештај о грешци са службом за кориснике како бисте избегли додатни губитак података.</item>
-        <item quantity="other">Bitwarden није могао да дешифрује %1$d ставке у трезору. Копирајте и поделите овај извештај о грешци са службом за кориснике како бисте избегли додатни губитак података.</item>
+        <item quantity="one">Multipass није могао да дешифрује %1$d ставку у трезору. Копирајте и поделите овај извештај о грешци са службом за кориснике како бисте избегли додатни губитак података.</item>
+        <item quantity="few">Multipass није могао да дешифрује %1$d ставке у трезору. Копирајте и поделите овај извештај о грешци са службом за кориснике како бисте избегли додатни губитак података.</item>
+        <item quantity="other">Multipass није могао да дешифрује %1$d ставке у трезору. Копирајте и поделите овај извештај о грешци са службом за кориснике како бисте избегли додатни губитак података.</item>
     </plurals>
     <string name="select_a_card_for_x">Одабрати картицу за %s</string>
     <string name="advanced_options">Напредне опције</string>
@@ -1176,8 +1176,8 @@
     <string name="keep_your_credential_secure">Чувајте своје акредитиве на сигурном</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Сазнајте више о томе како да чувате акредитиве сигурне када користите “%1$s”.</string>
     <string name="are_you_sure_you_want_to_use">Јесте ли сигурни да желите да користите “%1$s”?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Detekcija podudaranja URI-ja kontroliše kako Bitwarden identifikuje predloge za automatsko popunjavanje.\n<annotation emphasis="bold">Upozorenje:</annotation> „Regularni izraz“ je napredna opcija sa povećanim rizikom od otkrivanja akreditiva ako se nepravilno koristi.</string>
-    <string name="default_uri_match_detection_description_advanced_options">Detekcija podudaranja URI-ja kontroliše kako Bitwarden identifikuje predloge za automatsko popunjavanje.\n<annotation emphasis="bold">Upozorenje:</annotation> „Počinje sa“ je napredna opcija sa povećanim rizikom od otkrivanja akreditiva.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Detekcija podudaranja URI-ja kontroliše kako Multipass identifikuje predloge za automatsko popunjavanje.\n<annotation emphasis="bold">Upozorenje:</annotation> „Regularni izraz“ je napredna opcija sa povećanim rizikom od otkrivanja akreditiva ako se nepravilno koristi.</string>
+    <string name="default_uri_match_detection_description_advanced_options">Detekcija podudaranja URI-ja kontroliše kako Multipass identifikuje predloge za automatsko popunjavanje.\n<annotation emphasis="bold">Upozorenje:</annotation> „Počinje sa“ je napredna opcija sa povećanim rizikom od otkrivanja akreditiva.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">„Почиње са“ је напредна опција са повећаним ризиком од откривања акредитива.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">„Регуларни израз“ је напредна опција са повећаним ризиком од откривања акредитива ако се неправилно користе.</string>
     <string name="later">Касније</string>
@@ -1203,17 +1203,17 @@
         <item quantity="other">%1$d ставки су унете у сефу.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Омогући аутоматско попуњавање претраживача да настави да уписује лозинке</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Vaš pregledač je nedavno ažuriran, što je onemogućilo Bitwarden automatsko popunjavanje. Da biste nastavili da popunjavate lozinke sa Bitwarden-om, omogućite automatsko popunjavanje pregledača u podešavanjima za automatsko popunjavanje.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Vaš pregledač je nedavno ažuriran, što je onemogućilo Multipass automatsko popunjavanje. Da biste nastavili da popunjavate lozinke sa Multipass-om, omogućite automatsko popunjavanje pregledača u podešavanjima za automatsko popunjavanje.</string>
     <string name="not_now">Не сада</string>
     <string name="import_from_bitwarden">Увоз из Bitwarden-а</string>
     <string name="select_account">Изабери налог</string>
     <string name="no_accounts_available">Нема доступних налога</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">Nemate nijedan nalog iz kojeg možete da uvezete. Bezbednosna politika vaše organizacije može ograničiti uvoz stavki iz Bitwarden-a u drugu aplikaciju.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">Nemate nijedan nalog iz kojeg možete da uvezete. Bezbednosna politika vaše organizacije može ograničiti uvoz stavki iz Multipass-a u drugu aplikaciju.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Увоз ограничен, не може да се увезу картице са овог рачуна.</string>
     <string name="verify_your_master_password">Верификуј Главну Лозинку</string>
     <string name="having_trouble_with_autofill">Имате проблема са ауто-пуњењем?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Приступите овде документацији помоћи и решавање проблема</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Uvezite lozinke, pristupne ključeve i druge vrste stavki iz vašeg Bitwarden trezora.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Uvezite lozinke, pristupne ključeve i druge vrste stavki iz vašeg Multipass trezora.</string>
     <string name="items_to_import">Ставке за увоз</string>
     <string name="exporting_items">Извоз ставки…</string>
     <string name="export_failed">Извоз није успео</string>
@@ -1277,7 +1277,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Unesite bar jednu važeću adresu e-pošte da biste podelili ovaj Send.</string>
     <string name="sync_with_browser">Sinhronizuj sa pregledačem</string>
-    <string name="sync_with_browser_description">Да бисте се повезали на %1$s, синхронизујте свој подразумевани прегледач са Bitwarden мобилном апликацијом. Када се ваш прегледач отвори, довршите пријављивање ако будете затражени.\nНакон што се синхронизација заврши, бићете враћени у ову апликацију.</string>
+    <string name="sync_with_browser_description">Да бисте се повезали на %1$s, синхронизујте свој подразумевани прегледач са Multipass мобилном апликацијом. Када се ваш прегледач отвори, довршите пријављивање ако будете затражени.\nНакон што се синхронизација заврши, бићете враћени у ову апликацију.</string>
     <string name="launch_browser">Покрени претраживач</string>
     <string name="continue_without_syncing">Настави без синхронизације</string>
     <string name="external_link">Екстерни линк</string>
@@ -1303,7 +1303,7 @@
     <string name="trusted">Pouzdan</string>
     <string name="preview_not_available_for_files">Преглед није доступан за %1$s датотеке. И даље можете да је преузмете да бисте је видели на свом уређају.</string>
     <string name="this_file_is_too_large_to_preview">Ова датотека је превелика за преглед. И даље можете да је преузмете да бисте је видели на свом уређају.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden није могао да дешифрује ову датотеку, па се преглед не може приказати.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass није могао да дешифрује ову датотеку, па се преглед не може приказати.</string>
     <string name="preview_unavailable_for_this_file">Преглед није доступан за ову датотеку. И даље можете да је преузмете да бисте је видели на свом уређају.</string>
     <string name="preview_unavailable">Преглед недоступан</string>
     <string name="download_attachment">Преузети прилог</string>
@@ -1437,8 +1437,8 @@
     <string name="local_network_access_required">Potreban je pristup lokalnoj mreži</string>
     <string name="ask_again_later">Pitaj ponovo kasnije</string>
     <string name="enable_local_network_access">Omogući pristup lokalnoj mreži</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden-u je potreban pristup lokalnoj mreži za sinhronizaciju sa vašim serverom. Bez ove dozvole, aplikacija neće moći da se poveže.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez ove dozvole, Bitwarden neće moći da se poveže i sinhronizuje sa vašim serverom. Ovo možete omogućiti u podešavanjima uređaja.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass-u je potreban pristup lokalnoj mreži za sinhronizaciju sa vašim serverom. Bez ove dozvole, aplikacija neće moći da se poveže.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez ove dozvole, Multipass neće moći da se poveže i sinhronizuje sa vašim serverom. Ovo možete omogućiti u podešavanjima uređaja.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Vaš zahtev je prekinut jer aplikacija zahteva pristup lokalnoj mreži. Ovo možete omogućiti u podešavanjima uređaja.</string>
     <string name="continue_to_stripe">Nastavite na Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Bićete preusmereni na Stripe da biste upravljali otkazivanjem pretplate.</string>

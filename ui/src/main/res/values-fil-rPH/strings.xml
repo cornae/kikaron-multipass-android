@@ -75,9 +75,9 @@
     <string name="yes">Oo</string>
     <string name="account">Account</string>
     <string name="account_created_success">Ang iyong bagong account ay nagawa na!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Itakda bilang passkey provider mo ang Bitwarden sa mga setting ng device mo.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Itakda bilang passkey provider mo ang Multipass sa mga setting ng device mo.</string>
     <string name="avoid_ambiguous_characters">Iwasang gumamit ng mga nakakalitong karakter</string>
-    <string name="bitwarden_autofill_service">Serbisyo ng Bitwarden Pang-autofill</string>
+    <string name="bitwarden_autofill_service">Serbisyo ng Multipass Pang-autofill</string>
     <string name="change_master_password">Palitan ang master password</string>
     <string name="close">Isara</string>
     <string name="close_app">Isara ang app</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Itakda ang session timeout sa \"Log out\"?</string>
     <string name="vault_timeout_log_out_confirmation_message">Pagkatapos ng panahon ng timeout, ilo-log out ka. Kakailanganin mong konektado sa internet upang mag-log in at ma-access muli ang iyong baul. Ang iyong mga setting at PIN na naka-save sa device na ito ay hindi magbabago.</string>
     <string name="logging_in">Naglo-log in…</string>
-    <string name="login_to_bitwarden">Mag-log in sa Bitwarden</string>
+    <string name="login_to_bitwarden">Mag-log in sa Multipass</string>
     <string name="master_password_confirmation_val_message">Mali ang kumpirmasyon sa password.</string>
     <string name="master_password_description">Ang master password ang password na gagamitin mo para ma-access ang vault. Napakamahalagang hindi mo kailanman makalimutan ang master password—kung gaano kahalagang makalimutan mo ang iyong ex, ganyan kahalagang maalala mo ang master password mo. Hindi kayang mabalik ang master password kung nakalimutan mo ito.</string>
     <string name="master_password_hint">Palatandaan ng master password (opsyonal)</string>
@@ -169,14 +169,14 @@
     <string name="view_identity">Tingnan ang pagkakakilanlan</string>
     <string name="view_note">Tingnan ang tala</string>
     <string name="view_ssh_key">Tingnan ang SSH key</string>
-    <string name="web_vault">Web vault ng Bitwarden</string>
+    <string name="web_vault">Web vault ng Multipass</string>
     <string name="items">Mga Item</string>
     <string name="items_for_uri">Mga item para sa %1$s</string>
     <string name="no_items_for_uri">Walang item para sa %1$s sa vault mo.</string>
     <string name="no_items_for_vault">Walang mga item sa vault mo na tumutugma sa \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Maghanap ng login o magdagdag ng bagong login</string>
     <string name="disabled">Hindi pinapagana</string>
-    <string name="bitwarden_autofill_service_alert2">Ang pinakamadaling paraan upang magdagdag ng mga bagong login sa iyong baul ay mula sa Bitwarden Autofill Service. Matuto pa tungkol sa paggamit ng Bitwarden Autofill Service sa pamamagitan ng pagpunta sa \"Settings\" screen.</string>
+    <string name="bitwarden_autofill_service_alert2">Ang pinakamadaling paraan upang magdagdag ng mga bagong login sa iyong baul ay mula sa Multipass Autofill Service. Matuto pa tungkol sa paggamit ng Multipass Autofill Service sa pamamagitan ng pagpunta sa \"Settings\" screen.</string>
     <string name="autofill_noun">Autofill</string>
     <string name="autofill_verb">I-autofill</string>
     <string name="autofill_or_view">Gusto mo bang i-autofill o tingnan ang item na ito?</string>
@@ -228,7 +228,7 @@ Awtomatikong itong magsa-scan.</string>
     <string name="environment_saved">Nai-save ang mga URL ng environment.</string>
     <string name="identity_url">URL ng identity server</string>
     <string name="self_hosted_environment">Self-hosted na environment</string>
-    <string name="self_hosted_environment_footer">Itakda ang base URL ng on-premise hosted Bitwarden installation mo.</string>
+    <string name="self_hosted_environment_footer">Itakda ang base URL ng on-premise hosted Multipass installation mo.</string>
     <string name="server_url">URL ng server</string>
     <string name="web_vault_url">URL ng web vault server</string>
     <string name="custom_fields">Ipinasadyang mga field</string>
@@ -298,7 +298,7 @@ Awtomatikong itong magsa-scan.</string>
     <string name="no_items_folder">Walang mga item sa folder na ito.</string>
     <string name="no_items_trash">Walang mga item sa basurahan.</string>
     <string name="autofill_accessibility_summary">Tulong sa pagpuno ng mga field ng username at password sa ibang mga app at sa web.</string>
-    <string name="autofill_service_description">Gumagamit ng Android Autofill Framework ang serbisyo ng Bitwarden pang-autofill para tumulong maglagay ng impormasyon ng login sa iba pang mga app sa device mo.</string>
+    <string name="autofill_service_description">Gumagamit ng Android Autofill Framework ang serbisyo ng Multipass pang-autofill para tumulong maglagay ng impormasyon ng login sa iba pang mga app sa device mo.</string>
     <string name="bitwarden_autofill_go_to_settings">Hindi namin awtomatikong mabuksan ang menu ng mga setting ng Android autofill para sayo. Manu-mano kang makakapunta roon sa pamamagitan ng Mga Setting &gt; System &gt; Mga wika at input &gt; Advanced &gt; Serbisyo ng autofill.</string>
     <string name="custom_field_name">Pangalan ng pasadyang field</string>
     <string name="field_type_boolean">Boolean</string>
@@ -373,7 +373,7 @@ Awtomatikong itong magsa-scan.</string>
     <string name="pin">PIN</string>
     <string name="unlock">I-unlock</string>
     <string name="thirty_minutes">30 minuto</string>
-    <string name="set_pin_description">Itakda ang PIN code mo pang-unlock sa Bitwarden. Mare-reset ang mga setting mo sa PIN kapag magla-log out ka sa aplikasyon.</string>
+    <string name="set_pin_description">Itakda ang PIN code mo pang-unlock sa Multipass. Mare-reset ang mga setting mo sa PIN kapag magla-log out ka sa aplikasyon.</string>
     <string name="logged_in_as_on">Naka-log in sa %2$s bilang si %1$s.</string>
     <string name="vault_locked_master_password">Naka-lock ang vault mo. Beripikahin ang master password mo para tumuloy.</string>
     <string name="vault_locked_pin">Naka-lock ang vault mo. Beripikahin ang PIN mo para tumuloy.</string>
@@ -387,7 +387,7 @@ Awtomatikong itong magsa-scan.</string>
     <string name="clear_clipboard">Linisin ang clipboard</string>
     <string name="clear_clipboard_description">Awtomatikong linisin ang mga bagay na nakopya sa iyong clipboard.</string>
     <string name="default_uri_match_detection">Default na deteksyon ng pagkakatugma ng URI</string>
-    <string name="default_uri_match_detection_description">Kinokontrol ng URI match detection kung paano tinutukoy ng Bitwarden ang mga mungkahi sa autofill.</string>
+    <string name="default_uri_match_detection_description">Kinokontrol ng URI match detection kung paano tinutukoy ng Multipass ang mga mungkahi sa autofill.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Baguhin ang color theme ng application</string>
     <string name="copy_notes">Kopyahin ang tala</string>
@@ -423,7 +423,7 @@ Awtomatikong itong magsa-scan.</string>
     <string name="password_generator_policy_in_effect">Naaapektuhan ng isa o higit pang mga patakaran ng organisasyon mo ang mga setting mo sa tagagawa</string>
     <string name="unable_to_save_attachment">Nagkaproblema sa pagse-save ng attachment na ito. Kung paulit-ulit nang nagkakaproblema, sa web vault ka dapat mag-save.</string>
     <string name="save_attachment_success">Matagumpay na na-save ang attachment</string>
-    <string name="autofill_tile_accessibility_required">Mangyaring i-on ang \"Autofill Accessibility Service\" mula sa Bitwarden Settings upang gamitin ang Autofill tile.</string>
+    <string name="autofill_tile_accessibility_required">Mangyaring i-on ang \"Autofill Accessibility Service\" mula sa Multipass Settings upang gamitin ang Autofill tile.</string>
     <string name="autofill_tile_uri_not_found">Walang na-detect na password field</string>
     <string name="soft_deleting">Ipinapadala sa basurahan…</string>
     <string name="item_soft_deleted">Naitapon ang item sa basurahan.</string>
@@ -636,9 +636,9 @@ pindutin ang Magdagdag ng TOTP para ligtas na mai-store ang key</string>
     <string name="catch_all_email_description">Gamitin ang naka-configure na catch-all inbox ng iyong domain.</string>
     <string name="forwarded_email_description">Gumawa ng email alias na gagamitin sa isang forwarding service.</string>
     <string name="accessibility_service_disclosure">Disclosure sa Serbisyo Pang-aksesibilidad</string>
-    <string name="accessibility_disclosure_text">Ginagamit ng Bitwarden ang Serbisyo Pang-aksesibilidad para maghanap ng mga login field sa mga app at website, at itakda ang tamang field ID para sa paglalagay ng username at password kung may tugma para sa app o website. Hindi namin iniimbak ang anumang impormasyong nakokolekta namin gamit ang serbisyo, at hindi rin namin kinokontrol ang anumang elemento sa screen na walang kinalaman sa paglalagay ng mga kredensyal.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Kinakailangan ang paunawa na ito bago makapag-alok ang Bitwarden ng autofill na nakabatay sa accessibility.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Nag-aalok ang Bitwarden ng isang opsyonal na paraan ng autofill na gumagamit ng Accessibility Service ng Android upang makita ang mga login field. Kung i-enable mo ito, tutukuyin ng Bitwarden ang naaangkop na mga field at pupunan ang iyong mga kredensyal kapag may nakitang tugma.</string>
+    <string name="accessibility_disclosure_text">Ginagamit ng Multipass ang Serbisyo Pang-aksesibilidad para maghanap ng mga login field sa mga app at website, at itakda ang tamang field ID para sa paglalagay ng username at password kung may tugma para sa app o website. Hindi namin iniimbak ang anumang impormasyong nakokolekta namin gamit ang serbisyo, at hindi rin namin kinokontrol ang anumang elemento sa screen na walang kinalaman sa paglalagay ng mga kredensyal.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Kinakailangan ang paunawa na ito bago makapag-alok ang Multipass ng autofill na nakabatay sa accessibility.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Nag-aalok ang Multipass ng isang opsyonal na paraan ng autofill na gumagamit ng Accessibility Service ng Android upang makita ang mga login field. Kung i-enable mo ito, tutukuyin ng Multipass ang naaangkop na mga field at pupunan ang iyong mga kredensyal kapag may nakitang tugma.</string>
     <string name="accessibility_disclosure_start_up_text_3">Hindi kami nag-iimbak ng anumang impormasyon tungkol sa kung ano ang nasa screen habang ginagamit mo ang Accessibility Service, at hindi namin kinokontrol ang anumang elemento sa screen maliban sa pagpasok ng kredensyal.</string>
     <string name="i_understand">Naiintindihan ko</string>
     <string name="accept">Tanggapin</string>
@@ -647,7 +647,7 @@ pindutin ang Magdagdag ng TOTP para ligtas na mai-store ang key</string>
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Tangkang mag-log in sa:
 %1$s
 Gusto mo bang pumunta sa account na ito?</string>
-    <string name="new_to_bitwarden">Bago sa Bitwarden?</string>
+    <string name="new_to_bitwarden">Bago sa Multipass?</string>
     <string name="get_master_passwordword_hint">Kunin ang palatandaan ng master password</string>
     <string name="logging_in_as_x_on_y">Naglo-log in bilang %1$s sa %2$s</string>
     <string name="not_you">Hindi ikaw?</string>
@@ -704,7 +704,7 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="invalid_uri">Hindi wastong URI</string>
     <string name="the_urix_is_already_blocked">Ang URI %1$s ay naka-block na</string>
     <string name="login_approved">Naaprubahan ang login</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Ang pag-log in gamit ang device ay dapat i-set up sa mga setting ng Bitwarden app.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Ang pag-log in gamit ang device ay dapat i-set up sa mga setting ng Multipass app.</string>
     <string name="need_another_option_view_all_login_options">Kailangan ng ibang opsyon? <annotation link="viewAll">Tingnan ang lahat ng opsyon sa pag-log in</annotation></string>
     <string name="log_in_with_device">Mag-log in gamit ang device</string>
     <string name="logging_in_on">Naglo-log in sa</string>
@@ -719,8 +719,8 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="session_timeout">Oras ng pag-expire ng session</string>
     <string name="session_timeout_action">Aksyon sa pag-expire ng session</string>
     <string name="account_fingerprint_phrase">Fingerprint phrase ng account</string>
-    <string name="passkey_management_explanation_long">Gamitin ang Bitwarden upang mag-save ng mga bagong passkey at mag-log in gamit ang mga passkey na nakaimbak sa iyong baul.</string>
-    <string name="autofill_services_explanation_long">Payagan ang Bitwarden na gamitin ang iyong naka-save na impormasyon sa pag-log in upang mag-sign in sa ibang mga app sa iyong device.</string>
+    <string name="passkey_management_explanation_long">Gamitin ang Multipass upang mag-save ng mga bagong passkey at mag-log in gamit ang mga passkey na nakaimbak sa iyong baul.</string>
+    <string name="autofill_services_explanation_long">Payagan ang Multipass na gamitin ang iyong naka-save na impormasyon sa pag-log in upang mag-sign in sa ibang mga app sa iyong device.</string>
     <string name="use_inline_autofill_explanation_long">Pumili kung paano lalabas ang iyong mga mungkahi sa autofill kapag nag-sign in ka sa ibang mga app sa iyong device.</string>
     <string name="additional_options">Karagdagang mga opsyon</string>
     <string name="continue_to_web_app">Magpatuloy sa web app?</string>
@@ -728,11 +728,11 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="continue_to_help_center">Magpatuloy sa Help center?</string>
     <string name="continue_to_privacy_policy">Magpatuloy sa patakaran sa privacy?</string>
     <string name="continue_to_device_settings">Magpatuloy sa device Settings?</string>
-    <string name="two_step_login_description_long">Gawing mas secure ang iyong account sa pamamagitan ng pag-set up ng two-step login sa Bitwarden web app.</string>
-    <string name="change_master_password_description_long">Maaari mong baguhin ang iyong master password sa Bitwarden web app.</string>
+    <string name="two_step_login_description_long">Gawing mas secure ang iyong account sa pamamagitan ng pag-set up ng two-step login sa Multipass web app.</string>
+    <string name="change_master_password_description_long">Maaari mong baguhin ang iyong master password sa Multipass web app.</string>
     <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Matuto pa tungkol sa kung paano gamitin ang Bitwarden sa Help center.</string>
     <string name="privacy_policy_description_long">Tingnan ang aming patakaran sa privacy sa bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Tuklasin ang higit pang mga feature ng iyong Bitwarden account sa web app.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Tuklasin ang higit pang mga feature ng iyong Multipass account sa web app.</string>
     <string name="learn_about_organizations_description_long">Pinapayagan ka ng Bitwarden na ibahagi ang iyong mga item sa baul sa iba sa pamamagitan ng paggamit ng isang organisasyon. Matuto pa sa website ng bitwarden.com.</string>
     <string name="created_x">Nilikha %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Ang iyong organisasyon ay nangangailangan sa iyo na magtakda ng master password.</string>
@@ -743,8 +743,8 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Kinakailangan ang Duo two-step login para sa iyong account.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Sundin ang mga hakbang mula sa Duo upang matapos ang pag-log in.</string>
     <string name="launch_duo">Ilunsad ang Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Ang iyong passkey ay ise-save sa iyong Bitwarden vault para sa %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ang iyong password ay ise-save sa iyong Bitwarden vault para sa %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Ang iyong passkey ay ise-save sa iyong Multipass vault para sa %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ang iyong password ay ise-save sa iyong Multipass vault para sa %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Hindi sinusuportahan ang mga passkey para sa app na ito</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Nabigo ang operasyon ng passkey dahil hindi privileged ang browser</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Nabigo ang operasyon ng passkey dahil hindi tumutugma ang signature ng browser</string>
@@ -772,13 +772,13 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="email_verified">Na-verify ang email</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Makatanggap ng mga email mula sa Bitwarden para sa mga anunsyo, payo, at mga pagkakataon sa pananaliksik. <annotation link="unsubscribe">Mag-unsubscribe</annotation> anumang oras.</string>
     <string name="security_prioritized">Seguridad, prayoridad</string>
-    <string name="welcome_message_1">I-save ang mga login, card, at pagkakakilanlan sa iyong secure na baul. Gumagamit ang Bitwarden ng zero-knowledge, end-to-end encryption upang protektahan ang mahalaga sa iyo.</string>
+    <string name="welcome_message_1">I-save ang mga login, card, at pagkakakilanlan sa iyong secure na baul. Gumagamit ang Multipass ng zero-knowledge, end-to-end encryption upang protektahan ang mahalaga sa iyo.</string>
     <string name="welcome_message_2">Mag-set up ng biometric unlock at autofill upang mag-log in sa iyong mga account nang hindi nagta-type ng kahit isang letra.</string>
     <string name="quick_and_easy_login">Mabilis at madaling pag-log in</string>
     <string name="level_up_your_logins">Pagandahin ang iyong mga login</string>
     <string name="welcome_message_3">Gamitin ang generator upang lumikha at mag-save ng malalakas at natatanging mga password para sa lahat ng iyong mga account.</string>
     <string name="your_data_when_and_where_you_need_it">Ang iyong data, kailan at saan mo kailangan</string>
-    <string name="welcome_message_4">I-save ang walang limitasyong mga password sa walang limitasyong mga device gamit ang Bitwarden mobile, browser, at desktop apps.</string>
+    <string name="welcome_message_4">I-save ang walang limitasyong mga password sa walang limitasyong mga device gamit ang Multipass mobile, browser, at desktop apps.</string>
     <string name="remove_passkey">Alisin ang passkey</string>
     <string name="passkey_removed">Tinanggal ang passkey</string>
     <string name="what_makes_a_password_strong">Ano ang nagpapalakas ng isang password?</string>
@@ -808,8 +808,8 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Piliin ang link sa email upang i-verify ang iyong email address at ipagpatuloy ang paggawa ng iyong account.</string>
     <string name="change_email_address">Baguhin ang email address</string>
     <string name="next">Susunod</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Hindi mabawi ng Bitwarden ang isang nawala o nakalimutang master password.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Hindi maaaring i-reset ng Bitwarden ang isang nawala o nakalimutang master password.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Hindi mabawi ng Multipass ang isang nawala o nakalimutang master password.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Hindi maaaring i-reset ng Multipass ang isang nawala o nakalimutang master password.</string>
     <string name="choose_your_master_password">Pumili ng iyong master password</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Pumili ng natatangi at malakas na password upang panatilihing ligtas ang iyong impormasyon.</string>
     <plurals name="minimum_characters">
@@ -825,16 +825,16 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="turn_on_autofill">I-on ang autofill</string>
     <string name="autofill_setup">Pag-set up ng autofill</string>
     <string name="turn_on_browser_autofill_integration">I-on ang browser autofill integration</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Gumagamit ka ng browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Bitwarden ang iyong mga password.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Gumagamit ka ng mga browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Bitwarden ang iyong mga password.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Gumagamit ka ng browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Bitwarden ang iyong mga password. I-enable ang iyong gustong autofill integration sa ibaba.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Gumagamit ka ng mga browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Bitwarden ang iyong mga password. I-enable ang autofill para sa lahat ng iyong naka-install na browser upang magpatuloy.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Gumagamit ka ng browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Multipass ang iyong mga password.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Gumagamit ka ng mga browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Multipass ang iyong mga password.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Gumagamit ka ng browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Multipass ang iyong mga password. I-enable ang iyong gustong autofill integration sa ibaba.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Gumagamit ka ng mga browser na nangangailangan ng mga espesyal na pahintulot para ma-autofill ng Multipass ang iyong mga password. I-enable ang autofill para sa lahat ng iyong naka-install na browser upang magpatuloy.</string>
     <string name="use_autofill_to_log_into_your_accounts">Gamitin ang autofill upang mag-log in sa iyong mga account sa pamamagitan ng isang tap.</string>
     <string name="turn_on_later">I-on mamaya</string>
     <string name="turn_on_autofill_later">I-on ang autofill mamaya?</string>
     <string name="turn_on_browser_autofill_integration_later">I-on ang browser autofill integration mamaya?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Maaari kang bumalik upang kumpletuhin ang hakbang na ito anumang oras sa Mga Setting.</string>
-    <string name="what_bitwarden_has_to_offer">Maaari mo na ngayong tuklasin ang lahat ng inaalok ng Bitwarden at simulan ang pamamahala ng iyong mga password nang secure.</string>
+    <string name="what_bitwarden_has_to_offer">Maaari mo na ngayong tuklasin ang lahat ng inaalok ng Multipass at simulan ang pamamahala ng iyong mga password nang secure.</string>
     <string name="youre_all_set">Handa ka na!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Error sa pagkonekta sa Duo service. Gumamit ng ibang two-step login method o makipag-ugnayan sa Duo para sa tulong.</string>
     <string name="master_password_hint_not_specified">Palatandaan ng master password</string>
@@ -853,7 +853,7 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="do_you_have_a_computer_available">Mayroon ka bang computer na magagamit?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Ang mga sumusunod na tagubilin ay gagabay sa iyo sa pag-import ng mga login mula sa iyong desktop o laptop computer</string>
     <string name="import_logins">Mag-import ng mga Login</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Mula sa iyong computer, sundin ang mga tagubiling ito upang i-export ang mga naka-save na password mula sa iyong browser o iba pang password manager. Pagkatapos, ligtas na i-import ang mga ito sa Bitwarden.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Mula sa iyong computer, sundin ang mga tagubiling ito upang i-export ang mga naka-save na password mula sa iyong browser o iba pang password manager. Pagkatapos, ligtas na i-import ang mga ito sa Multipass.</string>
     <string name="give_your_vault_a_head_start">Bigyan ng panimula ang iyong baul</string>
     <string name="class_3_biometrics_description">Ang pag-unlock gamit ang biometrics ay nangangailangan ng malakas na biometric authentication at maaaring hindi tugma sa lahat ng opsyon sa biometric sa device na ito.</string>
     <string name="class_2_biometrics_description">Ang pag-unlock gamit ang biometrics ay nangangailangan ng malakas na biometric authentication at hindi tugma sa mga opsyon sa biometric na available sa device na ito.</string>
@@ -864,18 +864,18 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="export_your_saved_logins">I-export ang iyong mga naka-save na login</string>
     <string name="delete_this_file_after_import_is_complete">Buburahin mo ang file na ito pagkatapos makumpleto ang pag-import.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Sa iyong computer, magbukas ng bagong browser tab at <annotation emphasis="bold">pumunta sa <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Mag-log in sa Bitwarden web app.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Mag-log in sa Multipass web app.</string>
     <string name="step_2_of_3">Hakbang 2 ng 3</string>
-    <string name="log_in_to_bitwarden">Mag-log in sa Bitwarden</string>
+    <string name="log_in_to_bitwarden">Mag-log in sa Multipass</string>
     <string name="step_3_of_3">Hakbang 3 ng 3</string>
-    <string name="import_logins_to_bitwarden">Mag-import ng mga login sa Bitwarden</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Sa navigation ng Bitwarden, <annotation emphasis="bold">hanapin ang Tools</annotation> na opsyon at <annotation emphasis="bold">piliin ang Import data.</annotation></string>
+    <string name="import_logins_to_bitwarden">Mag-import ng mga login sa Multipass</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Sa navigation ng Multipass, <annotation emphasis="bold">hanapin ang Tools</annotation> na opsyon at <annotation emphasis="bold">piliin ang Import data.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Punan ang form at <annotation emphasis="bold">i-import ang iyong naka-save na file ng password.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Para sa iyong seguridad, tiyaking <annotation emphasis="bold">burahin ang iyong naka-save na file ng password.</annotation></string>
     <string name="need_help_check_out_import_help">Kailangan ng tulong? Tingnan ang <annotation link="importHelp">tulong sa pag-import</annotation>.</string>
     <string name="import_help">tulong sa pag-import</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">I-save ang na-export na file</annotation> sa isang lugar sa iyong computer na madali mong mahahanap.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Ito ay hindi isang kinikilalang Bitwarden server. Maaaring kailanganin mong suriin sa iyong provider o i-update ang iyong server.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Ito ay hindi isang kinikilalang Multipass server. Maaaring kailanganin mong suriin sa iyong provider o i-update ang iyong server.</string>
     <string name="syncing_logins_loading_message">Nag-si-sync ng mga login…</string>
     <string name="download_the_browser_extension">I-download ang browser extension</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Pumunta sa bitwarden.com/download upang isama ang Bitwarden sa iyong paboritong browser para sa isang tuloy-tuloy na karanasan.</string>
@@ -884,8 +884,8 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="autofill_passwords">Autofill ng mga password</string>
     <string name="set_up_autofill_on_all_your_devices">I-set up ang autofill sa lahat ng iyong device upang mag-log in sa isang tap kahit saan.</string>
     <string name="import_successful">Matagumpay ang Pag-import!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Pamahalaan ang iyong mga login mula saanman gamit ang mga tool ng Bitwarden para sa web at desktop.</string>
-    <string name="bitwarden_tools">Bitwarden Tools</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Pamahalaan ang iyong mga login mula saanman gamit ang mga tool ng Multipass para sa web at desktop.</string>
+    <string name="bitwarden_tools">Multipass Tools</string>
     <string name="got_it">Nakuha ko</string>
     <string name="no_logins_were_imported">Walang mga login na na-import</string>
     <string name="import_error">Nagkaproblema sa pag-i-import</string>
@@ -903,7 +903,7 @@ Gusto mo bang pumunta sa account na ito?</string>
         <item quantity="other">%d notification</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Mag-log in nang mabilis at madali sa iba\'t ibang device</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Maaari kang i-notify ng Bitwarden sa bawat oras na makatanggap ka ng bagong login request mula sa ibang device.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Maaari kang i-notify ng Multipass sa bawat oras na makatanggap ka ng bagong login request mula sa ibang device.</string>
     <string name="skip_for_now">Laktawan muna</string>
     <string name="done_text">Tapos na</string>
     <string name="page_number_x_of_y">%1$s ng %2$s</string>
@@ -928,7 +928,7 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Magdagdag ng numero o simbolo</annotation> upang gawin itong mas malakas. Ngayon ay mayroon kang natatangi, secure, at madaling tandaan na passphrase!</string>
     <string name="need_some_inspiration">Kailangan ng inspirasyon?</string>
     <string name="check_out_the_passphrase_generator">Tingnan ang passphrase generator</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Hindi namin ma-verify ang certificate ng server. Ang chain ng certificate o mga setting ng proxy sa iyong device o sa iyong Bitwarden server ay maaaring hindi naka-set up nang tama.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Hindi namin ma-verify ang certificate ng server. Ang chain ng certificate o mga setting ng proxy sa iyong device o sa iyong Multipass server ay maaaring hindi naka-set up nang tama.</string>
     <string name="copy_private_key">Kopyahin ang pribadong key</string>
     <string name="login_credentials">Mga Kredensyal sa Pag-login</string>
     <string name="autofill_options">Mga Opsyon sa Autofill</string>
@@ -955,7 +955,7 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="coachmark_5_of_6">5 NG 6</string>
     <string name="coachmark_6_of_6">6 NG 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Gamitin ang mga opsyon na ito upang ayusin ang iyong password upang matugunan ang mga kinakailangan ng iyong website ng account.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Pagkatapos mong i-save ang iyong bagong password sa Bitwarden, huwag kalimutang i-update ito sa iyong website ng account.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Pagkatapos mong i-save ang iyong bagong password sa Multipass, huwag kalimutang i-update ito sa iyong website ng account.</string>
     <string name="verify_your_identity">I-verify ang iyong pagkakakilanlan</string>
     <string name="error_loading_certificate">Error sa pag-load ng certificate</string>
     <string name="certificate_alias">Alias ng certificate</string>
@@ -966,7 +966,7 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="unsupported_certificate_type">Hindi sinusuportahang uri ng certificate</string>
     <string name="certificate_password_incorrect">Mali ang password ng certificate</string>
     <string name="invalid_certificate_chain">Hindi wastong chain ng certificate</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Ang paggamit ng system certificate ay hindi gaanong secure kaysa sa pag-imbak ng certificate sa Bitwarden. Ang pagpapatuloy ay magpapakita ng listahan ng mga available na system certificate kung mayroon nang naka-install.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Ang paggamit ng system certificate ay hindi gaanong secure kaysa sa pag-imbak ng certificate sa Multipass. Ang pagpapatuloy ay magpapakita ng listahan ng mga available na system certificate kung mayroon nang naka-install.</string>
     <string name="link">Link</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Nabigo ang operasyon ng passkey dahil wala ang host URL sa kahilingan.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Nabigo ang operasyon ng passkey dahil hindi wasto ang signature ng app.</string>
@@ -1004,8 +1004,8 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="experiencing_an_issue">Nakakaranas ng isyu?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">I-enable ang pansamantalang pag-log upang mangolekta at siyasatin ang mga log nang lokal. Kapag naka-enable, maaaring ma-log ang mga estado ng application at mga network call—hindi kailanman sensitibong impormasyon ng baul.</string>
     <string name="to_get_started_set_a_logging_duration">Upang magsimula, magtakda ng tagal ng pag-log. Awtomatikong mag-o-off ang pag-log pagkatapos ng panahong ito, na nagbibigay sa iyo ng oras upang makuha ang aktibidad habang ginagaya ang anumang mga isyu.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Awtomatikong tatanggalin ang mga log pagkatapos ng 30 araw. Ang Bitwarden ay makaka-access lamang sa iyong log data kapag ibinahagi mo ito.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">Para sa mga detalye kung ano ang nalo-log at hindi, bisitahin ang\n<annotation link="helpCenter">Bitwarden help center.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Awtomatikong tatanggalin ang mga log pagkatapos ng 30 araw. Ang Multipass ay makaka-access lamang sa iyong log data kapag ibinahagi mo ito.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">Para sa mga detalye kung ano ang nalo-log at hindi, bisitahin ang\n<annotation link="helpCenter">Multipass help center.</annotation></string>
     <string name="logging_duration">Tagal ng pag-log</string>
     <string name="flight_recorder_one_hour">1 oras</string>
     <string name="flight_recorder_eight_hours">8 oras</string>
@@ -1036,24 +1036,24 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="unable_to_read_certificate">Hindi mabasa ang certificate.</string>
     <string name="cannot_delete_your_account">Hindi matanggal ang iyong account</string>
     <string name="cannot_delete_your_account_explanation">Hindi makumpleto ang aksyon na ito dahil ang iyong account ay pagmamay-ari ng isang organisasyon. Makipag-ugnayan sa administrator ng iyong organisasyon para sa karagdagang detalye.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Ang account na ito ay malapit nang matanggal. Mag-log in sa %1$s upang patuloy na gamitin ang Bitwarden.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Ang account na ito ay malapit nang matanggal. Mag-log in sa %1$s upang patuloy na gamitin ang Multipass.</string>
     <string name="view_file_send">Tingnan ang file Send</string>
     <string name="view_text_send">Tingnan ang text Send</string>
     <string name="delete_send">I-delete ang Ipadala</string>
     <string name="missing_send_resync_your_vault">Nawawala ang Send, i-resync ang iyong baul</string>
     <string name="use_dynamic_colors">Gumamit ng dynamic na mga kulay</string>
     <string name="use_dynamic_colors_question">Gumamit ng dynamic na mga kulay?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ang color scheme na ito ay awtomatikong naglalapat ng mga kulay ng system sa Bitwarden batay sa iyong kasalukuyang wallpaper. Ang mga kulay na ito ay maaaring hindi matugunan ang lahat ng mga alituntunin sa accessibility.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Ang color scheme na ito ay awtomatikong naglalapat ng mga kulay ng system sa Multipass batay sa iyong kasalukuyang wallpaper. Ang mga kulay na ito ay maaaring hindi matugunan ang lahat ng mga alituntunin sa accessibility.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Nabigo ang operasyon ng passkey dahil hindi nakikilala ang browser (%1$s). Piliin ang \"Trust\" upang idagdag ang %1$s sa listahan ng mga lokal na pinagkakatiwalaang application.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Nabigo ang operasyon ng passkey dahil hindi pinagkakatiwalaan ang browser.</string>
     <string name="trust">Pagkatiwalaan</string>
-    <string name="trusted_by_you_learn_more">Ito ang mga application o browser na hindi pinagkakatiwalaan ng Bitwarden bilang default, ngunit pinagkakatiwalaan mo na magsagawa ng mga operasyon ng passkey.</string>
-    <string name="trusted_by_community_learn_more">Ito ang mga application na hindi kasama sa Google Play Store, ngunit pinagkakatiwalaan ng Bitwarden na magsagawa ng mga operasyon ng passkey pagkatapos gamitin at i-report ng mga miyembro ng komunidad bilang ligtas.</string>
+    <string name="trusted_by_you_learn_more">Ito ang mga application o browser na hindi pinagkakatiwalaan ng Multipass bilang default, ngunit pinagkakatiwalaan mo na magsagawa ng mga operasyon ng passkey.</string>
+    <string name="trusted_by_community_learn_more">Ito ang mga application na hindi kasama sa Google Play Store, ngunit pinagkakatiwalaan ng Multipass na magsagawa ng mga operasyon ng passkey pagkatapos gamitin at i-report ng mga miyembro ng komunidad bilang ligtas.</string>
     <string name="trusted_by_google_learn_more">Ito ang mga application na itinuturing ng Google na ligtas at available sa Google Play Store.</string>
     <string name="trusted_by_you">Pinagkakatiwalaan Mo</string>
     <string name="trusted_by_the_community">Pinagkakatiwalaan ng Komunidad</string>
     <string name="trusted_by_google">Pinagkakatiwalaan ng Google</string>
-    <string name="privileged_apps_description">Upang protektahan ang mga user mula sa mga pagtatangka ng phishing, bilang default, nakumpleto lamang ng Bitwarden ang mga operasyon ng passkey sa pamamagitan ng mga application o web browser na pinagkakatiwalaan ng Google o ng komunidad ng Bitwarden.</string>
+    <string name="privileged_apps_description">Upang protektahan ang mga user mula sa mga pagtatangka ng phishing, bilang default, nakumpleto lamang ng Multipass ang mga operasyon ng passkey sa pamamagitan ng mga application o web browser na pinagkakatiwalaan ng Google o ng komunidad ng Multipass.</string>
     <string name="about_privileged_applications">Tungkol sa mga privileged na application</string>
     <string name="learn_more_about_privileged_apps">Matuto pa tungkol sa mga privileged na app</string>
     <string name="privileged_apps">Mga privileged na app</string>
@@ -1155,10 +1155,10 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="items_are_collapsed_click_to_expand">Naka-collapse ang mga item, i-click upang i-expand.</string>
     <string name="error_cannot_decrypt">[error: hindi ma-decrypt]</string>
     <string name="copy_error_report">Kopyahin ang ulat ng error</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Hindi ma-decrypt ng Bitwarden ang item ng baul na ito. Kopyahin at ibahagi ang ulat ng error na ito sa customer success upang maiwasan ang karagdagang pagkawala ng data.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Hindi ma-decrypt ng Multipass ang item ng baul na ito. Kopyahin at ibahagi ang ulat ng error na ito sa customer success upang maiwasan ang karagdagang pagkawala ng data.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Hindi ma-decrypt ng Bitwarden ang %1$d na item ng baul. Kopyahin at ibahagi ang ulat ng error na ito sa customer success upang maiwasan ang karagdagang pagkawala ng data.</item>
-        <item quantity="other">Hindi ma-decrypt ng Bitwarden ang %1$d na mga item ng baul. Kopyahin at ibahagi ang ulat ng error na ito sa customer success upang maiwasan ang karagdagang pagkawala ng data.</item>
+        <item quantity="one">Hindi ma-decrypt ng Multipass ang %1$d na item ng baul. Kopyahin at ibahagi ang ulat ng error na ito sa customer success upang maiwasan ang karagdagang pagkawala ng data.</item>
+        <item quantity="other">Hindi ma-decrypt ng Multipass ang %1$d na mga item ng baul. Kopyahin at ibahagi ang ulat ng error na ito sa customer success upang maiwasan ang karagdagang pagkawala ng data.</item>
     </plurals>
     <string name="select_a_card_for_x">Pumili ng card para sa %s</string>
     <string name="advanced_options">Mga advanced na opsyon</string>
@@ -1166,8 +1166,8 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="keep_your_credential_secure">Panatilihing secure ang iyong mga kredensyal</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Matuto pa tungkol sa kung paano panatilihing secure ang mga kredensyal kapag gumagamit ng “%1$s”.</string>
     <string name="are_you_sure_you_want_to_use">Sigurado ka bang gusto mong gamitin ang “%1$s”?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Kinokontrol ng URI match detection kung paano tinutukoy ng Bitwarden ang mga mungkahi sa autofill.\n<annotation emphasis="bold">Babala:</annotation> Ang \"Regular expression\" ay isang advanced na opsyon na may mas mataas na panganib na ilantad ang mga kredensyal kung ginamit nang hindi tama.</string>
-    <string name="default_uri_match_detection_description_advanced_options">Kinokontrol ng URI match detection kung paano tinutukoy ng Bitwarden ang mga mungkahi sa autofill.\n<annotation emphasis="bold">Babala:</annotation> Ang \"Nagsisimula sa\" ay isang advanced na opsyon na may mas mataas na panganib na ilantad ang mga kredensyal.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Kinokontrol ng URI match detection kung paano tinutukoy ng Multipass ang mga mungkahi sa autofill.\n<annotation emphasis="bold">Babala:</annotation> Ang \"Regular expression\" ay isang advanced na opsyon na may mas mataas na panganib na ilantad ang mga kredensyal kung ginamit nang hindi tama.</string>
+    <string name="default_uri_match_detection_description_advanced_options">Kinokontrol ng URI match detection kung paano tinutukoy ng Multipass ang mga mungkahi sa autofill.\n<annotation emphasis="bold">Babala:</annotation> Ang \"Nagsisimula sa\" ay isang advanced na opsyon na may mas mataas na panganib na ilantad ang mga kredensyal.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">Ang \"Nagsisimula sa\" ay isang advanced na opsyon na may mas mataas na panganib na ilantad ang mga kredensyal.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">Ang \"Regular expression\" ay isang advanced na opsyon na may mas mataas na panganib na ilantad ang mga kredensyal kung ginamit nang hindi tama.</string>
     <string name="later">Mamaya</string>
@@ -1192,17 +1192,17 @@ Gusto mo bang pumunta sa account na ito?</string>
         <item quantity="other">%1$d na mga item ang na-import sa iyong baul.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">I-enable ang browser Autofill upang patuloy na punan ang mga password</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Ang iyong browser ay na-update kamakailan, na nag-disable sa Bitwarden autofill. Upang magpatuloy sa pagpuno ng iyong mga password gamit ang Bitwarden, i-enable ang browser autofill sa mga setting ng autofill.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Ang iyong browser ay na-update kamakailan, na nag-disable sa Multipass autofill. Upang magpatuloy sa pagpuno ng iyong mga password gamit ang Multipass, i-enable ang browser autofill sa mga setting ng autofill.</string>
     <string name="not_now">Hindi ngayon</string>
     <string name="import_from_bitwarden">Mag-import mula sa Bitwarden</string>
     <string name="select_account">Pumili ng account</string>
     <string name="no_accounts_available">Walang available na account</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">Wala kang anumang account na maaari mong pag-importan. Maaaring paghigpitan ng patakaran sa seguridad ng iyong organisasyon ang pag-import ng mga item mula sa Bitwarden patungo sa ibang app.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">Wala kang anumang account na maaari mong pag-importan. Maaaring paghigpitan ng patakaran sa seguridad ng iyong organisasyon ang pag-import ng mga item mula sa Multipass patungo sa ibang app.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Pinaghihigpitan ang pag-import, hindi ma-import ang mga card mula sa account na ito.</string>
     <string name="verify_your_master_password">I-verify ang iyong master password</string>
     <string name="having_trouble_with_autofill">Nagkakaroon ng problema sa autofill?</string>
     <string name="access_help_and_troubleshooting_documentation_here">I-access ang tulong at dokumentasyon sa pag-troubleshoot dito</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Mag-import ng mga password, passkey, at iba pang uri ng item mula sa iyong Bitwarden vault.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Mag-import ng mga password, passkey, at iba pang uri ng item mula sa iyong Multipass vault.</string>
     <string name="items_to_import">Mga item na i-import</string>
     <string name="exporting_items">Nag-e-export ng mga item…</string>
     <string name="export_failed">Nabigo ang pag-export</string>
@@ -1266,7 +1266,7 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Magpasok ng hindi bababa sa isang wastong email address upang ibahagi ang Send na ito.</string>
     <string name="sync_with_browser">Mag-sync sa browser</string>
-    <string name="sync_with_browser_description">Upang kumonekta sa %1$s, i-sync ang iyong default na browser sa Bitwarden mobile app. Kapag bumukas ang iyong browser, kumpletuhin ang pag-sign in kung i-prompt.\nKapag kumpleto na ang pag-sync, babalik ka sa app na ito.</string>
+    <string name="sync_with_browser_description">Upang kumonekta sa %1$s, i-sync ang iyong default na browser sa Multipass mobile app. Kapag bumukas ang iyong browser, kumpletuhin ang pag-sign in kung i-prompt.\nKapag kumpleto na ang pag-sync, babalik ka sa app na ito.</string>
     <string name="launch_browser">Ilunsad ang browser</string>
     <string name="continue_without_syncing">Magpatuloy nang hindi nagsi-sync</string>
     <string name="external_link">Panlabas na link</string>
@@ -1292,7 +1292,7 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="trusted">Pinagkakatiwalaan</string>
     <string name="preview_not_available_for_files">Hindi available ang preview para sa mga file na %1$s. Maaari mo pa rin itong i-download upang tingnan sa iyong device.</string>
     <string name="this_file_is_too_large_to_preview">Masyadong malaki ang file na ito para i-preview. Maaari mo pa rin itong i-download upang tingnan sa iyong device.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Hindi ma-decrypt ng Bitwarden ang file na ito, kaya hindi maipapakita ang preview.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Hindi ma-decrypt ng Multipass ang file na ito, kaya hindi maipapakita ang preview.</string>
     <string name="preview_unavailable_for_this_file">Hindi available ang preview para sa file na ito. Maaari mo pa rin itong i-download upang tingnan sa iyong device.</string>
     <string name="preview_unavailable">Hindi available ang preview</string>
     <string name="download_attachment">I-download ang Attachment</string>
@@ -1425,8 +1425,8 @@ Gusto mo bang pumunta sa account na ito?</string>
     <string name="local_network_access_required">Kinakailangan ang lokal na network access</string>
     <string name="ask_again_later">Magtanong muli mamaya</string>
     <string name="enable_local_network_access">I-enable ang lokal na network access</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Kailangan ng Bitwarden ng lokal na network access upang mag-sync sa iyong server. Kung wala ang pahintulot na ito, hindi makakakonekta ang app.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Kung wala ang pahintulot na ito, hindi makakakonekta at makakapag-sync ang Bitwarden sa iyong server. Maaari mo itong i-enable sa mga setting ng iyong device.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Kailangan ng Multipass ng lokal na network access upang mag-sync sa iyong server. Kung wala ang pahintulot na ito, hindi makakakonekta ang app.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Kung wala ang pahintulot na ito, hindi makakakonekta at makakapag-sync ang Multipass sa iyong server. Maaari mo itong i-enable sa mga setting ng iyong device.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Naantala ang iyong kahilingan dahil kailangan ng app ng lokal na network access. Maaari mo itong i-enable sa mga setting ng iyong device.</string>
     <string name="continue_to_stripe">Magpatuloy sa Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Dadalin ka sa Stripe upang pamahalaan ang pagkansela ng iyong subscription.</string>

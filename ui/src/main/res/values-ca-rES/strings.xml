@@ -75,9 +75,9 @@
     <string name="yes">Sí</string>
     <string name="account">Compte</string>
     <string name="account_created_success">S\'ha creat el vostre compte nou!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Estableix Bitwarden com a proveïdor de claus de pas a la configuració del dispositiu.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Estableix Multipass com a proveïdor de claus de pas a la configuració del dispositiu.</string>
     <string name="avoid_ambiguous_characters">Eviteu caràcters ambigus</string>
-    <string name="bitwarden_autofill_service">Servei d\'emplenament automàtic de Bitwarden</string>
+    <string name="bitwarden_autofill_service">Servei d\'emplenament automàtic de Multipass</string>
     <string name="change_master_password">Canvia la contrasenya mestra</string>
     <string name="close">Tanca</string>
     <string name="close_app">Tanca l\'aplicació</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Establir el temps d\'espera de la sessió a “Tancar sessió”?</string>
     <string name="vault_timeout_log_out_confirmation_message">Després del període d\'inactivitat, es tancarà la sessió. Haureu d\'estar connectat a Internet per iniciar sessió i accedir de nou a la caixa forta. La configuració i el PIN guardats en aquest dispositiu no canviaran.</string>
     <string name="logging_in">S\'està iniciant sessió…</string>
-    <string name="login_to_bitwarden">Inicia sessió a Bitwarden</string>
+    <string name="login_to_bitwarden">Inicia sessió a Multipass</string>
     <string name="master_password_confirmation_val_message">La confirmació de la contrasenya no és correcta.</string>
     <string name="master_password_description">La contrasenya mestra és la clau que utilitzeu per accedir a la vostra caixa forta. És molt important que no la oblideu. No hi ha manera de recuperar-la en cas de perdre-la.</string>
     <string name="master_password_hint">Pista de la contrasenya mestra (opcional)</string>
@@ -169,14 +169,14 @@
     <string name="view_identity">Veure identitat</string>
     <string name="view_note">Veure nota</string>
     <string name="view_ssh_key">Veure clau SSH</string>
-    <string name="web_vault">Caixa forta web de Bitwarden</string>
+    <string name="web_vault">Caixa forta web de Multipass</string>
     <string name="items">Elements</string>
     <string name="items_for_uri">Elements per a %1$s</string>
     <string name="no_items_for_uri">No hi ha elements a la vostra caixa forta per a %1$s.</string>
     <string name="no_items_for_vault">No hi ha cap element a la caixa forta que coincidisca amb \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Cerca un inici de sessió o afegeix-ne un de nou</string>
     <string name="disabled">No</string>
-    <string name="bitwarden_autofill_service_alert2">La forma més senzilla d\'afegir nous inicis de sessió a la caixa forta és amb el servei d\'emplenament automàtic de Bitwarden. Obteniu més informació sobre com utilitzar el servei en la pantalla \"Eines\".</string>
+    <string name="bitwarden_autofill_service_alert2">La forma més senzilla d\'afegir nous inicis de sessió a la caixa forta és amb el servei d\'emplenament automàtic de Multipass. Obteniu més informació sobre com utilitzar el servei en la pantalla \"Eines\".</string>
     <string name="autofill_noun">Emplenament automàtic</string>
     <string name="autofill_verb">Emplenament automàtic</string>
     <string name="autofill_or_view">Voleu omplir automàticament o visualitzar aquest element?</string>
@@ -228,7 +228,7 @@ L\'escaneig es farà automàticament.</string>
     <string name="environment_saved">S\'han guardat les URL de l\'entorn.</string>
     <string name="identity_url">URL del servidor d\'identitat</string>
     <string name="self_hosted_environment">Entorn d\'allotjament propi</string>
-    <string name="self_hosted_environment_footer">Especifiqueu l\'URL base de la vostra instal·lació de Bitwarden allotjada en un entorn propi.</string>
+    <string name="self_hosted_environment_footer">Especifiqueu l\'URL base de la vostra instal·lació de Multipass allotjada en un entorn propi.</string>
     <string name="server_url">URL del servidor</string>
     <string name="web_vault_url">URL del servidor de la caixa forta</string>
     <string name="custom_fields">Camps personalitzats</string>
@@ -298,7 +298,7 @@ L\'escaneig es farà automàticament.</string>
     <string name="no_items_folder">No hi ha elements en aquesta carpeta.</string>
     <string name="no_items_trash">No hi ha elements a la paperera.</string>
     <string name="autofill_accessibility_summary">Ajuda a omplir els camps de nom d\'usuari i contrasenya en altres aplicacions i al web.</string>
-    <string name="autofill_service_description">El servei d\'emplenament automàtic de Bitwarden utilitza el marc d\'emplenament automàtic d\'Android per ajudar-vos a omplir la informació d\'inici de sessió a altres aplicacions del vostre dispositiu.</string>
+    <string name="autofill_service_description">El servei d\'emplenament automàtic de Multipass utilitza el marc d\'emplenament automàtic d\'Android per ajudar-vos a omplir la informació d\'inici de sessió a altres aplicacions del vostre dispositiu.</string>
     <string name="bitwarden_autofill_go_to_settings">No hem pogut obrir automàticament el menú de configuració de l\'emplenament automàtic d\'Android. Podeu anar manualment des de la configuració d\'Android &gt; Sistema &gt; Idiomes i entrada &gt; Avançat &gt; Servei d\'emplenament automàtic.</string>
     <string name="custom_field_name">Nom del camp personalitzat</string>
     <string name="field_type_boolean">Booleà</string>
@@ -387,7 +387,7 @@ L\'escaneig es farà automàticament.</string>
     <string name="clear_clipboard">Buida el porta-retalls</string>
     <string name="clear_clipboard_description">Esborra automàticament els valors copiats del porta-retalls.</string>
     <string name="default_uri_match_detection">Detecció de coincidències URI per defecte</string>
-    <string name="default_uri_match_detection_description">La detecció de coincidència d\'URI controla com Bitwarden identifica les suggerències d\'emplenament automàtic.</string>
+    <string name="default_uri_match_detection_description">La detecció de coincidència d\'URI controla com Multipass identifica les suggerències d\'emplenament automàtic.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Canvia el tema de color de l\'aplicació.</string>
     <string name="copy_notes">Copia nota</string>
@@ -423,7 +423,7 @@ L\'escaneig es farà automàticament.</string>
     <string name="password_generator_policy_in_effect">Una o més polítiques d’organització afecten la configuració del generador.</string>
     <string name="unable_to_save_attachment">S\'ha produït un problema en guardar aquest fitxer adjunt. Si el problema continua, podeu guardar-lo des del web.</string>
     <string name="save_attachment_success">L\'adjunt s\'ha guardat correctament</string>
-    <string name="autofill_tile_accessibility_required">Activeu \"Servei d\'accessibilitat d\'emplenament automàtic\" de la configuració de Bitwarden per utilitzar el mosaic d\'emplenament automàtic.</string>
+    <string name="autofill_tile_accessibility_required">Activeu \"Servei d\'accessibilitat d\'emplenament automàtic\" de la configuració de Multipass per utilitzar el mosaic d\'emplenament automàtic.</string>
     <string name="autofill_tile_uri_not_found">No s\'han detectat camps de contrasenya</string>
     <string name="soft_deleting">Enviant a la paperera…</string>
     <string name="item_soft_deleted">L\'element s\'ha enviat a la paperera.</string>
@@ -636,9 +636,9 @@ seleccioneu Afegeix TOTP per emmagatzemar la clau de manera segura</string>
     <string name="catch_all_email_description">Utilitza la safata d\'entrada comodí configurada del teu domini.</string>
     <string name="forwarded_email_description">Genera un àlies de correu electrònic amb un servei de reenviament extern.</string>
     <string name="accessibility_service_disclosure">Divulgació del servei d\'accessibilitat</string>
-    <string name="accessibility_disclosure_text">Bitwarden utilitza el Servei d\'Accessibilitat per cercar camps d\'inici de sessió en aplicacions i llocs web i, a continuació, establir els ID de camp adequats per introduir un nom d\'usuari i una contrasenya quan es trobe una coincidència per a l\'aplicació o el lloc. No emmagatzemem cap de la informació que ens presenta el servei, ni intentem controlar cap element de la pantalla més enllà de l\'entrada de text de les credencials.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Aquest avís és necessari abans que Bitwarden pugui oferir l\'emplenament automàtic basat en accessibilitat.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden ofereix un mètode opcional d\'emplenament automàtic que utilitza el servei d\'accessibilitat d\'Android per detectar camps d\'inici de sessió. Si l\'actives, Bitwarden identificarà els camps adequats i emplenarà les teves credencials quan es trobi una coincidència.</string>
+    <string name="accessibility_disclosure_text">Multipass utilitza el Servei d\'Accessibilitat per cercar camps d\'inici de sessió en aplicacions i llocs web i, a continuació, establir els ID de camp adequats per introduir un nom d\'usuari i una contrasenya quan es trobe una coincidència per a l\'aplicació o el lloc. No emmagatzemem cap de la informació que ens presenta el servei, ni intentem controlar cap element de la pantalla més enllà de l\'entrada de text de les credencials.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Aquest avís és necessari abans que Multipass pugui oferir l\'emplenament automàtic basat en accessibilitat.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass ofereix un mètode opcional d\'emplenament automàtic que utilitza el servei d\'accessibilitat d\'Android per detectar camps d\'inici de sessió. Si l\'actives, Multipass identificarà els camps adequats i emplenarà les teves credencials quan es trobi una coincidència.</string>
     <string name="accessibility_disclosure_start_up_text_3">No emmagatzemem cap informació sobre el que es mostra a la pantalla mentre utilitzes el servei d\'accessibilitat, i no controlem cap element de la pantalla més enllà de l\'entrada de credencials.</string>
     <string name="i_understand">Ho entenc</string>
     <string name="accept">Accepta</string>
@@ -647,7 +647,7 @@ seleccioneu Afegeix TOTP per emmagatzemar la clau de manera segura</string>
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Intent d\'inici de sessió des de:
 %1$s
 Voleu canviar a aquest compte?</string>
-    <string name="new_to_bitwarden">Nou a Bitwarden?</string>
+    <string name="new_to_bitwarden">Nou a Multipass?</string>
     <string name="get_master_passwordword_hint">Obteniu la pista de la contrasenya mestra</string>
     <string name="logging_in_as_x_on_y">Inici de sessió com a %1$s a %2$s</string>
     <string name="not_you">No sou vosaltres?</string>
@@ -704,7 +704,7 @@ Voleu canviar a aquest compte?</string>
     <string name="invalid_uri">URI no vàlid</string>
     <string name="the_urix_is_already_blocked">L\'URI %1$s ja està bloquejat</string>
     <string name="login_approved">S\'ha aprovat l\'inici de sessió</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">L\'inici de sessió amb dispositiu s\'ha de configurar a la configuració de l\'aplicació Bitwarden.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">L\'inici de sessió amb dispositiu s\'ha de configurar a la configuració de l\'aplicació Multipass.</string>
     <string name="need_another_option_view_all_login_options">Necessites una altra opció? <annotation link="viewAll">Mostra totes les opcions d\'inici de sessió</annotation></string>
     <string name="log_in_with_device">Inici de sessió amb dispositiu</string>
     <string name="logging_in_on">Inici de sessió en</string>
@@ -719,8 +719,8 @@ Voleu canviar a aquest compte?</string>
     <string name="session_timeout">Temps de sessió</string>
     <string name="session_timeout_action">Acció de temps d\'espera de la sessió</string>
     <string name="account_fingerprint_phrase">Frase d\'empremta digital</string>
-    <string name="passkey_management_explanation_long">Utilitzeu Bitwarden per guardar claus de pas noves i iniciar sessió amb les claus emmagatzemades a la vostra caixa forta.</string>
-    <string name="autofill_services_explanation_long">Permet que Bitwarden utilitze la informació d\'inici de sessió guardada per iniciar la sessió a altres aplicacions del dispositiu.</string>
+    <string name="passkey_management_explanation_long">Utilitzeu Multipass per guardar claus de pas noves i iniciar sessió amb les claus emmagatzemades a la vostra caixa forta.</string>
+    <string name="autofill_services_explanation_long">Permet que Multipass utilitze la informació d\'inici de sessió guardada per iniciar la sessió a altres aplicacions del dispositiu.</string>
     <string name="use_inline_autofill_explanation_long">Trieu com apareixeran els suggeriments d\'emplenament automàtic quan inicieu la sessió en altres aplicacions del vostre dispositiu.</string>
     <string name="additional_options">Opcions addicionals</string>
     <string name="continue_to_web_app">Continua cap a l\'aplicació web?</string>
@@ -728,11 +728,11 @@ Voleu canviar a aquest compte?</string>
     <string name="continue_to_help_center">Voleu continuar cap al Centre d\'ajuda?</string>
     <string name="continue_to_privacy_policy">Voleu continuar amb la política de privadesa?</string>
     <string name="continue_to_device_settings">Voleu continuar a la configuració del dispositiu?</string>
-    <string name="two_step_login_description_long">Fes que el vostre compte siga més segur configurant l\'inici de sessió en dos passos a l\'aplicació web de Bitwarden.</string>
-    <string name="change_master_password_description_long">Podeu canviar la vostra contrasenya mestra a l\'aplicació web de Bitwarden.</string>
+    <string name="two_step_login_description_long">Fes que el vostre compte siga més segur configurant l\'inici de sessió en dos passos a l\'aplicació web de Multipass.</string>
+    <string name="change_master_password_description_long">Podeu canviar la vostra contrasenya mestra a l\'aplicació web de Multipass.</string>
     <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Obteniu més informació sobre com utilitzar Bitwarden al Centre d\'ajuda.</string>
     <string name="privacy_policy_description_long">Consulteu la nostra política de privadesa a bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Exploreu més característiques del vostre compte Bitwarden a l\'aplicació web.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Exploreu més característiques del vostre compte Multipass a l\'aplicació web.</string>
     <string name="learn_about_organizations_description_long">Bitwarden us permet compartir els elements de la vostra caixa forta amb altres usuaris mitjançant una organització. Més informació al lloc web bitwarden.com.</string>
     <string name="created_x">Creat %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">La vostra organització requereix que establiu una contrasenya mestra.</string>
@@ -743,8 +743,8 @@ Voleu canviar a aquest compte?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Es requereix l\'inici de sessió en dos passos de DUO al vostre compte.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Seguiu els passos de Duo per acabar d\'iniciar la sessió.</string>
     <string name="launch_duo">Inicia DUO</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">La clau d\'accés es guardarà a la caixa forta de Bitwarden per a %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">La teva contrasenya es desarà al teu cofre de Bitwarden per a %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">La clau d\'accés es guardarà a la caixa forta de Multipass per a %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">La teva contrasenya es desarà al teu cofre de Multipass per a %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Les claus de pas no són compatibles amb aquesta aplicació</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">L\'operació de la clau de pas ha fallat perquè el navegador no té privilegis</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">L\'operació de la clau de pas ha fallat perquè la signatura del navegador no coincideix</string>
@@ -772,13 +772,13 @@ Voleu canviar a aquest compte?</string>
     <string name="email_verified">Correu electrònic verificat</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Rep correus electrònics de Bitwarden per a anuncis, consells i oportunitats de recerca. <annotation link="unsubscribe">Donar-se de baixa</annotation> en qualsevol moment.</string>
     <string name="security_prioritized">Seguretat, prioritzada</string>
-    <string name="welcome_message_1">Guardeu els inicis de sessió, les targetes i les identitats a la caixa forta. Bitwarden utilitza un xifratge d\'extrem a extrem de coneixement zero per protegir el que és important per a vosaltres.</string>
+    <string name="welcome_message_1">Guardeu els inicis de sessió, les targetes i les identitats a la caixa forta. Multipass utilitza un xifratge d\'extrem a extrem de coneixement zero per protegir el que és important per a vosaltres.</string>
     <string name="welcome_message_2">Configura el desbloqueig biomètric i l\'emplenament automàtic per iniciar sessió als teus comptes sense escriure ni una lletra.</string>
     <string name="quick_and_easy_login">Inici de sessió ràpid i fàcil</string>
     <string name="level_up_your_logins">Augmenteu el nivell dels vostres inicis de sessió</string>
     <string name="welcome_message_3">Utilitzeu el generador per crear i guardar contrasenyes úniques i fortes per a tots els vostres comptes.</string>
     <string name="your_data_when_and_where_you_need_it">Les teues dades, quan i on les necessites</string>
-    <string name="welcome_message_4">Guardeu contrasenyes il·limitades en dispositius il·limitats amb les aplicacions per a mòbils, navegadors i escriptori de Bitwarden.</string>
+    <string name="welcome_message_4">Guardeu contrasenyes il·limitades en dispositius il·limitats amb les aplicacions per a mòbils, navegadors i escriptori de Multipass.</string>
     <string name="remove_passkey">Suprimeix la clau de pas</string>
     <string name="passkey_removed">Clau de pas suprimida</string>
     <string name="what_makes_a_password_strong">Què fa que una contrasenya sigui forta?</string>
@@ -808,8 +808,8 @@ Voleu canviar a aquest compte?</string>
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Selecciona l\'enllaç al correu electrònic per verificar la teva adreça de correu i continuar creant el teu compte.</string>
     <string name="change_email_address">Canvia l\'adreça de correu electrònic</string>
     <string name="next">Següent</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden no pot recuperar una contrasenya mestra perduda o oblidada.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden no pot restablir una contrasenya mestra perduda o oblidada.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass no pot recuperar una contrasenya mestra perduda o oblidada.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass no pot restablir una contrasenya mestra perduda o oblidada.</string>
     <string name="choose_your_master_password">Trieu la contrasenya mestra</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Tria una contrasenya única i forta per mantenir la teva informació segura.</string>
     <plurals name="minimum_characters">
@@ -825,16 +825,16 @@ Voleu canviar a aquest compte?</string>
     <string name="turn_on_autofill">Activeu l\'emplenament automàtic</string>
     <string name="autofill_setup">Configuració d\'emplenament automàtic</string>
     <string name="turn_on_browser_autofill_integration">Activa la integració d\'emplenament automàtic al navegador</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Bitwarden pugui emplenar automàticament les teves contrasenyes.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Bitwarden pugui emplenar automàticament les teves contrasenyes.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Bitwarden pugui emplenar automàticament les teves contrasenyes. Activa la integració d\'emplenament automàtic que prefereixis a continuació.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Bitwarden pugui emplenar automàticament les teves contrasenyes. Activa l\'emplenament automàtic per a tots els teus navegadors instal·lats per continuar.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Multipass pugui emplenar automàticament les teves contrasenyes.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Multipass pugui emplenar automàticament les teves contrasenyes.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Estàs utilitzant un navegador que requereix permisos especials perquè Multipass pugui emplenar automàticament les teves contrasenyes. Activa la integració d\'emplenament automàtic que prefereixis a continuació.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Estàs utilitzant navegadors que requereixen permisos especials perquè Multipass pugui emplenar automàticament les teves contrasenyes. Activa l\'emplenament automàtic per a tots els teus navegadors instal·lats per continuar.</string>
     <string name="use_autofill_to_log_into_your_accounts">Utilitza l\'emplenament automàtic per iniciar sessió als teus comptes amb un sol toc.</string>
     <string name="turn_on_later">Activa més tard</string>
     <string name="turn_on_autofill_later">Activar l\'emplenament automàtic més tard?</string>
     <string name="turn_on_browser_autofill_integration_later">Activar la integració d\'emplenament automàtic al navegador més tard?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Pots tornar per completar aquest pas en qualsevol moment a Configuració.</string>
-    <string name="what_bitwarden_has_to_offer">Ara pots explorar tot el que Bitwarden té per oferir i començar a gestionar les teves contrasenyes de manera segura.</string>
+    <string name="what_bitwarden_has_to_offer">Ara pots explorar tot el que Multipass té per oferir i començar a gestionar les teves contrasenyes de manera segura.</string>
     <string name="youre_all_set">Ja està tot a punt!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">S\'ha produït un error en connectar amb el servei Duo. Utilitzeu un mètode d\'inici de sessió en dos passos diferent o poseu-vos en contacte amb Duo per obtenir ajuda.</string>
     <string name="master_password_hint_not_specified">Pista de la contrasenya mestra</string>
@@ -853,7 +853,7 @@ Voleu canviar a aquest compte?</string>
     <string name="do_you_have_a_computer_available">Tens un ordinador disponible?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Les instruccions següents et guiaran en la importació d\'inicis de sessió des del teu ordinador de sobretaula o portàtil</string>
     <string name="import_logins">Importa inicis de sessió</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Des de l\'ordinador, seguiu aquestes instruccions per exportar les contrasenyes guardades del navegador o d\'un altre gestor de contrasenyes. A continuació, importeu-les de manera segura a Bitwarden.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Des de l\'ordinador, seguiu aquestes instruccions per exportar les contrasenyes guardades del navegador o d\'un altre gestor de contrasenyes. A continuació, importeu-les de manera segura a Multipass.</string>
     <string name="give_your_vault_a_head_start">Dona-li un impuls a la teua caixa forta</string>
     <string name="class_3_biometrics_description">El desbloqueig amb dades biomètriques requereix una autenticació biomètrica forta i és possible que no siga compatible amb totes les opcions biomètriques d\'aquest dispositiu.</string>
     <string name="class_2_biometrics_description">El desbloqueig amb dades biomètriques requereix una autenticació biomètrica forta i és possible que no siga compatible amb totes les opcions biomètriques d\'aquest dispositiu.</string>
@@ -864,18 +864,18 @@ Voleu canviar a aquest compte?</string>
     <string name="export_your_saved_logins">Exporta els teus inicis de sessió desats</string>
     <string name="delete_this_file_after_import_is_complete">Eliminaràs aquest fitxer després que la importació s\'hagi completat.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Al teu ordinador, obre una nova pestanya del navegador i <annotation emphasis="bold">vés a <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Inicia sessió a l\'aplicació web de Bitwarden.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Inicia sessió a l\'aplicació web de Multipass.</string>
     <string name="step_2_of_3">Pas 2 de 3</string>
-    <string name="log_in_to_bitwarden">Inicia sessió a Bitwarden</string>
+    <string name="log_in_to_bitwarden">Inicia sessió a Multipass</string>
     <string name="step_3_of_3">Pas 3 de 3</string>
-    <string name="import_logins_to_bitwarden">Importar inicis de sessió a Bitwarden</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">A la navegació de Bitwarden, <annotation emphasis="bold">troba l\'opció Eines</annotation> i <annotation emphasis="bold">selecciona Importa dades.</annotation></string>
+    <string name="import_logins_to_bitwarden">Importar inicis de sessió a Multipass</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">A la navegació de Multipass, <annotation emphasis="bold">troba l\'opció Eines</annotation> i <annotation emphasis="bold">selecciona Importa dades.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Omple el formulari i <annotation emphasis="bold">importa el fitxer de contrasenyes desades.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Per la teva seguretat, assegura\'t d\'<annotation emphasis="bold">eliminar el fitxer de contrasenyes desades.</annotation></string>
     <string name="need_help_check_out_import_help">Necessites ajuda? Consulta l\'<annotation link="importHelp">ajuda d\'importació</annotation>.</string>
     <string name="import_help">ajuda d\'importació</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Desa el fitxer exportat</annotation> en algun lloc del teu ordinador on puguis trobar-lo fàcilment.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Aquest no és un servidor de Bitwarden reconegut. Potser has de consultar amb el teu proveïdor o actualitzar el teu servidor.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Aquest no és un servidor de Multipass reconegut. Potser has de consultar amb el teu proveïdor o actualitzar el teu servidor.</string>
     <string name="syncing_logins_loading_message">Sincronitzant inicis de sessió…</string>
     <string name="download_the_browser_extension">Descarrega l\'extensió del navegador</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Vés a bitwarden.com/download per integrar Bitwarden al teu navegador favorit per a una experiència sense problemes.</string>
@@ -884,8 +884,8 @@ Voleu canviar a aquest compte?</string>
     <string name="autofill_passwords">Emplenament automàtic de contrasenyes</string>
     <string name="set_up_autofill_on_all_your_devices">Configura l\'emplenament automàtic en tots els teus dispositius per iniciar sessió amb un sol toc a qualsevol lloc.</string>
     <string name="import_successful">Importació exitosa!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestiona els teus inicis de sessió des de qualsevol lloc amb les eines de Bitwarden per a web i escriptori.</string>
-    <string name="bitwarden_tools">Eines de Bitwarden</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Gestiona els teus inicis de sessió des de qualsevol lloc amb les eines de Multipass per a web i escriptori.</string>
+    <string name="bitwarden_tools">Eines de Multipass</string>
     <string name="got_it">D\'acord</string>
     <string name="no_logins_were_imported">No s\'ha importat cap inici de sessió</string>
     <string name="import_error">Error d\'importació</string>
@@ -903,7 +903,7 @@ Voleu canviar a aquest compte?</string>
         <item quantity="other">%d notificacions</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Inicia sessió ràpidament i fàcilment en diversos dispositius</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden et pot notificar cada vegada que rebis una nova sol·licitud d\'inici de sessió des d\'un altre dispositiu.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass et pot notificar cada vegada que rebis una nova sol·licitud d\'inici de sessió des d\'un altre dispositiu.</string>
     <string name="skip_for_now">Omet per ara</string>
     <string name="done_text">Fet</string>
     <string name="page_number_x_of_y">%1$s de %2$s</string>
@@ -928,7 +928,7 @@ Voleu canviar a aquest compte?</string>
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Afegeix un número o símbol</annotation> per fer-la encara més forta. Ara tens una frase de contrasenya única, segura i fàcil de recordar!</string>
     <string name="need_some_inspiration">Necessites inspiració?</string>
     <string name="check_out_the_passphrase_generator">Consulta el generador de frases de contrasenya</string>
-    <string name="we_couldnt_verify_the_servers_certificate">No hem pogut verificar el certificat del servidor. Potser la cadena de certificats o la configuració del proxy al teu dispositiu o al teu servidor de Bitwarden no estan configurades correctament.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">No hem pogut verificar el certificat del servidor. Potser la cadena de certificats o la configuració del proxy al teu dispositiu o al teu servidor de Multipass no estan configurades correctament.</string>
     <string name="copy_private_key">Copia la clau privada</string>
     <string name="login_credentials">Credencials d\'inici de sessió</string>
     <string name="autofill_options">Opcions d\'emplenament automàtic</string>
@@ -955,7 +955,7 @@ Voleu canviar a aquest compte?</string>
     <string name="coachmark_5_of_6">5 DE 6</string>
     <string name="coachmark_6_of_6">6 DE 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Utilitza aquestes opcions per ajustar la contrasenya als requisits del lloc web del teu compte.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Després de desar la nova contrasenya a Bitwarden, no oblidis actualitzar-la al lloc web del teu compte.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Després de desar la nova contrasenya a Multipass, no oblidis actualitzar-la al lloc web del teu compte.</string>
     <string name="verify_your_identity">Verifica la teva identitat</string>
     <string name="error_loading_certificate">Error en carregar el certificat</string>
     <string name="certificate_alias">Àlies del certificat</string>
@@ -966,7 +966,7 @@ Voleu canviar a aquest compte?</string>
     <string name="unsupported_certificate_type">Tipus de certificat no compatible</string>
     <string name="certificate_password_incorrect">Contrasenya del certificat incorrecta</string>
     <string name="invalid_certificate_chain">Cadena de certificats no vàlida</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Utilitzar un certificat del sistema és menys segur que emmagatzemar el certificat amb Bitwarden. Si continueu, es mostrarà una llista de certificats del sistema disponibles si n\'hi ha algun ja instal·lat.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Utilitzar un certificat del sistema és menys segur que emmagatzemar el certificat amb Multipass. Si continueu, es mostrarà una llista de certificats del sistema disponibles si n\'hi ha algun ja instal·lat.</string>
     <string name="link">Enllaç</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">L\'operació de clau d\'accés ha fallat perquè la URL de l\'amfitrió no és present a la sol·licitud.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">L\'operació de clau d\'accés ha fallat perquè la signatura de l\'aplicació no és vàlida.</string>
@@ -1004,8 +1004,8 @@ Voleu canviar a aquest compte?</string>
     <string name="experiencing_an_issue">Estàs experimentant un problema?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">Activa el registre temporal per recollir i inspeccionar els registres localment. Quan està activat, es poden registrar els estats de l\'aplicació i les trucades de xarxa—mai informació sensible del cofre.</string>
     <string name="to_get_started_set_a_logging_duration">Per començar, estableix una durada de registre. El registre s\'apagarà automàticament després d\'aquest període, donant-te temps per capturar l\'activitat mentre reprodueixes qualsevol problema.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Els registres s\'eliminaran automàticament després de 30 dies. Bitwarden només pot accedir a les teves dades de registre quan les comparteixes.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">Per obtenir detalls sobre què es registra i què no, visita el\n<annotation link="helpCenter">Centre d\'ajuda de Bitwarden.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Els registres s\'eliminaran automàticament després de 30 dies. Multipass només pot accedir a les teves dades de registre quan les comparteixes.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">Per obtenir detalls sobre què es registra i què no, visita el\n<annotation link="helpCenter">Centre d\'ajuda de Multipass.</annotation></string>
     <string name="logging_duration">Durada del registre</string>
     <string name="flight_recorder_one_hour">1 hora</string>
     <string name="flight_recorder_eight_hours">8 hores</string>
@@ -1036,7 +1036,7 @@ Voleu canviar a aquest compte?</string>
     <string name="unable_to_read_certificate">No s\'ha pogut llegir el certificat.</string>
     <string name="cannot_delete_your_account">No es pot eliminar el teu compte</string>
     <string name="cannot_delete_your_account_explanation">Aquesta acció no es pot completar perquè el teu compte és propietat d\'una organització. Contacta amb l\'administrador de la teva organització per obtenir més detalls.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Aquest compte s\'eliminarà aviat. Inicia sessió a %1$s per continuar utilitzant Bitwarden.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Aquest compte s\'eliminarà aviat. Inicia sessió a %1$s per continuar utilitzant Multipass.</string>
     <string name="view_file_send">Veure enviament de fitxer</string>
     <string name="view_text_send">Veure enviament de text</string>
     <string name="delete_send">Suprimeix el Send</string>
@@ -1047,13 +1047,13 @@ Voleu canviar a aquest compte?</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">L\'operació de clau d\'accés ha fallat perquè el navegador (%1$s) no és reconegut. Selecciona “Confiar” per afegir %1$s a la llista d\'aplicacions de confiança locals.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">L\'operació de clau d\'accés ha fallat perquè el navegador no és de confiança.</string>
     <string name="trust">Confiar</string>
-    <string name="trusted_by_you_learn_more">Aquestes són aplicacions o navegadors que Bitwarden no confia per defecte, però en què confies per realitzar operacions de clau d\'accés.</string>
-    <string name="trusted_by_community_learn_more">Aquestes són aplicacions no incloses a la Google Play Store, però en què Bitwarden confia per realitzar operacions de clau d\'accés després que els membres de la comunitat les utilitzin i les reportin com a segures.</string>
+    <string name="trusted_by_you_learn_more">Aquestes són aplicacions o navegadors que Multipass no confia per defecte, però en què confies per realitzar operacions de clau d\'accés.</string>
+    <string name="trusted_by_community_learn_more">Aquestes són aplicacions no incloses a la Google Play Store, però en què Multipass confia per realitzar operacions de clau d\'accés després que els membres de la comunitat les utilitzin i les reportin com a segures.</string>
     <string name="trusted_by_google_learn_more">Aquestes són aplicacions que Google considera segures i estan disponibles a la Google Play Store.</string>
     <string name="trusted_by_you">Confiat per tu</string>
     <string name="trusted_by_the_community">Confiat per la comunitat</string>
     <string name="trusted_by_google">Confiat per Google</string>
-    <string name="privileged_apps_description">Per protegir els usuaris dels intents de pesca, per defecte, Bitwarden només completa les operacions de clau d\'accés mitjançant aplicacions o navegadors web de confiança de Google o de la comunitat de Bitwarden.</string>
+    <string name="privileged_apps_description">Per protegir els usuaris dels intents de pesca, per defecte, Multipass només completa les operacions de clau d\'accés mitjançant aplicacions o navegadors web de confiança de Google o de la comunitat de Multipass.</string>
     <string name="about_privileged_applications">Sobre les aplicacions privilegiades</string>
     <string name="learn_more_about_privileged_apps">Més informació sobre les aplicacions privilegiades</string>
     <string name="privileged_apps">Aplicacions privilegiades</string>
@@ -1155,10 +1155,10 @@ Voleu canviar a aquest compte?</string>
     <string name="items_are_collapsed_click_to_expand">Els elements estan col·lapsats, fes clic per expandir.</string>
     <string name="error_cannot_decrypt">[error: no es pot desxifrar]</string>
     <string name="copy_error_report">Copia l\'informe d\'error</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden no ha pogut desxifrar aquest element del cofre. Copia i comparteix aquest informe d\'error amb l\'èxit del client per evitar pèrdues de dades addicionals.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass no ha pogut desxifrar aquest element del cofre. Copia i comparteix aquest informe d\'error amb l\'èxit del client per evitar pèrdues de dades addicionals.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Bitwarden no ha pogut desxifrar %1$d element del cofre. Copia i comparteix aquest informe d\'error amb l\'èxit del client per evitar pèrdues de dades addicionals.</item>
-        <item quantity="other">Bitwarden no ha pogut desxifrar %1$d elements del cofre. Copia i comparteix aquest informe d\'error amb l\'èxit del client per evitar pèrdues de dades addicionals.</item>
+        <item quantity="one">Multipass no ha pogut desxifrar %1$d element del cofre. Copia i comparteix aquest informe d\'error amb l\'èxit del client per evitar pèrdues de dades addicionals.</item>
+        <item quantity="other">Multipass no ha pogut desxifrar %1$d elements del cofre. Copia i comparteix aquest informe d\'error amb l\'èxit del client per evitar pèrdues de dades addicionals.</item>
     </plurals>
     <string name="select_a_card_for_x">Selecciona una targeta per a %s</string>
     <string name="advanced_options">Opcions avançades</string>
@@ -1166,8 +1166,8 @@ Voleu canviar a aquest compte?</string>
     <string name="keep_your_credential_secure">Mantén les teves credencials segures</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Més informació sobre com mantenir les credencials segures quan s\'utilitza “%1$s”.</string>
     <string name="are_you_sure_you_want_to_use">Estàs segur que vols utilitzar “%1$s”?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">La detecció de coincidència d\'URI controla com Bitwarden identifica les suggerències d\'emplenament automàtic.\n<annotation emphasis="bold">Avís:</annotation> “Expressió regular” és una opció avançada amb un risc més gran d\'exposar credencials si s\'utilitza incorrectament.</string>
-    <string name="default_uri_match_detection_description_advanced_options">La detecció de coincidència d\'URI controla com Bitwarden identifica les suggerències d\'emplenament automàtic.\n<annotation emphasis="bold">Avís:</annotation> “Comença per” és una opció avançada amb un risc més gran d\'exposar credencials.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">La detecció de coincidència d\'URI controla com Multipass identifica les suggerències d\'emplenament automàtic.\n<annotation emphasis="bold">Avís:</annotation> “Expressió regular” és una opció avançada amb un risc més gran d\'exposar credencials si s\'utilitza incorrectament.</string>
+    <string name="default_uri_match_detection_description_advanced_options">La detecció de coincidència d\'URI controla com Multipass identifica les suggerències d\'emplenament automàtic.\n<annotation emphasis="bold">Avís:</annotation> “Comença per” és una opció avançada amb un risc més gran d\'exposar credencials.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">“Comença per” és una opció avançada amb un risc més gran d\'exposar credencials.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">“Expressió regular” és una opció avançada amb un risc més gran d\'exposar credencials si s\'utilitza incorrectament.</string>
     <string name="later">Més tard</string>
@@ -1192,17 +1192,17 @@ Voleu canviar a aquest compte?</string>
         <item quantity="other">%1$d elements s\'han importat al teu cofre.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Activa l\'emplenament automàtic del navegador per continuar emplenant contrasenyes</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">El teu navegador s\'ha actualitzat recentment, cosa que ha desactivat l\'emplenament automàtic de Bitwarden. Per continuar emplenant les teves contrasenyes amb Bitwarden, activa l\'emplenament automàtic del navegador a la configuració d\'emplenament.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">El teu navegador s\'ha actualitzat recentment, cosa que ha desactivat l\'emplenament automàtic de Multipass. Per continuar emplenant les teves contrasenyes amb Multipass, activa l\'emplenament automàtic del navegador a la configuració d\'emplenament.</string>
     <string name="not_now">Ara no</string>
     <string name="import_from_bitwarden">Importa des de Bitwarden</string>
     <string name="select_account">Selecciona compte</string>
     <string name="no_accounts_available">No hi ha comptes disponibles</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">No tens cap compte des del qual puguis importar. La política de seguretat de la teva organització pot restringir la importació d\'elements de Bitwarden a una altra aplicació.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">No tens cap compte des del qual puguis importar. La política de seguretat de la teva organització pot restringir la importació d\'elements de Multipass a una altra aplicació.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Importació restringida, no es poden importar targetes d\'aquest compte.</string>
     <string name="verify_your_master_password">Verifica la teva contrasenya mestra</string>
     <string name="having_trouble_with_autofill">Tens problemes amb l\'emplenament automàtic?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Accedeix a l\'ajuda i la documentació de resolució de problemes aquí</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Importa contrasenyes, claus d\'accés i altres tipus d\'elements des del teu cofre de Bitwarden.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Importa contrasenyes, claus d\'accés i altres tipus d\'elements des del teu cofre de Multipass.</string>
     <string name="items_to_import">Elements a importar</string>
     <string name="exporting_items">Exportant elements…</string>
     <string name="export_failed">L\'exportació ha fallat</string>
@@ -1266,7 +1266,7 @@ Voleu canviar a aquest compte?</string>
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Introdueix almenys una adreça de correu electrònic vàlida per compartir aquest enviament.</string>
     <string name="sync_with_browser">Sincronitza amb el navegador</string>
-    <string name="sync_with_browser_description">Per connectar-te a %1$s, sincronitza el teu navegador per defecte amb l\'aplicació mòbil de Bitwarden. Quan s\'obri el navegador, completa l\'inici de sessió si se\'t demana.\nUn cop finalitzada la sincronització, tornaràs a aquesta aplicació.</string>
+    <string name="sync_with_browser_description">Per connectar-te a %1$s, sincronitza el teu navegador per defecte amb l\'aplicació mòbil de Multipass. Quan s\'obri el navegador, completa l\'inici de sessió si se\'t demana.\nUn cop finalitzada la sincronització, tornaràs a aquesta aplicació.</string>
     <string name="launch_browser">Inicia el navegador</string>
     <string name="continue_without_syncing">Continua sense sincronitzar</string>
     <string name="external_link">Enllaç extern</string>
@@ -1292,7 +1292,7 @@ Voleu canviar a aquest compte?</string>
     <string name="trusted">De confiança</string>
     <string name="preview_not_available_for_files">La vista prèvia no està disponible per a fitxers %1$s. Encara pots descarregar-lo per veure\'l al teu dispositiu.</string>
     <string name="this_file_is_too_large_to_preview">Aquest fitxer és massa gran per a la vista prèvia. Encara pots descarregar-lo per veure\'l al teu dispositiu.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden no ha pogut desxifrar aquest fitxer, per tant no es pot mostrar la vista prèvia.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass no ha pogut desxifrar aquest fitxer, per tant no es pot mostrar la vista prèvia.</string>
     <string name="preview_unavailable_for_this_file">Vista prèvia no disponible per a aquest fitxer. Encara pots descarregar-lo per veure\'l al teu dispositiu.</string>
     <string name="preview_unavailable">Vista prèvia no disponible</string>
     <string name="download_attachment">Descarrega adjunt</string>
@@ -1425,8 +1425,8 @@ Voleu canviar a aquest compte?</string>
     <string name="local_network_access_required">Accés a la xarxa local requerit</string>
     <string name="ask_again_later">Pregunta més tard</string>
     <string name="enable_local_network_access">Activa l\'accés a la xarxa local</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden necessita accés a la xarxa local per sincronitzar amb el teu servidor. Sense aquest permís, l\'aplicació no podrà connectar-se.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sense aquest permís, Bitwarden no podrà connectar-se ni sincronitzar amb el teu servidor. Pots activar-ho a la configuració del teu dispositiu.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass necessita accés a la xarxa local per sincronitzar amb el teu servidor. Sense aquest permís, l\'aplicació no podrà connectar-se.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sense aquest permís, Multipass no podrà connectar-se ni sincronitzar amb el teu servidor. Pots activar-ho a la configuració del teu dispositiu.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">La teva sol·licitud s\'ha interromput perquè l\'aplicació necessita accés a la xarxa local. Pots activar-ho a la configuració del teu dispositiu.</string>
     <string name="continue_to_stripe">Continuar a Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Seràs dirigit a Stripe per gestionar la cancel·lació de la teva subscripció.</string>

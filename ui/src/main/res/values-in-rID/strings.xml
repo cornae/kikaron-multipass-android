@@ -75,9 +75,9 @@
     <string name="yes">Ya</string>
     <string name="account">Akun</string>
     <string name="account_created_success">Akun baru Anda telah berhasil dibuat!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Jadikan Bitwarden sebagai penyedia kunci sandi di setelan perangkat.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Jadikan Multipass sebagai penyedia kunci sandi di setelan perangkat.</string>
     <string name="avoid_ambiguous_characters">Hindari karakter ambigu</string>
-    <string name="bitwarden_autofill_service">Layanan Pengisian Otomatis Bitwarden</string>
+    <string name="bitwarden_autofill_service">Layanan Pengisian Otomatis Multipass</string>
     <string name="change_master_password">Ubah sandi utama</string>
     <string name="close">Tutup</string>
     <string name="close_app">Tutup aplikasi</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Tetapkan batas waktu sesi untuk \"Keluar\"?</string>
     <string name="vault_timeout_log_out_confirmation_message">Setelah periode batas waktu berakhir, Anda akan keluar otomatis. Untuk masuk dan mengakses brankas Anda lagi, perangkat harus terhubung ke internet. Pengaturan dan PIN di perangkat ini tetap sama.</string>
     <string name="logging_in">Sedang masuk…</string>
-    <string name="login_to_bitwarden">Masuk ke Bitwarden</string>
+    <string name="login_to_bitwarden">Masuk ke Multipass</string>
     <string name="master_password_confirmation_val_message">Konfirmasi sandi tidak benar.</string>
     <string name="master_password_description">Sandi utama adalah sandi yang Anda gunakan untuk mengakses brankas Anda. Sangat penting untuk tidak melupakan sandi utama. Tidak ada cara untuk memulihkan sandi jika Anda melupakannya.</string>
     <string name="master_password_hint">Petunjuk sandi utama (opsional)</string>
@@ -175,7 +175,7 @@
     <string name="no_items_for_vault">Tidak ada item di brankas Anda yang cocok dengan “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">Cari login atau tambahkan login baru</string>
     <string name="disabled">Dinonaktifkan</string>
-    <string name="bitwarden_autofill_service_alert2">Cara termudah menambahkan login baru ke brankas adalah melalui Layanan Isi Otomatis Bitwarden. Pelajari lebih lanjut cara penggunaan Layanan Isi Otomatis Bitwarden di menu \"Pengaturan\".</string>
+    <string name="bitwarden_autofill_service_alert2">Cara termudah menambahkan login baru ke brankas adalah melalui Layanan Isi Otomatis Multipass. Pelajari lebih lanjut cara penggunaan Layanan Isi Otomatis Multipass di menu \"Pengaturan\".</string>
     <string name="autofill_noun">Isi otomatis</string>
     <string name="autofill_verb">Isi otomatis</string>
     <string name="autofill_or_view">Apakah Anda ingin mengisi otomatis atau melihat info masuk ini?</string>
@@ -297,7 +297,7 @@ Proses pindai akan terjadi secara otomatis.</string>
     <string name="no_items_folder">Tidak ada item di folder ini.</string>
     <string name="no_items_trash">Tidak ada item di sampah.</string>
     <string name="autofill_accessibility_summary">Bantu mengisi kolom nama pengguna dan sandi di aplikasi lain serta di web.</string>
-    <string name="autofill_service_description">Layanan isi otomatis Bitwarden menggunakan Android Autofill Framework untuk membantu mengisi informasi login ke apl lain di perangkat Anda.</string>
+    <string name="autofill_service_description">Layanan isi otomatis Multipass menggunakan Android Autofill Framework untuk membantu mengisi informasi login ke apl lain di perangkat Anda.</string>
     <string name="bitwarden_autofill_go_to_settings">Kami tidak dapat secara otomatis membuka menu pengaturan Android isi otomatis untuk Anda. Anda dapat membuka menu pengaturan isi otomatis secara manual dari Pengaturan Android &gt; Sistem &gt; Bahasa dan masukan &gt; Lanjutan &gt; Layanan isi otomatis.</string>
     <string name="custom_field_name">Nama kolom ubahsuai</string>
     <string name="field_type_boolean">Boolean</string>
@@ -371,7 +371,7 @@ Proses pindai akan terjadi secara otomatis.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Membuka kunci</string>
     <string name="thirty_minutes">30 menit</string>
-    <string name="set_pin_description">PIN Anda harus terdiri dari minimal 4 karakter. Pengaturan PIN akan diatur ulang jika Anda keluar secara manual dari apl Bitwarden.</string>
+    <string name="set_pin_description">PIN Anda harus terdiri dari minimal 4 karakter. Pengaturan PIN akan diatur ulang jika Anda keluar secara manual dari apl Multipass.</string>
     <string name="logged_in_as_on">Masuk sebagai %1$s pada %2$s.</string>
     <string name="vault_locked_master_password">Brankas Anda terkunci. Verifikasi sandi utama Anda untuk melanjutkan.</string>
     <string name="vault_locked_pin">Brankas Anda terkunci. Verifikasi kode PIN Anda untuk melanjutkan.</string>
@@ -385,7 +385,7 @@ Proses pindai akan terjadi secara otomatis.</string>
     <string name="clear_clipboard">Hapus papan klip</string>
     <string name="clear_clipboard_description">Secara otomatis menghapus salinan dari papan klip Anda.</string>
     <string name="default_uri_match_detection">Deteksi Kecocokan URI Default</string>
-    <string name="default_uri_match_detection_description">Deteksi kecocokan URI mengatur cara Bitwarden mengenali saran isi otomatis.</string>
+    <string name="default_uri_match_detection_description">Deteksi kecocokan URI mengatur cara Multipass mengenali saran isi otomatis.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Ubah tema warna aplikasi</string>
     <string name="copy_notes">Salin catatan</string>
@@ -421,7 +421,7 @@ Proses pindai akan terjadi secara otomatis.</string>
     <string name="password_generator_policy_in_effect">Satu atau beberapa kebijakan organisasi memengaruhi pengaturan pembuat sandi Anda</string>
     <string name="unable_to_save_attachment">Terjadi masalah saat menyimpan lampiran ini. Jika masalah terus berlanjut, Anda dapat menyimpannya dari brankas web.</string>
     <string name="save_attachment_success">Lampiran berhasil disimpan</string>
-    <string name="autofill_tile_accessibility_required">Harap aktifkan \"Layanan Aksesibilitas Isi Otomatis\" dari Pengaturan Bitwarden untuk menggunakan pintasan Isi Otomatis.</string>
+    <string name="autofill_tile_accessibility_required">Harap aktifkan \"Layanan Aksesibilitas Isi Otomatis\" dari Pengaturan Multipass untuk menggunakan pintasan Isi Otomatis.</string>
     <string name="autofill_tile_uri_not_found">Tidak ada kolom sandi yang terdeteksi</string>
     <string name="soft_deleting">Mengirim ke sampah…</string>
     <string name="item_soft_deleted">Item telah dikirim ke sampah.</string>
@@ -632,9 +632,9 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="catch_all_email_description">Gunakan kotak masuk catch-all yang dikonfigurasi pada domain Anda.</string>
     <string name="forwarded_email_description">Buat alias email dengan layanan penerusan eksternal.</string>
     <string name="accessibility_service_disclosure">Pernyataan Layanan Aksesibilitas</string>
-    <string name="accessibility_disclosure_text">Bitwarden menggunakan Layanan Aksesibilitas untuk mencari kolom login di apl dan situs web, lalu menetapkan ID kolom yang sesuai untuk memasukkan nama pengguna &amp; sandi ketika apl atau situs cocok ditemukan. Kami tidak menyimpan informasi apa pun yang diberikan layanan pada kami, dan kami tidak berupaya mengontrol elemen layar apa pun selain entri teks kredensial.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Pemberitahuan ini diperlukan sebelum Bitwarden dapat menawarkan pengisian otomatis berbasis aksesibilitas.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden menawarkan metode pengisian otomatis opsional yang menggunakan Layanan Aksesibilitas Android untuk mendeteksi kolom masuk. Jika Anda mengaktifkannya, Bitwarden akan mengidentifikasi kolom yang sesuai dan mengisi kredensial Anda ketika kecocokan ditemukan.</string>
+    <string name="accessibility_disclosure_text">Multipass menggunakan Layanan Aksesibilitas untuk mencari kolom login di apl dan situs web, lalu menetapkan ID kolom yang sesuai untuk memasukkan nama pengguna &amp; sandi ketika apl atau situs cocok ditemukan. Kami tidak menyimpan informasi apa pun yang diberikan layanan pada kami, dan kami tidak berupaya mengontrol elemen layar apa pun selain entri teks kredensial.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Pemberitahuan ini diperlukan sebelum Multipass dapat menawarkan pengisian otomatis berbasis aksesibilitas.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass menawarkan metode pengisian otomatis opsional yang menggunakan Layanan Aksesibilitas Android untuk mendeteksi kolom masuk. Jika Anda mengaktifkannya, Multipass akan mengidentifikasi kolom yang sesuai dan mengisi kredensial Anda ketika kecocokan ditemukan.</string>
     <string name="accessibility_disclosure_start_up_text_3">Kami tidak menyimpan informasi apa pun tentang apa yang ada di layar saat Anda menggunakan Layanan Aksesibilitas, dan kami tidak mengontrol elemen layar apa pun di luar entri kredensial.</string>
     <string name="i_understand">Saya mengerti</string>
     <string name="accept">Terima</string>
@@ -643,7 +643,7 @@ pilih Tambahkan TOTP untuk menyimpan kunci dengan aman</string>
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Upaya masuk dari:
 %1$s
 Apakah Anda ingin beralih ke akun ini?</string>
-    <string name="new_to_bitwarden">Baru di Bitwarden?</string>
+    <string name="new_to_bitwarden">Baru di Multipass?</string>
     <string name="get_master_passwordword_hint">Dapatkan petunjuk sandi utama</string>
     <string name="logging_in_as_x_on_y">Masuk sebagai %1$s di %2$s</string>
     <string name="not_you">Bukan Anda?</string>
@@ -700,7 +700,7 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="invalid_uri">URI tidak valid</string>
     <string name="the_urix_is_already_blocked">URI %1$s sudah diblokir</string>
     <string name="login_approved">Masuk diizinkan</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Login menggunakan perangkat harus diatur di pengaturan aplikasi Bitwarden.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Login menggunakan perangkat harus diatur di pengaturan aplikasi Multipass.</string>
     <string name="need_another_option_view_all_login_options">Butuh opsi lain? <annotation link="viewAll">Lihat semua opsi login</annotation></string>
     <string name="log_in_with_device">Masuk dengan perangkat</string>
     <string name="logging_in_on">Sedang masuk</string>
@@ -715,8 +715,8 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="session_timeout">Waktu habis sesi</string>
     <string name="session_timeout_action">Tindakan saat sesi habis</string>
     <string name="account_fingerprint_phrase">Frasa sidik jari akun</string>
-    <string name="passkey_management_explanation_long">Gunakan Bitwarden untuk menyimpan kunci sandi baru dan masuk dengan kunci sandi tersimpan di brankas Anda.</string>
-    <string name="autofill_services_explanation_long">Memungkinkan Bitwarden menggunakan informasi login tersimpan Anda untuk masuk ke apl lain di perangkat Anda.</string>
+    <string name="passkey_management_explanation_long">Gunakan Multipass untuk menyimpan kunci sandi baru dan masuk dengan kunci sandi tersimpan di brankas Anda.</string>
+    <string name="autofill_services_explanation_long">Memungkinkan Multipass menggunakan informasi login tersimpan Anda untuk masuk ke apl lain di perangkat Anda.</string>
     <string name="use_inline_autofill_explanation_long">Memilih bagaimana saran isi otomatis muncul saat masuk ke aplikasi lain di perangkat Anda.</string>
     <string name="additional_options">Opsi tambahan</string>
     <string name="continue_to_web_app">Lanjut ke aplikasi web?</string>
@@ -724,11 +724,11 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="continue_to_help_center">Lanjut ke Pusat Bantuan?</string>
     <string name="continue_to_privacy_policy">Lanjut ke Kebijakan Privasi?</string>
     <string name="continue_to_device_settings">Lanjut ke Pengaturan perangkat?</string>
-    <string name="two_step_login_description_long">Amankan akun Anda dengan menyiapkan login dua langkah di aplikasi web Bitwarden.</string>
-    <string name="change_master_password_description_long">Anda dapat mengubah sandi utama di aplikasi web Bitwarden.</string>
+    <string name="two_step_login_description_long">Amankan akun Anda dengan menyiapkan login dua langkah di aplikasi web Multipass.</string>
+    <string name="change_master_password_description_long">Anda dapat mengubah sandi utama di aplikasi web Multipass.</string>
     <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Pelajari lebih lanjut cara menggunakan Bitwarden di Pusat Bantuan.</string>
     <string name="privacy_policy_description_long">Lihat kebijakan privasi kami di bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Temukan lebih banyak fitur akun Bitwarden Anda di aplikasi web.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Temukan lebih banyak fitur akun Multipass Anda di aplikasi web.</string>
     <string name="learn_about_organizations_description_long">Bitwarden memungkinkan Anda berbagi item brankas dengan orang lain menggunakan organisasi. Pelajari lebih lanjut di situs web bitwarden.com.</string>
     <string name="created_x">Dibuat %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Organisasi Anda mewajibkan membuat sandi utama.</string>
@@ -739,8 +739,8 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Login dua-langkah Duo diperlukan untuk akun Anda.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Ikuti langkah dari Duo untuk menyelesaikan login.</string>
     <string name="launch_duo">Luncurkan Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Kunci sandi Anda akan disimpan ke brankas Bitwarden untuk %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Sandi Anda akan disimpan ke brankas Bitwarden Anda selama %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Kunci sandi Anda akan disimpan ke brankas Multipass untuk %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Sandi Anda akan disimpan ke brankas Multipass Anda selama %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Aplikasi ini tidak mendukung kunci sandi</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Gagal menjalankan kunci sandi karena browser bukan apl dengan hak khusus</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Gagal menjalankan kunci sandi karena signature browser tidak sesuai</string>
@@ -768,13 +768,13 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="email_verified">Email berhasil terverifikasi</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Dapatkan email dari Bitwarden berisi pengumuman, tips, dan peluang riset. <annotation link="unsubscribe">Berhenti berlangganan</annotation> kapan saja.</string>
     <string name="security_prioritized">Keamanan, jadi prioritas</string>
-    <string name="welcome_message_1">Simpan login, kartu, dan identitas ke brankas aman Anda. Bitwarden menggunakan zero-knowledge, enkripsi end-to-end untuk melindungi data penting Anda.</string>
+    <string name="welcome_message_1">Simpan login, kartu, dan identitas ke brankas aman Anda. Multipass menggunakan zero-knowledge, enkripsi end-to-end untuk melindungi data penting Anda.</string>
     <string name="welcome_message_2">Siapkan buka kunci biometrik dan isi otomatis untuk masuk ke akun tanpa mengetik satu huruf pun.</string>
     <string name="quick_and_easy_login">Login cepat dan mudah</string>
     <string name="level_up_your_logins">Login lebih canggih</string>
     <string name="welcome_message_3">Gunakan pembuat sandi untuk membuat dan simpan sandi yang kuat dan unik bagi semua akun Anda.</string>
     <string name="your_data_when_and_where_you_need_it">Data Anda, kapan pun dan di mana pun Anda membutuhkannya</string>
-    <string name="welcome_message_4">Simpan sandi tanpa batas di berbagai perangkat dengan aplikasi Bitwarden di mobile, peramban, dan desktop.</string>
+    <string name="welcome_message_4">Simpan sandi tanpa batas di berbagai perangkat dengan aplikasi Multipass di mobile, peramban, dan desktop.</string>
     <string name="remove_passkey">Hapus kunci sandi</string>
     <string name="passkey_removed">Kunci sandi dihapus</string>
     <string name="what_makes_a_password_strong">Apa yang membuat sandi kuat?</string>
@@ -804,8 +804,8 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Klik tautan di email untuk verifikasi alamat email Anda dan lanjutkan buat akun.</string>
     <string name="change_email_address">Ubah alamat email</string>
     <string name="next">Lanjut</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden tidak dapat memulihkan sandi utama yang hilang atau terlupa.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden tidak dapat mengatur ulang sandi utama yang hilang atau terlupa.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass tidak dapat memulihkan sandi utama yang hilang atau terlupa.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass tidak dapat mengatur ulang sandi utama yang hilang atau terlupa.</string>
     <string name="choose_your_master_password">Pilih sandi utama Anda</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Pilih sandi yang unik dan kuat untuk menjaga keamanan informasi Anda.</string>
     <plurals name="minimum_characters">
@@ -820,16 +820,16 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="turn_on_autofill">Aktifkan isi otomatis</string>
     <string name="autofill_setup">Setel isi otomatis</string>
     <string name="turn_on_browser_autofill_integration">Aktifkan integrasi isi otomatis browser</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Anda menggunakan browser yang memerlukan izin khusus agar Bitwarden dapat mengisi otomatis sandi Anda.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Anda menggunakan browser yang memerlukan izin khusus agar Bitwarden dapat mengisi otomatis sandi Anda.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Anda menggunakan browser yang memerlukan izin khusus agar Bitwarden dapat mengisi otomatis sandi Anda. Aktifkan integrasi isi otomatis pilihan Anda di bawah ini.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Anda menggunakan browser yang memerlukan izin khusus agar Bitwarden dapat mengisi otomatis sandi Anda. Aktifkan isi otomatis pada semua browser yang terpasang untuk melanjutkan.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Anda menggunakan browser yang memerlukan izin khusus agar Multipass dapat mengisi otomatis sandi Anda.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Anda menggunakan browser yang memerlukan izin khusus agar Multipass dapat mengisi otomatis sandi Anda.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Anda menggunakan browser yang memerlukan izin khusus agar Multipass dapat mengisi otomatis sandi Anda. Aktifkan integrasi isi otomatis pilihan Anda di bawah ini.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Anda menggunakan browser yang memerlukan izin khusus agar Multipass dapat mengisi otomatis sandi Anda. Aktifkan isi otomatis pada semua browser yang terpasang untuk melanjutkan.</string>
     <string name="use_autofill_to_log_into_your_accounts">Gunakan isi otomatis untuk masuk ke akun Anda dengan sekali ketuk.</string>
     <string name="turn_on_later">Aktifkan nanti</string>
     <string name="turn_on_autofill_later">Aktifkan isi otomatis nanti?</string>
     <string name="turn_on_browser_autofill_integration_later">Aktifkan integrasi isi otomatis browser nanti?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Anda dapat kembali menyelesaikan langkah ini kapan saja di Pengaturan.</string>
-    <string name="what_bitwarden_has_to_offer">Sekarang Anda dapat menjelajahi semua yang ditawarkan Bitwarden dan mulai mengelola sandi Anda dengan aman.</string>
+    <string name="what_bitwarden_has_to_offer">Sekarang Anda dapat menjelajahi semua yang ditawarkan Multipass dan mulai mengelola sandi Anda dengan aman.</string>
     <string name="youre_all_set">Anda sudah siap!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Terjadi kesalahan saat menghubungkan dengan layanan Duo. Gunakan metode login dua langkah lain atau hubungi Duo untuk bantuan.</string>
     <string name="master_password_hint_not_specified">Petunjuk sandi utama</string>
@@ -848,7 +848,7 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="do_you_have_a_computer_available">Apakah Anda memiliki komputer yang tersedia?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Instruksi berikut akan memandu Anda untuk mengimpor login dari komputer desktop atau laptop Anda</string>
     <string name="import_logins">Impor Login</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Dari komputer Anda, ikuti instruksi ini untuk mengekspor sandi tersimpan dari browser atau pengelola sandi lainnya. Lalu, impor dengan aman ke Bitwarden.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Dari komputer Anda, ikuti instruksi ini untuk mengekspor sandi tersimpan dari browser atau pengelola sandi lainnya. Lalu, impor dengan aman ke Multipass.</string>
     <string name="give_your_vault_a_head_start">Beri awal yang baik pada brankas Anda</string>
     <string name="class_3_biometrics_description">Buka kunci dengan biometrik memerlukan autentikasi biometrik kuat dan mungkin tidak kompatibel dengan semua opsi biometrik di perangkat ini.</string>
     <string name="class_2_biometrics_description">Buka kunci dengan biometrik memerlukan autentikasi biometrik kuat dan tidak kompatibel dengan opsi biometrik yang tersedia di perangkat ini.</string>
@@ -859,18 +859,18 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="export_your_saved_logins">Ekspor login tersimpan Anda</string>
     <string name="delete_this_file_after_import_is_complete">File ini akan dihapus setelah impor selesai.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Di komputer Anda, buka tab browser baru dan <annotation emphasis="bold">pergi ke <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Masuk ke aplikasi web Bitwarden.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Masuk ke aplikasi web Multipass.</string>
     <string name="step_2_of_3">Langkah 2 dari 3</string>
-    <string name="log_in_to_bitwarden">Masuk ke Bitwarden</string>
+    <string name="log_in_to_bitwarden">Masuk ke Multipass</string>
     <string name="step_3_of_3">Langkah 3 dari 3</string>
-    <string name="import_logins_to_bitwarden">Impor login ke Bitwarden</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Di navigasi Bitwarden, <annotation emphasis="bold">temukan menu Alat</annotation> lalu <annotation emphasis="bold">pilih Impor data.</annotation></string>
+    <string name="import_logins_to_bitwarden">Impor login ke Multipass</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Di navigasi Multipass, <annotation emphasis="bold">temukan menu Alat</annotation> lalu <annotation emphasis="bold">pilih Impor data.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Isi formulir lalu <annotation emphasis="bold">impor file sandi tersimpan Anda.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Demi keamanan Anda, pastikan untuk <annotation emphasis="bold">menghapus file sandi tersimpan Anda.</annotation></string>
     <string name="need_help_check_out_import_help">Butuh bantuan? Lihat <annotation link="importHelp">bantuan impor</annotation>.</string>
     <string name="import_help">bantuan impor</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Simpan file ekspor</annotation> di komputer Anda pada tempat mudah ditemukan.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Ini bukan server Bitwarden yang dikenali. Anda mungkin perlu memeriksa dengan penyedia atau memperbarui server Anda.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Ini bukan server Multipass yang dikenali. Anda mungkin perlu memeriksa dengan penyedia atau memperbarui server Anda.</string>
     <string name="syncing_logins_loading_message">Menyinkronkan login…</string>
     <string name="download_the_browser_extension">Unduh ekstensi peramban</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Buka bitwarden.com/download untuk mengintegrasikan Bitwarden ke browser favorit Anda agar pengalaman lebih mulus.</string>
@@ -879,8 +879,8 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="autofill_passwords">Isi otomatis sandi</string>
     <string name="set_up_autofill_on_all_your_devices">Atur isi otomatis di semua perangkat Anda untuk login dengan sekali ketuk di mana saja.</string>
     <string name="import_successful">Impor Berhasil!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Kelola login Anda dari mana saja dengan alat Bitwarden untuk web dan desktop.</string>
-    <string name="bitwarden_tools">Alat Bitwarden</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Kelola login Anda dari mana saja dengan alat Multipass untuk web dan desktop.</string>
+    <string name="bitwarden_tools">Alat Multipass</string>
     <string name="got_it">Siap</string>
     <string name="no_logins_were_imported">Tidak ada login yang diimpor</string>
     <string name="import_error">Kesalahan impor</string>
@@ -897,7 +897,7 @@ Apakah Anda ingin beralih ke akun ini?</string>
         <item quantity="other">%d notifikasi</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Masuk dengan cepat dan mudah lintas perangkat</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden dapat memberi Anda notifikasi setiap kali ada permintaan login baru dari perangkat lain.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass dapat memberi Anda notifikasi setiap kali ada permintaan login baru dari perangkat lain.</string>
     <string name="skip_for_now">Lewati dulu</string>
     <string name="done_text">Selesai</string>
     <string name="page_number_x_of_y">%1$s dari %2$s</string>
@@ -922,7 +922,7 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Tambahkan angka atau simbol</annotation> untuk membuatnya lebih kuat. Sekarang Anda memiliki frasa sandi unik, aman, dan mudah diingat!</string>
     <string name="need_some_inspiration">Butuh inspirasi?</string>
     <string name="check_out_the_passphrase_generator">Coba pembuat frasa sandi</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Kami tidak dapat memverifikasi sertifikat server. Rantai sertifikat atau pengaturan proxy di perangkat Anda atau server Bitwarden Anda mungkin tidak dikonfigurasi dengan benar.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Kami tidak dapat memverifikasi sertifikat server. Rantai sertifikat atau pengaturan proxy di perangkat Anda atau server Multipass Anda mungkin tidak dikonfigurasi dengan benar.</string>
     <string name="copy_private_key">Salin kunci pribadi</string>
     <string name="login_credentials">Kredensial Login</string>
     <string name="autofill_options">Opsi Isi Otomatis</string>
@@ -949,7 +949,7 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="coachmark_5_of_6">5 DARI 6</string>
     <string name="coachmark_6_of_6">6 DARI 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Gunakan opsi ini untuk menyesuaikan sandi Anda agar memenuhi persyaratan situs akun.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Setelah menyimpan sandi baru ke Bitwarden, jangan lupa memperbaruinya di situs akun Anda.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Setelah menyimpan sandi baru ke Multipass, jangan lupa memperbaruinya di situs akun Anda.</string>
     <string name="verify_your_identity">Verifikasi identitas Anda</string>
     <string name="error_loading_certificate">Kesalahan memuat sertifikat</string>
     <string name="certificate_alias">Alias sertifikat</string>
@@ -960,7 +960,7 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="unsupported_certificate_type">Jenis sertifikat tidak didukung</string>
     <string name="certificate_password_incorrect">Sandi sertifikat salah</string>
     <string name="invalid_certificate_chain">Rantai sertifikat tidak valid</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Menggunakan sertifikat sistem kurang aman dibanding menyimpan sertifikat dengan Bitwarden. Jika dilanjutkan, akan ditampilkan daftar sertifikat sistem yang tersedia bila sudah terpasang.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Menggunakan sertifikat sistem kurang aman dibanding menyimpan sertifikat dengan Multipass. Jika dilanjutkan, akan ditampilkan daftar sertifikat sistem yang tersedia bila sudah terpasang.</string>
     <string name="link">Tautan</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Operasi kunci sandi gagal karena URL host tidak ada dalam permintaan.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Operasi kunci sandi gagal karena tanda tangan aplikasi tidak valid.</string>
@@ -998,8 +998,8 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="experiencing_an_issue">Mengalami masalah?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">Aktifkan pencatatan sementara untuk mengumpulkan dan memeriksa log secara lokal. Saat diaktifkan, status aplikasi dan panggilan jaringan mungkin dicatat—tidak pernah termasuk informasi brankas yang sensitif.</string>
     <string name="to_get_started_set_a_logging_duration">Untuk memulai, atur durasi pencatatan. Pencatatan akan otomatis berhenti setelah periode ini, memberi Anda waktu untuk menangkap aktivitas saat mereproduksi masalah.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Log akan otomatis dihapus setelah 30 hari. Bitwarden hanya dapat mengakses data log Anda ketika Anda membagikannya.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">Untuk detail tentang apa yang dicatat dan tidak, kunjungi\n<annotation link="helpCenter">Pusat bantuan Bitwarden.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Log akan otomatis dihapus setelah 30 hari. Multipass hanya dapat mengakses data log Anda ketika Anda membagikannya.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">Untuk detail tentang apa yang dicatat dan tidak, kunjungi\n<annotation link="helpCenter">Pusat bantuan Multipass.</annotation></string>
     <string name="logging_duration">Durasi pencatatan log</string>
     <string name="flight_recorder_one_hour">1 jam</string>
     <string name="flight_recorder_eight_hours">8 jam</string>
@@ -1030,24 +1030,24 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="unable_to_read_certificate">Tidak bisa membaca sertifikat.</string>
     <string name="cannot_delete_your_account">Tidak bisa menghapus akun Anda</string>
     <string name="cannot_delete_your_account_explanation">Tindakan ini tidak dapat diselesaikan karena akun Anda dimiliki oleh sebuah organisasi. Hubungi administrator organisasi Anda untuk detail lebih lanjut.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Akun ini akan segera dihapus. Masuk di %1$s untuk terus menggunakan Bitwarden.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Akun ini akan segera dihapus. Masuk di %1$s untuk terus menggunakan Multipass.</string>
     <string name="view_file_send">Lihat file Kirim</string>
     <string name="view_text_send">Lihat teks Kirim</string>
     <string name="delete_send">Hapus Kirim</string>
     <string name="missing_send_resync_your_vault">Send hilang - sinkronkan ulang brankas Anda</string>
     <string name="use_dynamic_colors">Gunakan warna dinamis</string>
     <string name="use_dynamic_colors_question">Gunakan warna dinamis?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Skema warna ini otomatis menerapkan warna sistem ke Bitwarden berdasarkan wallpaper Anda saat ini. Pilihan warna ini mungkin tidak memenuhi semua pedoman aksesibilitas.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Skema warna ini otomatis menerapkan warna sistem ke Multipass berdasarkan wallpaper Anda saat ini. Pilihan warna ini mungkin tidak memenuhi semua pedoman aksesibilitas.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Operasi kunci sandi gagal karena browser (%1$s) tidak dikenali. Pilih \"Percayai\" untuk menambahkan %1$s ke daftar aplikasi terpercaya lokal.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Operasi kunci sandi gagal karena browser tidak terpercaya.</string>
     <string name="trust">Percaya</string>
-    <string name="trusted_by_you_learn_more">Ini adalah aplikasi atau browser yang tidak secara bawaan dipercaya oleh Bitwarden, tetapi Anda percayai untuk melakukan operasi kunci sandi.</string>
-    <string name="trusted_by_community_learn_more">Ini adalah aplikasi yang tidak ada di Google Play Store, tetapi dipercaya Bitwarden untuk melakukan operasi kunci sandi setelah digunakan dan dilaporkan aman oleh anggota komunitas.</string>
+    <string name="trusted_by_you_learn_more">Ini adalah aplikasi atau browser yang tidak secara bawaan dipercaya oleh Multipass, tetapi Anda percayai untuk melakukan operasi kunci sandi.</string>
+    <string name="trusted_by_community_learn_more">Ini adalah aplikasi yang tidak ada di Google Play Store, tetapi dipercaya Multipass untuk melakukan operasi kunci sandi setelah digunakan dan dilaporkan aman oleh anggota komunitas.</string>
     <string name="trusted_by_google_learn_more">Ini adalah aplikasi yang dianggap aman oleh Google dan tersedia di Google Play Store.</string>
     <string name="trusted_by_you">Dipercaya oleh Anda</string>
     <string name="trusted_by_the_community">Dipercaya oleh Komunitas</string>
     <string name="trusted_by_google">Dipercaya oleh Google</string>
-    <string name="privileged_apps_description">Untuk melindungi pengguna dari upaya phishing, secara bawaan Bitwarden hanya menyelesaikan operasi kunci sandi melalui aplikasi atau browser web yang dipercaya oleh Google atau komunitas Bitwarden.</string>
+    <string name="privileged_apps_description">Untuk melindungi pengguna dari upaya phishing, secara bawaan Multipass hanya menyelesaikan operasi kunci sandi melalui aplikasi atau browser web yang dipercaya oleh Google atau komunitas Multipass.</string>
     <string name="about_privileged_applications">Tentang apl dengan hak khusus</string>
     <string name="learn_more_about_privileged_apps">Pelajari lebih lanjut tentang apl dengan hak khusus</string>
     <string name="privileged_apps">Aplikasi dengan hak khusus</string>
@@ -1148,9 +1148,9 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="items_are_collapsed_click_to_expand">Item tertutup, klik untuk menampilkan.</string>
     <string name="error_cannot_decrypt">[kesalahan: tidak bisa mendecrypt]</string>
     <string name="copy_error_report">Salin laporan kesalahan</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden tidak dapat mendekripsi item brankas ini. Salin dan bagikan laporan kesalahan ini ke tim layanan pelanggan untuk mencegah kehilangan data lebih lanjut.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass tidak dapat mendekripsi item brankas ini. Salin dan bagikan laporan kesalahan ini ke tim layanan pelanggan untuk mencegah kehilangan data lebih lanjut.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="other">Bitwarden tidak dapat mendekripsi %1$d item brankas. Salin dan bagikan laporan kesalahan ini ke tim layanan pelanggan untuk mencegah kehilangan data lebih lanjut.</item>
+        <item quantity="other">Multipass tidak dapat mendekripsi %1$d item brankas. Salin dan bagikan laporan kesalahan ini ke tim layanan pelanggan untuk mencegah kehilangan data lebih lanjut.</item>
     </plurals>
     <string name="select_a_card_for_x">Pilih kartu untuk %s</string>
     <string name="advanced_options">Opsi lanjutan</string>
@@ -1158,8 +1158,8 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="keep_your_credential_secure">Jaga kredensial Anda tetap aman</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Pelajari lebih lanjut cara menjaga kredensial tetap aman saat menggunakan “%1$s”.</string>
     <string name="are_you_sure_you_want_to_use">Anda yakin ingin menggunakan “%1$s”?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Deteksi kecocokan URI mengatur cara Bitwarden mengenali saran isi otomatis.\n<annotation emphasis="bold">Peringatan:</annotation> “Ekspresi regular” adalah opsi lanjutan yang berisiko membuka kredensial bila salah digunakan.</string>
-    <string name="default_uri_match_detection_description_advanced_options">Deteksi kecocokan URI mengatur cara Bitwarden mengenali saran isi otomatis.\n<annotation emphasis="bold">Peringatan:</annotation> “Diawali dengan” adalah opsi lanjutan yang berisiko mengekspos kredensial.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Deteksi kecocokan URI mengatur cara Multipass mengenali saran isi otomatis.\n<annotation emphasis="bold">Peringatan:</annotation> “Ekspresi regular” adalah opsi lanjutan yang berisiko membuka kredensial bila salah digunakan.</string>
+    <string name="default_uri_match_detection_description_advanced_options">Deteksi kecocokan URI mengatur cara Multipass mengenali saran isi otomatis.\n<annotation emphasis="bold">Peringatan:</annotation> “Diawali dengan” adalah opsi lanjutan yang berisiko mengekspos kredensial.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">\"Diawali dengan\" adalah opsi lanjutan dengan risiko lebih besar mengekspos identitas Anda.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">\"Ekspresi regular\" adalah opsi lanjutan dengan risiko lebih besar mengekspos identitas Anda.</string>
     <string name="later">Nanti</string>
@@ -1183,17 +1183,17 @@ Apakah Anda ingin beralih ke akun ini?</string>
         <item quantity="other">%1$d item telah diimpor ke brankas Anda.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Aktifkan Isi Otomatis browser untuk tetap mengisi sandi</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Browser Anda baru saja diperbarui, yang menyebabkan isi otomatis Bitwarden nonaktif. Untuk tetap mengisi sandi dengan Bitwarden, aktifkan isi otomatis browser di pengaturan isi otomatis.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Browser Anda baru saja diperbarui, yang menyebabkan isi otomatis Multipass nonaktif. Untuk tetap mengisi sandi dengan Multipass, aktifkan isi otomatis browser di pengaturan isi otomatis.</string>
     <string name="not_now">Lain kali</string>
     <string name="import_from_bitwarden">Impor dari Bitwarden</string>
     <string name="select_account">Pilih akun</string>
     <string name="no_accounts_available">Tidak ada akun tersedia</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">Anda tidak memiliki akun yang dapat diimpor. Kebijakan keamanan organisasi Anda mungkin membatasi impor item dari Bitwarden ke apl lain.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">Anda tidak memiliki akun yang dapat diimpor. Kebijakan keamanan organisasi Anda mungkin membatasi impor item dari Multipass ke apl lain.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Impor dibatasi, tidak dapat mengimpor kartu dari akun ini.</string>
     <string name="verify_your_master_password">Verifikasi sandi utama Anda</string>
     <string name="having_trouble_with_autofill">Memiliki masalah dengan isi otomatis?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Akses dokumentasi bantuan dan pemecahan masalah di sini</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Impor sandi, kunci sandi, dan jenis item lainnya dari brankas Bitwarden Anda.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Impor sandi, kunci sandi, dan jenis item lainnya dari brankas Multipass Anda.</string>
     <string name="items_to_import">Item untuk diimpor</string>
     <string name="exporting_items">Mengekspor item…</string>
     <string name="export_failed">Ekspor gagal</string>
@@ -1257,7 +1257,7 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Masukkan setidaknya satu alamat email valid untuk membagikan Kirim ini.</string>
     <string name="sync_with_browser">Sinkron dengan browser</string>
-    <string name="sync_with_browser_description">Untuk terhubung ke %1$s, sinkronkan browser bawaan Anda dengan apl seluler Bitwarden. Saat browser terbuka, selesaikan proses masuk jika diminta.
+    <string name="sync_with_browser_description">Untuk terhubung ke %1$s, sinkronkan browser bawaan Anda dengan apl seluler Multipass. Saat browser terbuka, selesaikan proses masuk jika diminta.
 \nSetelah sinkronisasi selesai, Anda akan kembali ke aplikasi ini.</string>
     <string name="launch_browser">Buka browser</string>
     <string name="continue_without_syncing">Lanjutkan tanpa sinkronisasi</string>
@@ -1284,7 +1284,7 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="trusted">Dipercaya</string>
     <string name="preview_not_available_for_files">Pratinjau tidak tersedia untuk file %1$s. Anda masih dapat mengunduhnya untuk melihat di perangkat Anda.</string>
     <string name="this_file_is_too_large_to_preview">File ini terlalu besar untuk dipratinjau. Anda masih dapat mengunduhnya untuk melihat di perangkat Anda.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden tidak dapat mendekripsi file ini, sehingga pratinjau tidak dapat ditampilkan.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass tidak dapat mendekripsi file ini, sehingga pratinjau tidak dapat ditampilkan.</string>
     <string name="preview_unavailable_for_this_file">Pratinjau tidak tersedia untuk file ini. Anda masih dapat mengunduhnya untuk melihat di perangkat Anda.</string>
     <string name="preview_unavailable">Pratinjau tidak tersedia</string>
     <string name="download_attachment">Unduh Lampiran</string>
@@ -1416,8 +1416,8 @@ Apakah Anda ingin beralih ke akun ini?</string>
     <string name="local_network_access_required">Akses jaringan lokal diperlukan</string>
     <string name="ask_again_later">Tanya lagi nanti</string>
     <string name="enable_local_network_access">Aktifkan akses jaringan lokal</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden memerlukan akses jaringan lokal untuk sinkronisasi dengan server Anda. Tanpa izin ini, aplikasi tidak akan dapat terhubung.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Tanpa izin ini, Bitwarden tidak akan dapat terhubung dan sinkronisasi dengan server Anda. Anda dapat mengaktifkannya di pengaturan perangkat Anda.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass memerlukan akses jaringan lokal untuk sinkronisasi dengan server Anda. Tanpa izin ini, aplikasi tidak akan dapat terhubung.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Tanpa izin ini, Multipass tidak akan dapat terhubung dan sinkronisasi dengan server Anda. Anda dapat mengaktifkannya di pengaturan perangkat Anda.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Permintaan Anda terputus karena aplikasi memerlukan akses jaringan lokal. Anda dapat mengaktifkannya di pengaturan perangkat Anda.</string>
     <string name="continue_to_stripe">Lanjutkan ke Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Anda akan dibawa ke Stripe untuk mengelola pembatalan langganan Anda.</string>

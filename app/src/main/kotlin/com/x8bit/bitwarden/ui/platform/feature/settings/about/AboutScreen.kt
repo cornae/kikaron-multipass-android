@@ -161,34 +161,7 @@ private fun AboutScreenContent(
             onFlightRecorderTooltipClick = onFlightRecorderTooltipClick,
             onViewRecordedLogsClick = onViewRecordedLogsClick,
         )
-        BitwardenExternalLinkRow(
-            text = stringResource(id = BitwardenString.bitwarden_help_center),
-            onConfirmClick = onHelpCenterClick,
-            dialogTitle = stringResource(id = BitwardenString.continue_to_help_center),
-            dialogMessage = stringResource(
-                id = BitwardenString.learn_more_about_how_to_use_bitwarden_on_the_help_center,
-            ),
-            withDivider = false,
-            cardStyle = CardStyle.Top(),
-            modifier = Modifier
-                .standardHorizontalMargin()
-                .fillMaxWidth()
-                .testTag(tag = "BitwardenHelpCenterRow"),
-        )
-        BitwardenExternalLinkRow(
-            text = stringResource(id = BitwardenString.privacy_policy),
-            onConfirmClick = onPrivacyPolicyClick,
-            dialogTitle = stringResource(id = BitwardenString.continue_to_privacy_policy),
-            dialogMessage = stringResource(
-                id = BitwardenString.privacy_policy_description_long,
-            ),
-            withDivider = false,
-            cardStyle = CardStyle.Middle(),
-            modifier = Modifier
-                .standardHorizontalMargin()
-                .fillMaxWidth()
-                .testTag(tag = "PrivacyPolicyRow"),
-        )
+        // KIKARON: no Bitwarden help centre or privacy policy under our name
         BitwardenExternalLinkRow(
             text = stringResource(id = BitwardenString.web_vault),
             onConfirmClick = onWebVaultClick,
@@ -197,26 +170,13 @@ private fun AboutScreenContent(
                 id = BitwardenString.explore_more_features_of_your_bitwarden_account_on_the_web_app,
             ),
             withDivider = false,
-            cardStyle = CardStyle.Middle(),
+            cardStyle = CardStyle.Top(),
             modifier = Modifier
                 .standardHorizontalMargin()
                 .fillMaxWidth()
                 .testTag(tag = "BitwardenWebVaultRow"),
         )
-        BitwardenExternalLinkRow(
-            text = stringResource(id = BitwardenString.learn_org),
-            onConfirmClick = onLearnAboutOrgsClick,
-            dialogTitle = stringResource(id = BitwardenString.continue_to_x, "bitwarden.com"),
-            dialogMessage = stringResource(
-                id = BitwardenString.learn_about_organizations_description_long,
-            ),
-            withDivider = false,
-            cardStyle = CardStyle.Middle(),
-            modifier = Modifier
-                .standardHorizontalMargin()
-                .fillMaxWidth()
-                .testTag(tag = "LearnAboutOrganizationsRow"),
-        )
+        // KIKARON: no bitwarden.com page on organisations
         CopyRow(
             text = state.version,
             onClick = onVersionClick,

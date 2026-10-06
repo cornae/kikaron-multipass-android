@@ -75,7 +75,7 @@
     <string name="yes">Ano</string>
     <string name="account">Účet</string>
     <string name="account_created_success">Váš nový účet byl vytvořen!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Nastaví Bitwarden jako poskytovatele přístupového hesla v nastavení zařízení.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Nastaví Multipass jako poskytovatele přístupového hesla v nastavení zařízení.</string>
     <string name="avoid_ambiguous_characters">Nepoužívat zaměnitelné znaky</string>
     <string name="bitwarden_autofill_service">Služba automatického vyplňování</string>
     <string name="change_master_password">Změnit hlavní heslo</string>
@@ -178,7 +178,7 @@
     <string name="no_items_for_vault">Žádné položky ve Vašem trezoru se shodou s \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Hledat přihlášení nebo přidat nové přihlášení</string>
     <string name="disabled">Zakázáno</string>
-    <string name="bitwarden_autofill_service_alert2">Nejjednodušší způsob, jak přidat nové přihlašovací údaje do Vašeho trezoru, je služba automatického vyplňování Bitwarden. Další informace o použití této služby naleznete na obrazovce \"Nastavení\".</string>
+    <string name="bitwarden_autofill_service_alert2">Nejjednodušší způsob, jak přidat nové přihlašovací údaje do Vašeho trezoru, je služba automatického vyplňování Multipass. Další informace o použití této služby naleznete na obrazovce \"Nastavení\".</string>
     <string name="autofill_noun">Automatické vyplňování</string>
     <string name="autofill_verb">Automatické vyplňování</string>
     <string name="autofill_or_view">Chcete automaticky vyplnit nebo zobrazit tyto přihlašovací údaje?</string>
@@ -230,7 +230,7 @@ Načtení proběhne automaticky.</string>
     <string name="environment_saved">URL vlastního prostředí byly uloženy.</string>
     <string name="identity_url">URL serveru identity</string>
     <string name="self_hosted_environment">Prostředí vlastního serveru</string>
-    <string name="self_hosted_environment_footer">Zadejte základní URL vlastní hostované aplikace Bitwarden.</string>
+    <string name="self_hosted_environment_footer">Zadejte základní URL vlastní hostované aplikace Multipass.</string>
     <string name="server_url">URL serveru</string>
     <string name="web_vault_url">URL serveru webového trezoru</string>
     <string name="custom_fields">Vlastní pole</string>
@@ -391,7 +391,7 @@ Načtení proběhne automaticky.</string>
     <string name="clear_clipboard">Vymazat schránku</string>
     <string name="clear_clipboard_description">Automaticky vymaže zkopírované hodnoty z Vaší schránky.</string>
     <string name="default_uri_match_detection">Výchozí zjišťování shody URI</string>
-    <string name="default_uri_match_detection_description">Detekce shody URI ovládá způsob, jakým Bitwarden identifikuje návrhy automatického vyplňování.</string>
+    <string name="default_uri_match_detection_description">Detekce shody URI ovládá způsob, jakým Multipass identifikuje návrhy automatického vyplňování.</string>
     <string name="theme">Motiv</string>
     <string name="theme_description">Změní barevný motiv aplikace</string>
     <string name="copy_notes">Kopírovat poznámku</string>
@@ -643,9 +643,9 @@ Načtení proběhne automaticky.</string>
     <string name="catch_all_email_description">Použije nastavenou univerzální schránku Vaší domény.</string>
     <string name="forwarded_email_description">Vygeneruje alias e-mailu pomocí externí přeposílací služby.</string>
     <string name="accessibility_service_disclosure">Prohlášení služby usnadnění přístupu</string>
-    <string name="accessibility_disclosure_text">Bitwarden používá službu usnadnění přístupu k hledání přihlašovacích polí v aplikacích a webových stránkách a pokud bude nalezena shoda pro aplikaci nebo stránku, pak vytvoří odpovídající ID pole pro zadání uživatelského jména a hesla. Neukládáme žádné informace, které nám služba poskytla, ani se nepokoušíme kontrolovat jakékoli prvky na obrazovce mimo zadání textových údajů.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Toto upozornění je nutné, aby Bitwarden mohl nabídnout automatické vyplňování na základě funkcí usnadnění přístupu.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden nabízí volitelnou funkci automatického vyplňování, která k rozpoznání přihlašovacích polí využívá službu usnadnění přístupu systému Android. Pokud tuto funkci zapnete, Bitwarden rozpozná příslušná pole a po nalezení shody do nich vyplní Vaše přihlašovací údaje.</string>
+    <string name="accessibility_disclosure_text">Multipass používá službu usnadnění přístupu k hledání přihlašovacích polí v aplikacích a webových stránkách a pokud bude nalezena shoda pro aplikaci nebo stránku, pak vytvoří odpovídající ID pole pro zadání uživatelského jména a hesla. Neukládáme žádné informace, které nám služba poskytla, ani se nepokoušíme kontrolovat jakékoli prvky na obrazovce mimo zadání textových údajů.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Toto upozornění je nutné, aby Multipass mohl nabídnout automatické vyplňování na základě funkcí usnadnění přístupu.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass nabízí volitelnou funkci automatického vyplňování, která k rozpoznání přihlašovacích polí využívá službu usnadnění přístupu systému Android. Pokud tuto funkci zapnete, Multipass rozpozná příslušná pole a po nalezení shody do nich vyplní Vaše přihlašovací údaje.</string>
     <string name="accessibility_disclosure_start_up_text_3">Během používání služby pro usnadnění přístupu neukládáme žádné informace o obsahu obrazovky a kromě zadávání přihlašovacích údajů nemáme kontrolu nad žádnými prvky na obrazovce.</string>
     <string name="i_understand">Rozumím</string>
     <string name="accept">Potvrdit</string>
@@ -711,7 +711,7 @@ Chcete se přepnout na tento účet?</string>
     <string name="invalid_uri">Neplatný URI</string>
     <string name="the_urix_is_already_blocked">URI %1$s je již blokován</string>
     <string name="login_approved">Přihlášení bylo schváleno</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Přihlášení zařízením musí být nastaveno v aplikaci Bitwarden.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Přihlášení zařízením musí být nastaveno v aplikaci Multipass.</string>
     <string name="need_another_option_view_all_login_options">Potřebujete další volby? <annotation link="viewAll">Zobrazit všechny volby přihlášení</annotation></string>
     <string name="log_in_with_device">Přihlásit se zařízením</string>
     <string name="logging_in_on">Přihlašování na</string>
@@ -726,7 +726,7 @@ Chcete se přepnout na tento účet?</string>
     <string name="session_timeout">Časový limit relace</string>
     <string name="session_timeout_action">Akce časového limitu relace</string>
     <string name="account_fingerprint_phrase">Fráze otisku prstu účtu</string>
-    <string name="passkey_management_explanation_long">Použijte Bitwarden pro ukládání nových přístupových klíčů a přihlašování se pomocí přístupových klíčů uložených ve Vašem trezoru.</string>
+    <string name="passkey_management_explanation_long">Použijte Multipass pro ukládání nových přístupových klíčů a přihlašování se pomocí přístupových klíčů uložených ve Vašem trezoru.</string>
     <string name="autofill_services_explanation_long">Povolí Bitwardenu používat uložené přihlašovací údaje k přihlášení do jiných aplikací na Vašem zařízení.</string>
     <string name="use_inline_autofill_explanation_long">Zvolte, jak se budou Vaše návrhy automatického vyplňování zobrazovat při přihlášení do jiných aplikací na Vašem zařízení.</string>
     <string name="additional_options">Další volby</string>
@@ -735,11 +735,11 @@ Chcete se přepnout na tento účet?</string>
     <string name="continue_to_help_center">Pokračovat do centra nápovědy?</string>
     <string name="continue_to_privacy_policy">Pokračovat na Zásady ochrany osobních údajů?</string>
     <string name="continue_to_device_settings">Pokračovat do nastavení zařízení?</string>
-    <string name="two_step_login_description_long">Vytvořte svůj účet bezpečnějším nastavením dvoufázového přihlášení ve webové aplikaci Bitwarden.</string>
-    <string name="change_master_password_description_long">Hlavní heslo můžete změnit ve webové aplikaci Bitwarden.</string>
+    <string name="two_step_login_description_long">Vytvořte svůj účet bezpečnějším nastavením dvoufázového přihlášení ve webové aplikaci Multipass.</string>
+    <string name="change_master_password_description_long">Hlavní heslo můžete změnit ve webové aplikaci Multipass.</string>
     <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Přečtěte si více o tom, jak používat Bitwarden v centru nápovědy.</string>
     <string name="privacy_policy_description_long">Podívejte se na naše Zásady ochrany osobních údajů na bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Prozkoumejte další funkce Vašeho účtu Bitwarden ve webové aplikaci.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Prozkoumejte další funkce Vašeho účtu Multipass ve webové aplikaci.</string>
     <string name="learn_about_organizations_description_long">Bitwarden Vám umožňuje sdílet položky v trezoru s ostatními prostřednictvím organizace. Více informací naleznete na bitwarden.com.</string>
     <string name="created_x">Vytvořeno: %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Vaše organizace vyžaduje nastavení hlavního hesla.</string>
@@ -779,7 +779,7 @@ Chcete se přepnout na tento účet?</string>
     <string name="email_verified">E-mail byl ověřen</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Získejte e-maily od Bitwardenu pro oznámení, poradenství a výzkumné příležitosti. <annotation link="unsubscribe">Odhlásit</annotation> se můžete kdykoli.</string>
     <string name="security_prioritized">Bezpečnost, priorita</string>
-    <string name="welcome_message_1">Uložte si přihlašovací údaje, karty a identity do zabezpečeného trezoru. Bitwarden používá šifrování end-to-end s nulovou znalostí, aby ochránil to, co je pro Vás důležité.</string>
+    <string name="welcome_message_1">Uložte si přihlašovací údaje, karty a identity do zabezpečeného trezoru. Multipass používá šifrování end-to-end s nulovou znalostí, aby ochránil to, co je pro Vás důležité.</string>
     <string name="welcome_message_2">Nastavte biometrické odemknutí a automatické vyplňování pro přihlášení k Vašim účtům bez zadání jediného písmene.</string>
     <string name="quick_and_easy_login">Rychlé a snadné přihlášení</string>
     <string name="level_up_your_logins">Zvýšit úroveň přihlašování</string>
@@ -815,8 +815,8 @@ Chcete se přepnout na tento účet?</string>
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Klepnutím na odkaz v e-mailu ověřte svou e-mailovou adresu a pokračujte ve vytváření účtu.</string>
     <string name="change_email_address">Změnit e-mailovou adresu</string>
     <string name="next">Další</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden nemůže obnovit ztracené nebo zapomenuté hlavní heslo.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden nemůže obnovit ztracené nebo zapomenuté hlavní heslo.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass nemůže obnovit ztracené nebo zapomenuté hlavní heslo.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass nemůže obnovit ztracené nebo zapomenuté hlavní heslo.</string>
     <string name="choose_your_master_password">Zvolte hlavní heslo</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Zvolte jedinečné a silné heslo pro zabezpečení Vašich informací.</string>
     <plurals name="minimum_characters">
@@ -834,16 +834,16 @@ Chcete se přepnout na tento účet?</string>
     <string name="turn_on_autofill">Zapnout automatické vyplňování</string>
     <string name="autofill_setup">Nastavení automatického vyplňování</string>
     <string name="turn_on_browser_autofill_integration">Zapnout integraci automatického vyplňování</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Používáte prohlížeč, který vyžaduje pro Bitwarden zvláštní oprávnění pro automatické vyplňování hesel.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Používáte prohlížeče, které vyžadují pro Bitwarden zvláštní oprávnění pro automatické vyplňování hesel.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Používáte prohlížeč, který vyžaduje zvláštní oprávnění pro Bitwarden k automatickému vyplňování hesel. Povolte Vaši preferovanou integraci automatického vyplňování níže.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Používáte prohlížeče, které vyžadují zvláštní oprávnění pro Bitwarden k automatickému vyplňování hesel. Povolte Vaši preferovanou integraci automatického vyplňování níže.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Používáte prohlížeč, který vyžaduje pro Multipass zvláštní oprávnění pro automatické vyplňování hesel.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Používáte prohlížeče, které vyžadují pro Multipass zvláštní oprávnění pro automatické vyplňování hesel.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Používáte prohlížeč, který vyžaduje zvláštní oprávnění pro Multipass k automatickému vyplňování hesel. Povolte Vaši preferovanou integraci automatického vyplňování níže.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Používáte prohlížeče, které vyžadují zvláštní oprávnění pro Multipass k automatickému vyplňování hesel. Povolte Vaši preferovanou integraci automatického vyplňování níže.</string>
     <string name="use_autofill_to_log_into_your_accounts">Použijte automatické vyplňování pro přihlášení do svých účtů jediným klepnutím.</string>
     <string name="turn_on_later">Zapnout později</string>
     <string name="turn_on_autofill_later">Zapnout automatické vyplňování později?</string>
     <string name="turn_on_browser_autofill_integration_later">Zapnout integraci automatického vyplňování později?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">K dokončení tohoto kroku se můžete kdykoliv vrátit v Nastavení.</string>
-    <string name="what_bitwarden_has_to_offer">Nyní můžete prozkoumat vše, co Bitwarden může nabídnout a začít bezpečně spravovat svá hesla.</string>
+    <string name="what_bitwarden_has_to_offer">Nyní můžete prozkoumat vše, co Multipass může nabídnout a začít bezpečně spravovat svá hesla.</string>
     <string name="youre_all_set">Vše je nastaveno!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Chyba při připojování ke službě Duo. Použijte jinou dvoufázovou metodu přihlášení nebo kontaktujte Duo o pomoc.</string>
     <string name="master_password_hint_not_specified">Nápověda k hlavnímu heslu</string>
@@ -862,7 +862,7 @@ Chcete se přepnout na tento účet?</string>
     <string name="do_you_have_a_computer_available">Máte k dispozici počítač?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Následující pokyny Vás povedou importováním přihlašovacích údajů z Vašeho stolního počítače nebo notebooku</string>
     <string name="import_logins">Import přihlašovacích údajů</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Chcete-li exportovat uložená hesla z prohlížeče nebo jiného správce hesel, postupujte v počítači podle těchto pokynů. Poté je bezpečně importujte do aplikace Bitwarden.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Chcete-li exportovat uložená hesla z prohlížeče nebo jiného správce hesel, postupujte v počítači podle těchto pokynů. Poté je bezpečně importujte do aplikace Multipass.</string>
     <string name="give_your_vault_a_head_start">Dejte svému trezoru náskok</string>
     <string name="class_3_biometrics_description">Odemykání pomocí biometrie vyžaduje silné biometrické ověření a nemusí být kompatibilní se všemi biometrickými volbami tohoto zařízení.</string>
     <string name="class_2_biometrics_description">Odemykání pomocí biometrie vyžaduje silné biometrické ověření a není kompatibilní s volbami biometrie dostupnými v tomto zařízení.</string>
@@ -873,7 +873,7 @@ Chcete se přepnout na tento účet?</string>
     <string name="export_your_saved_logins">Export Vašich uložených přihlášení</string>
     <string name="delete_this_file_after_import_is_complete">Po dokončení importu tento soubor smažete.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Na Vašem počítači otevřete novou kartu prohlížeče a <annotation emphasis="bold">přejděte na <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Přihlaste se do webové aplikace Bitwarden.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Přihlaste se do webové aplikace Multipass.</string>
     <string name="step_2_of_3">Krok 2 ze 3</string>
     <string name="log_in_to_bitwarden">Přihlásit se do Bitwardenu</string>
     <string name="step_3_of_3">Krok 3 ze 3</string>
@@ -884,7 +884,7 @@ Chcete se přepnout na tento účet?</string>
     <string name="need_help_check_out_import_help">Potřebujete pomoc? Podívejte se na <annotation link="importHelp">nápovědu pro import</annotation>.</string>
     <string name="import_help">nápověda pro import</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Uložte exportovaný soubor</annotation> někde na Vašem počítači, kde jej můžete snadno najít.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Nejedná se o rozpoznaný server Bitwarden. Možná budete muset zkontrolovat svého poskytovatele nebo aktualizovat svůj server.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Nejedná se o rozpoznaný server Multipass. Možná budete muset zkontrolovat svého poskytovatele nebo aktualizovat svůj server.</string>
     <string name="syncing_logins_loading_message">Synchronizování přihlašovacích údajů…</string>
     <string name="download_the_browser_extension">Stáhnout rozšíření prohlížeče</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Přejděte na bitwarden.com/download a integrujte Bitwarden do svého oblíbeného prohlížeče pro bezproblémové používání.</string>
@@ -893,8 +893,8 @@ Chcete se přepnout na tento účet?</string>
     <string name="autofill_passwords">Automatické vyplňování hesel</string>
     <string name="set_up_autofill_on_all_your_devices">Nastavte automatické vyplňování na všech Vašich zařízeních pro přihlášení jedním klepnutím kdekoliv.</string>
     <string name="import_successful">Import byl úspěšný!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Spravujte přihlašovací údaje odkudkoli pomocí nástrojů Bitwarden pro web i počítač.</string>
-    <string name="bitwarden_tools">Nástroje Bitwarden</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Spravujte přihlašovací údaje odkudkoli pomocí nástrojů Multipass pro web i počítač.</string>
+    <string name="bitwarden_tools">Nástroje Multipass</string>
     <string name="got_it">Rozumím</string>
     <string name="no_logins_were_imported">Nebyla importována žádná přihlášení</string>
     <string name="import_error">Chyba importu</string>
@@ -914,7 +914,7 @@ Chcete se přepnout na tento účet?</string>
         <item quantity="other">%d oznámení</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Přihlašujte se rychle a snadno napříč zařízeními</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden Vás může upozornit pokaždé, když obdržíte novou žádost o přihlášení z jiného zařízení.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass Vás může upozornit pokaždé, když obdržíte novou žádost o přihlášení z jiného zařízení.</string>
     <string name="skip_for_now">Prozatím přeskočit</string>
     <string name="done_text">Hotovo</string>
     <string name="page_number_x_of_y">%1$s z %2$s</string>
@@ -1017,7 +1017,7 @@ Chcete se přepnout na tento účet?</string>
     <string name="to_get_started_set_a_logging_duration">Chcete-li začít, nastavte dobu trvání logování. Logování 
 se po tomto období automaticky vypne, což Vám poskytne čas pro zachycení aktivity 
 při opakování problémů.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Logy budou automaticky smazány po 30 dnech. Bitwarden má přístup k Vašim logům jen pokud je sdílíte.</string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Logy budou automaticky smazány po 30 dnech. Multipass má přístup k Vašim logům jen pokud je sdílíte.</string>
     <string name="for_details_on_what_is_and_isnt_logged">Pro podrobnosti o tom, co je a není logováno, navštivte\n<annotation link="helpCenter">centrum nápovědy Bitwardenu</annotation>.</string>
     <string name="logging_duration">Doba logování</string>
     <string name="flight_recorder_one_hour">1 hodina</string>
@@ -1056,17 +1056,17 @@ při opakování problémů.</string>
     <string name="missing_send_resync_your_vault">Chybějící Send - znovu synchronizujte trezor</string>
     <string name="use_dynamic_colors">Použít dynamické barvy</string>
     <string name="use_dynamic_colors_question">Použít dynamické barvy?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Toto barevné schéma automaticky použije systémové barvy na Bitwarden na základě Vaší aktuální tapety. Tyto barvy nemusí splňovat všechny pokyny pro přístupnost.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Toto barevné schéma automaticky použije systémové barvy na Multipass na základě Vaší aktuální tapety. Tyto barvy nemusí splňovat všechny pokyny pro přístupnost.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Operace přístupového klíče se nezdařila, protože prohlížeč (%1$s) není důvěryhodný. Vyberte \"Důvěřovat\" pro přidání %1$s do seznamu důvěryhodných aplikací nebo \"Zrušit\" pro zrušení operace.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Operace přístupového klíče se nezdařila, protože prohlížeč není důvěryhodný.</string>
     <string name="trust">Důvěřovat</string>
-    <string name="trusted_by_you_learn_more">Toto jsou aplikace nebo prohlížeče, kterým Bitwarden ve výchozím nastavení nedůvěřuje, ale Vy důvěřujete tomu, že může provádět operace s přístupovými klíči.</string>
-    <string name="trusted_by_community_learn_more">Jedná se o aplikace, které nejsou zahrnuty v Obchodě Google Play, ale Bitwarden jim věří, že budou provádět operace s přístupovými klíči poté, co je členové komunity použijí a nahlásí jako bezpečné.</string>
+    <string name="trusted_by_you_learn_more">Toto jsou aplikace nebo prohlížeče, kterým Multipass ve výchozím nastavení nedůvěřuje, ale Vy důvěřujete tomu, že může provádět operace s přístupovými klíči.</string>
+    <string name="trusted_by_community_learn_more">Jedná se o aplikace, které nejsou zahrnuty v Obchodě Google Play, ale Multipass jim věří, že budou provádět operace s přístupovými klíči poté, co je členové komunity použijí a nahlásí jako bezpečné.</string>
     <string name="trusted_by_google_learn_more">Tyto aplikace považuje Google za bezpečné a jsou k dispozici v Obchodě Google Play.</string>
     <string name="trusted_by_you">Důvěryhodné pro Vás</string>
     <string name="trusted_by_the_community">Důvěryhodné pro komunitu</string>
     <string name="trusted_by_google">Důvěryhodné pro Google</string>
-    <string name="privileged_apps_description">Aby byli uživatelé chráněni před pokusy o phishing, Bitwarden ve výchozím nastavení provádí operace s přístupovými klíči jen prostřednictvím webových prohlížečů, kterým důvěřuje Google nebo komunita Bitwardenu.</string>
+    <string name="privileged_apps_description">Aby byli uživatelé chráněni před pokusy o phishing, Multipass ve výchozím nastavení provádí operace s přístupovými klíči jen prostřednictvím webových prohlížečů, kterým důvěřuje Google nebo komunita Bitwardenu.</string>
     <string name="about_privileged_applications">O privilegovaných aplikacích</string>
     <string name="learn_more_about_privileged_apps">Další informace o privilegovaných aplikacích</string>
     <string name="privileged_apps">Privilegované aplikace</string>
@@ -1170,12 +1170,12 @@ při opakování problémů.</string>
     <string name="items_are_collapsed_click_to_expand">Položky jsou sbaleny; klepnutím rozbalíte.</string>
     <string name="error_cannot_decrypt">[error: cannot decrypt]</string>
     <string name="copy_error_report">Zpráva o chybě kopírování</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden nemohl dešifrovat tuto položku trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass nemohl dešifrovat tuto položku trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Bitwarden nemohl dešifrovat %1$d položku trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</item>
-        <item quantity="few">Bitwarden nemohl dešifrovat %1$d položky trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</item>
-        <item quantity="many">Bitwarden nemohl dešifrovat %1$d položek trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</item>
-        <item quantity="other">Bitwarden nemohl dešifrovat %1$d položek trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</item>
+        <item quantity="one">Multipass nemohl dešifrovat %1$d položku trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</item>
+        <item quantity="few">Multipass nemohl dešifrovat %1$d položky trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</item>
+        <item quantity="many">Multipass nemohl dešifrovat %1$d položek trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</item>
+        <item quantity="other">Multipass nemohl dešifrovat %1$d položek trezoru. Zkopírujte a sdílejte tuto zprávu o chybě s oddělením zákaznické podpory, abyste předešli další ztrátě dat.</item>
     </plurals>
     <string name="select_a_card_for_x">Vyberte kartu pro %s</string>
     <string name="advanced_options">Rozšířené volby</string>
@@ -1183,8 +1183,8 @@ při opakování problémů.</string>
     <string name="keep_your_credential_secure">Uchovávejte Vaše přihlašovací údaje v bezpečí</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Zjistěte více o tom, jak udržet přihlašovací údaje při používání \"%1$s\" v bezpečí.</string>
     <string name="are_you_sure_you_want_to_use">Opravdu chcete použít \"%1$s\"?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Detekce shody URI ovládá způsob, jakým Bitwarden identifikuje návrhy automatického vyplňování.\n<annotation emphasis="bold">Varování:</annotation> \"Regulární výraz\" je pokročilá volba se zvýšeným rizikem odhalení přihlašovacích údajů, pokud je použita nesprávně.</string>
-    <string name="default_uri_match_detection_description_advanced_options">Detekce shody URI ovládá způsob, jakým Bitwarden identifikuje návrhy automatického vyplňování.\n<annotation emphasis="bold">Varování:</annotation> \"Začíná na\" je pokročilá volba se zvýšeným rizikem odhalení přihlašovacích údajů, pokud je použita nesprávně.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Detekce shody URI ovládá způsob, jakým Multipass identifikuje návrhy automatického vyplňování.\n<annotation emphasis="bold">Varování:</annotation> \"Regulární výraz\" je pokročilá volba se zvýšeným rizikem odhalení přihlašovacích údajů, pokud je použita nesprávně.</string>
+    <string name="default_uri_match_detection_description_advanced_options">Detekce shody URI ovládá způsob, jakým Multipass identifikuje návrhy automatického vyplňování.\n<annotation emphasis="bold">Varování:</annotation> \"Začíná na\" je pokročilá volba se zvýšeným rizikem odhalení přihlašovacích údajů, pokud je použita nesprávně.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">\"Začíná na\" je pokročilá volba se zvýšeným rizikem odhalení přihlašovacích údajů.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">\"Regulární výraz\" je pokročilá volba se zvýšeným rizikem odhalení přihlašovacích údajů.</string>
     <string name="later">Později</string>
@@ -1221,7 +1221,7 @@ při opakování problémů.</string>
     <string name="verify_your_master_password">Ověřte své hlavní heslo</string>
     <string name="having_trouble_with_autofill">Máte problémy s automatickým vyplňováním?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Zde můžete přistupovat k nápovědě a dokumentaci k řešení problémů</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Import hesel, přístupových hesel a dalších typů položek z Vašeho trezoru Bitwarden.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Import hesel, přístupových hesel a dalších typů položek z Vašeho trezoru Multipass.</string>
     <string name="items_to_import">Položky k importu</string>
     <string name="exporting_items">Exportování položek…</string>
     <string name="export_failed">Export se nezdařil</string>
@@ -1285,7 +1285,7 @@ při opakování problémů.</string>
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Zahrnout jen následující domény: %1$s. Zkontrolujte to a zkuste to znovu.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Zadejte alespoň jednu platnou e-mailovou adresu pro sdílení tohoto Send.</string>
     <string name="sync_with_browser">Synchronizovat s prohlížečem</string>
-    <string name="sync_with_browser_description">Chcete-li se připojit k %1$s, synchronizujte výchozí prohlížeč s mobilní aplikací Bitwarden. Když se Váš prohlížeč otevře, po výzvě se přihlásíte.\nJakmile bude synchronizace dokončena, vrátíte se do této aplikace.</string>
+    <string name="sync_with_browser_description">Chcete-li se připojit k %1$s, synchronizujte výchozí prohlížeč s mobilní aplikací Multipass. Když se Váš prohlížeč otevře, po výzvě se přihlásíte.\nJakmile bude synchronizace dokončena, vrátíte se do této aplikace.</string>
     <string name="launch_browser">Otevřít prohlížeč</string>
     <string name="continue_without_syncing">Pokračovat bez synchronizace</string>
     <string name="external_link">Externí odkaz</string>
@@ -1311,7 +1311,7 @@ při opakování problémů.</string>
     <string name="trusted">Důvěryhodný</string>
     <string name="preview_not_available_for_files">Náhled není %1$s souborů k dispozici. Stále si je můžete stáhnout pro zobrazení na Vašem zařízení.</string>
     <string name="this_file_is_too_large_to_preview">Tento soubor je pro náhled příliš velký. Stále si jej můžete stáhnout pro zobrazení na Vašem zařízení.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden nemohl dešifrovat tento soubor, takže náhled nelze zobrazit.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass nemohl dešifrovat tento soubor, takže náhled nelze zobrazit.</string>
     <string name="preview_unavailable_for_this_file">Náhled není pro tento soubor k dispozici. Stále si jej můžete stáhnout pro zobrazení na Vašem zařízení.</string>
     <string name="preview_unavailable">Náhled je nedostupný</string>
     <string name="download_attachment">Stáhnout přílohu</string>
@@ -1446,8 +1446,8 @@ při opakování problémů.</string>
     <string name="local_network_access_required">Je vyžadován přístup k místní síti</string>
     <string name="ask_again_later">Zeptat se později</string>
     <string name="enable_local_network_access">Povolit přístup k místní síti</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden potřebuje přístup k místní síti pro synchronizaci s Vaším serverem. Bez tohoto oprávnění se aplikace nebude moci připojit.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez tohoto oprávnění se Bitwarden nebude moci připojit a synchronizovat s Vaším serverem. Můžete to povolit v nastavení zařízení.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass potřebuje přístup k místní síti pro synchronizaci s Vaším serverem. Bez tohoto oprávnění se aplikace nebude moci připojit.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Bez tohoto oprávnění se Multipass nebude moci připojit a synchronizovat s Vaším serverem. Můžete to povolit v nastavení zařízení.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Váš požadavek byl přerušen, protože aplikace potřebuje přístup k místní síti. Toto můžete povolit v nastavení zařízení.</string>
     <string name="continue_to_stripe">Pokračovat do Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Budete přesměrováni na Stripe ke správě zrušení předplatného.</string>

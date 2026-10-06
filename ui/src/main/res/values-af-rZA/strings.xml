@@ -75,9 +75,9 @@
     <string name="yes">Ja</string>
     <string name="account">Rekening</string>
     <string name="account_created_success">U nuwe rekening is geskep!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Stel Bitwarden as u passkey-verskaffer in toestelinstellings.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Stel Multipass as u passkey-verskaffer in toestelinstellings.</string>
     <string name="avoid_ambiguous_characters">Vermy dubbelsinnige karakters</string>
-    <string name="bitwarden_autofill_service">Bitwarden-outovuldiens</string>
+    <string name="bitwarden_autofill_service">Multipass-outovuldiens</string>
     <string name="change_master_password">Verander hoofwagwoord</string>
     <string name="close">Sluit</string>
     <string name="close_app">Sluit toep</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Stel sessie-uittelling na “Teken uit”?</string>
     <string name="vault_timeout_log_out_confirmation_message">Ná die uittelling sal u uitgeteken word. U sal aan die internet gekoppel moet wees om weer aan te teken en toegang tot u kluis te kry. U instellings en PIN wat op hierdie toestel bewaar is, sal nie verander nie.</string>
     <string name="logging_in">Besig om aan te meld…</string>
-    <string name="login_to_bitwarden">Teken in by Bitwarden</string>
+    <string name="login_to_bitwarden">Teken in by Multipass</string>
     <string name="master_password_confirmation_val_message">Wagwoordbevestiging is verkeerd.</string>
     <string name="master_password_description">Die hoofwagwoord is die wagwoord wat u gebruik vir toegang tot die kluis. Dit is baie belangrik dat u dit onthou. Dit kan op geen manier teruggevind word indien u dit vergeet nie.</string>
     <string name="master_password_hint">Hoofwagwoordwenk (opsioneel)</string>
@@ -169,14 +169,14 @@
     <string name="view_identity">Bekyk identiteit</string>
     <string name="view_note">Bekyk nota</string>
     <string name="view_ssh_key">Bekyk SSH-sleutel</string>
-    <string name="web_vault">Bitwarden-webkluis</string>
+    <string name="web_vault">Multipass-webkluis</string>
     <string name="items">Items</string>
     <string name="items_for_uri">Items vir %1$s</string>
     <string name="no_items_for_uri">Daar is geen items in u kluis vir %1$s nie.</string>
     <string name="no_items_for_vault">Daar is geen items in jou kluis wat met \"%1$s\" ooreenstem nie</string>
     <string name="search_for_a_login_or_add_a_new_login">Soek na ’n aantekening of voeg ’n nuwe aantekening toe</string>
     <string name="disabled">Gedeaktiveer</string>
-    <string name="bitwarden_autofill_service_alert2">Die maklikste manier om nuwe aantekeninge by u kluis te voeg, is vanaf die Bitwarden-outovuldiens. Kom meer te wete oor die gebruik van die Bitwarden-outovuldiens deur na die “Instellings”-skerm te navigeer.</string>
+    <string name="bitwarden_autofill_service_alert2">Die maklikste manier om nuwe aantekeninge by u kluis te voeg, is vanaf die Multipass-outovuldiens. Kom meer te wete oor die gebruik van die Multipass-outovuldiens deur na die “Instellings”-skerm te navigeer.</string>
     <string name="autofill_noun">Outovul</string>
     <string name="autofill_verb">Outovul</string>
     <string name="autofill_or_view">Wil u hierdie item outovul of bekyk?</string>
@@ -228,7 +228,7 @@ Skandering gebeur outomaties.</string>
     <string name="environment_saved">Die omgewingbronadresse is bewaar.</string>
     <string name="identity_url">Identiteitbedienerbronadres</string>
     <string name="self_hosted_environment">Selfgehuisveste omgewing</string>
-    <string name="self_hosted_environment_footer">Spesifiseer die basisbronadres van u selfgehuisveste Bitwarden-installasie.</string>
+    <string name="self_hosted_environment_footer">Spesifiseer die basisbronadres van u selfgehuisveste Multipass-installasie.</string>
     <string name="server_url">Bedienerbronadres</string>
     <string name="web_vault_url">Webkluisbedienerbronadres</string>
     <string name="custom_fields">Pasgemaakte velde</string>
@@ -298,7 +298,7 @@ Skandering gebeur outomaties.</string>
     <string name="no_items_folder">Daar is geen items in hierdie vouer.</string>
     <string name="no_items_trash">Daar is geen items in die asblik.</string>
     <string name="autofill_accessibility_summary">Help met die invul van gebruikersnaam- en wagwoordvelde in ander toeps en op die web.</string>
-    <string name="autofill_service_description">Die Bitwarden-outovuldiens gebruik die Android-outovulraamwerk om te help met die invul van aantekeninge, kredietkaarte en identiteitsinligting in ander toeps op u toestel.</string>
+    <string name="autofill_service_description">Die Multipass-outovuldiens gebruik die Android-outovulraamwerk om te help met die invul van aantekeninge, kredietkaarte en identiteitsinligting in ander toeps op u toestel.</string>
     <string name="bitwarden_autofill_go_to_settings">Ons kon nie die Android-outovulinstellingkieslys outomaties vir u open nie. U kan na die outovulinstellingkieslys navigeer deur te gaan na Android Instellings &gt; Stelsel &gt; Tale en toevoer &gt; Gevorderd &gt; Outovuldiens.</string>
     <string name="custom_field_name">Pasgemaakte veldnaam</string>
     <string name="field_type_boolean">Booleaans</string>
@@ -373,7 +373,7 @@ Skandering gebeur outomaties.</string>
     <string name="pin">PIN</string>
     <string name="unlock">Ontgrendel</string>
     <string name="thirty_minutes">30 minute</string>
-    <string name="set_pin_description">Stel u PIN-kode in om Bitwarden te ontgrendel. U PIN-kode word heringestel indien u ooit volledig by die toep uitteken.</string>
+    <string name="set_pin_description">Stel u PIN-kode in om Multipass te ontgrendel. U PIN-kode word heringestel indien u ooit volledig by die toep uitteken.</string>
     <string name="logged_in_as_on">Op %1$s aangeteken as %2$s.</string>
     <string name="vault_locked_master_password">U kluis is vergrendel. Verifieer u hoofwagwoord om voort te gaan.</string>
     <string name="vault_locked_pin">U kluis is vergrendel. Verifieer u PIN-kode om voort te gaan.</string>
@@ -387,7 +387,7 @@ Skandering gebeur outomaties.</string>
     <string name="clear_clipboard">Wis Knipbord</string>
     <string name="clear_clipboard_description">Wis gekopieerde waardes outomaties vanuit u knipbord.</string>
     <string name="default_uri_match_detection">Verstek URI-ooreenkomsbespeuring</string>
-    <string name="default_uri_match_detection_description">URI-ooreenkomsbespeuring beheer hoe Bitwarden outovulvoorstelle identifiseer.</string>
+    <string name="default_uri_match_detection_description">URI-ooreenkomsbespeuring beheer hoe Multipass outovulvoorstelle identifiseer.</string>
     <string name="theme">Tema</string>
     <string name="theme_description">Verander die toepassing se kleurtema</string>
     <string name="copy_notes">Kopieer notas</string>
@@ -423,7 +423,7 @@ Skandering gebeur outomaties.</string>
     <string name="password_generator_policy_in_effect">Een of meer organisasiebeleide beïnvloed u genereerderinstellings</string>
     <string name="unable_to_save_attachment">Daar was ’n probleem met die bewaar van hierdie aanhegsel. Indien die probleem voortduur moet u vanuit die webkluis bewaar.</string>
     <string name="save_attachment_success">Aanhegsel suksesvol bewaar</string>
-    <string name="autofill_tile_accessibility_required">Skakel asseblief “Outovul-toeganklikheidsdiens” in Bitwarden-instellings aan om die outovul-teël te gebruik.</string>
+    <string name="autofill_tile_accessibility_required">Skakel asseblief “Outovul-toeganklikheidsdiens” in Multipass-instellings aan om die outovul-teël te gebruik.</string>
     <string name="autofill_tile_uri_not_found">Geen wagwoordvelde bespeur</string>
     <string name="soft_deleting">Besig om na asblik te stuur…</string>
     <string name="item_soft_deleted">Item is na asblik verstuur.</string>
@@ -636,9 +636,9 @@ kies u Voeg TOTP toe om die sleutel veilig te bewaar</string>
     <string name="catch_all_email_description">Gebruik u domein se opgestelde vang-alles-posbus.</string>
     <string name="forwarded_email_description">Genereer ’n e-posalias met ’n eksterne aanstuurdiens.</string>
     <string name="accessibility_service_disclosure">Toeganklikheidsdiensopenbaarmaking</string>
-    <string name="accessibility_disclosure_text">Bitwarden gebruik die Toeganklikheidsdiens om na aantekenvelde in toeps en webwerwe te soek en dan die geskikte veld-ID’s om ’n gebruikersnaam en wagwoord in te voer wanneer ’n ooreenstemming vir die toep of webwerf gevind is. Ons bewaar geen van die inligting wat deur die diens gebied word nie en ons poog ook nie om enige op-skerm-elemente buiten teksinvoer van velde te beheer nie.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Hierdie kennisgewing word vereis voordat Bitwarden toeganklikheidsgebaseerde outovul kan bied.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Bitwarden bied ’n opsionele outovulmetode wat Android se Toeganklikheidsdiens gebruik om aantekenvelde op te spoor. As u dit aktiveer, sal Bitwarden die toepaslike velde identifiseer en u aanmeldbesonderhede invul wanneer ’n ooreenkoms gevind word.</string>
+    <string name="accessibility_disclosure_text">Multipass gebruik die Toeganklikheidsdiens om na aantekenvelde in toeps en webwerwe te soek en dan die geskikte veld-ID’s om ’n gebruikersnaam en wagwoord in te voer wanneer ’n ooreenstemming vir die toep of webwerf gevind is. Ons bewaar geen van die inligting wat deur die diens gebied word nie en ons poog ook nie om enige op-skerm-elemente buiten teksinvoer van velde te beheer nie.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Hierdie kennisgewing word vereis voordat Multipass toeganklikheidsgebaseerde outovul kan bied.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Multipass bied ’n opsionele outovulmetode wat Android se Toeganklikheidsdiens gebruik om aantekenvelde op te spoor. As u dit aktiveer, sal Multipass die toepaslike velde identifiseer en u aanmeldbesonderhede invul wanneer ’n ooreenkoms gevind word.</string>
     <string name="accessibility_disclosure_start_up_text_3">Ons bewaar geen inligting oor wat op die skerm is terwyl u die Toeganklikheidsdiens gebruik nie, en ons beheer geen skermelemente behalwe die invoer van aanmeldbesonderhede nie.</string>
     <string name="i_understand">Ek verstaan</string>
     <string name="accept">Aanvaar</string>
@@ -647,7 +647,7 @@ kies u Voeg TOTP toe om die sleutel veilig te bewaar</string>
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Aantekenpoging van:
 %1$s
 Wil u na die rekening omskakel?</string>
-    <string name="new_to_bitwarden">Nuut by Bitwarden?</string>
+    <string name="new_to_bitwarden">Nuut by Multipass?</string>
     <string name="get_master_passwordword_hint">Kry hoofwagwoord wenk</string>
     <string name="logging_in_as_x_on_y">Teken aan as %1$s op %2$s</string>
     <string name="not_you">Nie jy nie?</string>
@@ -704,7 +704,7 @@ Wil u na die rekening omskakel?</string>
     <string name="invalid_uri">Ongeldige URI</string>
     <string name="the_urix_is_already_blocked">Die URI %1$s is reeds geblokkeer</string>
     <string name="login_approved">Aanmelding goedgekeur</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Aantekening met toestel moet in die instellings van die Bitwarden-toep opgestel word.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Aantekening met toestel moet in die instellings van die Multipass-toep opgestel word.</string>
     <string name="need_another_option_view_all_login_options">Het u ’n ander opsie nodig? <annotation link="viewAll">Wys alle aanmeldopsies</annotation></string>
     <string name="log_in_with_device">Teken Aan met \'n ander toestel</string>
     <string name="logging_in_on">Teken aan op</string>
@@ -719,8 +719,8 @@ Wil u na die rekening omskakel?</string>
     <string name="session_timeout">Sessie-tydsduur</string>
     <string name="session_timeout_action">Sessie-tydsduur-aksie</string>
     <string name="account_fingerprint_phrase">Rekening-vingerafdrukfrase</string>
-    <string name="passkey_management_explanation_long">Gebruik Bitwarden om nuwe passkeys te bewaar en aan te teken met passkeys wat in u kluis gestoor is.</string>
-    <string name="autofill_services_explanation_long">Laat Bitwarden toe om u gestoorde aanmeldinligting te gebruik om by ander toeps op u toestel aan te teken.</string>
+    <string name="passkey_management_explanation_long">Gebruik Multipass om nuwe passkeys te bewaar en aan te teken met passkeys wat in u kluis gestoor is.</string>
+    <string name="autofill_services_explanation_long">Laat Multipass toe om u gestoorde aanmeldinligting te gebruik om by ander toeps op u toestel aan te teken.</string>
     <string name="use_inline_autofill_explanation_long">Kies hoe u outovulvoorstelle sal verskyn wanneer u by ander toeps op u toestel aanmeld.</string>
     <string name="additional_options">Bykomende opsies</string>
     <string name="continue_to_web_app">Gaan na webprogram?</string>
@@ -728,11 +728,11 @@ Wil u na die rekening omskakel?</string>
     <string name="continue_to_help_center">Gaan voort na hulpsentrum?</string>
     <string name="continue_to_privacy_policy">Gaan na privaatheidsbeleid?</string>
     <string name="continue_to_device_settings">Gaan voort na toestelinstellings?</string>
-    <string name="two_step_login_description_long">Maak u rekening veiliger deur tweestap-aanmelding in die Bitwarden-webprogram op te stel.</string>
-    <string name="change_master_password_description_long">U kan u hoofwagwoord in die Bitwarden-webtoep verander.</string>
+    <string name="two_step_login_description_long">Maak u rekening veiliger deur tweestap-aanmelding in die Multipass-webprogram op te stel.</string>
+    <string name="change_master_password_description_long">U kan u hoofwagwoord in die Multipass-webtoep verander.</string>
     <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Kom meer te wete oor hoe om Bitwarden in die hulpsentrum te gebruik.</string>
     <string name="privacy_policy_description_long">Besoek ons privaatheidsbeleid op bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Verken meer funksies van u Bitwarden-rekening op die webprogram.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Verken meer funksies van u Multipass-rekening op die webprogram.</string>
     <string name="learn_about_organizations_description_long">Bitwarden laat u toe om u kluis-items met ander te deel deur \'n organisasie te gebruik. Kom meer te wete op die bitwarden.com-webwerf.</string>
     <string name="created_x">Geskep %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">U organisasie vereis dat u \'n hoofwagwoord instel.</string>
@@ -743,8 +743,8 @@ Wil u na die rekening omskakel?</string>
     <string name="duo_two_step_login_is_required_for_your_account">Duo-tweestapaantekening word vir u rekening vereis.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Volg die stappe van Duo om aanmelding te voltooi.</string>
     <string name="launch_duo">Begin Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">U passkey sal in u Bitwarden-kluis vir %1$s bewaar word</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">U wagwoord sal in u Bitwarden-kluis vir %1$s bewaar word</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">U passkey sal in u Multipass-kluis vir %1$s bewaar word</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">U wagwoord sal in u Multipass-kluis vir %1$s bewaar word</string>
     <string name="passkeys_not_supported_for_this_app">Passkeys word nie vir hierdie toep ondersteun nie</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Passkey-bewerking het misluk omdat die blaaier nie bevoorreg is nie</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Passkey-bewerking het misluk omdat die blaaierhandtekening nie ooreenstem nie</string>
@@ -772,13 +772,13 @@ Wil u na die rekening omskakel?</string>
     <string name="email_verified">E-pos geverifieer</string>
     <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Ontvang e-posse van Bitwarden vir aankondigings, advies en navorsingsgeleenthede. <annotation link="unsubscribe">Teken te eniger tyd uit</annotation>.</string>
     <string name="security_prioritized">Sekuriteit, geprioritiseer</string>
-    <string name="welcome_message_1">Stoor aanmeldings, kaarte en identiteite in u veilige kluis. Bitwarden gebruik nul-kennis, end-tot-end-enkripsie om te beskerm wat vir u belangrik is.</string>
+    <string name="welcome_message_1">Stoor aanmeldings, kaarte en identiteite in u veilige kluis. Multipass gebruik nul-kennis, end-tot-end-enkripsie om te beskerm wat vir u belangrik is.</string>
     <string name="welcome_message_2">Stel biometriese ontsluiting en outovul op om by u rekeninge aan te meld sonder om \'n enkele letter te tik.</string>
     <string name="quick_and_easy_login">Vinnige en maklike aanmelding</string>
     <string name="level_up_your_logins">Verhoog u aanmeldings</string>
     <string name="welcome_message_3">Gebruik die genereerder om sterk, unieke wagwoorde vir al u rekeninge te skep en te stoor.</string>
     <string name="your_data_when_and_where_you_need_it">U data, wanneer en waar u dit nodig het</string>
-    <string name="welcome_message_4">Stoor onbeperkte wagwoorde oor onbeperkte toestelle met Bitwarden mobiele, blaaier- en rekenaarprogramme.</string>
+    <string name="welcome_message_4">Stoor onbeperkte wagwoorde oor onbeperkte toestelle met Multipass mobiele, blaaier- en rekenaarprogramme.</string>
     <string name="remove_passkey">Verwyder sleutelpas</string>
     <string name="passkey_removed">Sleutelpas verwyder</string>
     <string name="what_makes_a_password_strong">Wat maak \'n wagwoord sterk?</string>
@@ -809,8 +809,8 @@ Hier is hoe:</string>
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Kies die skakel in die e-pos om u e-posadres te verifieer en voort te gaan met die skep van u rekening.</string>
     <string name="change_email_address">Verander e-posadres</string>
     <string name="next">Volgende</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden kan nie ’n verlore of vergeete hoofwagwoord herstel nie.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden kan nie \'n verlore of vergeet hoofwagwoord herstel nie.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass kan nie ’n verlore of vergeete hoofwagwoord herstel nie.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass kan nie \'n verlore of vergeet hoofwagwoord herstel nie.</string>
     <string name="choose_your_master_password">Kies u hoofwagwoord</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Kies \'n unieke en sterk wagwoord om u inligting veilig te hou.</string>
     <plurals name="minimum_characters">
@@ -826,16 +826,16 @@ Hier is hoe:</string>
     <string name="turn_on_autofill">Skakel outovul aan</string>
     <string name="autofill_setup">Outovulopstelling</string>
     <string name="turn_on_browser_autofill_integration">Skakel blaaier-outovulintegrasie aan</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Bitwarden u wagwoorde kan outovul.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Bitwarden u wagwoorde kan outovul.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Bitwarden u wagwoorde kan outovul. Aktiveer u voorkeur-outovulintegrasie hieronder.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Bitwarden u wagwoorde kan outovul. Aktiveer outovul vir al u geïnstalleerde blaaiers om voort te gaan.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Multipass u wagwoorde kan outovul.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Multipass u wagwoorde kan outovul.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">U gebruik ’n blaaier wat spesiale toestemmings vereis sodat Multipass u wagwoorde kan outovul. Aktiveer u voorkeur-outovulintegrasie hieronder.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">U gebruik blaaiers wat spesiale toestemmings vereis sodat Multipass u wagwoorde kan outovul. Aktiveer outovul vir al u geïnstalleerde blaaiers om voort te gaan.</string>
     <string name="use_autofill_to_log_into_your_accounts">Gebruik outovul om met een tik by u rekeninge aan te meld.</string>
     <string name="turn_on_later">Skakel later aan</string>
     <string name="turn_on_autofill_later">Skakel outovul later aan?</string>
     <string name="turn_on_browser_autofill_integration_later">Skakel blaaier-outovulintegrasie later aan?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">U kan te eniger tyd terugkeer om hierdie stap in Instellings te voltooi.</string>
-    <string name="what_bitwarden_has_to_offer">U kan nou alles wat Bitwarden bied verken en begin om u wagwoorde veilig te bestuur.</string>
+    <string name="what_bitwarden_has_to_offer">U kan nou alles wat Multipass bied verken en begin om u wagwoorde veilig te bestuur.</string>
     <string name="youre_all_set">U is gereed!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Fout met verbinding met die Duo-diens. Gebruik \'n ander tweestap-aanmeldingsmetode of kontak Duo vir hulp.</string>
     <string name="master_password_hint_not_specified">Hoofwagwoordwenk</string>
@@ -854,7 +854,7 @@ Hier is hoe:</string>
     <string name="do_you_have_a_computer_available">Het u \'n rekenaar beskikbaar?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Die volgende instruksies sal u deur die invoer van aantekeninge vanaf u tafel- of skootrekenaar lei</string>
     <string name="import_logins">Voer aantekeninge in</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Volg hierdie instruksies vanaf u rekenaar om gestoorde wagwoorde uit u blaaier of ander wagwoordbestuurder te voer. Voer hulle dan veilig in Bitwarden in.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Volg hierdie instruksies vanaf u rekenaar om gestoorde wagwoorde uit u blaaier of ander wagwoordbestuurder te voer. Voer hulle dan veilig in Multipass in.</string>
     <string name="give_your_vault_a_head_start">Gee u kluis \'n voorsprong</string>
     <string name="class_3_biometrics_description">Ontgrendel met biometrie vereis sterk biometriese waarmerking en is moontlik nie versoenbaar met alle biometriese opsies op hierdie toestel nie.</string>
     <string name="class_2_biometrics_description">Ontgrendel met biometrie vereis sterk biometriese waarmerking en is nie versoenbaar met die biometriese opsies wat op hierdie toestel beskikbaar is nie.</string>
@@ -865,18 +865,18 @@ Hier is hoe:</string>
     <string name="export_your_saved_logins">Voer u gestoorde aanmeldings uit</string>
     <string name="delete_this_file_after_import_is_complete">U sal hierdie lêer uitvee nadat die invoer voltooi is.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Op u rekenaar, maak ’n nuwe blaaieroortjie oop en <annotation emphasis="bold">gaan na <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Meld aan by die Bitwarden-webtoep.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Meld aan by die Multipass-webtoep.</string>
     <string name="step_2_of_3">Stap 2 van 3</string>
-    <string name="log_in_to_bitwarden">Teken in by Bitwarden</string>
+    <string name="log_in_to_bitwarden">Teken in by Multipass</string>
     <string name="step_3_of_3">Stap 3 van 3</string>
-    <string name="import_logins_to_bitwarden">Voer aanmeldings in Bitwarden in</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">In die Bitwarden-navigasie, <annotation emphasis="bold">vind die Nutsgoed</annotation>-opsie en <annotation emphasis="bold">kies Invoerdata.</annotation></string>
+    <string name="import_logins_to_bitwarden">Voer aanmeldings in Multipass in</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">In die Multipass-navigasie, <annotation emphasis="bold">vind die Nutsgoed</annotation>-opsie en <annotation emphasis="bold">kies Invoerdata.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Vul die vorm in en <annotation emphasis="bold">voer u gestoorde wagwoordlêer in.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Vir u beveiliging, maak seker dat u <annotation emphasis="bold">u gestoorde wagwoordlêer skrap.</annotation></string>
     <string name="need_help_check_out_import_help">Het u hulp nodig? Bekyk <annotation link="importHelp">invoerhulp</annotation>.</string>
     <string name="import_help">invoerhulp</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Bewaar die uitgevoerde lêer</annotation> êrens op u rekenaar waar u dit maklik kan vind.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Dit is nie \'n erkende Bitwarden-bediener nie. U moet dalk met u verskaffer kontak of u bediener opdateer.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Dit is nie \'n erkende Multipass-bediener nie. U moet dalk met u verskaffer kontak of u bediener opdateer.</string>
     <string name="syncing_logins_loading_message">Besig om aanmeldings te sinkroniseer…</string>
     <string name="download_the_browser_extension">Laai die blaaier-uitbreiding af</string>
     <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Gaan na bitwarden.com/download om Bitwarden in u gunsteling-blaaier te integreer vir \'n naatlose ervaring.</string>
@@ -885,8 +885,8 @@ Hier is hoe:</string>
     <string name="autofill_passwords">Outovul wagwoorde</string>
     <string name="set_up_autofill_on_all_your_devices">Stel outovul op al u toestelle op om met een tik oral aan te meld.</string>
     <string name="import_successful">Invoer suksesvol!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bestuur u aanmeldings van oral af met Bitwarden-gereedskap vir web en rekenaar.</string>
-    <string name="bitwarden_tools">Bitwarden-nutsgoed</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Bestuur u aanmeldings van oral af met Multipass-gereedskap vir web en rekenaar.</string>
+    <string name="bitwarden_tools">Multipass-nutsgoed</string>
     <string name="got_it">Begryp</string>
     <string name="no_logins_were_imported">Geen aanmeldings is ingevoer nie</string>
     <string name="import_error">Invoer fout</string>
@@ -904,7 +904,7 @@ Hier is hoe:</string>
         <item quantity="other">%d kennisgewings</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Teken vinnig en maklik oor toestelle heen aan</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden kan u elke keer in kennis stel wanneer u ’n nuwe aantekenversoek van ’n ander toestel ontvang.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass kan u elke keer in kennis stel wanneer u ’n nuwe aantekenversoek van ’n ander toestel ontvang.</string>
     <string name="skip_for_now">Slaan vir eers oor</string>
     <string name="done_text">Klaar</string>
     <string name="page_number_x_of_y">%1$s van %2$s</string>
@@ -929,7 +929,7 @@ Hier is hoe:</string>
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Voeg ’n syfer of simbool by</annotation> om dit nog sterker te maak. Nou het u ’n unieke, veilige en onthoubare wagfrase!</string>
     <string name="need_some_inspiration">Het u inspirasie nodig?</string>
     <string name="check_out_the_passphrase_generator">Bekyk die frase-generator</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Ons kon nie die bediener se sertifikaat verifieer nie. Die sertifikaatketting of instaaninstellings op u toestel of u Bitwarden-bediener is moontlik nie korrek opgestel nie.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Ons kon nie die bediener se sertifikaat verifieer nie. Die sertifikaatketting of instaaninstellings op u toestel of u Multipass-bediener is moontlik nie korrek opgestel nie.</string>
     <string name="copy_private_key">Kopieer privaatsleutel</string>
     <string name="login_credentials">Aanmeldbesonderhede</string>
     <string name="autofill_options">Outovulopsies</string>
@@ -956,7 +956,7 @@ Hier is hoe:</string>
     <string name="coachmark_5_of_6">5 VAN 6</string>
     <string name="coachmark_6_of_6">6 VAN 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Gebruik hierdie opsies om u wagwoord aan te pas by die vereistes van u rekening se webwerf.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Nadat u u nuwe wagwoord in Bitwarden gestoor het, moenie vergeet om dit op u rekening se webwerf by te werk nie.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Nadat u u nuwe wagwoord in Multipass gestoor het, moenie vergeet om dit op u rekening se webwerf by te werk nie.</string>
     <string name="verify_your_identity">Verifieer u identiteit</string>
     <string name="error_loading_certificate">Fout met die laai van sertifikaat</string>
     <string name="certificate_alias">Sertifikaat-alias</string>
@@ -967,7 +967,7 @@ Hier is hoe:</string>
     <string name="unsupported_certificate_type">Nie-ondersteunde sertifikaattipe</string>
     <string name="certificate_password_incorrect">Sertifikaatwagwoord is verkeerd</string>
     <string name="invalid_certificate_chain">Ongeldige sertifikaatketting</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Die gebruik van ’n stelselsertifikaat is minder veilig as om die sertifikaat by Bitwarden te bewaar. As u voortgaan, sal ’n lys beskikbare stelselsertifikate gewys word as een reeds geïnstalleer is.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Die gebruik van ’n stelselsertifikaat is minder veilig as om die sertifikaat by Multipass te bewaar. As u voortgaan, sal ’n lys beskikbare stelselsertifikate gewys word as een reeds geïnstalleer is.</string>
     <string name="link">Skakel</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Passkey-bewerking het misluk omdat die gasheer-URL nie in die versoek teenwoordig is nie.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Passkey-bewerking het misluk omdat die toephandtekening ongeldig is.</string>
@@ -1005,9 +1005,9 @@ Hier is hoe:</string>
     <string name="experiencing_an_issue">Ondervind u \'n probleem?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">Aktiveer tydelike logging om logs plaaslik te versamel en te inspekteer. Wanneer geaktiveer, kan programtoestande en netwerkoproepe gelog word—nooit sensitiewe kluisinligting nie.</string>
     <string name="to_get_started_set_a_logging_duration">Om te begin, stel ’n logduur. Loghouding sal outomaties ná hierdie tydperk afskakel, sodat u aktiwiteit kan vasvang terwyl u probleme reproduceer.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Logs sal outomaties na 30 dae uitgevee word. Bitwarden kan slegs toegang tot u logdata kry wanneer u dit deel.</string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Logs sal outomaties na 30 dae uitgevee word. Multipass kan slegs toegang tot u logdata kry wanneer u dit deel.</string>
     <string name="for_details_on_what_is_and_isnt_logged">Vir besonderhede oor wat gelog word en wat nie, besoek die
-<annotation link="helpCenter">Bitwarden-hulpsentrum.</annotation></string>
+<annotation link="helpCenter">Multipass-hulpsentrum.</annotation></string>
     <string name="logging_duration">Logduur</string>
     <string name="flight_recorder_one_hour">1 uur</string>
     <string name="flight_recorder_eight_hours">8 uur</string>
@@ -1039,24 +1039,24 @@ Die vervanging van die sertifikaat kan u verbinding met omgewings wat dit tans g
     <string name="unable_to_read_certificate">Kan nie sertifikaat lees nie.</string>
     <string name="cannot_delete_your_account">Kan nie u rekening skrap nie</string>
     <string name="cannot_delete_your_account_explanation">Hierdie aksie kan nie voltooi word nie omdat u rekening deur \'n organisasie besit word. Kontak u organisasie-administrateur vir verdere besonderhede.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Hierdie rekening sal binnekort uitgevee word. Meld aan by %1$s om voort te gaan om Bitwarden te gebruik.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Hierdie rekening sal binnekort uitgevee word. Meld aan by %1$s om voort te gaan om Multipass te gebruik.</string>
     <string name="view_file_send">Bekyk lêer Stuur</string>
     <string name="view_text_send">Bekyk teks Stuur</string>
     <string name="delete_send">Skrap Send</string>
     <string name="missing_send_resync_your_vault">Ontbrekende Send, sinchroniseer u kluis weer</string>
     <string name="use_dynamic_colors">Gebruik dinamiese kleure</string>
     <string name="use_dynamic_colors_question">Gebruik dinamiese kleure?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Hierdie kleurskema pas outomaties stelselkleure op Bitwarden toe op grond van u huidige muurpapier. Hierdie kleure voldoen moontlik nie aan alle toeganklikheidsriglyne nie.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Hierdie kleurskema pas outomaties stelselkleure op Multipass toe op grond van u huidige muurpapier. Hierdie kleure voldoen moontlik nie aan alle toeganklikheidsriglyne nie.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Passkey-bewerking het misluk omdat blaaier (%1$s) nie herken word nie. Kies “Vertrou” om %1$s by die lys van plaaslik vertroude toepassings te voeg.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Passkey-bewerking het misluk omdat die blaaier nie vertrou word nie.</string>
     <string name="trust">Vertrou</string>
-    <string name="trusted_by_you_learn_more">Dit is toepassings of blaaiers wat Bitwarden nie by verstek vertrou nie, maar wat u vertrou om passkey-bewerkings uit te voer.</string>
-    <string name="trusted_by_community_learn_more">Dit is toepassings wat nie in die Google Play-winkel ingesluit is nie, maar wat Bitwarden vertrou om passkey-bewerkings uit te voer nadat gemeenskapslede hulle gebruik en as veilig aangemeld het.</string>
+    <string name="trusted_by_you_learn_more">Dit is toepassings of blaaiers wat Multipass nie by verstek vertrou nie, maar wat u vertrou om passkey-bewerkings uit te voer.</string>
+    <string name="trusted_by_community_learn_more">Dit is toepassings wat nie in die Google Play-winkel ingesluit is nie, maar wat Multipass vertrou om passkey-bewerkings uit te voer nadat gemeenskapslede hulle gebruik en as veilig aangemeld het.</string>
     <string name="trusted_by_google_learn_more">Dit is toepassings wat Google as veilig beskou en in Google se Play-winkel beskikbaar is.</string>
     <string name="trusted_by_you">Deur u vertrou</string>
     <string name="trusted_by_the_community">Deur die gemeenskap vertrou</string>
     <string name="trusted_by_google">Deur Google vertrou</string>
-    <string name="privileged_apps_description">Om gebruikers teen phishingpogings te beskerm, voltooi Bitwarden by verstek slegs passkey-bewerkings deur toepassings of webblaaiers wat deur Google of die Bitwarden-gemeenskap vertrou word.</string>
+    <string name="privileged_apps_description">Om gebruikers teen phishingpogings te beskerm, voltooi Multipass by verstek slegs passkey-bewerkings deur toepassings of webblaaiers wat deur Google of die Multipass-gemeenskap vertrou word.</string>
     <string name="about_privileged_applications">Oor bevoorregte toepassings</string>
     <string name="learn_more_about_privileged_apps">Kom meer te wete oor bevoorregte toeps</string>
     <string name="privileged_apps">Bevoorregte toeps</string>
@@ -1158,10 +1158,10 @@ Die vervanging van die sertifikaat kan u verbinding met omgewings wat dit tans g
     <string name="items_are_collapsed_click_to_expand">Items is ingevou, klik om uit te vou.</string>
     <string name="error_cannot_decrypt">[fout: kan nie dekripteer nie]</string>
     <string name="copy_error_report">Kopieer foutverslag</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden kon nie hierdie kluisitem dekripteer nie. Kopieer en deel hierdie foutverslag met kliëntesukses om addisionele dataverlies te vermy.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass kon nie hierdie kluisitem dekripteer nie. Kopieer en deel hierdie foutverslag met kliëntesukses om addisionele dataverlies te vermy.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Bitwarden kon nie %1$d kluisitem ontsyfer nie. Kopieer en deel hierdie foutverslag met kliëntesukses om addisionele dataverlies te voorkom.</item>
-        <item quantity="other">Bitwarden kon nie %1$d kluisitems ontsyfer nie. Kopieer en deel hierdie foutverslag met kliëntesukses om addisionele dataverlies te voorkom.</item>
+        <item quantity="one">Multipass kon nie %1$d kluisitem ontsyfer nie. Kopieer en deel hierdie foutverslag met kliëntesukses om addisionele dataverlies te voorkom.</item>
+        <item quantity="other">Multipass kon nie %1$d kluisitems ontsyfer nie. Kopieer en deel hierdie foutverslag met kliëntesukses om addisionele dataverlies te voorkom.</item>
     </plurals>
     <string name="select_a_card_for_x">Kies ’n kaart vir %s</string>
     <string name="advanced_options">Gevorderde opsies</string>
@@ -1169,9 +1169,9 @@ Die vervanging van die sertifikaat kan u verbinding met omgewings wat dit tans g
     <string name="keep_your_credential_secure">Hou u aanmeldbesonderhede veilig</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Kom meer te wete oor hoe om aanmeldbesonderhede veilig te hou wanneer u “%1$s” gebruik.</string>
     <string name="are_you_sure_you_want_to_use">Is u seker u wil “%1$s” gebruik?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI-ooreenkomsbespeuring beheer hoe Bitwarden outovulvoorstelle identifiseer.
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI-ooreenkomsbespeuring beheer hoe Multipass outovulvoorstelle identifiseer.
 <annotation emphasis="bold">Waarskuwing:</annotation> “Gewone uitdrukking” is ’n gevorderde opsie met ’n verhoogde risiko dat aanmeldbesonderhede blootgestel kan word as dit verkeerd gebruik word.</string>
-    <string name="default_uri_match_detection_description_advanced_options">URI-ooreenkomsbespeuring beheer hoe Bitwarden outovulvoorstelle identifiseer.
+    <string name="default_uri_match_detection_description_advanced_options">URI-ooreenkomsbespeuring beheer hoe Multipass outovulvoorstelle identifiseer.
 <annotation emphasis="bold">Waarskuwing:</annotation> “Begin met” is ’n gevorderde opsie met ’n verhoogde risiko dat aanmeldbesonderhede blootgestel kan word.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">“Begin met” is ’n gevorderde opsie met ’n verhoogde risiko dat aanmeldbesonderhede blootgestel kan word.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">“Gewone uitdrukking” is ’n gevorderde opsie met ’n verhoogde risiko dat aanmeldbesonderhede blootgestel kan word as dit verkeerd gebruik word.</string>
@@ -1197,17 +1197,17 @@ Die vervanging van die sertifikaat kan u verbinding met omgewings wat dit tans g
         <item quantity="other">%1$d items is in u kluis ingevoer.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Aktiveer blaaier-outovul om aan te hou om wagwoorde in te vul</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">U blaaier is onlangs bygewerk, wat Bitwarden-outovul gedeaktiveer het. Om voort te gaan om u wagwoorde met Bitwarden in te vul, aktiveer blaaier-outovul in outovulinstellings.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">U blaaier is onlangs bygewerk, wat Multipass-outovul gedeaktiveer het. Om voort te gaan om u wagwoorde met Multipass in te vul, aktiveer blaaier-outovul in outovulinstellings.</string>
     <string name="not_now">Nie nou nie</string>
     <string name="import_from_bitwarden">Voer vanaf Bitwarden in</string>
     <string name="select_account">Kies rekening</string>
     <string name="no_accounts_available">Geen rekeninge beskikbaar nie</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">U het geen rekeninge waaruit u kan invoer nie. U organisasie se beveiligingsbeleid beperk moontlik die invoer van items vanaf Bitwarden na ’n ander toep.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">U het geen rekeninge waaruit u kan invoer nie. U organisasie se beveiligingsbeleid beperk moontlik die invoer van items vanaf Multipass na ’n ander toep.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Invoer beperk, kan nie kaarte uit hierdie rekening invoer nie.</string>
     <string name="verify_your_master_password">Verifieer u hoofwagwoord</string>
     <string name="having_trouble_with_autofill">Het u probleme met outovul?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Kry hier hulp en foutopsporingsdokumentasie</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Voer wagwoorde, passkeys en ander itemtipes uit u Bitwarden-kluis in.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Voer wagwoorde, passkeys en ander itemtipes uit u Multipass-kluis in.</string>
     <string name="items_to_import">Items om in te voer</string>
     <string name="exporting_items">Voer items uit…</string>
     <string name="export_failed">Uitvoer het misluk</string>
@@ -1271,7 +1271,7 @@ Die vervanging van die sertifikaat kan u verbinding met omgewings wat dit tans g
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Voer ten minste een geldige e-posadres in om hierdie Send te deel.</string>
     <string name="sync_with_browser">Sinchroniseer met blaaier</string>
-    <string name="sync_with_browser_description">Om aan %1$s te koppel, sinchroniseer u verstekblaaier met die Bitwarden-mobiele toep. Wanneer u blaaier oopmaak, voltooi aanmelding indien gevra.
+    <string name="sync_with_browser_description">Om aan %1$s te koppel, sinchroniseer u verstekblaaier met die Multipass-mobiele toep. Wanneer u blaaier oopmaak, voltooi aanmelding indien gevra.
 Sodra sinchronisering voltooi is, sal u na hierdie toep teruggebring word.</string>
     <string name="launch_browser">Lanseer blaaier</string>
     <string name="continue_without_syncing">Gaan voort sonder om te sinchroniseer</string>
@@ -1298,7 +1298,7 @@ Sodra sinchronisering voltooi is, sal u na hierdie toep teruggebring word.</stri
     <string name="trusted">Vertrou</string>
     <string name="preview_not_available_for_files">Voorskou is nie beskikbaar vir %1$s-lêers nie. U kan dit steeds aflaai om op u toestel te bekyk.</string>
     <string name="this_file_is_too_large_to_preview">Hierdie lêer is te groot vir ’n voorskou. U kan dit steeds aflaai om op u toestel te bekyk.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden kon nie hierdie lêer ontsyfer nie, dus kan die voorskou nie gewys word nie.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass kon nie hierdie lêer ontsyfer nie, dus kan die voorskou nie gewys word nie.</string>
     <string name="preview_unavailable_for_this_file">Voorskou is nie beskikbaar vir hierdie lêer nie. U kan dit steeds aflaai om op u toestel te bekyk.</string>
     <string name="preview_unavailable">Voorskou nie beskikbaar nie</string>
     <string name="download_attachment">Laai aanhegsel af</string>
@@ -1431,8 +1431,8 @@ Sodra sinchronisering voltooi is, sal u na hierdie toep teruggebring word.</stri
     <string name="local_network_access_required">Plaaslike netwerktoegang vereis</string>
     <string name="ask_again_later">Vra later weer</string>
     <string name="enable_local_network_access">Aktiveer plaaslike netwerktoegang</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden het plaaslike netwerktoegang nodig om met u bediener te sinchroniseer. Sonder hierdie toestemming sal die toep nie kan koppel nie.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sonder hierdie toestemming sal Bitwarden nie met u bediener kan koppel en sinchroniseer nie. U kan dit in u toestelinstellings aktiveer.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass het plaaslike netwerktoegang nodig om met u bediener te sinchroniseer. Sonder hierdie toestemming sal die toep nie kan koppel nie.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Sonder hierdie toestemming sal Multipass nie met u bediener kan koppel en sinchroniseer nie. U kan dit in u toestelinstellings aktiveer.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">U versoek is onderbreek omdat die toep plaaslike netwerktoegang nodig het. U kan dit in u toestelinstellings aktiveer.</string>
     <string name="continue_to_stripe">Gaan voort na Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">U sal na Stripe geneem word om u intekeningkansellasie te bestuur.</string>
