@@ -51,7 +51,9 @@ def edit(path, old, new, count=1):
     """Replace exact text; already-branded text counts as done."""
     p = ROOT / path
     text = p.read_text(encoding='utf-8')
-    if new in text and old not in text:
+    # done already: the branded text is there (it may itself contain the anchor,
+    # so this is checked first - otherwise every run would add another copy)
+    if new in text:
         return
     if old not in text:
         fail('anchor moved in %s:\n  %s' % (path, old))
@@ -236,6 +238,7 @@ def main():
     brand_server()
     brand_sso()
     screens.brand_screens(ROOT, HERE, edit, fail)
+    screens.brand_splash(ROOT, HERE, edit, fail)
     brand_icon()
     brand_signing()
     print('branded: identity, %d string files, server, icon, signing' % n)
