@@ -103,6 +103,8 @@ KEEP_BITWARDEN = [
     'copy_to_bitwarden_vault',
     'save_to_bitwarden',
     'choose_save_location_message',
+    'bitwarden_tools',
+    'manage_your_logins_from_anywhere_with_bitwarden_tools',
 ]
 WORD = re.compile(r'(?<![/.@\w])Bitwarden(?!\.com|\.net|\.eu|\w)')
 VALUE = re.compile(r'(<(string|item)\b[^>]*>)(.*?)(</\2>)', re.S)
