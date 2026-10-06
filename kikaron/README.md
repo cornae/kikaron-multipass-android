@@ -1,12 +1,15 @@
 # Kikaron Multipass for Android
 
-**Kikaron Multipass** is a modified version of the
-[Bitwarden Android app](https://github.com/bitwarden/android), made by Cornae
-(2026) for [Kikaron](https://kikaron.com). It is a client for Multipass, Kikaron's
-password manager, which runs on [Vaultwarden](https://github.com/dani-garcia/vaultwarden).
+**Kikaron Multipass** for Android was developed using Bitwarden® open source
+software: it is a modified version, made by Cornae (2026) for
+[Kikaron](https://kikaron.com), of the
+[Bitwarden® Android application](https://github.com/bitwarden/android). It is a client
+for Multipass, Kikaron's password manager, which runs on
+[Vaultwarden](https://github.com/dani-garcia/vaultwarden).
 
-It is not made, endorsed or supported by Bitwarden Inc. "Bitwarden" is a trademark
-of Bitwarden Inc.; this app does not use it as its name or logo.
+Not affiliated with or endorsed by Bitwarden, Inc. Bitwarden is a trademark or
+registered trademark of Bitwarden, Inc. in the United States and/or other countries;
+this app does not use it as its name or logo.
 
 ## Licence
 
