@@ -69,7 +69,13 @@ class AboutViewModel @Inject constructor(
             flightRecorderSubtext = settingsRepository
                 .flightRecorderData
                 .getStopsLoggingStringForActiveLog(clock = clock),
-            copyrightInfo = "© Bitwarden Inc. 2015-${Year.now(clock).value}".asText(),
+            copyrightInfo = (
+                "© Bitwarden Inc. 2015-${Year.now(clock).value}\n" +
+                    // KIKARON: the GPL-3.0 notices of this modified version
+                    "Kikaron Multipass is a modified version, by Cornae (2026), of the " +
+                    "Bitwarden Android app. GPL-3.0, without any warranty.\n" +
+                    "Source: https://github.com/cornae/kikaron-multipass-android"
+                ).asText(),
         )
     },
 ) {
