@@ -78,6 +78,32 @@ def brand_identity():
 
 
 # ---- strings --------------------------------------------------------------------------
+# Strings in which "Bitwarden" is not this app but something of Bitwarden's: another
+# Bitwarden app (Authenticator), its file format, its website / help centre, its
+# newsletter or its subscriptions. Renaming those would present Bitwarden's things as
+# ours, so they keep the name (a factual mention, which the trademark allows).
+KEEP_BITWARDEN = [
+    'bitwarden_help_center',
+    'learn_more_about_how_to_use_bitwarden_on_the_help_center',
+    'learn_more_about_using_passkeys_with_bitwarden',
+    'learn_about_organizations_description_long',
+    'go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser',
+    'get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time',
+    'manage_your_subscription_plan_in_the_bitwarden_web_app',
+    'import_bitwarden_unsupported_format',
+    'import_from_bitwarden',
+    'secure_your_accounts_with_bitwarden_authenticator',
+    'learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center',
+    'data_backup_message',
+    'download_bitwarden_card_title',
+    'sync_with_bitwarden_app',
+    'sync_with_the_bitwarden_app',
+    'shared_codes_error',
+    'account_synced_from_bitwarden_app',
+    'copy_to_bitwarden_vault',
+    'save_to_bitwarden',
+    'choose_save_location_message',
+]
 WORD = re.compile(r'(?<![/.@\w])Bitwarden(?!\.com|\.net|\.eu|\w)')
 VALUE = re.compile(r'(<(string|item)\b[^>]*>)(.*?)(</\2>)', re.S)
 NL = re.compile(r'[Hh]oofdwachtwoord')
@@ -92,6 +118,8 @@ def brand_strings():
         nl = path.parent.name in ('values-nl', 'values-nl-rNL', 'values-nl-rBE')
 
         def value(m):
+            if re.search(r'name="(%s)"' % '|'.join(KEEP_BITWARDEN), m.group(1)):
+                return m.group(0)
             body = WORD.sub(PRODUCT, m.group(3))
             if nl:
                 body = NL.sub('Multipass-wachtwoord', body)
@@ -240,6 +268,7 @@ def main():
     screens.brand_screens(ROOT, HERE, edit, fail)
     screens.brand_splash(ROOT, HERE, edit, fail)
     screens.brand_notices(ROOT, HERE, edit, fail)
+    screens.brand_about(ROOT, HERE, edit, fail)
     brand_icon()
     brand_signing()
     print('branded: identity, %d string files, server, icon, signing' % n)

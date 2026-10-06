@@ -75,9 +75,9 @@
     <string name="yes">כן</string>
     <string name="account">חשבון</string>
     <string name="account_created_success">החשבון החדש שלך נוצר!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">הגדר את Multipass כספק מפתחות הגישה שלך בהגדרות המכשיר.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">הגדר את Bitwarden כספק מפתחות הגישה שלך בהגדרות המכשיר.</string>
     <string name="avoid_ambiguous_characters">הימנע מתווים דו־משמעיים</string>
-    <string name="bitwarden_autofill_service">שירות מילוי אוטומטי של Multipass</string>
+    <string name="bitwarden_autofill_service">שירות מילוי אוטומטי של Bitwarden</string>
     <string name="change_master_password">שנה סיסמה ראשית</string>
     <string name="close">סגור</string>
     <string name="close_app">סגור אפליקציה</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">להגדיר פסק זמן של הפעלה ל“יציאה“?</string>
     <string name="vault_timeout_log_out_confirmation_message">לאחר תקופת פסק הזמן, אתה תנותק. תצטרך להיות מחובר לאינטרנט כדי להיכנס ולגשת אל הכספת שלך שוב. ההגדרות וה־PIN שלך השמורים במכשיר זה לא ישתנו.</string>
     <string name="logging_in">נכנס…</string>
-    <string name="login_to_bitwarden">היכנס אל Multipass</string>
+    <string name="login_to_bitwarden">היכנס אל Bitwarden</string>
     <string name="master_password_confirmation_val_message">אישור הסיסמה אינו נכון.</string>
     <string name="master_password_description">הסיסמה הראשית היא הסיסמה שבאמצעותה תיגש לכספת שלך. חשוב מאוד שלא תשכח את הסיסמה הראשית שלך. אין שום דרך לשחזר את הסיסמה במקרה שתשכח אותה.</string>
     <string name="master_password_hint">רמז לסיסמה הראשית (אופציונלי)</string>
@@ -170,14 +170,14 @@
     <string name="view_identity">הצג זהות</string>
     <string name="view_note">הצג פתק</string>
     <string name="view_ssh_key">הצג מפתח SSH</string>
-    <string name="web_vault">כספת הרשת של Multipass</string>
+    <string name="web_vault">כספת הרשת של Bitwarden</string>
     <string name="items"> פריטים </string>
     <string name="items_for_uri">פריטים עבור %1$s</string>
     <string name="no_items_for_uri">אין פריטים בכספת שלך עבור %1$s.</string>
     <string name="no_items_for_vault">אין פריטים בכספת שלך התואמים את “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">חפש כניסה או הוסף כניסה חדשה</string>
     <string name="disabled">מושבת</string>
-    <string name="bitwarden_autofill_service_alert2">הדרך הקלה ביותר להוסיף כניסות חדשות לכספת שלך היא דרך שירות המילוי האוטומטי של Multipass. למד עוד אודות השימוש בשירות המילוי האוטומטי של Multipass על ידי ניווט למסך ה\"הגדרות\".</string>
+    <string name="bitwarden_autofill_service_alert2">הדרך הקלה ביותר להוסיף כניסות חדשות לכספת שלך היא דרך שירות המילוי האוטומטי של Bitwarden. למד עוד אודות השימוש בשירות המילוי האוטומטי של Bitwarden על ידי ניווט למסך ה\"הגדרות\".</string>
     <string name="autofill_noun">מילוי אוטומטי</string>
     <string name="autofill_verb">מילוי אוטומטי</string>
     <string name="autofill_or_view">האם ברצונך למלא אוטומטית או להציג פריט זה?</string>
@@ -229,7 +229,7 @@
     <string name="environment_saved">כתובות ה־URL של הסביבה נשמרו.</string>
     <string name="identity_url">URL של שרת הזהות</string>
     <string name="self_hosted_environment">סביבה באירוח עצמי</string>
-    <string name="self_hosted_environment_footer">ציין את בסיס ה־URL של התקנת Multipass באירוח מקומי שלך.</string>
+    <string name="self_hosted_environment_footer">ציין את בסיס ה־URL של התקנת Bitwarden באירוח מקומי שלך.</string>
     <string name="server_url">URL של שרת</string>
     <string name="web_vault_url">URL של שרת כספת הרשת</string>
     <string name="custom_fields">שדות מותאמים אישית</string>
@@ -299,7 +299,7 @@
     <string name="no_items_folder">אין פריטים בתיקייה זו.</string>
     <string name="no_items_trash">אין פריטים בסל המחזור.</string>
     <string name="autofill_accessibility_summary">סייע במילוי שדות שם משתמש וסיסמה ביישומים אחרים וברשת.</string>
-    <string name="autofill_service_description">שירות המילוי האוטומטי של Multipass משתמש במסגרת המילוי האוטומטי של אנדרואיד כדי לסייע במילוי פרטי כניסה אל תוך יישומים אחרים במכשיר שלך.</string>
+    <string name="autofill_service_description">שירות המילוי האוטומטי של Bitwarden משתמש במסגרת המילוי האוטומטי של אנדרואיד כדי לסייע במילוי פרטי כניסה אל תוך יישומים אחרים במכשיר שלך.</string>
     <string name="bitwarden_autofill_go_to_settings">לא הצלחנו לפתוח באופן אוטומטי את תפריט הגדרות המילוי האוטומטי של אנדרואיד עבורך. אתה יכול לנווט לתפריט הגדרות המילוי האוטומטי באופן ידני מהגדרות אנדרואיד &lt; מערכת &lt; שפות &lt; מתקדם &lt; שירות מילוי אוטומטי.</string>
     <string name="custom_field_name">שם שדה מותאם אישית</string>
     <string name="field_type_boolean">בוליאני</string>
@@ -375,7 +375,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">בטל נעילה</string>
     <string name="thirty_minutes">30 דקות</string>
-    <string name="set_pin_description">קבע את קוד ה־PIN שלך לביטול נעילת Multipass. הגדרות ה־PIN שלך יאופסו אם אי פעם תצא באופן מלא מהיישום.</string>
+    <string name="set_pin_description">קבע את קוד ה־PIN שלך לביטול נעילת Bitwarden. הגדרות ה־PIN שלך יאופסו אם אי פעם תצא באופן מלא מהיישום.</string>
     <string name="logged_in_as_on">נכנסת כ־%1$s ב־%2$s.</string>
     <string name="vault_locked_master_password">הכספת שלך נעולה. אמת את הסיסמה הראשית שלך כדי להמשיך.</string>
     <string name="vault_locked_pin">הכספת שלך נעולה. אמת את קוד ה־PIN שלך כדי להמשיך.</string>
@@ -389,7 +389,7 @@
     <string name="clear_clipboard">נקה לוח העתקה</string>
     <string name="clear_clipboard_description">נקה אוטומטית ערכים שהועתקו מלוח ההעתקה שלך.</string>
     <string name="default_uri_match_detection">ברירת מחדל לזיהוי התאמת URI</string>
-    <string name="default_uri_match_detection_description">זיהוי התאמת URI שולט באופן שבו Multipass מזהה הצעות למילוי אוטומטי.</string>
+    <string name="default_uri_match_detection_description">זיהוי התאמת URI שולט באופן שבו Bitwarden מזהה הצעות למילוי אוטומטי.</string>
     <string name="theme">ערכת נושא</string>
     <string name="theme_description">שנה את צבעי ערכת הנושא של היישום</string>
     <string name="copy_notes">העתק הערה</string>
@@ -425,7 +425,7 @@
     <string name="password_generator_policy_in_effect">מדיניות ארגון אחת או יותר משפיעה על הגדרות המחולל שלך</string>
     <string name="unable_to_save_attachment">הייתה בעיה בשמירת צרופה זו. אם הבעיה נמשכת, אתה יכול לשמור אותה מכספת הרשת.</string>
     <string name="save_attachment_success">הצרופה נשמרה בהצלחה</string>
-    <string name="autofill_tile_accessibility_required">נא להפעיל את \"שירות הנגישות של המילוי האוטומטי\" מהגדרות Multipass כדי להשתמש באריח המילוי האוטומטי.</string>
+    <string name="autofill_tile_accessibility_required">נא להפעיל את \"שירות הנגישות של המילוי האוטומטי\" מהגדרות Bitwarden כדי להשתמש באריח המילוי האוטומטי.</string>
     <string name="autofill_tile_uri_not_found">לא זוהו שדות סיסמה</string>
     <string name="soft_deleting">שולח לאשפה…</string>
     <string name="item_soft_deleted">הפריט נשלח לאשפה.</string>
@@ -640,9 +640,9 @@
     <string name="catch_all_email_description">השתמש בתיבת דואר תפוס־כל המוגדרת בדומיין שלך.</string>
     <string name="forwarded_email_description">צור כינוי דוא\"ל עם שירות העברה חיצוני.</string>
     <string name="accessibility_service_disclosure">גילוי נאות בקשר לשירות הנגישות</string>
-    <string name="accessibility_disclosure_text">Multipass משתמש בשירות הנגישות כדי לחפש שדות כניסה ביישומים ואתרים, ואז לקבוע את מזהה השדה המתאים להזנת שם משתמש &amp; סיסמה כאשר נמצאה התאמה עבור היישום או האתר. איננו שומרים את המידע שמוגש לנו על ידי השירות, אנחנו גם לא עושים שום ניסיון לשלוט ברכיבים שעל המסך מעבר להזנת טקסט של אישורים.</string>
-    <string name="accessibility_disclosure_start_up_text_1">הודעה זו נדרשת לפני ש-Multipass יוכל להציע מילוי אוטומטי מבוסס נגישות.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Multipass מציע שיטת מילוי אוטומטי אופציונלית המשתמשת בשירות הנגישות של Android כדי לזהות שדות התחברות. אם תפעיל אותה, Multipass יזהה את השדות המתאימים וימלא את פרטי הכניסה שלך כאשר תימצא התאמה.</string>
+    <string name="accessibility_disclosure_text">Bitwarden משתמש בשירות הנגישות כדי לחפש שדות כניסה ביישומים ואתרים, ואז לקבוע את מזהה השדה המתאים להזנת שם משתמש &amp; סיסמה כאשר נמצאה התאמה עבור היישום או האתר. איננו שומרים את המידע שמוגש לנו על ידי השירות, אנחנו גם לא עושים שום ניסיון לשלוט ברכיבים שעל המסך מעבר להזנת טקסט של אישורים.</string>
+    <string name="accessibility_disclosure_start_up_text_1">הודעה זו נדרשת לפני ש-Bitwarden יוכל להציע מילוי אוטומטי מבוסס נגישות.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden מציע שיטת מילוי אוטומטי אופציונלית המשתמשת בשירות הנגישות של Android כדי לזהות שדות התחברות. אם תפעיל אותה, Bitwarden יזהה את השדות המתאימים וימלא את פרטי הכניסה שלך כאשר תימצא התאמה.</string>
     <string name="accessibility_disclosure_start_up_text_3">איננו מאחסנים מידע על מה שמופיע על המסך בזמן השימוש בשירות הנגישות, ואיננו שולטים באלמנטים על המסך מעבר להזנת פרטי כניסה.</string>
     <string name="i_understand">אני מבין</string>
     <string name="accept">קבל</string>
@@ -651,7 +651,7 @@
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">ניסיון כניסה מ:
 %1$s
 האם ברצונך לעבור לחשבון זה?</string>
-    <string name="new_to_bitwarden">חדש ב־Multipass?</string>
+    <string name="new_to_bitwarden">חדש ב־Bitwarden?</string>
     <string name="get_master_passwordword_hint">קבל רמז לסיסמה הראשית</string>
     <string name="logging_in_as_x_on_y">נכנס כ־%1$s ב־%2$s</string>
     <string name="not_you">לא את/ה?</string>
@@ -708,7 +708,7 @@
     <string name="invalid_uri">כתובת URI לא חוקית</string>
     <string name="the_urix_is_already_blocked">כתובת URI זו %1$s כבר חסומה</string>
     <string name="login_approved">כניסה אושרה</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">כניסה עם מכשיר צריכה להיות מוגדרת בהגדרות של היישום Multipass.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">כניסה עם מכשיר צריכה להיות מוגדרת בהגדרות של היישום Bitwarden.</string>
     <string name="need_another_option_view_all_login_options">זקוקים לאפשרות אחרת? <annotation link="viewAll">הצגת כל אפשרויות הכניסה</annotation></string>
     <string name="log_in_with_device">כניסה עם מכשיר</string>
     <string name="logging_in_on">נכנס ב־</string>
@@ -717,13 +717,13 @@
     <string name="select_vault">Select vault</string>
     <string name="appearance">מראה</string>
     <string name="account_security">אבטחת החשבון</string>
-    <string name="bitwarden_help_center">מרכז העזרה של Multipass</string>
+    <string name="bitwarden_help_center">מרכז העזרה של Bitwarden</string>
     <string name="sync_now">סנכרן עכשיו</string>
     <string name="unlock_options">אפשרויות ביטול נעילה</string>
     <string name="session_timeout">פסק זמן להפעלה</string>
     <string name="session_timeout_action">פעולת פסק זמן להפעלה</string>
     <string name="account_fingerprint_phrase">ביטוי טביעת אצבע של חשבון</string>
-    <string name="passkey_management_explanation_long">השתמש ב־Multipass כדי לשמור מפתחות גישה חדשים ולהיכנס עם מפתחות גישה המאוחסנים בכספת שלך.</string>
+    <string name="passkey_management_explanation_long">השתמש ב־Bitwarden כדי לשמור מפתחות גישה חדשים ולהיכנס עם מפתחות גישה המאוחסנים בכספת שלך.</string>
     <string name="autofill_services_explanation_long">מסגרת המילוי האוטומטי של אנדרואיד משמשת כדי לסייע במילוי פרטי כניסה אל תוך יישומים אחרים במכשיר שלך.</string>
     <string name="use_inline_autofill_explanation_long">השתמש במילוי אוטומטי מוטבע אם המקלדת שבחרת תומכת בכך. אחרת, השתמש בשכבת־העל המהווה ברירת מחדל.</string>
     <string name="additional_options">אפשרויות נוספות</string>
@@ -732,12 +732,12 @@
     <string name="continue_to_help_center">להמשיך אל מרכז העזרה?</string>
     <string name="continue_to_privacy_policy">להמשיך אל מדיניות הפרטיות?</string>
     <string name="continue_to_device_settings">להמשיך אל הגדרות המכשיר?</string>
-    <string name="two_step_login_description_long">הפוך את החשבון שלך למאובטח יותר על ידי הגדרת כניסה דו־שלבית ביישום הרשת של Multipass.</string>
-    <string name="change_master_password_description_long">אתה יכול לשנות את הסיסמה הראשית שלך ביישום הרשת של Multipass.</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">למד עוד אודות אופן השימוש ב־Multipass במרכז העזרה.</string>
+    <string name="two_step_login_description_long">הפוך את החשבון שלך למאובטח יותר על ידי הגדרת כניסה דו־שלבית ביישום הרשת של Bitwarden.</string>
+    <string name="change_master_password_description_long">אתה יכול לשנות את הסיסמה הראשית שלך ביישום הרשת של Bitwarden.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">למד עוד אודות אופן השימוש ב־Bitwarden במרכז העזרה.</string>
     <string name="privacy_policy_description_long">בדוק את מדיניות הפרטיות שלנו ב־bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">גלה עוד תכונות של חשבון ה־Multipass שלך ביישום הרשת.</string>
-    <string name="learn_about_organizations_description_long">Multipass מאפשר לך לשתף את פריטי הכספת שלך עם אחרים על ידי שימוש בארגון. למד עוד באתר האינטרנט bitwarden.com.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">גלה עוד תכונות של חשבון ה־Bitwarden שלך ביישום הרשת.</string>
+    <string name="learn_about_organizations_description_long">Bitwarden מאפשר לך לשתף את פריטי הכספת שלך עם אחרים על ידי שימוש בארגון. למד עוד באתר האינטרנט bitwarden.com.</string>
     <string name="created_x">נוצר %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">הארגון שלך דורש ממך להגדיר סיסמה ראשית.</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">הגדר אפשרות ביטול נעילה כדי לשנות את פעולת פסק הזמן לכספת שלך.</string>
@@ -747,8 +747,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">נדרשת כניסה דו־שלבית של Duo עבור החשבון שלך.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">עקוב אחר השלבים של Duo כדי לסיים להיכנס.</string>
     <string name="launch_duo">פתח את Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">מפתח הגישה שלך יישמר בכספת ה־Multipass שלך עבור %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">הסיסמה שלך תישמר בכספת ה-Multipass שלך למשך %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">מפתח הגישה שלך יישמר בכספת ה־Bitwarden שלך עבור %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">הסיסמה שלך תישמר בכספת ה-Bitwarden שלך למשך %1$s</string>
     <string name="passkeys_not_supported_for_this_app">מפתחות גישה אינן נתמכות עבור יישום זה</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">פעולת מפתח גישה נכשלה בגלל שהדפדפן אינו בעל הרשאות</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">פעולת מפתח גישה נכשלה בגלל שחתימת הדפדפן שלך אינה תואמת</string>
@@ -774,15 +774,15 @@
     <string name="check_your_email">בדוק את הדוא\"ל שלך</string>
     <string name="open_email_app">פתח יישום דוא\"ל</string>
     <string name="email_verified">דוא\"ל אומת</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">קבל הודעות דוא\"ל מאת Multipass עבור הכרזות, ייעוץ, והזדמנויות מחקר. <annotation link="unsubscribe">בטל הרשמה</annotation> בכל עת.</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">קבל הודעות דוא\"ל מאת Bitwarden עבור הכרזות, ייעוץ, והזדמנויות מחקר. <annotation link="unsubscribe">בטל הרשמה</annotation> בכל עת.</string>
     <string name="security_prioritized">אבטחה, מועדפת</string>
-    <string name="welcome_message_1">שמור כניסות, כרטיסים, וזהויות לכספת המאובטחת שלך. Multipass משתמש בהצפנה מקצה־לקצה באפס ידיעה כדי להגן על מה שחשוב לך.</string>
+    <string name="welcome_message_1">שמור כניסות, כרטיסים, וזהויות לכספת המאובטחת שלך. Bitwarden משתמש בהצפנה מקצה־לקצה באפס ידיעה כדי להגן על מה שחשוב לך.</string>
     <string name="welcome_message_2">הגדר ביטול נעילה ביומטרי ומילוי אוטומטי כדי להיכנס לחשבונות שלך מבלי להקליד אות אחת.</string>
     <string name="quick_and_easy_login">כניסה מהירה וקלה</string>
     <string name="level_up_your_logins">שדרג את הכניסות שלך</string>
     <string name="welcome_message_3">השתמש במחולל כדי ליצור ולשמור סיסמאות חזקות וייחודיות עבור כל החשבונות שלך.</string>
     <string name="your_data_when_and_where_you_need_it">הנתונים שלך, מתי והיכן שאתה צריך אותם</string>
-    <string name="welcome_message_4">שמור מספר בלתי מוגבל של סיסמאות בין מספר בלתי מוגבל של מכשירים עם יישומי Multipass לנייד, דפדפן, ושולחן עבודה.</string>
+    <string name="welcome_message_4">שמור מספר בלתי מוגבל של סיסמאות בין מספר בלתי מוגבל של מכשירים עם יישומי Bitwarden לנייד, דפדפן, ושולחן עבודה.</string>
     <string name="remove_passkey">הסר מפתח גישה</string>
     <string name="passkey_removed">מפתח גישה הוסר</string>
     <string name="what_makes_a_password_strong">מה הופך סיסמה לחזקה?</string>
@@ -812,8 +812,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">בחר את הקישור בדוא\"ל שלך כדי לאמת את כתובת הדוא\"ל שלך ולהמשיך ליצור את החשבון שלך.</string>
     <string name="change_email_address">שנה כתובת דוא\"ל</string>
     <string name="next">הבא</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass לא יכול לשחזר סיסמה ראשית שנאבדה או נשכחה.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass לא יכול לאפס סיסמה ראשית שנאבדה או נשכחה.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden לא יכול לשחזר סיסמה ראשית שנאבדה או נשכחה.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden לא יכול לאפס סיסמה ראשית שנאבדה או נשכחה.</string>
     <string name="choose_your_master_password">בחר את הסיסמה הראשית שלך</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">בחר סיסמה ייחודית וחזקה כדי לשמור על המידע שלך בטוח.</string>
     <plurals name="minimum_characters">
@@ -830,16 +830,16 @@
     <string name="turn_on_autofill">הפעל מילוי אוטומטי</string>
     <string name="autofill_setup">הגדרת מילוי אוטומטי</string>
     <string name="turn_on_browser_autofill_integration">הפעל אינטגרציית מילוי אוטומטי בדפדפן</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">אתה משתמש בדפדפן שדורש הרשאות מיוחדות בשביל ש־Multipass ימלא אוטומטית את הסיסמאות שלך.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Multipass ימלא אוטומטית את הסיסמאות שלך.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Multipass ימלא אוטומטית את הסיסמאות שלך. הפעל את אינטגרציית המילוי האוטומטי המועדפת שלך למטה.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Multipass ימלא אוטומטית את הסיסמאות שלך. הפעל מילוי אוטומטי עבור כל הדפדפנים המותקנים שלך כדי להמשיך.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">אתה משתמש בדפדפן שדורש הרשאות מיוחדות בשביל ש־Bitwarden ימלא אוטומטית את הסיסמאות שלך.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Bitwarden ימלא אוטומטית את הסיסמאות שלך.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Bitwarden ימלא אוטומטית את הסיסמאות שלך. הפעל את אינטגרציית המילוי האוטומטי המועדפת שלך למטה.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">אתה משתמש בדפדפנים שדורשים הרשאות מיוחדות בשביל ש־Bitwarden ימלא אוטומטית את הסיסמאות שלך. הפעל מילוי אוטומטי עבור כל הדפדפנים המותקנים שלך כדי להמשיך.</string>
     <string name="use_autofill_to_log_into_your_accounts">השתמש במילוי אוטומטי כדי להיכנס לחשבונות שלך בהקשה אחת.</string>
     <string name="turn_on_later">הפעל מאוחר יותר</string>
     <string name="turn_on_autofill_later">להפעיל מילוי אוטומטי מאוחר יותר?</string>
     <string name="turn_on_browser_autofill_integration_later">להפעיל את אינטגרציית המילוי האוטומטי בדפדפן מאוחר יותר?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">אתה יכול לחזור כדי להשלים את השלב הזה בכל עת בהגדרות.</string>
-    <string name="what_bitwarden_has_to_offer">אתה יכול עכשיו לגלות את כל מה שיש ל־Multipass להציע ולהתחיל לנהל את הסיסמאות שלך באופן מאובטח.</string>
+    <string name="what_bitwarden_has_to_offer">אתה יכול עכשיו לגלות את כל מה שיש ל־Bitwarden להציע ולהתחיל לנהל את הסיסמאות שלך באופן מאובטח.</string>
     <string name="youre_all_set">אתה מוכן!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">שגיאה בהתחברות עם השירות Duo. השתמש בשיטת כניסה דו־שלבית אחרת או פנה אל Duo לסיוע.</string>
     <string name="master_password_hint_not_specified">רמז לסיסמה הראשית</string>
@@ -858,7 +858,7 @@
     <string name="do_you_have_a_computer_available">האם יש לך מחשב זמין?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">ההוראות הבאות ינחו אותך בייבוא כניסות מהמחשב השולחני או הנייד שלך</string>
     <string name="import_logins">ייבא כניסות</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">מהמחשב שלך, עקוב אחר הוראות אלה כדי לייצא סיסמאות שמורות מהדפדפן שלך או מנהל סיסמאות אחר. לאחר מכן, ייבא אותם בבטחה אל Multipass.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">מהמחשב שלך, עקוב אחר הוראות אלה כדי לייצא סיסמאות שמורות מהדפדפן שלך או מנהל סיסמאות אחר. לאחר מכן, ייבא אותם בבטחה אל Bitwarden.</string>
     <string name="give_your_vault_a_head_start">תן לכספת שלך יתרון התחלתי</string>
     <string name="class_3_biometrics_description">ביטול נעילה עם זיהוי ביומטרי דורש אימות ביומטרי חזק וייתכן שלא יהיה תואם לכל האפשרויות הביומטריות במכשיר זה.</string>
     <string name="class_2_biometrics_description">ביטול נעילה עם זיהוי ביומטרי דורש אימות ביומטרי חזק ואינו תואם לאפשרויות הביומטריות הזמינות במכשיר זה.</string>
@@ -869,28 +869,28 @@
     <string name="export_your_saved_logins">ייצא את הכניסות השמורות שלך</string>
     <string name="delete_this_file_after_import_is_complete">תמחק את קובץ הזה לאחר שהייבוא הושלם.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">במחשב שלך, פתח כרטיסיית דפדפן חדשה ו<annotation emphasis="bold">לך אל <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">היכנס ליישום הרשת של Multipass.</string>
+    <string name="log_in_to_the_bitwarden_web_app">היכנס ליישום הרשת של Bitwarden.</string>
     <string name="step_2_of_3">שלב 2 מתוך 3</string>
-    <string name="log_in_to_bitwarden">היכנס אל Multipass</string>
+    <string name="log_in_to_bitwarden">היכנס אל Bitwarden</string>
     <string name="step_3_of_3">שלב 3 מתוך 3</string>
-    <string name="import_logins_to_bitwarden">ייבא כניסות אל Multipass</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">בניווט של Multipass, <annotation emphasis="bold">מצא את אפשרות הכלים</annotation> ו<annotation emphasis="bold">בחר את \'ייבוא נתונים\'.</annotation></string>
+    <string name="import_logins_to_bitwarden">ייבא כניסות אל Bitwarden</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">בניווט של Bitwarden, <annotation emphasis="bold">מצא את אפשרות הכלים</annotation> ו<annotation emphasis="bold">בחר את \'ייבוא נתונים\'.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">מלא את הטופס ו<annotation emphasis="bold">ייבא את קובץ הסיסמאות השמורות שלך.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">למען הביטחון שלך, הפקד ל<annotation emphasis="bold">מחוק את קובץ הסיסמאות השמורות שלך.</annotation></string>
     <string name="need_help_check_out_import_help">צריך עזרה? בדוק את <annotation link="importHelp">עזרה עם ייבוא</annotation>.</string>
     <string name="import_help">עזרה בייבוא</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">שמור את הקובץ המיוצא </annotation> במקום כלשהו במחשב שלך שאתה יכול למצוא בקלות.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">זה לא שרת מוכר של Multipass. ייתכן שתצטרך לבדוק עם הספק שלך או לעדכן את השרת שלך.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">זה לא שרת מוכר של Bitwarden. ייתכן שתצטרך לבדוק עם הספק שלך או לעדכן את השרת שלך.</string>
     <string name="syncing_logins_loading_message">מסנכרן כניסות…</string>
     <string name="download_the_browser_extension">הורד את הרחבת הדפדפן</string>
-    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">לך אל bitwarden.com/download כדי לשלב את Multipass לתוך הדפדפן המועדף שלך עבור חוויה חלקה.</string>
+    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">לך אל bitwarden.com/download כדי לשלב את Bitwarden לתוך הדפדפן המועדף שלך עבור חוויה חלקה.</string>
     <string name="use_the_web_app">השתמש ביישום הרשת</string>
     <string name="log_in_at_bitwarden_com_to_easily_manage_your_account">היכנס אל bitwarden.com כדי לנהל את החשבון שלך ולעדכן הגדרות.</string>
     <string name="autofill_passwords">מלא אוטומטית סיסמאות</string>
     <string name="set_up_autofill_on_all_your_devices">הגדר מילוי אוטומטי בכל המכשירים שלך כדי להיכנס עם הקשה אחת בכל מקום.</string>
     <string name="import_successful">הייבוא הצליח!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">נהל את כל הכניסות שלך מכל מקום עם הכלים של Multipass לרשת ושולחן העבודה.</string>
-    <string name="bitwarden_tools">כלים של Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">נהל את כל הכניסות שלך מכל מקום עם הכלים של Bitwarden לרשת ושולחן העבודה.</string>
+    <string name="bitwarden_tools">כלים של Bitwarden</string>
     <string name="got_it">הבנתי</string>
     <string name="no_logins_were_imported">לא יובאו כניסות</string>
     <string name="import_error">שגיאת ייבוא</string>
@@ -909,7 +909,7 @@
         <item quantity="other">%d התראות</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">היכנס במהירות ובקלות בין מכשירים</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass יכול להודיע לך בכל פעם שאתה מקבל בקשת כניסה חדשה ממכשיר אחר.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden יכול להודיע לך בכל פעם שאתה מקבל בקשת כניסה חדשה ממכשיר אחר.</string>
     <string name="skip_for_now">דלג לעת עתה</string>
     <string name="done_text">בוצע</string>
     <string name="page_number_x_of_y">%1$s מתוך %2$s</string>
@@ -934,7 +934,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">הוסף מספר או סמל</annotation> כדי לעשות את זה אפילו חזק יותר. עכשיו יש לך ביטוי סיסמה ייחודי, מאובטח, ובלתי נשכח!</string>
     <string name="need_some_inspiration">צריך קצת השראה?</string>
     <string name="check_out_the_passphrase_generator">בדוק את מחולל ביטויי הסיסמה</string>
-    <string name="we_couldnt_verify_the_servers_certificate">לא יכולנו לאמת את תעודת השרת. ייתכן ששרשרת התעודה או הגדרות הפרוקסי במכשיר שלך או בשרת ה־Multipass שלך אינן מוגדרות כראוי.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">לא יכולנו לאמת את תעודת השרת. ייתכן ששרשרת התעודה או הגדרות הפרוקסי במכשיר שלך או בשרת ה־Bitwarden שלך אינן מוגדרות כראוי.</string>
     <string name="copy_private_key">העתק מפתח פרטי</string>
     <string name="login_credentials">אישורי כניסה</string>
     <string name="autofill_options">אפשרויות מילוי אוטומטי</string>
@@ -961,7 +961,7 @@
     <string name="coachmark_5_of_6">5 מתוך 6</string>
     <string name="coachmark_6_of_6">6 מתוך 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">השתמש באפשרויות אלה כדי להתאים את הסיסמה שלך כך שתעמוד בדרישות של אתר החשבון שלך.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">לאחר שאתה שומר את הסיסמה החדשה שלך ב־Multipass, אל תשכח לעדכן אותה באתר החשבון שלך.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">לאחר שאתה שומר את הסיסמה החדשה שלך ב־Bitwarden, אל תשכח לעדכן אותה באתר החשבון שלך.</string>
     <string name="verify_your_identity">אמת את זהותך</string>
     <string name="error_loading_certificate">שגיאה בטעינת אישור</string>
     <string name="certificate_alias">כינוי אישור</string>
@@ -972,7 +972,7 @@
     <string name="unsupported_certificate_type">סוג אישור לא נתמך</string>
     <string name="certificate_password_incorrect">סיסמת אישור שגויה</string>
     <string name="invalid_certificate_chain">שרשרת אישורים שגויה</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">שימוש בתעודת מערכת הוא פחות מאובטח מאשר אחסון התעודה עם Multipass. בהמשך תוצג רשימה של תעודות מערכת זמינות אם אחת כבר מותקנת.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">שימוש בתעודת מערכת הוא פחות מאובטח מאשר אחסון התעודה עם Bitwarden. בהמשך תוצג רשימה של תעודות מערכת זמינות אם אחת כבר מותקנת.</string>
     <string name="link">קישור</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">פעולת מפתח גישה נכשלה בגלל שכתובת ה־URL של המארח אינה נמצאת בבקשה.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">פעולת מפתח גישה נכשלה בגלל שחתימת היישום אינה חוקית.</string>
@@ -1010,8 +1010,8 @@
     <string name="experiencing_an_issue">חווה בעיה?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">אפשר תיעוד זמני כדי לאסוף ולבחון יומנים באופן מקומי. כאשר מופעל, מצבי היישום וקריאות רשת עשויות להיות מתועדות—לעולם לא מידע כספת רגיש.</string>
     <string name="to_get_started_set_a_logging_duration">כדי להתחיל בעבודה, הגדר משך זמן תיעוד. התיעוד יכובה באופן אוטומטי לאחר תקופה זו, מה שנותן לך זמן כדי ללכוד פעילות בזמן שחזור בעיות כלשהן.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">היומנים יימחקו באופן אוטומטי לאחר 30 ימים. Multipass יכול לגשת לנתוני היומנים שלך רק כאשר אתה משתף אותם.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">לפרטים על מה שמתועד ומה שלא מתועד, בקר את \n<annotation link="helpCenter">מרכז העזרה של Multipass.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">היומנים יימחקו באופן אוטומטי לאחר 30 ימים. Bitwarden יכול לגשת לנתוני היומנים שלך רק כאשר אתה משתף אותם.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">לפרטים על מה שמתועד ומה שלא מתועד, בקר את \n<annotation link="helpCenter">מרכז העזרה של Bitwarden.</annotation></string>
     <string name="logging_duration">משך זמן התיעוד</string>
     <string name="flight_recorder_one_hour">שעה</string>
     <string name="flight_recorder_eight_hours">8 שעות</string>
@@ -1042,29 +1042,29 @@
     <string name="unable_to_read_certificate">לא ניתן לקרוא תעודה.</string>
     <string name="cannot_delete_your_account">לא ניתן למחוק את החשבון שלך</string>
     <string name="cannot_delete_your_account_explanation">לא ניתן להשלים פעולה זו בגלל שהחשבון שלך נמצא בבעלות ארגון. צור קשר עם מנהל הארגון שלך לפרטים נוספים.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">חשבון זה יימחק בקרוב. היכנס ב־%1$s כדי להמשיך להשתמש ב־Multipass.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">חשבון זה יימחק בקרוב. היכנס ב־%1$s כדי להמשיך להשתמש ב־Bitwarden.</string>
     <string name="view_file_send">הצג סֵנְד של קובץ</string>
     <string name="view_text_send">הצג סֵנְד של טקסט</string>
     <string name="delete_send">מחק סֵנְד</string>
     <string name="missing_send_resync_your_vault">חסרה שליחה, יש לסנכרן מחדש את הכספת שלך</string>
     <string name="use_dynamic_colors">השתמש בצבעים דימניים</string>
     <string name="use_dynamic_colors_question">להשתמש בצבעים דינמיים?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">מערך צבעים זה יחיל באופן אוטומטי צבעי מערכת ב־Multipass בהתבסס על הטפט הנוכחי שלך. הצבעים האלה עשויים שלא לעמוד בכל הנחיות הנגישות.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">מערך צבעים זה יחיל באופן אוטומטי צבעי מערכת ב־Bitwarden בהתבסס על הטפט הנוכחי שלך. הצבעים האלה עשויים שלא לעמוד בכל הנחיות הנגישות.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">פעולת מפתח הגישה נכשלה בגלל שהדפדפן (%1$s) אינו מזוהה. בחר “תן אמון“ כדי להוסיף את %1$s לרשימת היישומים המהימנים מקומית.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">פעולת מפתח גישה נכשלה בגלל שהדפדפן אינו מהימן.</string>
     <string name="trust">תן אמון</string>
-    <string name="trusted_by_you_learn_more">אלה היישומים או הדפדפנים ש־Multipass אינו נותן בהם אמון כברירת מחדל, אבל אתה נותן בהם אמון לביצוע פעולות של מפתח גישה.</string>
-    <string name="trusted_by_community_learn_more">אלה היישומים שאינם כלולים ב־Google Play Store, אבל Multipass נותנת בהם אמון לביצוע פעולות של מפתח גישה לאחר שחברי הקהילה השתמשו ודיווחו כי הם בטוחים.</string>
+    <string name="trusted_by_you_learn_more">אלה היישומים או הדפדפנים ש־Bitwarden אינו נותן בהם אמון כברירת מחדל, אבל אתה נותן בהם אמון לביצוע פעולות של מפתח גישה.</string>
+    <string name="trusted_by_community_learn_more">אלה היישומים שאינם כלולים ב־Google Play Store, אבל Bitwarden נותנת בהם אמון לביצוע פעולות של מפתח גישה לאחר שחברי הקהילה השתמשו ודיווחו כי הם בטוחים.</string>
     <string name="trusted_by_google_learn_more">אלה היישומים ש־Google מחשיבה כבטוחים ואשר זמינים ב־Play Store של Google.</string>
     <string name="trusted_by_you">מהימנים על ידך</string>
     <string name="trusted_by_the_community">מהימנים על ידי הקהילה</string>
     <string name="trusted_by_google">מהימנים על ידי Google</string>
-    <string name="privileged_apps_description">כדי להגן על משתמשים מניסיונות דיוג, כברירת מחדל, Multipass משלימה פעולות של מפתח גישה דרך יישומים או דפדפני רשת המהימנים על ידי Google או הקהילה של Multipass.</string>
+    <string name="privileged_apps_description">כדי להגן על משתמשים מניסיונות דיוג, כברירת מחדל, Bitwarden משלימה פעולות של מפתח גישה דרך יישומים או דפדפני רשת המהימנים על ידי Google או הקהילה של Bitwarden.</string>
     <string name="about_privileged_applications">אודות יישומים מורשים</string>
     <string name="learn_more_about_privileged_apps">למד עוד אודות יישומים מורשים</string>
     <string name="privileged_apps">יישומים מורשים</string>
     <string name="unrecognized_browser">דפדפן לא מזוהה</string>
-    <string name="learn_more_about_using_passkeys_with_bitwarden">למד עוד אודות שימוש במפתחות גישה עם Multipass.</string>
+    <string name="learn_more_about_using_passkeys_with_bitwarden">למד עוד אודות שימוש במפתחות גישה עם Bitwarden.</string>
     <string name="all_trusted_apps">כל היישומים המהימנים</string>
     <string name="are_you_sure_you_want_to_stop_trusting_x">האם אתה בטוח שברצונך להפסיק לתת אמון ב־%s?</string>
     <string name="installed_apps">יישומים מותקנים</string>
@@ -1093,7 +1093,7 @@
     <string name="information">מידע</string>
     <string name="otp_type">סוג OTP</string>
     <string name="search_codes">חיפוש קודים</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">אבטח את החשבונות שלך עם מאמת Multipass</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">אבטח את החשבונות שלך עם מאמת Bitwarden</string>
     <string name="get_verification_codes_for_all_your_accounts">קבל קודי אימות עבור כל החשבונות שלך אשר תומכים באימות דו־שלבי.</string>
     <string name="use_your_device_camera_to_scan_codes">השתמש במצלמה של המכשיר שלך כדי לסרוק קודים</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">סרוק את קוד ה־QR בהגדרות האימות הדו־שלבי שלך עבור כל חשבון.</string>
@@ -1114,7 +1114,7 @@
     <string name="too_many_failed_biometric_attempts">יותר מדי ניסיונות זיהוי ביומטרי כושלים.</string>
     <string name="version">גרסה</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">גרסה: %1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">למד עוד אודות אופן השימוש במאמת Multipass במרכז העזרה.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">למד עוד אודות אופן השימוש במאמת Bitwarden במרכז העזרה.</string>
     <string name="key">מפתח</string>
     <string name="create_verification_code">צור קוד אימות</string>
     <string name="key_is_required">נדרש מפתח.</string>
@@ -1125,30 +1125,30 @@
     <string name="key_is_invalid">המפתח אינו חוקי.</string>
     <string name="backup">גיבוי</string>
     <string name="data_backup_title">גיבוי נתונים</string>
-    <string name="data_backup_message">נתוני מאמת Multipass מגובים וניתנים לשחזור עם גיבויי המכשיר המתוכננים באופן קבוע שלך.</string>
+    <string name="data_backup_message">נתוני מאמת Bitwarden מגובים וניתנים לשחזור עם גיבויי המכשיר המתוכננים באופן קבוע שלך.</string>
     <string name="import_2fas_password_protected_not_supported">ייבוא מקבצי אימות דו־שלבי המוגנים בסיסמה אינו נתמך. נסה שוב עם קובץ מיוצא שאינו מוגן סיסמה.</string>
-    <string name="import_bitwarden_unsupported_format">ייבוא מקבצי CSV של Multipass אינו נתמך. נסה שוב עם קובץ JSON מיוצא.</string>
-    <string name="download_bitwarden_card_title">הורד את היישום Multipass</string>
+    <string name="import_bitwarden_unsupported_format">ייבוא מקבצי CSV של Bitwarden אינו נתמך. נסה שוב עם קובץ JSON מיוצא.</string>
+    <string name="download_bitwarden_card_title">הורד את היישום Bitwarden</string>
     <string name="download_bitwarden_card_message">אחסן את כל הכניסות שלך וסנכרן קודי אימות ישירות עם יישום המאמת.</string>
     <string name="download_now">הורד עכשיו</string>
-    <string name="sync_with_bitwarden_app">סנכרן עם יישום Multipass</string>
+    <string name="sync_with_bitwarden_app">סנכרן עם יישום Bitwarden</string>
     <string name="learn_more_link"><annotation link="learnMore">למד עוד</annotation></string>
-    <string name="shared_codes_error">לא ניתן לסנכרן קודים מתוך היישום Multipass. יש לוודא ששני היישומים מעודכנים. באפשרותך עדיין לגשת לקודים הקיימים שלך ביישום Multipass.</string>
-    <string name="sync_with_the_bitwarden_app">סנכרן עם היישום Multipass</string>
+    <string name="shared_codes_error">לא ניתן לסנכרן קודים מתוך היישום Bitwarden. יש לוודא ששני היישומים מעודכנים. באפשרותך עדיין לגשת לקודים הקיימים שלך ביישום Bitwarden.</string>
+    <string name="sync_with_the_bitwarden_app">סנכרן עם היישום Bitwarden</string>
     <string name="sync_with_bitwarden_action_card_message">כדי להציג את כל קודי האימות שלך, תצטרך להתיר סנכרון בכל החשבונות שלך.</string>
     <string name="take_me_to_app_settings">קח אותי אל הגדרות היישום</string>
     <string name="something_went_wrong">משהו השתבש</string>
     <string name="please_try_again">נא לנסות שוב</string>
-    <string name="copy_to_bitwarden_vault">העתק לכספת Multipass</string>
+    <string name="copy_to_bitwarden_vault">העתק לכספת Bitwarden</string>
     <string name="default_save_option">אפשרות שמירה ברירת מחדל</string>
-    <string name="save_to_bitwarden">שמור ב־Multipass</string>
+    <string name="save_to_bitwarden">שמור ב־Bitwarden</string>
     <string name="save_here">שמור כאן</string>
     <string name="none">ללא</string>
     <string name="default_save_options_subtitle">בחר היכן ברצונך לשמור קודי אימות חדשים.</string>
     <string name="verification_code_created">קוד אימות נוצר</string>
-    <string name="choose_save_location_message">שמור מפתח מאמת זה כאן, או הוסף אותו לכניסה ביישום ה־Multipass שלך.</string>
+    <string name="choose_save_location_message">שמור מפתח מאמת זה כאן, או הוסף אותו לכניסה ביישום ה־Bitwarden שלך.</string>
     <string name="save_option_as_default">שמור אפשרות כברירת מחדל</string>
-    <string name="account_synced_from_bitwarden_app">חשבון המיובא מתוך יישום Multipass</string>
+    <string name="account_synced_from_bitwarden_app">חשבון המיובא מתוך יישום Bitwarden</string>
     <string name="local_codes">קודים מקומיים (%1$d)</string>
     <string name="required_information_missing">חסר מידע נדרש</string>
     <string name="required_information_missing_message">חסר מידע נדרש (למשל \'שירותים\' או \'סוד\'). בדוק את הקובץ שלך ונסה שוב. בקר ב־bitwarden.com/help עבור תמיכה</string>
@@ -1162,11 +1162,11 @@
     <string name="items_are_collapsed_click_to_expand">הפריטים מכווצים, לחץ כדי להרחיב.</string>
     <string name="error_cannot_decrypt">[שגיאה: לא ניתן לפענח]</string>
     <string name="copy_error_report">העתק דוח שגיאה</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass לא יכל לפענח את פריט כספת זה. העתק ושתף דוח שגיאה זה עם הצלחת לקוח כדי להימנע מאיבוד נתונים נוסף.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden לא יכל לפענח את פריט כספת זה. העתק ושתף דוח שגיאה זה עם הצלחת לקוח כדי להימנע מאיבוד נתונים נוסף.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Multipass לא יכל לפענח פריט כספת %1$d. העתק ושתף דוח שגיאה זה עם הצלחת לקוח כדי להימנע מאיבוד נתונים נוסף.</item>
-        <item quantity="two">Multipass לא יכל לפענח %1$d פריטי כספת. העתק ושתף דוח שגיאה זה עם הצלחת לקוח כדי להימנע מאיבוד נתונים נוסף.</item>
-        <item quantity="other">Multipass לא יכל לפענח %1$d פריטי כספת. העתק ושתף דוח שגיאה זה עם הצלחת לקוח כדי להימנע מאיבוד נתונים נוסף.</item>
+        <item quantity="one">Bitwarden לא יכל לפענח פריט כספת %1$d. העתק ושתף דוח שגיאה זה עם הצלחת לקוח כדי להימנע מאיבוד נתונים נוסף.</item>
+        <item quantity="two">Bitwarden לא יכל לפענח %1$d פריטי כספת. העתק ושתף דוח שגיאה זה עם הצלחת לקוח כדי להימנע מאיבוד נתונים נוסף.</item>
+        <item quantity="other">Bitwarden לא יכל לפענח %1$d פריטי כספת. העתק ושתף דוח שגיאה זה עם הצלחת לקוח כדי להימנע מאיבוד נתונים נוסף.</item>
     </plurals>
     <string name="select_a_card_for_x">בחר כרטיס עבור %s</string>
     <string name="advanced_options">אפשרויות מתקדמות</string>
@@ -1174,8 +1174,8 @@
     <string name="keep_your_credential_secure">שמור את האישורים שלך מאובטחים</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">למד עוד על איך יש לשמור את האישורים שלך מאובטחים כאשר משתמשים ב“%1$s”.</string>
     <string name="are_you_sure_you_want_to_use">האם אתה בטוח שברצונך להשתמש ב“%1$s”?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">זיהוי התאמת URI שולט באופן שבו Multipass מזהה הצעות למילוי אוטומטי.\n<annotation emphasis="bold">אזהרה:</annotation> ”ביטוי רגולרי” היא אפשרות מתקדמת עם סיכון מוגבר לחשיפת אישורים אם נעשה בו שימוש לא נכון.</string>
-    <string name="default_uri_match_detection_description_advanced_options">זיהוי התאמת URI שולט באופן שבו Multipass מזהה הצעות למילוי אוטומטי.\n<annotation emphasis="bold">אזהרה:</annotation> ”מתחיל עם” היא אפשרות מתקדמת עם סיכון מוגבר לחשיפת אישורים.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">זיהוי התאמת URI שולט באופן שבו Bitwarden מזהה הצעות למילוי אוטומטי.\n<annotation emphasis="bold">אזהרה:</annotation> ”ביטוי רגולרי” היא אפשרות מתקדמת עם סיכון מוגבר לחשיפת אישורים אם נעשה בו שימוש לא נכון.</string>
+    <string name="default_uri_match_detection_description_advanced_options">זיהוי התאמת URI שולט באופן שבו Bitwarden מזהה הצעות למילוי אוטומטי.\n<annotation emphasis="bold">אזהרה:</annotation> ”מתחיל עם” היא אפשרות מתקדמת עם סיכון מוגבר לחשיפת אישורים.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">”מתחיל עם” היא אפשרות מתקדמת עם סיכון מוגבר לחשיפת אישורים.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">”ביטוי רגולרי” הוא אפשרות מתקדמת עם סיכון מוגבר לחשיפת אישורים אם נעשה בו שימוש לא נכון.</string>
     <string name="later">מאוחר יותר</string>
@@ -1201,17 +1201,17 @@
         <item quantity="other">%1$d פריטים יובאו אל הכספת שלך.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">הפעל מילוי אוטומטי בדפדפן כדי להמשך למלא סיסמאות</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">הדפדפן שלך עודכן לאחרונה, מה שהשבית את המילוי האוטומטי של Multipass. כדי להמשיך למלא סיסמאות עם Multipass, יש להפעיל את המילוי האוטומטי של הדפדפן בהגדרות למילוי אוטומטי.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">הדפדפן שלך עודכן לאחרונה, מה שהשבית את המילוי האוטומטי של Bitwarden. כדי להמשיך למלא סיסמאות עם Bitwarden, יש להפעיל את המילוי האוטומטי של הדפדפן בהגדרות למילוי אוטומטי.</string>
     <string name="not_now">לא כעת</string>
-    <string name="import_from_bitwarden">ייבא מ־Multipass</string>
+    <string name="import_from_bitwarden">ייבא מ־Bitwarden</string>
     <string name="select_account">בחר חשבון</string>
     <string name="no_accounts_available">אין חשבונות זמינים</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">אין לך חשבונות שמהם אתה יכול לייבא. מדיניות האבטחה של הארגון שלך עלולה להגביל ייבוא פריטים מ־Multipass אל יישום אחר.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">אין לך חשבונות שמהם אתה יכול לייבא. מדיניות האבטחה של הארגון שלך עלולה להגביל ייבוא פריטים מ־Bitwarden אל יישום אחר.</string>
     <string name="import_restricted_unable_to_import_credit_cards">הייבוא מוגבל, לא ניתן לייבא כרטיסים מחשבון זה.</string>
     <string name="verify_your_master_password">אמת את הסיסמה הראשית שלך</string>
     <string name="having_trouble_with_autofill">נתקלת בבעיה עם מילוי אוטומטי?</string>
     <string name="access_help_and_troubleshooting_documentation_here">גש לתיעוד של עזרה ופתרון בעיות כאן</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">ייבא סיסמאות, מפתחות גישה, וסוגי פריטים אחרים מכספת ה־Multipass שלך.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">ייבא סיסמאות, מפתחות גישה, וסוגי פריטים אחרים מכספת ה־Bitwarden שלך.</string>
     <string name="items_to_import">פריטים לייבוא</string>
     <string name="exporting_items">מייצא פריטים…</string>
     <string name="export_failed">ייצוא נכשל</string>
@@ -1275,7 +1275,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">הזן לפחות כתובת אימייל אחת תקפה כדי לשתף Send זה.</string>
     <string name="sync_with_browser">סנכרן עם דפדפן</string>
-    <string name="sync_with_browser_description">כדי להתחבר אל %1$s, סנכרן את הדפדפן המוגדר כברירת מחדל עם אפליקציית Multipass לנייד. כאשר הדפדפן ייפתח, השלם את תהליך הכניסה אם תתבקש.\nלאחר השלמת הסנכרון, תחזור לאפליקציה זו.</string>
+    <string name="sync_with_browser_description">כדי להתחבר אל %1$s, סנכרן את הדפדפן המוגדר כברירת מחדל עם אפליקציית Bitwarden לנייד. כאשר הדפדפן ייפתח, השלם את תהליך הכניסה אם תתבקש.\nלאחר השלמת הסנכרון, תחזור לאפליקציה זו.</string>
     <string name="launch_browser">הפעל דפדפן</string>
     <string name="continue_without_syncing">המשך ללא סנכרון</string>
     <string name="external_link">קישור חיצוני</string>
@@ -1301,7 +1301,7 @@
     <string name="trusted">מהימן</string>
     <string name="preview_not_available_for_files">תצוגה מקדימה לא זמינה עבור קבצי %1$s. אתה עדיין יכול להוריד אותו כדי לצפות בו במכשיר שלך.</string>
     <string name="this_file_is_too_large_to_preview">קובץ זה גדול מדי לתצוגה מקדימה. אתה עדיין יכול להוריד אותו כדי לצפות בו במכשיר שלך.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass לא הצליח לפענח קובץ זה, כך שלא ניתן להציג את התצוגה המקדימה.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden לא הצליח לפענח קובץ זה, כך שלא ניתן להציג את התצוגה המקדימה.</string>
     <string name="preview_unavailable_for_this_file">תצוגה מקדימה לא זמינה עבור קובץ זה. אתה עדיין יכול להוריד אותו כדי לצפות בו במכשיר שלך.</string>
     <string name="preview_unavailable">תצוגה מקדימה לא זמינה</string>
     <string name="download_attachment">הורד קובץ מצורף</string>
@@ -1343,7 +1343,7 @@
     <string name="billing_rate_per_year">%1$s / שנה</string>
     <string name="billing_rate_per_month">%1$s / חודש</string>
     <string name="manage_plan">נהל תוכנית</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">נהל את תוכנית המנוי שלך באפליקציית האינטרנט של Multipass.</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">נהל את תוכנית המנוי שלך באפליקציית האינטרנט של Bitwarden.</string>
     <string name="cancel_premium">בטל פרימיום</string>
     <string name="subscription_status_active">פעיל</string>
     <string name="subscription_status_canceled">בוטל</string>
@@ -1435,8 +1435,8 @@
     <string name="local_network_access_required">נדרשת גישה לרשת המקומית</string>
     <string name="ask_again_later">שאל שוב מאוחר יותר</string>
     <string name="enable_local_network_access">אפשר גישה לרשת המקומית</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass זקוק לגישה לרשת המקומית כדי לסנכרן עם השרת שלך. ללא הרשאה זו, האפליקציה לא תוכל להתחבר.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ללא הרשאה זו, Multipass לא יוכל להתחבר ולסנכרן עם השרת שלך. תוכל להפעיל זאת בהגדרות המכשיר שלך.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden זקוק לגישה לרשת המקומית כדי לסנכרן עם השרת שלך. ללא הרשאה זו, האפליקציה לא תוכל להתחבר.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">ללא הרשאה זו, Bitwarden לא יוכל להתחבר ולסנכרן עם השרת שלך. תוכל להפעיל זאת בהגדרות המכשיר שלך.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">הבקשה שלך הופסקה מכיוון שהאפליקציה זקוקה לגישה לרשת המקומית. תוכל להפעיל זאת בהגדרות המכשיר שלך.</string>
     <string name="continue_to_stripe">להמשיך אל Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">תועבר אל Stripe כדי לנהל את ביטול המנוי שלך.</string>

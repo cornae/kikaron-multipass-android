@@ -75,9 +75,9 @@
     <string name="yes">Ναι</string>
     <string name="account">Λογαριασμός</string>
     <string name="account_created_success">Ο νέος σας λογαριασμός έχει δημιουργηθεί!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Ορίστε το Multipass ως πάροχο κλειδιού πρόσβασης στις ρυθμίσεις της συσκευής.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Ορίστε το Bitwarden ως πάροχο κλειδιού πρόσβασης στις ρυθμίσεις της συσκευής.</string>
     <string name="avoid_ambiguous_characters">Αποφυγή αμφιλεγόμενων χαρακτήρων</string>
-    <string name="bitwarden_autofill_service">Υπηρεσία Αυτόματης Συμπλήρωσης Multipass</string>
+    <string name="bitwarden_autofill_service">Υπηρεσία Αυτόματης Συμπλήρωσης Bitwarden</string>
     <string name="change_master_password">Αλλαγή κύριου κωδικού</string>
     <string name="close">Κλείσιμο</string>
     <string name="close_app">Κλείσιμο εφαρμογής</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Να οριστεί η λήξη συνεδρίας σε «Αποσύνδεση»;</string>
     <string name="vault_timeout_log_out_confirmation_message">Μετά τη λήξη του χρόνου, θα αποσυνδεθείτε. Θα χρειαστεί να είστε συνδεδεμένοι στο διαδίκτυο για να συνδεθείτε και να αποκτήσετε ξανά πρόσβαση στο θησαυροφυλάκιό σας. Οι ρυθμίσεις σας και το PIN που είναι αποθηκευμένο σε αυτήν τη συσκευή δεν θα αλλάξουν.</string>
     <string name="logging_in">Σύνδεση…</string>
-    <string name="login_to_bitwarden">Σύνδεση στο Multipass</string>
+    <string name="login_to_bitwarden">Σύνδεση στο Bitwarden</string>
     <string name="master_password_confirmation_val_message">Η επιβεβαίωση του κύριου κωδικού δεν είναι σωστή.</string>
     <string name="master_password_description">Ο κύριος κωδικός χρησιμοποιείται για πρόσβαση στη κρύπτη σας. Είναι πολύ σημαντικό να μην τον ξεχάσετε. Δεν υπάρχει τρόπος να τον ανακτήσετε σε αυτή την περίπτωση.</string>
     <string name="master_password_hint">Υπόδειξη κύριου κωδικού (προαιρετικό)</string>
@@ -169,14 +169,14 @@
     <string name="view_identity">Προβολή ταυτότητας</string>
     <string name="view_note">Προβολή σημείωσης</string>
     <string name="view_ssh_key">Προβολή κλειδιού SSH</string>
-    <string name="web_vault">Διαδικτυακό θυσαυ/κιο Multipass</string>
+    <string name="web_vault">Διαδικτυακό θυσαυ/κιο Bitwarden</string>
     <string name="items">Στοιχεία</string>
     <string name="items_for_uri">Στοιχεία για %1$s</string>
     <string name="no_items_for_uri">Δεν υπάρχουν στοιχεία στην λίστα σας για %1$s.</string>
     <string name="no_items_for_vault">Δεν υπάρχουν αντικείμενα στη κρύπτη σας που ταιριάζουν με \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Αναζητήστε μια σύνδεση ή προσθέστε μια νέα σύνδεση</string>
     <string name="disabled">Απενεργοποιημένο</string>
-    <string name="bitwarden_autofill_service_alert2">Ο ευκολότερος τρόπος για να προσθέσετε νέες συνδέσεις στο vault σας, είναι με την υπηρεσία αυτόματης συμπλήρωσης του Multipass. Μάθετε περισσότερα σχετικά με τη χρήση της, μεταβαίνοντας στις \"Ρυθμίσεις\".</string>
+    <string name="bitwarden_autofill_service_alert2">Ο ευκολότερος τρόπος για να προσθέσετε νέες συνδέσεις στο vault σας, είναι με την υπηρεσία αυτόματης συμπλήρωσης του Bitwarden. Μάθετε περισσότερα σχετικά με τη χρήση της, μεταβαίνοντας στις \"Ρυθμίσεις\".</string>
     <string name="autofill_noun">Αυτόματη συμπλήρωση</string>
     <string name="autofill_verb">Αυτόματη συμπλήρωση</string>
     <string name="autofill_or_view">Θέλετε αυτόματη συμπλήρωση ή να δείτε αυτό το στοιχείο;</string>
@@ -228,7 +228,7 @@
     <string name="environment_saved">Τα URL έχουν αποθηκευτεί.</string>
     <string name="identity_url">URL διακομιστή ταυτότητας</string>
     <string name="self_hosted_environment">Αυτο-Φιλοξενούμενο Περιβάλλον</string>
-    <string name="self_hosted_environment_footer">Καθορίστε το URL εγκατάστασης Multipass.</string>
+    <string name="self_hosted_environment_footer">Καθορίστε το URL εγκατάστασης Bitwarden.</string>
     <string name="server_url">URL Διακομιστή</string>
     <string name="web_vault_url">URL διακομιστή διαδικτυακού θυσαυ/κίου</string>
     <string name="custom_fields">Προσαρμοσμένα πεδία</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">Δεν υπάρχουν στοιχεία σε αυτόν τον φάκελο.</string>
     <string name="no_items_trash">Δεν υπάρχουν αντικείμενα στον κάδο απορριμμάτων.</string>
     <string name="autofill_accessibility_summary">Βοήθεια με τη συμπλήρωση των πεδίων ονόματος χρήστη και κωδικού πρόσβασης σε άλλες εφαρμογές και στο διαδίκτυο.</string>
-    <string name="autofill_service_description">Η υπηρεσία αυτόματης συμπλήρωσης Multipass, χρησιμοποιεί το Android Autofill Framework για να σας βοηθήσει να συμπληρώσετε στοιχεία σύνδεσης, τις πιστωτικές κάρτες και τις πληροφορίες ταυτότητας σε άλλες εφαρμογές της συσκευής σας.</string>
+    <string name="autofill_service_description">Η υπηρεσία αυτόματης συμπλήρωσης Bitwarden, χρησιμοποιεί το Android Autofill Framework για να σας βοηθήσει να συμπληρώσετε στοιχεία σύνδεσης, τις πιστωτικές κάρτες και τις πληροφορίες ταυτότητας σε άλλες εφαρμογές της συσκευής σας.</string>
     <string name="bitwarden_autofill_go_to_settings">Δεν ήταν δυνατό να ανοίξουμε αυτόματα το μενού ρυθμίσεων αυτόματης συμπλήρωσης Android για εσάς. Μπορείτε να πλοηγηθείτε στο μενού ρυθμίσεων αυτόματης συμπλήρωσης με μη αυτόματο τρόπο από τις Ρυθμίσεις Android &gt; Σύστημα &gt; Γλώσσες και εισαγωγή &gt; Σύνθετες &gt; Υπηρεσία αυτόματης συμπλήρωσης.</string>
     <string name="custom_field_name">Όνομα προσαρμοσμένου πεδίου</string>
     <string name="field_type_boolean">Δυαδικό</string>
@@ -373,7 +373,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">Ξεκλείδωμα</string>
     <string name="thirty_minutes">30 λεπτά</string>
-    <string name="set_pin_description">Ορίστε τον κωδικό PIN για να ξεκλειδώσετε το Multipass. Οι ρυθμίσεις PIN θα επαναρυθμιστούν αν αποσυνδεθείτε πλήρως από την εφαρμογή.</string>
+    <string name="set_pin_description">Ορίστε τον κωδικό PIN για να ξεκλειδώσετε το Bitwarden. Οι ρυθμίσεις PIN θα επαναρυθμιστούν αν αποσυνδεθείτε πλήρως από την εφαρμογή.</string>
     <string name="logged_in_as_on">Συνδεθήκατε ως %1$s στις %2$s.</string>
     <string name="vault_locked_master_password">Το θυσαυ/κιό σας είναι κλειδωμένο. Επαληθεύστε τον κύριο κωδικό για να συνεχίσετε.</string>
     <string name="vault_locked_pin">Το θυσαυ/κιό σας είναι κλειδωμένο. Επαληθεύστε τον κωδικό PIN για να συνεχίσετε.</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">Εκκαθάριση πρόχειρου</string>
     <string name="clear_clipboard_description">Αυτόματη εκκαθάριση αντιγραμμένων τιμών προχείρου.</string>
     <string name="default_uri_match_detection">Προεπιλεγμένη Ανίχνευση Αντιστοιχίας URI</string>
-    <string name="default_uri_match_detection_description">Ο έλεγχος αντιστοίχισης URI καθορίζει τον τρόπο με τον οποίο το Multipass αναγνωρίζει προτάσεις αυτόματης συμπλήρωσης.</string>
+    <string name="default_uri_match_detection_description">Ο έλεγχος αντιστοίχισης URI καθορίζει τον τρόπο με τον οποίο το Bitwarden αναγνωρίζει προτάσεις αυτόματης συμπλήρωσης.</string>
     <string name="theme">Θέμα</string>
     <string name="theme_description">Αλλάξτε το χρωματικό θέμα της εφαρμογής</string>
     <string name="copy_notes">Αντιγραφή σημείωσης</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">Μία ή περισσότερες πολιτικές του οργανισμού επηρεάζουν τις ρυθμίσεις γεννήτριας.</string>
     <string name="unable_to_save_attachment">Παρουσιάστηκε πρόβλημα κατά την αποθήκευση αυτού του συνημμένου. Εάν το πρόβλημα επιμένει, μπορείτε να το αποθηκεύσετε μέσω web vault.</string>
     <string name="save_attachment_success">Το συνημμένο αποθηκεύτηκε με επιτυχία</string>
-    <string name="autofill_tile_accessibility_required">Παρακαλώ ενεργοποιήστε την «Υπηρεσία προσβασιμότητας αυτόματης συμπλήρωσης» από τις Ρυθμίσεις του Multipass για να χρησιμοποιήσετε το πλακίδιο αυτόματης συμπλήρωσης.</string>
+    <string name="autofill_tile_accessibility_required">Παρακαλώ ενεργοποιήστε την «Υπηρεσία προσβασιμότητας αυτόματης συμπλήρωσης» από τις Ρυθμίσεις του Bitwarden για να χρησιμοποιήσετε το πλακίδιο αυτόματης συμπλήρωσης.</string>
     <string name="autofill_tile_uri_not_found">Δεν εντοπίστηκαν πεδία κωδικού πρόσβασης</string>
     <string name="soft_deleting">Αποστολή στα απορρίμματα…</string>
     <string name="item_soft_deleted">Το στοιχείο έχει σταλεί στον κάδο απορριμμάτων.</string>
@@ -636,9 +636,9 @@
     <string name="catch_all_email_description">Χρησιμοποιήστε το ρυθμισμένο catch-all inbox του τομέα σας.</string>
     <string name="forwarded_email_description">Δημιουργήστε ένα ψευδώνυμο διεύθυνσης ηλ. ταχυδρομείου με μια εξωτερική υπηρεσία προώθησης.</string>
     <string name="accessibility_service_disclosure">Γνωστοποίηση Υπηρεσίας Προσβασιμότητας</string>
-    <string name="accessibility_disclosure_text">Το Multipass χρησιμοποιεί την Υπηρεσία Προσβασιμότητας για να αναζητήσει πεδία σύνδεσης σε εφαρμογές και ιστότοπους και στη συνέχεια να δημιουργήσει τα κατάλληλα αναγνωριστικά πεδίου για την εισαγωγή ονόματος χρήστη και κωδικού πρόσβασης όταν βρεθεί αντιστοιχία για την εφαρμογή ή τον ιστότοπο. Δεν αποθηκεύουμε καμία από τις πληροφορίες που μας παρέχονται από την υπηρεσία, ούτε κάνουμε καμία προσπάθεια ελέγχου οποιωνδήποτε στοιχείων στην οθόνη πέραν της εισαγωγής του κειμένου των διαπιστευτηρίων.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Αυτή η ειδοποίηση απαιτείται προτού το Multipass μπορέσει να προσφέρει αυτόματη συμπλήρωση βάσει προσβασιμότητας.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Το Multipass προσφέρει μια προαιρετική μέθοδο αυτόματης συμπλήρωσης που χρησιμοποιεί την Υπηρεσία Προσβασιμότητας του Android για την ανίχνευση πεδίων σύνδεσης. Αν την ενεργοποιήσετε, το Multipass θα αναγνωρίζει τα κατάλληλα πεδία και θα συμπληρώνει τα διαπιστευτήριά σας όταν βρεθεί αντιστοιχία.</string>
+    <string name="accessibility_disclosure_text">Το Bitwarden χρησιμοποιεί την Υπηρεσία Προσβασιμότητας για να αναζητήσει πεδία σύνδεσης σε εφαρμογές και ιστότοπους και στη συνέχεια να δημιουργήσει τα κατάλληλα αναγνωριστικά πεδίου για την εισαγωγή ονόματος χρήστη και κωδικού πρόσβασης όταν βρεθεί αντιστοιχία για την εφαρμογή ή τον ιστότοπο. Δεν αποθηκεύουμε καμία από τις πληροφορίες που μας παρέχονται από την υπηρεσία, ούτε κάνουμε καμία προσπάθεια ελέγχου οποιωνδήποτε στοιχείων στην οθόνη πέραν της εισαγωγής του κειμένου των διαπιστευτηρίων.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Αυτή η ειδοποίηση απαιτείται προτού το Bitwarden μπορέσει να προσφέρει αυτόματη συμπλήρωση βάσει προσβασιμότητας.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Το Bitwarden προσφέρει μια προαιρετική μέθοδο αυτόματης συμπλήρωσης που χρησιμοποιεί την Υπηρεσία Προσβασιμότητας του Android για την ανίχνευση πεδίων σύνδεσης. Αν την ενεργοποιήσετε, το Bitwarden θα αναγνωρίζει τα κατάλληλα πεδία και θα συμπληρώνει τα διαπιστευτήριά σας όταν βρεθεί αντιστοιχία.</string>
     <string name="accessibility_disclosure_start_up_text_3">Δεν αποθηκεύουμε καμία πληροφορία σχετικά με το τι εμφανίζεται στην οθόνη κατά τη χρήση της Υπηρεσίας Προσβασιμότητας και δεν ελέγχουμε κανένα στοιχείο οθόνης πέρα από την εισαγωγή διαπιστευτηρίων.</string>
     <string name="i_understand">Κατανοώ</string>
     <string name="accept">Αποδοχή</string>
@@ -647,7 +647,7 @@
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Προσπάθεια σύνδεσης από:
 %1$s
 Θέλετε να μεταβείτε σε αυτόν τον λογαριασμό;</string>
-    <string name="new_to_bitwarden">Νέος χρήστης του Multipass;</string>
+    <string name="new_to_bitwarden">Νέος χρήστης του Bitwarden;</string>
     <string name="get_master_passwordword_hint">Λάβετε υπόδειξη κύριου κωδικού</string>
     <string name="logging_in_as_x_on_y">Σύνδεση ως %1$s στις %2$s</string>
     <string name="not_you">Δεν είστε εσείς;</string>
@@ -704,7 +704,7 @@
     <string name="invalid_uri">Μη έγκυρο URI</string>
     <string name="the_urix_is_already_blocked">Το URI %1$s είναι ήδη αποκλεισμένο</string>
     <string name="login_approved">Η σύνδεση εγκρίθηκε</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Η σύνδεση με συσκευή πρέπει να ρυθμιστεί στις ρυθμίσεις της εφαρμογής Multipass.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Η σύνδεση με συσκευή πρέπει να ρυθμιστεί στις ρυθμίσεις της εφαρμογής Bitwarden.</string>
     <string name="need_another_option_view_all_login_options">Χρειάζεστε άλλη επιλογή; <annotation link="viewAll">Προβολή όλων των επιλογών σύνδεσης</annotation></string>
     <string name="log_in_with_device">Σύνδεση με χρήση συσκευής</string>
     <string name="logging_in_on">Σύνδεση στο</string>
@@ -713,13 +713,13 @@
     <string name="select_vault">Select vault</string>
     <string name="appearance">Εμφάνιση</string>
     <string name="account_security">Ασφάλεια λογαριασμού</string>
-    <string name="bitwarden_help_center">Κέντρο Βοήθειας Multipass</string>
+    <string name="bitwarden_help_center">Κέντρο Βοήθειας Bitwarden</string>
     <string name="sync_now">Συγχρονισμός τώρα</string>
     <string name="unlock_options">Επιλογές Κλειδώματος</string>
     <string name="session_timeout">Χρονικό όριο συνεδρίας</string>
     <string name="session_timeout_action">Ενέργεια στη λήξη χρόνου συνεδρίας</string>
     <string name="account_fingerprint_phrase">\"Φράση αποτυπώματος\" λογαριασμού</string>
-    <string name="passkey_management_explanation_long">Χρησιμοποιήστε το Multipass για να αποθηκεύσετε τα νέα κλειδιά πρόσβασης και συνδεθείτε με τα κλειδιά πρόσβασης που είναι αποθηκευμένα στη κρύπτη σας.</string>
+    <string name="passkey_management_explanation_long">Χρησιμοποιήστε το Bitwarden για να αποθηκεύσετε τα νέα κλειδιά πρόσβασης και συνδεθείτε με τα κλειδιά πρόσβασης που είναι αποθηκευμένα στη κρύπτη σας.</string>
     <string name="autofill_services_explanation_long">Το Android Autofill Framework χρησιμοποιείται για να προσφέρει αυτόματη συμπλήρωση στοιχείων σύνδεσης σε άλλες εφαρμογές στη συσκευή σας.</string>
     <string name="use_inline_autofill_explanation_long">Χρησιμοποιήστε την ενσωματωμένη αυτόματη συμπλήρωση αν το πληκτρολόγιο σας την υποστηρίζει. Διαφορετικά, χρησιμοποιήστε την προεπιλεγμένη επικάλυψη.</string>
     <string name="additional_options">Πρόσθετες επιλογές</string>
@@ -728,12 +728,12 @@
     <string name="continue_to_help_center">Συνέχεια στο κέντρο βοήθειας;</string>
     <string name="continue_to_privacy_policy">Συνέχεια στην πολιτική απορρήτου;</string>
     <string name="continue_to_device_settings">Συνέχεια στις Ρυθμίσεις της συσκευής;</string>
-    <string name="two_step_login_description_long">Κάντε τον λογαριασμό σας πιο ασφαλή με τη ρύθμιση δύο βημάτων σύνδεσης στην εφαρμογή διαδικτύου Multipass.</string>
-    <string name="change_master_password_description_long">Μπορείτε να αλλάξετε τον κύριο κωδικό πρόσβασης στην εφαρμογή διαδικτύου Multipass.</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Μάθετε περισσότερα για το πώς να χρησιμοποιήσετε το Multipass στο κέντρο βοήθειας.</string>
+    <string name="two_step_login_description_long">Κάντε τον λογαριασμό σας πιο ασφαλή με τη ρύθμιση δύο βημάτων σύνδεσης στην εφαρμογή διαδικτύου Bitwarden.</string>
+    <string name="change_master_password_description_long">Μπορείτε να αλλάξετε τον κύριο κωδικό πρόσβασης στην εφαρμογή διαδικτύου Bitwarden.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Μάθετε περισσότερα για το πώς να χρησιμοποιήσετε το Bitwarden στο κέντρο βοήθειας.</string>
     <string name="privacy_policy_description_long">Δείτε την πολιτική απορρήτου μας στο bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Εξερευνήστε περισσότερες δυνατότητες του Multipass λογαριασμού σας, στην εφαρμογή διαδικτύου.</string>
-    <string name="learn_about_organizations_description_long">Το Multipass σας επιτρέπει να μοιράζεστε τα στοιχεία του vault σας με άλλους, χρησιμοποιώντας έναν λογαριασμό οργανισμού. Μάθετε περισσότερα στην ιστοσελίδα bitwarden.com.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Εξερευνήστε περισσότερες δυνατότητες του Bitwarden λογαριασμού σας, στην εφαρμογή διαδικτύου.</string>
+    <string name="learn_about_organizations_description_long">Το Bitwarden σας επιτρέπει να μοιράζεστε τα στοιχεία του vault σας με άλλους, χρησιμοποιώντας έναν λογαριασμό οργανισμού. Μάθετε περισσότερα στην ιστοσελίδα bitwarden.com.</string>
     <string name="created_x">Δημιουργήθηκε %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Ο οργανισμός σας απαιτεί να ορίσετε έναν κύριο κωδικό πρόσβασης.</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">Ρυθμίστε μια επιλογή κλειδώματος για να αλλάξετε την ενέργεια στη λήξη χρόνου του vault σας.</string>
@@ -743,8 +743,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">Duo σύνδεση δύο βημάτων απαιτείται για το λογαριασμό σας.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Ακολουθήστε τα βήματα από το Duo για να ολοκληρώσετε τη σύνδεση.</string>
     <string name="launch_duo">Εκκίνηση Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Το κλειδί πρόσβασής σας θα αποθηκευτεί στο Multipass θησαυ/κιό σας για το %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ο κωδικός πρόσβασής σας θα αποθηκευτεί στο θησαυροφυλάκιο Multipass για %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Το κλειδί πρόσβασής σας θα αποθηκευτεί στο Bitwarden θησαυ/κιό σας για το %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ο κωδικός πρόσβασής σας θα αποθηκευτεί στο θησαυροφυλάκιο Bitwarden για %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Δεν υποστηρίζονται κλειδιά πρόσβασης για αυτήν την εφαρμογή</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Αποτυχία λειτουργίας κλειδιού πρόσβασης επειδή ο περιηγητής δεν είχει προνόμια</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή η υπογραφή του περιηγητή δεν ταιριάζει</string>
@@ -770,15 +770,15 @@
     <string name="check_your_email">Ελέγξτε το ηλ. ταχυδρομείο σας</string>
     <string name="open_email_app">Άνοιγμα εφαρμογής ηλ. ταχυδρομείου</string>
     <string name="email_verified">Η διεύθυνση ηλ. ταχυδρομείου επιβεβαιώθηκε</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Λάβετε μηνύματα ηλ. ταχυδρομείου από το Multipass για ανακοινώσεις, συμβουλές και ερευνητικές ευκαιρίες. Ακυρώστε τη συνδρομή σας ανα πάσα στιγμή.</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Λάβετε μηνύματα ηλ. ταχυδρομείου από το Bitwarden για ανακοινώσεις, συμβουλές και ερευνητικές ευκαιρίες. Ακυρώστε τη συνδρομή σας ανα πάσα στιγμή.</string>
     <string name="security_prioritized">Ασφάλεια, σε προτεραιότητα</string>
-    <string name="welcome_message_1">Αποθηκεύστε συνδέσεις, κάρτες και ταυτότητες στο ασφαλές θησαυ/κιό σας. Το Multipass χρησιμοποιεί κρυπτογράφηση από άκρο σε άκρο και μηδενικής γνώσης για να προστατεύσει ό,τι είναι σημαντικό για εσάς.</string>
+    <string name="welcome_message_1">Αποθηκεύστε συνδέσεις, κάρτες και ταυτότητες στο ασφαλές θησαυ/κιό σας. Το Bitwarden χρησιμοποιεί κρυπτογράφηση από άκρο σε άκρο και μηδενικής γνώσης για να προστατεύσει ό,τι είναι σημαντικό για εσάς.</string>
     <string name="welcome_message_2">Ρυθμίστε το βιομετρικό ξεκλείδωμα και την αυτόματη συμπλήρωση για σύνδεση στους λογαριασμούς σας χωρίς να πληκτρολογήσετε ούτε ένα γράμμα.</string>
     <string name="quick_and_easy_login">Γρήγορη και εύκολη σύνδεση</string>
     <string name="level_up_your_logins">Αναβαθμίστε τις συνδέσεις σας</string>
     <string name="welcome_message_3">Χρησιμοποιήστε τη γεννήτρια για να δημιουργήσετε και να αποθηκεύσετε ισχυρούς, μοναδικούς κωδικούς πρόσβασης για όλους τους λογαριασμούς σας.</string>
     <string name="your_data_when_and_where_you_need_it">Τα δεδομένα σας, όποτε και όπου τα χρειάζεστε</string>
-    <string name="welcome_message_4">Αποθηκεύστε απεριόριστους κωδικούς πρόσβασης σε απεριόριστες συσκευές με τις εφαρμογές Multipass για κινητά, περιηγητές και υπολογιστές.</string>
+    <string name="welcome_message_4">Αποθηκεύστε απεριόριστους κωδικούς πρόσβασης σε απεριόριστες συσκευές με τις εφαρμογές Bitwarden για κινητά, περιηγητές και υπολογιστές.</string>
     <string name="remove_passkey">Αφαίρεση κλειδιού πρόσβασης</string>
     <string name="passkey_removed">Το κλειδί πρόσβασης αφαιρέθηκε</string>
     <string name="what_makes_a_password_strong">Τι κάνει έναν κωδικό πρόσβασης ισχυρό;</string>
@@ -808,8 +808,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Επιλέξτε τον σύνδεσμο στο email για να επαληθεύσετε τη διεύθυνση email σας και να συνεχίσετε τη δημιουργία του λογαριασμού σας.</string>
     <string name="change_email_address">Αλλαγή διεύθυνσης ηλ. ταχυδρομείου</string>
     <string name="next">Επόμενο</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Το Multipass δεν μπορεί να ανακτήσει έναν χαμένο ή ξεχασμένο κύριο κωδικό πρόσβασης.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Το Multipass δεν μπορεί να ανακτήσει έναν χαμένο ή ξεχασμένο κύριο κωδικό πρόσβασης.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Το Bitwarden δεν μπορεί να ανακτήσει έναν χαμένο ή ξεχασμένο κύριο κωδικό πρόσβασης.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Το Bitwarden δεν μπορεί να ανακτήσει έναν χαμένο ή ξεχασμένο κύριο κωδικό πρόσβασης.</string>
     <string name="choose_your_master_password">Επιλέξτε τον κύριο κωδικό πρόσβασης σας</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Επιλέξτε έναν μοναδικό και ισχυρό κωδικό πρόσβασης για να διατηρήσετε τις πληροφορίες σας ασφαλείς.</string>
     <plurals name="minimum_characters">
@@ -820,21 +820,21 @@
     <string name="please_restart_registration_or_try_logging_in">Επανεκκινήστε την εγγραφή ή δοκιμάστε να συνδεθείτε. Μπορεί να διαθέτετε ήδη λογαριασμό.</string>
     <string name="restart_registration">Επανεκκίνηση εγγραφής</string>
     <string name="authenticator_sync">Συγχρονισμός Authenticator</string>
-    <string name="allow_bitwarden_authenticator_syncing">Ενεργοποίηση συγχρονισμού Multipass Authenticator</string>
+    <string name="allow_bitwarden_authenticator_syncing">Ενεργοποίηση συγχρονισμού Bitwarden Authenticator</string>
     <string name="there_was_an_issue_validating_the_registration_token">Υπήρξε ένα ζήτημα επικύρωσης του διακριτικού εγγραφής.</string>
     <string name="turn_on_autofill">Ενεργοποίηση αυτόματης συμπλήρωσης</string>
     <string name="autofill_setup">Ρύθμιση αυτόματης συμπλήρωσης</string>
     <string name="turn_on_browser_autofill_integration">Ενεργοποίηση ενσωμάτωσης αυτόματης συμπλήρωσης προγράμματος περιήγησης</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Χρησιμοποιείτε ένα πρόγραμμα περιήγησης που απαιτεί ειδικές άδειες για να συμπληρώσει αυτόματα το Multipass τους κωδικούς πρόσβασής σας.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Χρησιμοποιείτε προγράμματα περιήγησης που απαιτούν ειδικές άδειες για να συμπληρώσει αυτόματα το Multipass τους κωδικούς πρόσβασής σας.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Χρησιμοποιείτε ένα πρόγραμμα περιήγησης που απαιτεί ειδικές άδειες για να συμπληρώσει αυτόματα το Multipass τους κωδικούς πρόσβασής σας. Ενεργοποιήστε την προτιμώμενη ενσωμάτωση αυτόματης συμπλήρωσης παρακάτω.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Χρησιμοποιείτε προγράμματα περιήγησης που απαιτούν ειδικές άδειες για να συμπληρώσει αυτόματα το Multipass τους κωδικούς πρόσβασής σας. Ενεργοποιήστε την αυτόματη συμπλήρωση για όλα τα εγκατεστημένα προγράμματα περιήγησής σας για να συνεχίσετε.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Χρησιμοποιείτε ένα πρόγραμμα περιήγησης που απαιτεί ειδικές άδειες για να συμπληρώσει αυτόματα το Bitwarden τους κωδικούς πρόσβασής σας.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Χρησιμοποιείτε προγράμματα περιήγησης που απαιτούν ειδικές άδειες για να συμπληρώσει αυτόματα το Bitwarden τους κωδικούς πρόσβασής σας.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Χρησιμοποιείτε ένα πρόγραμμα περιήγησης που απαιτεί ειδικές άδειες για να συμπληρώσει αυτόματα το Bitwarden τους κωδικούς πρόσβασής σας. Ενεργοποιήστε την προτιμώμενη ενσωμάτωση αυτόματης συμπλήρωσης παρακάτω.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Χρησιμοποιείτε προγράμματα περιήγησης που απαιτούν ειδικές άδειες για να συμπληρώσει αυτόματα το Bitwarden τους κωδικούς πρόσβασής σας. Ενεργοποιήστε την αυτόματη συμπλήρωση για όλα τα εγκατεστημένα προγράμματα περιήγησής σας για να συνεχίσετε.</string>
     <string name="use_autofill_to_log_into_your_accounts">Χρήση της αυτόματης συμπλήρωσης για τη σύνδεση σε λογαριασμούς με ένα μόνο πάτημα.</string>
     <string name="turn_on_later">Ενεργοποίηση αργότερα</string>
     <string name="turn_on_autofill_later">Ενεργοποίηση αυτόματης συμπλήρωσης αργότερα;</string>
     <string name="turn_on_browser_autofill_integration_later">Να ενεργοποιηθεί αργότερα η ενσωμάτωση αυτόματης συμπλήρωσης προγράμματος περιήγησης;</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Μπορείτε να επιστρέψετε για να ολοκληρώσετε αυτό το βήμα ανά πάσα στιγμή στις Ρυθμίσεις.</string>
-    <string name="what_bitwarden_has_to_offer">Μπορείτε πλέον να χρησιμοποιείτε την αυτόματη συμπλήρωση για να συνδέεστε σε εφαρμογές και ιστοτόπους με τους αποθηκευμένους κωδικούς πρόσβασής σας. Τώρα, μπορείτε να εξερευνήσετε όλα όσα έχει να προσφέρει το Multipass.</string>
+    <string name="what_bitwarden_has_to_offer">Μπορείτε πλέον να χρησιμοποιείτε την αυτόματη συμπλήρωση για να συνδέεστε σε εφαρμογές και ιστοτόπους με τους αποθηκευμένους κωδικούς πρόσβασής σας. Τώρα, μπορείτε να εξερευνήσετε όλα όσα έχει να προσφέρει το Bitwarden.</string>
     <string name="youre_all_set">Όλα έτοιμα!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Σφάλμα κατά τη σύνδεση με την υπηρεσία Duo. Χρησιμοποιήστε μια διαφορετική μέθοδο σύνδεσης δύο βημάτων ή επικοινωνήστε με την Duo για βοήθεια.</string>
     <string name="master_password_hint_not_specified">Υπόδειξη κύριου κωδικού πρόσβασης</string>
@@ -853,7 +853,7 @@
     <string name="do_you_have_a_computer_available">Έχετε κάποιον υπολογιστή διαθέσιμο;</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Οι ακόλουθες οδηγίες θα σας καθοδηγήσουν κατά την εισαγωγή συνδέσεων από τον σταθερό υπολογιστή ή laptop σας</string>
     <string name="import_logins">Εισαγωγή Συνδέσεων</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Από τον υπολογιστή σας, ακολουθήστε αυτές τις οδηγίες για να εξαγάγετε αποθηκευμένους κωδικούς πρόσβασης από το πρόγραμμα περιήγησης ή άλλο διαχειριστή κωδικών πρόσβασης. Στη συνέχεια, εισαγάγετε τους με ασφάλεια στο Multipass.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">Από τον υπολογιστή σας, ακολουθήστε αυτές τις οδηγίες για να εξαγάγετε αποθηκευμένους κωδικούς πρόσβασης από το πρόγραμμα περιήγησης ή άλλο διαχειριστή κωδικών πρόσβασης. Στη συνέχεια, εισαγάγετε τους με ασφάλεια στο Bitwarden.</string>
     <string name="give_your_vault_a_head_start">Δώστε στη κρύπτη σας ένα πλεονέκτημα</string>
     <string name="class_3_biometrics_description">Το ξεκλείδωμα με βιομετρικά στοιχεία απαιτεί ισχυρή βιομετρική πιστοποίηση και μπορεί να μην είναι συμβατό με όλες τις βιομετρικές επιλογές σε αυτή τη συσκευή.</string>
     <string name="class_2_biometrics_description">Το ξεκλείδωμα με βιομετρικά στοιχεία απαιτεί ισχυρή βιομετρική πιστοποίηση και δεν είναι συμβατό με τις επιλογές βιομετρικών στοιχείων που είναι διαθέσιμες σε αυτήν τη συσκευή.</string>
@@ -864,28 +864,28 @@
     <string name="export_your_saved_logins">Εξαγωγή των αποθηκευμένων σας συνδέσεων</string>
     <string name="delete_this_file_after_import_is_complete">Θα διαγράψετε αυτό το αρχείο μετά την ολοκλήρωση της εισαγωγής.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">Στον υπολογιστή σας, ανοίξτε μια νέα καρτέλα του προγράμματος περιήγησης και <annotation emphasis="bold">πηγαίνετε στο <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Συνδεθείτε στην εφαρμογή ιστού Multipass.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Συνδεθείτε στην εφαρμογή ιστού Bitwarden.</string>
     <string name="step_2_of_3">Βήμα 2 από 3</string>
-    <string name="log_in_to_bitwarden">Σύνδεση στο Multipass</string>
+    <string name="log_in_to_bitwarden">Σύνδεση στο Bitwarden</string>
     <string name="step_3_of_3">Βήμα 3 από 3</string>
-    <string name="import_logins_to_bitwarden">Εισαγωγή συνδέσεων στο Multipass</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Στην πλοήγηση Multipass, <annotation emphasis="bold">βρείτε την επιλογή Εργαλεία</annotation> και <annotation emphasis="bold">επιλέξτε Εισαγωγή δεδομένων.</annotation></string>
+    <string name="import_logins_to_bitwarden">Εισαγωγή συνδέσεων στο Bitwarden</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Στην πλοήγηση Bitwarden, <annotation emphasis="bold">βρείτε την επιλογή Εργαλεία</annotation> και <annotation emphasis="bold">επιλέξτε Εισαγωγή δεδομένων.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Συμπληρώστε τη φόρμα και <annotation emphasis="bold">εισάγετε το αποθηκευμένο αρχείο κωδικού πρόσβασης.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Για την ασφάλειά σας, βεβαιωθείτε ότι <annotation emphasis="bold">διαγράψατε το αποθηκευμένο αρχείο κωδικού πρόσβασης.</annotation></string>
     <string name="need_help_check_out_import_help">Χρειάζεστε βοήθεια; Ρίξτε μια ματιά στο <annotation link="importHelp">βοήθεια για εισαγωγή</annotation>.</string>
     <string name="import_help">βοήθεια εισαγωγής</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Αποθηκεύστε το εξαγόμενο αρχείο</annotation> κάπου στον υπολογιστή σας όπου μπορείτε να το βρείτε εύκολα.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Αυτός δεν είναι αναγνωρισμένος διακομιστής Multipass. Μπορεί να χρειαστεί να ελέγξετε με τον πάροχο σας ή να ενημερώσετε τον διακομιστή σας.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Αυτός δεν είναι αναγνωρισμένος διακομιστής Bitwarden. Μπορεί να χρειαστεί να ελέγξετε με τον πάροχο σας ή να ενημερώσετε τον διακομιστή σας.</string>
     <string name="syncing_logins_loading_message">Συγχρονισμός συνδέσεων...</string>
     <string name="download_the_browser_extension">Κατεβάστε την επέκταση περιηγητή</string>
-    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Πηγαίνετε στο bitwarden.com/download για να ενσωματώσετε το Multipass στο αγαπημένο σας πρόγραμμα περιήγησης για μια απρόσκοπτη εμπειρία.</string>
+    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Πηγαίνετε στο bitwarden.com/download για να ενσωματώσετε το Bitwarden στο αγαπημένο σας πρόγραμμα περιήγησης για μια απρόσκοπτη εμπειρία.</string>
     <string name="use_the_web_app">Χρήση της εφαρμογής web</string>
     <string name="log_in_at_bitwarden_com_to_easily_manage_your_account">Συνδεθείτε στο bitwarden.com για να διαχειριστείτε εύκολα το λογαριασμό σας και να ενημερώσετε τις ρυθμίσεις.</string>
     <string name="autofill_passwords">Αυτόματη συμπλήρωση κωδικών πρόσβασης</string>
     <string name="set_up_autofill_on_all_your_devices">Ρυθμίστε την αυτόματη συμπλήρωση όλων των συσκευών σας για να συνδεθείτε με ένα μόνο πάτημα οπουδήποτε.</string>
     <string name="import_successful">Εισαγωγή Επιτυχής!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Διαχειριστείτε τις συνδέσεις σας από οπουδήποτε με τα εργαλεία Multipass για web και desktop.</string>
-    <string name="bitwarden_tools">Εργαλεία Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Διαχειριστείτε τις συνδέσεις σας από οπουδήποτε με τα εργαλεία Bitwarden για web και desktop.</string>
+    <string name="bitwarden_tools">Εργαλεία Bitwarden</string>
     <string name="got_it">Το κατάλαβα</string>
     <string name="no_logins_were_imported">Δεν εισήχθησαν συνδέσεις</string>
     <string name="import_error">Σφάλμα εισαγωγής</string>
@@ -903,7 +903,7 @@
         <item quantity="other">%d ειδοποιήσεις</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Συνδεθείτε γρήγορα και εύκολα σε όλες τις συσκευές</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Το Multipass μπορεί να σας ειδοποιεί κάθε φορά που λαμβάνετε ένα νέο αίτημα σύνδεσης από μια άλλη συσκευή.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Το Bitwarden μπορεί να σας ειδοποιεί κάθε φορά που λαμβάνετε ένα νέο αίτημα σύνδεσης από μια άλλη συσκευή.</string>
     <string name="skip_for_now">Παράλειψη για τώρα</string>
     <string name="done_text">Τέλος</string>
     <string name="page_number_x_of_y">%1$s από %2$s</string>
@@ -928,7 +928,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Πρόσθεσε έναν αριθμό ή ένα σύμβολο</annotation> για να τον κάνετε ακόμα ισχυρότερο. Τώρα έχετε μια μοναδική, ασφαλής και αξέχαστη φράση πρόσβασης!</string>
     <string name="need_some_inspiration">Χρειάζεστε κάποια έμπνευση;</string>
     <string name="check_out_the_passphrase_generator">Ελέγξτε τη γεννήτρια φράσεων πρόσβασης</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Δεν μπορέσαμε να επαληθεύσουμε το πιστοποιητικό του διακομιστή. Η αλυσίδα πιστοποιητικού ή οι ρυθμίσεις διακομιστή μεσολάβησης στη συσκευή σας ή ο διακομιστής Multipass σας ενδέχεται να μην ρυθμιστούν σωστά.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Δεν μπορέσαμε να επαληθεύσουμε το πιστοποιητικό του διακομιστή. Η αλυσίδα πιστοποιητικού ή οι ρυθμίσεις διακομιστή μεσολάβησης στη συσκευή σας ή ο διακομιστής Bitwarden σας ενδέχεται να μην ρυθμιστούν σωστά.</string>
     <string name="copy_private_key">Αντιγραφή ιδιωτικού κλειδιού</string>
     <string name="login_credentials">Διαπιστευτήρια Σύνδεσης</string>
     <string name="autofill_options">Επιλογές Αυτόματης Συμπλήρωσης</string>
@@ -955,7 +955,7 @@
     <string name="coachmark_5_of_6">5 ΑΠΟ 6</string>
     <string name="coachmark_6_of_6">6 ΑΠΟ 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Χρησιμοποιήστε αυτές τις επιλογές για να προσαρμόσετε τον κωδικό πρόσβασής σας ώστε να πληροί τις απαιτήσεις της ιστοσελίδας του λογαριασμού σας.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Αφού αποθηκεύσετε τον νέο κωδικό πρόσβασής σας στο Multipass, μην ξεχάσετε να τον ενημερώσετε στην ιστοσελίδα του λογαριασμού σας.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Αφού αποθηκεύσετε τον νέο κωδικό πρόσβασής σας στο Bitwarden, μην ξεχάσετε να τον ενημερώσετε στην ιστοσελίδα του λογαριασμού σας.</string>
     <string name="verify_your_identity">Επαλήθευση ταυτότητας</string>
     <string name="error_loading_certificate">Σφάλμα φόρτωσης πιστοποιητικού</string>
     <string name="certificate_alias">Ψευδώνυμο πιστοποιητικού</string>
@@ -966,7 +966,7 @@
     <string name="unsupported_certificate_type">Μη υποστηριζόμενος τύπος πιστοποιητικού</string>
     <string name="certificate_password_incorrect">Εσφαλμένος κωδικός πρόσβασης πιστοποιητικού</string>
     <string name="invalid_certificate_chain">Μη έγκυρη αλυσίδα πιστοποιητικών</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Η χρήση πιστοποιητικού συστήματος είναι λιγότερο ασφαλής από την αποθήκευση του πιστοποιητικού με το Multipass. Η συνέχιση θα εμφανίσει μια λίστα διαθέσιμων πιστοποιητικών συστήματος αν υπάρχει ήδη εγκατεστημένο.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Η χρήση πιστοποιητικού συστήματος είναι λιγότερο ασφαλής από την αποθήκευση του πιστοποιητικού με το Bitwarden. Η συνέχιση θα εμφανίσει μια λίστα διαθέσιμων πιστοποιητικών συστήματος αν υπάρχει ήδη εγκατεστημένο.</string>
     <string name="link">Σύνδεσμος</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή η διεύθυνση URL του διακομιστή δεν υπάρχει στο αίτημα.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή η υπογραφή εφαρμογής είναι άκυρη.</string>
@@ -1004,8 +1004,8 @@
     <string name="experiencing_an_issue">Αντιμετωπίζετε πρόβλημα;</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">Ενεργοποιήστε την προσωρινή καταγραφή για να συλλέξετε και να επιθεωρήσετε αρχεία καταγραφής τοπικά. Όταν είναι ενεργοποιημένη, μπορεί να καταγράφονται καταστάσεις εφαρμογής και κλήσεις δικτύου — ποτέ ευαίσθητες πληροφορίες θησαυροφυλακίου.</string>
     <string name="to_get_started_set_a_logging_duration">Για να ξεκινήσετε, ορίστε μια διάρκεια καταγραφής. Η καταγραφή θα απενεργοποιηθεί αυτόματα μετά από αυτό το διάστημα, δίνοντάς σας χρόνο να καταγράψετε δραστηριότητα κατά την αναπαραγωγή τυχόν προβλημάτων.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Τα αρχεία καταγραφής θα διαγράφονται αυτόματα μετά από 30 ημέρες. Το Multipass μπορεί να έχει πρόσβαση στα δεδομένα καταγραφής σας μόνο όταν τα μοιράζεστε.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">Για λεπτομέρειες σχετικά με το τι καταγράφεται και τι όχι, επισκεφτείτε το\n<annotation link="helpCenter">Κέντρο βοήθειας Multipass.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Τα αρχεία καταγραφής θα διαγράφονται αυτόματα μετά από 30 ημέρες. Το Bitwarden μπορεί να έχει πρόσβαση στα δεδομένα καταγραφής σας μόνο όταν τα μοιράζεστε.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">Για λεπτομέρειες σχετικά με το τι καταγράφεται και τι όχι, επισκεφτείτε το\n<annotation link="helpCenter">Κέντρο βοήθειας Bitwarden.</annotation></string>
     <string name="logging_duration">Διάρκεια καταγραφής</string>
     <string name="flight_recorder_one_hour">1 ώρα</string>
     <string name="flight_recorder_eight_hours">8 ώρες</string>
@@ -1036,29 +1036,29 @@
     <string name="unable_to_read_certificate">Δεν είναι δυνατή η ανάγνωση του πιστοποιητικού.</string>
     <string name="cannot_delete_your_account">Δεν είναι δυνατή η διαγραφή του λογαριασμού σας</string>
     <string name="cannot_delete_your_account_explanation">Αυτή η ενέργεια δεν μπορεί να ολοκληρωθεί επειδή ο λογαριασμός σας ανήκει σε έναν οργανισμό. Επικοινωνήστε με το διαχειριστή του οργανισμού σας για πρόσθετες λεπτομέρειες.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Αυτός ο λογαριασμός θα διαγραφεί σύντομα. Συνδεθείτε στο %1$s για να συνεχίσετε να χρησιμοποιείτε το Multipass.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Αυτός ο λογαριασμός θα διαγραφεί σύντομα. Συνδεθείτε στο %1$s για να συνεχίσετε να χρησιμοποιείτε το Bitwarden.</string>
     <string name="view_file_send">Προβολή Send αρχείου</string>
     <string name="view_text_send">Προβολή Send κειμένου</string>
     <string name="delete_send">Διαγραφή Send</string>
     <string name="missing_send_resync_your_vault">Λείπει το Send, επανασυγχρονίστε το θησαυροφυλάκιό σας</string>
     <string name="use_dynamic_colors">Χρήση δυναμικών χρωμάτων</string>
     <string name="use_dynamic_colors_question">Χρήση δυναμικών χρωμάτων;</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Αυτό το χρωματικό σχήμα εφαρμόζει αυτόματα χρώματα συστήματος στο Multipass με βάση την τρέχουσα ταπετσαρία σας. Αυτά τα χρώματα μπορεί να μην πληρούν όλες τις οδηγίες προσβασιμότητας.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Αυτό το χρωματικό σχήμα εφαρμόζει αυτόματα χρώματα συστήματος στο Bitwarden με βάση την τρέχουσα ταπετσαρία σας. Αυτά τα χρώματα μπορεί να μην πληρούν όλες τις οδηγίες προσβασιμότητας.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή το πρόγραμμα περιήγησης (%1$s) δεν αναγνωρίζεται. Επιλέξτε «Εμπιστοσύνη» για να προσθέσετε το %1$s στη λίστα τοπικά αξιόπιστων εφαρμογών.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Η λειτουργία κλειδιού πρόσβασης απέτυχε επειδή το πρόγραμμα περιήγησης δεν είναι αξιόπιστο.</string>
     <string name="trust">Εμπιστοσύνη</string>
-    <string name="trusted_by_you_learn_more">Αυτές είναι εφαρμογές ή προγράμματα περιήγησης που το Multipass δεν εμπιστεύεται από προεπιλογή, αλλά εσείς τα εμπιστεύεστε για την εκτέλεση λειτουργιών κλειδιού πρόσβασης.</string>
-    <string name="trusted_by_community_learn_more">Αυτές είναι εφαρμογές που δεν περιλαμβάνονται στο Google Play Store, αλλά το Multipass τις εμπιστεύεται για την εκτέλεση λειτουργιών κλειδιού πρόσβασης αφού μέλη της κοινότητας τις χρησιμοποιήσουν και τις αναφέρουν ως ασφαλείς.</string>
+    <string name="trusted_by_you_learn_more">Αυτές είναι εφαρμογές ή προγράμματα περιήγησης που το Bitwarden δεν εμπιστεύεται από προεπιλογή, αλλά εσείς τα εμπιστεύεστε για την εκτέλεση λειτουργιών κλειδιού πρόσβασης.</string>
+    <string name="trusted_by_community_learn_more">Αυτές είναι εφαρμογές που δεν περιλαμβάνονται στο Google Play Store, αλλά το Bitwarden τις εμπιστεύεται για την εκτέλεση λειτουργιών κλειδιού πρόσβασης αφού μέλη της κοινότητας τις χρησιμοποιήσουν και τις αναφέρουν ως ασφαλείς.</string>
     <string name="trusted_by_google_learn_more">Αυτές είναι εφαρμογές που η Google θεωρεί ασφαλείς και είναι διαθέσιμες στο Play Store της Google.</string>
     <string name="trusted_by_you">Αξιόπιστες από εσάς</string>
     <string name="trusted_by_the_community">Αξιόπιστες από την Κοινότητα</string>
     <string name="trusted_by_google">Αξιόπιστες από την Google</string>
-    <string name="privileged_apps_description">Για την προστασία των χρηστών από απόπειρες phishing, από προεπιλογή, το Multipass ολοκληρώνει λειτουργίες κλειδιού πρόσβασης μόνο μέσω εφαρμογών ή προγραμμάτων περιήγησης που εμπιστεύονται η Google ή η κοινότητα του Multipass.</string>
+    <string name="privileged_apps_description">Για την προστασία των χρηστών από απόπειρες phishing, από προεπιλογή, το Bitwarden ολοκληρώνει λειτουργίες κλειδιού πρόσβασης μόνο μέσω εφαρμογών ή προγραμμάτων περιήγησης που εμπιστεύονται η Google ή η κοινότητα του Bitwarden.</string>
     <string name="about_privileged_applications">Σχετικά με τις προνομιούχες εφαρμογές</string>
     <string name="learn_more_about_privileged_apps">Μάθετε περισσότερα για τις προνομιούχες εφαρμογές</string>
     <string name="privileged_apps">Προνομιούχες εφαρμογές</string>
     <string name="unrecognized_browser">Μη αναγνωρίσιμο πρόγραμμα περιήγησης</string>
-    <string name="learn_more_about_using_passkeys_with_bitwarden">Μάθετε περισσότερα σχετικά με τη χρήση κλειδιών πρόσβασης με το Multipass.</string>
+    <string name="learn_more_about_using_passkeys_with_bitwarden">Μάθετε περισσότερα σχετικά με τη χρήση κλειδιών πρόσβασης με το Bitwarden.</string>
     <string name="all_trusted_apps">Όλες οι αξιόπιστες εφαρμογές</string>
     <string name="are_you_sure_you_want_to_stop_trusting_x">Είστε βέβαιοι ότι θέλετε να σταματήσετε να εμπιστεύεστε το %s;</string>
     <string name="installed_apps">Εγκατεστημένες εφαρμογές</string>
@@ -1086,7 +1086,7 @@
     <string name="information">Πληροφορίες</string>
     <string name="otp_type">Τύπος OTP</string>
     <string name="search_codes">Αναζήτηση κωδικών</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">Ασφαλίστε τους λογαριασμούς σας με το Multipass Authenticator</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">Ασφαλίστε τους λογαριασμούς σας με το Bitwarden Authenticator</string>
     <string name="get_verification_codes_for_all_your_accounts">Λάβετε κωδικούς επαλήθευσης για όλους τους λογαριασμούς σας με υποστήριξη επαλήθευσης 2 βημάτων.</string>
     <string name="use_your_device_camera_to_scan_codes">Χρησιμοποιήστε την κάμερα της συσκευής σας για τη σάρωση κωδικών</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">Σαρώστε τον κωδικό QR στις ρυθμίσεις επαλήθευσης 2 βημάτων για οποιονδήποτε λογαριασμό.</string>
@@ -1107,7 +1107,7 @@
     <string name="too_many_failed_biometric_attempts">Πάρα πολλές αποτυχημένες απόπειρες με βιομετρικά στοιχεία.</string>
     <string name="version">Έκδοση</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">Έκδοση: %1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">Μάθετε περισσότερα για τον τρόπο χρήσης του Multipass Authenticator στο Κέντρο βοήθειας.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">Μάθετε περισσότερα για τον τρόπο χρήσης του Bitwarden Authenticator στο Κέντρο βοήθειας.</string>
     <string name="key">Κλειδί</string>
     <string name="create_verification_code">Δημιουργία κωδικού επαλήθευσης</string>
     <string name="key_is_required">Το κλειδί είναι υποχρεωτικό.</string>
@@ -1118,30 +1118,30 @@
     <string name="key_is_invalid">Το κλειδί δεν είναι έγκυρο.</string>
     <string name="backup">Αντίγραφο ασφαλείας</string>
     <string name="data_backup_title">Αντίγραφο δεδομένων</string>
-    <string name="data_backup_message">Τα δεδομένα του Multipass Authenticator αποθηκεύονται σε ένα αντίγραφο ασφαλείας και μπορούν να ανακτηθούν με την προγραμματισμένη δημιουργία εφεδρικών αντιγράφων της συσκευής σας.</string>
+    <string name="data_backup_message">Τα δεδομένα του Bitwarden Authenticator αποθηκεύονται σε ένα αντίγραφο ασφαλείας και μπορούν να ανακτηθούν με την προγραμματισμένη δημιουργία εφεδρικών αντιγράφων της συσκευής σας.</string>
     <string name="import_2fas_password_protected_not_supported">Η εισαγωγή από αρχεία του 2FAS με κωδικό πρόσβασης δεν υποστηρίζεται. Δοκιμάστε ξανά με ένα αρχείο που δεν προστατεύεται με κωδικό πρόσβασης.</string>
-    <string name="import_bitwarden_unsupported_format">Η εισαγωγή αρχείων CSV του Multipass δεν υποστηρίζεται. Δοκιμάστε ξανά με ένα εξαχθέν αρχείο JSON.</string>
-    <string name="download_bitwarden_card_title">Λήψη της εφαρμογής Multipass</string>
+    <string name="import_bitwarden_unsupported_format">Η εισαγωγή αρχείων CSV του Bitwarden δεν υποστηρίζεται. Δοκιμάστε ξανά με ένα εξαχθέν αρχείο JSON.</string>
+    <string name="download_bitwarden_card_title">Λήψη της εφαρμογής Bitwarden</string>
     <string name="download_bitwarden_card_message">Αποθηκεύστε όλες τις συνδέσεις σας και συγχρονίστε απευθείας τους κωδικούς επαλήθευσης με το Authenticator.</string>
     <string name="download_now">Λήψη τώρα</string>
-    <string name="sync_with_bitwarden_app">Συγχρονισμός με την εφαρμογή Multipass</string>
+    <string name="sync_with_bitwarden_app">Συγχρονισμός με την εφαρμογή Bitwarden</string>
     <string name="learn_more_link"><annotation link="learnMore">Μάθετε περισσότερα</annotation></string>
-    <string name="shared_codes_error">Δεν είναι δυνατός ο συγχρονισμός κωδικών από το Multipass. Βεβαιωθείτε ότι έχουν ενημερωθεί και οι δύο εφαρμογές. Μπορείτε ακόμα να αποκτήσετε πρόσβαση στους υπάρχοντες κωδικούς σας στο Multipass.</string>
-    <string name="sync_with_the_bitwarden_app">Συγχρονισμός με την εφαρμογή Multipass</string>
+    <string name="shared_codes_error">Δεν είναι δυνατός ο συγχρονισμός κωδικών από το Bitwarden. Βεβαιωθείτε ότι έχουν ενημερωθεί και οι δύο εφαρμογές. Μπορείτε ακόμα να αποκτήσετε πρόσβαση στους υπάρχοντες κωδικούς σας στο Bitwarden.</string>
+    <string name="sync_with_the_bitwarden_app">Συγχρονισμός με την εφαρμογή Bitwarden</string>
     <string name="sync_with_bitwarden_action_card_message">Επιτρέψτε τον συγχρονισμό του Authenticator στις ρυθμίσεις για να βλέπετε όλους τους κωδικούς επαλήθευσής σας εδώ.</string>
     <string name="take_me_to_app_settings">Μετάβαση στις ρυθμίσεις της εφαρμογής</string>
     <string name="something_went_wrong">Κάτι πήγε στραβά</string>
     <string name="please_try_again">Δοκιμάστε ξανά</string>
-    <string name="copy_to_bitwarden_vault">Αντιγραφή στην κρύπτη Multipass</string>
+    <string name="copy_to_bitwarden_vault">Αντιγραφή στην κρύπτη Bitwarden</string>
     <string name="default_save_option">Προεπιλεγμένη επιλογή αποθήκευσης</string>
-    <string name="save_to_bitwarden">Αποθήκευση στο Multipass</string>
+    <string name="save_to_bitwarden">Αποθήκευση στο Bitwarden</string>
     <string name="save_here">Αποθήκευση εδώ</string>
     <string name="none">Κανένα</string>
     <string name="default_save_options_subtitle">Επιλέξτε πού θα θέλατε να αποθηκεύονται οι νέοι κωδικοί επαλήθευσης.</string>
     <string name="verification_code_created">Δημιουργήθηκε κωδικός επαλήθευσης</string>
-    <string name="choose_save_location_message">Αποθηκεύστε αυτό το κλειδί ελέγχου ταυτότητας εδώ ή προσθέστε το σε μια σύνδεση στο Multipass.</string>
+    <string name="choose_save_location_message">Αποθηκεύστε αυτό το κλειδί ελέγχου ταυτότητας εδώ ή προσθέστε το σε μια σύνδεση στο Bitwarden.</string>
     <string name="save_option_as_default">Αποθήκευση ως προεπιλογή</string>
-    <string name="account_synced_from_bitwarden_app">Ο λογαριασμός συγχρονίστηκε από το Multipass</string>
+    <string name="account_synced_from_bitwarden_app">Ο λογαριασμός συγχρονίστηκε από το Bitwarden</string>
     <string name="local_codes">Τοπικοί κωδικοί (%1$d)</string>
     <string name="required_information_missing">Λείπουν απαιτούμενες πληροφορίες</string>
     <string name="required_information_missing_message">Λείπουν απαιτούμενες πληροφορίες (π.χ. «υπηρεσίες» ή «μυστικό»). Ελέγξτε το αρχείο σας και δοκιμάστε ξανά. Επισκεφτείτε το bitwarden.com/help για υποστήριξη</string>
@@ -1155,10 +1155,10 @@
     <string name="items_are_collapsed_click_to_expand">Τα αντικείμενα είναι συμπτυγμένα, κάντε κλικ για ανάπτυξη.</string>
     <string name="error_cannot_decrypt">[σφάλμα: δεν είναι δυνατή η αποκρυπτογράφηση]</string>
     <string name="copy_error_report">Αντιγραφή αναφοράς σφάλματος</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Το Multipass δεν μπόρεσε να αποκρυπτογραφήσει αυτό το αντικείμενο θησαυροφυλακίου. Αντιγράψτε και μοιραστείτε αυτήν την αναφορά σφάλματος με την ομάδα υποστήριξης για να αποφύγετε περαιτέρω απώλεια δεδομένων.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Το Bitwarden δεν μπόρεσε να αποκρυπτογραφήσει αυτό το αντικείμενο θησαυροφυλακίου. Αντιγράψτε και μοιραστείτε αυτήν την αναφορά σφάλματος με την ομάδα υποστήριξης για να αποφύγετε περαιτέρω απώλεια δεδομένων.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Το Multipass δεν μπόρεσε να αποκρυπτογραφήσει %1$d αντικείμενο θησαυροφυλακίου. Αντιγράψτε και μοιραστείτε αυτήν την αναφορά σφάλματος με την ομάδα υποστήριξης για να αποφύγετε περαιτέρω απώλεια δεδομένων.</item>
-        <item quantity="other">Το Multipass δεν μπόρεσε να αποκρυπτογραφήσει %1$d αντικείμενα θησαυροφυλακίου. Αντιγράψτε και μοιραστείτε αυτήν την αναφορά σφάλματος με την ομάδα υποστήριξης για να αποφύγετε περαιτέρω απώλεια δεδομένων.</item>
+        <item quantity="one">Το Bitwarden δεν μπόρεσε να αποκρυπτογραφήσει %1$d αντικείμενο θησαυροφυλακίου. Αντιγράψτε και μοιραστείτε αυτήν την αναφορά σφάλματος με την ομάδα υποστήριξης για να αποφύγετε περαιτέρω απώλεια δεδομένων.</item>
+        <item quantity="other">Το Bitwarden δεν μπόρεσε να αποκρυπτογραφήσει %1$d αντικείμενα θησαυροφυλακίου. Αντιγράψτε και μοιραστείτε αυτήν την αναφορά σφάλματος με την ομάδα υποστήριξης για να αποφύγετε περαιτέρω απώλεια δεδομένων.</item>
     </plurals>
     <string name="select_a_card_for_x">Επιλέξτε μια κάρτα για %s</string>
     <string name="advanced_options">Σύνθετες επιλογές</string>
@@ -1166,8 +1166,8 @@
     <string name="keep_your_credential_secure">Διατηρήστε τα διαπιστευτήριά σας ασφαλή</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Μάθετε περισσότερα σχετικά με το πώς να διατηρείτε τα διαπιστευτήρια ασφαλή όταν χρησιμοποιείτε το «%1$s».</string>
     <string name="are_you_sure_you_want_to_use">Είστε βέβαιοι ότι θέλετε να χρησιμοποιήσετε το «%1$s»;</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Ο έλεγχος αντιστοίχισης URI καθορίζει τον τρόπο με τον οποίο το Multipass αναγνωρίζει προτάσεις αυτόματης συμπλήρωσης.\n<annotation emphasis="bold">Προειδοποίηση:</annotation> Η «Κανονική έκφραση» είναι μια επιλογή για προχωρημένους με αυξημένο κίνδυνο έκθεσης διαπιστευτηρίων αν χρησιμοποιηθεί λανθασμένα.</string>
-    <string name="default_uri_match_detection_description_advanced_options">Ο έλεγχος αντιστοίχισης URI καθορίζει τον τρόπο με τον οποίο το Multipass αναγνωρίζει προτάσεις αυτόματης συμπλήρωσης.\n<annotation emphasis="bold">Προειδοποίηση:</annotation> Το «Ξεκινά με» είναι μια επιλογή για προχωρημένους με αυξημένο κίνδυνο έκθεσης διαπιστευτηρίων.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Ο έλεγχος αντιστοίχισης URI καθορίζει τον τρόπο με τον οποίο το Bitwarden αναγνωρίζει προτάσεις αυτόματης συμπλήρωσης.\n<annotation emphasis="bold">Προειδοποίηση:</annotation> Η «Κανονική έκφραση» είναι μια επιλογή για προχωρημένους με αυξημένο κίνδυνο έκθεσης διαπιστευτηρίων αν χρησιμοποιηθεί λανθασμένα.</string>
+    <string name="default_uri_match_detection_description_advanced_options">Ο έλεγχος αντιστοίχισης URI καθορίζει τον τρόπο με τον οποίο το Bitwarden αναγνωρίζει προτάσεις αυτόματης συμπλήρωσης.\n<annotation emphasis="bold">Προειδοποίηση:</annotation> Το «Ξεκινά με» είναι μια επιλογή για προχωρημένους με αυξημένο κίνδυνο έκθεσης διαπιστευτηρίων.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">Το «Ξεκινά με» είναι μια επιλογή για προχωρημένους με αυξημένο κίνδυνο έκθεσης διαπιστευτηρίων.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">Η «Κανονική έκφραση» είναι μια επιλογή για προχωρημένους με αυξημένο κίνδυνο έκθεσης διαπιστευτηρίων αν χρησιμοποιηθεί λανθασμένα.</string>
     <string name="later">Αργότερα</string>
@@ -1192,17 +1192,17 @@
         <item quantity="other">%1$d αντικείμενα εισήχθησαν στο θησαυροφυλάκιό σας.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Ενεργοποιήστε την αυτόματη συμπλήρωση προγράμματος περιήγησης για να συνεχίσετε τη συμπλήρωση κωδικών πρόσβασης</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Το πρόγραμμα περιήγησής σας ενημερώθηκε πρόσφατα, γεγονός που απενεργοποίησε την αυτόματη συμπλήρωση του Multipass. Για να συνεχίσετε να συμπληρώνετε τους κωδικούς πρόσβασής σας με το Multipass, ενεργοποιήστε την αυτόματη συμπλήρωση προγράμματος περιήγησης στις ρυθμίσεις αυτόματης συμπλήρωσης.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Το πρόγραμμα περιήγησής σας ενημερώθηκε πρόσφατα, γεγονός που απενεργοποίησε την αυτόματη συμπλήρωση του Bitwarden. Για να συνεχίσετε να συμπληρώνετε τους κωδικούς πρόσβασής σας με το Bitwarden, ενεργοποιήστε την αυτόματη συμπλήρωση προγράμματος περιήγησης στις ρυθμίσεις αυτόματης συμπλήρωσης.</string>
     <string name="not_now">Όχι τώρα</string>
-    <string name="import_from_bitwarden">Εισαγωγή από το Multipass</string>
+    <string name="import_from_bitwarden">Εισαγωγή από το Bitwarden</string>
     <string name="select_account">Επιλογή λογαριασμού</string>
     <string name="no_accounts_available">Δεν υπάρχουν διαθέσιμοι λογαριασμοί</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">Δεν έχετε κανέναν λογαριασμό από τον οποίο μπορείτε να εισάγετε. Η πολιτική ασφαλείας του οργανισμού σας μπορεί να περιορίζει την εισαγωγή αντικειμένων από το Multipass σε άλλη εφαρμογή.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">Δεν έχετε κανέναν λογαριασμό από τον οποίο μπορείτε να εισάγετε. Η πολιτική ασφαλείας του οργανισμού σας μπορεί να περιορίζει την εισαγωγή αντικειμένων από το Bitwarden σε άλλη εφαρμογή.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Η εισαγωγή περιορίζεται, δεν είναι δυνατή η εισαγωγή καρτών από αυτόν τον λογαριασμό.</string>
     <string name="verify_your_master_password">Επαληθεύστε τον κύριο κωδικό πρόσβασής σας</string>
     <string name="having_trouble_with_autofill">Αντιμετωπίζετε πρόβλημα με την αυτόματη συμπλήρωση;</string>
     <string name="access_help_and_troubleshooting_documentation_here">Πρόσβαση σε βοήθεια και τεκμηρίωση αντιμετώπισης προβλημάτων εδώ</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Εισαγωγή κωδικών πρόσβασης, κλειδιών πρόσβασης και άλλων τύπων αντικειμένων από το θησαυροφυλάκιο Multipass.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Εισαγωγή κωδικών πρόσβασης, κλειδιών πρόσβασης και άλλων τύπων αντικειμένων από το θησαυροφυλάκιο Bitwarden.</string>
     <string name="items_to_import">Στοιχεία προς εισαγωγή</string>
     <string name="exporting_items">Εξαγωγή στοιχείων…</string>
     <string name="export_failed">Αποτυχία εξαγωγής</string>
@@ -1266,7 +1266,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Εισάγετε τουλάχιστον μία έγκυρη διεύθυνση email για να μοιραστείτε αυτό το Send.</string>
     <string name="sync_with_browser">Συγχρονισμός με πρόγραμμα περιήγησης</string>
-    <string name="sync_with_browser_description">Για να συνδεθείτε στο %1$s, συγχρονίστε το προεπιλεγμένο πρόγραμμα περιήγησής σας με την εφαρμογή Multipass για κινητά. Όταν ανοίξει το πρόγραμμα περιήγησής σας, ολοκληρώστε τη σύνδεση αν σας ζητηθεί.\nΜόλις ολοκληρωθεί ο συγχρονισμός, θα επιστρέψετε σε αυτήν την εφαρμογή.</string>
+    <string name="sync_with_browser_description">Για να συνδεθείτε στο %1$s, συγχρονίστε το προεπιλεγμένο πρόγραμμα περιήγησής σας με την εφαρμογή Bitwarden για κινητά. Όταν ανοίξει το πρόγραμμα περιήγησής σας, ολοκληρώστε τη σύνδεση αν σας ζητηθεί.\nΜόλις ολοκληρωθεί ο συγχρονισμός, θα επιστρέψετε σε αυτήν την εφαρμογή.</string>
     <string name="launch_browser">Εκκίνηση προγράμματος περιήγησης</string>
     <string name="continue_without_syncing">Συνέχεια χωρίς συγχρονισμό</string>
     <string name="external_link">Εξωτερικός σύνδεσμος</string>
@@ -1292,7 +1292,7 @@
     <string name="trusted">Αξιόπιστο</string>
     <string name="preview_not_available_for_files">Η προεπισκόπηση δεν είναι διαθέσιμη για αρχεία %1$s. Μπορείτε ακόμα να το κατεβάσετε για προβολή στη συσκευή σας.</string>
     <string name="this_file_is_too_large_to_preview">Αυτό το αρχείο είναι πολύ μεγάλο για προεπισκόπηση. Μπορείτε ακόμα να το κατεβάσετε για προβολή στη συσκευή σας.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Το Multipass δεν μπόρεσε να αποκρυπτογραφήσει αυτό το αρχείο, επομένως η προεπισκόπηση δεν μπορεί να εμφανιστεί.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Το Bitwarden δεν μπόρεσε να αποκρυπτογραφήσει αυτό το αρχείο, επομένως η προεπισκόπηση δεν μπορεί να εμφανιστεί.</string>
     <string name="preview_unavailable_for_this_file">Η προεπισκόπηση δεν είναι διαθέσιμη για αυτό το αρχείο. Μπορείτε ακόμα να το κατεβάσετε για προβολή στη συσκευή σας.</string>
     <string name="preview_unavailable">Η προεπισκόπηση δεν είναι διαθέσιμη</string>
     <string name="download_attachment">Λήψη συνημμένου</string>
@@ -1334,7 +1334,7 @@
     <string name="billing_rate_per_year">%1$s / έτος</string>
     <string name="billing_rate_per_month">%1$s / μήνα</string>
     <string name="manage_plan">Διαχείριση πακέτου</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">Διαχειριστείτε το πρόγραμμα συνδρομής σας στην εφαρμογή web του Multipass.</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">Διαχειριστείτε το πρόγραμμα συνδρομής σας στην εφαρμογή web του Bitwarden.</string>
     <string name="cancel_premium">Ακύρωση Premium</string>
     <string name="subscription_status_active">Ενεργό</string>
     <string name="subscription_status_canceled">Ακυρώθηκε</string>
@@ -1425,8 +1425,8 @@
     <string name="local_network_access_required">Απαιτείται πρόσβαση σε τοπικό δίκτυο</string>
     <string name="ask_again_later">Ρωτήστε ξανά αργότερα</string>
     <string name="enable_local_network_access">Ενεργοποίηση πρόσβασης σε τοπικό δίκτυο</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Το Multipass χρειάζεται πρόσβαση σε τοπικό δίκτυο για να συγχρονιστεί με τον διακομιστή σας. Χωρίς αυτήν την άδεια, η εφαρμογή δεν θα μπορεί να συνδεθεί.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Χωρίς αυτήν την άδεια, το Multipass δεν θα μπορεί να συνδεθεί και να συγχρονιστεί με τον διακομιστή σας. Μπορείτε να το ενεργοποιήσετε στις ρυθμίσεις της συσκευής σας.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Το Bitwarden χρειάζεται πρόσβαση σε τοπικό δίκτυο για να συγχρονιστεί με τον διακομιστή σας. Χωρίς αυτήν την άδεια, η εφαρμογή δεν θα μπορεί να συνδεθεί.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Χωρίς αυτήν την άδεια, το Bitwarden δεν θα μπορεί να συνδεθεί και να συγχρονιστεί με τον διακομιστή σας. Μπορείτε να το ενεργοποιήσετε στις ρυθμίσεις της συσκευής σας.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Το αίτημά σας διακόπηκε επειδή η εφαρμογή χρειάζεται πρόσβαση σε τοπικό δίκτυο. Μπορείτε να το ενεργοποιήσετε στις ρυθμίσεις της συσκευής σας.</string>
     <string name="continue_to_stripe">Συνέχεια στο Stripe;</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Θα μεταφερθείτε στο Stripe για να διαχειριστείτε την ακύρωση της συνδρομής σας.</string>

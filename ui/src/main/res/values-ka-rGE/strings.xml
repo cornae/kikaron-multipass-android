@@ -75,9 +75,9 @@
     <string name="yes">დიახ</string>
     <string name="account">ანგარიში</string>
     <string name="account_created_success">თქვენი ახალი ანგარიში შეიქმნა!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">მოწყობილობის პარამეტრებში დააყენეთ Multipass, როგორც თქვენი passkey პროვაიდერი.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">მოწყობილობის პარამეტრებში დააყენეთ Bitwarden, როგორც თქვენი passkey პროვაიდერი.</string>
     <string name="avoid_ambiguous_characters">ორაზროვანი სიმბოლოების თავიდან აცილება</string>
-    <string name="bitwarden_autofill_service">Multipass ავტოშევსების სერვისი</string>
+    <string name="bitwarden_autofill_service">Bitwarden ავტოშევსების სერვისი</string>
     <string name="change_master_password">მთავარი პაროლის შეცვლა</string>
     <string name="close">დახურვა</string>
     <string name="close_app">აპლიკაციის დახურვა</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">სესიის ვადის ამოწურვა დავაყენოთ “გასვლა”-ზე?</string>
     <string name="vault_timeout_log_out_confirmation_message">დროის ამოწურვის შემდეგ, გამოხვალთ სისტემიდან. ხელახლა შესასვლელად და სეიფზე წვდომისთვის, დაგჭირდებათ ინტერნეტთან კავშირი. ამ მოწყობილობაზე შენახული თქვენი პარამეტრები და PIN არ შეიცვლება.</string>
     <string name="logging_in">შესვლა…</string>
-    <string name="login_to_bitwarden">Multipass-ში შესვლა</string>
+    <string name="login_to_bitwarden">Bitwarden-ში შესვლა</string>
     <string name="master_password_confirmation_val_message">პაროლის დადასტურება არასწორია.</string>
     <string name="master_password_description">მთავარი პაროლი არის პაროლი, რომელსაც იყენებთ თქვენს სეიფზე წვდომისთვის. ძალიან მნიშვნელოვანია, რომ არ დაივიწყოთ თქვენი მთავარი პაროლი. მისი დავიწყების შემთხვევაში, პაროლის აღდგენის საშუალება არ არსებობს.</string>
     <string name="master_password_hint">მთავარი პაროლის მინიშნება (არასავალდებულო)</string>
@@ -169,14 +169,14 @@
     <string name="view_identity">პირადობის ნახვა</string>
     <string name="view_note">შენიშვნის ნახვა</string>
     <string name="view_ssh_key">SSH გასაღების ნახვა</string>
-    <string name="web_vault">Multipass ვებ-სეიფი</string>
+    <string name="web_vault">Bitwarden ვებ-სეიფი</string>
     <string name="items">ჩანაწერები</string>
     <string name="items_for_uri">ჩანაწერები %1$s-ისთვის</string>
     <string name="no_items_for_uri">%1$s-ისთვის თქვენს სეიფში ჩანაწერები არ არის.</string>
     <string name="no_items_for_vault">თქვენს სეიფში არ არის ჩანაწერები, რომლებიც შეესაბამება “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">მოძებნეთ შესვლა ან დაამატეთ ახალი</string>
     <string name="disabled">გამორთულია</string>
-    <string name="bitwarden_autofill_service_alert2">ახალი შესვლების სეიფში დამატების ყველაზე მარტივი გზაა Multipass-ის ავტოშევსების სერვისიდან. გაიგეთ მეტი Multipass-ის ავტოშევსების სერვისის გამოყენების შესახებ \"პარამეტრების\" ეკრანზე გადასვლით.</string>
+    <string name="bitwarden_autofill_service_alert2">ახალი შესვლების სეიფში დამატების ყველაზე მარტივი გზაა Bitwarden-ის ავტოშევსების სერვისიდან. გაიგეთ მეტი Bitwarden-ის ავტოშევსების სერვისის გამოყენების შესახებ \"პარამეტრების\" ეკრანზე გადასვლით.</string>
     <string name="autofill_noun">ავტომატური შევსება</string>
     <string name="autofill_verb">ავტომატური შევსება</string>
     <string name="autofill_or_view">გსურთ ამ ჩანაწერის ავტოშევსება თუ ნახვა?</string>
@@ -228,7 +228,7 @@
     <string name="environment_saved">გარემოს URL-ები შენახულია.</string>
     <string name="identity_url">იდენტობის სერვერის URL</string>
     <string name="self_hosted_environment">საკუთარ სერვერზე განთავსებული გარემო</string>
-    <string name="self_hosted_environment_footer">მიუთითეთ თქვენი ლოკალური Multipass ინსტალაციის ძირითადი URL.</string>
+    <string name="self_hosted_environment_footer">მიუთითეთ თქვენი ლოკალური Bitwarden ინსტალაციის ძირითადი URL.</string>
     <string name="server_url">სერვერის URL</string>
     <string name="web_vault_url">ვებ-სეიფის სერვერის URL</string>
     <string name="custom_fields">მორგებული ველები</string>
@@ -298,7 +298,7 @@
     <string name="no_items_folder">ამ პაპკაში ჩანაწერები არ არის.</string>
     <string name="no_items_trash">ნაგავში ჩანაწერები არ არის.</string>
     <string name="autofill_accessibility_summary">დახმარება მომხმარებლის სახელისა და პაროლის ველების შევსებაში სხვა აპლიკაციებსა და ვებში.</string>
-    <string name="autofill_service_description">Multipass-ის ავტოშევსების სერვისი იყენებს Android Autofill Framework-ს, რათა დაეხმაროს შესვლის ინფორმაციის შევსებაში თქვენს მოწყობილობაზე სხვა აპლიკაციებში.</string>
+    <string name="autofill_service_description">Bitwarden-ის ავტოშევსების სერვისი იყენებს Android Autofill Framework-ს, რათა დაეხმაროს შესვლის ინფორმაციის შევსებაში თქვენს მოწყობილობაზე სხვა აპლიკაციებში.</string>
     <string name="bitwarden_autofill_go_to_settings">ჩვენ ვერ გავხსენით Android-ის ავტოშევსების პარამეტრების მენიუ ავტომატურად. შეგიძლიათ ხელით გადახვიდეთ ავტოშევსების პარამეტრების მენიუში Android პარამეტრები &gt; სისტემა &gt; ენები და შეყვანა &gt; დამატებითი &gt; ავტოშევსების სერვისი.</string>
     <string name="custom_field_name">მორგებული ველის სახელი</string>
     <string name="field_type_boolean">ლოგიკური</string>
@@ -373,7 +373,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">განბლოკვა</string>
     <string name="thirty_minutes">30 წუთი</string>
-    <string name="set_pin_description">თქვენი PIN უნდა შედგებოდეს მინიმუმ 4 სიმბოლოსგან. თუ ხელით გახვალთ Multipass-ის აპლიკაციიდან, თქვენი PIN პარამეტრები გადატვირთული იქნება.</string>
+    <string name="set_pin_description">თქვენი PIN უნდა შედგებოდეს მინიმუმ 4 სიმბოლოსგან. თუ ხელით გახვალთ Bitwarden-ის აპლიკაციიდან, თქვენი PIN პარამეტრები გადატვირთული იქნება.</string>
     <string name="logged_in_as_on">შესული ხართ როგორც %1$s %2$s-ზე.</string>
     <string name="vault_locked_master_password">თქვენი სეიფი დაბლოკილია. გასაგრძელებლად, დაადასტურეთ თქვენი მთავარი პაროლი.</string>
     <string name="vault_locked_pin">თქვენი სეიფი დაბლოკილია. გასაგრძელებლად, დაადასტურეთ თქვენი PIN კოდი.</string>
@@ -387,7 +387,7 @@
     <string name="clear_clipboard">ბუფერის გასუფთავება</string>
     <string name="clear_clipboard_description">ბუფერიდან დაკოპირებული მნიშვნელობების ავტომატურად გასუფთავება.</string>
     <string name="default_uri_match_detection">ნაგულისხმევი URI შესაბამისობის გამოვლენა</string>
-    <string name="default_uri_match_detection_description">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Multipass ავტოშევსების წინადადებებს.</string>
+    <string name="default_uri_match_detection_description">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Bitwarden ავტოშევსების წინადადებებს.</string>
     <string name="theme">თემა</string>
     <string name="theme_description">შეცვალეთ აპლიკაციის ფერთა თემა</string>
     <string name="copy_notes">შენიშვნის კოპირება</string>
@@ -423,7 +423,7 @@
     <string name="password_generator_policy_in_effect">ერთი ან მეტი ორგანიზაციის პოლიტიკა გავლენას ახდენს თქვენს გენერატორის პარამეტრებზე</string>
     <string name="unable_to_save_attachment">ამ დანართის შენახვისას წარმოიშვა პრობლემა. თუ პრობლემა გაგრძელდა, შეგიძლიათ შეინახოთ იგი ვებ-სეიფიდან.</string>
     <string name="save_attachment_success">დანართი წარმატებით შენახულია</string>
-    <string name="autofill_tile_accessibility_required">Autofill ფილის გამოსაყენებლად, გთხოვთ, ჩართოთ \"Autofill Accessibility Service\" Multipass-ის პარამეტრებიდან.</string>
+    <string name="autofill_tile_accessibility_required">Autofill ფილის გამოსაყენებლად, გთხოვთ, ჩართოთ \"Autofill Accessibility Service\" Bitwarden-ის პარამეტრებიდან.</string>
     <string name="autofill_tile_uri_not_found">პაროლის ველები არ არის გამოვლენილი</string>
     <string name="soft_deleting">ნაგავში გადატანა…</string>
     <string name="item_soft_deleted">ჩანაწერი გადატანილია ნაგავში.</string>
@@ -636,9 +636,9 @@
     <string name="catch_all_email_description">გამოიყენეთ თქვენი დომენის გაკონფიგურირებული ყველას მიმღები საფოსტო ყუთი.</string>
     <string name="forwarded_email_description">შექმენით ელ. ფოსტის ალიასი გარე გადაგზავნის სერვისით.</string>
     <string name="accessibility_service_disclosure">ხელმისაწვდომობის სერვისის გამჟღავნება</string>
-    <string name="accessibility_disclosure_text">Multipass იყენებს ხელმისაწვდომობის სერვისს აპლიკაციებსა და ვებსაიტებში შესვლის ველების მოსაძებნად, შემდეგ ადგენს შესაბამისი ველების ID-ებს მომხმარებლის სახელის &amp; პაროლის შესაყვანად, როცა აპის ან საიტის შესაბამისი მოიძებნება. ჩვენ არ ვინახავთ სერვისის მიერ მოწოდებულ ინფორმაციას და არ ვცდილობთ ვაკონტროლოთ ეკრანზე არსებული ელემენტები მონაცემების ტექსტური შეყვანის გარდა.</string>
-    <string name="accessibility_disclosure_start_up_text_1">ეს შეტყობინება აუცილებელია, სანამ Multipass შესთავაზებს ხელმისაწვდომობაზე დაფუძნებულ ავტოშევსებას.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Multipass გვთავაზობს ავტოშევსების არასავალდებულო მეთოდს, რომელიც იყენებს Android-ის ხელმისაწვდომობის სერვისს შესვლის ველების გამოსავლენად. თუ ჩართავთ, Multipass ამოიცნობს შესაბამის ველებს და შეავსებს თქვენს მონაცემებს, როცა შესაბამისი მოიძებნება.</string>
+    <string name="accessibility_disclosure_text">Bitwarden იყენებს ხელმისაწვდომობის სერვისს აპლიკაციებსა და ვებსაიტებში შესვლის ველების მოსაძებნად, შემდეგ ადგენს შესაბამისი ველების ID-ებს მომხმარებლის სახელის &amp; პაროლის შესაყვანად, როცა აპის ან საიტის შესაბამისი მოიძებნება. ჩვენ არ ვინახავთ სერვისის მიერ მოწოდებულ ინფორმაციას და არ ვცდილობთ ვაკონტროლოთ ეკრანზე არსებული ელემენტები მონაცემების ტექსტური შეყვანის გარდა.</string>
+    <string name="accessibility_disclosure_start_up_text_1">ეს შეტყობინება აუცილებელია, სანამ Bitwarden შესთავაზებს ხელმისაწვდომობაზე დაფუძნებულ ავტოშევსებას.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden გვთავაზობს ავტოშევსების არასავალდებულო მეთოდს, რომელიც იყენებს Android-ის ხელმისაწვდომობის სერვისს შესვლის ველების გამოსავლენად. თუ ჩართავთ, Bitwarden ამოიცნობს შესაბამის ველებს და შეავსებს თქვენს მონაცემებს, როცა შესაბამისი მოიძებნება.</string>
     <string name="accessibility_disclosure_start_up_text_3">ჩვენ არ ვინახავთ ინფორმაციას ეკრანზე არსებულის შესახებ, სანამ იყენებთ ხელმისაწვდომობის სერვისს, და არ ვაკონტროლებთ ეკრანის ელემენტებს მონაცემების შეყვანის გარდა.</string>
     <string name="i_understand">მესმის</string>
     <string name="accept">მიღება</string>
@@ -647,7 +647,7 @@
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">შესვლის მცდელობა:
 %1$s
 გსურთ ამ ანგარიშზე გადართვა?</string>
-    <string name="new_to_bitwarden">Multipass-ის ახალი მომხმარებელი?</string>
+    <string name="new_to_bitwarden">Bitwarden-ის ახალი მომხმარებელი?</string>
     <string name="get_master_passwordword_hint">მთავარი პაროლის მინიშნების მიღება</string>
     <string name="logging_in_as_x_on_y">შესვლა როგორც %1$s %2$s-ზე</string>
     <string name="not_you">თქვენ არ ხართ?</string>
@@ -704,7 +704,7 @@
     <string name="invalid_uri">არასწორი URI</string>
     <string name="the_urix_is_already_blocked">URI %1$s უკვე დაბლოკილია</string>
     <string name="login_approved">შესვლა დამტკიცებულია</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">მოწყობილობით შესვლა უნდა იყოს დაყენებული Multipass-ის აპლიკაციის პარამეტრებში.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">მოწყობილობით შესვლა უნდა იყოს დაყენებული Bitwarden-ის აპლიკაციის პარამეტრებში.</string>
     <string name="need_another_option_view_all_login_options">გჭირდებათ სხვა ვარიანტი? <annotation link="viewAll">შესვლის ყველა ვარიანტის ნახვა</annotation></string>
     <string name="log_in_with_device">მოწყობილობით შესვლა</string>
     <string name="logging_in_on">შესვლა მოწყობილობაზე</string>
@@ -713,14 +713,14 @@
     <string name="select_vault">Select vault</string>
     <string name="appearance">გარეგნობა</string>
     <string name="account_security">ანგარიშის უსაფრთხოება</string>
-    <string name="bitwarden_help_center">Multipass Help Center</string>
+    <string name="bitwarden_help_center">Bitwarden Help Center</string>
     <string name="sync_now">ახლავე სინქრონიზაცია</string>
     <string name="unlock_options">განბლოკვის ვარიანტები</string>
     <string name="session_timeout">სესიის ვადის ამოწურვა</string>
     <string name="session_timeout_action">სესიის ვადის ამოწურვის მოქმედება</string>
     <string name="account_fingerprint_phrase">ანგარიშის თითის ანაბეჭდის ფრაზა</string>
-    <string name="passkey_management_explanation_long">გამოიყენეთ Multipass ახალი passkeys-ების შესანახად და თქვენს სეიფში შენახული passkeys-ით შესასვლელად.</string>
-    <string name="autofill_services_explanation_long">დაუშვით Multipass-ს გამოიყენოს თქვენი შენახული შესვლის ინფორმაცია თქვენს მოწყობილობაზე სხვა აპლიკაციებში შესასვლელად.</string>
+    <string name="passkey_management_explanation_long">გამოიყენეთ Bitwarden ახალი passkeys-ების შესანახად და თქვენს სეიფში შენახული passkeys-ით შესასვლელად.</string>
+    <string name="autofill_services_explanation_long">დაუშვით Bitwarden-ს გამოიყენოს თქვენი შენახული შესვლის ინფორმაცია თქვენს მოწყობილობაზე სხვა აპლიკაციებში შესასვლელად.</string>
     <string name="use_inline_autofill_explanation_long">აირჩიეთ, როგორ გამოჩნდება თქვენი ავტოშევსების წინადადებები, როცა შედიხართ სხვა აპლიკაციებში თქვენს მოწყობილობაზე.</string>
     <string name="additional_options">დამატებითი ვარიანტები</string>
     <string name="continue_to_web_app">ვებ-აპში გაგრძელება?</string>
@@ -728,12 +728,12 @@
     <string name="continue_to_help_center">გავაგრძელოთ დახმარების ცენტრში?</string>
     <string name="continue_to_privacy_policy">კონფიდენციალურობის პოლიტიკაზე გადასვლა?</string>
     <string name="continue_to_device_settings">გავაგრძელოთ მოწყობილობის პარამეტრებში?</string>
-    <string name="two_step_login_description_long">გახადეთ თქვენი ანგარიში უფრო უსაფრთხო ორსაფეხურიანი შესვლის დაყენებით Multipass-ის ვებ-აპში.</string>
-    <string name="change_master_password_description_long">თქვენ შეგიძლიათ შეცვალოთ თქვენი მთავარი პაროლი Multipass-ის ვებ-აპში.</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">გაიგეთ მეტი Multipass-ის გამოყენების შესახებ დახმარების ცენტრში.</string>
+    <string name="two_step_login_description_long">გახადეთ თქვენი ანგარიში უფრო უსაფრთხო ორსაფეხურიანი შესვლის დაყენებით Bitwarden-ის ვებ-აპში.</string>
+    <string name="change_master_password_description_long">თქვენ შეგიძლიათ შეცვალოთ თქვენი მთავარი პაროლი Bitwarden-ის ვებ-აპში.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">გაიგეთ მეტი Bitwarden-ის გამოყენების შესახებ დახმარების ცენტრში.</string>
     <string name="privacy_policy_description_long">გაეცანით ჩვენს კონფიდენციალურობის პოლიტიკას bitwarden.com-ზე.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">გაეცანით თქვენი Multipass ანგარიშის მეტ ფუნქციას ვებ-აპში.</string>
-    <string name="learn_about_organizations_description_long">Multipass საშუალებას გაძლევთ გაუზიაროთ თქვენი სეიფის ჩანაწერები სხვებს ორგანიზაციის გამოყენებით. გაიგეთ მეტი bitwarden.com ვებსაიტზე.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">გაეცანით თქვენი Bitwarden ანგარიშის მეტ ფუნქციას ვებ-აპში.</string>
+    <string name="learn_about_organizations_description_long">Bitwarden საშუალებას გაძლევთ გაუზიაროთ თქვენი სეიფის ჩანაწერები სხვებს ორგანიზაციის გამოყენებით. გაიგეთ მეტი bitwarden.com ვებსაიტზე.</string>
     <string name="created_x">შეიქმნა %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">თქვენი ორგანიზაცია მოითხოვს მთავარი პაროლის დაყენებას.</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">სეიფის ვადის ამოწურვის მოქმედების შესაცვლელად, დააყენეთ განბლოკვის ვარიანტი.</string>
@@ -743,8 +743,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">თქვენი ანგარიშისთვის საჭიროა Duo ორსაფეხურიანი შესვლა.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">მიჰყევით Duo-ს ნაბიჯებს შესვლის დასასრულებლად.</string>
     <string name="launch_duo">Duo-ს გაშვება</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი passkey შეინახება თქვენს Multipass სეიფში %1$s-ისთვის</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი პაროლი შეინახება თქვენს Multipass სეიფში %1$s-ისთვის</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი passkey შეინახება თქვენს Bitwarden სეიფში %1$s-ისთვის</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">თქვენი პაროლი შეინახება თქვენს Bitwarden სეიფში %1$s-ისთვის</string>
     <string name="passkeys_not_supported_for_this_app">Passkeys არ არის მხარდაჭერილი ამ აპისთვის</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Passkey ოპერაცია ვერ მოხერხდა, რადგან ბრაუზერი არ არის პრივილეგირებული</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Passkey ოპერაცია ვერ მოხერხდა, რადგან ბრაუზერის ხელმოწერა არ ემთხვევა</string>
@@ -770,15 +770,15 @@
     <string name="check_your_email">შეამოწმეთ თქვენი ელფოსტა</string>
     <string name="open_email_app">ელ. ფოსტის აპლიკაციის გახსნა</string>
     <string name="email_verified">ელფოსტა გადამოწმებულია</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">მიიღეთ ელ. წერილები Multipass-ისგან განცხადებების, რჩევებისა და კვლევის შესაძლებლობების შესახებ. <annotation link="unsubscribe">გამოწერა</annotation> ნებისმიერ დროს.</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">მიიღეთ ელ. წერილები Bitwarden-ისგან განცხადებების, რჩევებისა და კვლევის შესაძლებლობების შესახებ. <annotation link="unsubscribe">გამოწერა</annotation> ნებისმიერ დროს.</string>
     <string name="security_prioritized">უსაფრთხოება, პრიორიტეტული</string>
-    <string name="welcome_message_1">შეინახეთ შესვლები, ბარათები და პირადობები თქვენს უსაფრთხო სეიფში. Multipass იყენებს ნულოვანი ცოდნის, ბოლომდე დაშიფვრას, რათა დაიცვას ის, რაც თქვენთვის მნიშვნელოვანია.</string>
+    <string name="welcome_message_1">შეინახეთ შესვლები, ბარათები და პირადობები თქვენს უსაფრთხო სეიფში. Bitwarden იყენებს ნულოვანი ცოდნის, ბოლომდე დაშიფვრას, რათა დაიცვას ის, რაც თქვენთვის მნიშვნელოვანია.</string>
     <string name="welcome_message_2">დააყენეთ ბიომეტრიული განბლოკვა და ავტოშევსება, რათა შეხვიდეთ თქვენს ანგარიშებში არც ერთი სიმბოლოს აკრეფის გარეშე.</string>
     <string name="quick_and_easy_login">სწრაფი და მარტივი შესვლა</string>
     <string name="level_up_your_logins">გააუმჯობესეთ თქვენი შესვლები</string>
     <string name="welcome_message_3">გამოიყენეთ გენერატორი ძლიერი, უნიკალური პაროლების შესაქმნელად და შესანახად ყველა თქვენი ანგარიშისთვის.</string>
     <string name="your_data_when_and_where_you_need_it">თქვენი მონაცემები, როცა და სადაც გჭირდებათ</string>
-    <string name="welcome_message_4">შეინახეთ შეუზღუდავი პაროლები შეუზღუდავ მოწყობილობაზე Multipass-ის მობილური, ბრაუზერის და დესკტოპის აპლიკაციებით.</string>
+    <string name="welcome_message_4">შეინახეთ შეუზღუდავი პაროლები შეუზღუდავ მოწყობილობაზე Bitwarden-ის მობილური, ბრაუზერის და დესკტოპის აპლიკაციებით.</string>
     <string name="remove_passkey">Passkey-ის ამოღება</string>
     <string name="passkey_removed">Passkey ამოღებულია</string>
     <string name="what_makes_a_password_strong">რა ხდის პაროლს ძლიერს?</string>
@@ -808,8 +808,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">აირჩიეთ ბმული წერილში თქვენი ელ. ფოსტის მისამართის დასადასტურებლად და ანგარიშის შექმნის გასაგრძელებლად.</string>
     <string name="change_email_address">ელ. ფოსტის მისამართის შეცვლა</string>
     <string name="next">შემდეგი</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass ვერ აღადგენს დაკარგულ ან დავიწყებულ მთავარ პაროლს.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass ვერ აღადგენს დაკარგულ ან დავიწყებულ მთავარ პაროლს.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden ვერ აღადგენს დაკარგულ ან დავიწყებულ მთავარ პაროლს.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden ვერ აღადგენს დაკარგულ ან დავიწყებულ მთავარ პაროლს.</string>
     <string name="choose_your_master_password">აირჩიეთ თქვენი მთავარი პაროლი</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">აირჩიეთ უნიკალური და ძლიერი პაროლი თქვენი ინფორმაციის უსაფრთხოდ შესანახად.</string>
     <plurals name="minimum_characters">
@@ -825,16 +825,16 @@
     <string name="turn_on_autofill">ავტოშევსების ჩართვა</string>
     <string name="autofill_setup">ავტოშევსების დაყენება</string>
     <string name="turn_on_browser_autofill_integration">ბრაუზერის ავტოშევსების ინტეგრაციის ჩართვა</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Multipass-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Multipass-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Multipass-ისთვის თქვენი პაროლების ავტოშევსებისთვის. ქვემოთ ჩართეთ თქვენი სასურველი ავტოშევსების ინტეგრაცია.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Multipass-ისთვის თქვენი პაროლების ავტოშევსებისთვის. გასაგრძელებლად, ჩართეთ ავტოშევსება ყველა თქვენთვის დაყენებული ბრაუზერისთვის.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Bitwarden-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Bitwarden-ისთვის თქვენი პაროლების ავტოშევსებისთვის.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">თქვენ იყენებთ ბრაუზერს, რომელიც საჭიროებს სპეციალურ ნებართვებს Bitwarden-ისთვის თქვენი პაროლების ავტოშევსებისთვის. ქვემოთ ჩართეთ თქვენი სასურველი ავტოშევსების ინტეგრაცია.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">თქვენ იყენებთ ბრაუზერებს, რომლებიც საჭიროებენ სპეციალურ ნებართვებს Bitwarden-ისთვის თქვენი პაროლების ავტოშევსებისთვის. გასაგრძელებლად, ჩართეთ ავტოშევსება ყველა თქვენთვის დაყენებული ბრაუზერისთვის.</string>
     <string name="use_autofill_to_log_into_your_accounts">გამოიყენეთ ავტოშევსება თქვენს ანგარიშებში ერთი შეხებით შესასვლელად.</string>
     <string name="turn_on_later">მოგვიანებით ჩართვა</string>
     <string name="turn_on_autofill_later">ავტოშევსების მოგვიანებით ჩართვა?</string>
     <string name="turn_on_browser_autofill_integration_later">ბრაუზერის ავტოშევსების ინტეგრაციის მოგვიანებით ჩართვა?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">თქვენ შეგიძლიათ დაბრუნდეთ ამ ნაბიჯის დასასრულებლად ნებისმიერ დროს პარამეტრებში.</string>
-    <string name="what_bitwarden_has_to_offer">ახლა შეგიძლიათ გაეცნოთ ყველაფერს, რასაც Multipass გთავაზობთ, და დაიწყოთ თქვენი პაროლების უსაფრთხოდ მართვა.</string>
+    <string name="what_bitwarden_has_to_offer">ახლა შეგიძლიათ გაეცნოთ ყველაფერს, რასაც Bitwarden გთავაზობთ, და დაიწყოთ თქვენი პაროლების უსაფრთხოდ მართვა.</string>
     <string name="youre_all_set">ყველაფერი მზადაა!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">შეცდომა Duo-ს სერვისთან დაკავშირებისას. გამოიყენეთ სხვა ორსაფეხურიანი შესვლის მეთოდი ან დახმარებისთვის დაუკავშირდით Duo-ს.</string>
     <string name="master_password_hint_not_specified">მთავარი პაროლის მინიშნება</string>
@@ -853,7 +853,7 @@
     <string name="do_you_have_a_computer_available">გაქვთ კომპიუტერი ხელმისაწვდომი?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">შემდეგი ინსტრუქციები გაგაცნობთ, თუ როგორ უნდა შემოიტანოთ შესვლები თქვენი დესკტოპიდან ან ლეპტოპიდან</string>
     <string name="import_logins">შესვლების იმპორტი</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">თქვენი კომპიუტერიდან, მიჰყევით ამ ინსტრუქციებს, რათა ექსპორტი გაუკეთოთ შენახულ პაროლებს თქვენი ბრაუზერიდან ან სხვა პაროლების მენეჯერიდან. შემდეგ, უსაფრთხოდ შემოიტანეთ ისინი Multipass-ში.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">თქვენი კომპიუტერიდან, მიჰყევით ამ ინსტრუქციებს, რათა ექსპორტი გაუკეთოთ შენახულ პაროლებს თქვენი ბრაუზერიდან ან სხვა პაროლების მენეჯერიდან. შემდეგ, უსაფრთხოდ შემოიტანეთ ისინი Bitwarden-ში.</string>
     <string name="give_your_vault_a_head_start">მიეცით თქვენს სეიფს თავდაპირველი ბიძგი</string>
     <string name="class_3_biometrics_description">ბიომეტრიით განბლოკვა მოითხოვს ძლიერ ბიომეტრიულ ავთენტიფიკაციას და შესაძლოა არ იყოს თავსებადი ამ მოწყობილობაზე არსებულ ყველა ბიომეტრიულ ვარიანტთან.</string>
     <string name="class_2_biometrics_description">ბიომეტრიით განბლოკვა მოითხოვს ძლიერ ბიომეტრიულ ავთენტიფიკაციას და არ არის თავსებადი ამ მოწყობილობაზე არსებულ ბიომეტრიულ ვარიანტებთან.</string>
@@ -864,28 +864,28 @@
     <string name="export_your_saved_logins">თქვენი შენახული შესვლების ექსპორტი</string>
     <string name="delete_this_file_after_import_is_complete">თქვენ წაშლით ამ ფაილს იმპორტის დასრულების შემდეგ.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">თქვენს კომპიუტერზე, გახსენით ბრაუზერის ახალი ჩანართი და <annotation emphasis="bold">გადადით <annotation arg="0">%1$s</annotation></annotation>-ზე</string>
-    <string name="log_in_to_the_bitwarden_web_app">შედით Multipass-ის ვებ-აპში.</string>
+    <string name="log_in_to_the_bitwarden_web_app">შედით Bitwarden-ის ვებ-აპში.</string>
     <string name="step_2_of_3">ნაბიჯი 2 3-დან</string>
-    <string name="log_in_to_bitwarden">Multipass-ში შესვლა</string>
+    <string name="log_in_to_bitwarden">Bitwarden-ში შესვლა</string>
     <string name="step_3_of_3">ნაბიჯი 3 3-დან</string>
-    <string name="import_logins_to_bitwarden">Multipass-ში შესვლების იმპორტი</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Multipass-ის ნავიგაციაში, <annotation emphasis="bold">იპოვეთ Tools</annotation> ვარიანტი და <annotation emphasis="bold">აირჩიეთ Import data.</annotation></string>
+    <string name="import_logins_to_bitwarden">Bitwarden-ში შესვლების იმპორტი</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">Bitwarden-ის ნავიგაციაში, <annotation emphasis="bold">იპოვეთ Tools</annotation> ვარიანტი და <annotation emphasis="bold">აირჩიეთ Import data.</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">შეავსეთ ფორმა და <annotation emphasis="bold">შემოიტანეთ თქვენი შენახული პაროლის ფაილი.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">თქვენი უსაფრთხოებისთვის, დარწმუნდით, რომ <annotation emphasis="bold">წაშალეთ თქვენი შენახული პაროლის ფაილი.</annotation></string>
     <string name="need_help_check_out_import_help">გჭირდებათ დახმარება? გაეცანით <annotation link="importHelp">იმპორტის დახმარებას</annotation>.</string>
     <string name="import_help">იმპორტის დახმარება</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">შეინახეთ ექსპორტირებული ფაილი</annotation> თქვენს კომპიუტერზე ისეთ ადგილას, სადაც ადვილად იპოვით.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">ეს არ არის აღიარებული Multipass სერვერი. შესაძლოა, დაგჭირდეთ თქვენს პროვაიდერთან შემოწმება ან სერვერის განახლება.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">ეს არ არის აღიარებული Bitwarden სერვერი. შესაძლოა, დაგჭირდეთ თქვენს პროვაიდერთან შემოწმება ან სერვერის განახლება.</string>
     <string name="syncing_logins_loading_message">შესვლების სინქრონიზაცია…</string>
     <string name="download_the_browser_extension">ბრაუზერის გაფართოების ჩამოტვირთვა</string>
-    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">გადადით bitwarden.com/download-ზე, რათა Multipass ინტეგრირდეს თქვენს საყვარელ ბრაუზერში უწყვეტი გამოცდილებისთვის.</string>
+    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">გადადით bitwarden.com/download-ზე, რათა Bitwarden ინტეგრირდეს თქვენს საყვარელ ბრაუზერში უწყვეტი გამოცდილებისთვის.</string>
     <string name="use_the_web_app">ვებ-აპის გამოყენება</string>
     <string name="log_in_at_bitwarden_com_to_easily_manage_your_account">შედით bitwarden.com-ზე, რათა მარტივად მართოთ თქვენი ანგარიში და განაახლოთ პარამეტრები.</string>
     <string name="autofill_passwords">პაროლების ავტოშევსება</string>
     <string name="set_up_autofill_on_all_your_devices">დააყენეთ ავტოშევსება ყველა თქვენს მოწყობილობაზე, რათა შეხვიდეთ ერთი შეხებით ნებისმიერ ადგილას.</string>
     <string name="import_successful">იმპორტი წარმატებულია!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">მართეთ თქვენი შესვლები ნებისმიერი ადგილიდან Multipass-ის ვებ და დესკტოპ ხელსაწყოებით.</string>
-    <string name="bitwarden_tools">Multipass-ის ხელსაწყოები</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">მართეთ თქვენი შესვლები ნებისმიერი ადგილიდან Bitwarden-ის ვებ და დესკტოპ ხელსაწყოებით.</string>
+    <string name="bitwarden_tools">Bitwarden-ის ხელსაწყოები</string>
     <string name="got_it">გავიგე</string>
     <string name="no_logins_were_imported">არც ერთი შესვლა არ იქნა იმპორტირებული</string>
     <string name="import_error">შემოტანის შეცდომა</string>
@@ -903,7 +903,7 @@
         <item quantity="other">%d შეტყობინება</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">სწრაფად და მარტივად შედით მოწყობილობებზე</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass-ს შეუძლია გაცნობოთ ყოველ ჯერზე, როცა მიიღებთ ახალ შესვლის მოთხოვნას სხვა მოწყობილობიდან.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden-ს შეუძლია გაცნობოთ ყოველ ჯერზე, როცა მიიღებთ ახალ შესვლის მოთხოვნას სხვა მოწყობილობიდან.</string>
     <string name="skip_for_now">ახლა გამოტოვება</string>
     <string name="done_text">დასრულებული</string>
     <string name="page_number_x_of_y">%1$s %2$s-დან</string>
@@ -928,7 +928,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">დაამატეთ ციფრი ან სიმბოლო</annotation>, რათა კიდევ უფრო გააძლიეროთ იგი. ახლა თქვენ გაქვთ უნიკალური, უსაფრთხო და დასამახსოვრებელი ფრაზა!</string>
     <string name="need_some_inspiration">გჭირდებათ შთაგონება?</string>
     <string name="check_out_the_passphrase_generator">გაეცანით ფრაზების გენერატორს</string>
-    <string name="we_couldnt_verify_the_servers_certificate">ჩვენ ვერ დავადასტურეთ სერვერის სერტიფიკატი. სერტიფიკატების ჯაჭვი ან პროქსი პარამეტრები თქვენს მოწყობილობაზე ან Multipass სერვერზე შესაძლოა არ იყოს სწორად კონფიგურირებული.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">ჩვენ ვერ დავადასტურეთ სერვერის სერტიფიკატი. სერტიფიკატების ჯაჭვი ან პროქსი პარამეტრები თქვენს მოწყობილობაზე ან Bitwarden სერვერზე შესაძლოა არ იყოს სწორად კონფიგურირებული.</string>
     <string name="copy_private_key">პირადი გასაღების კოპირება</string>
     <string name="login_credentials">შესვლის მონაცემები</string>
     <string name="autofill_options">ავტოშევსების ვარიანტები</string>
@@ -955,7 +955,7 @@
     <string name="coachmark_5_of_6">5 6-დან</string>
     <string name="coachmark_6_of_6">6 6-დან</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">გამოიყენეთ ეს პარამეტრები თქვენი პაროლის ანგარიშის ვებსაიტის მოთხოვნებთან შესატყვისად.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">მას შემდეგ, რაც ახალ პაროლს Multipass-ში შეინახავთ, არ დაგავიწყდეთ მისი განახლება ანგარიშის ვებსაიტზე.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">მას შემდეგ, რაც ახალ პაროლს Bitwarden-ში შეინახავთ, არ დაგავიწყდეთ მისი განახლება ანგარიშის ვებსაიტზე.</string>
     <string name="verify_your_identity">დაადასტურეთ თქვენი ვინაობა</string>
     <string name="error_loading_certificate">შეცდომა სერტიფიკატის ჩატვირთვისას</string>
     <string name="certificate_alias">სერტიფიკატის ალიასი</string>
@@ -966,7 +966,7 @@
     <string name="unsupported_certificate_type">სერტიფიკატის მხარდაუჭერელი ტიპი</string>
     <string name="certificate_password_incorrect">სერტიფიკატის პაროლი არასწორია</string>
     <string name="invalid_certificate_chain">სერტიფიკატების არასწორი ჯაჭვი</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">სისტემის სერტიფიკატის გამოყენება ნაკლებად უსაფრთხოა, ვიდრე სერტიფიკატის Multipass-ში შენახვა. გაგრძელება აჩვენებს ხელმისაწვდომი სისტემის სერტიფიკატების სიას, თუ უკვე დაყენებულია.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">სისტემის სერტიფიკატის გამოყენება ნაკლებად უსაფრთხოა, ვიდრე სერტიფიკატის Bitwarden-ში შენახვა. გაგრძელება აჩვენებს ხელმისაწვდომი სისტემის სერტიფიკატების სიას, თუ უკვე დაყენებულია.</string>
     <string name="link">ბმული</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Passkey ოპერაცია ვერ მოხერხდა, რადგან მოთხოვნაში არ არის ჰოსტის URL.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Passkey ოპერაცია ვერ მოხერხდა, რადგან აპლიკაციის ხელმოწერა არასწორია.</string>
@@ -1004,8 +1004,8 @@
     <string name="experiencing_an_issue">გაქვთ პრობლემა?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">ჩართეთ დროებითი ჟურნალირება ჟურნალების ადგილობრივად შესაგროვებლად და შესამოწმებლად. ჩართვისას, აპლიკაციის მდგომარეობები და ქსელური გამოძახებები შეიძლება ჩაიწეროს — არასოდეს მგრძნობიარე სეიფის ინფორმაცია.</string>
     <string name="to_get_started_set_a_logging_duration">დასაწყებად, დააყენეთ ჟურნალირების ხანგრძლივობა. ჟურნალირება  ავტომატურად გამოირთვება ამ პერიოდის შემდეგ, რაც მოგცემთ დროს აქტივობის ჩასაწერად ნებისმიერი  პრობლემის რეპროდუცირებისას.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">ჟურნალები ავტომატურად წაიშლება 30 დღის შემდეგ. Multipass-ს შეუძლია წვდომა თქვენს ჟურნალის მონაცემებზე მხოლოდ მაშინ, როცა თქვენ გააზიარებთ მას.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">დეტალებისთვის, თუ რა ჩაიწერება და არ ჩაიწერება, ეწვიეთ\n<annotation link="helpCenter">Multipass-ის დახმარების ცენტრს.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">ჟურნალები ავტომატურად წაიშლება 30 დღის შემდეგ. Bitwarden-ს შეუძლია წვდომა თქვენს ჟურნალის მონაცემებზე მხოლოდ მაშინ, როცა თქვენ გააზიარებთ მას.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">დეტალებისთვის, თუ რა ჩაიწერება და არ ჩაიწერება, ეწვიეთ\n<annotation link="helpCenter">Bitwarden-ის დახმარების ცენტრს.</annotation></string>
     <string name="logging_duration">ჟურნალირების ხანგრძლივობა</string>
     <string name="flight_recorder_one_hour">1 საათი</string>
     <string name="flight_recorder_eight_hours">8 საათი</string>
@@ -1036,29 +1036,29 @@
     <string name="unable_to_read_certificate">სერტიფიკატის წაკითხვა შეუძლებელია.</string>
     <string name="cannot_delete_your_account">თქვენი ანგარიშის წაშლა შეუძლებელია</string>
     <string name="cannot_delete_your_account_explanation">ამ ქმედების შესრულება შეუძლებელია, რადგან თქვენი ანგარიში ეკუთვნის ორგანიზაციას. დამატებითი ინფორმაციისთვის დაუკავშირდით თქვენი ორგანიზაციის ადმინისტრატორს.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">ეს ანგარიში მскоро წაიშლება. Multipass-ის გამოყენების გასაგრძელებლად, შედით %1$s-ზე.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">ეს ანგარიში მскоро წაიშლება. Bitwarden-ის გამოყენების გასაგრძელებლად, შედით %1$s-ზე.</string>
     <string name="view_file_send">ფაილის Send-ის ნახვა</string>
     <string name="view_text_send">ტექსტის Send-ის ნახვა</string>
     <string name="delete_send">Send-ის წაშლა</string>
     <string name="missing_send_resync_your_vault">დაკარგული Send-ის ხელახალი სინქრონიზაცია</string>
     <string name="use_dynamic_colors">დინამიური ფერების გამოყენება</string>
     <string name="use_dynamic_colors_question">გამოვიყენოთ დინამიური ფერები?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ეს ფერთა სქემა ავტომატურად იყენებს სისტემის ფერებს Multipass-ში თქვენი მიმდინარე ფონის მიხედვით. ამ ფერებმა შესაძლოა არ აკმაყოფილებდეს ხელმისაწვდომობის ყველა მითითებას.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">ეს ფერთა სქემა ავტომატურად იყენებს სისტემის ფერებს Bitwarden-ში თქვენი მიმდინარე ფონის მიხედვით. ამ ფერებმა შესაძლოა არ აკმაყოფილებდეს ხელმისაწვდომობის ყველა მითითებას.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Passkey ოპერაცია ვერ მოხერხდა, რადგან ბრაუზერი (%1$s) არ არის აღიარებული. აირჩიეთ “Trust”, რათა დაამატოთ %1$s ლოკალურად სანდო აპლიკაციების სიაში.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Passkey ოპერაცია ვერ მოხერხდა, რადგან ბრაუზერი არ არის სანდო.</string>
     <string name="trust">ნდობა</string>
-    <string name="trusted_by_you_learn_more">ეს არის აპლიკაციები ან ბრაუზერები, რომლებსაც Multipass ნაგულისხმევად არ ენდობა, მაგრამ თქვენ ენდობით passkey ოპერაციების შესასრულებლად.</string>
-    <string name="trusted_by_community_learn_more">ეს არის აპლიკაციები, რომლებიც არ არის Google Play Store-ში, მაგრამ Multipass ენდობა passkey ოპერაციების შესრულებას მას შემდეგ, რაც საზოგადოების წევრები იყენებენ და აცხადებენ მათ უსაფრთხოდ.</string>
+    <string name="trusted_by_you_learn_more">ეს არის აპლიკაციები ან ბრაუზერები, რომლებსაც Bitwarden ნაგულისხმევად არ ენდობა, მაგრამ თქვენ ენდობით passkey ოპერაციების შესასრულებლად.</string>
+    <string name="trusted_by_community_learn_more">ეს არის აპლიკაციები, რომლებიც არ არის Google Play Store-ში, მაგრამ Bitwarden ენდობა passkey ოპერაციების შესრულებას მას შემდეგ, რაც საზოგადოების წევრები იყენებენ და აცხადებენ მათ უსაფრთხოდ.</string>
     <string name="trusted_by_google_learn_more">ეს არის აპლიკაციები, რომლებსაც Google მიიჩნევს უსაფრთხოდ და ხელმისაწვდომია Google-ის Play Store-ში.</string>
     <string name="trusted_by_you">თქვენ მიერ სანდო</string>
     <string name="trusted_by_the_community">საზოგადოების მიერ სანდო</string>
     <string name="trusted_by_google">Google-ის მიერ სანდო</string>
-    <string name="privileged_apps_description">მომხმარებლების ფიშინგის მცდელობებისგან დასაცავად, ნაგულისხმევად, Multipass ასრულებს passkey ოპერაციებს მხოლოდ Google-ის ან Multipass-ის საზოგადოების მიერ სანდო აპლიკაციების ან ვებ ბრაუზერების მეშვეობით.</string>
+    <string name="privileged_apps_description">მომხმარებლების ფიშინგის მცდელობებისგან დასაცავად, ნაგულისხმევად, Bitwarden ასრულებს passkey ოპერაციებს მხოლოდ Google-ის ან Bitwarden-ის საზოგადოების მიერ სანდო აპლიკაციების ან ვებ ბრაუზერების მეშვეობით.</string>
     <string name="about_privileged_applications">პრივილეგირებული აპლიკაციების შესახებ</string>
     <string name="learn_more_about_privileged_apps">გაიგეთ მეტი პრივილეგირებული აპების შესახებ</string>
     <string name="privileged_apps">პრივილეგირებული აპები</string>
     <string name="unrecognized_browser">აუცნობი ბრაუზერი</string>
-    <string name="learn_more_about_using_passkeys_with_bitwarden">გაიგეთ მეტი passkeys-ების Multipass-თან გამოყენების შესახებ.</string>
+    <string name="learn_more_about_using_passkeys_with_bitwarden">გაიგეთ მეტი passkeys-ების Bitwarden-თან გამოყენების შესახებ.</string>
     <string name="all_trusted_apps">ყველა სანდო აპი</string>
     <string name="are_you_sure_you_want_to_stop_trusting_x">დარწმუნებული ხართ, რომ გსურთ შეწყვიტოთ %s-ის ნდობა?</string>
     <string name="installed_apps">დაყენებული აპები</string>
@@ -1086,7 +1086,7 @@
     <string name="information">ინფორმაცია</string>
     <string name="otp_type">OTP ტიპი</string>
     <string name="search_codes">კოდების ძიება</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">დაიცავით თქვენი ანგარიშები Multipass Authenticator-ით</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">დაიცავით თქვენი ანგარიშები Bitwarden Authenticator-ით</string>
     <string name="get_verification_codes_for_all_your_accounts">მიიღეთ დადასტურების კოდები ყველა თქვენი ანგარიშისთვის, რომლებიც მხარს უჭერენ 2-საფეხურიან ვერიფიკაციას.</string>
     <string name="use_your_device_camera_to_scan_codes">გამოიყენეთ თქვენი მოწყობილობის კამერა კოდების სკანირებისთვის</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">დაასკანირეთ QR კოდი თქვენი 2-საფეხურიანი ვერიფიკაციის პარამეტრებში ნებისმიერი ანგარიშისთვის.</string>
@@ -1107,7 +1107,7 @@
     <string name="too_many_failed_biometric_attempts">ბიომეტრიის ძალიან ბევრი წარუმატებელი მცდელობა.</string>
     <string name="version">ვერსია</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">ვერსია: %1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">გაიგეთ მეტი Multipass Authenticator-ის გამოყენების შესახებ დახმარების ცენტრში.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">გაიგეთ მეტი Bitwarden Authenticator-ის გამოყენების შესახებ დახმარების ცენტრში.</string>
     <string name="key">გასაღები</string>
     <string name="create_verification_code">დადასტურების კოდის შექმნა</string>
     <string name="key_is_required">გასაღები სავალდებულოა.</string>
@@ -1118,30 +1118,30 @@
     <string name="key_is_invalid">გასაღები არასწორია.</string>
     <string name="backup">სარეზერვო ასლი</string>
     <string name="data_backup_title">მონაცემების სარეზერვო ასლი</string>
-    <string name="data_backup_message">Multipass Authenticator-ის მონაცემები ინახება სარეზერვოდ და შეიძლება აღდგეს თქვენი მოწყობილობის რეგულარული სარეზერვო ასლებით.</string>
+    <string name="data_backup_message">Bitwarden Authenticator-ის მონაცემები ინახება სარეზერვოდ და შეიძლება აღდგეს თქვენი მოწყობილობის რეგულარული სარეზერვო ასლებით.</string>
     <string name="import_2fas_password_protected_not_supported">2FAS-ის პაროლით დაცული ფაილებიდან იმპორტი არ არის მხარდაჭერილი. სცადეთ ხელახლა ექსპორტირებული ფაილით, რომელიც არ არის პაროლით დაცული.</string>
-    <string name="import_bitwarden_unsupported_format">Multipass CSV ფაილების იმპორტი არ არის მხარდაჭერილი. სცადეთ ხელახლა ექსპორტირებული JSON ფაილით.</string>
-    <string name="download_bitwarden_card_title">Multipass-ის აპლიკაციის ჩამოტვირთვა</string>
+    <string name="import_bitwarden_unsupported_format">Bitwarden CSV ფაილების იმპორტი არ არის მხარდაჭერილი. სცადეთ ხელახლა ექსპორტირებული JSON ფაილით.</string>
+    <string name="download_bitwarden_card_title">Bitwarden-ის აპლიკაციის ჩამოტვირთვა</string>
     <string name="download_bitwarden_card_message">შეინახეთ ყველა თქვენი შესვლა და დაასინქრონეთ დადასტურების კოდები პირდაპირ Authenticator აპთან.</string>
     <string name="download_now">ახლავე ჩამოტვირთვა</string>
-    <string name="sync_with_bitwarden_app">Multipass აპთან სინქრონიზაცია</string>
+    <string name="sync_with_bitwarden_app">Bitwarden აპთან სინქრონიზაცია</string>
     <string name="learn_more_link"><annotation link="learnMore">გაიგეთ მეტი</annotation></string>
-    <string name="shared_codes_error">Multipass აპიდან კოდების სინქრონიზაცია შეუძლებელია. დარწმუნდით, რომ ორივე აპი განახლებულია. თქვენ მაინც შეგიძლიათ წვდომა თქვენს არსებულ კოდებზე Multipass აპში.</string>
-    <string name="sync_with_the_bitwarden_app">Multipass აპთან სინქრონიზაცია</string>
+    <string name="shared_codes_error">Bitwarden აპიდან კოდების სინქრონიზაცია შეუძლებელია. დარწმუნდით, რომ ორივე აპი განახლებულია. თქვენ მაინც შეგიძლიათ წვდომა თქვენს არსებულ კოდებზე Bitwarden აპში.</string>
+    <string name="sync_with_the_bitwarden_app">Bitwarden აპთან სინქრონიზაცია</string>
     <string name="sync_with_bitwarden_action_card_message">ყველა თქვენი დადასტურების კოდის აქ სანახავად, დაუშვით Authenticator აპის სინქრონიზაცია პარამეტრებში.</string>
     <string name="take_me_to_app_settings">აპლიკაციის პარამეტრებში გადაყვანა</string>
     <string name="something_went_wrong">რაღაც არასწორად მოხდა</string>
     <string name="please_try_again">გთხოვთ, სცადოთ ხელახლა</string>
-    <string name="copy_to_bitwarden_vault">Multipass სეიფში კოპირება</string>
+    <string name="copy_to_bitwarden_vault">Bitwarden სეიფში კოპირება</string>
     <string name="default_save_option">ნაგულისხმევი შენახვის ვარიანტი</string>
-    <string name="save_to_bitwarden">Multipass-ში შენახვა</string>
+    <string name="save_to_bitwarden">Bitwarden-ში შენახვა</string>
     <string name="save_here">აქ შენახვა</string>
     <string name="none">არცერთი</string>
     <string name="default_save_options_subtitle">აირჩიეთ, სად გსურთ ახალი დადასტურების კოდების შენახვა.</string>
     <string name="verification_code_created">დადასტურების კოდი შეიქმნა</string>
-    <string name="choose_save_location_message">შეინახეთ ეს ავთენტიფიკატორის გასაღები აქ, ან დაამატეთ იგი თქვენი Multipass აპის შესვლაში.</string>
+    <string name="choose_save_location_message">შეინახეთ ეს ავთენტიფიკატორის გასაღები აქ, ან დაამატეთ იგი თქვენი Bitwarden აპის შესვლაში.</string>
     <string name="save_option_as_default">ნაგულისხმევად შენახვის ვარიანტი</string>
-    <string name="account_synced_from_bitwarden_app">Multipass აპიდან სინქრონიზებული ანგარიში</string>
+    <string name="account_synced_from_bitwarden_app">Bitwarden აპიდან სინქრონიზებული ანგარიში</string>
     <string name="local_codes">ლოკალური კოდები (%1$d)</string>
     <string name="required_information_missing">აკლია საჭირო ინფორმაცია</string>
     <string name="required_information_missing_message">აკლია საჭირო ინფორმაცია (მაგ., ‘services’ ან ‘secret’). შეამოწმეთ თქვენი ფაილი და სცადეთ ხელახლა. მხარდაჭერისთვის ეწვიეთ bitwarden.com/help</string>
@@ -1155,10 +1155,10 @@
     <string name="items_are_collapsed_click_to_expand">ჩანაწერები დაკეცილია, გასაშლელად დააწკაპუნეთ.</string>
     <string name="error_cannot_decrypt">[შეცდომა: გაშიფვრა შეუძლებელია]</string>
     <string name="copy_error_report">შეცდომის ანგარიშის კოპირება</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass-მა ვერ შეძლო ამ სეიფის ჩანაწერის გაშიფვრა. მონაცემთა დამატებითი დაკარგვის თავიდან ასაცილებლად, დააკოპირეთ და გააზიარეთ ეს შეცდომის ანგარიში მომხმარებლის მხარდაჭერასთან.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden-მა ვერ შეძლო ამ სეიფის ჩანაწერის გაშიფვრა. მონაცემთა დამატებითი დაკარგვის თავიდან ასაცილებლად, დააკოპირეთ და გააზიარეთ ეს შეცდომის ანგარიში მომხმარებლის მხარდაჭერასთან.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Multipass-მა ვერ შეძლო %1$d სეიფის ჩანაწერის გაშიფვრა. მონაცემთა დამატებითი დაკარგვის თავიდან ასაცილებლად, დააკოპირეთ და გააზიარეთ ეს შეცდომის ანგარიში მომხმარებლის მხარდაჭერასთან.</item>
-        <item quantity="other">Multipass-მა ვერ შეძლო %1$d სეიფის ჩანაწერის გაშიფვრა. მონაცემთა დამატებითი დაკარგვის თავიდან ასაცილებლად, დააკოპირეთ და გააზიარეთ ეს შეცდომის ანგარიში მომხმარებლის მხარდაჭერასთან.</item>
+        <item quantity="one">Bitwarden-მა ვერ შეძლო %1$d სეიფის ჩანაწერის გაშიფვრა. მონაცემთა დამატებითი დაკარგვის თავიდან ასაცილებლად, დააკოპირეთ და გააზიარეთ ეს შეცდომის ანგარიში მომხმარებლის მხარდაჭერასთან.</item>
+        <item quantity="other">Bitwarden-მა ვერ შეძლო %1$d სეიფის ჩანაწერის გაშიფვრა. მონაცემთა დამატებითი დაკარგვის თავიდან ასაცილებლად, დააკოპირეთ და გააზიარეთ ეს შეცდომის ანგარიში მომხმარებლის მხარდაჭერასთან.</item>
     </plurals>
     <string name="select_a_card_for_x">აირჩიეთ ბარათი %s-ისთვის</string>
     <string name="advanced_options">გაფართოებული ვარიანტები</string>
@@ -1166,8 +1166,8 @@
     <string name="keep_your_credential_secure">შეინახეთ თქვენი მონაცემები უსაფრთხოდ</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">გაიგეთ მეტი, როგორ შეინახოთ მონაცემები უსაფრთხოდ “%1$s”-ის გამოყენებისას.</string>
     <string name="are_you_sure_you_want_to_use">დარწმუნებული ხართ, რომ გსურთ “%1$s”-ის გამოყენება?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Multipass ავტოშევსების წინადადებებს.\n<annotation emphasis="bold">გაფრთხილება:</annotation> “რეგულარული გამოხატულება” არის გაფართოებული ვარიანტი, რომელიც არასწორი გამოყენების შემთხვევაში ზრდის მონაცემების გამჟღავნების რისკს.</string>
-    <string name="default_uri_match_detection_description_advanced_options">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Multipass ავტოშევსების წინადადებებს.\n<annotation emphasis="bold">გაფრთხილება:</annotation> “იწყება” არის გაფართოებული ვარიანტი, რომელიც ზრდის მონაცემების გამჟღავნების რისკს.</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Bitwarden ავტოშევსების წინადადებებს.\n<annotation emphasis="bold">გაფრთხილება:</annotation> “რეგულარული გამოხატულება” არის გაფართოებული ვარიანტი, რომელიც არასწორი გამოყენების შემთხვევაში ზრდის მონაცემების გამჟღავნების რისკს.</string>
+    <string name="default_uri_match_detection_description_advanced_options">URI შესაბამისობის გამოვლენა აკონტროლებს, თუ როგორ ამოიცნობს Bitwarden ავტოშევსების წინადადებებს.\n<annotation emphasis="bold">გაფრთხილება:</annotation> “იწყება” არის გაფართოებული ვარიანტი, რომელიც ზრდის მონაცემების გამჟღავნების რისკს.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">“იწყება” არის გაფართოებული ვარიანტი, რომელიც ზრდის მონაცემების გამჟღავნების რისკს.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">“რეგულარული გამოხატულება” არის გაფართოებული ვარიანტი, რომელიც არასწორი გამოყენების შემთხვევაში ზრდის მონაცემების გამჟღავნების რისკს.</string>
     <string name="later">მოგვიანებით</string>
@@ -1192,17 +1192,17 @@
         <item quantity="other">%1$d ჩანაწერი იმპორტირებულია თქვენს სეიფში.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">პაროლების შევსების გასაგრძელებლად, ჩართეთ ბრაუზერის ავტოშევსება</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">თქვენი ბრაუზერი ცოტა ხნის წინ განახლდა, რამაც Multipass-ის ავტოშევსება გამორთო. Multipass-ით თქვენი პაროლების შევსების გასაგრძელებლად, ჩართეთ ბრაუზერის ავტოშევსება ავტოშევსების პარამეტრებში.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">თქვენი ბრაუზერი ცოტა ხნის წინ განახლდა, რამაც Bitwarden-ის ავტოშევსება გამორთო. Bitwarden-ით თქვენი პაროლების შევსების გასაგრძელებლად, ჩართეთ ბრაუზერის ავტოშევსება ავტოშევსების პარამეტრებში.</string>
     <string name="not_now">ახლა არა</string>
-    <string name="import_from_bitwarden">Multipass-იდან იმპორტი</string>
+    <string name="import_from_bitwarden">Bitwarden-იდან იმპორტი</string>
     <string name="select_account">აირჩიეთ ანგარიში</string>
     <string name="no_accounts_available">ხელმისაწვდომი ანგარიშები არ არის</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">თქვენ არ გაქვთ ანგარიშები, საიდანაც შეგიძლიათ იმპორტი. თქვენი ორგანიზაციის უსაფრთხოების პოლიტიკამ შეიძლება შეზღუდოს Multipass-იდან სხვა აპში ჩანაწერების იმპორტი.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">თქვენ არ გაქვთ ანგარიშები, საიდანაც შეგიძლიათ იმპორტი. თქვენი ორგანიზაციის უსაფრთხოების პოლიტიკამ შეიძლება შეზღუდოს Bitwarden-იდან სხვა აპში ჩანაწერების იმპორტი.</string>
     <string name="import_restricted_unable_to_import_credit_cards">იმპორტი შეზღუდულია, ამ ანგარიშიდან ბარათების იმპორტი შეუძლებელია.</string>
     <string name="verify_your_master_password">დაადასტურეთ თქვენი მთავარი პაროლი</string>
     <string name="having_trouble_with_autofill">გაქვთ პრობლემა ავტოშევსებასთან?</string>
     <string name="access_help_and_troubleshooting_documentation_here">აქ წვდომა დახმარებისა და პრობლემების გადაჭრის დოკუმენტაციაზე</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">შემოიტანეთ პაროლები, passkeys და სხვა ტიპის ჩანაწერები თქვენი Multipass სეიფიდან.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">შემოიტანეთ პაროლები, passkeys და სხვა ტიპის ჩანაწერები თქვენი Bitwarden სეიფიდან.</string>
     <string name="items_to_import">იმპორტისთვის განკუთვნილი ჩანაწერები</string>
     <string name="exporting_items">ჩანაწერების ექსპორტი…</string>
     <string name="export_failed">ექსპორტი ვერ მოხერხდა</string>
@@ -1266,7 +1266,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">ამ Send-ის გასაზიარებლად, შეიყვანეთ მინიმუმ ერთი მოქმედი ელ. ფოსტის მისამართი.</string>
     <string name="sync_with_browser">ბრაუზერთან სინქრონიზაცია</string>
-    <string name="sync_with_browser_description">%1$s-თან დასაკავშირებლად, დაასინქრონეთ თქვენი ნაგულისხმევი ბრაუზერი Multipass-ის მობილურ აპთან. როცა ბრაუზერი გაიხსნება, დაასრულეთ შესვლა, თუ მოთხოვნილია.\nსინქრონიზაციის დასრულების შემდეგ, დაბრუნდებით ამ აპში.</string>
+    <string name="sync_with_browser_description">%1$s-თან დასაკავშირებლად, დაასინქრონეთ თქვენი ნაგულისხმევი ბრაუზერი Bitwarden-ის მობილურ აპთან. როცა ბრაუზერი გაიხსნება, დაასრულეთ შესვლა, თუ მოთხოვნილია.\nსინქრონიზაციის დასრულების შემდეგ, დაბრუნდებით ამ აპში.</string>
     <string name="launch_browser">ბრაუზერის გაშვება</string>
     <string name="continue_without_syncing">სინქრონიზაციის გარეშე გაგრძელება</string>
     <string name="external_link">გარე ბმული</string>
@@ -1292,7 +1292,7 @@
     <string name="trusted">სანდო</string>
     <string name="preview_not_available_for_files">გადახედვა მიუწვდომელია %1$s ფაილებისთვის. მისი ნახვა მაინც შეგიძლიათ ჩამოტვირთვით.</string>
     <string name="this_file_is_too_large_to_preview">ეს ფაილი ძალიან დიდია გადასახედად. მისი ნახვა მაინც შეგიძლიათ ჩამოტვირთვით.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass-მა ვერ შეძლო ამ ფაილის გაშიფვრა, ამიტომ გადახედვის ჩვენება შეუძლებელია.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden-მა ვერ შეძლო ამ ფაილის გაშიფვრა, ამიტომ გადახედვის ჩვენება შეუძლებელია.</string>
     <string name="preview_unavailable_for_this_file">გადახედვა მიუწვდომელია ამ ფაილისთვის. მისი ნახვა მაინც შეგიძლიათ ჩამოტვირთვით.</string>
     <string name="preview_unavailable">გადახედვა მიუწვდომელია</string>
     <string name="download_attachment">დანართის ჩამოტვირთვა</string>
@@ -1334,7 +1334,7 @@
     <string name="billing_rate_per_year">%1$s / წელი</string>
     <string name="billing_rate_per_month">%1$s / თვე</string>
     <string name="manage_plan">გეგმის მართვა</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">მართეთ თქვენი გამოწერის გეგმა Multipass-ის ვებ-აპში.</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">მართეთ თქვენი გამოწერის გეგმა Bitwarden-ის ვებ-აპში.</string>
     <string name="cancel_premium">Premium-ის გაუქმება</string>
     <string name="subscription_status_active">აქტიური</string>
     <string name="subscription_status_canceled">გაუქმებულია</string>
@@ -1425,8 +1425,8 @@
     <string name="local_network_access_required">Local network access required</string>
     <string name="ask_again_later">Ask again later</string>
     <string name="enable_local_network_access">Enable local network access</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass needs local network access to sync with your server. Without this permission, the app won’t be able to connect.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Multipass won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden needs local network access to sync with your server. Without this permission, the app won’t be able to connect.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Without this permission, Bitwarden won’t be able to connect and sync with your server. You can enable this in your device settings.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Your request was interrupted because the app needs local network access. You can enable this in your device settings.</string>
     <string name="continue_to_stripe">Continue to Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">You’ll be taken to Stripe to manage your subscription cancellation.</string>

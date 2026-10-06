@@ -242,3 +242,80 @@ ABOUT_NEW = ('copyrightInfo = (\n'
 
 def brand_notices(root, here, edit, fail):
     edit(ABOUT, ABOUT_OLD, ABOUT_NEW)
+
+
+# ---- About: nothing of Bitwarden's presented as ours --------------------------------
+# Upstream's About screen links to Bitwarden's help centre, Bitwarden's privacy policy
+# and bitwarden.com's page on organisations. Under the name Multipass those would
+# present Bitwarden's documents - its privacy policy above all - as this app's.
+# They go; the web vault (ours), the version and the notices stay.
+ABOUT_SCREEN = 'app/src/main/kotlin/com/x8bit/bitwarden/ui/platform/feature/settings/about/AboutScreen.kt'
+HELP_AND_PRIVACY = """        BitwardenExternalLinkRow(
+            text = stringResource(id = BitwardenString.bitwarden_help_center),
+            onConfirmClick = onHelpCenterClick,
+            dialogTitle = stringResource(id = BitwardenString.continue_to_help_center),
+            dialogMessage = stringResource(
+                id = BitwardenString.learn_more_about_how_to_use_bitwarden_on_the_help_center,
+            ),
+            withDivider = false,
+            cardStyle = CardStyle.Top(),
+            modifier = Modifier
+                .standardHorizontalMargin()
+                .fillMaxWidth()
+                .testTag(tag = "BitwardenHelpCenterRow"),
+        )
+        BitwardenExternalLinkRow(
+            text = stringResource(id = BitwardenString.privacy_policy),
+            onConfirmClick = onPrivacyPolicyClick,
+            dialogTitle = stringResource(id = BitwardenString.continue_to_privacy_policy),
+            dialogMessage = stringResource(
+                id = BitwardenString.privacy_policy_description_long,
+            ),
+            withDivider = false,
+            cardStyle = CardStyle.Middle(),
+            modifier = Modifier
+                .standardHorizontalMargin()
+                .fillMaxWidth()
+                .testTag(tag = "PrivacyPolicyRow"),
+        )
+        BitwardenExternalLinkRow(
+            text = stringResource(id = BitwardenString.web_vault),
+            onConfirmClick = onWebVaultClick,
+            dialogTitle = stringResource(id = BitwardenString.continue_to_web_app),
+            dialogMessage = stringResource(
+                id = BitwardenString.explore_more_features_of_your_bitwarden_account_on_the_web_app,
+            ),
+            withDivider = false,
+            cardStyle = CardStyle.Middle(),"""
+WEB_VAULT_FIRST = """        // KIKARON: no Bitwarden help centre or privacy policy under our name
+        BitwardenExternalLinkRow(
+            text = stringResource(id = BitwardenString.web_vault),
+            onConfirmClick = onWebVaultClick,
+            dialogTitle = stringResource(id = BitwardenString.continue_to_web_app),
+            dialogMessage = stringResource(
+                id = BitwardenString.explore_more_features_of_your_bitwarden_account_on_the_web_app,
+            ),
+            withDivider = false,
+            cardStyle = CardStyle.Top(),"""
+LEARN_ORG = """        BitwardenExternalLinkRow(
+            text = stringResource(id = BitwardenString.learn_org),
+            onConfirmClick = onLearnAboutOrgsClick,
+            dialogTitle = stringResource(id = BitwardenString.continue_to_x, "bitwarden.com"),
+            dialogMessage = stringResource(
+                id = BitwardenString.learn_about_organizations_description_long,
+            ),
+            withDivider = false,
+            cardStyle = CardStyle.Middle(),
+            modifier = Modifier
+                .standardHorizontalMargin()
+                .fillMaxWidth()
+                .testTag(tag = "LearnAboutOrganizationsRow"),
+        )
+"""
+LEARN_ORG_GONE = """        // KIKARON: no bitwarden.com page on organisations
+"""
+
+
+def brand_about(root, here, edit, fail):
+    edit(ABOUT_SCREEN, HELP_AND_PRIVACY, WEB_VAULT_FIRST)
+    edit(ABOUT_SCREEN, LEARN_ORG, LEARN_ORG_GONE)

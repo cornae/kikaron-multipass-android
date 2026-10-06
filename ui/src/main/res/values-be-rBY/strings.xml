@@ -75,9 +75,9 @@
     <string name="yes">Так</string>
     <string name="account">Уліковы запіс</string>
     <string name="account_created_success">Ваш новы ўліковы запіс створаны!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">Зрабіце Multipass пастаўшчыком ключоў доступу ў наладах прылады.</string>
+    <string name="set_bitwarden_as_passkey_manager_description">Зрабіце Bitwarden пастаўшчыком ключоў доступу ў наладах прылады.</string>
     <string name="avoid_ambiguous_characters">Пазбягаць неадназначных сімвалаў</string>
-    <string name="bitwarden_autofill_service">Служба аўтазапаўнення Multipass</string>
+    <string name="bitwarden_autofill_service">Служба аўтазапаўнення Bitwarden</string>
     <string name="change_master_password">Змяніць асноўны пароль</string>
     <string name="close">Закрыць</string>
     <string name="close_app">Закрыць праграму</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">Усталяваць тайм-аўт сеансу на «Выйсці»?</string>
     <string name="vault_timeout_log_out_confirmation_message">Пасля заканчэння тайм-аўту вы выйдзеце з сістэмы. Каб зноў увайсці і атрымаць доступ да сховішча, спатрэбіцца падключэнне да інтэрнэту. Вашы налады і PIN, захаваныя на гэтай прыладзе, не зменяцца.</string>
     <string name="logging_in">Уваход…</string>
-    <string name="login_to_bitwarden">Увайсці ў Multipass</string>
+    <string name="login_to_bitwarden">Увайсці ў Bitwarden</string>
     <string name="master_password_confirmation_val_message">Няправільна пацвярджэнне пароля.</string>
     <string name="master_password_description">Асноўны пароль — гэта ключ, які выкарыстоўваецца для доступу да вашага сховішча. Ён вельмі важны, таму не забывайце яго. Аднавіць асноўны пароль немагчыма ў выпадку, калі вы яго забылі.</string>
     <string name="master_password_hint">Падказка да асноўнага пароля (неабавязкова)</string>
@@ -171,14 +171,14 @@
     <string name="view_identity">Праглядзець ідэнтыфікацыйныя даныя</string>
     <string name="view_note">Праглядзець нататку</string>
     <string name="view_ssh_key">Праглядзець SSH-ключ</string>
-    <string name="web_vault">Вэб-сховішча Multipass</string>
+    <string name="web_vault">Вэб-сховішча Bitwarden</string>
     <string name="items">Элементы</string>
     <string name="items_for_uri">Элементы для %1$s</string>
     <string name="no_items_for_uri">У вашым сховішчы адсутнічаюць элементы для %1$s.</string>
     <string name="no_items_for_vault">У вашым сховішчы адсутнічаюць элементы, якія адпавядаюць \"%1$s\"</string>
     <string name="search_for_a_login_or_add_a_new_login">Знайдзіце лагін або дадайце новы лагін</string>
     <string name="disabled">Адключана</string>
-    <string name="bitwarden_autofill_service_alert2">Найпрасцейшы спосаб дадаць новыя лагіны ў сховішча — выкарыстоўваць службу аўтазапаўнення Multipass. Каб даведацца больш пра выкарыстанне службы аўтазапаўнення Multipass, перайдзіце на экран «Налады».</string>
+    <string name="bitwarden_autofill_service_alert2">Найпрасцейшы спосаб дадаць новыя лагіны ў сховішча — выкарыстоўваць службу аўтазапаўнення Bitwarden. Каб даведацца больш пра выкарыстанне службы аўтазапаўнення Bitwarden, перайдзіце на экран «Налады».</string>
     <string name="autofill_noun">Аўтазапаўненне</string>
     <string name="autofill_verb">Аўтазапоўніць</string>
     <string name="autofill_or_view">Вы сапраўды хочаце аўтазапоўніць або паглядзець гэты элемент?</string>
@@ -229,7 +229,7 @@
     <string name="environment_saved">URL-адрас сервера асяроддзя захаваны.</string>
     <string name="identity_url">URL-адрас сервера пасведчання</string>
     <string name="self_hosted_environment">Асяроддзе ўласнага хостынгу</string>
-    <string name="self_hosted_environment_footer">Увядзіце асноўны URL-адрас вашага лакальнага размяшчэння ўсталяванага Multipass.</string>
+    <string name="self_hosted_environment_footer">Увядзіце асноўны URL-адрас вашага лакальнага размяшчэння ўсталяванага Bitwarden.</string>
     <string name="server_url">URL-адрас сервера</string>
     <string name="web_vault_url">URL-адрас сервера вэб-сховішча</string>
     <string name="custom_fields">Карыстальніцкія палі</string>
@@ -299,7 +299,7 @@
     <string name="no_items_folder">У гэтай папцы адсутнічаюць элементы.</string>
     <string name="no_items_trash">У сметніцы адсутнічаюць элементы.</string>
     <string name="autofill_accessibility_summary">Дапамагае запаўняць палі імя карыстальніка і пароля ў іншых праграмах і ў інтэрнэце.</string>
-    <string name="autofill_service_description">Служба аўтазапаўнення Multipass выкарыстоўвае Android Autofill Framework для запаўнення ўліковых даных у іншых праграмах на вашай прыладзе.</string>
+    <string name="autofill_service_description">Служба аўтазапаўнення Bitwarden выкарыстоўвае Android Autofill Framework для запаўнення ўліковых даных у іншых праграмах на вашай прыладзе.</string>
     <string name="bitwarden_autofill_go_to_settings">Немагчыма аўтаматычна адкрыць меню наладаў аўтазапаўнення Android. Вы можаце перайсці ў меню наладаў аўтазапаўнення ўручную з Налады Android &gt; Сістэма &gt; Мова і ўвод &gt; Дадаткова &gt; Служба аўтазапаўнення.</string>
     <string name="custom_field_name">Карыстальніцкая назва поля</string>
     <string name="field_type_boolean">Булева</string>
@@ -376,7 +376,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">Разблакіраваць</string>
     <string name="thirty_minutes">30 хвілін</string>
-    <string name="set_pin_description">Прызначце PIN-код для разблакіроўкі Multipass. Налады PIN-кода будуць скінуты, калі вы калі-небудзь цалкам выйдзеце з праграмы.</string>
+    <string name="set_pin_description">Прызначце PIN-код для разблакіроўкі Bitwarden. Налады PIN-кода будуць скінуты, калі вы калі-небудзь цалкам выйдзеце з праграмы.</string>
     <string name="logged_in_as_on">Вы ўвайшлі як %1$s у %2$s.</string>
     <string name="vault_locked_master_password">Ваша сховішча заблакіравана. Увядзіце асноўны пароль для працягу.</string>
     <string name="vault_locked_pin">Ваша сховішча заблакіравана. Увядзіце PIN-код для працягу.</string>
@@ -390,7 +390,7 @@
     <string name="clear_clipboard">Ачысціць буфер абмену</string>
     <string name="clear_clipboard_description">Аўтаматычна ачышчаць скапіяваныя значэнні з вашага буфера абмену.</string>
     <string name="default_uri_match_detection">Прадвызначанае выяўленне супадзення URI</string>
-    <string name="default_uri_match_detection_description">Выяўленне супадзення URI вызначае, як Multipass вызначае прапановы аўтазапаўнення.</string>
+    <string name="default_uri_match_detection_description">Выяўленне супадзення URI вызначае, як Bitwarden вызначае прапановы аўтазапаўнення.</string>
     <string name="theme">Тэма</string>
     <string name="theme_description">Змяніць каляровую тэму праграмы</string>
     <string name="copy_notes">Скапіяваць нататку</string>
@@ -426,7 +426,7 @@
     <string name="password_generator_policy_in_effect">Адна або больш палітык арганізацыі ўплывае на налады генератара</string>
     <string name="unable_to_save_attachment">Узнікла праблема падчас захавання гэтага далучэння. Калі праблема застанецца, вы можаце захаваць іх з вэб-сховішча.</string>
     <string name="save_attachment_success">Далучэнне паспяхова захавана</string>
-    <string name="autofill_tile_accessibility_required">Каб выкарыстоўваць плітку аўтазапаўнення, уключыце «Службу спецыяльных магчымасцей аўтазапаўнення» ў наладах Multipass.</string>
+    <string name="autofill_tile_accessibility_required">Каб выкарыстоўваць плітку аўтазапаўнення, уключыце «Службу спецыяльных магчымасцей аўтазапаўнення» ў наладах Bitwarden.</string>
     <string name="autofill_tile_uri_not_found">Палі для пароляў не знойдзены</string>
     <string name="soft_deleting">Перамяшчэнне ў кошык…</string>
     <string name="item_soft_deleted">Элемент быў адпраўлены ў сметніцу.</string>
@@ -642,16 +642,16 @@
     <string name="catch_all_email_description">Выкарыстоўвайце наладжаную паштоўку catch-all вашага дамена.</string>
     <string name="forwarded_email_description">Генерыраваць псеўданім электроннай пошты са знешнім сэрвісам перасылкі.</string>
     <string name="accessibility_service_disclosure">Апісанне службы спецыяльных магчымасцей</string>
-    <string name="accessibility_disclosure_text">Multipass выкарыстоўвае службу спецыяльных магчымасцей для пошуку палёў уваходу ў праграмах і вэб-сайтах, пасля чаго вызначае належныя ідэнтыфікатары палёў для таго, каб увесці імя карыстальніка і пароль, які адпавядае знойдзенай праграме або вэб-сайту. Мы ніколі не захоўваем ніякай інфармацыі, якую нам забяспечвае служба, і ніколі не прыкладаем намаганняў па кантролі любых элементаў на экране за выключэннем увядзення ўліковых даных у тэкставым выглядзе.</string>
-    <string name="accessibility_disclosure_start_up_text_1">Гэта апавяшчэнне патрабуецца, перш чым Multipass зможа прапанаваць аўтазапаўненне на аснове спецыяльных магчымасцей.</string>
-    <string name="accessibility_disclosure_start_up_text_2">Multipass прапануе дадатковы метад аўтазапаўнення, які выкарыстоўвае службу спецыяльных магчымасцей Android для выяўлення палёў уваходу. Калі вы ўключыце яго, Multipass будзе вызначаць адпаведныя палі і запаўняць вашы ўліковыя даныя пры знаходжанні супадзення.</string>
+    <string name="accessibility_disclosure_text">Bitwarden выкарыстоўвае службу спецыяльных магчымасцей для пошуку палёў уваходу ў праграмах і вэб-сайтах, пасля чаго вызначае належныя ідэнтыфікатары палёў для таго, каб увесці імя карыстальніка і пароль, які адпавядае знойдзенай праграме або вэб-сайту. Мы ніколі не захоўваем ніякай інфармацыі, якую нам забяспечвае служба, і ніколі не прыкладаем намаганняў па кантролі любых элементаў на экране за выключэннем увядзення ўліковых даных у тэкставым выглядзе.</string>
+    <string name="accessibility_disclosure_start_up_text_1">Гэта апавяшчэнне патрабуецца, перш чым Bitwarden зможа прапанаваць аўтазапаўненне на аснове спецыяльных магчымасцей.</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden прапануе дадатковы метад аўтазапаўнення, які выкарыстоўвае службу спецыяльных магчымасцей Android для выяўлення палёў уваходу. Калі вы ўключыце яго, Bitwarden будзе вызначаць адпаведныя палі і запаўняць вашы ўліковыя даныя пры знаходжанні супадзення.</string>
     <string name="accessibility_disclosure_start_up_text_3">Мы не захоўваем ніякай інфармацыі пра тое, што адлюстроўваецца на экране падчас выкарыстання службы спецыяльных магчымасцей, і не кіруем элементамі экрана, акрамя ўводу ўліковых даных.</string>
     <string name="i_understand">Я разумею</string>
     <string name="accept">Прыняць</string>
     <string name="decline">Адхіліць</string>
     <string name="login_request_has_already_expired">Запыт на ўваход пратэрмінаваны.</string>
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">Спроба ўваходу з: %1$s. Вы сапраўды хочаце перайсці на гэты ўліковы запіс?</string>
-    <string name="new_to_bitwarden">Упершыню ў Multipass?</string>
+    <string name="new_to_bitwarden">Упершыню ў Bitwarden?</string>
     <string name="get_master_passwordword_hint">Атрымаць падказку да асноўнага пароля</string>
     <string name="logging_in_as_x_on_y">Вы ўваходзіце як %1$s у %2$s</string>
     <string name="not_you">Не вы?</string>
@@ -708,7 +708,7 @@
     <string name="invalid_uri">Памылковы URI</string>
     <string name="the_urix_is_already_blocked">Гэты URI %1$s ужо заблакіраваны</string>
     <string name="login_approved">Уваход ухвалены</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Уваход з прылады павінен быць наладжаны ў наладах праграмы Multipass.</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">Уваход з прылады павінен быць наладжаны ў наладах праграмы Bitwarden.</string>
     <string name="need_another_option_view_all_login_options">Патрэбны іншы варыянт? <annotation link="viewAll">Паглядзець усе варыянты ўваходу</annotation></string>
     <string name="log_in_with_device">Увайсці з іншай прылады</string>
     <string name="logging_in_on">Увайсці на</string>
@@ -717,14 +717,14 @@
     <string name="select_vault">Select vault</string>
     <string name="appearance">Знешні выгляд</string>
     <string name="account_security">Бяспеке акаўнта</string>
-    <string name="bitwarden_help_center">Даведачны цэнтр Multipass</string>
+    <string name="bitwarden_help_center">Даведачны цэнтр Bitwarden</string>
     <string name="sync_now">Сінхранізаваць зараз</string>
     <string name="unlock_options">Опцыі адблакіроўкі</string>
     <string name="session_timeout">Тайм-аўт сеанса</string>
     <string name="session_timeout_action">Дзеянне пры тайм-аўце сеанса</string>
     <string name="account_fingerprint_phrase">Фраза-адбітак акаўнта</string>
-    <string name="passkey_management_explanation_long">Выкарыстоўвайце Multipass, каб захоўваць новыя ключы доступу і ўваходзіць з дапамогай ключоў доступу, захаваных у вашым сховішчы.</string>
-    <string name="autofill_services_explanation_long">Дазвольце Multipass выкарыстоўваць захаваную інфармацыю пра ўваход для аўтарызацыі ў іншых праграмах на вашай прыладзе.</string>
+    <string name="passkey_management_explanation_long">Выкарыстоўвайце Bitwarden, каб захоўваць новыя ключы доступу і ўваходзіць з дапамогай ключоў доступу, захаваных у вашым сховішчы.</string>
+    <string name="autofill_services_explanation_long">Дазвольце Bitwarden выкарыстоўваць захаваную інфармацыю пра ўваход для аўтарызацыі ў іншых праграмах на вашай прыладзе.</string>
     <string name="use_inline_autofill_explanation_long">Выберыце, як будуць адлюстроўвацца прапановы аўтазапаўнення пры ўваходзе ў іншыя праграмы на вашай прыладзе.</string>
     <string name="additional_options">Дадатковы параметры</string>
     <string name="continue_to_web_app">Працягнуць у вэб-праграме?</string>
@@ -732,12 +732,12 @@
     <string name="continue_to_help_center">Перайсці ў Даведачны цэнтр?</string>
     <string name="continue_to_privacy_policy">Працягнуць да палітыкі прыватнасці?</string>
     <string name="continue_to_device_settings">Перайсці ў налады прылады?</string>
-    <string name="two_step_login_description_long">Зрабіце свой акаўнт больш бяспечным, наладзіўшы двухэтапны ўваход у вэб-праграме Multipass.</string>
-    <string name="change_master_password_description_long">Вы можаце змяніць асноўны пароль у вэб-праграме Multipass.</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Даведайцеся больш пра тое, як выкарыстоўваць Multipass, у Даведачным цэнтры.</string>
+    <string name="two_step_login_description_long">Зрабіце свой акаўнт больш бяспечным, наладзіўшы двухэтапны ўваход у вэб-праграме Bitwarden.</string>
+    <string name="change_master_password_description_long">Вы можаце змяніць асноўны пароль у вэб-праграме Bitwarden.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">Даведайцеся больш пра тое, як выкарыстоўваць Bitwarden, у Даведачным цэнтры.</string>
     <string name="privacy_policy_description_long">Азнаёмцеся з нашай палітыкай прыватнасці на bitwarden.com.</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Даследуйце больш функцый вашага акаўнта Multipass у вэб-праграме.</string>
-    <string name="learn_about_organizations_description_long">Multipass дазваляе дзяліцца элементамі сховішча з іншымі праз арганізацыю. Даведайцеся больш на вэб-сайце bitwarden.com.</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">Даследуйце больш функцый вашага акаўнта Bitwarden у вэб-праграме.</string>
+    <string name="learn_about_organizations_description_long">Bitwarden дазваляе дзяліцца элементамі сховішча з іншымі праз арганізацыю. Даведайцеся больш на вэб-сайце bitwarden.com.</string>
     <string name="created_x">Створана %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">Ваша арганізацыя патрабуе, каб вы ўсталявалі галоўны пароль.</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">Наладзьце параметр разблакіроўкі, каб змяніць дзеянне пасля тайм-аўту сховішча.</string>
@@ -747,8 +747,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">Для вашага ўліковага запісу патрабуецца двухэтапны ўваход Duo.</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">Выконвайце інструкцыі Duo, каб завяршыць уваход.</string>
     <string name="launch_duo">Запусціць Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Ваш ключ доступу будзе захаваны ў вашым сховішчы Multipass для %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ваш пароль будзе захаваны ў вашым сховішчы Multipass для %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">Ваш ключ доступу будзе захаваны ў вашым сховішчы Bitwarden для %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">Ваш пароль будзе захаваны ў вашым сховішчы Bitwarden для %1$s</string>
     <string name="passkeys_not_supported_for_this_app">Ключы доступу не падтрымліваюцца для гэтай праграмы</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">Аперацыя з ключом доступу не ўдалася, бо браўзер не мае прывілеяў</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">Аперацыя з ключом доступу не ўдалася, бо подпіс браўзера не супадае</string>
@@ -774,15 +774,15 @@
     <string name="check_your_email">Праверце сваю электронную пошту</string>
     <string name="open_email_app">Адкрыць паштовую праграму</string>
     <string name="email_verified">Email пацверджаны</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Атрымлівайце лісты ад Multipass з навінамі, парадамі і магчымасцямі ўдзелу ў даследаваннях. <annotation link="unsubscribe">Адпісацца</annotation> можна ў любы час.</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">Атрымлівайце лісты ад Bitwarden з навінамі, парадамі і магчымасцямі ўдзелу ў даследаваннях. <annotation link="unsubscribe">Адпісацца</annotation> можна ў любы час.</string>
     <string name="security_prioritized">Бяспека ў прыярытэце</string>
-    <string name="welcome_message_1">Захоўвайце ўваходы, карты і ідэнтыфікацыйныя даныя ў вашым бяспечным сховішчы. Multipass выкарыстоўвае скразное шыфраванне з нулявым веданнем, каб абараніць тое, што для вас важна.</string>
+    <string name="welcome_message_1">Захоўвайце ўваходы, карты і ідэнтыфікацыйныя даныя ў вашым бяспечным сховішчы. Bitwarden выкарыстоўвае скразное шыфраванне з нулявым веданнем, каб абараніць тое, што для вас важна.</string>
     <string name="welcome_message_2">Наладзьце біяметрычную адблакіроўку і аўтазапаўненне, каб уваходзіць у свае акаўнты без уводу ніводнага знака.</string>
     <string name="quick_and_easy_login">Хуткі і лёгкі ўваход</string>
     <string name="level_up_your_logins">Палепшыце свае ўваходы</string>
     <string name="welcome_message_3">Выкарыстоўвайце генератар, каб ствараць і захоўваць моцныя, унікальныя паролі для ўсіх сваіх акаўнтаў.</string>
     <string name="your_data_when_and_where_you_need_it">Вашы даныя, калі і дзе яны патрэбны</string>
-    <string name="welcome_message_4">Захоўвайце бясконцую колькасць пароляў на бясконцай колькасці прылад з дапамогай мабільных, браўзерных і дэсктопных праграм Multipass.</string>
+    <string name="welcome_message_4">Захоўвайце бясконцую колькасць пароляў на бясконцай колькасці прылад з дапамогай мабільных, браўзерных і дэсктопных праграм Bitwarden.</string>
     <string name="remove_passkey">Выдаліць ключ доступу</string>
     <string name="passkey_removed">Ключ доступу выдалены</string>
     <string name="what_makes_a_password_strong">Што робіць пароль моцным?</string>
@@ -812,8 +812,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">Націсніце на спасылку ў лісце, каб пацвердзіць адрас электроннай пошты і працягнуць стварэнне акаўнта.</string>
     <string name="change_email_address">Змяніць адрас электроннай пошты</string>
     <string name="next">Далей</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass не можа аднавіць страчаны або забыты асноўны пароль.</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass не можа скінуць страчаны або забыты галоўны пароль.</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden не можа аднавіць страчаны або забыты асноўны пароль.</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden не можа скінуць страчаны або забыты галоўны пароль.</string>
     <string name="choose_your_master_password">Выберыце свой галоўны пароль</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">Выберыце унікальны і моцны пароль, каб захаваць вашу інфармацыю ў бяспецы.</string>
     <plurals name="minimum_characters">
@@ -831,16 +831,16 @@
     <string name="turn_on_autofill">Уключыць аўтазапаўненне</string>
     <string name="autofill_setup">Наладка аўтазапаўнення</string>
     <string name="turn_on_browser_autofill_integration">Уключыць інтэграцыю аўтазапаўнення ў браўзеры</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">Вы выкарыстоўваеце браўзер, які патрабуе спецыяльных дазволаў, каб Multipass мог аўтазапаўняць вашы паролі.</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">Вы выкарыстоўваеце браўзеры, якія патрабуюць спецыяльных дазволаў, каб Multipass мог аўтазапаўняць вашы паролі.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Вы выкарыстоўваеце браўзер, які патрабуе спецыяльных дазволаў, каб Multipass мог аўтазапаўняць вашы паролі. Уключыце ніжэй пераважную інтэграцыю аўтазапаўнення.</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Вы выкарыстоўваеце браўзеры, якія патрабуюць спецыяльных дазволаў, каб Multipass мог аўтазапаўняць вашы паролі. Каб працягнуць, уключыце аўтазапаўненне для ўсіх усталяваных браўзераў.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">Вы выкарыстоўваеце браўзер, які патрабуе спецыяльных дазволаў, каб Bitwarden мог аўтазапаўняць вашы паролі.</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">Вы выкарыстоўваеце браўзеры, якія патрабуюць спецыяльных дазволаў, каб Bitwarden мог аўтазапаўняць вашы паролі.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">Вы выкарыстоўваеце браўзер, які патрабуе спецыяльных дазволаў, каб Bitwarden мог аўтазапаўняць вашы паролі. Уключыце ніжэй пераважную інтэграцыю аўтазапаўнення.</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">Вы выкарыстоўваеце браўзеры, якія патрабуюць спецыяльных дазволаў, каб Bitwarden мог аўтазапаўняць вашы паролі. Каб працягнуць, уключыце аўтазапаўненне для ўсіх усталяваных браўзераў.</string>
     <string name="use_autofill_to_log_into_your_accounts">Выкарыстоўвайце аўтазапаўненне, каб уваходзіць у свае акаўнты адным націскам.</string>
     <string name="turn_on_later">Уключыць пазней</string>
     <string name="turn_on_autofill_later">Уключыць аўтазапаўненне пазней?</string>
     <string name="turn_on_browser_autofill_integration_later">Уключыць інтэграцыю аўтазапаўнення ў браўзеры пазней?</string>
     <string name="return_to_complete_this_step_anytime_in_settings">Вы можаце вярнуцца, каб завяршыць гэты крок, у любы час у Наладах.</string>
-    <string name="what_bitwarden_has_to_offer">Цяпер вы можаце азнаёміцца з усімі магчымасцямі Multipass і пачаць бяспечна кіраваць сваімі паролямі.</string>
+    <string name="what_bitwarden_has_to_offer">Цяпер вы можаце азнаёміцца з усімі магчымасцямі Bitwarden і пачаць бяспечна кіраваць сваімі паролямі.</string>
     <string name="youre_all_set">Усё гатова!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">Памылка падлучэння да сэрвісу Duo. Выкарыстоўвайце іншы метад двухэтапнага ўваходу або звярніцеся ў Duo па дапамогу.</string>
     <string name="master_password_hint_not_specified">Падказка да асноўнага пароля</string>
@@ -859,7 +859,7 @@
     <string name="do_you_have_a_computer_available">Ці ёсць у вас камп\'ютар?</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">Наступныя інструкцыі дапамогуць вам імпартаваць лагіны з вашага настольнага камп\'ютара або ноўтбука</string>
     <string name="import_logins">Імпартаваць лагіны</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">З камп\'ютара выконвайце гэтыя інструкцыі, каб экспартаваць захаваныя паролі з браўзера або іншага мэнэджара пароляў. Затым бяспечна імпартуйце іх у Multipass.</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">З камп\'ютара выконвайце гэтыя інструкцыі, каб экспартаваць захаваныя паролі з браўзера або іншага мэнэджара пароляў. Затым бяспечна імпартуйце іх у Bitwarden.</string>
     <string name="give_your_vault_a_head_start">Дайце свайму сховішчу фарў</string>
     <string name="class_3_biometrics_description">Разблакіроўка з дапамогай біяметрыі патрабуе надзейнай біяметрычнай аўтэнтыфікацыі і можа быць несумяшчальнай з усімі біяметрычнымі параметрамі на гэтай прыладзе.</string>
     <string name="class_2_biometrics_description">Разблакіроўка з дапамогай біяметрыі патрабуе надзейнай біяметрычнай аўтэнтыфікацыі і несумяшчальная з біяметрычнымі параметрамі, даступнымі на гэтай прыладзе.</string>
@@ -870,28 +870,28 @@
     <string name="export_your_saved_logins">Экспартуйце свае захаваныя ўваходы</string>
     <string name="delete_this_file_after_import_is_complete">Вы выдаліце гэты файл пасля завяршэння імпарту.</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">На сваім камп\'ютары адкрыйце новую ўкладку браўзера і <annotation emphasis="bold">перайдзіце на <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">Увайдзіце ў вэб-праграму Multipass.</string>
+    <string name="log_in_to_the_bitwarden_web_app">Увайдзіце ў вэб-праграму Bitwarden.</string>
     <string name="step_2_of_3">Крок 2 з 3</string>
-    <string name="log_in_to_bitwarden">Увайсці ў Multipass</string>
+    <string name="log_in_to_bitwarden">Увайсці ў Bitwarden</string>
     <string name="step_3_of_3">Крок 3 з 3</string>
-    <string name="import_logins_to_bitwarden">Імпартаваць уваходы ў Multipass</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">У навігацыі Multipass <annotation emphasis="bold">знайдзіце пункт «Інструменты»</annotation> і <annotation emphasis="bold">выберыце «Імпартаваць даныя».</annotation></string>
+    <string name="import_logins_to_bitwarden">Імпартаваць уваходы ў Bitwarden</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">У навігацыі Bitwarden <annotation emphasis="bold">знайдзіце пункт «Інструменты»</annotation> і <annotation emphasis="bold">выберыце «Імпартаваць даныя».</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">Запоўніце форму і <annotation emphasis="bold">выканайце імпартаванне файла захаваных пароляў.</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">Для вашай бяспекі абавязкова <annotation emphasis="bold">выдаліце файл захаваных пароляў.</annotation></string>
     <string name="need_help_check_out_import_help">Патрэбна дапамога? Глядзіце <annotation link="importHelp">даведку пра імпартаванне</annotation>.</string>
     <string name="import_help">даведка пра імпартаванне</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">Захавайце экспартаваны файл</annotation> дзесьці на камп\'ютары, каб яго было лёгка знайсці.</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Гэта не распазнаны сервер Multipass. Магчыма, вам трэба звярнуцца да правайдэра або абнавіць сервер.</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">Гэта не распазнаны сервер Bitwarden. Магчыма, вам трэба звярнуцца да правайдэра або абнавіць сервер.</string>
     <string name="syncing_logins_loading_message">Сінхранізацыя ўваходаў…</string>
     <string name="download_the_browser_extension">Спампаваць пашырэнне для браўзера</string>
-    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Перайдзіце на bitwarden.com/download, каб інтэграваць Multipass у ваш любімы браўзер для бясшвоўнага вопыту.</string>
+    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">Перайдзіце на bitwarden.com/download, каб інтэграваць Bitwarden у ваш любімы браўзер для бясшвоўнага вопыту.</string>
     <string name="use_the_web_app">Выкарыстоўваць вэб-праграму</string>
     <string name="log_in_at_bitwarden_com_to_easily_manage_your_account">Увайдзіце на bitwarden.com, каб лёгка кіраваць сваім акаўнтам і абнаўляць налады.</string>
     <string name="autofill_passwords">Аўтазапаўненне пароляў</string>
     <string name="set_up_autofill_on_all_your_devices">Наладзьце аўтазапаўненне на ўсіх прыладах, каб уваходзіць адным націскам у любым месцы.</string>
     <string name="import_successful">Імпартаванне паспяхова!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Кіруйце сваімі ўваходамі з любога месца з дапамогай інструментаў Multipass для вэб і камп\'ютара.</string>
-    <string name="bitwarden_tools">Інструменты Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">Кіруйце сваімі ўваходамі з любога месца з дапамогай інструментаў Bitwarden для вэб і камп\'ютара.</string>
+    <string name="bitwarden_tools">Інструменты Bitwarden</string>
     <string name="got_it">Зразумела</string>
     <string name="no_logins_were_imported">Ніводзін уваход не быў імпартаваны</string>
     <string name="import_error">Памылка імпартавання</string>
@@ -911,7 +911,7 @@
         <item quantity="other">%d апавяшчэнняў</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">Уваходзьце хутка і лёгка на розных прыладах</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass можа апавяшчаць вас кожны раз, калі вы атрымліваеце новы запыт на ўваход з іншай прылады.</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden можа апавяшчаць вас кожны раз, калі вы атрымліваеце новы запыт на ўваход з іншай прылады.</string>
     <string name="skip_for_now">Пакуль прапусціць</string>
     <string name="done_text">Гатова</string>
     <string name="page_number_x_of_y">%1$s з %2$s</string>
@@ -936,7 +936,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">Дадайце лічбу або сімвал</annotation>, каб зрабіць яе яшчэ мацнейшай. Цяпер у вас ёсць унікальная, бяспечная і лёгказапамінальная парольная фраза!</string>
     <string name="need_some_inspiration">Патрэбна натхненне?</string>
     <string name="check_out_the_passphrase_generator">Паглядзіце генератар парольных фраз</string>
-    <string name="we_couldnt_verify_the_servers_certificate">Мы не змаглі праверыць сертыфікат сервера. Ланцуг сертыфікатаў або налады проксі на вашай прыладзе ці на вашым серверы Multipass могуць быць наладжаны няправільна.</string>
+    <string name="we_couldnt_verify_the_servers_certificate">Мы не змаглі праверыць сертыфікат сервера. Ланцуг сертыфікатаў або налады проксі на вашай прыладзе ці на вашым серверы Bitwarden могуць быць наладжаны няправільна.</string>
     <string name="copy_private_key">Скапіяваць прыватны ключ</string>
     <string name="login_credentials">Уліковыя даныя для ўваходу</string>
     <string name="autofill_options">Параметры аўтазапаўнення</string>
@@ -963,7 +963,7 @@
     <string name="coachmark_5_of_6">5 з 6</string>
     <string name="coachmark_6_of_6">6 з 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">Выкарыстоўвайце гэтыя опцыі, каб наладзіць пароль у адпаведнасці з патрабаваннямі вэб-сайта вашага акаўнта.</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Пасля таго як вы захаваеце новы пароль у Multipass, не забудзьцеся абнавіць яго на вэб-сайце вашага акаўнта.</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">Пасля таго як вы захаваеце новы пароль у Bitwarden, не забудзьцеся абнавіць яго на вэб-сайце вашага акаўнта.</string>
     <string name="verify_your_identity">Пацвердзіце сваю асобу</string>
     <string name="error_loading_certificate">Памылка загрузкі сертыфіката</string>
     <string name="certificate_alias">Псеўданім сертыфіката</string>
@@ -974,7 +974,7 @@
     <string name="unsupported_certificate_type">Тып сертыфіката не падтрымліваецца</string>
     <string name="certificate_password_incorrect">Пароль сертыфіката няправільны</string>
     <string name="invalid_certificate_chain">Няправільны ланцуг сертыфікатаў</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Выкарыстанне сістэмнага сертыфіката менш бяспечнае, чым захоўванне сертыфіката ў Multipass. Калі працягнуць, будзе паказаны спіс даступных сістэмных сертыфікатаў, калі яны ўжо ўсталяваныя.</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">Выкарыстанне сістэмнага сертыфіката менш бяспечнае, чым захоўванне сертыфіката ў Bitwarden. Калі працягнуць, будзе паказаны спіс даступных сістэмных сертыфікатаў, калі яны ўжо ўсталяваныя.</string>
     <string name="link">Спасылка</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">Аперацыя з ключом доступу не ўдалася, бо ў запыце адсутнічае URL-адрас хоста.</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">Аперацыя з ключом доступу не ўдалася, бо подпіс праграмы няправільны.</string>
@@ -1012,8 +1012,8 @@
     <string name="experiencing_an_issue">Узнікла праблема?</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">Уключыце часовае лагаванне, каб збіраць і праглядаць лагі лакальна. Пры ўключэнні могуць лагавацца станы праграмы і сеткавыя выклікі — ніколі канфідэнцыйная інфармацыя з сховішча.</string>
     <string name="to_get_started_set_a_logging_duration">Каб пачаць, усталяйце працягласць запісу журналаў. Запіс аўтаматычна выключыцца пасля гэтага перыяду, даючы вам час зафіксаваць дзеянні падчас узнаўлення любых праблем.</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">Лагі будуць аўтаматычна выдалены праз 30 дзён. Multipass можа атрымаць доступ да вашых лагаў толькі калі вы імі падзяліцеся.</string>
-    <string name="for_details_on_what_is_and_isnt_logged">Каб даведацца, што запісваецца, а што не, наведайце <annotation link="helpCenter">Даведачны цэнтр Multipass.</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">Лагі будуць аўтаматычна выдалены праз 30 дзён. Bitwarden можа атрымаць доступ да вашых лагаў толькі калі вы імі падзяліцеся.</string>
+    <string name="for_details_on_what_is_and_isnt_logged">Каб даведацца, што запісваецца, а што не, наведайце <annotation link="helpCenter">Даведачны цэнтр Bitwarden.</annotation></string>
     <string name="logging_duration">Працягласць лагавання</string>
     <string name="flight_recorder_one_hour">1 гадзіна</string>
     <string name="flight_recorder_eight_hours">8 гадзін</string>
@@ -1044,29 +1044,29 @@
     <string name="unable_to_read_certificate">Не ўдалося прачытаць сертыфікат.</string>
     <string name="cannot_delete_your_account">Немагчыма выдаліць ваш уліковы запіс</string>
     <string name="cannot_delete_your_account_explanation">Гэтае дзеянне нельга выканаць, таму што ваш акаўнт належыць арганізацыі. Звярніцеся да адміністратара арганізацыі для атрымання дадатковых звестак.</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Гэты акаўнт хутка будзе выдалены. Увайдзіце на %1$s, каб працягнуць карыстацца Multipass.</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">Гэты акаўнт хутка будзе выдалены. Увайдзіце на %1$s, каб працягнуць карыстацца Bitwarden.</string>
     <string name="view_file_send">Праглядзець файлавую адпраўку</string>
     <string name="view_text_send">Праглядзець тэкставую адпраўку</string>
     <string name="delete_send">Выдаліць Send</string>
     <string name="missing_send_resync_your_vault">Send адсутнічае, сінхранізуйце сховішча паўторна</string>
     <string name="use_dynamic_colors">Выкарыстоўваць дынамічныя колеры</string>
     <string name="use_dynamic_colors_question">Выкарыстоўваць дынамічныя колеры?</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Гэтая каляровая схема аўтаматычна прымяняе сістэмныя колеры да Multipass на аснове вашых бягучых шпалер. Гэтыя колеры могуць не адпавядаць усім патрабаванням даступнасці.</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">Гэтая каляровая схема аўтаматычна прымяняе сістэмныя колеры да Bitwarden на аснове вашых бягучых шпалер. Гэтыя колеры могуць не адпавядаць усім патрабаванням даступнасці.</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">Аперацыя з ключом доступу не ўдалася, бо браўзер (%1$s) не распазнаны. Выберыце «Давяраць», каб дадаць %1$s у спіс лакальна давераных праграм.</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">Аперацыя з ключом доступу не ўдалася, бо браўзер не давераны.</string>
     <string name="trust">Давяраць</string>
-    <string name="trusted_by_you_learn_more">Гэта праграмы або браўзеры, якім Multipass не давярае прадвызначана, але вы давяраеце ім выконваць аперацыі з ключамі доступу.</string>
-    <string name="trusted_by_community_learn_more">Гэта праграмы, якія не ўключаныя ў Google Play Store, але Multipass давярае ім выконваць аперацыі з ключамі доступу пасля таго, як удзельнікі супольнасці выкарыстоўваюць іх і паведамляюць пра іх бяспеку.</string>
+    <string name="trusted_by_you_learn_more">Гэта праграмы або браўзеры, якім Bitwarden не давярае прадвызначана, але вы давяраеце ім выконваць аперацыі з ключамі доступу.</string>
+    <string name="trusted_by_community_learn_more">Гэта праграмы, якія не ўключаныя ў Google Play Store, але Bitwarden давярае ім выконваць аперацыі з ключамі доступу пасля таго, як удзельнікі супольнасці выкарыстоўваюць іх і паведамляюць пра іх бяспеку.</string>
     <string name="trusted_by_google_learn_more">Гэта праграмы, якія Google лічыць бяспечнымі і якія даступныя ў Google Play Store.</string>
     <string name="trusted_by_you">Давераныя вамі</string>
     <string name="trusted_by_the_community">Давераныя супольнасцю</string>
     <string name="trusted_by_google">Давераныя Google</string>
-    <string name="privileged_apps_description">Каб абараніць карыстальнікаў ад фішынгавых спроб, Multipass прадвызначана выконвае аперацыі з ключамі доступу толькі праз праграмы або вэб-браўзеры, якім давяраюць Google або супольнасць Multipass.</string>
+    <string name="privileged_apps_description">Каб абараніць карыстальнікаў ад фішынгавых спроб, Bitwarden прадвызначана выконвае аперацыі з ключамі доступу толькі праз праграмы або вэб-браўзеры, якім давяраюць Google або супольнасць Bitwarden.</string>
     <string name="about_privileged_applications">Пра прывілеяваныя праграмы</string>
     <string name="learn_more_about_privileged_apps">Даведацца больш пра прывілеяваныя праграмы</string>
     <string name="privileged_apps">Прывілеяваныя праграмы</string>
     <string name="unrecognized_browser">Нераспазнаны браўзер</string>
-    <string name="learn_more_about_using_passkeys_with_bitwarden">Даведацца больш пра выкарыстанне ключоў доступу з Multipass.</string>
+    <string name="learn_more_about_using_passkeys_with_bitwarden">Даведацца больш пра выкарыстанне ключоў доступу з Bitwarden.</string>
     <string name="all_trusted_apps">Усе давераныя праграмы</string>
     <string name="are_you_sure_you_want_to_stop_trusting_x">Вы сапраўды хочаце перастаць давяраць %s?</string>
     <string name="installed_apps">Усталяваныя праграмы</string>
@@ -1096,7 +1096,7 @@
     <string name="information">Інфармацыя</string>
     <string name="otp_type">Тып OTP</string>
     <string name="search_codes">Пошук кодаў</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">Абараніце свае ўліковыя запісы з дапамогай Multipass Authenticator</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">Абараніце свае ўліковыя запісы з дапамогай Bitwarden Authenticator</string>
     <string name="get_verification_codes_for_all_your_accounts">Атрымлівайце праверачныя коды для ўсіх сваіх уліковых запісаў, выкарыстоўваючы двухэтапную верыфікацыю.</string>
     <string name="use_your_device_camera_to_scan_codes">Выкарыстоўвайце камеру вашай прылады для сканіравання кодаў</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">Адсканіруйце QR-код у наладах двухэтапнай верыфікацыі для любога ўліковага запісу.</string>
@@ -1117,7 +1117,7 @@
     <string name="too_many_failed_biometric_attempts">Занадта шмат няўдалых спроб біяметрыі.</string>
     <string name="version">Версія</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">Версія: %1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">Даведайцеся больш аб тым, як выкарыстоўваць Multipass Authenticator, у Даведачным цэнтры.</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">Даведайцеся больш аб тым, як выкарыстоўваць Bitwarden Authenticator, у Даведачным цэнтры.</string>
     <string name="key">Ключ</string>
     <string name="create_verification_code">Стварыць праверачны код</string>
     <string name="key_is_required">Патрабуецца ключ.</string>
@@ -1128,30 +1128,30 @@
     <string name="key_is_invalid">Несапраўдны ключ.</string>
     <string name="backup">Рэзервовая копія</string>
     <string name="data_backup_title">Рэзервовае капіраванне</string>
-    <string name="data_backup_message">Даныя Multipass Authenticator захоўваюцца ў рэзервовай копіі і могуць быць адноўлены пры рэгулярным рэзервовым капіраванні прылады.</string>
+    <string name="data_backup_message">Даныя Bitwarden Authenticator захоўваюцца ў рэзервовай копіі і могуць быць адноўлены пры рэгулярным рэзервовым капіраванні прылады.</string>
     <string name="import_2fas_password_protected_not_supported">Імпарт з файлаў, абароненых паролем 2FAS, не падтрымліваецца. Паўтарыце спробу з экспартаваным файлам, які не абаронены паролем.</string>
-    <string name="import_bitwarden_unsupported_format">Імпарт CSV-файлаў Multipass не падтрымліваецца. Паўтарыце спробу з экспартаваным JSON-файлам.</string>
-    <string name="download_bitwarden_card_title">Спампаваць праграму Multipass</string>
+    <string name="import_bitwarden_unsupported_format">Імпарт CSV-файлаў Bitwarden не падтрымліваецца. Паўтарыце спробу з экспартаваным JSON-файлам.</string>
+    <string name="download_bitwarden_card_title">Спампаваць праграму Bitwarden</string>
     <string name="download_bitwarden_card_message">Захоўвайце ўсе свае лагіны і сінхранізуйце праверачныя коды непасрэдна з праграмай Authenticator.</string>
     <string name="download_now">Спампаваць зараз</string>
-    <string name="sync_with_bitwarden_app">Сінхранізаваць з праграмай Multipass</string>
+    <string name="sync_with_bitwarden_app">Сінхранізаваць з праграмай Bitwarden</string>
     <string name="learn_more_link"><annotation link="learnMore">Даведацца больш</annotation></string>
-    <string name="shared_codes_error">Не ўдалося сінхранізаваць коды з праграмай Multipass. Пераканайцеся, што абедзве праграмы абноўленыя. Вы па-ранейшаму можаце атрымаць доступ да існуючых кодаў у праграме Multipass.</string>
-    <string name="sync_with_the_bitwarden_app">Сінхранізаваць з праграмай Multipass</string>
+    <string name="shared_codes_error">Не ўдалося сінхранізаваць коды з праграмай Bitwarden. Пераканайцеся, што абедзве праграмы абноўленыя. Вы па-ранейшаму можаце атрымаць доступ да існуючых кодаў у праграме Bitwarden.</string>
+    <string name="sync_with_the_bitwarden_app">Сінхранізаваць з праграмай Bitwarden</string>
     <string name="sync_with_bitwarden_action_card_message">Дазвольце сінхранізацыю з праграмай Authenticator у наладах, каб праглядаць усе вашы праверачныя коды тут.</string>
     <string name="take_me_to_app_settings">Перайсці ў налады праграмы</string>
     <string name="something_went_wrong">Нешта пайшло не так</string>
     <string name="please_try_again">Калі ласка, паспрабуйце яшчэ раз</string>
-    <string name="copy_to_bitwarden_vault">Скапіяваць у сховішча Multipass</string>
+    <string name="copy_to_bitwarden_vault">Скапіяваць у сховішча Bitwarden</string>
     <string name="default_save_option">Прадвызначаны параметр захавання</string>
-    <string name="save_to_bitwarden">Захаваць у Multipass</string>
+    <string name="save_to_bitwarden">Захаваць у Bitwarden</string>
     <string name="save_here">Захаваць тут</string>
     <string name="none">Няма</string>
     <string name="default_save_options_subtitle">Выберыце, дзе вы хочаце захоўваць новыя праверачныя коды.</string>
     <string name="verification_code_created">Праверачны код створаны</string>
-    <string name="choose_save_location_message">Захавайце гэты ключ аўтэнтыфікацыі тут або дадайце яго да лагіна ў праграме Multipass.</string>
+    <string name="choose_save_location_message">Захавайце гэты ключ аўтэнтыфікацыі тут або дадайце яго да лагіна ў праграме Bitwarden.</string>
     <string name="save_option_as_default">Захаваць параметр як прадвызначаны</string>
-    <string name="account_synced_from_bitwarden_app">Уліковы запіс сінхранізаваны з праграмай Multipass</string>
+    <string name="account_synced_from_bitwarden_app">Уліковы запіс сінхранізаваны з праграмай Bitwarden</string>
     <string name="local_codes">Лакальныя коды (%1$d)</string>
     <string name="required_information_missing">Адсутнічае абавязковая інфармацыя</string>
     <string name="required_information_missing_message">Адсутнічае абавязковая інфармацыя (напрыклад, «services» або «secret»). Праверце свой файл і паспрабуйце яшчэ раз. Наведайце bitwarden.com/help для атрымання падтрымкі</string>
@@ -1165,12 +1165,12 @@
     <string name="items_are_collapsed_click_to_expand">Элементы згорнутыя, націсніце, каб разгарнуць.</string>
     <string name="error_cannot_decrypt">[памылка: нельга расшыфраваць]</string>
     <string name="copy_error_report">Скапіраваць справаздачу аб памылцы</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass не змог расшыфраваць гэты элемент сховішча. Каб пазбегнуць дадатковай страты даных, скапіруйце і абагуліце гэтую справаздачу аб памылцы са службай падтрымкі.</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden не змог расшыфраваць гэты элемент сховішча. Каб пазбегнуць дадатковай страты даных, скапіруйце і абагуліце гэтую справаздачу аб памылцы са службай падтрымкі.</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="one">Multipass не змог расшыфраваць %1$d элемент сховішча. Скапіюйце і абагуліце гэтую справаздачу пра памылку са службай падтрымкі, каб пазбегнуць дадатковай страты даных.</item>
-        <item quantity="few">Multipass не змог расшыфраваць %1$d элементы сховішча. Скапіюйце і абагуліце гэтую справаздачу пра памылку са службай падтрымкі, каб пазбегнуць дадатковай страты даных.</item>
-        <item quantity="many">Multipass не змог расшыфраваць %1$d элементаў сховішча. Скапіюйце і абагуліце гэтую справаздачу пра памылку са службай падтрымкі, каб пазбегнуць дадатковай страты даных.</item>
-        <item quantity="other">Multipass не змог расшыфраваць %1$d элементаў сховішча. Скапіюйце і абагуліце гэтую справаздачу пра памылку са службай падтрымкі, каб пазбегнуць дадатковай страты даных.</item>
+        <item quantity="one">Bitwarden не змог расшыфраваць %1$d элемент сховішча. Скапіюйце і абагуліце гэтую справаздачу пра памылку са службай падтрымкі, каб пазбегнуць дадатковай страты даных.</item>
+        <item quantity="few">Bitwarden не змог расшыфраваць %1$d элементы сховішча. Скапіюйце і абагуліце гэтую справаздачу пра памылку са службай падтрымкі, каб пазбегнуць дадатковай страты даных.</item>
+        <item quantity="many">Bitwarden не змог расшыфраваць %1$d элементаў сховішча. Скапіюйце і абагуліце гэтую справаздачу пра памылку са службай падтрымкі, каб пазбегнуць дадатковай страты даных.</item>
+        <item quantity="other">Bitwarden не змог расшыфраваць %1$d элементаў сховішча. Скапіюйце і абагуліце гэтую справаздачу пра памылку са службай падтрымкі, каб пазбегнуць дадатковай страты даных.</item>
     </plurals>
     <string name="select_a_card_for_x">Выберыце картку для %s</string>
     <string name="advanced_options">Дадатковыя параметры</string>
@@ -1178,9 +1178,9 @@
     <string name="keep_your_credential_secure">Захоўвайце свае ўліковыя даныя ў бяспецы</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">Даведайцеся больш пра тое, як захоўваць уліковыя даныя ў бяспецы пры выкарыстанні «%1$s».</string>
     <string name="are_you_sure_you_want_to_use">Вы сапраўды хочаце выкарыстоўваць «%1$s»?</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Выяўленне супадзення URI вызначае, як Multipass вызначае прапановы аўтазапаўнення.
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">Выяўленне супадзення URI вызначае, як Bitwarden вызначае прапановы аўтазапаўнення.
 <annotation emphasis="bold">Папярэджанне:</annotation> «Рэгулярны выраз» — гэта дадатковы параметр з павышанай рызыкай раскрыцця ўліковых даных у выпадку няправільнага выкарыстання.</string>
-    <string name="default_uri_match_detection_description_advanced_options">Выяўленне супадзення URI вызначае, як Multipass вызначае прапановы аўтазапаўнення.
+    <string name="default_uri_match_detection_description_advanced_options">Выяўленне супадзення URI вызначае, як Bitwarden вызначае прапановы аўтазапаўнення.
 <annotation emphasis="bold">Папярэджанне:</annotation> «Пачынаецца з» — гэта дадатковы параметр з павышанай рызыкай раскрыцця ўліковых даных.</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">«Пачынаецца з» — гэта дадатковы параметр з павышанай рызыкай раскрыцця ўліковых даных.</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">«Рэгулярны выраз» — гэта дадатковы параметр з павышанай рызыкай раскрыцця ўліковых даных у выпадку няправільнага выкарыстання.</string>
@@ -1208,17 +1208,17 @@
         <item quantity="other">%1$d элементаў імпартавана ў ваша сховішча.</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">Уключыце аўтазапаўненне ў браўзеры, каб працягваць запаўненне пароляў</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">Ваш браўзер нядаўна абнавіўся, што адключыла аўтазапаўненне Multipass. Каб працягваць запаўняць паролі з дапамогай Multipass, уключыце аўтазапаўненне браўзера ў наладах аўтазапаўнення.</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">Ваш браўзер нядаўна абнавіўся, што адключыла аўтазапаўненне Bitwarden. Каб працягваць запаўняць паролі з дапамогай Bitwarden, уключыце аўтазапаўненне браўзера ў наладах аўтазапаўнення.</string>
     <string name="not_now">Не зараз</string>
-    <string name="import_from_bitwarden">Імпартаваць з Multipass</string>
+    <string name="import_from_bitwarden">Імпартаваць з Bitwarden</string>
     <string name="select_account">Выбраць уліковы запіс</string>
     <string name="no_accounts_available">Няма даступных уліковых запісаў</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">У вас няма ўліковых запісаў, з якіх можна імпартаваць. Палітыка бяспекі вашай арганізацыі можа абмяжоўваць імпартаванне элементаў з Multipass у іншую праграму.</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">У вас няма ўліковых запісаў, з якіх можна імпартаваць. Палітыка бяспекі вашай арганізацыі можа абмяжоўваць імпартаванне элементаў з Bitwarden у іншую праграму.</string>
     <string name="import_restricted_unable_to_import_credit_cards">Імпартаванне абмежаванае, немагчыма імпартаваць карткі з гэтага ўліковага запісу.</string>
     <string name="verify_your_master_password">Пацвердзіце свой асноўны пароль</string>
     <string name="having_trouble_with_autofill">Узніклі праблемы з аўтазапаўненнем?</string>
     <string name="access_help_and_troubleshooting_documentation_here">Тут можна атрымаць доступ да даведачнай дакументацыі і дакументацыі па ліквідацыі непаладак</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Імпартаваць паролі, ключы доступу і іншыя тыпы элементаў з вашага сховішча Multipass.</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">Імпартаваць паролі, ключы доступу і іншыя тыпы элементаў з вашага сховішча Bitwarden.</string>
     <string name="items_to_import">Элементы для імпартавання</string>
     <string name="exporting_items">Экспартаванне элементаў…</string>
     <string name="export_failed">Экспарт не ўдаўся</string>
@@ -1282,7 +1282,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">Увядзіце прынамсі адзін сапраўдны адрас электроннай пошты, каб абагуліць гэты Send.</string>
     <string name="sync_with_browser">Сінхранізаваць з браўзерам</string>
-    <string name="sync_with_browser_description">Каб падключыцца да %1$s, сінхранізуйце свой прадвызначаны браўзер з мабільнай праграмай Multipass. Калі браўзер адкрыецца, завершыце ўваход, калі будзе запытана. Пасля завяршэння сінхранізацыі вы вернецеся ў гэту праграму.</string>
+    <string name="sync_with_browser_description">Каб падключыцца да %1$s, сінхранізуйце свой прадвызначаны браўзер з мабільнай праграмай Bitwarden. Калі браўзер адкрыецца, завершыце ўваход, калі будзе запытана. Пасля завяршэння сінхранізацыі вы вернецеся ў гэту праграму.</string>
     <string name="launch_browser">Запусціць браўзер</string>
     <string name="continue_without_syncing">Працягнуць без сінхранізацыі</string>
     <string name="external_link">Знешняя спасылка</string>
@@ -1308,7 +1308,7 @@
     <string name="trusted">Давераны</string>
     <string name="preview_not_available_for_files">Папярэдні прагляд недаступны для файлаў %1$s. Вы ўсё роўна можаце спампаваць файл, каб праглядзець яго на прыладзе.</string>
     <string name="this_file_is_too_large_to_preview">Гэты файл занадта вялікі для папярэдняга прагляду. Вы ўсё роўна можаце спампаваць яго, каб праглядзець на прыладзе.</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass не змог расшыфраваць гэты файл, таму папярэдні прагляд немагчыма паказаць.</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden не змог расшыфраваць гэты файл, таму папярэдні прагляд немагчыма паказаць.</string>
     <string name="preview_unavailable_for_this_file">Папярэдні прагляд гэтага файла недаступны. Вы ўсё роўна можаце спампаваць яго, каб праглядзець на прыладзе.</string>
     <string name="preview_unavailable">Папярэдні прагляд недаступны</string>
     <string name="download_attachment">Спампаваць далучэнне</string>
@@ -1350,7 +1350,7 @@
     <string name="billing_rate_per_year">%1$s / год</string>
     <string name="billing_rate_per_month">%1$s / месяц</string>
     <string name="manage_plan">Кіраваць тарыфам</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">Кіруйце планам падпіскі ў вэб-праграме Multipass.</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">Кіруйце планам падпіскі ў вэб-праграме Bitwarden.</string>
     <string name="cancel_premium">Адмяніць Premium</string>
     <string name="subscription_status_active">Актыўны</string>
     <string name="subscription_status_canceled">Адменены</string>
@@ -1443,8 +1443,8 @@
     <string name="local_network_access_required">Патрабуецца доступ да лакальнай сеткі</string>
     <string name="ask_again_later">Спытаць пазней</string>
     <string name="enable_local_network_access">Уключыць доступ да лакальнай сеткі</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass патрабуе доступ да лакальнай сеткі, каб сінхранізавацца з вашым серверам. Без гэтага дазволу праграма не зможа падключыцца.</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Без гэтага дазволу Multipass не зможа падключыцца і сінхранізавацца з вашым серверам. Вы можаце ўключыць гэта ў наладах прылады.</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden патрабуе доступ да лакальнай сеткі, каб сінхранізавацца з вашым серверам. Без гэтага дазволу праграма не зможа падключыцца.</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">Без гэтага дазволу Bitwarden не зможа падключыцца і сінхранізавацца з вашым серверам. Вы можаце ўключыць гэта ў наладах прылады.</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">Ваш запыт быў перапынены, бо праграме патрэбны доступ да лакальнай сеткі. Вы можаце ўключыць гэта ў наладах прылады.</string>
     <string name="continue_to_stripe">Перайсці да Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">Вы будзеце накіраваныя ў Stripe, каб кіраваць адменай вашай падпіскі.</string>

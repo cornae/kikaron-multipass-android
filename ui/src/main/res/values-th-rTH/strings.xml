@@ -75,9 +75,9 @@
     <string name="yes">ใช่</string>
     <string name="account">บัญชี</string>
     <string name="account_created_success">สร้างบัญชีใหม่ของคุณแล้ว!</string>
-    <string name="set_bitwarden_as_passkey_manager_description">ตั้งค่า Multipass เป็นผู้ให้บริการพาสคีย์ในการตั้งค่าอุปกรณ์</string>
+    <string name="set_bitwarden_as_passkey_manager_description">ตั้งค่า Bitwarden เป็นผู้ให้บริการพาสคีย์ในการตั้งค่าอุปกรณ์</string>
     <string name="avoid_ambiguous_characters">หลีกเลี่ยงอักขระที่ไม่ชัดเจน</string>
-    <string name="bitwarden_autofill_service">Multipass บริการกรอกข้อมูลอัตโนมัติ</string>
+    <string name="bitwarden_autofill_service">Bitwarden บริการกรอกข้อมูลอัตโนมัติ</string>
     <string name="change_master_password">เปลี่ยนรหัสผ่านหลัก</string>
     <string name="close">ปิด</string>
     <string name="close_app">ปิดแอป</string>
@@ -108,7 +108,7 @@
     <string name="vault_timeout_log_out_confirmation_title">ตั้งค่าการหมดเวลาเซสชันเป็น “ออกจากระบบ” หรือไม่</string>
     <string name="vault_timeout_log_out_confirmation_message">เมื่อครบกำหนดเวลา ระบบจะออกจากระบบโดยอัตโนมัติ คุณต้องเชื่อมต่ออินเทอร์เน็ตเพื่อเข้าสู่ระบบและเข้าถึงตู้นิรภัยอีกครั้ง การตั้งค่าและ PIN ในอุปกรณ์นี้จะไม่เปลี่ยนแปลง</string>
     <string name="logging_in">กำลังเข้าสู่ระบบ…</string>
-    <string name="login_to_bitwarden">เข้าสู่ระบบ Multipass</string>
+    <string name="login_to_bitwarden">เข้าสู่ระบบ Bitwarden</string>
     <string name="master_password_confirmation_val_message">การยืนยันรหัสผ่านไม่ถูกต้อง</string>
     <string name="master_password_description">รหัสผ่านหลักคือรหัสผ่านที่คุณใช้เข้าถึงตู้นิรภัย สิ่งสำคัญคือห้ามลืมรหัสผ่านหลักเด็ดขาด เพราะไม่มีทางกู้คืนรหัสผ่านได้หากคุณลืม</string>
     <string name="master_password_hint">คำใบ้รหัสผ่านหลัก (ไม่บังคับ)</string>
@@ -175,7 +175,7 @@
     <string name="no_items_for_vault">ไม่มีรายการในตู้นิรภัยที่ตรงกับ “%1$s”</string>
     <string name="search_for_a_login_or_add_a_new_login">ค้นหาข้อมูลเข้าสู่ระบบหรือเพิ่มรายการใหม่</string>
     <string name="disabled">ปิดการใช้งาน</string>
-    <string name="bitwarden_autofill_service_alert2">วิธีที่ง่ายที่สุดในการเพิ่มข้อมูลเข้าสู่ระบบใหม่ลงในตู้นิรภัยคือผ่านบริการป้อนอัตโนมัติของ Multipass เรียนรู้เพิ่มเติมเกี่ยวกับการใช้บริการนี้ได้ที่หน้า “การตั้งค่า”</string>
+    <string name="bitwarden_autofill_service_alert2">วิธีที่ง่ายที่สุดในการเพิ่มข้อมูลเข้าสู่ระบบใหม่ลงในตู้นิรภัยคือผ่านบริการป้อนอัตโนมัติของ Bitwarden เรียนรู้เพิ่มเติมเกี่ยวกับการใช้บริการนี้ได้ที่หน้า “การตั้งค่า”</string>
     <string name="autofill_noun">การป้อนอัตโนมัติ</string>
     <string name="autofill_verb">ป้อนอัตโนมัติ</string>
     <string name="autofill_or_view">คุณต้องการกรอกข้อมูลอัตโนมัติหรือดูรายการนี้หรือไม่?</string>
@@ -371,7 +371,7 @@
     <string name="pin">PIN</string>
     <string name="unlock">ปลดล็อก</string>
     <string name="thirty_minutes">30 นาที</string>
-    <string name="set_pin_description">PIN ของคุณต้องมีอย่างน้อย 4 ตัวอักษร การตั้งค่า PIN ของคุณจะถูกรีเซ็ตหากคุณออกจากระบบแอป Multipass ด้วยตนเอง</string>
+    <string name="set_pin_description">PIN ของคุณต้องมีอย่างน้อย 4 ตัวอักษร การตั้งค่า PIN ของคุณจะถูกรีเซ็ตหากคุณออกจากระบบแอป Bitwarden ด้วยตนเอง</string>
     <string name="logged_in_as_on">เข้าสู่ระบบในชื่อ %1$s เมื่อ %2$s</string>
     <string name="vault_locked_master_password">ตู้เซฟของคุณถูกล็อค ใส่รหัสผ่านหลักของคุณเพื่อดำเนินการต่อ</string>
     <string name="vault_locked_pin">ตู้เซฟของคุณถูกล็อค ใส่ PIN ของคุณเพื่อดำเนินการต่อ</string>
@@ -385,7 +385,7 @@
     <string name="clear_clipboard">ล้างคลิปบอร์ด</string>
     <string name="clear_clipboard_description">ล้างค่าที่คัดลอกออกจากคลิปบอร์ดโดยอัตโนมัติ</string>
     <string name="default_uri_match_detection">การตรวจสอบการจับคู่ URI เริ่มต้น</string>
-    <string name="default_uri_match_detection_description">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Multipass ระบุคำแนะนำการป้อนอัตโนมัติ</string>
+    <string name="default_uri_match_detection_description">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Bitwarden ระบุคำแนะนำการป้อนอัตโนมัติ</string>
     <string name="theme">ธีม</string>
     <string name="theme_description">เปลี่ยนธีมสีของแอปพลิเคชัน</string>
     <string name="copy_notes">คัดลอกโน้ต</string>
@@ -421,7 +421,7 @@
     <string name="password_generator_policy_in_effect">นโยบายองค์กรอย่างน้อยหนึ่งรายการมีผลต่อการตั้งค่าตัวสร้างของคุณ</string>
     <string name="unable_to_save_attachment">เกิดปัญหาในการบันทึกไฟล์แนบนี้ หากปัญหายังคงอยู่ คุณสามารถบันทึกได้จากตู้นิรภัยเว็บ</string>
     <string name="save_attachment_success">บันทึกไฟล์แนบสำเร็จ</string>
-    <string name="autofill_tile_accessibility_required">โปรดเปิด “บริการการเข้าถึงเพื่อป้อนอัตโนมัติ” จากการตั้งค่า Multipass เพื่อใช้ไทล์ป้อนอัตโนมัติ</string>
+    <string name="autofill_tile_accessibility_required">โปรดเปิด “บริการการเข้าถึงเพื่อป้อนอัตโนมัติ” จากการตั้งค่า Bitwarden เพื่อใช้ไทล์ป้อนอัตโนมัติ</string>
     <string name="autofill_tile_uri_not_found">ตรวจไม่พบช่องรหัสผ่าน</string>
     <string name="soft_deleting">กำลังส่งลงถังขยะ…</string>
     <string name="item_soft_deleted">ส่งรายการลงถังขยะแล้ว</string>
@@ -632,9 +632,9 @@
     <string name="catch_all_email_description">ใช้กล่องจดหมาย Catch-all ที่กำหนดค่าไว้ในโดเมนของคุณ</string>
     <string name="forwarded_email_description">สร้างนามแฝงอีเมลด้วยบริการส่งต่อภายนอก</string>
     <string name="accessibility_service_disclosure">การเปิดเผยข้อมูลบริการการเข้าถึง</string>
-    <string name="accessibility_disclosure_text">Multipass ใช้บริการการเข้าถึงเพื่อค้นหาช่องข้อมูลเข้าสู่ระบบในแอปและเว็บไซต์ จากนั้นระบุ ID ของช่องที่เหมาะสมเพื่อกรอกชื่อผู้ใช้และรหัสผ่านเมื่อพบแอปหรือเว็บไซต์ที่ตรงกัน เราไม่จัดเก็บข้อมูลใด ๆ ที่ได้รับจากบริการนี้ และไม่พยายามควบคุมองค์ประกอบใด ๆ บนหน้าจอนอกเหนือจากการป้อนข้อมูลประจำตัว</string>
-    <string name="accessibility_disclosure_start_up_text_1">ประกาศนี้จำเป็นก่อนที่ Multipass จะสามารถเสนอการเติมข้อมูลอัตโนมัติตามการช่วยการเข้าถึงได้</string>
-    <string name="accessibility_disclosure_start_up_text_2">Multipass มีวิธีการเติมข้อมูลอัตโนมัติทางเลือกที่ใช้ Android Accessibility Service ในการตรวจจับช่องเข้าสู่ระบบ หากคุณเปิดใช้งาน Multipass จะระบุช่องที่เหมาะสมและกรอกข้อมูลประจำตัวของคุณเมื่อพบข้อมูลที่ตรงกัน</string>
+    <string name="accessibility_disclosure_text">Bitwarden ใช้บริการการเข้าถึงเพื่อค้นหาช่องข้อมูลเข้าสู่ระบบในแอปและเว็บไซต์ จากนั้นระบุ ID ของช่องที่เหมาะสมเพื่อกรอกชื่อผู้ใช้และรหัสผ่านเมื่อพบแอปหรือเว็บไซต์ที่ตรงกัน เราไม่จัดเก็บข้อมูลใด ๆ ที่ได้รับจากบริการนี้ และไม่พยายามควบคุมองค์ประกอบใด ๆ บนหน้าจอนอกเหนือจากการป้อนข้อมูลประจำตัว</string>
+    <string name="accessibility_disclosure_start_up_text_1">ประกาศนี้จำเป็นก่อนที่ Bitwarden จะสามารถเสนอการเติมข้อมูลอัตโนมัติตามการช่วยการเข้าถึงได้</string>
+    <string name="accessibility_disclosure_start_up_text_2">Bitwarden มีวิธีการเติมข้อมูลอัตโนมัติทางเลือกที่ใช้ Android Accessibility Service ในการตรวจจับช่องเข้าสู่ระบบ หากคุณเปิดใช้งาน Bitwarden จะระบุช่องที่เหมาะสมและกรอกข้อมูลประจำตัวของคุณเมื่อพบข้อมูลที่ตรงกัน</string>
     <string name="accessibility_disclosure_start_up_text_3">เราไม่จัดเก็บข้อมูลใดๆ เกี่ยวกับสิ่งที่อยู่บนหน้าจอในขณะที่คุณใช้ Accessibility Service และเราไม่ควบคุมองค์ประกอบบนหน้าจอใดๆ นอกเหนือจากการป้อนข้อมูลประจำตัว</string>
     <string name="i_understand">ฉันเข้าใจ</string>
     <string name="accept">ยอมรับ</string>
@@ -643,7 +643,7 @@
     <string name="login_attempt_from_x_do_you_want_to_switch_to_this_account">พยายามเข้าสู่ระบบจาก:
 %1$s
 คุณต้องการสลับไปใช้บัญชีนี้หรือไม่</string>
-    <string name="new_to_bitwarden">เพิ่งเคยใช้ Multipass ใช่ไหม</string>
+    <string name="new_to_bitwarden">เพิ่งเคยใช้ Bitwarden ใช่ไหม</string>
     <string name="get_master_passwordword_hint">รับคำใบ้รหัสผ่านหลัก</string>
     <string name="logging_in_as_x_on_y">กำลังเข้าสู่ระบบในชื่อ %1$s เมื่อ %2$s</string>
     <string name="not_you">ไม่ใช่คุณหรือ</string>
@@ -700,7 +700,7 @@
     <string name="invalid_uri">URI ไม่ถูกต้อง</string>
     <string name="the_urix_is_already_blocked">URI %1$s ถูกปิดกั้นอยู่แล้ว</string>
     <string name="login_approved">อนุมัติการเข้าสู่ระบบแล้ว</string>
-    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">ต้องตั้งค่าเข้าสู่ระบบด้วยอุปกรณ์ ในการตั้งค่าของแอป Multipass</string>
+    <string name="log_in_with_device_must_be_set_up_in_the_settings_of_the_bitwarden_app">ต้องตั้งค่าเข้าสู่ระบบด้วยอุปกรณ์ ในการตั้งค่าของแอป Bitwarden</string>
     <string name="need_another_option_view_all_login_options">ต้องการตัวเลือกอื่นหรือไม่ <annotation link="viewAll">ดูตัวเลือกการเข้าสู่ระบบทั้งหมด</annotation></string>
     <string name="log_in_with_device">เข้าสู่ระบบด้วยอุปกรณ์</string>
     <string name="logging_in_on">กำลังเข้าสู่ระบบบน</string>
@@ -709,14 +709,14 @@
     <string name="select_vault">เลือกคลังข้อมูล</string>
     <string name="appearance">รูปลักษณ์</string>
     <string name="account_security">ความปลอดภัยของบัญชี</string>
-    <string name="bitwarden_help_center">Multipass Help Center</string>
+    <string name="bitwarden_help_center">Bitwarden Help Center</string>
     <string name="sync_now">ซิงค์ตอนนี้</string>
     <string name="unlock_options">ตัวเลือกการปลดล็อก</string>
     <string name="session_timeout">เวลาหมดอายุเซสชัน</string>
     <string name="session_timeout_action">การทำงานเมื่อเซสชันหมดอายุ</string>
     <string name="account_fingerprint_phrase">วลีลายนิ้วมือของบัญชี</string>
-    <string name="passkey_management_explanation_long">ใช้ Multipass เพื่อบันทึกพาสคีย์ใหม่และเข้าสู่ระบบด้วยพาสคีย์ที่เก็บไว้ในตู้นิรภัยของคุณ</string>
-    <string name="autofill_services_explanation_long">อนุญาตให้ Multipass ใช้ข้อมูลเข้าสู่ระบบที่คุณบันทึกไว้เพื่อลงชื่อเข้าใช้แอปอื่นในอุปกรณ์ของคุณ</string>
+    <string name="passkey_management_explanation_long">ใช้ Bitwarden เพื่อบันทึกพาสคีย์ใหม่และเข้าสู่ระบบด้วยพาสคีย์ที่เก็บไว้ในตู้นิรภัยของคุณ</string>
+    <string name="autofill_services_explanation_long">อนุญาตให้ Bitwarden ใช้ข้อมูลเข้าสู่ระบบที่คุณบันทึกไว้เพื่อลงชื่อเข้าใช้แอปอื่นในอุปกรณ์ของคุณ</string>
     <string name="use_inline_autofill_explanation_long">เลือกรูปแบบการแสดงคำแนะนำการป้อนอัตโนมัติเมื่อคุณลงชื่อเข้าใช้แอปอื่นในอุปกรณ์ของคุณ</string>
     <string name="additional_options">ตัวเลือกเพิ่มเติม</string>
     <string name="continue_to_web_app">ดำเนินการต่อไปยังเว็บแอปหรือไม่</string>
@@ -724,12 +724,12 @@
     <string name="continue_to_help_center">ดำเนินการต่อไปยังศูนย์ช่วยเหลือหรือไม่</string>
     <string name="continue_to_privacy_policy">ดำเนินการต่อไปยังนโยบายความเป็นส่วนตัวหรือไม่</string>
     <string name="continue_to_device_settings">ดำเนินการต่อไปยังการตั้งค่าอุปกรณ์หรือไม่</string>
-    <string name="two_step_login_description_long">ทำให้บัญชีของคุณปลอดภัยยิ่งขึ้นโดยการตั้งค่าการยืนยันตัวตนสองขั้นตอนในเว็บแอป Multipass</string>
-    <string name="change_master_password_description_long">คุณสามารถเปลี่ยนรหัสผ่านหลักได้ในเว็บแอป Multipass</string>
-    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">เรียนรู้เพิ่มเติมเกี่ยวกับวิธีใช้ Multipass ได้ที่ศูนย์ช่วยเหลือ</string>
+    <string name="two_step_login_description_long">ทำให้บัญชีของคุณปลอดภัยยิ่งขึ้นโดยการตั้งค่าการยืนยันตัวตนสองขั้นตอนในเว็บแอป Bitwarden</string>
+    <string name="change_master_password_description_long">คุณสามารถเปลี่ยนรหัสผ่านหลักได้ในเว็บแอป Bitwarden</string>
+    <string name="learn_more_about_how_to_use_bitwarden_on_the_help_center">เรียนรู้เพิ่มเติมเกี่ยวกับวิธีใช้ Bitwarden ได้ที่ศูนย์ช่วยเหลือ</string>
     <string name="privacy_policy_description_long">ดูนโยบายความเป็นส่วนตัวของเราได้ที่ bitwarden.com</string>
-    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">สำรวจฟีเจอร์เพิ่มเติมของบัญชี Multipass ของคุณได้บนเว็บแอป</string>
-    <string name="learn_about_organizations_description_long">Multipass อนุญาตให้คุณแชร์รายการในตู้นิรภัยกับผู้อื่นโดยใช้องค์กร เรียนรู้เพิ่มเติมได้ที่เว็บไซต์ bitwarden.com</string>
+    <string name="explore_more_features_of_your_bitwarden_account_on_the_web_app">สำรวจฟีเจอร์เพิ่มเติมของบัญชี Bitwarden ของคุณได้บนเว็บแอป</string>
+    <string name="learn_about_organizations_description_long">Bitwarden อนุญาตให้คุณแชร์รายการในตู้นิรภัยกับผู้อื่นโดยใช้องค์กร เรียนรู้เพิ่มเติมได้ที่เว็บไซต์ bitwarden.com</string>
     <string name="created_x">สร้างเมื่อ %1$s</string>
     <string name="your_organization_requires_you_to_set_a_master_password">องค์กรของคุณกำหนดให้คุณต้องตั้งรหัสผ่านหลัก</string>
     <string name="set_up_an_unlock_option_to_change_your_vault_timeout_action">ตั้งค่าตัวเลือกการปลดล็อกเพื่อเปลี่ยนการทำงานเมื่อตู้นิรภัยหมดเวลา</string>
@@ -739,8 +739,8 @@
     <string name="duo_two_step_login_is_required_for_your_account">จำเป็นต้องใช้ Duo สำหรับการยืนยันตัวตนสองขั้นตอนของบัญชีคุณ</string>
     <string name="follow_the_steps_from_duo_to_finish_logging_in">ทำตามขั้นตอนจาก Duo เพื่อเสร็จสิ้นการเข้าสู่ระบบ</string>
     <string name="launch_duo">เปิด Duo</string>
-    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">พาสคีย์ของคุณจะถูกบันทึกไว้ในตู้นิรภัย Multipass สำหรับ %1$s</string>
-    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">จะบันทึกรหัสผ่านของคุณลงในตู้นิรภัย Multipass สำหรับ %1$s</string>
+    <string name="your_passkey_will_be_saved_to_your_bitwarden_vault_for_x">พาสคีย์ของคุณจะถูกบันทึกไว้ในตู้นิรภัย Bitwarden สำหรับ %1$s</string>
+    <string name="your_password_will_be_saved_to_your_bitwarden_vault_for_x">จะบันทึกรหัสผ่านของคุณลงในตู้นิรภัย Bitwarden สำหรับ %1$s</string>
     <string name="passkeys_not_supported_for_this_app">แอปนี้ไม่รองรับพาสคีย์</string>
     <string name="passkey_operation_failed_because_browser_is_not_privileged">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากเบราว์เซอร์ไม่มีสิทธิ์</string>
     <string name="passkey_operation_failed_because_browser_signature_does_not_match">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากลายเซ็นเบราว์เซอร์ไม่ตรงกัน</string>
@@ -766,15 +766,15 @@
     <string name="check_your_email">ตรวจสอบอีเมลของคุณ</string>
     <string name="open_email_app">เปิดแอปอีเมล</string>
     <string name="email_verified">ยืนยันอีเมลแล้ว</string>
-    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">รับอีเมลข่าวสาร คำแนะนำ และโอกาสในการวิจัยจาก Multipass <annotation link="unsubscribe">เลิกรับข่าวสาร</annotation>ได้ตลอดเวลา</string>
+    <string name="get_emails_from_bitwarden_for_announcements_advices_and_research_opportunities_unsubscribe_any_time">รับอีเมลข่าวสาร คำแนะนำ และโอกาสในการวิจัยจาก Bitwarden <annotation link="unsubscribe">เลิกรับข่าวสาร</annotation>ได้ตลอดเวลา</string>
     <string name="security_prioritized">ความปลอดภัยต้องมาก่อน</string>
-    <string name="welcome_message_1">บันทึกข้อมูลเข้าสู่ระบบ บัตร และข้อมูลระบุตัวตนไว้ในตู้นิรภัยที่ปลอดภัย Multipass ใช้การเข้ารหัสแบบ Zero-knowledge และต้นทางถึงปลายทางเพื่อปกป้องสิ่งที่สำคัญสำหรับคุณ</string>
+    <string name="welcome_message_1">บันทึกข้อมูลเข้าสู่ระบบ บัตร และข้อมูลระบุตัวตนไว้ในตู้นิรภัยที่ปลอดภัย Bitwarden ใช้การเข้ารหัสแบบ Zero-knowledge และต้นทางถึงปลายทางเพื่อปกป้องสิ่งที่สำคัญสำหรับคุณ</string>
     <string name="welcome_message_2">ตั้งค่าการปลดล็อกด้วยไบโอเมตริกและการป้อนอัตโนมัติเพื่อเข้าสู่ระบบบัญชีของคุณโดยไม่ต้องพิมพ์แม้แต่ตัวอักษรเดียว</string>
     <string name="quick_and_easy_login">เข้าสู่ระบบง่ายและรวดเร็ว</string>
     <string name="level_up_your_logins">ยกระดับข้อมูลเข้าสู่ระบบ</string>
     <string name="welcome_message_3">ใช้ตัวสร้างเพื่อสร้างและบันทึกรหัสผ่านที่รัดกุมและไม่ซ้ำใครสำหรับทุกบัญชีของคุณ</string>
     <string name="your_data_when_and_where_you_need_it">ข้อมูลของคุณ ทุกที่ทุกเวลาที่คุณต้องการ</string>
-    <string name="welcome_message_4">บันทึกรหัสผ่านไม่จำกัดบนอุปกรณ์ไม่จำกัดด้วยแอปมือถือ เบราว์เซอร์ และเดสก์ท็อปของ Multipass</string>
+    <string name="welcome_message_4">บันทึกรหัสผ่านไม่จำกัดบนอุปกรณ์ไม่จำกัดด้วยแอปมือถือ เบราว์เซอร์ และเดสก์ท็อปของ Bitwarden</string>
     <string name="remove_passkey">ลบพาสคีย์</string>
     <string name="passkey_removed">ลบพาสคีย์แล้ว</string>
     <string name="what_makes_a_password_strong">อะไรทำให้รหัสผ่านรัดกุม</string>
@@ -804,8 +804,8 @@
     <string name="select_the_link_in_the_email_to_verify_your_email_address_and_continue_creating_your_account">เลือกลิงก์ในอีเมลเพื่อยืนยันที่อยู่อีเมลและดำเนินการสร้างบัญชีต่อ</string>
     <string name="change_email_address">เปลี่ยนที่อยู่อีเมล</string>
     <string name="next">ถัดไป</string>
-    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Multipass ไม่สามารถกู้คืนรหัสผ่านหลักที่สูญหายหรือลืมได้</string>
-    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Multipass ไม่สามารถรีเซ็ตรหัสผ่านหลักที่สูญหายหรือลืมได้</string>
+    <string name="bitwarden_cannot_recover_a_lost_or_forgotten_master_password">Bitwarden ไม่สามารถกู้คืนรหัสผ่านหลักที่สูญหายหรือลืมได้</string>
+    <string name="bitwarden_cannot_reset_a_lost_or_forgotten_master_password">Bitwarden ไม่สามารถรีเซ็ตรหัสผ่านหลักที่สูญหายหรือลืมได้</string>
     <string name="choose_your_master_password">เลือกรหัสผ่านหลักของคุณ</string>
     <string name="choose_a_unique_and_strong_password_to_keep_your_information_safe">เลือกรหัสผ่านที่ไม่ซ้ำใครและรัดกุมเพื่อรักษาความปลอดภัยข้อมูลของคุณ</string>
     <plurals name="minimum_characters">
@@ -820,16 +820,16 @@
     <string name="turn_on_autofill">เปิดใช้งานป้อนอัตโนมัติ</string>
     <string name="autofill_setup">การตั้งค่าการป้อนอัตโนมัติ</string>
     <string name="turn_on_browser_autofill_integration">เปิดใช้งานการรวมการป้อนอัตโนมัติในเบราว์เซอร์</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Multipass ป้อนรหัสผ่านอัตโนมัติได้</string>
-    <string name="browser_requires_special_permissions_for_bitwarden_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้  Multipass ป้อนรหัสผ่านอัตโนมัติได้</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Multipass ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการรวมการป้อนอัตโนมัติที่คุณต้องการด้านล่าง</string>
-    <string name="youre_using_a_browser_that_requires_special_permissions_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Multipass ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการป้อนอัตโนมัติสำหรับเบราว์เซอร์ที่ติดตั้งทั้งหมดเพื่อดำเนินการต่อ</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Bitwarden ป้อนรหัสผ่านอัตโนมัติได้</string>
+    <string name="browser_requires_special_permissions_for_bitwarden_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้  Bitwarden ป้อนรหัสผ่านอัตโนมัติได้</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_singular">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Bitwarden ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการรวมการป้อนอัตโนมัติที่คุณต้องการด้านล่าง</string>
+    <string name="youre_using_a_browser_that_requires_special_permissions_plural">คุณกำลังใช้เบราว์เซอร์ที่ต้องใช้สิทธิ์พิเศษเพื่อให้ Bitwarden ป้อนรหัสผ่านอัตโนมัติได้ เปิดใช้งานการป้อนอัตโนมัติสำหรับเบราว์เซอร์ที่ติดตั้งทั้งหมดเพื่อดำเนินการต่อ</string>
     <string name="use_autofill_to_log_into_your_accounts">ใช้การป้อนอัตโนมัติเพื่อเข้าสู่ระบบบัญชีของคุณด้วยการแตะเพียงครั้งเดียว</string>
     <string name="turn_on_later">เปิดใช้งานภายหลัง</string>
     <string name="turn_on_autofill_later">เปิดใช้งานป้อนอัตโนมัติภายหลังหรือไม่</string>
     <string name="turn_on_browser_autofill_integration_later">เปิดใช้งานการรวมการป้อนอัตโนมัติในเบราว์เซอร์ภายหลังหรือไม่</string>
     <string name="return_to_complete_this_step_anytime_in_settings">คุณสามารถกลับมาทำขั้นตอนนี้ให้เสร็จสิ้นได้ทุกเมื่อในการตั้งค่า</string>
-    <string name="what_bitwarden_has_to_offer">ตอนนี้คุณสามารถสำรวจทุกสิ่งที่ Multipass มีให้และเริ่มจัดการรหัสผ่านของคุณอย่างปลอดภัย</string>
+    <string name="what_bitwarden_has_to_offer">ตอนนี้คุณสามารถสำรวจทุกสิ่งที่ Bitwarden มีให้และเริ่มจัดการรหัสผ่านของคุณอย่างปลอดภัย</string>
     <string name="youre_all_set">เรียบร้อยแล้ว!</string>
     <string name="error_connecting_with_the_duo_service_use_a_different_two_step_login_method_or_contact_duo_for_assistance">เกิดข้อผิดพลาดในการเชื่อมต่อกับบริการ Duo ใช้วิธีการยืนยันตัวตนสองขั้นตอนอื่น หรือติดต่อ Duo เพื่อขอความช่วยเหลือ</string>
     <string name="master_password_hint_not_specified">คำใบ้รหัสผ่านหลัก</string>
@@ -848,7 +848,7 @@
     <string name="do_you_have_a_computer_available">คุณมีคอมพิวเตอร์พร้อมใช้งานหรือไม่</string>
     <string name="the_following_instructions_will_guide_you_through_importing_logins">คำแนะนำต่อไปนี้จะช่วยคุณนำเข้าข้อมูลเข้าสู่ระบบจากคอมพิวเตอร์เดสก์ท็อปหรือแล็ปท็อป</string>
     <string name="import_logins">นำเข้าข้อมูลเข้าสู่ระบบ</string>
-    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">ทำตามคำแนะนำเหล่านี้จากคอมพิวเตอร์ของคุณเพื่อส่งออกรหัสผ่านที่บันทึกไว้จากเบราว์เซอร์หรือตัวจัดการรหัสผ่านอื่น จากนั้นนำเข้าไปยัง Multipass อย่างปลอดภัย</string>
+    <string name="from_your_computer_follow_these_instructions_to_export_saved_passwords">ทำตามคำแนะนำเหล่านี้จากคอมพิวเตอร์ของคุณเพื่อส่งออกรหัสผ่านที่บันทึกไว้จากเบราว์เซอร์หรือตัวจัดการรหัสผ่านอื่น จากนั้นนำเข้าไปยัง Bitwarden อย่างปลอดภัย</string>
     <string name="give_your_vault_a_head_start">เริ่มต้นใช้งานตู้นิรภัยของคุณอย่างรวดเร็ว</string>
     <string name="class_3_biometrics_description">การปลดล็อกด้วยไบโอเมตริกต้องใช้การยืนยันตัวตนทางชีวภาพที่รัดกุม และอาจไม่สามารถใช้ร่วมกับตัวเลือกไบโอเมตริกทั้งหมดในอุปกรณ์นี้ได้</string>
     <string name="class_2_biometrics_description">การปลดล็อกด้วยไบโอเมตริกต้องใช้การยืนยันตัวตนทางชีวภาพที่รัดกุม และไม่สามารถใช้ร่วมกับตัวเลือกไบโอเมตริกที่มีในอุปกรณ์นี้ได้</string>
@@ -859,28 +859,28 @@
     <string name="export_your_saved_logins">ส่งออกข้อมูลเข้าสู่ระบบที่บันทึกไว้ของคุณ</string>
     <string name="delete_this_file_after_import_is_complete">คุณจะลบไฟล์นี้หลังจากนำเข้าเสร็จสมบูรณ์</string>
     <string name="on_your_computer_open_a_new_browser_tab_and_go_to_vault_bitwarden_com">บนคอมพิวเตอร์ ให้เปิดแท็บเบราว์เซอร์ใหม่และ <annotation emphasis="bold">ไปที่ <annotation arg="0">%1$s</annotation></annotation></string>
-    <string name="log_in_to_the_bitwarden_web_app">เข้าสู่ระบบเว็บแอป Multipass</string>
+    <string name="log_in_to_the_bitwarden_web_app">เข้าสู่ระบบเว็บแอป Bitwarden</string>
     <string name="step_2_of_3">ขั้นตอนที่ 2 จาก 3</string>
-    <string name="log_in_to_bitwarden">เข้าสู่ระบบ Multipass</string>
+    <string name="log_in_to_bitwarden">เข้าสู่ระบบ Bitwarden</string>
     <string name="step_3_of_3">ขั้นตอนที่ 3 จาก 3</string>
-    <string name="import_logins_to_bitwarden">นำเข้าข้อมูลเข้าสู่ระบบไปยัง Multipass</string>
-    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">ในเมนูการนำทางของ Multipass <annotation emphasis="bold">ให้หาเมนูเครื่องมือ</annotation> และ <annotation emphasis="bold">เลือก นำเข้าข้อมูล</annotation></string>
+    <string name="import_logins_to_bitwarden">นำเข้าข้อมูลเข้าสู่ระบบไปยัง Bitwarden</string>
+    <string name="in_the_bitwarden_navigation_find_the_tools_option_and_select_import_data">ในเมนูการนำทางของ Bitwarden <annotation emphasis="bold">ให้หาเมนูเครื่องมือ</annotation> และ <annotation emphasis="bold">เลือก นำเข้าข้อมูล</annotation></string>
     <string name="fill_out_the_form_and_import_your_saved_password_file">กรอกแบบฟอร์มและ <annotation emphasis="bold">นำเข้าไฟล์รหัสผ่านที่บันทึกไว้ของคุณ</annotation></string>
     <string name="for_your_security_be_sure_to_delete_your_saved_password_file">เพื่อความปลอดภัย โปรดแน่ใจว่าได้ <annotation emphasis="bold">ลบไฟล์รหัสผ่านที่บันทึกไว้ของคุณ</annotation></string>
     <string name="need_help_check_out_import_help">ต้องการความช่วยเหลือหรือไม่ ดู<annotation link="importHelp">วิธีนำเข้า</annotation></string>
     <string name="import_help">นำเข้าความช่วยเหลือ</string>
     <string name="save_the_exported_file_somewhere_on_your_computer_you_can_find_easily"><annotation emphasis="bold">บันทึกไฟล์ที่ส่งออก</annotation> ไว้ในตำแหน่งบนคอมพิวเตอร์ที่คุณหาได้ง่าย</string>
-    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">นี่ไม่ใช่เซิร์ฟเวอร์ Multipass ที่รู้จัก คุณอาจต้องตรวจสอบกับผู้ให้บริการของคุณหรืออัปเดตเซิร์ฟเวอร์</string>
+    <string name="this_is_not_a_recognized_bitwarden_server_you_may_need_to_check_with_your_provider_or_update_your_server">นี่ไม่ใช่เซิร์ฟเวอร์ Bitwarden ที่รู้จัก คุณอาจต้องตรวจสอบกับผู้ให้บริการของคุณหรืออัปเดตเซิร์ฟเวอร์</string>
     <string name="syncing_logins_loading_message">กำลังซิงค์ข้อมูลเข้าสู่ระบบ…</string>
     <string name="download_the_browser_extension">ดาวน์โหลดส่วนขยายเบราว์เซอร์</string>
-    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">ไปที่ bitwarden.com/download เพื่อรวม Multipass เข้ากับเบราว์เซอร์โปรดของคุณเพื่อประสบการณ์ที่ราบรื่น</string>
+    <string name="go_to_bitwarden_com_download_to_integrate_bitwarden_into_browser">ไปที่ bitwarden.com/download เพื่อรวม Bitwarden เข้ากับเบราว์เซอร์โปรดของคุณเพื่อประสบการณ์ที่ราบรื่น</string>
     <string name="use_the_web_app">ใช้เว็บแอป</string>
     <string name="log_in_at_bitwarden_com_to_easily_manage_your_account">เข้าสู่ระบบที่ bitwarden.com เพื่อจัดการบัญชีและอัปเดตการตั้งค่าของคุณได้อย่างง่ายดาย</string>
     <string name="autofill_passwords">ป้อนรหัสผ่านอัตโนมัติ</string>
     <string name="set_up_autofill_on_all_your_devices">ตั้งค่าการป้อนอัตโนมัติบนอุปกรณ์ทั้งหมดของคุณเพื่อเข้าสู่ระบบด้วยการแตะเพียงครั้งเดียวจากทุกที่</string>
     <string name="import_successful">นำเข้าสำเร็จ!</string>
-    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">จัดการข้อมูลเข้าสู่ระบบของคุณได้จากทุกที่ด้วยเครื่องมือ Multipass สำหรับเว็บและเดสก์ท็อป</string>
-    <string name="bitwarden_tools">เครื่องมือ Multipass</string>
+    <string name="manage_your_logins_from_anywhere_with_bitwarden_tools">จัดการข้อมูลเข้าสู่ระบบของคุณได้จากทุกที่ด้วยเครื่องมือ Bitwarden สำหรับเว็บและเดสก์ท็อป</string>
+    <string name="bitwarden_tools">เครื่องมือ Bitwarden</string>
     <string name="got_it">รับทราบ</string>
     <string name="no_logins_were_imported">ไม่มีข้อมูลเข้าสู่ระบบที่ถูกนำเข้า</string>
     <string name="import_error">ข้อผิดพลาดในการนำเข้า</string>
@@ -897,7 +897,7 @@
         <item quantity="other">%d การแจ้งเตือน</item>
     </plurals>
     <string name="log_in_quickly_and_easily_across_devices">เข้าสู่ระบบอย่างรวดเร็วและง่ายดายข้ามอุปกรณ์</string>
-    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Multipass สามารถแจ้งเตือนคุณทุกครั้งที่คุณได้รับคำขอเข้าสู่ระบบใหม่จากอุปกรณ์อื่น</string>
+    <string name="bitwarden_can_notify_you_each_time_you_receive_a_new_login_request_from_another_device">Bitwarden สามารถแจ้งเตือนคุณทุกครั้งที่คุณได้รับคำขอเข้าสู่ระบบใหม่จากอุปกรณ์อื่น</string>
     <string name="skip_for_now">ข้ามไปก่อน</string>
     <string name="done_text">เสร็จสิ้น</string>
     <string name="page_number_x_of_y">%1$s จาก %2$s</string>
@@ -922,7 +922,7 @@
     <string name="add_a_number_or_symbol_to_make_it_even_stronger"><annotation emphasis="bold">เพิ่มตัวเลขหรือสัญลักษณ์</annotation> เพื่อให้รัดกุมยิ่งขึ้น ตอนนี้คุณก็มีวลีรหัสผ่านที่ไม่ซ้ำ ปลอดภัย และจำง่ายแล้ว!</string>
     <string name="need_some_inspiration">ต้องการแรงบันดาลใจไหม</string>
     <string name="check_out_the_passphrase_generator">ลองดูตัวสร้างวลีรหัสผ่าน</string>
-    <string name="we_couldnt_verify_the_servers_certificate">ไม่สามารถตรวจสอบใบรับรองของเซิร์ฟเวอร์ได้ ห่วงโซ่ใบรับรองหรือการตั้งค่าพร็อกซีบนอุปกรณ์ของคุณหรือเซิร์ฟเวอร์ Multipass อาจตั้งค่าไม่ถูกต้อง</string>
+    <string name="we_couldnt_verify_the_servers_certificate">ไม่สามารถตรวจสอบใบรับรองของเซิร์ฟเวอร์ได้ ห่วงโซ่ใบรับรองหรือการตั้งค่าพร็อกซีบนอุปกรณ์ของคุณหรือเซิร์ฟเวอร์ Bitwarden อาจตั้งค่าไม่ถูกต้อง</string>
     <string name="copy_private_key">คัดลอก Private Key</string>
     <string name="login_credentials">ข้อมูลประจำตัวสำหรับเข้าสู่ระบบ</string>
     <string name="autofill_options">ตัวเลือกการป้อนอัตโนมัติ</string>
@@ -949,7 +949,7 @@
     <string name="coachmark_5_of_6">5 จาก 6</string>
     <string name="coachmark_6_of_6">6 จาก 6</string>
     <string name="use_these_options_to_adjust_your_password_to_your_account_requirements">ใช้ตัวเลือกเหล่านี้เพื่อปรับรหัสผ่านให้ตรงตามข้อกำหนดของเว็บไซต์บัญชี</string>
-    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">หลังจากบันทึกรหัสผ่านใหม่ลงใน Multipass แล้ว อย่าลืมอัปเดตที่เว็บไซต์บัญชีของคุณด้วย</string>
+    <string name="after_you_save_your_new_password_to_bitwarden_don_t_forget_to_update_it_on_your_account_website">หลังจากบันทึกรหัสผ่านใหม่ลงใน Bitwarden แล้ว อย่าลืมอัปเดตที่เว็บไซต์บัญชีของคุณด้วย</string>
     <string name="verify_your_identity">ยืนยันตัวตนของคุณ</string>
     <string name="error_loading_certificate">เกิดข้อผิดพลาดในการโหลดใบรับรอง</string>
     <string name="certificate_alias">นามแฝงใบรับรอง</string>
@@ -960,7 +960,7 @@
     <string name="unsupported_certificate_type">ไม่รองรับประเภทใบรับรอง</string>
     <string name="certificate_password_incorrect">รหัสผ่านใบรับรองไม่ถูกต้อง</string>
     <string name="invalid_certificate_chain">ห่วงโซ่ใบรับรองไม่ถูกต้อง</string>
-    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">การใช้ใบรับรองระบบมีความปลอดภัยน้อยกว่าการจัดเก็บใบรับรองไว้กับ Multipass การดำเนินการต่อจะแสดงรายการใบรับรองระบบที่มีอยู่หากมีการติดตั้งไว้แล้ว</string>
+    <string name="system_certificates_are_not_as_secure_as_importing_certificates_to_bitwarden">การใช้ใบรับรองระบบมีความปลอดภัยน้อยกว่าการจัดเก็บใบรับรองไว้กับ Bitwarden การดำเนินการต่อจะแสดงรายการใบรับรองระบบที่มีอยู่หากมีการติดตั้งไว้แล้ว</string>
     <string name="link">ลิงก์</string>
     <string name="passkey_operation_failed_because_host_url_is_not_present_in_request">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากไม่มี URL โฮสต์ในคำขอ</string>
     <string name="passkey_operation_failed_because_app_signature_is_invalid">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากลายเซ็นแอปไม่ถูกต้อง</string>
@@ -998,8 +998,8 @@
     <string name="experiencing_an_issue">พบปัญหาใช่ไหม</string>
     <string name="enable_temporary_logging_to_collect_and_inspect_logs_locally">เปิดใช้งานการบันทึกชั่วคราวเพื่อรวบรวมและตรวจสอบบันทึกภายในเครื่อง เมื่อเปิดใช้งาน สถานะของแอปพลิเคชันและการเรียกเครือข่ายอาจถูกบันทึก—แต่จะไม่บันทึกข้อมูลตู้นิรภัยที่สำคัญ</string>
     <string name="to_get_started_set_a_logging_duration">ในการเริ่มต้น ให้กำหนดระยะเวลาการบันทึก การบันทึกจะปิดอัตโนมัติเมื่อครบกำหนดเวลา เพื่อให้คุณมีเวลาจับภาพกิจกรรมขณะจำลองปัญหา</string>
-    <string name="logs_will_be_automatically_deleted_after_30_days">บันทึกจะถูกลบโดยอัตโนมัติหลังจาก 30 วัน Multipass สามารถเข้าถึงข้อมูลบันทึกของคุณได้เมื่อคุณแชร์เท่านั้น</string>
-    <string name="for_details_on_what_is_and_isnt_logged">สำหรับรายละเอียดเกี่ยวกับสิ่งที่บันทึกและไม่บันทึก โปรดไปที่\n<annotation link="helpCenter">ศูนย์ช่วยเหลือ Multipass</annotation></string>
+    <string name="logs_will_be_automatically_deleted_after_30_days">บันทึกจะถูกลบโดยอัตโนมัติหลังจาก 30 วัน Bitwarden สามารถเข้าถึงข้อมูลบันทึกของคุณได้เมื่อคุณแชร์เท่านั้น</string>
+    <string name="for_details_on_what_is_and_isnt_logged">สำหรับรายละเอียดเกี่ยวกับสิ่งที่บันทึกและไม่บันทึก โปรดไปที่\n<annotation link="helpCenter">ศูนย์ช่วยเหลือ Bitwarden</annotation></string>
     <string name="logging_duration">ระยะเวลาการบันทึก</string>
     <string name="flight_recorder_one_hour">1 ชั่วโมง</string>
     <string name="flight_recorder_eight_hours">8 ชั่วโมง</string>
@@ -1030,29 +1030,29 @@
     <string name="unable_to_read_certificate">ไม่สามารถอ่านใบรับรองได้</string>
     <string name="cannot_delete_your_account">ไม่สามารถลบบัญชีของคุณได้</string>
     <string name="cannot_delete_your_account_explanation">การกระทำนี้ไม่สามารถทำได้เนื่องจากบัญชีของคุณเป็นขององค์กร ติดต่อผู้ดูแลระบบองค์กรของคุณสำหรับรายละเอียดเพิ่มเติม</string>
-    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">บัญชีนี้จะถูกลบในเร็ว ๆ นี้ เข้าสู่ระบบที่ %1$s เพื่อใช้ Multipass ต่อไป</string>
+    <string name="this_account_will_soon_be_deleted_log_in_at_x_to_continue_using_bitwarden">บัญชีนี้จะถูกลบในเร็ว ๆ นี้ เข้าสู่ระบบที่ %1$s เพื่อใช้ Bitwarden ต่อไป</string>
     <string name="view_file_send">ดูไฟล์ Send</string>
     <string name="view_text_send">ดูข้อความ Send</string>
     <string name="delete_send">ลบ Send</string>
     <string name="missing_send_resync_your_vault">ไม่พบรายการ Send ให้ซิงค์ตู้นิรภัยใหม่</string>
     <string name="use_dynamic_colors">ใช้สีแบบไดนามิก</string>
     <string name="use_dynamic_colors_question">ใช้สีแบบไดนามิกหรือไม่</string>
-    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">รูปแบบสีนี้จะใช้สีของระบบกับ Multipass โดยอัตโนมัติตามวอลเปเปอร์ปัจจุบันของคุณ สีเหล่านี้อาจไม่ตรงตามหลักเกณฑ์การเข้าถึงทั้งหมด</string>
+    <string name="dynamic_colors_may_not_adhere_to_accessibility_guidelines">รูปแบบสีนี้จะใช้สีของระบบกับ Bitwarden โดยอัตโนมัติตามวอลเปเปอร์ปัจจุบันของคุณ สีเหล่านี้อาจไม่ตรงตามหลักเกณฑ์การเข้าถึงทั้งหมด</string>
     <string name="passkey_operation_failed_because_browser_x_is_not_trusted">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากไม่รู้จักเบราว์เซอร์ (%1$s) เลือก “เชื่อถือ” เพื่อเพิ่ม %1$s ลงในรายการแอปพลิเคชันที่เชื่อถือในเครื่อง</string>
     <string name="passkey_operation_failed_because_the_browser_is_not_trusted">การดำเนินการพาสคีย์ล้มเหลวเนื่องจากเบราว์เซอร์ไม่ได้รับความเชื่อถือ</string>
     <string name="trust">เชื่อถือ</string>
-    <string name="trusted_by_you_learn_more">เหล่านี้คือแอปพลิเคชันหรือเบราว์เซอร์ที่ Multipass ไม่เชื่อถือโดยค่าเริ่มต้น แต่คุณเชื่อถือให้ดำเนินการพาสคีย์</string>
-    <string name="trusted_by_community_learn_more">แอปพลิเคชันเหล่านี้ไม่ได้อยู่ใน Google Play Store แต่ Multipass เชื่อถือให้ดำเนินการพาสคีย์หลังจากสมาชิกในชุมชนใช้งานและรายงานว่าปลอดภัย</string>
+    <string name="trusted_by_you_learn_more">เหล่านี้คือแอปพลิเคชันหรือเบราว์เซอร์ที่ Bitwarden ไม่เชื่อถือโดยค่าเริ่มต้น แต่คุณเชื่อถือให้ดำเนินการพาสคีย์</string>
+    <string name="trusted_by_community_learn_more">แอปพลิเคชันเหล่านี้ไม่ได้อยู่ใน Google Play Store แต่ Bitwarden เชื่อถือให้ดำเนินการพาสคีย์หลังจากสมาชิกในชุมชนใช้งานและรายงานว่าปลอดภัย</string>
     <string name="trusted_by_google_learn_more">แอปพลิเคชันเหล่านี้ Google พิจารณาว่าปลอดภัยและมีอยู่ใน Google Play Store</string>
     <string name="trusted_by_you">ที่คุณเชื่อถือ</string>
     <string name="trusted_by_the_community">ที่ชุมชนเชื่อถือ</string>
     <string name="trusted_by_google">ที่ Google เชื่อถือ</string>
-    <string name="privileged_apps_description">เพื่อปกป้องผู้ใช้จากการพยายามฟิชชิง โดยค่าเริ่มต้น Multipass จะดำเนินการพาสคีย์ผ่านแอปพลิเคชันหรือเว็บเบราว์เซอร์ที่ Google หรือชุมชน Multipass เชื่อถือเท่านั้น</string>
+    <string name="privileged_apps_description">เพื่อปกป้องผู้ใช้จากการพยายามฟิชชิง โดยค่าเริ่มต้น Bitwarden จะดำเนินการพาสคีย์ผ่านแอปพลิเคชันหรือเว็บเบราว์เซอร์ที่ Google หรือชุมชน Bitwarden เชื่อถือเท่านั้น</string>
     <string name="about_privileged_applications">เกี่ยวกับแอปที่มีสิทธิ์พิเศษ</string>
     <string name="learn_more_about_privileged_apps">เรียนรู้เพิ่มเติมเกี่ยวกับแอปที่มีสิทธิ์พิเศษ</string>
     <string name="privileged_apps">แอปที่มีสิทธิ์พิเศษ</string>
     <string name="unrecognized_browser">เบราว์เซอร์ที่ไม่รู้จัก</string>
-    <string name="learn_more_about_using_passkeys_with_bitwarden">เรียนรู้เพิ่มเติมเกี่ยวกับการใช้พาสคีย์กับ Multipass</string>
+    <string name="learn_more_about_using_passkeys_with_bitwarden">เรียนรู้เพิ่มเติมเกี่ยวกับการใช้พาสคีย์กับ Bitwarden</string>
     <string name="all_trusted_apps">แอปที่เชื่อถือทั้งหมด</string>
     <string name="are_you_sure_you_want_to_stop_trusting_x">ยืนยันที่จะเลิกเชื่อถือ %s หรือไม่</string>
     <string name="installed_apps">แอปที่ติดตั้งแล้ว</string>
@@ -1079,7 +1079,7 @@
     <string name="information">ข้อมูล</string>
     <string name="otp_type">ประเภท OTP</string>
     <string name="search_codes">ค้นหารหัส</string>
-    <string name="secure_your_accounts_with_bitwarden_authenticator">รักษาความปลอดภัยบัญชีของคุณด้วย Multipass Authenticator</string>
+    <string name="secure_your_accounts_with_bitwarden_authenticator">รักษาความปลอดภัยบัญชีของคุณด้วย Bitwarden Authenticator</string>
     <string name="get_verification_codes_for_all_your_accounts">รับรหัสยืนยันสำหรับทุกบัญชีของคุณที่รองรับการยืนยันตัวตนแบบ 2 ขั้นตอน</string>
     <string name="use_your_device_camera_to_scan_codes">ใช้กล้องของอุปกรณ์เพื่อสแกนรหัส</string>
     <string name="scan_the_qr_code_in_your_2_step_verification_settings_for_any_account">สแกน QR Code ในการตั้งค่าการยืนยันตัวตนแบบ 2 ขั้นตอนสำหรับบัญชีใดก็ได้</string>
@@ -1100,7 +1100,7 @@
     <string name="too_many_failed_biometric_attempts">พยายามใช้ไบโอเมตริกไม่สำเร็จมากเกินไป</string>
     <string name="version">เวอร์ชัน</string>
     <string name="version_x" comment="%1$s is the version string (e.g. 2025.1.0 (1234)).">เวอร์ชัน: %1$s</string>
-    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">เรียนรู้เพิ่มเติมเกี่ยวกับวิธีใช้ Multipass Authenticator ได้ที่ศูนย์ช่วยเหลือ</string>
+    <string name="learn_more_about_how_to_use_bitwarden_authenticator_on_the_help_center">เรียนรู้เพิ่มเติมเกี่ยวกับวิธีใช้ Bitwarden Authenticator ได้ที่ศูนย์ช่วยเหลือ</string>
     <string name="key">คีย์</string>
     <string name="create_verification_code">สร้างรหัสยืนยัน</string>
     <string name="key_is_required">จำเป็นต้องมีคีย์</string>
@@ -1111,30 +1111,30 @@
     <string name="key_is_invalid">คีย์ไม่ถูกต้อง</string>
     <string name="backup">สำรองข้อมูล</string>
     <string name="data_backup_title">การสำรองข้อมูล</string>
-    <string name="data_backup_message">ข้อมูล Multipass Authenticator ได้รับการสำรองไว้และสามารถกู้คืนได้ด้วยการสำรองข้อมูลอุปกรณ์ตามกำหนดเวลาปกติของคุณ</string>
+    <string name="data_backup_message">ข้อมูล Bitwarden Authenticator ได้รับการสำรองไว้และสามารถกู้คืนได้ด้วยการสำรองข้อมูลอุปกรณ์ตามกำหนดเวลาปกติของคุณ</string>
     <string name="import_2fas_password_protected_not_supported">ไม่รองรับการนำเข้าจากไฟล์ 2FAS ที่ป้องกันด้วยรหัสผ่าน โปรดลองอีกครั้งด้วยไฟล์ที่ส่งออกซึ่งไม่มีการป้องกันด้วยรหัสผ่าน</string>
-    <string name="import_bitwarden_unsupported_format">ไม่รองรับการนำเข้าไฟล์ CSV ของ Multipass โปรดลองอีกครั้งด้วยไฟล์ JSON ที่ส่งออก</string>
-    <string name="download_bitwarden_card_title">ดาวน์โหลดแอป Multipass</string>
+    <string name="import_bitwarden_unsupported_format">ไม่รองรับการนำเข้าไฟล์ CSV ของ Bitwarden โปรดลองอีกครั้งด้วยไฟล์ JSON ที่ส่งออก</string>
+    <string name="download_bitwarden_card_title">ดาวน์โหลดแอป Bitwarden</string>
     <string name="download_bitwarden_card_message">จัดเก็บข้อมูลเข้าสู่ระบบทั้งหมดของคุณและซิงค์รหัสยืนยันกับแอป Authenticator โดยตรง</string>
     <string name="download_now">ดาวน์โหลดเลย</string>
-    <string name="sync_with_bitwarden_app">ซิงค์กับแอป Multipass</string>
+    <string name="sync_with_bitwarden_app">ซิงค์กับแอป Bitwarden</string>
     <string name="learn_more_link"><annotation link="learnMore">เรียนรู้เพิ่มเติม</annotation></string>
-    <string name="shared_codes_error">ไม่สามารถซิงค์รหัสจากแอป Multipass ตรวจสอบให้แน่ใจว่าทั้งสองแอปเป็นเวอร์ชันล่าสุด คุณยังคงสามารถเข้าถึงรหัสที่มีอยู่ในแอป Multipass ได้</string>
-    <string name="sync_with_the_bitwarden_app">ซิงค์กับแอป Multipass</string>
+    <string name="shared_codes_error">ไม่สามารถซิงค์รหัสจากแอป Bitwarden ตรวจสอบให้แน่ใจว่าทั้งสองแอปเป็นเวอร์ชันล่าสุด คุณยังคงสามารถเข้าถึงรหัสที่มีอยู่ในแอป Bitwarden ได้</string>
+    <string name="sync_with_the_bitwarden_app">ซิงค์กับแอป Bitwarden</string>
     <string name="sync_with_bitwarden_action_card_message">อนุญาตการซิงค์แอป Authenticator ในการตั้งค่าเพื่อดูรหัสยืนยันทั้งหมดของคุณที่นี่</string>
     <string name="take_me_to_app_settings">พาฉันไปที่การตั้งค่าแอป</string>
     <string name="something_went_wrong">มีบางอย่างผิดปกติ</string>
     <string name="please_try_again">โปรดลองอีกครั้ง</string>
-    <string name="copy_to_bitwarden_vault">คัดลอกไปยังตู้นิรภัย Multipass</string>
+    <string name="copy_to_bitwarden_vault">คัดลอกไปยังตู้นิรภัย Bitwarden</string>
     <string name="default_save_option">ตัวเลือกการบันทึกเริ่มต้น</string>
-    <string name="save_to_bitwarden">บันทึกไปที่ Multipass</string>
+    <string name="save_to_bitwarden">บันทึกไปที่ Bitwarden</string>
     <string name="save_here">บันทึกที่นี่</string>
     <string name="none">ไม่มี</string>
     <string name="default_save_options_subtitle">เลือกตำแหน่งที่คุณต้องการบันทึกรหัสยืนยันใหม่</string>
     <string name="verification_code_created">สร้างรหัสยืนยันแล้ว</string>
-    <string name="choose_save_location_message">บันทึกคีย์ยืนยันตัวตนนี้ที่นี่ หรือเพิ่มลงในข้อมูลเข้าสู่ระบบในแอป Multipass ของคุณ</string>
+    <string name="choose_save_location_message">บันทึกคีย์ยืนยันตัวตนนี้ที่นี่ หรือเพิ่มลงในข้อมูลเข้าสู่ระบบในแอป Bitwarden ของคุณ</string>
     <string name="save_option_as_default">บันทึกตัวเลือกเป็นค่าเริ่มต้น</string>
-    <string name="account_synced_from_bitwarden_app">บัญชีซิงค์จากแอป Multipass</string>
+    <string name="account_synced_from_bitwarden_app">บัญชีซิงค์จากแอป Bitwarden</string>
     <string name="local_codes">รหัสในเครื่อง (%1$d)</string>
     <string name="required_information_missing">ข้อมูลที่จำเป็นหายไป</string>
     <string name="required_information_missing_message">ข้อมูลที่จำเป็นหายไป (เช่น ‘services’ หรือ ‘secret’) ตรวจสอบไฟล์ของคุณแล้วลองอีกครั้ง เยี่ยมชม bitwarden.com/help เพื่อขอความช่วยเหลือ</string>
@@ -1148,9 +1148,9 @@
     <string name="items_are_collapsed_click_to_expand">ย่อรายการอยู่ คลิกเพื่อขยาย</string>
     <string name="error_cannot_decrypt">[ข้อผิดพลาด: ไม่สามารถถอดรหัสได้]</string>
     <string name="copy_error_report">คัดลอกรายงานข้อผิดพลาด</string>
-    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Multipass ไม่สามารถถอดรหัสรายการในตู้นิรภัยนี้ได้ คัดลอกและแชร์รายงานข้อผิดพลาดนี้กับฝ่ายดูแลลูกค้าเพื่อหลีกเลี่ยงการสูญเสียข้อมูลเพิ่มเติม</string>
+    <string name="bitwarden_could_not_decrypt_this_vault_item_description_long">Bitwarden ไม่สามารถถอดรหัสรายการในตู้นิรภัยนี้ได้ คัดลอกและแชร์รายงานข้อผิดพลาดนี้กับฝ่ายดูแลลูกค้าเพื่อหลีกเลี่ยงการสูญเสียข้อมูลเพิ่มเติม</string>
     <plurals name="bitwarden_could_not_decrypt_x_vault_item_copy_and_share_description_long">
-        <item quantity="other">Multipass ไม่สามารถถอดรหัสรายการตู้นิรภัย %1$d รายการ คัดลอกและแชร์รายงานข้อผิดพลาดนี้กับทีมบริการลูกค้าเพื่อหลีกเลี่ยงการสูญเสียข้อมูลเพิ่มเติม</item>
+        <item quantity="other">Bitwarden ไม่สามารถถอดรหัสรายการตู้นิรภัย %1$d รายการ คัดลอกและแชร์รายงานข้อผิดพลาดนี้กับทีมบริการลูกค้าเพื่อหลีกเลี่ยงการสูญเสียข้อมูลเพิ่มเติม</item>
     </plurals>
     <string name="select_a_card_for_x">เลือกบัตรสำหรับ %s</string>
     <string name="advanced_options">ตัวเลือกขั้นสูง</string>
@@ -1158,8 +1158,8 @@
     <string name="keep_your_credential_secure">รักษาความปลอดภัยข้อมูลประจำตัวของคุณ</string>
     <string name="learn_more_about_how_to_keep_credentirals_secure">เรียนรู้เพิ่มเติมเกี่ยวกับวิธีรักษาความปลอดภัยข้อมูลประจำตัวเมื่อใช้ “%1$s”</string>
     <string name="are_you_sure_you_want_to_use">ยืนยันที่จะใช้ “%1$s” หรือไม่</string>
-    <string name="default_uri_match_detection_description_advanced_options_incorrectly">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Multipass ระบุคำแนะนำการป้อนอัตโนมัติ\n<annotation emphasis="bold">คำเตือน:</annotation> “Regular Expression” เป็นตัวเลือกขั้นสูงที่มีความเสี่ยงเพิ่มขึ้นที่จะเปิดเผยข้อมูลประจำตัวหากใช้ไม่ถูกต้อง</string>
-    <string name="default_uri_match_detection_description_advanced_options">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Multipass ระบุคำแนะนำการป้อนอัตโนมัติ\n<annotation emphasis="bold">คำเตือน:</annotation> “ขึ้นต้นด้วย” เป็นตัวเลือกขั้นสูงที่มีความเสี่ยงเพิ่มขึ้นที่จะเปิดเผยข้อมูลประจำตัว</string>
+    <string name="default_uri_match_detection_description_advanced_options_incorrectly">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Bitwarden ระบุคำแนะนำการป้อนอัตโนมัติ\n<annotation emphasis="bold">คำเตือน:</annotation> “Regular Expression” เป็นตัวเลือกขั้นสูงที่มีความเสี่ยงเพิ่มขึ้นที่จะเปิดเผยข้อมูลประจำตัวหากใช้ไม่ถูกต้อง</string>
+    <string name="default_uri_match_detection_description_advanced_options">การตรวจสอบการจับคู่ URI ควบคุมวิธีที่ Bitwarden ระบุคำแนะนำการป้อนอัตโนมัติ\n<annotation emphasis="bold">คำเตือน:</annotation> “ขึ้นต้นด้วย” เป็นตัวเลือกขั้นสูงที่มีความเสี่ยงเพิ่มขึ้นที่จะเปิดเผยข้อมูลประจำตัว</string>
     <string name="advanced_option_with_increased_risk_of_exposing_credentials">“ขึ้นต้นด้วย” เป็นตัวเลือกขั้นสูงที่มีความเสี่ยงเพิ่มขึ้นที่จะเปิดเผยข้อมูลประจำตัว</string>
     <string name="advanced_option_increased_risk_exposing_credentials_used_incorrectly">“Regular Expression” เป็นตัวเลือกขั้นสูงที่มีความเสี่ยงเพิ่มขึ้นที่จะเปิดเผยข้อมูลประจำตัวหากใช้ไม่ถูกต้อง</string>
     <string name="later">ภายหลัง</string>
@@ -1183,17 +1183,17 @@
         <item quantity="other">นำเข้า %1$d รายการไปยังตู้นิรภัยของคุณแล้ว</item>
     </plurals>
     <string name="enable_browser_autofill_to_keep_filling_passwords">เปิดใช้งานการป้อนอัตโนมัติของเบราว์เซอร์เพื่อป้อนรหัสผ่านต่อไป</string>
-    <string name="your_browser_recently_updated_how_autofill_works_singular">เบราว์เซอร์ของคุณเพิ่งได้รับการอัปเดต ซึ่งปิดใช้งานการป้อนอัตโนมัติของ Multipass เพื่อป้อนรหัสผ่านด้วย Multipass ต่อไป ให้เปิดใช้งานการป้อนอัตโนมัติของเบราว์เซอร์ในการตั้งค่าการป้อนอัตโนมัติ</string>
+    <string name="your_browser_recently_updated_how_autofill_works_singular">เบราว์เซอร์ของคุณเพิ่งได้รับการอัปเดต ซึ่งปิดใช้งานการป้อนอัตโนมัติของ Bitwarden เพื่อป้อนรหัสผ่านด้วย Bitwarden ต่อไป ให้เปิดใช้งานการป้อนอัตโนมัติของเบราว์เซอร์ในการตั้งค่าการป้อนอัตโนมัติ</string>
     <string name="not_now">ไม่ใช่ตอนนี้</string>
-    <string name="import_from_bitwarden">นำเข้าจาก Multipass</string>
+    <string name="import_from_bitwarden">นำเข้าจาก Bitwarden</string>
     <string name="select_account">เลือกบัญชี</string>
     <string name="no_accounts_available">ไม่มีบัญชีที่ใช้ได้</string>
-    <string name="you_dont_have_any_accounts_you_can_import_from">คุณไม่มีบัญชีที่สามารถนำเข้าได้ นโยบายความปลอดภัยขององค์กรของคุณอาจจำกัดการนำเข้ารายการจาก Multipass ไปยังแอปอื่น</string>
+    <string name="you_dont_have_any_accounts_you_can_import_from">คุณไม่มีบัญชีที่สามารถนำเข้าได้ นโยบายความปลอดภัยขององค์กรของคุณอาจจำกัดการนำเข้ารายการจาก Bitwarden ไปยังแอปอื่น</string>
     <string name="import_restricted_unable_to_import_credit_cards">การนำเข้าถูกจำกัด ไม่สามารถนำเข้าบัตรจากบัญชีนี้ได้</string>
     <string name="verify_your_master_password">ยืนยันรหัสผ่านหลักของคุณ</string>
     <string name="having_trouble_with_autofill">มีปัญหากับการป้อนอัตโนมัติใช่ไหม</string>
     <string name="access_help_and_troubleshooting_documentation_here">เข้าถึงคู่มือความช่วยเหลือและการแก้ไขปัญหาที่นี่</string>
-    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">นำเข้ารหัสผ่าน พาสคีย์ และรายการประเภทอื่นจากตู้นิรภัย Multipass ของคุณ</string>
+    <string name="import_passwords_passkeys_and_other_item_types_from_your_vault">นำเข้ารหัสผ่าน พาสคีย์ และรายการประเภทอื่นจากตู้นิรภัย Bitwarden ของคุณ</string>
     <string name="items_to_import">รายการที่จะนำเข้า</string>
     <string name="exporting_items">กำลังส่งออกรายการ…</string>
     <string name="export_failed">การส่งออกล้มเหลว</string>
@@ -1257,7 +1257,7 @@
     <string name="only_include_the_following_domains_x_please_review_and_try_again">Only include the following domains: %1$s. Please review and try again.</string>
     <string name="enter_at_least_one_valid_email_address_to_share_this_send">โปรดระบุที่อยู่อีเมลที่ถูกต้องอย่างน้อยหนึ่งรายการเพื่อแชร์รายการ Send นี้</string>
     <string name="sync_with_browser">ซิงค์กับบราว์เซอร์</string>
-    <string name="sync_with_browser_description">เมื่อต้องการเชื่อมต่อกับ %1$s ให้ซิงค์เบราว์เซอร์เริ่มต้นกับแอปมือถือ Multipass เมื่อเบราว์เซอร์เปิดขึ้น ให้เข้าสู่ระบบให้เสร็จสิ้นหากได้รับแจ้ง\nเมื่อซิงค์เสร็จแล้ว ระบบจะพากลับมาที่แอปนี้</string>
+    <string name="sync_with_browser_description">เมื่อต้องการเชื่อมต่อกับ %1$s ให้ซิงค์เบราว์เซอร์เริ่มต้นกับแอปมือถือ Bitwarden เมื่อเบราว์เซอร์เปิดขึ้น ให้เข้าสู่ระบบให้เสร็จสิ้นหากได้รับแจ้ง\nเมื่อซิงค์เสร็จแล้ว ระบบจะพากลับมาที่แอปนี้</string>
     <string name="launch_browser">เปิดบราว์เซอร์</string>
     <string name="continue_without_syncing">ดำเนินการต่อโดยไม่ซิงค์</string>
     <string name="external_link">ลิงก์ภายนอก</string>
@@ -1283,7 +1283,7 @@
     <string name="trusted">เชื่อถือได้</string>
     <string name="preview_not_available_for_files">ไม่สามารถแสดงตัวอย่างสำหรับไฟล์ %1$s ได้ คุณยังสามารถดาวน์โหลดเพื่อดูบนอุปกรณ์ของคุณ</string>
     <string name="this_file_is_too_large_to_preview">ไฟล์นี้มีขนาดใหญ่เกินไปที่จะแสดงตัวอย่าง คุณยังสามารถดาวน์โหลดเพื่อดูบนอุปกรณ์ของคุณ</string>
-    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Multipass ไม่สามารถถอดรหัสไฟล์นี้ได้ จึงไม่สามารถแสดงตัวอย่างได้</string>
+    <string name="bitwarden_could_not_decrypt_this_file_so_the_preview_cannot_be_displayed">Bitwarden ไม่สามารถถอดรหัสไฟล์นี้ได้ จึงไม่สามารถแสดงตัวอย่างได้</string>
     <string name="preview_unavailable_for_this_file">ไม่สามารถแสดงตัวอย่างสำหรับไฟล์นี้ คุณยังสามารถดาวน์โหลดเพื่อดูบนอุปกรณ์ของคุณ</string>
     <string name="preview_unavailable">ไม่สามารถแสดงตัวอย่าง</string>
     <string name="download_attachment">ดาวน์โหลดไฟล์แนบ</string>
@@ -1325,7 +1325,7 @@
     <string name="billing_rate_per_year">%1$s / ปี</string>
     <string name="billing_rate_per_month">%1$s / เดือน</string>
     <string name="manage_plan">จัดการแผน</string>
-    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">จัดการแผนการสมัครสมาชิกของคุณในเว็บแอป Multipass</string>
+    <string name="manage_your_subscription_plan_in_the_bitwarden_web_app">จัดการแผนการสมัครสมาชิกของคุณในเว็บแอป Bitwarden</string>
     <string name="cancel_premium">ยกเลิกพรีเมียม</string>
     <string name="subscription_status_active">ใช้งานอยู่</string>
     <string name="subscription_status_canceled">ยกเลิกแล้ว</string>
@@ -1415,8 +1415,8 @@
     <string name="local_network_access_required">ต้องมีการเข้าถึงเครือข่ายท้องถิ่น</string>
     <string name="ask_again_later">ถามอีกครั้งทีหลัง</string>
     <string name="enable_local_network_access">เปิดใช้งานการเข้าถึงเครือข่ายท้องถิ่น</string>
-    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Multipass ต้องการการเข้าถึงเครือข่ายท้องถิ่นเพื่อซิงค์กับเซิร์ฟเวอร์ของคุณ หากไม่มีสิทธิ์นี้ แอปจะไม่สามารถเชื่อมต่อได้</string>
-    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">หากไม่มีสิทธิ์นี้ Multipass จะไม่สามารถเชื่อมต่อและซิงค์กับเซิร์ฟเวอร์ของคุณได้ คุณสามารถเปิดใช้งานได้ในการตั้งค่าอุปกรณ์ของคุณ</string>
+    <string name="bitwarden_needs_local_network_access_to_sync_with_your_server">Bitwarden ต้องการการเข้าถึงเครือข่ายท้องถิ่นเพื่อซิงค์กับเซิร์ฟเวอร์ของคุณ หากไม่มีสิทธิ์นี้ แอปจะไม่สามารถเชื่อมต่อได้</string>
+    <string name="without_this_permission_bitwarden_wont_be_able_to_sync_with_your_server">หากไม่มีสิทธิ์นี้ Bitwarden จะไม่สามารถเชื่อมต่อและซิงค์กับเซิร์ฟเวอร์ของคุณได้ คุณสามารถเปิดใช้งานได้ในการตั้งค่าอุปกรณ์ของคุณ</string>
     <string name="your_request_was_interrupted_because_the_app_needs_local_network_access">คำขอของคุณถูกขัดจังหวะเนื่องจากแอปต้องการการเข้าถึงเครือข่ายท้องถิ่น คุณสามารถเปิดใช้งานได้ในการตั้งค่าอุปกรณ์ของคุณ</string>
     <string name="continue_to_stripe">ดำเนินการต่อที่ Stripe?</string>
     <string name="youll_be_taken_to_stripe_to_manage_your_subscription_cancellation">คุณจะถูกนำไปที่ Stripe เพื่อจัดการการยกเลิกการสมัครสมาชิกของคุณ</string>
