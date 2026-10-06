@@ -170,6 +170,7 @@ def brand_screens(root, here, edit, fail):
 # iOS SplashCover. The glyph is kikaron/glyph.svg (Kikaron's apps/multipass/icon/
 # icon.svg), drawn at 55% of the splash canvas, stroke in the app colour, a 15% wash.
 SPLASH_COLOUR = '#6B46C1'
+SPLASH_COLOUR_DARK = '#9F7AEA'
 STYLES = 'app/src/main/res/values/styles.xml'
 
 
@@ -194,14 +195,21 @@ def brand_splash(root, here, edit, fail):
            '    android:width="288dp" android:height="288dp"',
            '    android:viewportWidth="%.4f" android:viewportHeight="%.4f">' % (side, side),
            '    <group android:translateX="%.4f" android:translateY="%.4f">' % (off, off)]
-    for d in shapes:
-        filled = d.rstrip().endswith(('Z', 'z'))
-        out.append('        <path android:pathData="%s" android:fillColor="%s" android:fillAlpha="%s" '
-                   'android:strokeColor="%s" android:strokeWidth="1.7" android:strokeLineCap="round" '
-                   'android:strokeLineJoin="round"/>'
-                   % (d, SPLASH_COLOUR if filled else '#00000000', '0.15' if filled else '0', SPLASH_COLOUR))
-    out += ['    </group>', '</vector>', '']
-    (root / 'app/src/main/res/drawable/kikaron_splash_glyph.xml').write_text('\n'.join(out), encoding='utf-8')
+    head = out
+    # light: the app colour with a 15% wash; dark: its lighter shade, 22% (as the
+    # other Kikaron apps' splash-glyph-dark)
+    for folder, colour, wash in (('drawable', SPLASH_COLOUR, '0.15'), ('drawable-night', SPLASH_COLOUR_DARK, '0.22')):
+        out = list(head)
+        for d in shapes:
+            filled = d.rstrip().endswith(('Z', 'z'))
+            out.append('        <path android:pathData="%s" android:fillColor="%s" android:fillAlpha="%s" '
+                       'android:strokeColor="%s" android:strokeWidth="1.7" android:strokeLineCap="round" '
+                       'android:strokeLineJoin="round"/>'
+                       % (d, colour if filled else '#00000000', wash if filled else '0', colour))
+        out += ['    </group>', '</vector>', '']
+        res = root / 'app/src/main/res' / folder
+        res.mkdir(parents=True, exist_ok=True)
+        (res / 'kikaron_splash_glyph.xml').write_text('\n'.join(out), encoding='utf-8')
     for folder, colour in (('values', '#FFFFFFFF'), ('values-night', '#FF1D1A16')):
         res = root / 'app/src/main/res' / folder
         res.mkdir(parents=True, exist_ok=True)
