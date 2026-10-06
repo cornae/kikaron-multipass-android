@@ -71,9 +71,11 @@ class AboutViewModel @Inject constructor(
                 .getStopsLoggingStringForActiveLog(clock = clock),
             copyrightInfo = (
                 "© Bitwarden Inc. 2015-${Year.now(clock).value}\n" +
-                    // KIKARON: the GPL-3.0 notices of this modified version
-                    "Kikaron Multipass is a modified version, by Cornae (2026), of the " +
-                    "Bitwarden Android app. GPL-3.0, without any warranty.\n" +
+                    // KIKARON: the GPL-3.0 notices of this modified version, in the
+                    // wording Bitwarden's trademark guidelines give for it
+                    "Kikaron Multipass was developed using Bitwarden® open source " +
+                    "software. Not affiliated with or endorsed by Bitwarden, Inc.\n" +
+                    "Modified by Cornae (2026). GPL-3.0, without any warranty.\n" +
                     "Source: https://github.com/cornae/kikaron-multipass-android"
                 ).asText(),
         )
