@@ -139,6 +139,12 @@ configure<ApplicationExtension> {
             isDebuggable = false
             isMinifyEnabled = true
             isShrinkResources = true
+            // Kikaron: release builds (side-load APK and Play bundle) carry only 64-bit ARM
+            // native code, like the Kikaron app - no x86, no 32-bit. Debug keeps every ABI.
+            ndk {
+                abiFilters.clear()
+                abiFilters += "arm64-v8a"
+            }
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro",
