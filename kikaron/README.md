@@ -36,6 +36,9 @@ and can be reproduced from an upstream checkout:
 - a start screen of its own ("Log in with Kikaron", single sign-on through
   Kikaron) and a simpler unlock screen
 - Kikaron's launcher icon and splash
+- after the first unlock, an offer to be the phone's password manager (the system's
+  autofill dialog and, on Android 14+, the passkey provider settings), and a
+  "Standaard wachtwoordbeheerder" row in Settings with its state
 - the About screen names this as a modified version and links here
 - release signing from environment variables (`kikaron/build.sh`)
 

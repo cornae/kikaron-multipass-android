@@ -321,3 +321,104 @@ LEARN_ORG_GONE = """        // KIKARON: no bitwarden.com page on organisations
 def brand_about(root, here, edit, fail):
     edit(ABOUT_SCREEN, HELP_AND_PRIVACY, WEB_VAULT_FIRST)
     edit(ABOUT_SCREEN, LEARN_ORG, LEARN_ORG_GONE)
+
+
+# ---- the phone's password manager ------------------------------------------------------
+# "Multipass als wachtwoordbeheerder van uw telefoon gebruiken?" (Daniel, 2026-11-09).
+# After the first unlock the vault offers to make Multipass the phone's autofill service
+# (the system's one-tap dialog) and, on Android 14+, its passkey provider; Settings keeps
+# a "Standaard wachtwoordbeheerder" row with the state and the same steps. The code is
+# ours (kikaron/android/KikaronDefaultManager.kt); the vault and settings screens each
+# get one call.
+DEFAULT_MANAGER_KT = ('app/src/main/kotlin/com/x8bit/bitwarden/ui/platform/feature/kikaron/'
+                      'KikaronDefaultManager.kt')
+VAULT_SCREEN = 'app/src/main/kotlin/com/x8bit/bitwarden/ui/vault/feature/vault/VaultScreen.kt'
+SETTINGS_SCREEN = 'app/src/main/kotlin/com/x8bit/bitwarden/ui/platform/feature/settings/SettingsScreen.kt'
+
+DEFAULT_MANAGER_STRINGS = {
+    'values': {
+        'kikaron_default_manager_title': 'Default password manager',
+        'kikaron_default_manager_ask': "Use Multipass as your phone\\'s password manager?",
+        'kikaron_default_manager_why': 'Multipass then fills in your passwords and passkeys in every app.',
+        'kikaron_default_manager_why_passwords': 'Multipass then fills in your passwords in every app.',
+        'kikaron_default_manager_set_up': 'Set up',
+        'kikaron_default_manager_later': 'Later',
+        'kikaron_default_manager_passkey_title': 'One more step: passkeys',
+        'kikaron_default_manager_passkey_hint': 'Turn on Multipass under Passwords and passkeys.',
+        'kikaron_default_manager_passkey_back': 'Then go back to continue here.',
+        'kikaron_default_manager_open_settings': 'Open settings',
+        'kikaron_default_manager_skip': 'Skip',
+        'kikaron_default_manager_done_title': 'Done',
+        'kikaron_default_manager_done': "Multipass is now your phone\\'s password manager.",
+        'kikaron_default_manager_not_yet_title': 'Not quite yet',
+        'kikaron_default_manager_autofill': 'Filling in passwords',
+        'kikaron_default_manager_passkeys': 'Passkeys',
+        'kikaron_default_manager_on': 'On',
+        'kikaron_default_manager_off': 'Off',
+        'kikaron_default_manager_unsupported': 'Not on this phone',
+        'kikaron_default_manager_retry': 'Try again',
+        'kikaron_default_manager_close': 'Close',
+    },
+    'values-nl-rNL': {
+        'kikaron_default_manager_title': 'Standaard wachtwoordbeheerder',
+        'kikaron_default_manager_ask': 'Multipass als wachtwoordbeheerder van uw telefoon gebruiken?',
+        'kikaron_default_manager_why': 'Dan vult Multipass uw wachtwoorden en passkeys in, in elke app.',
+        'kikaron_default_manager_why_passwords': 'Dan vult Multipass uw wachtwoorden in, in elke app.',
+        'kikaron_default_manager_set_up': 'Instellen',
+        'kikaron_default_manager_later': 'Later',
+        'kikaron_default_manager_passkey_title': 'Nog één stap: passkeys',
+        'kikaron_default_manager_passkey_hint': 'Zet Multipass aan bij Wachtwoorden en passkeys.',
+        'kikaron_default_manager_passkey_back': 'Ga daarna terug om hier verder te gaan.',
+        'kikaron_default_manager_open_settings': 'Instellingen openen',
+        'kikaron_default_manager_skip': 'Overslaan',
+        'kikaron_default_manager_done_title': 'Klaar',
+        'kikaron_default_manager_done': 'Multipass is nu de wachtwoordbeheerder van uw telefoon.',
+        'kikaron_default_manager_not_yet_title': 'Nog niet helemaal',
+        'kikaron_default_manager_autofill': 'Wachtwoorden invullen',
+        'kikaron_default_manager_passkeys': 'Passkeys',
+        'kikaron_default_manager_on': 'Aan',
+        'kikaron_default_manager_off': 'Uit',
+        'kikaron_default_manager_unsupported': 'Niet op deze telefoon',
+        'kikaron_default_manager_retry': 'Opnieuw',
+        'kikaron_default_manager_close': 'Sluiten',
+    },
+}
+
+VAULT_OLD = """    appReviewManager: AppReviewManager = LocalAppReviewManager.current,
+) {
+    val state by viewModel.stateFlow.collectAsStateWithLifecycle()
+"""
+VAULT_NEW = """    appReviewManager: AppReviewManager = LocalAppReviewManager.current,
+) {
+    val state by viewModel.stateFlow.collectAsStateWithLifecycle()
+    // KIKARON: after the first unlock, offer to be the phone's password manager
+    com.x8bit.bitwarden.ui.platform.feature.kikaron.KikaronDefaultManagerPrompt()
+"""
+
+SETTINGS_OLD = """                )
+            }
+            Spacer(modifier = Modifier.height(height = 16.dp))
+            Spacer(modifier = Modifier.navigationBarsPadding())"""
+SETTINGS_NEW = """                )
+            }
+            // KIKARON: the phone's password manager (autofill and passkeys), its state and steps
+            com.x8bit.bitwarden.ui.platform.feature.kikaron.KikaronDefaultManagerSettingsRow()
+            Spacer(modifier = Modifier.height(height = 16.dp))
+            Spacer(modifier = Modifier.navigationBarsPadding())"""
+
+
+def brand_default_manager(root, here, edit, fail):
+    target = root / DEFAULT_MANAGER_KT
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text((here / 'android' / 'KikaronDefaultManager.kt').read_text(encoding='utf-8'),
+                      encoding='utf-8')
+    for folder, strings in DEFAULT_MANAGER_STRINGS.items():
+        out = ['<?xml version="1.0" encoding="utf-8"?>',
+               '<!-- KIKARON: generated by kikaron/brand.py - do not edit -->', '<resources>']
+        out += ['    <string name="%s">%s</string>' % (k, v) for k, v in strings.items()]
+        out += ['</resources>', '']
+        res = root / 'app/src/main/res' / folder
+        res.mkdir(parents=True, exist_ok=True)
+        (res / 'strings_kikaron_default_manager.xml').write_text('\n'.join(out), encoding='utf-8')
+    edit(VAULT_SCREEN, VAULT_OLD, VAULT_NEW)
+    edit(SETTINGS_SCREEN, SETTINGS_OLD, SETTINGS_NEW)

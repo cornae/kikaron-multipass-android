@@ -24,6 +24,8 @@ What it changes
              there (brand_icon_layers), else from kikaron/icon.svg (Kikaron's
              multipass/brand/icon-square.svg): its tile colour as the background,
              its white glyph as a vector foreground and monochrome layer
+  default    after the first unlock, the offer to be the phone's password manager
+             (autofill + passkey provider) and its row in Settings
   signing    a "kikaron" release signing config, read from the environment
              (MULTIPASS_KEYSTORE, MULTIPASS_KEYSTORE_PASSWORD, MULTIPASS_KEY_ALIAS,
              MULTIPASS_KEY_PASSWORD) - the keystore never lives in the repo
@@ -306,6 +308,7 @@ def main():
     screens.brand_splash(ROOT, HERE, edit, fail)
     screens.brand_notices(ROOT, HERE, edit, fail)
     screens.brand_about(ROOT, HERE, edit, fail)
+    screens.brand_default_manager(ROOT, HERE, edit, fail)
     brand_icon()
     # The board's final icon over the glyph's (kikaron/icon/*.png, when there).
     if (HERE / 'icon' / 'fg.png').exists():

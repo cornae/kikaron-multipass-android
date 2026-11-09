@@ -154,6 +154,8 @@ fun SettingsScreen(
                         .fillMaxWidth(),
                 )
             }
+            // KIKARON: the phone's password manager (autofill and passkeys), its state and steps
+            com.x8bit.bitwarden.ui.platform.feature.kikaron.KikaronDefaultManagerSettingsRow()
             Spacer(modifier = Modifier.height(height = 16.dp))
             Spacer(modifier = Modifier.navigationBarsPadding())
         }

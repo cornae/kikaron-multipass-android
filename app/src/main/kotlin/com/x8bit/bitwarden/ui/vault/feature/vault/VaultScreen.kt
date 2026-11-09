@@ -102,6 +102,8 @@ fun VaultScreen(
     appReviewManager: AppReviewManager = LocalAppReviewManager.current,
 ) {
     val state by viewModel.stateFlow.collectAsStateWithLifecycle()
+    // KIKARON: after the first unlock, offer to be the phone's password manager
+    com.x8bit.bitwarden.ui.platform.feature.kikaron.KikaronDefaultManagerPrompt()
     val pullToRefreshState = rememberBitwardenPullToRefreshState(
         isEnabled = state.isPullToRefreshEnabled,
         isRefreshing = state.isRefreshing,
