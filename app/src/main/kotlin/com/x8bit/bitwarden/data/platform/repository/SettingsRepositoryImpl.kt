@@ -465,8 +465,9 @@ class SettingsRepositoryImpl(
             storeVaultTimeout(userId, VaultTimeout.FifteenMinutes)
             storeVaultTimeoutAction(
                 userId = userId,
-                vaultTimeoutAction = if (!hasMasterPassword) {
-                    // Always logout by default when there is no master password
+                // KIKARON: lock, never log out, whenever the vault can be opened again (a
+                // Multipass password, a PIN or a fingerprint): the Kikaron sign-in is done once
+                vaultTimeoutAction = if (!hasMasterPassword && !hasPin && !hasBiometrics) {
                     VaultTimeoutAction.LOGOUT
                 } else {
                     VaultTimeoutAction.LOCK

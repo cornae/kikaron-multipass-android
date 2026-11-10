@@ -26,6 +26,9 @@ What it changes
              its white glyph as a vector foreground and monochrome layer
   default    after the first unlock, the offer to be the phone's password manager
              (autofill + passkey provider) and its row in Settings
+  unlock     after the one Kikaron sign-in a fingerprint opens the vault: one fingerprint
+             at an unlock switches it on, a biometric lockout never logs out, the
+             timeout locks (kikaron/unlock.py)
   signing    a "kikaron" release signing config, read from the environment
              (MULTIPASS_KEYSTORE, MULTIPASS_KEYSTORE_PASSWORD, MULTIPASS_KEY_ALIAS,
              MULTIPASS_KEY_PASSWORD) - the keystore never lives in the repo
@@ -36,6 +39,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import screens  # noqa: E402  (the start and unlock screens)
+import unlock  # noqa: E402  (fingerprint unlock after the one Kikaron sign-in)
 
 ROOT = Path(__file__).resolve().parents[1]
 HERE = Path(__file__).resolve().parent
@@ -309,6 +313,7 @@ def main():
     screens.brand_notices(ROOT, HERE, edit, fail)
     screens.brand_about(ROOT, HERE, edit, fail)
     screens.brand_default_manager(ROOT, HERE, edit, fail)
+    unlock.brand_fingerprint_unlock(ROOT, HERE, edit, fail)
     brand_icon()
     # The board's final icon over the glyph's (kikaron/icon/*.png, when there).
     if (HERE / 'icon' / 'fg.png').exists():

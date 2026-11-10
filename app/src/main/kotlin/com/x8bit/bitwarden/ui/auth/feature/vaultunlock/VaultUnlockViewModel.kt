@@ -61,6 +61,8 @@ class VaultUnlockViewModel @Inject constructor(
     private val bitwardenCredentialManager: BitwardenCredentialManager,
     private val appResumeManager: AppResumeManager,
     private val vaultLockManager: VaultLockManager,
+    // KIKARON: to switch fingerprint unlock on right after an unlock
+    private val settingsRepository: com.x8bit.bitwarden.data.platform.repository.SettingsRepository,
     savedStateHandle: SavedStateHandle,
 ) : BaseViewModel<VaultUnlockState, VaultUnlockEvent, VaultUnlockAction>(
     // We load the state from the savedStateHandle for testing purposes.
@@ -148,6 +150,14 @@ class VaultUnlockViewModel @Inject constructor(
             VaultUnlockAction.BiometricsUnlockClick -> handleBiometricsUnlockClick()
             is VaultUnlockAction.BiometricsUnlockSuccess -> handleBiometricsUnlockSuccess(action)
             VaultUnlockAction.UnlockClick -> handleUnlockClick()
+            // KIKARON: one fingerprint switches fingerprint unlock on
+            is VaultUnlockAction.KikaronFingerprintSupport -> {
+                kikaronFingerprintSupported = action.isSupported
+            }
+
+            is VaultUnlockAction.KikaronFingerprintResult -> {
+                handleKikaronFingerprintResult(action)
+            }
             is VaultUnlockAction.Internal -> handleInternalAction(action)
             VaultUnlockAction.BiometricsNoLongerSupported -> {
                 handleBiometricsNoLongerSupported()
@@ -168,11 +178,10 @@ class VaultUnlockViewModel @Inject constructor(
     }
 
     private fun handleDismissBiometricsNoLongerSupportedDialog() {
+        // KIKARON: never log out - the vault stays locked, opened by password (or PIN)
         mutableStateFlow.update {
-            it.copy(dialog = null)
+            it.copy(dialog = null, isBiometricsValid = false)
         }
-        authRepository.logout(reason = LogoutReason.Biometrics.NoLongerSupported)
-        authRepository.hasPendingAccountAddition = true
     }
 
     private fun handleAddAccountClick() {
@@ -231,7 +240,15 @@ class VaultUnlockViewModel @Inject constructor(
     }
 
     private fun handleBiometricsLockOut() {
-        authRepository.logout(reason = LogoutReason.Biometrics.Lockout)
+        // KIKARON: never log out - say so and leave the vault locked (password or a later try)
+        mutableStateFlow.update {
+            it.copy(
+                dialog = VaultUnlockState.VaultUnlockDialog.Error(
+                    title = BitwardenString.biometrics_failed.asText(),
+                    message = BitwardenString.too_many_failed_biometric_attempts.asText(),
+                ),
+            )
+        }
     }
 
     private fun handleBiometricsUnlockClick() {
@@ -283,20 +300,97 @@ class VaultUnlockViewModel @Inject constructor(
             return
         }
 
-        mutableStateFlow.update { it.copy(dialog = VaultUnlockState.VaultUnlockDialog.Loading) }
-        viewModelScope.launch {
-            val vaultUnlockResult = when (state.vaultUnlockType) {
-                VaultUnlockType.MASTER_PASSWORD -> {
-                    vaultRepo.unlockVaultWithMasterPassword(
-                        state.input,
-                    )
-                }
+        // KIKARON: while fingerprint unlock is off, one fingerprint first switches it on
+        if (kikaronOfferFingerprint(userId = activeUserId)) return
+        kikaronUnlock(
+            activeUserId = activeUserId,
+            input = state.input,
+            fingerprintCipher = kikaronFingerprintCipher
+                ?.takeIf { kikaronFingerprintUserId == activeUserId },
+        )
+    }
 
-                VaultUnlockType.PIN -> {
-                    vaultRepo.unlockVaultWithPin(
-                        state.input,
-                    )
+    // ---- KIKARON: fingerprint unlock after the one Kikaron sign-in ------------------------
+    // (kikaron/unlock.py, kikaron/android/KikaronFingerprintUnlock.kt)
+
+    /** Whether the phone has a strong biometric with a finger enrolled (from the screen). */
+    private var kikaronFingerprintSupported = false
+
+    /** The password typed before the fingerprint prompt, for the unlock that follows it. */
+    private var kikaronPendingInput: String? = null
+
+    /**
+     * An authenticated cipher from a fingerprint, kept when the password turned out wrong so
+     * the next try needs no second fingerprint.
+     */
+    private var kikaronFingerprintCipher: Cipher? = null
+    private var kikaronFingerprintUserId: String? = null
+
+    /**
+     * Asks for one fingerprint before a Multipass-password unlock when fingerprint unlock is
+     * off, or on but no longer valid. Returns whether it asked: the unlock then follows in
+     * [handleKikaronFingerprintResult].
+     */
+    private fun kikaronOfferFingerprint(userId: String): Boolean {
+        if (!kikaronFingerprintSupported) return false
+        if (state.vaultUnlockType != VaultUnlockType.MASTER_PASSWORD) return false
+        if (kikaronFingerprintCipher != null && kikaronFingerprintUserId == userId) return false
+        if (KikaronFingerprintOffer.isDeclined(userId)) return false
+        if (state.isBiometricEnabled && authRepository.isBiometricIntegrityValid(userId)) {
+            return false
+        }
+        val input = state.input
+        if (state.isBiometricEnabled) {
+            // a key that no longer works goes first, with its IV: the new cipher must encrypt
+            authRepository.clearBiometrics(userId = userId)
+        }
+        val cipher = authRepository.createCipherOrNull(userId = userId) ?: return false
+        kikaronPendingInput = input
+        sendEvent(VaultUnlockEvent.KikaronPromptFingerprint(cipher = cipher))
+        return true
+    }
+
+    private fun handleKikaronFingerprintResult(
+        action: VaultUnlockAction.KikaronFingerprintResult,
+    ) {
+        val input = kikaronPendingInput ?: return
+        kikaronPendingInput = null
+        val activeUserId = authRepository.activeUserId ?: return
+        if (action.isDeclined) KikaronFingerprintOffer.decline(userId = activeUserId)
+        kikaronFingerprintCipher = action.cipher
+        kikaronFingerprintUserId = activeUserId.takeIf { action.cipher != null }
+        kikaronUnlock(
+            activeUserId = activeUserId,
+            input = input,
+            fingerprintCipher = action.cipher,
+        )
+    }
+
+    private fun kikaronUnlock(activeUserId: String, input: String, fingerprintCipher: Cipher?) {
+        mutableStateFlow.update { it.copy(dialog = VaultUnlockState.VaultUnlockDialog.Loading) }
+        val vaultUnlockType = state.vaultUnlockType
+        viewModelScope.launch {
+            val unlock: suspend () -> VaultUnlockResult = {
+                val result = when (vaultUnlockType) {
+                    VaultUnlockType.MASTER_PASSWORD -> {
+                        vaultRepo.unlockVaultWithMasterPassword(input)
+                    }
+
+                    VaultUnlockType.PIN -> {
+                        vaultRepo.unlockVaultWithPin(input)
+                    }
                 }
+                if (fingerprintCipher != null && result is VaultUnlockResult.Success) {
+                    kikaronSwitchOnFingerprint(userId = activeUserId, cipher = fingerprintCipher)
+                }
+                result
+            }
+            // With a fingerprint to set up, NonCancellable: the open vault navigates away from
+            // this screen and clears this view model, and the key must still be written.
+            val vaultUnlockResult = if (fingerprintCipher != null) {
+                kotlinx.coroutines.withContext(kotlinx.coroutines.NonCancellable) { unlock() }
+            } else {
+                unlock()
             }
             sendAction(
                 VaultUnlockAction.Internal.ReceiveVaultUnlockResult(
@@ -305,6 +399,27 @@ class VaultUnlockViewModel @Inject constructor(
                     isBiometricLogin = false,
                 ),
             )
+        }
+    }
+
+    private suspend fun kikaronSwitchOnFingerprint(userId: String, cipher: Cipher) {
+        kikaronFingerprintCipher = null
+        kikaronFingerprintUserId = null
+        if (authRepository.activeUserId != userId) return
+        when (val result = settingsRepository.setupBiometricsKey(cipher = cipher)) {
+            is com.x8bit.bitwarden.data.platform.repository.model.BiometricsKeyResult.Error -> {
+                timber.log.Timber.w(result.error, "Kikaron: fingerprint unlock not switched on")
+            }
+
+            com.x8bit.bitwarden.data.platform.repository.model.BiometricsKeyResult.Success -> {
+                // a fingerprint unlock is no use when the vault logs out on its timeout
+                if (settingsRepository.vaultTimeoutAction ==
+                    com.x8bit.bitwarden.data.platform.repository.model.VaultTimeoutAction.LOGOUT
+                ) {
+                    settingsRepository.vaultTimeoutAction =
+                        com.x8bit.bitwarden.data.platform.repository.model.VaultTimeoutAction.LOCK
+                }
+            }
         }
     }
 
@@ -546,6 +661,13 @@ sealed class VaultUnlockEvent {
     data class PromptForBiometrics(val cipher: Cipher) : VaultUnlockEvent(), DeferredBackgroundEvent
 
     /**
+     * KIKARON: asks for the one fingerprint that switches fingerprint unlock on.
+     */
+    data class KikaronPromptFingerprint(
+        val cipher: Cipher,
+    ) : VaultUnlockEvent(), DeferredBackgroundEvent
+
+    /**
      * Completes the get credentials request with an error response.
      */
     data class GetCredentialsError(val message: Text) : VaultUnlockEvent()
@@ -636,6 +758,22 @@ sealed class VaultUnlockAction {
      * The user has clicked the unlock button.
      */
     data object UnlockClick : VaultUnlockAction()
+
+    /**
+     * KIKARON: whether the phone has a strong biometric with a finger enrolled.
+     */
+    data class KikaronFingerprintSupport(
+        val isSupported: Boolean,
+    ) : VaultUnlockAction()
+
+    /**
+     * KIKARON: the answer to the fingerprint prompt: an authenticated [cipher], or null
+     * ([isDeclined] for "Niet nu").
+     */
+    data class KikaronFingerprintResult(
+        val cipher: Cipher?,
+        val isDeclined: Boolean,
+    ) : VaultUnlockAction()
 
     /**
      * Models actions that the [VaultUnlockViewModel] itself might send.

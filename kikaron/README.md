@@ -39,6 +39,9 @@ and can be reproduced from an upstream checkout:
 - after the first unlock, an offer to be the phone's password manager (the system's
   autofill dialog and, on Android 14+, the passkey provider settings), and a
   "Standaard wachtwoordbeheerder" row in Settings with its state
+- fingerprint unlock after the one Kikaron sign-in: an unlock while it is off asks for
+  one fingerprint ("Ontgrendel voortaan met uw vingerafdruk") and switches it on; a
+  biometric lockout never logs out; the session timeout locks rather than logs out
 - the About screen names this as a modified version and links here
 - release signing from environment variables (`kikaron/build.sh`)
 

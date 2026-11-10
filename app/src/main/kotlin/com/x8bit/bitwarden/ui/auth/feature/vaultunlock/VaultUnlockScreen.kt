@@ -91,6 +91,15 @@ fun VaultUnlockScreen(
         LocalCredentialProviderCompletionManager.current,
 ) {
     val state by viewModel.stateFlow.collectAsStateWithLifecycle()
+    // KIKARON: fingerprint unlock is offered on a phone with a strong biometric
+    val kikaronContext = androidx.compose.ui.platform.LocalContext.current
+    LaunchedEffect(Unit) {
+        viewModel.trySendAction(
+            VaultUnlockAction.KikaronFingerprintSupport(
+                isSupported = biometricsManager.isBiometricsSupported,
+            ),
+        )
+    }
     LaunchedEffect(state.requiresBiometricsLogin) {
         if (state.requiresBiometricsLogin && !biometricsManager.isBiometricsSupported) {
             viewModel.trySendAction(VaultUnlockAction.BiometricsNoLongerSupported)
@@ -118,6 +127,21 @@ fun VaultUnlockScreen(
                     onLockOut = onBiometricsLockOut,
                     cipher = event.cipher,
                 )
+            }
+
+            // KIKARON: the one fingerprint that switches fingerprint unlock on
+            is VaultUnlockEvent.KikaronPromptFingerprint -> {
+                promptKikaronFingerprint(
+                    context = kikaronContext,
+                    cipher = event.cipher,
+                ) { cipher, declined ->
+                    viewModel.trySendAction(
+                        VaultUnlockAction.KikaronFingerprintResult(
+                            cipher = cipher,
+                            isDeclined = declined,
+                        ),
+                    )
+                }
             }
 
             is VaultUnlockEvent.Fido2CredentialAssertionError -> {

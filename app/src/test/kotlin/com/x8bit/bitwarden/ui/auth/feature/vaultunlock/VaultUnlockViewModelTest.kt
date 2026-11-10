@@ -1365,6 +1365,8 @@ class VaultUnlockViewModelTest : BaseViewModelTest() {
         specialCircumstanceManager = specialCircumstanceManager,
         appResumeManager = appResumeManager,
         vaultLockManager = lockManager,
+        // KIKARON: fingerprint unlock after a password unlock
+        settingsRepository = mockk(relaxed = true),
     )
 }
 
