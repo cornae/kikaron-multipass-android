@@ -42,6 +42,10 @@ and can be reproduced from an upstream checkout:
 - fingerprint unlock after the one Kikaron sign-in: an unlock while it is off asks for
   one fingerprint ("Ontgrendel voortaan met uw vingerafdruk") and switches it on; a
   biometric lockout never logs out; the session timeout locks rather than logs out
+- no password after the Kikaron sign-in: while there is no working fingerprint key (a
+  fresh install), the vault is opened by approval from another device whose vault is open
+  ("Log in with device", Vaultwarden's /auth-requests), then one fingerprint; the
+  Multipass password or recovery code only behind a small link
 - the About screen names this as a modified version and links here
 - release signing from environment variables (`kikaron/build.sh`)
 

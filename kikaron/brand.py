@@ -28,7 +28,9 @@ What it changes
              (autofill + passkey provider) and its row in Settings
   unlock     after the one Kikaron sign-in a fingerprint opens the vault: one fingerprint
              at an unlock switches it on, a biometric lockout never logs out, the
-             timeout locks (kikaron/unlock.py)
+             timeout locks; with no fingerprint key yet (a fresh install), the vault is
+             opened by approval from another device, the password behind a small link
+             (kikaron/unlock.py)
   signing    a "kikaron" release signing config, read from the environment
              (MULTIPASS_KEYSTORE, MULTIPASS_KEYSTORE_PASSWORD, MULTIPASS_KEY_ALIAS,
              MULTIPASS_KEY_PASSWORD) - the keystore never lives in the repo
@@ -314,6 +316,7 @@ def main():
     screens.brand_about(ROOT, HERE, edit, fail)
     screens.brand_default_manager(ROOT, HERE, edit, fail)
     unlock.brand_fingerprint_unlock(ROOT, HERE, edit, fail)
+    unlock.brand_device_approval(ROOT, HERE, edit, fail)
     brand_icon()
     # The board's final icon over the glyph's (kikaron/icon/*.png, when there).
     if (HERE / 'icon' / 'fg.png').exists():

@@ -251,6 +251,27 @@ fun VaultUnlockScreen(
                 .verticalScroll(rememberScrollState()),
         ) {
             Spacer(modifier = Modifier.height(12.dp))
+            // KIKARON: after the one Kikaron sign-in a fingerprint - or, while there is no
+            // working fingerprint key yet, approval from another device; the Multipass
+            // password only behind a small link (KikaronDeviceApproval.kt)
+            var kikaronUsePassword by rememberSaveable { mutableStateOf(false) }
+            val kikaronMode = kikaronUnlockMode(
+                state = state,
+                isBiometricsSupported = biometricsManager.isBiometricsSupported,
+                usePassword = kikaronUsePassword,
+            )
+            if (kikaronMode == KikaronUnlockMode.FINGERPRINT) {
+                KikaronFingerprintContent(
+                    onUnlock = { viewModel.trySendAction(VaultUnlockAction.BiometricsUnlockClick) },
+                    onUsePassword = { kikaronUsePassword = true },
+                )
+            } else if (kikaronMode == KikaronUnlockMode.DEVICE_APPROVAL) {
+                KikaronDeviceApprovalContent(
+                    email = state.email,
+                    isBiometricsSupported = biometricsManager.isBiometricsSupported,
+                    onUsePassword = { kikaronUsePassword = true },
+                )
+            } else {
             if (!state.hideInput) {
                 // When switching from an unlocked account to a locked account, the
                 // current activity is recreated and therefore the composition takes place
@@ -331,6 +352,8 @@ fun VaultUnlockScreen(
                         .fillMaxWidth(),
                 )
             }
+            }
+            // KIKARON: end of the password part (kikaronMode PASSWORD)
             // KIKARON: the one way out while locked (the menu is gone)
             Spacer(modifier = Modifier.height(8.dp))
             com.bitwarden.ui.platform.components.button.BitwardenTextButton(

@@ -29,10 +29,10 @@ STRINGS = {
 # upstream strings that say something else on our plain screens
 OVERRIDES = {
     'values': {
-        'vault_locked_master_password': 'Enter your Multipass password to open your vault.',
+        'vault_locked_master_password': 'Enter your Multipass password or recovery code to open your vault.',
     },
     'values-nl-rNL': {
-        'vault_locked_master_password': 'Voer uw Multipass-wachtwoord in om uw kluis te openen.',
+        'vault_locked_master_password': 'Voer uw Multipass-wachtwoord of herstelcode in om uw kluis te openen.',
         'unlock': 'Ontgrendel',
     },
 }

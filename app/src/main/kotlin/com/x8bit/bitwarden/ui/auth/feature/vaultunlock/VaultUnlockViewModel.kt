@@ -373,7 +373,13 @@ class VaultUnlockViewModel @Inject constructor(
             val unlock: suspend () -> VaultUnlockResult = {
                 val result = when (vaultUnlockType) {
                     VaultUnlockType.MASTER_PASSWORD -> {
-                        vaultRepo.unlockVaultWithMasterPassword(input)
+                        // KIKARON: a recovery code (the vault's master password) typed loosely
+                        // is tried in its one form first (KikaronDeviceApproval.kt)
+                        kikaronCanonicalRecoveryCode(input)
+                            ?.takeIf { it != input }
+                            ?.let { vaultRepo.unlockVaultWithMasterPassword(it) }
+                            ?.takeIf { it !is VaultUnlockResult.AuthenticationError }
+                            ?: vaultRepo.unlockVaultWithMasterPassword(input)
                     }
 
                     VaultUnlockType.PIN -> {

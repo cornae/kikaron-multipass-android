@@ -10,6 +10,10 @@ that, a fingerprint should be enough to unlock the vault." (Daniel, 2026-11-10)
             unlock screen itself, so passkeys and autofill land back in their flow.
   no logout a biometric lockout, or biometrics this phone no longer supports, leave the
             vault locked (the password field) instead of logging out
+  approval  while there is no working fingerprint key (a fresh install after the Kikaron
+            sign-in), the vault is opened by "Log in with device" from another device whose
+            vault is open, then one fingerprint; the Multipass password (or the recovery
+            code) only behind a small link - kikaron-app-android docs/multipass-one-login.md
   lock      the session timeout locks, never logs out, whenever the vault can be unlocked
             again; switching fingerprint unlock on turns an old "log out" into "lock"
 
@@ -183,7 +187,13 @@ UNLOCK_NEW = """        // KIKARON: while fingerprint unlock is off, one fingerp
             val unlock: suspend () -> VaultUnlockResult = {
                 val result = when (vaultUnlockType) {
                     VaultUnlockType.MASTER_PASSWORD -> {
-                        vaultRepo.unlockVaultWithMasterPassword(input)
+                        // KIKARON: a recovery code (the vault's master password) typed loosely
+                        // is tried in its one form first (KikaronDeviceApproval.kt)
+                        kikaronCanonicalRecoveryCode(input)
+                            ?.takeIf { it != input }
+                            ?.let { vaultRepo.unlockVaultWithMasterPassword(it) }
+                            ?.takeIf { it !is VaultUnlockResult.AuthenticationError }
+                            ?: vaultRepo.unlockVaultWithMasterPassword(input)
                     }
 
                     VaultUnlockType.PIN -> {
@@ -346,3 +356,91 @@ def brand_fingerprint_unlock(root, here, edit, fail):
     if (root / VM_TEST).exists():
         edit(VM_TEST, TEST_OLD, TEST_NEW)
     edit(SETTINGS_REPO, DEFAULTS_OLD, DEFAULTS_NEW)
+
+
+# ---- device approval: no password after the Kikaron sign-in --------------------------------
+APPROVAL_KT = 'app/src/main/kotlin/com/x8bit/bitwarden/ui/auth/feature/vaultunlock/KikaronDeviceApproval.kt'
+
+APPROVAL_STRINGS = {
+    'values': {
+        'kikaron_unlock_fingerprint_message': 'Unlock your vault with your fingerprint.',
+        'kikaron_unlock_fingerprint_button': 'Unlock with fingerprint',
+        'kikaron_use_password': 'Use your Multipass password or recovery code instead',
+        'kikaron_approval_title': 'Approve on another device',
+        'kikaron_approval_message': 'Open Multipass in the Kikaron app, or on another device where your vault is open, and approve this request. Check that the phrase there is the same as this one:',
+        'kikaron_approval_waiting': 'Waiting for approval…',
+        'kikaron_approval_opening': 'Opening your vault…',
+        'kikaron_approval_declined': 'The request was declined.',
+        'kikaron_approval_expired': 'The request has expired.',
+        'kikaron_approval_error': 'The request could not be sent. Check your connection.',
+        'kikaron_approval_failed': 'Your vault could not be opened with this approval.',
+        'kikaron_approval_retry': 'Ask again',
+    },
+    'values-nl-rNL': {
+        'kikaron_unlock_fingerprint_message': 'Ontgrendel uw kluis met uw vingerafdruk.',
+        'kikaron_unlock_fingerprint_button': 'Ontgrendel met vingerafdruk',
+        'kikaron_use_password': 'Toch uw Multipass-wachtwoord of herstelcode gebruiken',
+        'kikaron_approval_title': 'Goedkeuren op een ander apparaat',
+        'kikaron_approval_message': 'Open Multipass in de Kikaron-app, of op een ander apparaat waar uw kluis open is, en keur dit verzoek goed. Controleer dat de woordgroep daar dezelfde is als deze:',
+        'kikaron_approval_waiting': 'Wachten op goedkeuring…',
+        'kikaron_approval_opening': 'Uw kluis wordt geopend…',
+        'kikaron_approval_declined': 'Het verzoek is afgewezen.',
+        'kikaron_approval_expired': 'Het verzoek is verlopen.',
+        'kikaron_approval_error': 'Het verzoek kon niet worden verstuurd. Controleer uw verbinding.',
+        'kikaron_approval_failed': 'Uw kluis kon met deze goedkeuring niet worden geopend.',
+        'kikaron_approval_retry': 'Opnieuw vragen',
+    },
+}
+
+MODES_OLD = """                .verticalScroll(rememberScrollState()),
+        ) {
+            Spacer(modifier = Modifier.height(12.dp))
+            if (!state.hideInput) {
+"""
+MODES_NEW = """                .verticalScroll(rememberScrollState()),
+        ) {
+            Spacer(modifier = Modifier.height(12.dp))
+            // KIKARON: after the one Kikaron sign-in a fingerprint - or, while there is no
+            // working fingerprint key yet, approval from another device; the Multipass
+            // password only behind a small link (KikaronDeviceApproval.kt)
+            var kikaronUsePassword by rememberSaveable { mutableStateOf(false) }
+            val kikaronMode = kikaronUnlockMode(
+                state = state,
+                isBiometricsSupported = biometricsManager.isBiometricsSupported,
+                usePassword = kikaronUsePassword,
+            )
+            if (kikaronMode == KikaronUnlockMode.FINGERPRINT) {
+                KikaronFingerprintContent(
+                    onUnlock = { viewModel.trySendAction(VaultUnlockAction.BiometricsUnlockClick) },
+                    onUsePassword = { kikaronUsePassword = true },
+                )
+            } else if (kikaronMode == KikaronUnlockMode.DEVICE_APPROVAL) {
+                KikaronDeviceApprovalContent(
+                    email = state.email,
+                    isBiometricsSupported = biometricsManager.isBiometricsSupported,
+                    onUsePassword = { kikaronUsePassword = true },
+                )
+            } else {
+            if (!state.hideInput) {
+"""
+MODES_END_OLD = """            // KIKARON: the one way out while locked (the menu is gone)
+"""
+MODES_END_NEW = """            }
+            // KIKARON: end of the password part (kikaronMode PASSWORD)
+            // KIKARON: the one way out while locked (the menu is gone)
+"""
+
+
+def brand_device_approval(root, here, edit, fail):
+    (root / APPROVAL_KT).write_text(
+        (here / 'android' / 'KikaronDeviceApproval.kt').read_text(encoding='utf-8'), encoding='utf-8')
+    for folder, strings in APPROVAL_STRINGS.items():
+        out = ['<?xml version="1.0" encoding="utf-8"?>',
+               '<!-- KIKARON: generated by kikaron/brand.py - do not edit -->', '<resources>']
+        out += ['    <string name="%s">%s</string>' % (k, v) for k, v in strings.items()]
+        out += ['</resources>', '']
+        res = root / 'app/src/main/res' / folder
+        res.mkdir(parents=True, exist_ok=True)
+        (res / 'strings_kikaron_approval.xml').write_text('\n'.join(out), encoding='utf-8')
+    edit(SCREEN, MODES_OLD, MODES_NEW)
+    edit(SCREEN, MODES_END_OLD, MODES_END_NEW)

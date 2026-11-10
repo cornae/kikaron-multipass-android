@@ -375,7 +375,7 @@ Het scannen gebeurt automatisch.</string>
     <string name="thirty_minutes">30 minuten</string>
     <string name="set_pin_description">Stel je PIN-code in voor het ontgrendelen van Multipass. Je PIN-code wordt opnieuw ingesteld als je je ooit volledig afmeldt bij de applicatie.</string>
     <string name="logged_in_as_on">Aangemeld als %1$s op %2$s.</string>
-    <string name="vault_locked_master_password">Voer uw Multipass-wachtwoord in om uw kluis te openen.</string>
+    <string name="vault_locked_master_password">Voer uw Multipass-wachtwoord of herstelcode in om uw kluis te openen.</string>
     <string name="vault_locked_pin">Je kluis is vergrendeld. Voer je PIN-code in om door te gaan.</string>
     <string name="dark">Donker</string>
     <string name="light">Licht</string>
